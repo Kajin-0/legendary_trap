@@ -1,0 +1,45 @@
+# Source archives and local audio
+Suno.zip
+*.zip
+input/audio/*
+!input/audio/.gitkeep
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# Generated intermediates and outputs
+work/*
+!work/.gitkeep
+output/*
+!output/.gitkeep
+
+# Model/runtime caches
+models/
+.cache/
+huggingface/
+torch/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
