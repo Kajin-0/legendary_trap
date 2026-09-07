@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "authoritative_text_policy": "input/lyrics files are ground truth; ASR may estimate timing only",
+  "songs": [
+    {
+      "id": "apple",
+      "audio_source": "AppLE.mp3",
+      "audio_path": "input/audio/apple.mp3",
+      "lyrics_source": "lyrics.apple.txt",
+      "lyrics_path": "input/lyrics/apple.txt"
+    },
+    {
+      "id": "chokehold",
+      "audio_source": "Chokehold¿.mp3",
+      "audio_path": "input/audio/chokehold.mp3",
+      "lyrics_source": "lyrics.chokehold.txt",
+      "lyrics_path": "input/lyrics/chokehold.txt"
+    },
+    {
+      "id": "commin_long_ways",
+      "audio_source": "COMIN LONG WAYS.mp3",
+      "audio_path": "input/audio/commin_long_ways.mp3",
+      "lyrics_source": "lyrics.commin_long_ways.txt",
+      "lyrics_path": "input/lyrics/commin_long_ways.txt"
+    },
+    {
+      "id": "focus",
+      "audio_source": "FOCUS.mp3",
+      "audio_path": "input/audio/focus.mp3",
+      "lyrics_source": "lyrics.focus.txt",
+      "lyrics_path": "input/lyrics/focus.txt"
+    },
+    {
+      "id": "off_the_wave",
+      "audio_source": "Off the Wave.mp3",
+      "audio_path": "input/audio/off_the_wave.mp3",
+      "lyrics_source": "lyrics.off_the_wave.txt",
+      "lyrics_path": "input/lyrics/off_the_wave.txt"
+    },
+    {
+      "id": "slidin",
+      "audio_source": "slidin.mp3",
+      "audio_path": "input/audio/slidin.mp3",
+      "lyrics_source": "lyrics.slidin.txt",
+      "lyrics_path": "input/lyrics/slidin.txt"
+    },
+    {
+      "id": "we_got_chemistry",
+      "audio_source": "we got chemistry.mp3",
+      "audio_path": "input/audio/we_got_chemistry.mp3",
+      "lyrics_source": "lyrics.we_got_chemistry.txt",
+      "lyrics_path": "input/lyrics/we_got_chemistry.txt"
+    },
+    {
+      "id": "you_missed_it",
+      "audio_source": "you missed it.mp3",
+      "audio_path": "input/audio/you_missed_it.mp3",
+      "lyrics_source": "lyrics.you_missed_it.txt",
+      "lyrics_path": "input/lyrics/you_missed_it.txt"
+    }
+  ]
+}
