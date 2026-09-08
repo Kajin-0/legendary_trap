@@ -14,8 +14,20 @@ def make_document(song_id: str, audio: dict, parsed, sections: list[dict], align
         lines = []
         for row in block["rows"]:
             line = row["line"]
-            words = [{"text": w.text, "start": round(w.start, 3), "end": round(w.end, 3),
-                      "confidence": round(w.probability, 4)} for w in row["words"]]
+            evidence = {x["token_index"]: x for x in row.get("word_evidence", [])}
+            words = []
+            for token_index, token in enumerate(line.tokens):
+                item = evidence.get(token_index)
+                if item:
+                    words.append({"text": token, "start": round(item["start"], 3),
+                                  "end": round(item["end"], 3), "confidence": round(item["probability"], 4),
+                                  "timing_source": item["timing_source"], "acoustic_supported": True})
+                else:
+                    span = max(0.04, (row["end"] - row["start"]) / max(1, len(line.tokens)))
+                    start = row["start"] + token_index * span
+                    words.append({"text": token, "start": round(start, 3), "end": round(min(row["end"], start + span), 3),
+                                  "confidence": 0.0, "timing_source": "interpolated" if evidence else "line_estimate",
+                                  "acoustic_supported": False})
             lines.append({"line_id": line.line_id, "source_line": line.source_line,
                           "original_text": line.original_text, "lead_text": line.lead_text,
                           "adlibs": line.adlibs, "start": round(row["start"], 3),

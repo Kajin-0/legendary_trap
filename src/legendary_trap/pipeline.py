@@ -43,6 +43,12 @@ def run(song_id: str, model: str, timeout_seconds: int) -> dict:
     else:
         asr = cached_asr
     sections, diag = build_alignment(parsed, asr, duration)
+    all_rows = [row for block in sections for row in block["rows"]]
+    lead_rows = [row for row in all_rows if row["total_tokens"] > 0]
+    diag.update({"line_acoustic_coverage": sum(row["matched_tokens"] > 0 for row in all_rows) / len(all_rows) if all_rows else 1.0,
+                 "lead_line_acoustic_coverage": sum(row["matched_tokens"] > 0 for row in lead_rows) / len(lead_rows) if lead_rows else 1.0,
+                 "adlib_only_line_count": len(all_rows) - len(lead_rows),
+                 "token_acoustic_coverage": diag["token_alignment_coverage"]})
     asr_runtime = asr.get("runtime_seconds", 0.0) if not cached_asr else 0.0
     diag.update({"audio_duration_seconds": duration, "authoritative_section_count": len(parsed.sections),
                  "authoritative_line_count": len(parsed.lines), "authoritative_token_count": parsed.token_count,

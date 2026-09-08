@@ -115,6 +115,10 @@ def build_alignment(parsed: ParsedLyrics, asr: dict, duration: float) -> tuple[l
                           "temporal_consistency": 0.0, "acoustic_support": 0.0}
         rows.append({"line": line, "start": start, "end": end, "confidence": min(1.0, max(0.0, conf)),
                      "confidence_components": components, "words": found,
+                     "word_evidence": [{"token_index": i - lo, "text": matches[i].text,
+                                        "start": matches[i].start, "end": matches[i].end,
+                                        "probability": matches[i].probability, "timing_source": "asr"}
+                                       for i in range(lo, hi) if i in matches],
                      "matched_tokens": len(found), "total_tokens": len(line.tokens)})
     # Fill missing lines only inside the bounded neighboring evidence window.
     for idx, row in enumerate(rows):

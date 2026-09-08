@@ -1,0 +1,15 @@
+{
+  "name": "focus_small_local_fine",
+  "song_id": "focus",
+  "model": "small.en",
+  "compute_type": "int8",
+  "beam_size": 5,
+  "hinting": false,
+  "fine_alignment": "bounded_onset",
+  "fine_radius": 0.18,
+  "windows": [
+    {"window_id": "opening_weak_cluster", "start": 0.0, "end": 10.50},
+    {"window_id": "chorus_line5", "start": 15.62, "end": 20.50},
+    {"window_id": "outro_weak_cluster", "start": 218.00, "end": 240.024}
+  ]
+}
