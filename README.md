@@ -80,6 +80,19 @@ Then inspect the machine before installing heavy ML dependencies:
 bash scripts/check_environment.sh
 ```
 
+The CPU pilot can be run with the isolated environment after installing the
+package (the repository also includes a local static FFmpeg under `tools/` on
+the reference VPS):
+
+```bash
+.venv/bin/pip install -e '.[dev]'
+PATH="$PWD/tools:$PATH" timeout 15m .venv/bin/python scripts/run_pipeline.py apple
+```
+
+The canonical product is `output/apple/timing.json`; `validation.json`,
+`diagnostics.json`, ASS, SRT, and VTT are generated from it. ASR evidence is
+stored only under `work/apple/asr.json`.
+
 This keeps model/runtime selection separate from repository bootstrap. The correct Whisper/WhisperX/Demucs stack depends on whether the VPS has CUDA, available RAM/VRAM, and a suitable PyTorch runtime.
 
 ## Song IDs

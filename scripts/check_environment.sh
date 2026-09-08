@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -u
 
+PYTHON_BIN="${PYTHON_BIN:-python3}"
+if [ -x "$(pwd)/.venv/bin/python" ] && [ "${PYTHON_BIN}" = "python3" ]; then
+  PYTHON_BIN="$(pwd)/.venv/bin/python"
+fi
+
 printf '%s\n' '=== legendary_trap environment ==='
 printf 'date: '; date -Is 2>/dev/null || date
 printf 'pwd:  '; pwd
@@ -21,8 +26,8 @@ for cmd in python3 pip3 ffmpeg ffprobe git nvidia-smi; do
 done
 
 printf '\n=== versions ===\n'
-python3 --version 2>&1 || true
-pip3 --version 2>&1 || true
+"$PYTHON_BIN" --version 2>&1 || true
+"${PYTHON_BIN%/python}/pip" --version 2>&1 || pip3 --version 2>&1 || true
 ffmpeg -version 2>/dev/null | head -n 1 || true
 git --version 2>&1 || true
 
@@ -45,7 +50,7 @@ else
 fi
 
 printf '\n=== Python ML visibility ===\n'
-python3 - <<'PY'
+"$PYTHON_BIN" - <<'PY'
 import importlib.util
 mods = ["torch", "whisperx", "faster_whisper", "demucs"]
 for mod in mods:

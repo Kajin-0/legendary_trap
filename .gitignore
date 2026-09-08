@@ -19,6 +19,10 @@ output/*
 
 # Model/runtime caches
 models/
+.ffmpeg/
+tools/
+tools/ffmpeg-*/
+tools/ffmpeg-static.tar.xz
 .cache/
 huggingface/
 torch/
@@ -31,6 +35,7 @@ torch/
 .venv/
 venv/
 __pycache__/
+*.egg-info/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
