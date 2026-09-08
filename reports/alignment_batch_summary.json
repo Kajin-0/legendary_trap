@@ -1,0 +1,347 @@
+{
+  "songs": [
+    {
+      "song_id": "slidin",
+      "old_estimated_lines": 40,
+      "new_estimated_lines": 2,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_001_line_002"
+      ],
+      "authoritative_lead_lines": 38,
+      "direct_lead_lines": 38,
+      "direct_lead_line_coverage": 1.0,
+      "direct_tokens": 264,
+      "authoritative_tokens": 323,
+      "direct_token_coverage": 0.8173374613003096,
+      "high_capacity_recovered_lines": 10,
+      "high_capacity_applied_line_ids": [
+        "section_002_line_001",
+        "section_002_line_002",
+        "section_002_line_003",
+        "section_002_line_004",
+        "section_002_line_005",
+        "section_002_line_006",
+        "section_003_line_001",
+        "section_003_line_002",
+        "section_003_line_003",
+        "section_003_line_004"
+      ],
+      "duration_seconds": 87.24,
+      "render_runtime_seconds": 40.737,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "2 low-confidence lines"
+        ],
+        "line_count": 40,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_001_line_002"
+        ],
+        "authoritative_sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f"
+      },
+      "video": "output/slidin/slidin.mp4",
+      "subtitles": [
+        "output/slidin/slidin.ass",
+        "output/slidin/slidin.srt",
+        "output/slidin/slidin.vtt"
+      ],
+      "timing": "output/slidin/render_timing.json"
+    },
+    {
+      "song_id": "you_missed_it",
+      "old_estimated_lines": 57,
+      "new_estimated_lines": 12,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_001_line_002",
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_001_line_005",
+        "section_006_line_010",
+        "section_006_line_011",
+        "section_006_line_012",
+        "section_006_line_013",
+        "section_006_line_014",
+        "section_006_line_015",
+        "section_006_line_016"
+      ],
+      "authoritative_lead_lines": 45,
+      "direct_lead_lines": 45,
+      "direct_lead_line_coverage": 1.0,
+      "direct_tokens": 414,
+      "authoritative_tokens": 455,
+      "direct_token_coverage": 0.9098901098901099,
+      "high_capacity_recovered_lines": 5,
+      "high_capacity_applied_line_ids": [
+        "section_002_line_001",
+        "section_002_line_002",
+        "section_002_line_003",
+        "section_002_line_004",
+        "section_002_line_005"
+      ],
+      "duration_seconds": 169.632,
+      "render_runtime_seconds": 72.925,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "12 low-confidence lines"
+        ],
+        "line_count": 57,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_001_line_002",
+          "section_001_line_003",
+          "section_001_line_004",
+          "section_001_line_005",
+          "section_006_line_010",
+          "section_006_line_011",
+          "section_006_line_012",
+          "section_006_line_013",
+          "section_006_line_014",
+          "section_006_line_015",
+          "section_006_line_016"
+        ],
+        "authoritative_sha256": "7b71f490058b16b3d1120dd4f9afd1d764354d46e7fcaabc5a257dc78d772eba"
+      },
+      "video": "output/you_missed_it/you_missed_it.mp4",
+      "subtitles": [
+        "output/you_missed_it/you_missed_it.ass",
+        "output/you_missed_it/you_missed_it.srt",
+        "output/you_missed_it/you_missed_it.vtt"
+      ],
+      "timing": "output/you_missed_it/render_timing.json"
+    },
+    {
+      "song_id": "we_got_chemistry",
+      "old_estimated_lines": 116,
+      "new_estimated_lines": 20,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_001_line_006",
+        "section_001_line_009",
+        "section_001_line_010",
+        "section_002_line_001",
+        "section_002_line_014",
+        "section_002_line_019",
+        "section_002_line_028",
+        "section_006_line_010",
+        "section_006_line_012",
+        "section_007_line_002",
+        "section_007_line_003",
+        "section_007_line_004",
+        "section_007_line_005",
+        "section_007_line_007",
+        "section_007_line_008",
+        "section_007_line_009",
+        "section_007_line_010"
+      ],
+      "authoritative_lead_lines": 116,
+      "direct_lead_lines": 96,
+      "direct_lead_line_coverage": 0.8275862068965517,
+      "direct_tokens": 473,
+      "authoritative_tokens": 592,
+      "direct_token_coverage": 0.7989864864864865,
+      "high_capacity_recovered_lines": 6,
+      "high_capacity_applied_line_ids": [
+        "section_001_line_002",
+        "section_001_line_004",
+        "section_001_line_005",
+        "section_001_line_006",
+        "section_001_line_007",
+        "section_001_line_008"
+      ],
+      "duration_seconds": 249.24,
+      "render_runtime_seconds": 98.878,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "20 low-confidence lines"
+        ],
+        "line_count": 116,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_001_line_003",
+          "section_001_line_004",
+          "section_001_line_006",
+          "section_001_line_009",
+          "section_001_line_010",
+          "section_002_line_001",
+          "section_002_line_014",
+          "section_002_line_019",
+          "section_002_line_028",
+          "section_006_line_010",
+          "section_006_line_012",
+          "section_007_line_002",
+          "section_007_line_003",
+          "section_007_line_004",
+          "section_007_line_005",
+          "section_007_line_007",
+          "section_007_line_008",
+          "section_007_line_009",
+          "section_007_line_010"
+        ],
+        "authoritative_sha256": "84878ce78a520f176cd752b713ebfdc9c529b4f53d6f79d774ba08da20eda054"
+      },
+      "video": "output/we_got_chemistry/we_got_chemistry.mp4",
+      "subtitles": [
+        "output/we_got_chemistry/we_got_chemistry.ass",
+        "output/we_got_chemistry/we_got_chemistry.srt",
+        "output/we_got_chemistry/we_got_chemistry.vtt"
+      ],
+      "timing": "output/we_got_chemistry/render_timing.json"
+    },
+    {
+      "song_id": "off_the_wave",
+      "old_estimated_lines": 64,
+      "new_estimated_lines": 3,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_001_line_002",
+        "section_001_line_004"
+      ],
+      "authoritative_lead_lines": 64,
+      "direct_lead_lines": 61,
+      "direct_lead_line_coverage": 0.953125,
+      "direct_tokens": 448,
+      "authoritative_tokens": 568,
+      "direct_token_coverage": 0.7887323943661971,
+      "high_capacity_recovered_lines": 0,
+      "high_capacity_applied_line_ids": [],
+      "duration_seconds": 190.44,
+      "render_runtime_seconds": 74.45,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "3 low-confidence lines"
+        ],
+        "line_count": 64,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_001_line_002",
+          "section_001_line_004"
+        ],
+        "authoritative_sha256": "65f58188376c8f615ebceb5d18141e4bf67b80cb14af8caca7f0412126f97308"
+      },
+      "video": "output/off_the_wave/off_the_wave.mp4",
+      "subtitles": [
+        "output/off_the_wave/off_the_wave.ass",
+        "output/off_the_wave/off_the_wave.srt",
+        "output/off_the_wave/off_the_wave.vtt"
+      ],
+      "timing": "output/off_the_wave/render_timing.json"
+    },
+    {
+      "song_id": "commin_long_ways",
+      "old_estimated_lines": 56,
+      "new_estimated_lines": 9,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_002_line_006",
+        "section_003_line_009",
+        "section_005_line_005",
+        "section_006_line_003",
+        "section_007_line_003",
+        "section_007_line_005"
+      ],
+      "authoritative_lead_lines": 50,
+      "direct_lead_lines": 47,
+      "direct_lead_line_coverage": 0.94,
+      "direct_tokens": 367,
+      "authoritative_tokens": 429,
+      "direct_token_coverage": 0.8554778554778555,
+      "high_capacity_recovered_lines": 5,
+      "high_capacity_applied_line_ids": [
+        "section_001_line_004",
+        "section_002_line_001",
+        "section_002_line_002",
+        "section_002_line_003",
+        "section_007_line_004"
+      ],
+      "duration_seconds": 162.84,
+      "render_runtime_seconds": 71.139,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "9 low-confidence lines"
+        ],
+        "line_count": 56,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_001_line_003",
+          "section_001_line_004",
+          "section_002_line_006",
+          "section_003_line_009",
+          "section_005_line_005",
+          "section_006_line_003",
+          "section_007_line_003",
+          "section_007_line_005"
+        ],
+        "authoritative_sha256": "946034177fd378a484f40bbdd217759a5dc04890e3dff81ec23c25791141e647"
+      },
+      "video": "output/commin_long_ways/commin_long_ways.mp4",
+      "subtitles": [
+        "output/commin_long_ways/commin_long_ways.ass",
+        "output/commin_long_ways/commin_long_ways.srt",
+        "output/commin_long_ways/commin_long_ways.vtt"
+      ],
+      "timing": "output/commin_long_ways/render_timing.json"
+    },
+    {
+      "song_id": "chokehold",
+      "old_estimated_lines": 31,
+      "new_estimated_lines": 5,
+      "estimated_line_ids": [
+        "section_001_line_001",
+        "section_002_line_001",
+        "section_002_line_002",
+        "section_006_line_002",
+        "section_006_line_004"
+      ],
+      "authoritative_lead_lines": 30,
+      "direct_lead_lines": 26,
+      "direct_lead_line_coverage": 0.8666666666666667,
+      "direct_tokens": 261,
+      "authoritative_tokens": 303,
+      "direct_token_coverage": 0.8613861386138614,
+      "high_capacity_recovered_lines": 0,
+      "high_capacity_applied_line_ids": [],
+      "duration_seconds": 130.032,
+      "render_runtime_seconds": 51.285,
+      "validation": {
+        "valid": true,
+        "failures": [],
+        "warnings": [
+          "5 low-confidence lines"
+        ],
+        "line_count": 31,
+        "low_confidence_line_ids": [
+          "section_001_line_001",
+          "section_002_line_001",
+          "section_002_line_002",
+          "section_006_line_002",
+          "section_006_line_004"
+        ],
+        "authoritative_sha256": "0f6f3226360fb2fc2956730182f8340df3d3b58b82419650accde110fd17445e"
+      },
+      "video": "output/chokehold/chokehold.mp4",
+      "subtitles": [
+        "output/chokehold/chokehold.ass",
+        "output/chokehold/chokehold.srt",
+        "output/chokehold/chokehold.vtt"
+      ],
+      "timing": "output/chokehold/render_timing.json"
+    }
+  ],
+  "all_valid": true
+}

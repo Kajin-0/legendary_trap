@@ -84,6 +84,17 @@ The seven-song preview QC report is written to
 `reports/visualizer_full/`. Width/height are parameters in the subtitle layer
 so a later vertical profile can be added without changing the timing model.
 
+## Sequential timing refinement
+
+For songs that need more than the economical baseline, the established
+refinement path is deliberately sequential: run `base.en` over one song,
+inspect its weak windows, run the cached `distil-large-v3` model only on those
+bounded windows, fuse accepted evidence without changing lyric text, and then
+render that song. The six-song pass is recorded under
+`reports/<song_id>_alignment/` and summarized in
+`reports/alignment_batch_summary.json`. No prompting or manual timestamps are
+required.
+
 ## VPS bootstrap
 
 Clone the repo into one working directory:

@@ -1,0 +1,41 @@
+{
+  "song_id": "off_the_wave",
+  "old_estimated_lines": 64,
+  "new_estimated_lines": 3,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_004"
+  ],
+  "authoritative_lead_lines": 64,
+  "direct_lead_lines": 61,
+  "direct_lead_line_coverage": 0.953125,
+  "direct_tokens": 448,
+  "authoritative_tokens": 568,
+  "direct_token_coverage": 0.7887323943661971,
+  "high_capacity_recovered_lines": 0,
+  "high_capacity_applied_line_ids": [],
+  "duration_seconds": 190.44,
+  "render_runtime_seconds": 74.45,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "3 low-confidence lines"
+    ],
+    "line_count": 64,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_004"
+    ],
+    "authoritative_sha256": "65f58188376c8f615ebceb5d18141e4bf67b80cb14af8caca7f0412126f97308"
+  },
+  "video": "output/off_the_wave/off_the_wave.mp4",
+  "subtitles": [
+    "output/off_the_wave/off_the_wave.ass",
+    "output/off_the_wave/off_the_wave.srt",
+    "output/off_the_wave/off_the_wave.vtt"
+  ],
+  "timing": "output/off_the_wave/render_timing.json"
+}

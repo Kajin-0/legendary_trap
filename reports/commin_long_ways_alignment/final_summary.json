@@ -1,0 +1,59 @@
+{
+  "song_id": "commin_long_ways",
+  "old_estimated_lines": 56,
+  "new_estimated_lines": 9,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_002_line_006",
+    "section_003_line_009",
+    "section_005_line_005",
+    "section_006_line_003",
+    "section_007_line_003",
+    "section_007_line_005"
+  ],
+  "authoritative_lead_lines": 50,
+  "direct_lead_lines": 47,
+  "direct_lead_line_coverage": 0.94,
+  "direct_tokens": 367,
+  "authoritative_tokens": 429,
+  "direct_token_coverage": 0.8554778554778555,
+  "high_capacity_recovered_lines": 5,
+  "high_capacity_applied_line_ids": [
+    "section_001_line_004",
+    "section_002_line_001",
+    "section_002_line_002",
+    "section_002_line_003",
+    "section_007_line_004"
+  ],
+  "duration_seconds": 162.84,
+  "render_runtime_seconds": 71.139,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "9 low-confidence lines"
+    ],
+    "line_count": 56,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_003",
+      "section_001_line_004",
+      "section_002_line_006",
+      "section_003_line_009",
+      "section_005_line_005",
+      "section_006_line_003",
+      "section_007_line_003",
+      "section_007_line_005"
+    ],
+    "authoritative_sha256": "946034177fd378a484f40bbdd217759a5dc04890e3dff81ec23c25791141e647"
+  },
+  "video": "output/commin_long_ways/commin_long_ways.mp4",
+  "subtitles": [
+    "output/commin_long_ways/commin_long_ways.ass",
+    "output/commin_long_ways/commin_long_ways.srt",
+    "output/commin_long_ways/commin_long_ways.vtt"
+  ],
+  "timing": "output/commin_long_ways/render_timing.json"
+}

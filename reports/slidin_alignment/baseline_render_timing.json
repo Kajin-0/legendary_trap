@@ -1,0 +1,3525 @@
+{
+  "schema_version": "1.0",
+  "song_id": "slidin",
+  "audio": {
+    "path": "source/slidin.mp3",
+    "duration_seconds": 87.24
+  },
+  "alignment": {
+    "method": "deterministic_token_weighted_schedule",
+    "acoustic_evidence": false
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Intro",
+      "start": 0.0,
+      "end": 0.9,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 2,
+          "original_text": "(Slatt Yeah)",
+          "lead_text": "",
+          "adlibs": [
+            "Slatt Yeah"
+          ],
+          "start": 0.0,
+          "end": 0.45,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 0,
+          "words": [],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_001_line_002",
+          "source_line": 3,
+          "original_text": "(Yeah, what)",
+          "lead_text": "",
+          "adlibs": [
+            "Yeah, what"
+          ],
+          "start": 0.45,
+          "end": 0.9,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 0,
+          "words": [],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Chorus",
+      "start": 1.02,
+      "end": 16.257,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 6,
+          "original_text": "I just pulled up in that bitch, you know I’m sliding",
+          "lead_text": "I just pulled up in that bitch, you know I’m sliding",
+          "adlibs": [],
+          "start": 1.02,
+          "end": 3.961,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "i",
+              "start": 1.02,
+              "end": 1.287,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "just",
+              "start": 1.287,
+              "end": 1.555,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pulled",
+              "start": 1.555,
+              "end": 1.822,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 1.822,
+              "end": 2.089,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 2.089,
+              "end": 2.357,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 2.357,
+              "end": 2.624,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 2.624,
+              "end": 2.891,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 2.891,
+              "end": 3.159,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 3.159,
+              "end": 3.426,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 3.426,
+              "end": 3.693,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sliding",
+              "start": 3.693,
+              "end": 3.961,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 7,
+          "original_text": "I’m in the coupe with a demon, he driving",
+          "lead_text": "I’m in the coupe with a demon, he driving",
+          "adlibs": [],
+          "start": 3.961,
+          "end": 6.366,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 3.961,
+              "end": 4.228,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 4.228,
+              "end": 4.495,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 4.495,
+              "end": 4.763,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "coupe",
+              "start": 4.763,
+              "end": 5.03,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 5.03,
+              "end": 5.297,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 5.297,
+              "end": 5.564,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "demon",
+              "start": 5.564,
+              "end": 5.832,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "he",
+              "start": 5.832,
+              "end": 6.099,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "driving",
+              "start": 6.099,
+              "end": 6.366,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 8,
+          "original_text": "Diamonds on my neck you know it's shining",
+          "lead_text": "Diamonds on my neck you know it's shining",
+          "adlibs": [],
+          "start": 6.366,
+          "end": 8.505,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 6.366,
+              "end": 6.634,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 6.634,
+              "end": 6.901,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 6.901,
+              "end": 7.168,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "neck",
+              "start": 7.168,
+              "end": 7.436,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 7.436,
+              "end": 7.703,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 7.703,
+              "end": 7.97,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 7.97,
+              "end": 8.238,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shining",
+              "start": 8.238,
+              "end": 8.505,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 9,
+          "original_text": "Nosebleeds at the show, I’m up in the highest",
+          "lead_text": "Nosebleeds at the show, I’m up in the highest",
+          "adlibs": [],
+          "start": 8.505,
+          "end": 10.911,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "nosebleeds",
+              "start": 8.505,
+              "end": 8.772,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 8.772,
+              "end": 9.04,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 9.04,
+              "end": 9.307,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "show",
+              "start": 9.307,
+              "end": 9.574,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 9.574,
+              "end": 9.842,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 9.842,
+              "end": 10.109,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 10.109,
+              "end": 10.376,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 10.376,
+              "end": 10.644,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "highest",
+              "start": 10.644,
+              "end": 10.911,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_005",
+          "source_line": 10,
+          "original_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "lead_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "adlibs": [],
+          "start": 10.911,
+          "end": 13.317,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "glock",
+              "start": 10.911,
+              "end": 11.178,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 11.178,
+              "end": 11.446,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 11.446,
+              "end": 11.713,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hip",
+              "start": 11.713,
+              "end": 11.98,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 11.98,
+              "end": 12.248,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "tucked",
+              "start": 12.248,
+              "end": 12.515,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 12.515,
+              "end": 12.782,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ain't",
+              "start": 12.782,
+              "end": 13.05,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fighting",
+              "start": 13.05,
+              "end": 13.317,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_006",
+          "source_line": 11,
+          "original_text": "Told that bitch to back up, you know I’m not lying",
+          "lead_text": "Told that bitch to back up, you know I’m not lying",
+          "adlibs": [],
+          "start": 13.317,
+          "end": 16.257,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "told",
+              "start": 13.317,
+              "end": 13.584,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 13.584,
+              "end": 13.852,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 13.852,
+              "end": 14.119,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 14.119,
+              "end": 14.386,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "back",
+              "start": 14.386,
+              "end": 14.653,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 14.653,
+              "end": 14.921,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 14.921,
+              "end": 15.188,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 15.188,
+              "end": 15.455,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 15.455,
+              "end": 15.723,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "not",
+              "start": 15.723,
+              "end": 15.99,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lying",
+              "start": 15.99,
+              "end": 16.257,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Verse 1",
+      "start": 16.377,
+      "end": 57.011,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 14,
+          "original_text": "Yeah, whoa",
+          "lead_text": "Yeah, whoa",
+          "adlibs": [],
+          "start": 16.377,
+          "end": 16.912,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 2,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 16.377,
+              "end": 16.645,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "whoa",
+              "start": 16.645,
+              "end": 16.912,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 15,
+          "original_text": "Jump out the coupe with the bag, yeah",
+          "lead_text": "Jump out the coupe with the bag, yeah",
+          "adlibs": [],
+          "start": 16.912,
+          "end": 19.051,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "jump",
+              "start": 16.912,
+              "end": 17.179,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "out",
+              "start": 17.179,
+              "end": 17.447,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 17.447,
+              "end": 17.714,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "coupe",
+              "start": 17.714,
+              "end": 17.981,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 17.981,
+              "end": 18.249,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 18.249,
+              "end": 18.516,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bag",
+              "start": 18.516,
+              "end": 18.783,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 18.783,
+              "end": 19.051,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 16,
+          "original_text": "Top of the mountain, I’m glad, yeah",
+          "lead_text": "Top of the mountain, I’m glad, yeah",
+          "adlibs": [],
+          "start": 19.051,
+          "end": 20.922,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "top",
+              "start": 19.051,
+              "end": 19.318,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 19.318,
+              "end": 19.585,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 19.585,
+              "end": 19.853,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "mountain",
+              "start": 19.853,
+              "end": 20.12,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 20.12,
+              "end": 20.387,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "glad",
+              "start": 20.387,
+              "end": 20.655,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 20.655,
+              "end": 20.922,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 17,
+          "original_text": "I got the wealth, I got rich",
+          "lead_text": "I got the wealth, I got rich",
+          "adlibs": [],
+          "start": 20.922,
+          "end": 22.793,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "i",
+              "start": 20.922,
+              "end": 21.189,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 21.189,
+              "end": 21.457,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 21.457,
+              "end": 21.724,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "wealth",
+              "start": 21.724,
+              "end": 21.991,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 21.991,
+              "end": 22.259,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 22.259,
+              "end": 22.526,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "rich",
+              "start": 22.526,
+              "end": 22.793,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 18,
+          "original_text": "Upping that glock, I don't miss",
+          "lead_text": "Upping that glock, I don't miss",
+          "adlibs": [],
+          "start": 22.793,
+          "end": 24.397,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "upping",
+              "start": 22.793,
+              "end": 23.06,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 23.06,
+              "end": 23.328,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "glock",
+              "start": 23.328,
+              "end": 23.595,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 23.595,
+              "end": 23.862,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "don't",
+              "start": 23.862,
+              "end": 24.13,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "miss",
+              "start": 24.13,
+              "end": 24.397,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 19,
+          "original_text": "Chrome Hearts the pants and the fit",
+          "lead_text": "Chrome Hearts the pants and the fit",
+          "adlibs": [],
+          "start": 24.397,
+          "end": 26.268,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "chrome",
+              "start": 24.397,
+              "end": 24.664,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hearts",
+              "start": 24.664,
+              "end": 24.932,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 24.932,
+              "end": 25.199,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pants",
+              "start": 25.199,
+              "end": 25.466,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 25.466,
+              "end": 25.734,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 25.734,
+              "end": 26.001,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fit",
+              "start": 26.001,
+              "end": 26.268,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 20,
+          "original_text": "I put the ice on my wrist, yeah",
+          "lead_text": "I put the ice on my wrist, yeah",
+          "adlibs": [],
+          "start": 26.268,
+          "end": 28.407,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "i",
+              "start": 26.268,
+              "end": 26.536,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "put",
+              "start": 26.536,
+              "end": 26.803,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 26.803,
+              "end": 27.07,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ice",
+              "start": 27.07,
+              "end": 27.338,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 27.338,
+              "end": 27.605,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 27.605,
+              "end": 27.872,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "wrist",
+              "start": 27.872,
+              "end": 28.14,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 28.14,
+              "end": 28.407,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 21,
+          "original_text": "I'm in the city with slatt, yeah",
+          "lead_text": "I'm in the city with slatt, yeah",
+          "adlibs": [],
+          "start": 28.407,
+          "end": 30.278,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 28.407,
+              "end": 28.674,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 28.674,
+              "end": 28.942,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 28.942,
+              "end": 29.209,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "city",
+              "start": 29.209,
+              "end": 29.476,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 29.476,
+              "end": 29.744,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "slatt",
+              "start": 29.744,
+              "end": 30.011,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 30.011,
+              "end": 30.278,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_009",
+          "source_line": 22,
+          "original_text": "I caught the drop in the scat, yeah",
+          "lead_text": "I caught the drop in the scat, yeah",
+          "adlibs": [],
+          "start": 30.278,
+          "end": 32.417,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "i",
+              "start": 30.278,
+              "end": 30.546,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "caught",
+              "start": 30.546,
+              "end": 30.813,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 30.813,
+              "end": 31.08,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "drop",
+              "start": 31.08,
+              "end": 31.348,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 31.348,
+              "end": 31.615,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 31.615,
+              "end": 31.882,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "scat",
+              "start": 31.882,
+              "end": 32.149,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 32.149,
+              "end": 32.417,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_010",
+          "source_line": 23,
+          "original_text": "Racks on my lap, where it's at? Yeah",
+          "lead_text": "Racks on my lap, where it's at? Yeah",
+          "adlibs": [],
+          "start": 32.417,
+          "end": 34.555,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "racks",
+              "start": 32.417,
+              "end": 32.684,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 32.684,
+              "end": 32.951,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 32.951,
+              "end": 33.219,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lap",
+              "start": 33.219,
+              "end": 33.486,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "where",
+              "start": 33.486,
+              "end": 33.753,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 33.753,
+              "end": 34.021,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 34.021,
+              "end": 34.288,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 34.288,
+              "end": 34.555,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_011",
+          "source_line": 24,
+          "original_text": "I got them racks, I got stacks, yeah",
+          "lead_text": "I got them racks, I got stacks, yeah",
+          "adlibs": [],
+          "start": 34.555,
+          "end": 36.694,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "i",
+              "start": 34.555,
+              "end": 34.823,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 34.823,
+              "end": 35.09,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "them",
+              "start": 35.09,
+              "end": 35.357,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "racks",
+              "start": 35.357,
+              "end": 35.625,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 35.625,
+              "end": 35.892,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 35.892,
+              "end": 36.159,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "stacks",
+              "start": 36.159,
+              "end": 36.427,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 36.427,
+              "end": 36.694,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_012",
+          "source_line": 25,
+          "original_text": "Run up the M and I'm gone",
+          "lead_text": "Run up the M and I'm gone",
+          "adlibs": [],
+          "start": 36.694,
+          "end": 38.565,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "run",
+              "start": 36.694,
+              "end": 36.961,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 36.961,
+              "end": 37.229,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 37.229,
+              "end": 37.496,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "m",
+              "start": 37.496,
+              "end": 37.763,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 37.763,
+              "end": 38.031,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 38.031,
+              "end": 38.298,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gone",
+              "start": 38.298,
+              "end": 38.565,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_013",
+          "source_line": 26,
+          "original_text": "Yeah, I'm the best, I’m the one",
+          "lead_text": "Yeah, I'm the best, I’m the one",
+          "adlibs": [],
+          "start": 38.565,
+          "end": 40.436,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 38.565,
+              "end": 38.833,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 38.833,
+              "end": 39.1,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 39.1,
+              "end": 39.367,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "best",
+              "start": 39.367,
+              "end": 39.635,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 39.635,
+              "end": 39.902,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 39.902,
+              "end": 40.169,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "one",
+              "start": 40.169,
+              "end": 40.436,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_014",
+          "source_line": 27,
+          "original_text": "Look at the numbers, they run",
+          "lead_text": "Look at the numbers, they run",
+          "adlibs": [],
+          "start": 40.436,
+          "end": 42.04,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "look",
+              "start": 40.436,
+              "end": 40.704,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 40.704,
+              "end": 40.971,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 40.971,
+              "end": 41.238,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "numbers",
+              "start": 41.238,
+              "end": 41.506,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "they",
+              "start": 41.506,
+              "end": 41.773,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "run",
+              "start": 41.773,
+              "end": 42.04,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_015",
+          "source_line": 28,
+          "original_text": "I got a fever, it's hot like the sun",
+          "lead_text": "I got a fever, it's hot like the sun",
+          "adlibs": [],
+          "start": 42.04,
+          "end": 44.446,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i",
+              "start": 42.04,
+              "end": 42.308,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 42.308,
+              "end": 42.575,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 42.575,
+              "end": 42.842,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fever",
+              "start": 42.842,
+              "end": 43.11,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 43.11,
+              "end": 43.377,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hot",
+              "start": 43.377,
+              "end": 43.644,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 43.644,
+              "end": 43.912,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 43.912,
+              "end": 44.179,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sun",
+              "start": 44.179,
+              "end": 44.446,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_016",
+          "source_line": 29,
+          "original_text": "I'm in the Lamb' and I'm shifting up gears",
+          "lead_text": "I'm in the Lamb' and I'm shifting up gears",
+          "adlibs": [],
+          "start": 44.446,
+          "end": 46.852,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 44.446,
+              "end": 44.714,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 44.714,
+              "end": 44.981,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 44.981,
+              "end": 45.248,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lamb",
+              "start": 45.248,
+              "end": 45.516,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 45.516,
+              "end": 45.783,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 45.783,
+              "end": 46.05,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shifting",
+              "start": 46.05,
+              "end": 46.318,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 46.318,
+              "end": 46.585,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gears",
+              "start": 46.585,
+              "end": 46.852,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_017",
+          "source_line": 30,
+          "original_text": "Bitch I'm that guy and they've known it for years",
+          "lead_text": "Bitch I'm that guy and they've known it for years",
+          "adlibs": [],
+          "start": 46.852,
+          "end": 49.525,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "bitch",
+              "start": 46.852,
+              "end": 47.12,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 47.12,
+              "end": 47.387,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 47.387,
+              "end": 47.654,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "guy",
+              "start": 47.654,
+              "end": 47.922,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 47.922,
+              "end": 48.189,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "they've",
+              "start": 48.189,
+              "end": 48.456,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "known",
+              "start": 48.456,
+              "end": 48.724,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 48.724,
+              "end": 48.991,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 48.991,
+              "end": 49.258,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "years",
+              "start": 49.258,
+              "end": 49.525,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_018",
+          "source_line": 31,
+          "original_text": "Diamonds on me, yeah, they shining so clear",
+          "lead_text": "Diamonds on me, yeah, they shining so clear",
+          "adlibs": [],
+          "start": 49.525,
+          "end": 51.664,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 49.525,
+              "end": 49.793,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 49.793,
+              "end": 50.06,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 50.06,
+              "end": 50.327,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 50.327,
+              "end": 50.595,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "they",
+              "start": 50.595,
+              "end": 50.862,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shining",
+              "start": 50.862,
+              "end": 51.129,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "so",
+              "start": 51.129,
+              "end": 51.397,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "clear",
+              "start": 51.397,
+              "end": 51.664,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_019",
+          "source_line": 32,
+          "original_text": "I’m in the stu with the money all year, yuh",
+          "lead_text": "I’m in the stu with the money all year, yuh",
+          "adlibs": [],
+          "start": 51.664,
+          "end": 54.337,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 51.664,
+              "end": 51.931,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 51.931,
+              "end": 52.199,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 52.199,
+              "end": 52.466,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "stu",
+              "start": 52.466,
+              "end": 52.733,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 52.733,
+              "end": 53.001,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 53.001,
+              "end": 53.268,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "money",
+              "start": 53.268,
+              "end": 53.535,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "all",
+              "start": 53.535,
+              "end": 53.803,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "year",
+              "start": 53.803,
+              "end": 54.07,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yuh",
+              "start": 54.07,
+              "end": 54.337,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_020",
+          "source_line": 33,
+          "original_text": "I’m in the stu with the money all year, yuh",
+          "lead_text": "I’m in the stu with the money all year, yuh",
+          "adlibs": [],
+          "start": 54.337,
+          "end": 57.011,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 54.337,
+              "end": 54.605,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 54.605,
+              "end": 54.872,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 54.872,
+              "end": 55.139,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "stu",
+              "start": 55.139,
+              "end": 55.407,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 55.407,
+              "end": 55.674,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 55.674,
+              "end": 55.941,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "money",
+              "start": 55.941,
+              "end": 56.209,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "all",
+              "start": 56.209,
+              "end": 56.476,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "year",
+              "start": 56.476,
+              "end": 56.743,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yuh",
+              "start": 56.743,
+              "end": 57.011,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Chorus",
+      "start": 57.131,
+      "end": 87.24,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 36,
+          "original_text": "I just pulled up in that bitch, you know I’m sliding",
+          "lead_text": "I just pulled up in that bitch, you know I’m sliding",
+          "adlibs": [],
+          "start": 57.131,
+          "end": 60.071,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "i",
+              "start": 57.131,
+              "end": 57.398,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "just",
+              "start": 57.398,
+              "end": 57.665,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pulled",
+              "start": 57.665,
+              "end": 57.932,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 57.932,
+              "end": 58.2,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 58.2,
+              "end": 58.467,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 58.467,
+              "end": 58.734,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 58.734,
+              "end": 59.002,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 59.002,
+              "end": 59.269,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 59.269,
+              "end": 59.536,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 59.536,
+              "end": 59.804,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sliding",
+              "start": 59.804,
+              "end": 60.071,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 37,
+          "original_text": "I’m in the coupe with a demon, he driving",
+          "lead_text": "I’m in the coupe with a demon, he driving",
+          "adlibs": [],
+          "start": 60.071,
+          "end": 62.477,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 60.071,
+              "end": 60.338,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 60.338,
+              "end": 60.606,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 60.606,
+              "end": 60.873,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "coupe",
+              "start": 60.873,
+              "end": 61.14,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 61.14,
+              "end": 61.408,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 61.408,
+              "end": 61.675,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "demon",
+              "start": 61.675,
+              "end": 61.942,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "he",
+              "start": 61.942,
+              "end": 62.21,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "driving",
+              "start": 62.21,
+              "end": 62.477,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 38,
+          "original_text": "Diamonds on my neck you know it's shining",
+          "lead_text": "Diamonds on my neck you know it's shining",
+          "adlibs": [],
+          "start": 62.477,
+          "end": 64.616,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 62.477,
+              "end": 62.744,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 62.744,
+              "end": 63.012,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 63.012,
+              "end": 63.279,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "neck",
+              "start": 63.279,
+              "end": 63.546,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 63.546,
+              "end": 63.814,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 63.814,
+              "end": 64.081,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 64.081,
+              "end": 64.348,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shining",
+              "start": 64.348,
+              "end": 64.616,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 39,
+          "original_text": "Nosebleeds at the show, I’m up in the highest",
+          "lead_text": "Nosebleeds at the show, I’m up in the highest",
+          "adlibs": [],
+          "start": 64.616,
+          "end": 67.021,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "nosebleeds",
+              "start": 64.616,
+              "end": 64.883,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 64.883,
+              "end": 65.15,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 65.15,
+              "end": 65.418,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "show",
+              "start": 65.418,
+              "end": 65.685,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 65.685,
+              "end": 65.952,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 65.952,
+              "end": 66.22,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 66.22,
+              "end": 66.487,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 66.487,
+              "end": 66.754,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "highest",
+              "start": 66.754,
+              "end": 67.021,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 40,
+          "original_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "lead_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "adlibs": [],
+          "start": 67.021,
+          "end": 69.427,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "glock",
+              "start": 67.021,
+              "end": 67.289,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 67.289,
+              "end": 67.556,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 67.556,
+              "end": 67.823,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hip",
+              "start": 67.823,
+              "end": 68.091,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 68.091,
+              "end": 68.358,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "tucked",
+              "start": 68.358,
+              "end": 68.625,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 68.625,
+              "end": 68.893,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ain't",
+              "start": 68.893,
+              "end": 69.16,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fighting",
+              "start": 69.16,
+              "end": 69.427,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 41,
+          "original_text": "Told that bitch to back up, you know I’m not lying",
+          "lead_text": "Told that bitch to back up, you know I’m not lying",
+          "adlibs": [],
+          "start": 69.427,
+          "end": 72.368,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "told",
+              "start": 69.427,
+              "end": 69.695,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 69.695,
+              "end": 69.962,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 69.962,
+              "end": 70.229,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 70.229,
+              "end": 70.497,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "back",
+              "start": 70.497,
+              "end": 70.764,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 70.764,
+              "end": 71.031,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 71.031,
+              "end": 71.299,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 71.299,
+              "end": 71.566,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 71.566,
+              "end": 71.833,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "not",
+              "start": 71.833,
+              "end": 72.101,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lying",
+              "start": 72.101,
+              "end": 72.368,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_007",
+          "source_line": 43,
+          "original_text": "I just pulled up in that bitch, you know I’m sliding",
+          "lead_text": "I just pulled up in that bitch, you know I’m sliding",
+          "adlibs": [],
+          "start": 72.368,
+          "end": 75.308,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "i",
+              "start": 72.368,
+              "end": 72.635,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "just",
+              "start": 72.635,
+              "end": 72.903,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pulled",
+              "start": 72.903,
+              "end": 73.17,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 73.17,
+              "end": 73.437,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 73.437,
+              "end": 73.705,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 73.705,
+              "end": 73.972,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 73.972,
+              "end": 74.239,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 74.239,
+              "end": 74.507,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 74.507,
+              "end": 74.774,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 74.774,
+              "end": 75.041,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sliding",
+              "start": 75.041,
+              "end": 75.308,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_008",
+          "source_line": 44,
+          "original_text": "I’m in the coupe with a demon, he driving",
+          "lead_text": "I’m in the coupe with a demon, he driving",
+          "adlibs": [],
+          "start": 75.308,
+          "end": 77.714,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 75.308,
+              "end": 75.576,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 75.576,
+              "end": 75.843,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 75.843,
+              "end": 76.11,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "coupe",
+              "start": 76.11,
+              "end": 76.378,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 76.378,
+              "end": 76.645,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 76.645,
+              "end": 76.912,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "demon",
+              "start": 76.912,
+              "end": 77.18,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "he",
+              "start": 77.18,
+              "end": 77.447,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "driving",
+              "start": 77.447,
+              "end": 77.714,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_009",
+          "source_line": 45,
+          "original_text": "Diamonds on my neck you know it's shining",
+          "lead_text": "Diamonds on my neck you know it's shining",
+          "adlibs": [],
+          "start": 77.714,
+          "end": 79.853,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 77.714,
+              "end": 77.982,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 77.982,
+              "end": 78.249,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 78.249,
+              "end": 78.516,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "neck",
+              "start": 78.516,
+              "end": 78.784,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 78.784,
+              "end": 79.051,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 79.051,
+              "end": 79.318,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 79.318,
+              "end": 79.586,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shining",
+              "start": 79.586,
+              "end": 79.853,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_010",
+          "source_line": 46,
+          "original_text": "Nosebleeds at the show, I’m up in the highest",
+          "lead_text": "Nosebleeds at the show, I’m up in the highest",
+          "adlibs": [],
+          "start": 79.853,
+          "end": 82.259,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "nosebleeds",
+              "start": 79.853,
+              "end": 80.12,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 80.12,
+              "end": 80.388,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 80.388,
+              "end": 80.655,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "show",
+              "start": 80.655,
+              "end": 80.922,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 80.922,
+              "end": 81.19,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 81.19,
+              "end": 81.457,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 81.457,
+              "end": 81.724,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 81.724,
+              "end": 81.992,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "highest",
+              "start": 81.992,
+              "end": 82.259,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_011",
+          "source_line": 47,
+          "original_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "lead_text": "Glock on my hip it’s tucked, we ain't fighting",
+          "adlibs": [],
+          "start": 82.259,
+          "end": 84.665,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "glock",
+              "start": 82.259,
+              "end": 82.526,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 82.526,
+              "end": 82.794,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 82.794,
+              "end": 83.061,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hip",
+              "start": 83.061,
+              "end": 83.328,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 83.328,
+              "end": 83.596,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "tucked",
+              "start": 83.596,
+              "end": 83.863,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 83.863,
+              "end": 84.13,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ain't",
+              "start": 84.13,
+              "end": 84.397,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fighting",
+              "start": 84.397,
+              "end": 84.665,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_012",
+          "source_line": 48,
+          "original_text": "Told that bitch to back up, you know I’m not lying",
+          "lead_text": "Told that bitch to back up, you know I’m not lying",
+          "adlibs": [],
+          "start": 84.665,
+          "end": 87.24,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "told",
+              "start": 84.665,
+              "end": 84.899,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 84.899,
+              "end": 85.133,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bitch",
+              "start": 85.133,
+              "end": 85.367,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 85.367,
+              "end": 85.601,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "back",
+              "start": 85.601,
+              "end": 85.835,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 85.835,
+              "end": 86.069,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 86.069,
+              "end": 86.304,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 86.304,
+              "end": 86.538,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 86.538,
+              "end": 86.772,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "not",
+              "start": 86.772,
+              "end": 87.006,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lying",
+              "start": 87.006,
+              "end": 87.24,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "timing_policy": "estimated; no acoustic timing available",
+    "authoritative_line_count": 40,
+    "estimated_line_count": 40
+  },
+  "authoritative_lyrics": {
+    "path": "/home/User/legendary_trap/input/lyrics/slidin.txt",
+    "sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f"
+  }
+}

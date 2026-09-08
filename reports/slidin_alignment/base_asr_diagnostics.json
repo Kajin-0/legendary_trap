@@ -1,0 +1,53 @@
+{
+  "song_id": "slidin",
+  "valid": true,
+  "diagnostics": {
+    "asr_token_count": 347,
+    "authoritative_token_count": 323,
+    "token_alignment_coverage": 0.631578947368421,
+    "unresolved_authoritative_tokens": 119,
+    "line_alignment_coverage": 0.875,
+    "line_acoustic_coverage": 0.875,
+    "lead_line_acoustic_coverage": 0.9210526315789473,
+    "adlib_only_line_count": 2,
+    "token_acoustic_coverage": 0.631578947368421,
+    "audio_duration_seconds": 87.24,
+    "authoritative_section_count": 4,
+    "authoritative_line_count": 40,
+    "model": "base.en",
+    "device": "cpu",
+    "stage_runtime_seconds": 39.284,
+    "stage_runtimes_seconds": {
+      "parse": 0.0007,
+      "asr": 37.894,
+      "alignment_and_export": 1.39
+    },
+    "asr_cached": false
+  },
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "5 low-confidence lines"
+    ],
+    "line_count": 40,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_002_line_001",
+      "section_002_line_005",
+      "section_003_line_001"
+    ],
+    "authoritative_sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f"
+  },
+  "artifacts": [
+    "output/slidin/slidin.ass",
+    "output/slidin/slidin.karaoke.ass",
+    "output/slidin/slidin.mp4",
+    "output/slidin/slidin.render_diagnostics.json",
+    "output/slidin/slidin.srt",
+    "output/slidin/slidin.vtt",
+    "output/slidin/timing.json",
+    "output/slidin/validation.json"
+  ]
+}

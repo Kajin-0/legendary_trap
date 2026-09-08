@@ -1,0 +1,1903 @@
+{
+  "recovery": {
+    "song_id": "slidin",
+    "model": "distil-whisper/distil-large-v3-ct2",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "prompting": false,
+    "load_seconds": 4.593609780073166,
+    "runtime_seconds": 25.036560993175954,
+    "groups": [
+      {
+        "group_id": "early_line_001",
+        "window": [
+          3.0,
+          10.5
+        ],
+        "line_ids": [
+          "section_002_line_001",
+          "section_002_line_002"
+        ],
+        "load_seconds": 4.593609780073166,
+        "inference_seconds": 6.029410139191896,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 3.0,
+            "end": 6.24,
+            "text": " Yeah, yeah, yeah.",
+            "avg_logprob": -0.5172120957147508,
+            "no_speech_prob": 0.08729546517133713,
+            "words": [
+              {
+                "text": "Yeah,",
+                "start": 3.0,
+                "end": 3.4,
+                "probability": 0.6482453346252441
+              },
+              {
+                "text": "yeah,",
+                "start": 4.48,
+                "end": 4.68,
+                "probability": 0.9481990337371826
+              },
+              {
+                "text": "yeah.",
+                "start": 6.24,
+                "end": 6.24,
+                "probability": 0.9854682087898254
+              }
+            ]
+          },
+          {
+            "start": 8.56,
+            "end": 8.66,
+            "text": " Yeah.",
+            "avg_logprob": -0.5172120957147508,
+            "no_speech_prob": 0.08729546517133713,
+            "words": [
+              {
+                "text": "Yeah.",
+                "start": 8.56,
+                "end": 8.66,
+                "probability": 0.19345226883888245
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 4,
+        "authoritative_token_count": 20,
+        "matched_tokens": 0,
+        "coverage": 0.0,
+        "unresolved_tokens": 20,
+        "lines": [
+          {
+            "line_id": "section_002_line_001",
+            "authoritative_text": "I just pulled up in that bitch, you know I\u2019m sliding",
+            "lead_text": "I just pulled up in that bitch, you know I\u2019m sliding",
+            "matched_tokens": 0,
+            "total_tokens": 11,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_002_line_002",
+            "authoritative_text": "I\u2019m in the coupe with a demon, he driving",
+            "lead_text": "I\u2019m in the coupe with a demon, he driving",
+            "matched_tokens": 0,
+            "total_tokens": 9,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          }
+        ]
+      },
+      {
+        "group_id": "early_lines_002_004",
+        "window": [
+          9.0,
+          20.5
+        ],
+        "line_ids": [
+          "section_002_line_001",
+          "section_002_line_002",
+          "section_002_line_003",
+          "section_002_line_004"
+        ],
+        "load_seconds": 4.593609780073166,
+        "inference_seconds": 6.293870082125068,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 9.0,
+            "end": 9.54,
+            "text": " Yeah",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "Yeah",
+                "start": 9.0,
+                "end": 9.54,
+                "probability": 0.5661375522613525
+              }
+            ]
+          },
+          {
+            "start": 12.32,
+            "end": 13.6,
+            "text": " I just put up in that bitch",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "I",
+                "start": 12.32,
+                "end": 12.64,
+                "probability": 0.46739691495895386
+              },
+              {
+                "text": "just",
+                "start": 12.64,
+                "end": 12.8,
+                "probability": 0.9298473000526428
+              },
+              {
+                "text": "put",
+                "start": 12.8,
+                "end": 12.94,
+                "probability": 0.934381365776062
+              },
+              {
+                "text": "up",
+                "start": 12.94,
+                "end": 13.12,
+                "probability": 0.9272729158401489
+              },
+              {
+                "text": "in",
+                "start": 13.12,
+                "end": 13.22,
+                "probability": 0.9922582507133484
+              },
+              {
+                "text": "that",
+                "start": 13.22,
+                "end": 13.4,
+                "probability": 0.9821988940238953
+              },
+              {
+                "text": "bitch",
+                "start": 13.4,
+                "end": 13.6,
+                "probability": 0.9757305383682251
+              }
+            ]
+          },
+          {
+            "start": 13.6,
+            "end": 14.46,
+            "text": " You know I'm sliding",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "You",
+                "start": 13.6,
+                "end": 13.94,
+                "probability": 0.5703935027122498
+              },
+              {
+                "text": "know",
+                "start": 13.94,
+                "end": 14.04,
+                "probability": 0.9974984526634216
+              },
+              {
+                "text": "I'm",
+                "start": 14.04,
+                "end": 14.14,
+                "probability": 0.8957465887069702
+              },
+              {
+                "text": "sliding",
+                "start": 14.14,
+                "end": 14.46,
+                "probability": 0.9658001661300659
+              }
+            ]
+          },
+          {
+            "start": 14.46,
+            "end": 15.64,
+            "text": " I'm in the coop with a dimmy",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "I'm",
+                "start": 14.46,
+                "end": 14.76,
+                "probability": 0.9785304963588715
+              },
+              {
+                "text": "in",
+                "start": 14.76,
+                "end": 14.84,
+                "probability": 0.9972986578941345
+              },
+              {
+                "text": "the",
+                "start": 14.84,
+                "end": 15.0,
+                "probability": 0.9105994701385498
+              },
+              {
+                "text": "coop",
+                "start": 15.0,
+                "end": 15.14,
+                "probability": 0.387635737657547
+              },
+              {
+                "text": "with",
+                "start": 15.14,
+                "end": 15.28,
+                "probability": 0.9628061056137085
+              },
+              {
+                "text": "a",
+                "start": 15.28,
+                "end": 15.4,
+                "probability": 0.8816951513290405
+              },
+              {
+                "text": "dimmy",
+                "start": 15.4,
+                "end": 15.64,
+                "probability": 0.3029603660106659
+              }
+            ]
+          },
+          {
+            "start": 15.64,
+            "end": 16.14,
+            "text": " He's driving",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "He's",
+                "start": 15.64,
+                "end": 15.86,
+                "probability": 0.4800242707133293
+              },
+              {
+                "text": "driving",
+                "start": 15.86,
+                "end": 16.14,
+                "probability": 0.9959344863891602
+              }
+            ]
+          },
+          {
+            "start": 16.14,
+            "end": 17.04,
+            "text": " Diamonds on my neck",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "Diamonds",
+                "start": 16.14,
+                "end": 16.62,
+                "probability": 0.5554947555065155
+              },
+              {
+                "text": "on",
+                "start": 16.62,
+                "end": 16.74,
+                "probability": 0.9963843822479248
+              },
+              {
+                "text": "my",
+                "start": 16.74,
+                "end": 16.88,
+                "probability": 0.9991015195846558
+              },
+              {
+                "text": "neck",
+                "start": 16.88,
+                "end": 17.04,
+                "probability": 0.9980183839797974
+              }
+            ]
+          },
+          {
+            "start": 17.04,
+            "end": 17.8,
+            "text": " You know it's shining",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "You",
+                "start": 17.04,
+                "end": 17.16,
+                "probability": 0.24221476912498474
+              },
+              {
+                "text": "know",
+                "start": 17.16,
+                "end": 17.26,
+                "probability": 0.9966022968292236
+              },
+              {
+                "text": "it's",
+                "start": 17.26,
+                "end": 17.46,
+                "probability": 0.9835235774517059
+              },
+              {
+                "text": "shining",
+                "start": 17.46,
+                "end": 17.8,
+                "probability": 0.9392653703689575
+              }
+            ]
+          },
+          {
+            "start": 17.8,
+            "end": 18.78,
+            "text": " Nosebleeds at the show",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "Nosebleeds",
+                "start": 17.8,
+                "end": 18.3,
+                "probability": 0.5670092105865479
+              },
+              {
+                "text": "at",
+                "start": 18.3,
+                "end": 18.4,
+                "probability": 0.9903807044029236
+              },
+              {
+                "text": "the",
+                "start": 18.4,
+                "end": 18.58,
+                "probability": 0.918816864490509
+              },
+              {
+                "text": "show",
+                "start": 18.58,
+                "end": 18.78,
+                "probability": 0.9985822439193726
+              }
+            ]
+          },
+          {
+            "start": 18.78,
+            "end": 19.8,
+            "text": " I'm up in the highest",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "I'm",
+                "start": 18.78,
+                "end": 19.1,
+                "probability": 0.9750738441944122
+              },
+              {
+                "text": "up",
+                "start": 19.1,
+                "end": 19.2,
+                "probability": 0.998318076133728
+              },
+              {
+                "text": "in",
+                "start": 19.2,
+                "end": 19.28,
+                "probability": 0.9941744208335876
+              },
+              {
+                "text": "the",
+                "start": 19.28,
+                "end": 19.42,
+                "probability": 0.9987666606903076
+              },
+              {
+                "text": "highest",
+                "start": 19.42,
+                "end": 19.8,
+                "probability": 0.9908996820449829
+              }
+            ]
+          },
+          {
+            "start": 19.8,
+            "end": 20.4,
+            "text": " Block on my hip",
+            "avg_logprob": -0.2290026994600688,
+            "no_speech_prob": 0.09445538371801376,
+            "words": [
+              {
+                "text": "Block",
+                "start": 19.8,
+                "end": 20.02,
+                "probability": 0.018657168373465538
+              },
+              {
+                "text": "on",
+                "start": 20.02,
+                "end": 20.12,
+                "probability": 0.4556673467159271
+              },
+              {
+                "text": "my",
+                "start": 20.12,
+                "end": 20.24,
+                "probability": 0.9884267449378967
+              },
+              {
+                "text": "hip",
+                "start": 20.24,
+                "end": 20.4,
+                "probability": 0.8137367367744446
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 42,
+        "authoritative_token_count": 37,
+        "matched_tokens": 36,
+        "coverage": 0.972972972972973,
+        "unresolved_tokens": 1,
+        "lines": [
+          {
+            "line_id": "section_002_line_001",
+            "authoritative_text": "I just pulled up in that bitch, you know I\u2019m sliding",
+            "lead_text": "I just pulled up in that bitch, you know I\u2019m sliding",
+            "matched_tokens": 11,
+            "total_tokens": 11,
+            "coverage": 1.0,
+            "start": 12.32,
+            "end": 14.46,
+            "probability_mean": 0.8762295354496349,
+            "words": [
+              {
+                "text": "i",
+                "start": 12.32,
+                "end": 12.64,
+                "probability": 0.46739691495895386,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "just",
+                "start": 12.64,
+                "end": 12.8,
+                "probability": 0.9298473000526428,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "pulled",
+                "start": 12.8,
+                "end": 12.94,
+                "probability": 0.934381365776062,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "up",
+                "start": 12.94,
+                "end": 13.12,
+                "probability": 0.9272729158401489,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "in",
+                "start": 13.12,
+                "end": 13.22,
+                "probability": 0.9922582507133484,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "that",
+                "start": 13.22,
+                "end": 13.4,
+                "probability": 0.9821988940238953,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "bitch",
+                "start": 13.4,
+                "end": 13.6,
+                "probability": 0.9757305383682251,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "you",
+                "start": 13.6,
+                "end": 13.94,
+                "probability": 0.5703935027122498,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "know",
+                "start": 13.94,
+                "end": 14.04,
+                "probability": 0.9974984526634216,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i'm",
+                "start": 14.04,
+                "end": 14.14,
+                "probability": 0.8957465887069702,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "sliding",
+                "start": 14.14,
+                "end": 14.46,
+                "probability": 0.9658001661300659,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_002",
+            "authoritative_text": "I\u2019m in the coupe with a demon, he driving",
+            "lead_text": "I\u2019m in the coupe with a demon, he driving",
+            "matched_tokens": 8,
+            "total_tokens": 9,
+            "coverage": 0.8888888888888888,
+            "start": 14.46,
+            "end": 16.14,
+            "probability_mean": 0.8243155470117927,
+            "words": [
+              {
+                "text": "i'm",
+                "start": 14.46,
+                "end": 14.76,
+                "probability": 0.9785304963588715,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "in",
+                "start": 14.76,
+                "end": 14.84,
+                "probability": 0.9972986578941345,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 14.84,
+                "end": 15.0,
+                "probability": 0.9105994701385498,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "coupe",
+                "start": 15.0,
+                "end": 15.14,
+                "probability": 0.387635737657547,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "with",
+                "start": 15.14,
+                "end": 15.28,
+                "probability": 0.9628061056137085,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "a",
+                "start": 15.28,
+                "end": 15.4,
+                "probability": 0.8816951513290405,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "he",
+                "start": 15.64,
+                "end": 15.86,
+                "probability": 0.4800242707133293,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "driving",
+                "start": 15.86,
+                "end": 16.14,
+                "probability": 0.9959344863891602,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_003",
+            "authoritative_text": "Diamonds on my neck you know it's shining",
+            "lead_text": "Diamonds on my neck you know it's shining",
+            "matched_tokens": 8,
+            "total_tokens": 8,
+            "coverage": 1.0,
+            "start": 16.14,
+            "end": 17.8,
+            "probability_mean": 0.8388256318867207,
+            "words": [
+              {
+                "text": "diamonds",
+                "start": 16.14,
+                "end": 16.62,
+                "probability": 0.5554947555065155,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "on",
+                "start": 16.62,
+                "end": 16.74,
+                "probability": 0.9963843822479248,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "my",
+                "start": 16.74,
+                "end": 16.88,
+                "probability": 0.9991015195846558,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "neck",
+                "start": 16.88,
+                "end": 17.04,
+                "probability": 0.9980183839797974,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "you",
+                "start": 17.04,
+                "end": 17.16,
+                "probability": 0.24221476912498474,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "know",
+                "start": 17.16,
+                "end": 17.26,
+                "probability": 0.9966022968292236,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "it's",
+                "start": 17.26,
+                "end": 17.46,
+                "probability": 0.9835235774517059,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "shining",
+                "start": 17.46,
+                "end": 17.8,
+                "probability": 0.9392653703689575,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_004",
+            "authoritative_text": "Nosebleeds at the show, I\u2019m up in the highest",
+            "lead_text": "Nosebleeds at the show, I\u2019m up in the highest",
+            "matched_tokens": 9,
+            "total_tokens": 9,
+            "coverage": 1.0,
+            "start": 17.8,
+            "end": 19.8,
+            "probability_mean": 0.9368913008107079,
+            "words": [
+              {
+                "text": "nosebleeds",
+                "start": 17.8,
+                "end": 18.3,
+                "probability": 0.5670092105865479,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "at",
+                "start": 18.3,
+                "end": 18.4,
+                "probability": 0.9903807044029236,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 18.4,
+                "end": 18.58,
+                "probability": 0.918816864490509,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "show",
+                "start": 18.58,
+                "end": 18.78,
+                "probability": 0.9985822439193726,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i'm",
+                "start": 18.78,
+                "end": 19.1,
+                "probability": 0.9750738441944122,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "up",
+                "start": 19.1,
+                "end": 19.2,
+                "probability": 0.998318076133728,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "in",
+                "start": 19.2,
+                "end": 19.28,
+                "probability": 0.9941744208335876,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 19.28,
+                "end": 19.42,
+                "probability": 0.9987666606903076,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "highest",
+                "start": 19.42,
+                "end": 19.8,
+                "probability": 0.9908996820449829,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "early_lines_005_006",
+        "window": [
+          18.5,
+          28.8
+        ],
+        "line_ids": [
+          "section_002_line_005",
+          "section_002_line_006",
+          "section_003_line_001",
+          "section_003_line_002"
+        ],
+        "load_seconds": 4.593609780073166,
+        "inference_seconds": 6.602402179967612,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 18.5,
+            "end": 21.34,
+            "text": " This show I'm up in the highest, glock of my hip-bees, time we're fighting.",
+            "avg_logprob": -0.2704705072300775,
+            "no_speech_prob": 0.10706514120101929,
+            "words": [
+              {
+                "text": "This",
+                "start": 18.5,
+                "end": 18.66,
+                "probability": 0.11782026290893555
+              },
+              {
+                "text": "show",
+                "start": 18.66,
+                "end": 18.82,
+                "probability": 0.9898181557655334
+              },
+              {
+                "text": "I'm",
+                "start": 18.82,
+                "end": 19.1,
+                "probability": 0.8947267234325409
+              },
+              {
+                "text": "up",
+                "start": 19.1,
+                "end": 19.2,
+                "probability": 0.995640754699707
+              },
+              {
+                "text": "in",
+                "start": 19.2,
+                "end": 19.3,
+                "probability": 0.9923624992370605
+              },
+              {
+                "text": "the",
+                "start": 19.3,
+                "end": 19.44,
+                "probability": 0.9960585832595825
+              },
+              {
+                "text": "highest,",
+                "start": 19.44,
+                "end": 19.8,
+                "probability": 0.9327751994132996
+              },
+              {
+                "text": "glock",
+                "start": 19.92,
+                "end": 20.04,
+                "probability": 0.6593247503042221
+              },
+              {
+                "text": "of",
+                "start": 20.04,
+                "end": 20.12,
+                "probability": 0.8789960145950317
+              },
+              {
+                "text": "my",
+                "start": 20.12,
+                "end": 20.26,
+                "probability": 0.9980241060256958
+              },
+              {
+                "text": "hip",
+                "start": 20.26,
+                "end": 20.42,
+                "probability": 0.7999333143234253
+              },
+              {
+                "text": "-bees,",
+                "start": 20.42,
+                "end": 20.66,
+                "probability": 0.5070922076702118
+              },
+              {
+                "text": "time",
+                "start": 20.76,
+                "end": 20.8,
+                "probability": 0.47922536730766296
+              },
+              {
+                "text": "we're",
+                "start": 20.8,
+                "end": 21.02,
+                "probability": 0.8376758396625519
+              },
+              {
+                "text": "fighting.",
+                "start": 21.02,
+                "end": 21.34,
+                "probability": 0.944007158279419
+              }
+            ]
+          },
+          {
+            "start": 21.64,
+            "end": 24.96,
+            "text": " So that bitch they back up, you know, not lying, yeah.",
+            "avg_logprob": -0.2704705072300775,
+            "no_speech_prob": 0.10706514120101929,
+            "words": [
+              {
+                "text": "So",
+                "start": 21.64,
+                "end": 21.72,
+                "probability": 0.9706547260284424
+              },
+              {
+                "text": "that",
+                "start": 21.72,
+                "end": 21.88,
+                "probability": 0.9142443537712097
+              },
+              {
+                "text": "bitch",
+                "start": 21.88,
+                "end": 22.02,
+                "probability": 0.8219813108444214
+              },
+              {
+                "text": "they",
+                "start": 22.02,
+                "end": 22.1,
+                "probability": 0.8248286247253418
+              },
+              {
+                "text": "back",
+                "start": 22.1,
+                "end": 22.32,
+                "probability": 0.9149826765060425
+              },
+              {
+                "text": "up,",
+                "start": 22.32,
+                "end": 22.92,
+                "probability": 0.9988800883293152
+              },
+              {
+                "text": "you",
+                "start": 23.3,
+                "end": 23.44,
+                "probability": 0.977363109588623
+              },
+              {
+                "text": "know,",
+                "start": 23.44,
+                "end": 23.66,
+                "probability": 0.9978293776512146
+              },
+              {
+                "text": "not",
+                "start": 23.86,
+                "end": 23.86,
+                "probability": 0.9843416810035706
+              },
+              {
+                "text": "lying,",
+                "start": 23.86,
+                "end": 24.28,
+                "probability": 0.9321070909500122
+              },
+              {
+                "text": "yeah.",
+                "start": 24.96,
+                "end": 24.96,
+                "probability": 0.9682738780975342
+              }
+            ]
+          },
+          {
+            "start": 25.16,
+            "end": 26.92,
+            "text": " Whoa, jump out there coop in that back, yeah.",
+            "avg_logprob": -0.2704705072300775,
+            "no_speech_prob": 0.10706514120101929,
+            "words": [
+              {
+                "text": "Whoa,",
+                "start": 25.16,
+                "end": 25.32,
+                "probability": 0.8534234762191772
+              },
+              {
+                "text": "jump",
+                "start": 25.56,
+                "end": 25.7,
+                "probability": 0.9729698896408081
+              },
+              {
+                "text": "out",
+                "start": 25.7,
+                "end": 25.78,
+                "probability": 0.9906593561172485
+              },
+              {
+                "text": "there",
+                "start": 25.78,
+                "end": 25.92,
+                "probability": 0.5498050451278687
+              },
+              {
+                "text": "coop",
+                "start": 25.92,
+                "end": 26.1,
+                "probability": 0.4963120222091675
+              },
+              {
+                "text": "in",
+                "start": 26.1,
+                "end": 26.2,
+                "probability": 0.9469895958900452
+              },
+              {
+                "text": "that",
+                "start": 26.2,
+                "end": 26.32,
+                "probability": 0.7337054014205933
+              },
+              {
+                "text": "back,",
+                "start": 26.32,
+                "end": 26.58,
+                "probability": 0.9846144318580627
+              },
+              {
+                "text": "yeah.",
+                "start": 26.8,
+                "end": 26.92,
+                "probability": 0.998599112033844
+              }
+            ]
+          },
+          {
+            "start": 27.16,
+            "end": 28.54,
+            "text": " Top of the mound, I'm glad, yeah.",
+            "avg_logprob": -0.2704705072300775,
+            "no_speech_prob": 0.10706514120101929,
+            "words": [
+              {
+                "text": "Top",
+                "start": 27.16,
+                "end": 27.32,
+                "probability": 0.9959267377853394
+              },
+              {
+                "text": "of",
+                "start": 27.32,
+                "end": 27.42,
+                "probability": 0.9995738863945007
+              },
+              {
+                "text": "the",
+                "start": 27.42,
+                "end": 27.56,
+                "probability": 0.847952127456665
+              },
+              {
+                "text": "mound,",
+                "start": 27.56,
+                "end": 27.72,
+                "probability": 0.47975245118141174
+              },
+              {
+                "text": "I'm",
+                "start": 27.9,
+                "end": 27.94,
+                "probability": 0.9994048774242401
+              },
+              {
+                "text": "glad,",
+                "start": 27.94,
+                "end": 28.16,
+                "probability": 0.9971485733985901
+              },
+              {
+                "text": "yeah.",
+                "start": 28.42,
+                "end": 28.54,
+                "probability": 0.999518871307373
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 42,
+        "authoritative_token_count": 30,
+        "matched_tokens": 23,
+        "coverage": 0.7666666666666667,
+        "unresolved_tokens": 7,
+        "lines": [
+          {
+            "line_id": "section_002_line_005",
+            "authoritative_text": "Glock on my hip it\u2019s tucked, we ain't fighting",
+            "lead_text": "Glock on my hip it\u2019s tucked, we ain't fighting",
+            "matched_tokens": 6,
+            "total_tokens": 9,
+            "coverage": 0.6666666666666666,
+            "start": 19.92,
+            "end": 21.34,
+            "probability_mean": 0.8529935305317243,
+            "words": [
+              {
+                "text": "glock",
+                "start": 19.92,
+                "end": 20.04,
+                "probability": 0.6593247503042221,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "on",
+                "start": 20.04,
+                "end": 20.12,
+                "probability": 0.8789960145950317,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "my",
+                "start": 20.12,
+                "end": 20.26,
+                "probability": 0.9980241060256958,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "hip",
+                "start": 20.26,
+                "end": 20.42,
+                "probability": 0.7999333143234253,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 20.8,
+                "end": 21.02,
+                "probability": 0.8376758396625519,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "fighting",
+                "start": 21.02,
+                "end": 21.34,
+                "probability": 0.944007158279419,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_006",
+            "authoritative_text": "Told that bitch to back up, you know I\u2019m not lying",
+            "lead_text": "Told that bitch to back up, you know I\u2019m not lying",
+            "matched_tokens": 8,
+            "total_tokens": 11,
+            "coverage": 0.7272727272727273,
+            "start": 21.72,
+            "end": 24.28,
+            "probability_mean": 0.9427162110805511,
+            "words": [
+              {
+                "text": "that",
+                "start": 21.72,
+                "end": 21.88,
+                "probability": 0.9142443537712097,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "bitch",
+                "start": 21.88,
+                "end": 22.02,
+                "probability": 0.8219813108444214,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "back",
+                "start": 22.1,
+                "end": 22.32,
+                "probability": 0.9149826765060425,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "up",
+                "start": 22.32,
+                "end": 22.92,
+                "probability": 0.9988800883293152,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "you",
+                "start": 23.3,
+                "end": 23.44,
+                "probability": 0.977363109588623,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "know",
+                "start": 23.44,
+                "end": 23.66,
+                "probability": 0.9978293776512146,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "not",
+                "start": 23.86,
+                "end": 23.86,
+                "probability": 0.9843416810035706,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "lying",
+                "start": 23.86,
+                "end": 24.28,
+                "probability": 0.9321070909500122,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_001",
+            "authoritative_text": "Yeah, whoa",
+            "lead_text": "Yeah, whoa",
+            "matched_tokens": 2,
+            "total_tokens": 2,
+            "coverage": 1.0,
+            "start": 24.96,
+            "end": 25.32,
+            "probability_mean": 0.9108486771583557,
+            "words": [
+              {
+                "text": "yeah",
+                "start": 24.96,
+                "end": 24.96,
+                "probability": 0.9682738780975342,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "whoa",
+                "start": 25.16,
+                "end": 25.32,
+                "probability": 0.8534234762191772,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_002",
+            "authoritative_text": "Jump out the coupe with the bag, yeah",
+            "lead_text": "Jump out the coupe with the bag, yeah",
+            "matched_tokens": 7,
+            "total_tokens": 8,
+            "coverage": 0.875,
+            "start": 25.56,
+            "end": 28.54,
+            "probability_mean": 0.7987032447542463,
+            "words": [
+              {
+                "text": "jump",
+                "start": 25.56,
+                "end": 25.7,
+                "probability": 0.9729698896408081,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "out",
+                "start": 25.7,
+                "end": 25.78,
+                "probability": 0.9906593561172485,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 25.78,
+                "end": 25.92,
+                "probability": 0.5498050451278687,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "coupe",
+                "start": 25.92,
+                "end": 26.1,
+                "probability": 0.4963120222091675,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "with",
+                "start": 26.2,
+                "end": 26.32,
+                "probability": 0.7337054014205933,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 27.42,
+                "end": 27.56,
+                "probability": 0.847952127456665,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "yeah",
+                "start": 28.42,
+                "end": 28.54,
+                "probability": 0.999518871307373,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "early_lines_003_001_005",
+        "window": [
+          24.5,
+          31.0
+        ],
+        "line_ids": [
+          "section_003_line_001",
+          "section_003_line_002",
+          "section_003_line_003",
+          "section_003_line_004",
+          "section_003_line_005"
+        ],
+        "load_seconds": 4.593609780073166,
+        "inference_seconds": 5.94834021711722,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 24.5,
+            "end": 30.98,
+            "text": " Yeah, whoa, talking about the coop in that back, yeah, top of them on I'm glad, yeah, I got the woods like I reach up in that like I",
+            "avg_logprob": -0.327438738101568,
+            "no_speech_prob": 0.11513359844684601,
+            "words": [
+              {
+                "text": "Yeah,",
+                "start": 24.5,
+                "end": 24.92,
+                "probability": 0.8812516331672668
+              },
+              {
+                "text": "whoa,",
+                "start": 25.16,
+                "end": 25.34,
+                "probability": 0.5897712707519531
+              },
+              {
+                "text": "talking",
+                "start": 25.6,
+                "end": 25.66,
+                "probability": 0.3755090832710266
+              },
+              {
+                "text": "about",
+                "start": 25.66,
+                "end": 25.82,
+                "probability": 0.9740782380104065
+              },
+              {
+                "text": "the",
+                "start": 25.82,
+                "end": 25.92,
+                "probability": 0.6318137049674988
+              },
+              {
+                "text": "coop",
+                "start": 25.92,
+                "end": 26.08,
+                "probability": 0.5191782116889954
+              },
+              {
+                "text": "in",
+                "start": 26.08,
+                "end": 26.22,
+                "probability": 0.9611606001853943
+              },
+              {
+                "text": "that",
+                "start": 26.22,
+                "end": 26.36,
+                "probability": 0.9364025592803955
+              },
+              {
+                "text": "back,",
+                "start": 26.36,
+                "end": 26.62,
+                "probability": 0.7677804827690125
+              },
+              {
+                "text": "yeah,",
+                "start": 26.98,
+                "end": 26.98,
+                "probability": 0.9849560856819153
+              },
+              {
+                "text": "top",
+                "start": 27.24,
+                "end": 27.36,
+                "probability": 0.3606163263320923
+              },
+              {
+                "text": "of",
+                "start": 27.36,
+                "end": 27.44,
+                "probability": 0.99896240234375
+              },
+              {
+                "text": "them",
+                "start": 27.44,
+                "end": 27.6,
+                "probability": 0.6617249846458435
+              },
+              {
+                "text": "on",
+                "start": 27.6,
+                "end": 27.78,
+                "probability": 0.3696698248386383
+              },
+              {
+                "text": "I'm",
+                "start": 27.78,
+                "end": 27.94,
+                "probability": 0.9084576368331909
+              },
+              {
+                "text": "glad,",
+                "start": 27.94,
+                "end": 28.2,
+                "probability": 0.9876329898834229
+              },
+              {
+                "text": "yeah,",
+                "start": 28.54,
+                "end": 28.56,
+                "probability": 0.9972618818283081
+              },
+              {
+                "text": "I",
+                "start": 28.84,
+                "end": 28.88,
+                "probability": 0.9991037249565125
+              },
+              {
+                "text": "got",
+                "start": 28.88,
+                "end": 29.04,
+                "probability": 0.9859229326248169
+              },
+              {
+                "text": "the",
+                "start": 29.04,
+                "end": 29.14,
+                "probability": 0.842963695526123
+              },
+              {
+                "text": "woods",
+                "start": 29.14,
+                "end": 29.28,
+                "probability": 0.3106410801410675
+              },
+              {
+                "text": "like",
+                "start": 29.28,
+                "end": 29.46,
+                "probability": 0.9943169951438904
+              },
+              {
+                "text": "I",
+                "start": 29.46,
+                "end": 29.6,
+                "probability": 0.8367072939872742
+              },
+              {
+                "text": "reach",
+                "start": 29.6,
+                "end": 29.88,
+                "probability": 0.5285031795501709
+              },
+              {
+                "text": "up",
+                "start": 29.88,
+                "end": 30.56,
+                "probability": 0.2666292190551758
+              },
+              {
+                "text": "in",
+                "start": 30.56,
+                "end": 30.66,
+                "probability": 0.9964371919631958
+              },
+              {
+                "text": "that",
+                "start": 30.66,
+                "end": 30.78,
+                "probability": 0.9786922335624695
+              },
+              {
+                "text": "like",
+                "start": 30.78,
+                "end": 30.9,
+                "probability": 0.12227647751569748
+              },
+              {
+                "text": "I",
+                "start": 30.9,
+                "end": 30.98,
+                "probability": 0.7166897058486938
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 29,
+        "authoritative_token_count": 30,
+        "matched_tokens": 23,
+        "coverage": 0.7666666666666667,
+        "unresolved_tokens": 7,
+        "lines": [
+          {
+            "line_id": "section_003_line_001",
+            "authoritative_text": "Yeah, whoa",
+            "lead_text": "Yeah, whoa",
+            "matched_tokens": 2,
+            "total_tokens": 2,
+            "coverage": 1.0,
+            "start": 24.5,
+            "end": 25.34,
+            "probability_mean": 0.73551145195961,
+            "words": [
+              {
+                "text": "yeah",
+                "start": 24.5,
+                "end": 24.92,
+                "probability": 0.8812516331672668,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "whoa",
+                "start": 25.16,
+                "end": 25.34,
+                "probability": 0.5897712707519531,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_002",
+            "authoritative_text": "Jump out the coupe with the bag, yeah",
+            "lead_text": "Jump out the coupe with the bag, yeah",
+            "matched_tokens": 6,
+            "total_tokens": 8,
+            "coverage": 0.75,
+            "start": 25.66,
+            "end": 26.98,
+            "probability_mean": 0.8023682137330373,
+            "words": [
+              {
+                "text": "out",
+                "start": 25.66,
+                "end": 25.82,
+                "probability": 0.9740782380104065,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 25.82,
+                "end": 25.92,
+                "probability": 0.6318137049674988,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "coupe",
+                "start": 25.92,
+                "end": 26.08,
+                "probability": 0.5191782116889954,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 26.22,
+                "end": 26.36,
+                "probability": 0.9364025592803955,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "bag",
+                "start": 26.36,
+                "end": 26.62,
+                "probability": 0.7677804827690125,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "yeah",
+                "start": 26.98,
+                "end": 26.98,
+                "probability": 0.9849560856819153,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_003",
+            "authoritative_text": "Top of the mountain, I\u2019m glad, yeah",
+            "lead_text": "Top of the mountain, I\u2019m glad, yeah",
+            "matched_tokens": 6,
+            "total_tokens": 7,
+            "coverage": 0.8571428571428571,
+            "start": 27.24,
+            "end": 28.56,
+            "probability_mean": 0.8191093703111013,
+            "words": [
+              {
+                "text": "top",
+                "start": 27.24,
+                "end": 27.36,
+                "probability": 0.3606163263320923,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "of",
+                "start": 27.36,
+                "end": 27.44,
+                "probability": 0.99896240234375,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 27.44,
+                "end": 27.6,
+                "probability": 0.6617249846458435,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i'm",
+                "start": 27.78,
+                "end": 27.94,
+                "probability": 0.9084576368331909,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "glad",
+                "start": 27.94,
+                "end": 28.2,
+                "probability": 0.9876329898834229,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "yeah",
+                "start": 28.54,
+                "end": 28.56,
+                "probability": 0.9972618818283081,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_004",
+            "authoritative_text": "I got the wealth, I got rich",
+            "lead_text": "I got the wealth, I got rich",
+            "matched_tokens": 5,
+            "total_tokens": 7,
+            "coverage": 0.7142857142857143,
+            "start": 28.84,
+            "end": 29.88,
+            "probability_mean": 0.8386401653289794,
+            "words": [
+              {
+                "text": "i",
+                "start": 28.84,
+                "end": 28.88,
+                "probability": 0.9991037249565125,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "got",
+                "start": 28.88,
+                "end": 29.04,
+                "probability": 0.9859229326248169,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 29.04,
+                "end": 29.14,
+                "probability": 0.842963695526123,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i",
+                "start": 29.46,
+                "end": 29.6,
+                "probability": 0.8367072939872742,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "rich",
+                "start": 29.6,
+                "end": 29.88,
+                "probability": 0.5285031795501709,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_003_line_005",
+            "authoritative_text": "Upping that glock, I don't miss",
+            "lead_text": "Upping that glock, I don't miss",
+            "matched_tokens": 4,
+            "total_tokens": 6,
+            "coverage": 0.6666666666666666,
+            "start": 30.56,
+            "end": 30.98,
+            "probability_mean": 0.7035239022225142,
+            "words": [
+              {
+                "text": "upping",
+                "start": 30.56,
+                "end": 30.66,
+                "probability": 0.9964371919631958,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "that",
+                "start": 30.66,
+                "end": 30.78,
+                "probability": 0.9786922335624695,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "glock",
+                "start": 30.78,
+                "end": 30.9,
+                "probability": 0.12227647751569748,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i",
+                "start": 30.9,
+                "end": 30.98,
+                "probability": 0.7166897058486938,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "line_id": "section_002_line_001",
+      "matched_tokens": 11,
+      "total_tokens": 11,
+      "start": 12.32,
+      "end": 14.46,
+      "probability_mean": 0.8762295354496349
+    },
+    {
+      "line_id": "section_002_line_002",
+      "matched_tokens": 8,
+      "total_tokens": 9,
+      "start": 14.46,
+      "end": 16.14,
+      "probability_mean": 0.8243155470117927
+    },
+    {
+      "line_id": "section_002_line_003",
+      "matched_tokens": 8,
+      "total_tokens": 8,
+      "start": 16.14,
+      "end": 17.8,
+      "probability_mean": 0.8388256318867207
+    },
+    {
+      "line_id": "section_002_line_004",
+      "matched_tokens": 9,
+      "total_tokens": 9,
+      "start": 17.8,
+      "end": 19.8,
+      "probability_mean": 0.9368913008107079
+    },
+    {
+      "line_id": "section_002_line_005",
+      "matched_tokens": 6,
+      "total_tokens": 9,
+      "start": 19.92,
+      "end": 21.34,
+      "probability_mean": 0.8529935305317243
+    },
+    {
+      "line_id": "section_002_line_006",
+      "matched_tokens": 8,
+      "total_tokens": 11,
+      "start": 21.72,
+      "end": 24.28,
+      "probability_mean": 0.9427162110805511
+    },
+    {
+      "line_id": "section_003_line_001",
+      "matched_tokens": 2,
+      "total_tokens": 2,
+      "start": 24.96,
+      "end": 25.32,
+      "probability_mean": 0.9108486771583557
+    },
+    {
+      "line_id": "section_003_line_002",
+      "matched_tokens": 7,
+      "total_tokens": 8,
+      "start": 25.56,
+      "end": 28.54,
+      "probability_mean": 0.7987032447542463
+    },
+    {
+      "line_id": "section_003_line_003",
+      "matched_tokens": 6,
+      "total_tokens": 7,
+      "start": 27.24,
+      "end": 28.56,
+      "probability_mean": 0.8191093703111013
+    },
+    {
+      "line_id": "section_003_line_004",
+      "matched_tokens": 5,
+      "total_tokens": 7,
+      "start": 28.84,
+      "end": 29.88,
+      "probability_mean": 0.8386401653289794
+    }
+  ]
+}

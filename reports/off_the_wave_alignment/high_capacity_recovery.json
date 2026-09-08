@@ -1,0 +1,284 @@
+{
+  "recovery": {
+    "song_id": "off_the_wave",
+    "model": "distil-whisper/distil-large-v3-ct2",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "prompting": false,
+    "load_seconds": 4.368323855102062,
+    "runtime_seconds": 6.250544477254152,
+    "groups": [
+      {
+        "group_id": "intro_passage",
+        "window": [
+          0.0,
+          15.5
+        ],
+        "line_ids": [
+          "section_001_line_001",
+          "section_001_line_002",
+          "section_001_line_003",
+          "section_001_line_004"
+        ],
+        "load_seconds": 4.368323855102062,
+        "inference_seconds": 6.218133096117526,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 3.78,
+            "end": 15.32,
+            "text": " All the way, yeah, I get anything strange, hook, yeah, let's go, I pulled away, yeah, I'm all the meter.",
+            "avg_logprob": -0.3208567657891442,
+            "no_speech_prob": 0.2416142076253891,
+            "words": [
+              {
+                "text": "All",
+                "start": 3.78,
+                "end": 4.34,
+                "probability": 0.2578604519367218
+              },
+              {
+                "text": "the",
+                "start": 4.34,
+                "end": 4.9,
+                "probability": 0.9984365105628967
+              },
+              {
+                "text": "way,",
+                "start": 4.9,
+                "end": 5.08,
+                "probability": 0.9885170459747314
+              },
+              {
+                "text": "yeah,",
+                "start": 5.38,
+                "end": 5.66,
+                "probability": 0.25641369819641113
+              },
+              {
+                "text": "I",
+                "start": 5.66,
+                "end": 5.66,
+                "probability": 0.9296714663505554
+              },
+              {
+                "text": "get",
+                "start": 5.66,
+                "end": 5.86,
+                "probability": 0.13979488611221313
+              },
+              {
+                "text": "anything",
+                "start": 5.86,
+                "end": 6.18,
+                "probability": 0.9567763209342957
+              },
+              {
+                "text": "strange,",
+                "start": 6.18,
+                "end": 6.64,
+                "probability": 0.8978513479232788
+              },
+              {
+                "text": "hook,",
+                "start": 6.78,
+                "end": 7.0,
+                "probability": 0.9519186615943909
+              },
+              {
+                "text": "yeah,",
+                "start": 7.86,
+                "end": 8.2,
+                "probability": 0.9869800806045532
+              },
+              {
+                "text": "let's",
+                "start": 9.5,
+                "end": 11.32,
+                "probability": 0.9952998161315918
+              },
+              {
+                "text": "go,",
+                "start": 11.32,
+                "end": 11.32,
+                "probability": 0.9948928356170654
+              },
+              {
+                "text": "I",
+                "start": 13.82,
+                "end": 13.82,
+                "probability": 0.9378911256790161
+              },
+              {
+                "text": "pulled",
+                "start": 13.82,
+                "end": 14.1,
+                "probability": 0.7072001099586487
+              },
+              {
+                "text": "away,",
+                "start": 14.1,
+                "end": 14.5,
+                "probability": 0.9805167317390442
+              },
+              {
+                "text": "yeah,",
+                "start": 14.72,
+                "end": 14.72,
+                "probability": 0.977575421333313
+              },
+              {
+                "text": "I'm",
+                "start": 14.78,
+                "end": 14.88,
+                "probability": 0.9978713393211365
+              },
+              {
+                "text": "all",
+                "start": 14.88,
+                "end": 14.96,
+                "probability": 0.9908650517463684
+              },
+              {
+                "text": "the",
+                "start": 14.96,
+                "end": 15.16,
+                "probability": 0.8607434034347534
+              },
+              {
+                "text": "meter.",
+                "start": 15.16,
+                "end": 15.32,
+                "probability": 0.9016312956809998
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 20,
+        "authoritative_token_count": 16,
+        "matched_tokens": 8,
+        "coverage": 0.5,
+        "unresolved_tokens": 8,
+        "lines": [
+          {
+            "line_id": "section_001_line_001",
+            "authoritative_text": "Yeah\u2026 huh?",
+            "lead_text": "Yeah\u2026 huh?",
+            "matched_tokens": 0,
+            "total_tokens": 2,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_001_line_002",
+            "authoritative_text": "What? Slatt, slatt",
+            "lead_text": "What? Slatt, slatt",
+            "matched_tokens": 0,
+            "total_tokens": 3,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_001_line_003",
+            "authoritative_text": "Off the wave, I can\u2019t even think straight (huh)",
+            "lead_text": "Off the wave, I can\u2019t even think straight",
+            "matched_tokens": 5,
+            "total_tokens": 8,
+            "coverage": 0.625,
+            "start": 4.34,
+            "end": 6.64,
+            "probability_mean": 0.9542505383491516,
+            "words": [
+              {
+                "text": "the",
+                "start": 4.34,
+                "end": 4.9,
+                "probability": 0.9984365105628967,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "wave",
+                "start": 4.9,
+                "end": 5.08,
+                "probability": 0.9885170459747314,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i",
+                "start": 5.66,
+                "end": 5.66,
+                "probability": 0.9296714663505554,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "think",
+                "start": 5.86,
+                "end": 6.18,
+                "probability": 0.9567763209342957,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "straight",
+                "start": 6.18,
+                "end": 6.64,
+                "probability": 0.8978513479232788,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_001_line_004",
+            "authoritative_text": "Yeah\u2026 let\u2019s go",
+            "lead_text": "Yeah\u2026 let\u2019s go",
+            "matched_tokens": 3,
+            "total_tokens": 3,
+            "coverage": 1.0,
+            "start": 7.86,
+            "end": 11.32,
+            "probability_mean": 0.9923909107844034,
+            "words": [
+              {
+                "text": "yeah",
+                "start": 7.86,
+                "end": 8.2,
+                "probability": 0.9869800806045532,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "let's",
+                "start": 9.5,
+                "end": 11.32,
+                "probability": 0.9952998161315918,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "go",
+                "start": 11.32,
+                "end": 11.32,
+                "probability": 0.9948928356170654,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "accepted": []
+}

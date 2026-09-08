@@ -1,0 +1,50 @@
+{
+  "song_id": "slidin",
+  "old_estimated_lines": 40,
+  "new_estimated_lines": 2,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002"
+  ],
+  "authoritative_lead_lines": 38,
+  "direct_lead_lines": 38,
+  "direct_lead_line_coverage": 1.0,
+  "direct_tokens": 264,
+  "authoritative_tokens": 323,
+  "direct_token_coverage": 0.8173374613003096,
+  "high_capacity_recovered_lines": 10,
+  "high_capacity_applied_line_ids": [
+    "section_002_line_001",
+    "section_002_line_002",
+    "section_002_line_003",
+    "section_002_line_004",
+    "section_002_line_005",
+    "section_002_line_006",
+    "section_003_line_001",
+    "section_003_line_002",
+    "section_003_line_003",
+    "section_003_line_004"
+  ],
+  "duration_seconds": 87.24,
+  "render_runtime_seconds": 40.737,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "2 low-confidence lines"
+    ],
+    "line_count": 40,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002"
+    ],
+    "authoritative_sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f"
+  },
+  "video": "output/slidin/slidin.mp4",
+  "subtitles": [
+    "output/slidin/slidin.ass",
+    "output/slidin/slidin.srt",
+    "output/slidin/slidin.vtt"
+  ],
+  "timing": "output/slidin/render_timing.json"
+}

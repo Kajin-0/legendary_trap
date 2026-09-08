@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "failures": [],
+  "warnings": [
+    "5 low-confidence lines"
+  ],
+  "line_count": 40,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_002_line_001",
+    "section_002_line_005",
+    "section_003_line_001"
+  ],
+  "authoritative_sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f"
+}

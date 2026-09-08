@@ -1,0 +1,4788 @@
+{
+  "schema_version": "1.0",
+  "song_id": "commin_long_ways",
+  "audio": {
+    "path": "input/audio/commin_long_ways.mp3",
+    "duration_seconds": 162.84
+  },
+  "alignment": {
+    "method": "weighted_monotonic_dp",
+    "fine_alignment": "word_timestamp_bounded_windows"
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Intro",
+      "start": 0.0,
+      "end": 4.58,
+      "confidence": 0.4387,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 2,
+          "original_text": "(Yeah, uh)",
+          "lead_text": "",
+          "adlibs": [
+            "Yeah, uh"
+          ],
+          "start": 0.0,
+          "end": 0.25,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 0.0,
+          "acoustic_end": 0.25,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_001_line_002",
+          "source_line": 3,
+          "original_text": "Comin' long ways, long ways",
+          "lead_text": "Comin' long ways, long ways",
+          "adlibs": [],
+          "start": 1.62,
+          "end": 3.82,
+          "confidence": 0.8236,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.6,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8181
+          },
+          "acoustic_start": 1.62,
+          "acoustic_end": 3.82,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "comin",
+              "start": 1.62,
+              "end": 1.96,
+              "confidence": 0.5176,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 3.72,
+              "end": 3.82,
+              "confidence": 0.9639,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 2.5,
+              "end": 2.94,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "long",
+              "start": 3.82,
+              "end": 3.82,
+              "confidence": 0.9729,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 3.38,
+              "end": 3.82,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_003",
+          "source_line": 4,
+          "original_text": "(What? Skrrt)",
+          "lead_text": "",
+          "adlibs": [
+            "What? Skrrt"
+          ],
+          "start": 3.82,
+          "end": 4.07,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 3.82,
+          "acoustic_end": 4.07,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_001_line_004",
+          "source_line": 5,
+          "original_text": "From the dirt, now we up, no debate",
+          "lead_text": "From the dirt, now we up, no debate",
+          "adlibs": [],
+          "start": 4.5,
+          "end": 4.58,
+          "confidence": 0.6913,
+          "matched_tokens": 1,
+          "confidence_components": {
+            "token_coverage": 0.125,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9879
+          },
+          "acoustic_start": 4.5,
+          "acoustic_end": 4.58,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "from",
+              "start": 4.5,
+              "end": 4.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 4.54,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "dirt",
+              "start": 4.5,
+              "end": 4.58,
+              "confidence": 0.9879,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 4.62,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 4.66,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 4.7,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "no",
+              "start": 4.74,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "debate",
+              "start": 4.78,
+              "end": 4.58,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Chorus",
+      "start": 4.94,
+      "end": 34.88,
+      "confidence": 0.7695,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 7,
+          "original_text": "Comin' long ways, yeah, I flipped the script",
+          "lead_text": "Comin' long ways, yeah, I flipped the script",
+          "adlibs": [],
+          "start": 4.94,
+          "end": 5.24,
+          "confidence": 0.7365,
+          "matched_tokens": 2,
+          "confidence_components": {
+            "token_coverage": 0.25,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9952
+          },
+          "acoustic_start": 4.94,
+          "acoustic_end": 5.24,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "comin",
+              "start": 4.94,
+              "end": 5.14,
+              "confidence": 0.9955,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 5.24,
+              "end": 5.24,
+              "confidence": 0.9949,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 5.02,
+              "end": 5.06,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 5.06,
+              "end": 5.1,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 5.1,
+              "end": 5.14,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "flipped",
+              "start": 5.14,
+              "end": 5.18,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 5.18,
+              "end": 5.22,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "script",
+              "start": 5.22,
+              "end": 5.24,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 8,
+          "original_text": "From the trenches to the lights, watch the whole city flip",
+          "lead_text": "From the trenches to the lights, watch the whole city flip",
+          "adlibs": [],
+          "start": 22.3,
+          "end": 22.3,
+          "confidence": 0.6796,
+          "matched_tokens": 1,
+          "confidence_components": {
+            "token_coverage": 0.0909,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9887
+          },
+          "acoustic_start": 22.3,
+          "acoustic_end": 22.3,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "from",
+              "start": 22.3,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 22.34,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trenches",
+              "start": 22.38,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 22.42,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 22.46,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lights",
+              "start": 22.5,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "watch",
+              "start": 22.54,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 22.58,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "whole",
+              "start": 22.62,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "city",
+              "start": 22.3,
+              "end": 22.3,
+              "confidence": 0.9887,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flip",
+              "start": 22.7,
+              "end": 22.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 9,
+          "original_text": "Pockets full of blue faces, stackin' like a brick",
+          "lead_text": "Pockets full of blue faces, stackin' like a brick",
+          "adlibs": [],
+          "start": 24.5,
+          "end": 24.5,
+          "confidence": 0.6859,
+          "matched_tokens": 1,
+          "confidence_components": {
+            "token_coverage": 0.1111,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9851
+          },
+          "acoustic_start": 24.5,
+          "acoustic_end": 24.5,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "pockets",
+              "start": 24.5,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "full",
+              "start": 24.54,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 24.58,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "blue",
+              "start": 24.62,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "faces",
+              "start": 24.66,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "stackin",
+              "start": 24.5,
+              "end": 24.5,
+              "confidence": 0.9851,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 24.74,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 24.78,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "brick",
+              "start": 24.82,
+              "end": 24.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 10,
+          "original_text": "Haters talkin' sideways, but they know I'm that shit",
+          "lead_text": "Haters talkin' sideways, but they know I'm that shit",
+          "adlibs": [],
+          "start": 25.14,
+          "end": 25.36,
+          "confidence": 0.7636,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.3333,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9848
+          },
+          "acoustic_start": 25.14,
+          "acoustic_end": 25.36,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "haters",
+              "start": 25.14,
+              "end": 25.18,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "talkin",
+              "start": 25.14,
+              "end": 25.14,
+              "confidence": 0.9861,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sideways",
+              "start": 25.22,
+              "end": 25.26,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "but",
+              "start": 25.26,
+              "end": 25.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "they",
+              "start": 25.3,
+              "end": 25.34,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 25.34,
+              "end": 25.36,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 25.36,
+              "end": 25.36,
+              "confidence": 0.9831,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "that",
+              "start": 25.42,
+              "end": 25.36,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shit",
+              "start": 25.36,
+              "end": 25.36,
+              "confidence": 0.9854,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_005",
+          "source_line": 11,
+          "original_text": "Comin' long ways (long ways), ridin' with the gang",
+          "lead_text": "Comin' long ways, ridin' with the gang",
+          "adlibs": [
+            "long ways"
+          ],
+          "start": 25.36,
+          "end": 25.5,
+          "confidence": 0.8492,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.5714,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9958
+          },
+          "acoustic_start": 25.36,
+          "acoustic_end": 25.5,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "comin",
+              "start": 25.36,
+              "end": 25.36,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 25.5,
+              "end": 25.5,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 25.44,
+              "end": 25.48,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ridin",
+              "start": 25.48,
+              "end": 25.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 25.5,
+              "end": 25.5,
+              "confidence": 0.9862,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 25.56,
+              "end": 25.5,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gang",
+              "start": 25.5,
+              "end": 25.5,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_006",
+          "source_line": 12,
+          "original_text": "VVS drippin' heavy, put the pain in the bank",
+          "lead_text": "VVS drippin' heavy, put the pain in the bank",
+          "adlibs": [],
+          "start": 25.54,
+          "end": 25.54,
+          "confidence": 0.7627,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.3333,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9803
+          },
+          "acoustic_start": 25.54,
+          "acoustic_end": 25.54,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "vvs",
+              "start": 25.54,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "drippin",
+              "start": 25.58,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "heavy",
+              "start": 25.62,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "put",
+              "start": 25.66,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 25.7,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pain",
+              "start": 25.54,
+              "end": 25.54,
+              "confidence": 0.9838,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 25.54,
+              "end": 25.54,
+              "confidence": 0.9845,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 25.82,
+              "end": 25.54,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bank",
+              "start": 25.54,
+              "end": 25.54,
+              "confidence": 0.9728,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_007",
+          "source_line": 13,
+          "original_text": "Long ways (long ways), we ain't lookin' back",
+          "lead_text": "Long ways, we ain't lookin' back",
+          "adlibs": [
+            "long ways"
+          ],
+          "start": 25.54,
+          "end": 31.82,
+          "confidence": 0.7812,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667,
+            "lexical_match": 1.0,
+            "temporal_consistency": 0.6467,
+            "acoustic_support": 0.8428
+          },
+          "acoustic_start": 25.54,
+          "acoustic_end": 31.82,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "long",
+              "start": 25.54,
+              "end": 25.86,
+              "confidence": 0.9984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 26.587,
+              "end": 27.633,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 27.633,
+              "end": 28.68,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ain't",
+              "start": 29.98,
+              "end": 29.98,
+              "confidence": 0.9785,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lookin",
+              "start": 31.06,
+              "end": 31.58,
+              "confidence": 0.4513,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "back",
+              "start": 31.64,
+              "end": 31.82,
+              "confidence": 0.9432,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_008",
+          "source_line": 14,
+          "original_text": "Fuck the fake love, we just countin' up the racks",
+          "lead_text": "Fuck the fake love, we just countin' up the racks",
+          "adlibs": [],
+          "start": 32.18,
+          "end": 34.88,
+          "confidence": 0.8976,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6629
+          },
+          "acoustic_start": 32.18,
+          "acoustic_end": 34.88,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "fuck",
+              "start": 32.18,
+              "end": 32.45,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 32.18,
+              "end": 32.3,
+              "confidence": 0.9404,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fake",
+              "start": 32.3,
+              "end": 32.6,
+              "confidence": 0.881,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "love",
+              "start": 32.6,
+              "end": 33.04,
+              "confidence": 0.6296,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 33.04,
+              "end": 33.68,
+              "confidence": 0.4473,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "just",
+              "start": 33.68,
+              "end": 33.78,
+              "confidence": 0.5515,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "countin",
+              "start": 33.78,
+              "end": 34.26,
+              "confidence": 0.7543,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 34.26,
+              "end": 34.42,
+              "confidence": 0.6354,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 34.42,
+              "end": 34.56,
+              "confidence": 0.9013,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "racks",
+              "start": 34.56,
+              "end": 34.88,
+              "confidence": 0.2255,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Verse 1",
+      "start": 34.88,
+      "end": 70.7,
+      "confidence": 0.8687,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 16,
+          "original_text": "Started in the shadows, dodgin' all the ops",
+          "lead_text": "Started in the shadows, dodgin' all the ops",
+          "adlibs": [],
+          "start": 34.88,
+          "end": 37.52,
+          "confidence": 0.9675,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8377
+          },
+          "acoustic_start": 34.88,
+          "acoustic_end": 37.52,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "started",
+              "start": 34.88,
+              "end": 35.5,
+              "confidence": 0.7012,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 35.5,
+              "end": 35.94,
+              "confidence": 0.8246,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 35.94,
+              "end": 36.04,
+              "confidence": 0.9492,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shadows",
+              "start": 36.04,
+              "end": 36.34,
+              "confidence": 0.9846,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dodgin",
+              "start": 36.64,
+              "end": 36.76,
+              "confidence": 0.7224,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 36.76,
+              "end": 37.06,
+              "confidence": 0.8566,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 37.06,
+              "end": 37.16,
+              "confidence": 0.9856,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ops",
+              "start": 37.16,
+              "end": 37.52,
+              "confidence": 0.6775,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 17,
+          "original_text": "Now the foreigns in the driveway, engine never stop",
+          "lead_text": "Now the foreigns in the driveway, engine never stop",
+          "adlibs": [],
+          "start": 37.52,
+          "end": 40.4,
+          "confidence": 0.8879,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6341
+          },
+          "acoustic_start": 37.52,
+          "acoustic_end": 40.4,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "now",
+              "start": 37.52,
+              "end": 38.16,
+              "confidence": 0.4825,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 38.16,
+              "end": 38.24,
+              "confidence": 0.3077,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "foreigns",
+              "start": 38.24,
+              "end": 38.58,
+              "confidence": 0.2399,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 38.58,
+              "end": 38.92,
+              "confidence": 0.8947,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 38.92,
+              "end": 39.02,
+              "confidence": 0.9865,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "driveway",
+              "start": 39.02,
+              "end": 39.24,
+              "confidence": 0.6484,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "engine",
+              "start": 39.44,
+              "end": 39.76,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "never",
+              "start": 39.76,
+              "end": 40.02,
+              "confidence": 0.9377,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stop",
+              "start": 40.02,
+              "end": 40.4,
+              "confidence": 0.5758,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 18,
+          "original_text": "Late nights turn to paid flights, private like a boss",
+          "lead_text": "Late nights turn to paid flights, private like a boss",
+          "adlibs": [],
+          "start": 40.4,
+          "end": 43.5,
+          "confidence": 0.9267,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8087
+          },
+          "acoustic_start": 40.4,
+          "acoustic_end": 43.5,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "late",
+              "start": 40.4,
+              "end": 40.78,
+              "confidence": 0.8687,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "nights",
+              "start": 40.78,
+              "end": 41.16,
+              "confidence": 0.6649,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turn",
+              "start": 41.4,
+              "end": 41.54,
+              "confidence": 0.9595,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 41.54,
+              "end": 41.64,
+              "confidence": 0.3112,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "paid",
+              "start": 41.64,
+              "end": 41.92,
+              "confidence": 0.9361,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flights",
+              "start": 41.92,
+              "end": 42.26,
+              "confidence": 0.9495,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "private",
+              "start": 42.26,
+              "end": 42.57,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 42.64,
+              "end": 43.02,
+              "confidence": 0.8791,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 43.02,
+              "end": 43.12,
+              "confidence": 0.9864,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "boss",
+              "start": 43.12,
+              "end": 43.5,
+              "confidence": 0.7234,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 19,
+          "original_text": "Every scar on my body tell a story 'bout the cost",
+          "lead_text": "Every scar on my body tell a story 'bout the cost",
+          "adlibs": [],
+          "start": 43.5,
+          "end": 46.48,
+          "confidence": 0.9285,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 0.9091,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8014
+          },
+          "acoustic_start": 43.5,
+          "acoustic_end": 46.48,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "every",
+              "start": 43.5,
+              "end": 43.78,
+              "confidence": 0.9605,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "scar",
+              "start": 43.78,
+              "end": 44.16,
+              "confidence": 0.5756,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 44.16,
+              "end": 44.54,
+              "confidence": 0.9433,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 44.54,
+              "end": 44.66,
+              "confidence": 0.9896,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "body",
+              "start": 44.66,
+              "end": 44.92,
+              "confidence": 0.9947,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tell",
+              "start": 45.2,
+              "end": 45.26,
+              "confidence": 0.9286,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 45.26,
+              "end": 45.36,
+              "confidence": 0.6691,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "story",
+              "start": 45.36,
+              "end": 45.64,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bout",
+              "start": 45.64,
+              "end": 46.02,
+              "confidence": 0.3495,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 45.938,
+              "end": 46.209,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "cost",
+              "start": 46.1,
+              "end": 46.48,
+              "confidence": 0.604,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 20,
+          "original_text": "I was broke as hell, stomach touchin' my spine",
+          "lead_text": "I was broke as hell, stomach touchin' my spine",
+          "adlibs": [],
+          "start": 46.48,
+          "end": 49.38,
+          "confidence": 0.9573,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7866
+          },
+          "acoustic_start": 46.48,
+          "acoustic_end": 49.38,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i",
+              "start": 46.48,
+              "end": 47.12,
+              "confidence": 0.9285,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "was",
+              "start": 47.12,
+              "end": 47.26,
+              "confidence": 0.5428,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "broke",
+              "start": 47.26,
+              "end": 47.5,
+              "confidence": 0.8863,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "as",
+              "start": 47.5,
+              "end": 47.7,
+              "confidence": 0.9587,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hell",
+              "start": 47.7,
+              "end": 47.96,
+              "confidence": 0.9949,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stomach",
+              "start": 47.96,
+              "end": 48.52,
+              "confidence": 0.1812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "touchin",
+              "start": 48.52,
+              "end": 48.76,
+              "confidence": 0.6164,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 49.02,
+              "end": 49.1,
+              "confidence": 0.9964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "spine",
+              "start": 49.1,
+              "end": 49.38,
+              "confidence": 0.9747,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 21,
+          "original_text": "Now it's steak dinners, red wine, everything fine",
+          "lead_text": "Now it's steak dinners, red wine, everything fine",
+          "adlibs": [],
+          "start": 49.38,
+          "end": 52.46,
+          "confidence": 0.9167,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 0.875,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8023
+          },
+          "acoustic_start": 49.38,
+          "acoustic_end": 52.46,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "now",
+              "start": 49.38,
+              "end": 49.76,
+              "confidence": 0.6262,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it's",
+              "start": 49.765,
+              "end": 50.15,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "steak",
+              "start": 49.9,
+              "end": 50.18,
+              "confidence": 0.6448,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dinners",
+              "start": 50.18,
+              "end": 50.52,
+              "confidence": 0.8617,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "red",
+              "start": 50.66,
+              "end": 50.88,
+              "confidence": 0.9422,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wine",
+              "start": 50.88,
+              "end": 51.34,
+              "confidence": 0.9764,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "everything",
+              "start": 51.56,
+              "end": 51.72,
+              "confidence": 0.8902,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fine",
+              "start": 51.72,
+              "end": 52.46,
+              "confidence": 0.6745,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 22,
+          "original_text": "Switched the whole circle, cut the snakes on the vine",
+          "lead_text": "Switched the whole circle, cut the snakes on the vine",
+          "adlibs": [],
+          "start": 52.46,
+          "end": 55.1,
+          "confidence": 0.9452,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9012
+          },
+          "acoustic_start": 52.46,
+          "acoustic_end": 55.1,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "switched",
+              "start": 52.46,
+              "end": 52.7,
+              "confidence": 0.81,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 52.7,
+              "end": 52.9,
+              "confidence": 0.7623,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whole",
+              "start": 52.9,
+              "end": 53.08,
+              "confidence": 0.9949,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "circle",
+              "start": 53.08,
+              "end": 53.52,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cut",
+              "start": 53.52,
+              "end": 54.22,
+              "confidence": 0.8866,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 54.22,
+              "end": 54.32,
+              "confidence": 0.9823,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "snakes",
+              "start": 54.32,
+              "end": 54.54,
+              "confidence": 0.9757,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 54.54,
+              "end": 54.98,
+              "confidence": 0.9749,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 54.98,
+              "end": 55.1,
+              "confidence": 0.7252,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vine",
+              "start": 54.836,
+              "end": 55.1,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 23,
+          "original_text": "They said I wouldn't make it, now they beggin' for a sign",
+          "lead_text": "They said I wouldn't make it, now they beggin' for a sign",
+          "adlibs": [],
+          "start": 55.4,
+          "end": 58.32,
+          "confidence": 0.8647,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 0.8333,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6152
+          },
+          "acoustic_start": 55.4,
+          "acoustic_end": 58.32,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "they",
+              "start": 55.4,
+              "end": 55.643,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "said",
+              "start": 55.4,
+              "end": 55.62,
+              "confidence": 0.241,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 55.62,
+              "end": 55.88,
+              "confidence": 0.8989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wouldn't",
+              "start": 55.88,
+              "end": 56.24,
+              "confidence": 0.9896,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "make",
+              "start": 56.24,
+              "end": 56.48,
+              "confidence": 0.9913,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 56.48,
+              "end": 56.64,
+              "confidence": 0.9857,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 56.74,
+              "end": 56.92,
+              "confidence": 0.3289,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 57.103,
+              "end": 57.347,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "beggin",
+              "start": 57.0,
+              "end": 57.48,
+              "confidence": 0.7672,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 57.68,
+              "end": 57.96,
+              "confidence": 0.1282,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 57.96,
+              "end": 58.06,
+              "confidence": 0.1823,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sign",
+              "start": 58.06,
+              "end": 58.32,
+              "confidence": 0.639,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_009",
+          "source_line": 24,
+          "original_text": "(Grrah, skrrt-skrrt)",
+          "lead_text": "",
+          "adlibs": [
+            "Grrah, skrrt-skrrt"
+          ],
+          "start": 58.32,
+          "end": 58.57,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 58.32,
+          "acoustic_end": 58.57,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_003_line_010",
+          "source_line": 25,
+          "original_text": "Mud on the tires, but the wrist lookin' clean",
+          "lead_text": "Mud on the tires, but the wrist lookin' clean",
+          "adlibs": [],
+          "start": 59.7,
+          "end": 61.66,
+          "confidence": 0.9057,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7227
+          },
+          "acoustic_start": 59.7,
+          "acoustic_end": 61.66,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "mud",
+              "start": 59.7,
+              "end": 59.918,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 59.7,
+              "end": 59.86,
+              "confidence": 0.9689,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 59.86,
+              "end": 59.96,
+              "confidence": 0.9803,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tires",
+              "start": 59.96,
+              "end": 60.34,
+              "confidence": 0.305,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 60.56,
+              "end": 60.58,
+              "confidence": 0.6411,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 60.58,
+              "end": 60.72,
+              "confidence": 0.9475,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wrist",
+              "start": 60.72,
+              "end": 60.94,
+              "confidence": 0.2128,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lookin",
+              "start": 60.94,
+              "end": 61.42,
+              "confidence": 0.7623,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "clean",
+              "start": 61.42,
+              "end": 61.66,
+              "confidence": 0.9638,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_011",
+          "source_line": 26,
+          "original_text": "Dreams to reality, in between was the fiend",
+          "lead_text": "Dreams to reality, in between was the fiend",
+          "adlibs": [],
+          "start": 61.66,
+          "end": 64.88,
+          "confidence": 0.9393,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6963
+          },
+          "acoustic_start": 61.66,
+          "acoustic_end": 64.88,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "dreams",
+              "start": 61.66,
+              "end": 62.04,
+              "confidence": 0.2873,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 62.04,
+              "end": 62.4,
+              "confidence": 0.5833,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "reality",
+              "start": 62.4,
+              "end": 62.8,
+              "confidence": 0.9595,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 62.8,
+              "end": 63.44,
+              "confidence": 0.5807,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "between",
+              "start": 63.44,
+              "end": 63.64,
+              "confidence": 0.9399,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "was",
+              "start": 63.64,
+              "end": 64.24,
+              "confidence": 0.8717,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 64.24,
+              "end": 64.4,
+              "confidence": 0.4969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fiend",
+              "start": 64.4,
+              "end": 64.88,
+              "confidence": 0.8507,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_012",
+          "source_line": 27,
+          "original_text": "Now I'm livin' lavish, turn the whole scene to a movie",
+          "lead_text": "Now I'm livin' lavish, turn the whole scene to a movie",
+          "adlibs": [],
+          "start": 64.88,
+          "end": 67.84,
+          "confidence": 0.9595,
+          "matched_tokens": 11,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7976
+          },
+          "acoustic_start": 64.88,
+          "acoustic_end": 67.84,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "now",
+              "start": 64.88,
+              "end": 65.1,
+              "confidence": 0.5764,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 65.1,
+              "end": 65.22,
+              "confidence": 0.9269,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "livin",
+              "start": 65.22,
+              "end": 65.4,
+              "confidence": 0.3251,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lavish",
+              "start": 65.4,
+              "end": 65.88,
+              "confidence": 0.6994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turn",
+              "start": 65.96,
+              "end": 66.2,
+              "confidence": 0.8631,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 66.2,
+              "end": 66.34,
+              "confidence": 0.8652,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whole",
+              "start": 66.34,
+              "end": 66.58,
+              "confidence": 0.9393,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "scene",
+              "start": 66.58,
+              "end": 66.98,
+              "confidence": 0.9506,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 66.98,
+              "end": 67.24,
+              "confidence": 0.6592,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 67.24,
+              "end": 67.42,
+              "confidence": 0.9743,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "movie",
+              "start": 67.42,
+              "end": 67.84,
+              "confidence": 0.9938,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_013",
+          "source_line": 28,
+          "original_text": "Comin' long ways, turn my pain to a trophy",
+          "lead_text": "Comin' long ways, turn my pain to a trophy",
+          "adlibs": [],
+          "start": 67.84,
+          "end": 70.7,
+          "confidence": 0.9743,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8717
+          },
+          "acoustic_start": 67.84,
+          "acoustic_end": 70.7,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "comin",
+              "start": 67.84,
+              "end": 68.48,
+              "confidence": 0.8212,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 68.48,
+              "end": 68.86,
+              "confidence": 0.5116,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 68.86,
+              "end": 69.24,
+              "confidence": 0.8946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turn",
+              "start": 69.46,
+              "end": 69.52,
+              "confidence": 0.9397,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 69.52,
+              "end": 69.64,
+              "confidence": 0.9607,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "pain",
+              "start": 69.64,
+              "end": 69.92,
+              "confidence": 0.8134,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 69.92,
+              "end": 70.28,
+              "confidence": 0.9432,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 70.28,
+              "end": 70.38,
+              "confidence": 0.9647,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trophy",
+              "start": 70.38,
+              "end": 70.7,
+              "confidence": 0.9957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Chorus",
+      "start": 70.7,
+      "end": 94.64,
+      "confidence": 0.9429,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 30,
+          "original_text": "Comin' long ways, yeah, I flipped the script",
+          "lead_text": "Comin' long ways, yeah, I flipped the script",
+          "adlibs": [],
+          "start": 70.7,
+          "end": 73.66,
+          "confidence": 0.9524,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7622
+          },
+          "acoustic_start": 70.7,
+          "acoustic_end": 73.66,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "comin",
+              "start": 70.7,
+              "end": 71.38,
+              "confidence": 0.7946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 71.38,
+              "end": 71.86,
+              "confidence": 0.9816,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 71.86,
+              "end": 72.32,
+              "confidence": 0.7068,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 72.68,
+              "end": 72.68,
+              "confidence": 0.7803,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 72.68,
+              "end": 73.22,
+              "confidence": 0.4497,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flipped",
+              "start": 73.22,
+              "end": 73.22,
+              "confidence": 0.6178,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 73.22,
+              "end": 73.26,
+              "confidence": 0.7775,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "script",
+              "start": 73.26,
+              "end": 73.66,
+              "confidence": 0.9896,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 31,
+          "original_text": "From the trenches to the lights, watch the whole city flip",
+          "lead_text": "From the trenches to the lights, watch the whole city flip",
+          "adlibs": [],
+          "start": 74.0,
+          "end": 76.6,
+          "confidence": 0.944,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 0.9091,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8792
+          },
+          "acoustic_start": 74.0,
+          "acoustic_end": 76.6,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "from",
+              "start": 74.0,
+              "end": 74.236,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 74.0,
+              "end": 74.14,
+              "confidence": 0.7867,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trenches",
+              "start": 74.14,
+              "end": 74.36,
+              "confidence": 0.7814,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 74.36,
+              "end": 74.76,
+              "confidence": 0.9503,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 74.76,
+              "end": 74.88,
+              "confidence": 0.9963,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lights",
+              "start": 74.88,
+              "end": 75.18,
+              "confidence": 0.4537,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "watch",
+              "start": 75.18,
+              "end": 75.48,
+              "confidence": 0.9655,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 75.48,
+              "end": 75.62,
+              "confidence": 0.9957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whole",
+              "start": 75.62,
+              "end": 75.9,
+              "confidence": 0.9094,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "city",
+              "start": 75.9,
+              "end": 76.26,
+              "confidence": 0.9741,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flip",
+              "start": 76.26,
+              "end": 76.6,
+              "confidence": 0.9786,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 32,
+          "original_text": "Pockets full of blue faces, stackin' like a brick",
+          "lead_text": "Pockets full of blue faces, stackin' like a brick",
+          "adlibs": [],
+          "start": 76.6,
+          "end": 79.64,
+          "confidence": 0.9569,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7843
+          },
+          "acoustic_start": 76.6,
+          "acoustic_end": 79.64,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "pockets",
+              "start": 76.6,
+              "end": 77.08,
+              "confidence": 0.1255,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "full",
+              "start": 77.08,
+              "end": 77.34,
+              "confidence": 0.9115,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 77.34,
+              "end": 77.52,
+              "confidence": 0.9846,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blue",
+              "start": 77.52,
+              "end": 77.72,
+              "confidence": 0.9822,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "faces",
+              "start": 77.72,
+              "end": 78.2,
+              "confidence": 0.8776,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stackin",
+              "start": 78.56,
+              "end": 78.88,
+              "confidence": 0.2537,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 78.88,
+              "end": 79.22,
+              "confidence": 0.9768,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 79.22,
+              "end": 79.36,
+              "confidence": 0.9618,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "brick",
+              "start": 79.36,
+              "end": 79.64,
+              "confidence": 0.9853,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 33,
+          "original_text": "Haters talkin' sideways, but they know I'm that shit",
+          "lead_text": "Haters talkin' sideways, but they know I'm that shit",
+          "adlibs": [],
+          "start": 79.64,
+          "end": 82.66,
+          "confidence": 0.9717,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8583
+          },
+          "acoustic_start": 79.64,
+          "acoustic_end": 82.66,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "haters",
+              "start": 79.64,
+              "end": 80.08,
+              "confidence": 0.7898,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talkin",
+              "start": 80.08,
+              "end": 80.48,
+              "confidence": 0.5236,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sideways",
+              "start": 80.76,
+              "end": 80.84,
+              "confidence": 0.6369,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 81.2,
+              "end": 81.46,
+              "confidence": 0.9834,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 81.46,
+              "end": 81.58,
+              "confidence": 0.9919,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 81.58,
+              "end": 81.92,
+              "confidence": 0.9697,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 81.92,
+              "end": 82.2,
+              "confidence": 0.93,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "that",
+              "start": 82.2,
+              "end": 82.32,
+              "confidence": 0.9584,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 82.32,
+              "end": 82.66,
+              "confidence": 0.9408,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 34,
+          "original_text": "Comin' long ways (long ways), ridin' with the gang",
+          "lead_text": "Comin' long ways, ridin' with the gang",
+          "adlibs": [
+            "long ways"
+          ],
+          "start": 82.66,
+          "end": 85.56,
+          "confidence": 0.9543,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7714
+          },
+          "acoustic_start": 82.66,
+          "acoustic_end": 85.56,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "comin",
+              "start": 82.66,
+              "end": 83.32,
+              "confidence": 0.5268,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 83.32,
+              "end": 83.84,
+              "confidence": 0.9942,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 83.84,
+              "end": 84.26,
+              "confidence": 0.7621,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ridin",
+              "start": 84.4,
+              "end": 84.94,
+              "confidence": 0.7701,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "with",
+              "start": 84.94,
+              "end": 85.2,
+              "confidence": 0.9655,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 85.2,
+              "end": 85.3,
+              "confidence": 0.5963,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gang",
+              "start": 85.3,
+              "end": 85.56,
+              "confidence": 0.7848,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 35,
+          "original_text": "VVS drippin' heavy, put the pain in the bank",
+          "lead_text": "VVS drippin' heavy, put the pain in the bank",
+          "adlibs": [],
+          "start": 85.92,
+          "end": 88.68,
+          "confidence": 0.9473,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7363
+          },
+          "acoustic_start": 85.92,
+          "acoustic_end": 88.68,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "vvs",
+              "start": 85.92,
+              "end": 86.36,
+              "confidence": 0.5387,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "drippin",
+              "start": 86.46,
+              "end": 86.68,
+              "confidence": 0.5945,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "heavy",
+              "start": 86.68,
+              "end": 87.1,
+              "confidence": 0.7666,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "put",
+              "start": 87.1,
+              "end": 87.44,
+              "confidence": 0.0168,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 87.44,
+              "end": 87.56,
+              "confidence": 0.969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "pain",
+              "start": 87.56,
+              "end": 87.94,
+              "confidence": 0.9195,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 87.94,
+              "end": 88.22,
+              "confidence": 0.9724,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 88.22,
+              "end": 88.3,
+              "confidence": 0.9079,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bank",
+              "start": 88.3,
+              "end": 88.68,
+              "confidence": 0.9415,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_007",
+          "source_line": 36,
+          "original_text": "Long ways (long ways), we ain't lookin' back",
+          "lead_text": "Long ways, we ain't lookin' back",
+          "adlibs": [
+            "long ways"
+          ],
+          "start": 88.88,
+          "end": 91.6,
+          "confidence": 0.9442,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7212
+          },
+          "acoustic_start": 88.88,
+          "acoustic_end": 91.6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "long",
+              "start": 88.88,
+              "end": 89.7,
+              "confidence": 0.6041,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 89.7,
+              "end": 90.16,
+              "confidence": 0.94,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 90.56,
+              "end": 90.84,
+              "confidence": 0.2818,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ain't",
+              "start": 90.84,
+              "end": 91.04,
+              "confidence": 0.6795,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lookin",
+              "start": 91.04,
+              "end": 91.26,
+              "confidence": 0.8264,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "back",
+              "start": 91.26,
+              "end": 91.6,
+              "confidence": 0.9954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_008",
+          "source_line": 37,
+          "original_text": "Fuck the fake love, we just countin' up the racks",
+          "lead_text": "Fuck the fake love, we just countin' up the racks",
+          "adlibs": [],
+          "start": 91.9,
+          "end": 94.64,
+          "confidence": 0.8722,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7112
+          },
+          "acoustic_start": 91.9,
+          "acoustic_end": 94.64,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "fuck",
+              "start": 91.9,
+              "end": 92.174,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 91.9,
+              "end": 92.02,
+              "confidence": 0.6558,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fake",
+              "start": 92.02,
+              "end": 92.34,
+              "confidence": 0.8442,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "love",
+              "start": 92.34,
+              "end": 92.8,
+              "confidence": 0.8068,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 93.14,
+              "end": 93.42,
+              "confidence": 0.3358,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "just",
+              "start": 93.42,
+              "end": 93.54,
+              "confidence": 0.9289,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "countin",
+              "start": 93.54,
+              "end": 93.84,
+              "confidence": 0.3181,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 93.818,
+              "end": 94.092,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 94.18,
+              "end": 94.32,
+              "confidence": 0.9556,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "racks",
+              "start": 94.32,
+              "end": 94.64,
+              "confidence": 0.844,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Verse 2",
+      "start": 94.84,
+      "end": 131.08,
+      "confidence": 0.8581,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 39,
+          "original_text": "Whole team eatin' good, no more crumbs on the plate",
+          "lead_text": "Whole team eatin' good, no more crumbs on the plate",
+          "adlibs": [],
+          "start": 94.84,
+          "end": 97.52,
+          "confidence": 0.9278,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8138
+          },
+          "acoustic_start": 94.84,
+          "acoustic_end": 97.52,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "whole",
+              "start": 94.84,
+              "end": 94.94,
+              "confidence": 0.5527,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "team",
+              "start": 94.94,
+              "end": 95.28,
+              "confidence": 0.8969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "eatin",
+              "start": 95.28,
+              "end": 95.72,
+              "confidence": 0.6657,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "good",
+              "start": 95.72,
+              "end": 96.1,
+              "confidence": 0.9944,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 96.1,
+              "end": 96.38,
+              "confidence": 0.5133,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 96.38,
+              "end": 96.52,
+              "confidence": 0.9699,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "crumbs",
+              "start": 96.52,
+              "end": 97.0,
+              "confidence": 0.9239,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 97.0,
+              "end": 97.18,
+              "confidence": 0.9201,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 96.984,
+              "end": 97.252,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "plate",
+              "start": 97.3,
+              "end": 97.52,
+              "confidence": 0.8876,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 40,
+          "original_text": "Jumped through every flame, now the fire feel great",
+          "lead_text": "Jumped through every flame, now the fire feel great",
+          "adlibs": [],
+          "start": 97.58,
+          "end": 100.54,
+          "confidence": 0.9029,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7087
+          },
+          "acoustic_start": 97.58,
+          "acoustic_end": 100.54,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "jumped",
+              "start": 97.58,
+              "end": 97.9,
+              "confidence": 0.3476,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "through",
+              "start": 97.9,
+              "end": 98.26,
+              "confidence": 0.7655,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "every",
+              "start": 98.26,
+              "end": 98.66,
+              "confidence": 0.6121,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flame",
+              "start": 98.66,
+              "end": 99.02,
+              "confidence": 0.9597,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 99.38,
+              "end": 99.38,
+              "confidence": 0.7051,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 99.224,
+              "end": 99.553,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fire",
+              "start": 99.5,
+              "end": 99.76,
+              "confidence": 0.5789,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feel",
+              "start": 99.76,
+              "end": 100.18,
+              "confidence": 0.9676,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "great",
+              "start": 100.18,
+              "end": 100.54,
+              "confidence": 0.7333,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 41,
+          "original_text": "They switched sides quick when the money got loud",
+          "lead_text": "They switched sides quick when the money got loud",
+          "adlibs": [],
+          "start": 100.54,
+          "end": 103.52,
+          "confidence": 0.9505,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7527
+          },
+          "acoustic_start": 100.54,
+          "acoustic_end": 103.52,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "they",
+              "start": 100.54,
+              "end": 100.64,
+              "confidence": 0.3305,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "switched",
+              "start": 100.64,
+              "end": 100.9,
+              "confidence": 0.6472,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sides",
+              "start": 100.9,
+              "end": 101.32,
+              "confidence": 0.7759,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "quick",
+              "start": 101.32,
+              "end": 102.0,
+              "confidence": 0.7743,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 102.2,
+              "end": 102.34,
+              "confidence": 0.9355,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 102.34,
+              "end": 102.5,
+              "confidence": 0.9906,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 102.5,
+              "end": 102.76,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 102.76,
+              "end": 103.14,
+              "confidence": 0.9453,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "loud",
+              "start": 103.14,
+              "end": 103.52,
+              "confidence": 0.3753,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 42,
+          "original_text": "But I stayed solid, built an empire from the ground",
+          "lead_text": "But I stayed solid, built an empire from the ground",
+          "adlibs": [],
+          "start": 103.52,
+          "end": 106.58,
+          "confidence": 0.8882,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7908
+          },
+          "acoustic_start": 103.52,
+          "acoustic_end": 106.58,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "but",
+              "start": 103.52,
+              "end": 103.68,
+              "confidence": 0.7175,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 103.68,
+              "end": 103.86,
+              "confidence": 0.6242,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stayed",
+              "start": 103.86,
+              "end": 104.02,
+              "confidence": 0.641,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "solid",
+              "start": 104.02,
+              "end": 104.32,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "built",
+              "start": 104.744,
+              "end": 105.05,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "an",
+              "start": 105.05,
+              "end": 105.356,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "empire",
+              "start": 104.76,
+              "end": 105.08,
+              "confidence": 0.5541,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "from",
+              "start": 105.08,
+              "end": 105.98,
+              "confidence": 0.796,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 105.98,
+              "end": 106.18,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ground",
+              "start": 106.18,
+              "end": 106.58,
+              "confidence": 0.9982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_005",
+          "source_line": 43,
+          "original_text": "(What? Yeah)",
+          "lead_text": "",
+          "adlibs": [
+            "What? Yeah"
+          ],
+          "start": 106.58,
+          "end": 106.58,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 106.58,
+          "acoustic_end": 106.58,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_005_line_006",
+          "source_line": 44,
+          "original_text": "Foreign whips switchin' lanes, tinted windows, no face",
+          "lead_text": "Foreign whips switchin' lanes, tinted windows, no face",
+          "adlibs": [],
+          "start": 106.58,
+          "end": 110.16,
+          "confidence": 0.927,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6348
+          },
+          "acoustic_start": 106.58,
+          "acoustic_end": 110.16,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "foreign",
+              "start": 106.58,
+              "end": 106.92,
+              "confidence": 0.3943,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whips",
+              "start": 106.92,
+              "end": 108.06,
+              "confidence": 0.7584,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "switchin",
+              "start": 108.42,
+              "end": 108.42,
+              "confidence": 0.7257,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lanes",
+              "start": 108.42,
+              "end": 108.72,
+              "confidence": 0.9903,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tinted",
+              "start": 109.04,
+              "end": 109.18,
+              "confidence": 0.4265,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "windows",
+              "start": 109.18,
+              "end": 109.4,
+              "confidence": 0.954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 109.4,
+              "end": 109.8,
+              "confidence": 0.1707,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "face",
+              "start": 109.8,
+              "end": 110.16,
+              "confidence": 0.6585,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_007",
+          "source_line": 45,
+          "original_text": "Memory full of losses, but the wins in my safe",
+          "lead_text": "Memory full of losses, but the wins in my safe",
+          "adlibs": [],
+          "start": 110.72,
+          "end": 113.12,
+          "confidence": 0.8828,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7638
+          },
+          "acoustic_start": 110.72,
+          "acoustic_end": 113.12,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "memory",
+              "start": 110.72,
+              "end": 110.74,
+              "confidence": 0.9834,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "full",
+              "start": 111.28,
+              "end": 111.3,
+              "confidence": 0.9244,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 111.3,
+              "end": 111.5,
+              "confidence": 0.5023,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "losses",
+              "start": 111.5,
+              "end": 111.8,
+              "confidence": 0.8742,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 111.68,
+              "end": 111.92,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 112.06,
+              "end": 112.2,
+              "confidence": 0.9182,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wins",
+              "start": 112.2,
+              "end": 112.4,
+              "confidence": 0.6025,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 112.4,
+              "end": 112.64,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 112.6,
+              "end": 112.82,
+              "confidence": 0.379,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "safe",
+              "start": 112.82,
+              "end": 113.12,
+              "confidence": 0.9262,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_008",
+          "source_line": 46,
+          "original_text": "Talk heavy on the 'net, but in person they shake",
+          "lead_text": "Talk heavy on the 'net, but in person they shake",
+          "adlibs": [],
+          "start": 113.12,
+          "end": 116.12,
+          "confidence": 0.9578,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7892
+          },
+          "acoustic_start": 113.12,
+          "acoustic_end": 116.12,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "talk",
+              "start": 113.12,
+              "end": 113.54,
+              "confidence": 0.0816,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "heavy",
+              "start": 113.54,
+              "end": 113.96,
+              "confidence": 0.8927,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 113.96,
+              "end": 114.32,
+              "confidence": 0.9791,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 114.32,
+              "end": 114.44,
+              "confidence": 0.9034,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "net",
+              "start": 114.44,
+              "end": 114.68,
+              "confidence": 0.9468,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 115.0,
+              "end": 115.04,
+              "confidence": 0.9492,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 115.04,
+              "end": 115.18,
+              "confidence": 0.8572,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "person",
+              "start": 115.18,
+              "end": 115.42,
+              "confidence": 0.9502,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 115.42,
+              "end": 115.8,
+              "confidence": 0.7309,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shake",
+              "start": 115.8,
+              "end": 116.12,
+              "confidence": 0.6013,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_009",
+          "source_line": 47,
+          "original_text": "I'm a walking legend, leave the rest in the wake",
+          "lead_text": "I'm a walking legend, leave the rest in the wake",
+          "adlibs": [],
+          "start": 116.12,
+          "end": 119.16,
+          "confidence": 0.8963,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6564
+          },
+          "acoustic_start": 116.12,
+          "acoustic_end": 119.16,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 116.12,
+              "end": 116.64,
+              "confidence": 0.7293,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 116.64,
+              "end": 116.68,
+              "confidence": 0.3731,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "walking",
+              "start": 116.68,
+              "end": 117.46,
+              "confidence": 0.535,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "legend",
+              "start": 117.62,
+              "end": 117.7,
+              "confidence": 0.6027,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "leave",
+              "start": 118.0,
+              "end": 118.04,
+              "confidence": 0.5914,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 117.64,
+              "end": 117.944,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "rest",
+              "start": 118.2,
+              "end": 118.4,
+              "confidence": 0.7688,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 118.4,
+              "end": 118.66,
+              "confidence": 0.8439,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 118.66,
+              "end": 118.86,
+              "confidence": 0.5352,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wake",
+              "start": 118.86,
+              "end": 119.16,
+              "confidence": 0.9283,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_010",
+          "source_line": 48,
+          "original_text": "Creative with the hustle, turned my vision to gold",
+          "lead_text": "Creative with the hustle, turned my vision to gold",
+          "adlibs": [],
+          "start": 119.16,
+          "end": 121.82,
+          "confidence": 0.955,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7748
+          },
+          "acoustic_start": 119.16,
+          "acoustic_end": 121.82,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "creative",
+              "start": 119.16,
+              "end": 119.48,
+              "confidence": 0.0262,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "with",
+              "start": 119.48,
+              "end": 119.86,
+              "confidence": 0.9812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 119.86,
+              "end": 120.04,
+              "confidence": 0.6447,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hustle",
+              "start": 120.04,
+              "end": 120.5,
+              "confidence": 0.9847,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turned",
+              "start": 120.52,
+              "end": 120.8,
+              "confidence": 0.6389,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 120.8,
+              "end": 121.0,
+              "confidence": 0.9705,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vision",
+              "start": 121.0,
+              "end": 121.32,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 121.32,
+              "end": 121.52,
+              "confidence": 0.7359,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gold",
+              "start": 121.52,
+              "end": 121.82,
+              "confidence": 0.9931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_011",
+          "source_line": 49,
+          "original_text": "Every step calculated, never do what I'm told",
+          "lead_text": "Every step calculated, never do what I'm told",
+          "adlibs": [],
+          "start": 121.82,
+          "end": 124.74,
+          "confidence": 0.9096,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 0.875,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.7666
+          },
+          "acoustic_start": 121.82,
+          "acoustic_end": 124.74,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "every",
+              "start": 121.82,
+              "end": 122.12,
+              "confidence": 0.5455,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "step",
+              "start": 122.12,
+              "end": 122.5,
+              "confidence": 0.996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "calculated",
+              "start": 122.6,
+              "end": 123.14,
+              "confidence": 0.5338,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 123.52,
+              "end": 123.82,
+              "confidence": 0.9716,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "do",
+              "start": 123.82,
+              "end": 124.14,
+              "confidence": 0.9969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 123.645,
+              "end": 124.01,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 124.44,
+              "end": 124.54,
+              "confidence": 0.9859,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "told",
+              "start": 124.54,
+              "end": 124.74,
+              "confidence": 0.3364,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_012",
+          "source_line": 50,
+          "original_text": "From the bottom where the wolves howl under moonlight glow",
+          "lead_text": "From the bottom where the wolves howl under moonlight glow",
+          "adlibs": [],
+          "start": 124.74,
+          "end": 128.12,
+          "confidence": 0.9031,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 0.9,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6907
+          },
+          "acoustic_start": 124.74,
+          "acoustic_end": 128.12,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "from",
+              "start": 124.74,
+              "end": 125.1,
+              "confidence": 0.7691,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 125.1,
+              "end": 125.24,
+              "confidence": 0.9931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bottom",
+              "start": 125.24,
+              "end": 125.5,
+              "confidence": 0.8888,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 125.5,
+              "end": 125.88,
+              "confidence": 0.6194,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 125.88,
+              "end": 126.0,
+              "confidence": 0.9851,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wolves",
+              "start": 126.0,
+              "end": 126.3,
+              "confidence": 0.1575,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "howl",
+              "start": 126.3,
+              "end": 126.88,
+              "confidence": 0.5945,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "under",
+              "start": 127.106,
+              "end": 127.444,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "moonlight",
+              "start": 127.1,
+              "end": 127.62,
+              "confidence": 0.9805,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "glow",
+              "start": 127.62,
+              "end": 128.12,
+              "confidence": 0.2281,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_013",
+          "source_line": 51,
+          "original_text": "Now the spotlight mine, whole world watch the show",
+          "lead_text": "Now the spotlight mine, whole world watch the show",
+          "adlibs": [],
+          "start": 128.16,
+          "end": 131.08,
+          "confidence": 0.9342,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8653
+          },
+          "acoustic_start": 128.16,
+          "acoustic_end": 131.08,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "now",
+              "start": 128.16,
+              "end": 128.28,
+              "confidence": 0.9135,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 128.484,
+              "end": 128.809,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "spotlight",
+              "start": 128.42,
+              "end": 128.72,
+              "confidence": 0.9946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "mine",
+              "start": 128.72,
+              "end": 129.22,
+              "confidence": 0.3115,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whole",
+              "start": 129.44,
+              "end": 129.74,
+              "confidence": 0.99,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "world",
+              "start": 129.74,
+              "end": 130.16,
+              "confidence": 0.9656,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "watch",
+              "start": 130.16,
+              "end": 130.56,
+              "confidence": 0.8914,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 130.56,
+              "end": 130.8,
+              "confidence": 0.9528,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "show",
+              "start": 130.8,
+              "end": 131.08,
+              "confidence": 0.903,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Bridge",
+      "start": 133.36,
+      "end": 143.9,
+      "confidence": 0.7941,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 53,
+          "original_text": "Long ways, long ways (echo)",
+          "lead_text": "Long ways, long ways",
+          "adlibs": [
+            "echo"
+          ],
+          "start": 133.36,
+          "end": 133.8,
+          "confidence": 0.9741,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8706
+          },
+          "acoustic_start": 133.36,
+          "acoustic_end": 133.8,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "long",
+              "start": 133.36,
+              "end": 133.36,
+              "confidence": 0.9338,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 133.36,
+              "end": 133.56,
+              "confidence": 0.7942,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 133.56,
+              "end": 133.8,
+              "confidence": 0.8317,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 133.8,
+              "end": 133.8,
+              "confidence": 0.9229,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 54,
+          "original_text": "We came too far to fold, too far to fold",
+          "lead_text": "We came too far to fold, too far to fold",
+          "adlibs": [],
+          "start": 133.8,
+          "end": 137.2,
+          "confidence": 0.9697,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8483
+          },
+          "acoustic_start": 133.8,
+          "acoustic_end": 137.2,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "we",
+              "start": 133.8,
+              "end": 133.82,
+              "confidence": 0.4739,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "came",
+              "start": 133.82,
+              "end": 134.06,
+              "confidence": 0.9381,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "too",
+              "start": 134.06,
+              "end": 134.42,
+              "confidence": 0.4974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "far",
+              "start": 134.42,
+              "end": 134.86,
+              "confidence": 0.869,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 134.86,
+              "end": 135.3,
+              "confidence": 0.8566,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fold",
+              "start": 135.3,
+              "end": 135.64,
+              "confidence": 0.8726,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "too",
+              "start": 135.88,
+              "end": 136.28,
+              "confidence": 0.9858,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "far",
+              "start": 136.28,
+              "end": 136.62,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 136.62,
+              "end": 136.78,
+              "confidence": 0.9934,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fold",
+              "start": 136.78,
+              "end": 137.2,
+              "confidence": 0.9962,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 55,
+          "original_text": "(Grrah-grrah, slatt)",
+          "lead_text": "",
+          "adlibs": [
+            "Grrah-grrah, slatt"
+          ],
+          "start": 137.2,
+          "end": 137.64,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 137.2,
+          "acoustic_end": 137.64,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 56,
+          "original_text": "Fuck all the doubt, we own the route",
+          "lead_text": "Fuck all the doubt, we own the route",
+          "adlibs": [],
+          "start": 138.96,
+          "end": 141.54,
+          "confidence": 0.9684,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.8422
+          },
+          "acoustic_start": 138.96,
+          "acoustic_end": 141.54,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "fuck",
+              "start": 138.96,
+              "end": 139.24,
+              "confidence": 0.8711,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 139.24,
+              "end": 139.48,
+              "confidence": 0.9536,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 139.48,
+              "end": 139.76,
+              "confidence": 0.7893,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "doubt",
+              "start": 139.76,
+              "end": 140.04,
+              "confidence": 0.9241,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 140.26,
+              "end": 140.72,
+              "confidence": 0.8422,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "own",
+              "start": 140.72,
+              "end": 140.98,
+              "confidence": 0.8235,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 140.98,
+              "end": 141.28,
+              "confidence": 0.8736,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "route",
+              "start": 141.28,
+              "end": 141.54,
+              "confidence": 0.6606,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_005",
+          "source_line": 57,
+          "original_text": "Comin' long ways, yeah",
+          "lead_text": "Comin' long ways, yeah",
+          "adlibs": [],
+          "start": 141.96,
+          "end": 143.9,
+          "confidence": 0.9382,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.6912
+          },
+          "acoustic_start": 141.96,
+          "acoustic_end": 143.9,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "comin",
+              "start": 141.96,
+              "end": 142.24,
+              "confidence": 0.5261,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 142.24,
+              "end": 142.66,
+              "confidence": 0.2637,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 142.66,
+              "end": 143.22,
+              "confidence": 0.9861,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 143.3,
+              "end": 143.9,
+              "confidence": 0.9888,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_007",
+      "label": "Outro",
+      "start": 144.64,
+      "end": 162.84,
+      "confidence": 0.4127,
+      "lines": [
+        {
+          "line_id": "section_007_line_001",
+          "source_line": 59,
+          "original_text": "Comin' long ways (long ways, long ways)",
+          "lead_text": "Comin' long ways",
+          "adlibs": [
+            "long ways, long ways"
+          ],
+          "start": 144.64,
+          "end": 146.1,
+          "confidence": 0.8827,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.4137
+          },
+          "acoustic_start": 144.64,
+          "acoustic_end": 146.1,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "comin",
+              "start": 144.64,
+              "end": 145.2,
+              "confidence": 0.1466,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "long",
+              "start": 145.2,
+              "end": 145.66,
+              "confidence": 0.1962,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ways",
+              "start": 145.66,
+              "end": 146.1,
+              "confidence": 0.8984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_002",
+          "source_line": 60,
+          "original_text": "Up, up, never down (skrrt)",
+          "lead_text": "Up, up, never down",
+          "adlibs": [
+            "skrrt"
+          ],
+          "start": 150.58,
+          "end": 150.9,
+          "confidence": 0.821,
+          "matched_tokens": 2,
+          "confidence_components": {
+            "token_coverage": 0.5,
+            "lexical_match": 1.0,
+            "temporal_consistency": 1.0,
+            "acoustic_support": 0.9798
+          },
+          "acoustic_start": 150.58,
+          "acoustic_end": 150.9,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "up",
+              "start": 150.58,
+              "end": 150.58,
+              "confidence": 0.981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 150.58,
+              "end": 150.9,
+              "confidence": 0.9787,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 150.74,
+              "end": 150.82,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "down",
+              "start": 150.82,
+              "end": 150.9,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_003",
+          "source_line": 61,
+          "original_text": "Whole gang with me, we runnin' the town",
+          "lead_text": "Whole gang with me, we runnin' the town",
+          "adlibs": [],
+          "start": 150.9,
+          "end": 154.88,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 150.9,
+          "acoustic_end": 154.88,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "whole",
+              "start": 150.9,
+              "end": 151.398,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gang",
+              "start": 151.398,
+              "end": 151.895,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 151.895,
+              "end": 152.393,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 152.393,
+              "end": 152.89,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 152.89,
+              "end": 153.387,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "runnin",
+              "start": 153.387,
+              "end": 153.885,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 153.885,
+              "end": 154.382,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "town",
+              "start": 154.382,
+              "end": 154.88,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_004",
+          "source_line": 62,
+          "original_text": "From the dirt to the stars, yeah we figured it out",
+          "lead_text": "From the dirt to the stars, yeah we figured it out",
+          "adlibs": [],
+          "start": 154.88,
+          "end": 158.86,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 154.88,
+          "acoustic_end": 158.86,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "from",
+              "start": 154.88,
+              "end": 155.242,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 155.242,
+              "end": 155.604,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "dirt",
+              "start": 155.604,
+              "end": 155.965,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 155.965,
+              "end": 156.327,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 156.327,
+              "end": 156.689,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "stars",
+              "start": 156.689,
+              "end": 157.051,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 157.051,
+              "end": 157.413,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "we",
+              "start": 157.413,
+              "end": 157.775,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "figured",
+              "start": 157.775,
+              "end": 158.136,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 158.136,
+              "end": 158.498,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "out",
+              "start": 158.498,
+              "end": 158.86,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_005",
+          "source_line": 63,
+          "original_text": "(What? Yeah, long ways baby)",
+          "lead_text": "",
+          "adlibs": [
+            "What? Yeah, long ways baby"
+          ],
+          "start": 158.86,
+          "end": 162.84,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0,
+            "lexical_match": 0.0,
+            "temporal_consistency": 0.0,
+            "acoustic_support": 0.0
+          },
+          "acoustic_start": 158.86,
+          "acoustic_end": 162.84,
+          "total_tokens": 0,
+          "words": []
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "asr_token_count": 577,
+    "authoritative_token_count": 429,
+    "token_alignment_coverage": 0.7832167832167832,
+    "unresolved_authoritative_tokens": 93,
+    "line_alignment_coverage": 0.8571428571428571,
+    "line_acoustic_coverage": 0.8571428571428571,
+    "lead_line_acoustic_coverage": 0.96,
+    "adlib_only_line_count": 6,
+    "token_acoustic_coverage": 0.7832167832167832,
+    "audio_duration_seconds": 162.84,
+    "authoritative_section_count": 7,
+    "authoritative_line_count": 56,
+    "model": "base.en",
+    "device": "cpu",
+    "stage_runtime_seconds": 79.016,
+    "stage_runtimes_seconds": {
+      "parse": 0.0008,
+      "asr": 77.09,
+      "alignment_and_export": 1.925
+    },
+    "asr_cached": false
+  },
+  "authoritative_lyrics": {
+    "path": "/home/User/legendary_trap/input/lyrics/commin_long_ways.txt",
+    "sha256": "946034177fd378a484f40bbdd217759a5dc04890e3dff81ec23c25791141e647"
+  }
+}

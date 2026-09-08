@@ -1,0 +1,45 @@
+{
+  "song_id": "chokehold",
+  "old_estimated_lines": 31,
+  "new_estimated_lines": 5,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_002_line_001",
+    "section_002_line_002",
+    "section_006_line_002",
+    "section_006_line_004"
+  ],
+  "authoritative_lead_lines": 30,
+  "direct_lead_lines": 26,
+  "direct_lead_line_coverage": 0.8666666666666667,
+  "direct_tokens": 261,
+  "authoritative_tokens": 303,
+  "direct_token_coverage": 0.8613861386138614,
+  "high_capacity_recovered_lines": 0,
+  "high_capacity_applied_line_ids": [],
+  "duration_seconds": 130.032,
+  "render_runtime_seconds": 51.285,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "5 low-confidence lines"
+    ],
+    "line_count": 31,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_002_line_001",
+      "section_002_line_002",
+      "section_006_line_002",
+      "section_006_line_004"
+    ],
+    "authoritative_sha256": "0f6f3226360fb2fc2956730182f8340df3d3b58b82419650accde110fd17445e"
+  },
+  "video": "output/chokehold/chokehold.mp4",
+  "subtitles": [
+    "output/chokehold/chokehold.ass",
+    "output/chokehold/chokehold.srt",
+    "output/chokehold/chokehold.vtt"
+  ],
+  "timing": "output/chokehold/render_timing.json"
+}

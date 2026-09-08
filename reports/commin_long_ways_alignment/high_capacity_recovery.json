@@ -1,0 +1,2197 @@
+{
+  "recovery": {
+    "song_id": "commin_long_ways",
+    "model": "distil-whisper/distil-large-v3-ct2",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "prompting": false,
+    "load_seconds": 4.642159505747259,
+    "runtime_seconds": 25.057403863873333,
+    "groups": [
+      {
+        "group_id": "early_passage",
+        "window": [
+          0.0,
+          36.0
+        ],
+        "line_ids": [
+          "section_001_line_001",
+          "section_001_line_002",
+          "section_001_line_003",
+          "section_001_line_004",
+          "section_002_line_001",
+          "section_002_line_002",
+          "section_002_line_003",
+          "section_002_line_004",
+          "section_002_line_005",
+          "section_002_line_006",
+          "section_002_line_007",
+          "section_002_line_008"
+        ],
+        "load_seconds": 4.642159505747259,
+        "inference_seconds": 12.201812848914415,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 1.34,
+            "end": 3.56,
+            "text": " Coming long way, long ways",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Coming",
+                "start": 1.34,
+                "end": 1.9,
+                "probability": 0.5813567638397217
+              },
+              {
+                "text": "long",
+                "start": 1.9,
+                "end": 2.44,
+                "probability": 0.8943250775337219
+              },
+              {
+                "text": "way,",
+                "start": 2.44,
+                "end": 2.8,
+                "probability": 0.48646000027656555
+              },
+              {
+                "text": "long",
+                "start": 2.86,
+                "end": 3.06,
+                "probability": 0.9801076650619507
+              },
+              {
+                "text": "ways",
+                "start": 3.06,
+                "end": 3.56,
+                "probability": 0.9469943046569824
+              }
+            ]
+          },
+          {
+            "start": 3.56,
+            "end": 6.48,
+            "text": " From the dirt, now we're up, no debate",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "From",
+                "start": 3.56,
+                "end": 4.46,
+                "probability": 0.7225865125656128
+              },
+              {
+                "text": "the",
+                "start": 4.46,
+                "end": 4.74,
+                "probability": 0.9973567724227905
+              },
+              {
+                "text": "dirt,",
+                "start": 4.74,
+                "end": 4.9,
+                "probability": 0.9950396418571472
+              },
+              {
+                "text": "now",
+                "start": 5.24,
+                "end": 5.24,
+                "probability": 0.9880167245864868
+              },
+              {
+                "text": "we're",
+                "start": 5.24,
+                "end": 5.62,
+                "probability": 0.6640801429748535
+              },
+              {
+                "text": "up,",
+                "start": 5.62,
+                "end": 5.68,
+                "probability": 0.9980469942092896
+              },
+              {
+                "text": "no",
+                "start": 5.76,
+                "end": 5.88,
+                "probability": 0.9885537624359131
+              },
+              {
+                "text": "debate",
+                "start": 5.88,
+                "end": 6.48,
+                "probability": 0.778127133846283
+              }
+            ]
+          },
+          {
+            "start": 11.12,
+            "end": 12.64,
+            "text": " Coming long ways",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Coming",
+                "start": 11.12,
+                "end": 11.68,
+                "probability": 0.5216457843780518
+              },
+              {
+                "text": "long",
+                "start": 11.68,
+                "end": 12.14,
+                "probability": 0.9716113805770874
+              },
+              {
+                "text": "ways",
+                "start": 12.14,
+                "end": 12.64,
+                "probability": 0.9924299120903015
+              }
+            ]
+          },
+          {
+            "start": 12.64,
+            "end": 15.5,
+            "text": " Yeah, I flip the script, from the trenches to the lights,",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Yeah,",
+                "start": 12.64,
+                "end": 13.14,
+                "probability": 0.434802770614624
+              },
+              {
+                "text": "I",
+                "start": 13.38,
+                "end": 13.38,
+                "probability": 0.9530946016311646
+              },
+              {
+                "text": "flip",
+                "start": 13.38,
+                "end": 13.48,
+                "probability": 0.6010117530822754
+              },
+              {
+                "text": "the",
+                "start": 13.48,
+                "end": 13.64,
+                "probability": 0.9472883939743042
+              },
+              {
+                "text": "script,",
+                "start": 13.64,
+                "end": 13.92,
+                "probability": 0.9968036413192749
+              },
+              {
+                "text": "from",
+                "start": 14.18,
+                "end": 14.26,
+                "probability": 0.8078445792198181
+              },
+              {
+                "text": "the",
+                "start": 14.26,
+                "end": 14.48,
+                "probability": 0.9990535378456116
+              },
+              {
+                "text": "trenches",
+                "start": 14.48,
+                "end": 14.7,
+                "probability": 0.9962538480758667
+              },
+              {
+                "text": "to",
+                "start": 14.7,
+                "end": 14.98,
+                "probability": 0.9966744184494019
+              },
+              {
+                "text": "the",
+                "start": 14.98,
+                "end": 15.14,
+                "probability": 0.9995457530021667
+              },
+              {
+                "text": "lights,",
+                "start": 15.14,
+                "end": 15.5,
+                "probability": 0.9850496649742126
+              }
+            ]
+          },
+          {
+            "start": 15.66,
+            "end": 18.64,
+            "text": " Watch the whole city flip, pockets full of blue faces",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Watch",
+                "start": 15.66,
+                "end": 15.74,
+                "probability": 0.30538269877433777
+              },
+              {
+                "text": "the",
+                "start": 15.74,
+                "end": 15.94,
+                "probability": 0.9977052807807922
+              },
+              {
+                "text": "whole",
+                "start": 15.94,
+                "end": 16.22,
+                "probability": 0.9986332058906555
+              },
+              {
+                "text": "city",
+                "start": 16.22,
+                "end": 16.54,
+                "probability": 0.9929157495498657
+              },
+              {
+                "text": "flip,",
+                "start": 16.54,
+                "end": 16.86,
+                "probability": 0.9691805839538574
+              },
+              {
+                "text": "pockets",
+                "start": 17.16,
+                "end": 17.28,
+                "probability": 0.0010885238880291581
+              },
+              {
+                "text": "full",
+                "start": 17.28,
+                "end": 17.58,
+                "probability": 0.9948480129241943
+              },
+              {
+                "text": "of",
+                "start": 17.58,
+                "end": 17.72,
+                "probability": 0.9964537620544434
+              },
+              {
+                "text": "blue",
+                "start": 17.72,
+                "end": 18.02,
+                "probability": 0.9975626468658447
+              },
+              {
+                "text": "faces",
+                "start": 18.02,
+                "end": 18.64,
+                "probability": 0.9829933643341064
+              }
+            ]
+          },
+          {
+            "start": 18.64,
+            "end": 22.96,
+            "text": " Stacking like a brick, haters talking sideways, but they know how that shit",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Stacking",
+                "start": 18.64,
+                "end": 19.18,
+                "probability": 0.653224989771843
+              },
+              {
+                "text": "like",
+                "start": 19.18,
+                "end": 19.52,
+                "probability": 0.9988201260566711
+              },
+              {
+                "text": "a",
+                "start": 19.52,
+                "end": 19.74,
+                "probability": 0.9994157552719116
+              },
+              {
+                "text": "brick,",
+                "start": 19.74,
+                "end": 19.92,
+                "probability": 0.9923641681671143
+              },
+              {
+                "text": "haters",
+                "start": 20.14,
+                "end": 20.36,
+                "probability": 0.9406127333641052
+              },
+              {
+                "text": "talking",
+                "start": 20.36,
+                "end": 20.68,
+                "probability": 0.8966501951217651
+              },
+              {
+                "text": "sideways,",
+                "start": 20.68,
+                "end": 21.36,
+                "probability": 0.9670356512069702
+              },
+              {
+                "text": "but",
+                "start": 21.68,
+                "end": 21.7,
+                "probability": 0.8383905291557312
+              },
+              {
+                "text": "they",
+                "start": 21.7,
+                "end": 21.84,
+                "probability": 0.9993183612823486
+              },
+              {
+                "text": "know",
+                "start": 21.84,
+                "end": 22.14,
+                "probability": 0.9990774393081665
+              },
+              {
+                "text": "how",
+                "start": 22.14,
+                "end": 22.34,
+                "probability": 0.652387261390686
+              },
+              {
+                "text": "that",
+                "start": 22.34,
+                "end": 22.64,
+                "probability": 0.8369797468185425
+              },
+              {
+                "text": "shit",
+                "start": 22.64,
+                "end": 22.96,
+                "probability": 0.9944288730621338
+              }
+            ]
+          },
+          {
+            "start": 22.96,
+            "end": 24.58,
+            "text": " Coming long way,",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Coming",
+                "start": 22.96,
+                "end": 23.64,
+                "probability": 0.3001294434070587
+              },
+              {
+                "text": "long",
+                "start": 23.64,
+                "end": 24.18,
+                "probability": 0.8945346474647522
+              },
+              {
+                "text": "way,",
+                "start": 24.18,
+                "end": 24.58,
+                "probability": 0.9796623587608337
+              }
+            ]
+          },
+          {
+            "start": 25.12,
+            "end": 28.98,
+            "text": " Wying with the game, VVS, dripping heavy, put the pain in the bank",
+            "avg_logprob": -0.32082996356721016,
+            "no_speech_prob": 0.12616302073001862,
+            "words": [
+              {
+                "text": "Wying",
+                "start": 25.12,
+                "end": 25.24,
+                "probability": 0.46702946769073606
+              },
+              {
+                "text": "with",
+                "start": 25.24,
+                "end": 25.48,
+                "probability": 0.9987334609031677
+              },
+              {
+                "text": "the",
+                "start": 25.48,
+                "end": 25.58,
+                "probability": 0.9895804524421692
+              },
+              {
+                "text": "game,",
+                "start": 25.58,
+                "end": 25.96,
+                "probability": 0.8948360085487366
+              },
+              {
+                "text": "VVS,",
+                "start": 26.16,
+                "end": 26.66,
+                "probability": 0.7935590545336405
+              },
+              {
+                "text": "dripping",
+                "start": 27.04,
+                "end": 27.04,
+                "probability": 0.9497010707855225
+              },
+              {
+                "text": "heavy,",
+                "start": 27.04,
+                "end": 27.42,
+                "probability": 0.999365508556366
+              },
+              {
+                "text": "put",
+                "start": 27.6,
+                "end": 27.7,
+                "probability": 0.9503796696662903
+              },
+              {
+                "text": "the",
+                "start": 27.7,
+                "end": 27.86,
+                "probability": 0.9991224408149719
+              },
+              {
+                "text": "pain",
+                "start": 27.86,
+                "end": 28.28,
+                "probability": 0.9963556528091431
+              },
+              {
+                "text": "in",
+                "start": 28.28,
+                "end": 28.48,
+                "probability": 0.9988598823547363
+              },
+              {
+                "text": "the",
+                "start": 28.48,
+                "end": 28.58,
+                "probability": 0.9905197620391846
+              },
+              {
+                "text": "bank",
+                "start": 28.58,
+                "end": 28.98,
+                "probability": 0.9939735531806946
+              }
+            ]
+          },
+          {
+            "start": 28.98,
+            "end": 35.98,
+            "text": " long way we're looking back with the fake love we just counting up the race started in",
+            "avg_logprob": -0.3076627708616711,
+            "no_speech_prob": 0.08716430515050888,
+            "words": [
+              {
+                "text": "long",
+                "start": 28.98,
+                "end": 30.02,
+                "probability": 0.07889506220817566
+              },
+              {
+                "text": "way",
+                "start": 30.02,
+                "end": 30.58,
+                "probability": 0.9859355688095093
+              },
+              {
+                "text": "we're",
+                "start": 30.58,
+                "end": 31.24,
+                "probability": 0.7173759043216705
+              },
+              {
+                "text": "looking",
+                "start": 31.24,
+                "end": 31.52,
+                "probability": 0.9161450266838074
+              },
+              {
+                "text": "back",
+                "start": 31.52,
+                "end": 31.96,
+                "probability": 0.9915382862091064
+              },
+              {
+                "text": "with",
+                "start": 31.96,
+                "end": 32.22,
+                "probability": 0.357706218957901
+              },
+              {
+                "text": "the",
+                "start": 32.22,
+                "end": 32.34,
+                "probability": 0.9541938304901123
+              },
+              {
+                "text": "fake",
+                "start": 32.34,
+                "end": 32.72,
+                "probability": 0.8999022245407104
+              },
+              {
+                "text": "love",
+                "start": 32.72,
+                "end": 33.2,
+                "probability": 0.9816122651100159
+              },
+              {
+                "text": "we",
+                "start": 33.2,
+                "end": 33.72,
+                "probability": 0.9802979826927185
+              },
+              {
+                "text": "just",
+                "start": 33.72,
+                "end": 33.96,
+                "probability": 0.8803067803382874
+              },
+              {
+                "text": "counting",
+                "start": 33.96,
+                "end": 34.24,
+                "probability": 0.8556874394416809
+              },
+              {
+                "text": "up",
+                "start": 34.24,
+                "end": 34.48,
+                "probability": 0.5018447637557983
+              },
+              {
+                "text": "the",
+                "start": 34.48,
+                "end": 34.6,
+                "probability": 0.991685688495636
+              },
+              {
+                "text": "race",
+                "start": 34.6,
+                "end": 35.04,
+                "probability": 0.8173888325691223
+              },
+              {
+                "text": "started",
+                "start": 35.04,
+                "end": 35.72,
+                "probability": 0.8133285641670227
+              },
+              {
+                "text": "in",
+                "start": 35.72,
+                "end": 35.98,
+                "probability": 0.9735966324806213
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 83,
+        "authoritative_token_count": 82,
+        "matched_tokens": 78,
+        "coverage": 0.9512195121951219,
+        "unresolved_tokens": 4,
+        "lines": [
+          {
+            "line_id": "section_001_line_001",
+            "authoritative_text": "(Yeah, uh)",
+            "lead_text": "",
+            "matched_tokens": 0,
+            "total_tokens": 0,
+            "coverage": 1.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_001_line_002",
+            "authoritative_text": "Comin' long ways, long ways",
+            "lead_text": "Comin' long ways, long ways",
+            "matched_tokens": 5,
+            "total_tokens": 5,
+            "coverage": 1.0,
+            "start": 1.34,
+            "end": 3.56,
+            "probability_mean": 0.7778487622737884,
+            "words": [
+              {
+                "text": "comin",
+                "start": 1.34,
+                "end": 1.9,
+                "probability": 0.5813567638397217,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "long",
+                "start": 1.9,
+                "end": 2.44,
+                "probability": 0.8943250775337219,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 2.44,
+                "end": 2.8,
+                "probability": 0.48646000027656555,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "long",
+                "start": 2.86,
+                "end": 3.06,
+                "probability": 0.9801076650619507,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 3.06,
+                "end": 3.56,
+                "probability": 0.9469943046569824,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_001_line_003",
+            "authoritative_text": "(What? Skrrt)",
+            "lead_text": "",
+            "matched_tokens": 0,
+            "total_tokens": 0,
+            "coverage": 1.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_001_line_004",
+            "authoritative_text": "From the dirt, now we up, no debate",
+            "lead_text": "From the dirt, now we up, no debate",
+            "matched_tokens": 8,
+            "total_tokens": 8,
+            "coverage": 1.0,
+            "start": 3.56,
+            "end": 6.48,
+            "probability_mean": 0.8914759606122971,
+            "words": [
+              {
+                "text": "from",
+                "start": 3.56,
+                "end": 4.46,
+                "probability": 0.7225865125656128,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 4.46,
+                "end": 4.74,
+                "probability": 0.9973567724227905,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "dirt",
+                "start": 4.74,
+                "end": 4.9,
+                "probability": 0.9950396418571472,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "now",
+                "start": 5.24,
+                "end": 5.24,
+                "probability": 0.9880167245864868,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 5.24,
+                "end": 5.62,
+                "probability": 0.6640801429748535,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "up",
+                "start": 5.62,
+                "end": 5.68,
+                "probability": 0.9980469942092896,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "no",
+                "start": 5.76,
+                "end": 5.88,
+                "probability": 0.9885537624359131,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "debate",
+                "start": 5.88,
+                "end": 6.48,
+                "probability": 0.778127133846283,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_001",
+            "authoritative_text": "Comin' long ways, yeah, I flipped the script",
+            "lead_text": "Comin' long ways, yeah, I flipped the script",
+            "matched_tokens": 8,
+            "total_tokens": 8,
+            "coverage": 1.0,
+            "start": 11.12,
+            "end": 13.92,
+            "probability_mean": 0.8023360297083855,
+            "words": [
+              {
+                "text": "comin",
+                "start": 11.12,
+                "end": 11.68,
+                "probability": 0.5216457843780518,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "long",
+                "start": 11.68,
+                "end": 12.14,
+                "probability": 0.9716113805770874,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 12.14,
+                "end": 12.64,
+                "probability": 0.9924299120903015,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "yeah",
+                "start": 12.64,
+                "end": 13.14,
+                "probability": 0.434802770614624,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i",
+                "start": 13.38,
+                "end": 13.38,
+                "probability": 0.9530946016311646,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "flipped",
+                "start": 13.38,
+                "end": 13.48,
+                "probability": 0.6010117530822754,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 13.48,
+                "end": 13.64,
+                "probability": 0.9472883939743042,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "script",
+                "start": 13.64,
+                "end": 13.92,
+                "probability": 0.9968036413192749,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_002",
+            "authoritative_text": "From the trenches to the lights, watch the whole city flip",
+            "lead_text": "From the trenches to the lights, watch the whole city flip",
+            "matched_tokens": 11,
+            "total_tokens": 11,
+            "coverage": 1.0,
+            "start": 14.18,
+            "end": 16.86,
+            "probability_mean": 0.9134763018651442,
+            "words": [
+              {
+                "text": "from",
+                "start": 14.18,
+                "end": 14.26,
+                "probability": 0.8078445792198181,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 14.26,
+                "end": 14.48,
+                "probability": 0.9990535378456116,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "trenches",
+                "start": 14.48,
+                "end": 14.7,
+                "probability": 0.9962538480758667,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "to",
+                "start": 14.7,
+                "end": 14.98,
+                "probability": 0.9966744184494019,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 14.98,
+                "end": 15.14,
+                "probability": 0.9995457530021667,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "lights",
+                "start": 15.14,
+                "end": 15.5,
+                "probability": 0.9850496649742126,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "watch",
+                "start": 15.66,
+                "end": 15.74,
+                "probability": 0.30538269877433777,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 15.74,
+                "end": 15.94,
+                "probability": 0.9977052807807922,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "whole",
+                "start": 15.94,
+                "end": 16.22,
+                "probability": 0.9986332058906555,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "city",
+                "start": 16.22,
+                "end": 16.54,
+                "probability": 0.9929157495498657,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "flip",
+                "start": 16.54,
+                "end": 16.86,
+                "probability": 0.9691805839538574,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_003",
+            "authoritative_text": "Pockets full of blue faces, stackin' like a brick",
+            "lead_text": "Pockets full of blue faces, stackin' like a brick",
+            "matched_tokens": 9,
+            "total_tokens": 9,
+            "coverage": 1.0,
+            "start": 17.16,
+            "end": 19.92,
+            "probability_mean": 0.8463079277037954,
+            "words": [
+              {
+                "text": "pockets",
+                "start": 17.16,
+                "end": 17.28,
+                "probability": 0.0010885238880291581,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "full",
+                "start": 17.28,
+                "end": 17.58,
+                "probability": 0.9948480129241943,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "of",
+                "start": 17.58,
+                "end": 17.72,
+                "probability": 0.9964537620544434,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "blue",
+                "start": 17.72,
+                "end": 18.02,
+                "probability": 0.9975626468658447,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "faces",
+                "start": 18.02,
+                "end": 18.64,
+                "probability": 0.9829933643341064,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "stackin",
+                "start": 18.64,
+                "end": 19.18,
+                "probability": 0.653224989771843,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "like",
+                "start": 19.18,
+                "end": 19.52,
+                "probability": 0.9988201260566711,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "a",
+                "start": 19.52,
+                "end": 19.74,
+                "probability": 0.9994157552719116,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "brick",
+                "start": 19.74,
+                "end": 19.92,
+                "probability": 0.9923641681671143,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_004",
+            "authoritative_text": "Haters talkin' sideways, but they know I'm that shit",
+            "lead_text": "Haters talkin' sideways, but they know I'm that shit",
+            "matched_tokens": 8,
+            "total_tokens": 9,
+            "coverage": 0.8888888888888888,
+            "start": 20.14,
+            "end": 22.96,
+            "probability_mean": 0.9340616911649704,
+            "words": [
+              {
+                "text": "haters",
+                "start": 20.14,
+                "end": 20.36,
+                "probability": 0.9406127333641052,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "talkin",
+                "start": 20.36,
+                "end": 20.68,
+                "probability": 0.8966501951217651,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "sideways",
+                "start": 20.68,
+                "end": 21.36,
+                "probability": 0.9670356512069702,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "but",
+                "start": 21.68,
+                "end": 21.7,
+                "probability": 0.8383905291557312,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "they",
+                "start": 21.7,
+                "end": 21.84,
+                "probability": 0.9993183612823486,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "know",
+                "start": 21.84,
+                "end": 22.14,
+                "probability": 0.9990774393081665,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "that",
+                "start": 22.34,
+                "end": 22.64,
+                "probability": 0.8369797468185425,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "shit",
+                "start": 22.64,
+                "end": 22.96,
+                "probability": 0.9944288730621338,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_005",
+            "authoritative_text": "Comin' long ways (long ways), ridin' with the gang",
+            "lead_text": "Comin' long ways, ridin' with the gang",
+            "matched_tokens": 6,
+            "total_tokens": 7,
+            "coverage": 0.8571428571428571,
+            "start": 22.96,
+            "end": 25.96,
+            "probability_mean": 0.8429127285877863,
+            "words": [
+              {
+                "text": "comin",
+                "start": 22.96,
+                "end": 23.64,
+                "probability": 0.3001294434070587,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "long",
+                "start": 23.64,
+                "end": 24.18,
+                "probability": 0.8945346474647522,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 24.18,
+                "end": 24.58,
+                "probability": 0.9796623587608337,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "with",
+                "start": 25.24,
+                "end": 25.48,
+                "probability": 0.9987334609031677,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 25.48,
+                "end": 25.58,
+                "probability": 0.9895804524421692,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "gang",
+                "start": 25.58,
+                "end": 25.96,
+                "probability": 0.8948360085487366,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_006",
+            "authoritative_text": "VVS drippin' heavy, put the pain in the bank",
+            "lead_text": "VVS drippin' heavy, put the pain in the bank",
+            "matched_tokens": 9,
+            "total_tokens": 9,
+            "coverage": 1.0,
+            "start": 26.16,
+            "end": 28.98,
+            "probability_mean": 0.9635373994156166,
+            "words": [
+              {
+                "text": "vvs",
+                "start": 26.16,
+                "end": 26.66,
+                "probability": 0.7935590545336405,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "drippin",
+                "start": 27.04,
+                "end": 27.04,
+                "probability": 0.9497010707855225,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "heavy",
+                "start": 27.04,
+                "end": 27.42,
+                "probability": 0.999365508556366,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "put",
+                "start": 27.6,
+                "end": 27.7,
+                "probability": 0.9503796696662903,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 27.7,
+                "end": 27.86,
+                "probability": 0.9991224408149719,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "pain",
+                "start": 27.86,
+                "end": 28.28,
+                "probability": 0.9963556528091431,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "in",
+                "start": 28.28,
+                "end": 28.48,
+                "probability": 0.9988598823547363,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 28.48,
+                "end": 28.58,
+                "probability": 0.9905197620391846,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "bank",
+                "start": 28.58,
+                "end": 28.98,
+                "probability": 0.9939735531806946,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_007",
+            "authoritative_text": "Long ways (long ways), we ain't lookin' back",
+            "lead_text": "Long ways, we ain't lookin' back",
+            "matched_tokens": 5,
+            "total_tokens": 6,
+            "coverage": 0.8333333333333334,
+            "start": 28.98,
+            "end": 31.96,
+            "probability_mean": 0.7379779696464539,
+            "words": [
+              {
+                "text": "long",
+                "start": 28.98,
+                "end": 30.02,
+                "probability": 0.07889506220817566,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 30.02,
+                "end": 30.58,
+                "probability": 0.9859355688095093,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 30.58,
+                "end": 31.24,
+                "probability": 0.7173759043216705,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "lookin",
+                "start": 31.24,
+                "end": 31.52,
+                "probability": 0.9161450266838074,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "back",
+                "start": 31.52,
+                "end": 31.96,
+                "probability": 0.9915382862091064,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_002_line_008",
+            "authoritative_text": "Fuck the fake love, we just countin' up the racks",
+            "lead_text": "Fuck the fake love, we just countin' up the racks",
+            "matched_tokens": 9,
+            "total_tokens": 10,
+            "coverage": 0.9,
+            "start": 32.22,
+            "end": 35.04,
+            "probability_mean": 0.8736577563815646,
+            "words": [
+              {
+                "text": "the",
+                "start": 32.22,
+                "end": 32.34,
+                "probability": 0.9541938304901123,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "fake",
+                "start": 32.34,
+                "end": 32.72,
+                "probability": 0.8999022245407104,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "love",
+                "start": 32.72,
+                "end": 33.2,
+                "probability": 0.9816122651100159,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 33.2,
+                "end": 33.72,
+                "probability": 0.9802979826927185,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "just",
+                "start": 33.72,
+                "end": 33.96,
+                "probability": 0.8803067803382874,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "countin",
+                "start": 33.96,
+                "end": 34.24,
+                "probability": 0.8556874394416809,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "up",
+                "start": 34.24,
+                "end": 34.48,
+                "probability": 0.5018447637557983,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 34.48,
+                "end": 34.6,
+                "probability": 0.991685688495636,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "racks",
+                "start": 34.6,
+                "end": 35.04,
+                "probability": 0.8173888325691223,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "late_passage",
+        "window": [
+          130.0,
+          162.84
+        ],
+        "line_ids": [
+          "section_007_line_001",
+          "section_007_line_002",
+          "section_007_line_003",
+          "section_007_line_004"
+        ],
+        "load_seconds": 4.642159505747259,
+        "inference_seconds": 12.622091724071652,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 130.0,
+            "end": 131.3,
+            "text": " World watch the shows",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "World",
+                "start": 130.0,
+                "end": 130.28,
+                "probability": 0.9144331216812134
+              },
+              {
+                "text": "watch",
+                "start": 130.28,
+                "end": 130.7,
+                "probability": 0.17355649173259735
+              },
+              {
+                "text": "the",
+                "start": 130.7,
+                "end": 130.84,
+                "probability": 0.991828441619873
+              },
+              {
+                "text": "shows",
+                "start": 130.84,
+                "end": 131.3,
+                "probability": 0.6008790731430054
+              }
+            ]
+          },
+          {
+            "start": 131.3,
+            "end": 132.02,
+            "text": " Long way",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Long",
+                "start": 131.3,
+                "end": 131.74,
+                "probability": 0.13214847445487976
+              },
+              {
+                "text": "way",
+                "start": 131.74,
+                "end": 132.13,
+                "probability": 0.7847650051116943
+              }
+            ]
+          },
+          {
+            "start": 133.08,
+            "end": 135.74,
+            "text": " We came too far to fall",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "We",
+                "start": 133.08,
+                "end": 133.86,
+                "probability": 0.16564568877220154
+              },
+              {
+                "text": "came",
+                "start": 133.86,
+                "end": 134.26,
+                "probability": 0.9952495098114014
+              },
+              {
+                "text": "too",
+                "start": 134.26,
+                "end": 134.56,
+                "probability": 0.9882624745368958
+              },
+              {
+                "text": "far",
+                "start": 134.56,
+                "end": 135.24,
+                "probability": 0.9972846508026123
+              },
+              {
+                "text": "to",
+                "start": 135.24,
+                "end": 135.4,
+                "probability": 0.9150126576423645
+              },
+              {
+                "text": "fall",
+                "start": 135.4,
+                "end": 135.74,
+                "probability": 0.4566659927368164
+              }
+            ]
+          },
+          {
+            "start": 135.74,
+            "end": 137.28,
+            "text": " Too far to fall",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Too",
+                "start": 135.74,
+                "end": 136.34,
+                "probability": 0.8928552269935608
+              },
+              {
+                "text": "far",
+                "start": 136.34,
+                "end": 136.76,
+                "probability": 0.9974398612976074
+              },
+              {
+                "text": "to",
+                "start": 136.76,
+                "end": 136.88,
+                "probability": 0.8910043239593506
+              },
+              {
+                "text": "fall",
+                "start": 136.88,
+                "end": 137.28,
+                "probability": 0.2258765697479248
+              }
+            ]
+          },
+          {
+            "start": 137.28,
+            "end": 140.18,
+            "text": " Fuck all the doubt",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Fuck",
+                "start": 137.28,
+                "end": 138.58,
+                "probability": 0.1917782425880432
+              },
+              {
+                "text": "all",
+                "start": 138.58,
+                "end": 139.64,
+                "probability": 0.9723913073539734
+              },
+              {
+                "text": "the",
+                "start": 139.64,
+                "end": 139.86,
+                "probability": 0.9961812496185303
+              },
+              {
+                "text": "doubt",
+                "start": 139.86,
+                "end": 140.18,
+                "probability": 0.989824116230011
+              }
+            ]
+          },
+          {
+            "start": 140.18,
+            "end": 141.72,
+            "text": " We own the route",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "We",
+                "start": 140.18,
+                "end": 140.74,
+                "probability": 0.8577559590339661
+              },
+              {
+                "text": "own",
+                "start": 140.74,
+                "end": 141.14,
+                "probability": 0.8773077726364136
+              },
+              {
+                "text": "the",
+                "start": 141.14,
+                "end": 141.4,
+                "probability": 0.8615444898605347
+              },
+              {
+                "text": "route",
+                "start": 141.4,
+                "end": 141.72,
+                "probability": 0.9831296801567078
+              }
+            ]
+          },
+          {
+            "start": 141.72,
+            "end": 143.66,
+            "text": " Coming long way",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Coming",
+                "start": 141.72,
+                "end": 142.32,
+                "probability": 0.6889458298683167
+              },
+              {
+                "text": "long",
+                "start": 142.32,
+                "end": 142.74,
+                "probability": 0.9212101697921753
+              },
+              {
+                "text": "way",
+                "start": 142.74,
+                "end": 143.66,
+                "probability": 0.993261992931366
+              }
+            ]
+          },
+          {
+            "start": 143.66,
+            "end": 143.94,
+            "text": " Yeah",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Yeah",
+                "start": 143.66,
+                "end": 143.94,
+                "probability": 0.246488556265831
+              }
+            ]
+          },
+          {
+            "start": 146.9,
+            "end": 148.2,
+            "text": " Never down",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Never",
+                "start": 146.9,
+                "end": 147.68,
+                "probability": 0.0036330814473330975
+              },
+              {
+                "text": "down",
+                "start": 147.68,
+                "end": 148.2,
+                "probability": 0.898298442363739
+              }
+            ]
+          },
+          {
+            "start": 148.2,
+            "end": 149.86,
+            "text": " Whole game with me",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Whole",
+                "start": 148.2,
+                "end": 149.1,
+                "probability": 0.0070183309726417065
+              },
+              {
+                "text": "game",
+                "start": 149.1,
+                "end": 149.44,
+                "probability": 0.8992102146148682
+              },
+              {
+                "text": "with",
+                "start": 149.44,
+                "end": 149.68,
+                "probability": 0.9744150042533875
+              },
+              {
+                "text": "me",
+                "start": 149.68,
+                "end": 149.86,
+                "probability": 0.9995085000991821
+              }
+            ]
+          },
+          {
+            "start": 149.86,
+            "end": 151.22,
+            "text": " We're running the town",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "We're",
+                "start": 149.86,
+                "end": 150.26,
+                "probability": 0.6186366081237793
+              },
+              {
+                "text": "running",
+                "start": 150.26,
+                "end": 150.54,
+                "probability": 0.9351369738578796
+              },
+              {
+                "text": "the",
+                "start": 150.54,
+                "end": 150.76,
+                "probability": 0.7524347305297852
+              },
+              {
+                "text": "town",
+                "start": 150.76,
+                "end": 151.22,
+                "probability": 0.9980744123458862
+              }
+            ]
+          },
+          {
+            "start": 151.22,
+            "end": 152.86,
+            "text": " From the dirt to the stars",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "From",
+                "start": 151.22,
+                "end": 151.6,
+                "probability": 0.9604780673980713
+              },
+              {
+                "text": "the",
+                "start": 151.6,
+                "end": 151.68,
+                "probability": 0.998754620552063
+              },
+              {
+                "text": "dirt",
+                "start": 151.68,
+                "end": 152.02,
+                "probability": 0.998986542224884
+              },
+              {
+                "text": "to",
+                "start": 152.02,
+                "end": 152.3,
+                "probability": 0.9952194094657898
+              },
+              {
+                "text": "the",
+                "start": 152.3,
+                "end": 152.4,
+                "probability": 0.9994648098945618
+              },
+              {
+                "text": "stars",
+                "start": 152.4,
+                "end": 152.86,
+                "probability": 0.995805025100708
+              }
+            ]
+          },
+          {
+            "start": 152.86,
+            "end": 154.4,
+            "text": " Yeah we figured it out",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Yeah",
+                "start": 152.86,
+                "end": 153.1,
+                "probability": 0.8669329285621643
+              },
+              {
+                "text": "we",
+                "start": 153.1,
+                "end": 153.18,
+                "probability": 0.8716317415237427
+              },
+              {
+                "text": "figured",
+                "start": 153.18,
+                "end": 153.62,
+                "probability": 0.978166937828064
+              },
+              {
+                "text": "it",
+                "start": 153.62,
+                "end": 153.92,
+                "probability": 0.9966568946838379
+              },
+              {
+                "text": "out",
+                "start": 153.92,
+                "end": 154.4,
+                "probability": 0.9990046620368958
+              }
+            ]
+          },
+          {
+            "start": 154.4,
+            "end": 155.06,
+            "text": " What ya",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "What",
+                "start": 154.4,
+                "end": 154.58,
+                "probability": 0.7790308594703674
+              },
+              {
+                "text": "ya",
+                "start": 154.58,
+                "end": 155.06,
+                "probability": 0.3530188798904419
+              }
+            ]
+          },
+          {
+            "start": 156.44,
+            "end": 157.96,
+            "text": " Long ways baby",
+            "avg_logprob": -0.28611339455427126,
+            "no_speech_prob": 0.14145326614379883,
+            "words": [
+              {
+                "text": "Long",
+                "start": 156.44,
+                "end": 157.22,
+                "probability": 0.061628229916095734
+              },
+              {
+                "text": "ways",
+                "start": 157.22,
+                "end": 157.6,
+                "probability": 0.7266125679016113
+              },
+              {
+                "text": "baby",
+                "start": 157.6,
+                "end": 157.96,
+                "probability": 0.9538518190383911
+              }
+            ]
+          },
+          {
+            "start": 160.0,
+            "end": 162.02,
+            "text": " Thank you.",
+            "avg_logprob": -0.9136269489924113,
+            "no_speech_prob": 0.09982524812221527,
+            "words": [
+              {
+                "text": "Thank",
+                "start": 160.0,
+                "end": 160.0,
+                "probability": 0.027425410225987434
+              },
+              {
+                "text": "you.",
+                "start": 160.0,
+                "end": 162.02,
+                "probability": 0.9657094478607178
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 56,
+        "authoritative_token_count": 26,
+        "matched_tokens": 24,
+        "coverage": 0.9230769230769231,
+        "unresolved_tokens": 2,
+        "lines": [
+          {
+            "line_id": "section_007_line_001",
+            "authoritative_text": "Comin' long ways (long ways, long ways)",
+            "lead_text": "Comin' long ways",
+            "matched_tokens": 3,
+            "total_tokens": 3,
+            "coverage": 1.0,
+            "start": 141.72,
+            "end": 143.66,
+            "probability_mean": 0.8678059975306193,
+            "words": [
+              {
+                "text": "comin",
+                "start": 141.72,
+                "end": 142.32,
+                "probability": 0.6889458298683167,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "long",
+                "start": 142.32,
+                "end": 142.74,
+                "probability": 0.9212101697921753,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "ways",
+                "start": 142.74,
+                "end": 143.66,
+                "probability": 0.993261992931366,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_007_line_002",
+            "authoritative_text": "Up, up, never down (skrrt)",
+            "lead_text": "Up, up, never down",
+            "matched_tokens": 2,
+            "total_tokens": 4,
+            "coverage": 0.5,
+            "start": 146.9,
+            "end": 148.2,
+            "probability_mean": 0.45096576190553606,
+            "words": [
+              {
+                "text": "never",
+                "start": 146.9,
+                "end": 147.68,
+                "probability": 0.0036330814473330975,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "down",
+                "start": 147.68,
+                "end": 148.2,
+                "probability": 0.898298442363739,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_007_line_003",
+            "authoritative_text": "Whole gang with me, we runnin' the town",
+            "lead_text": "Whole gang with me, we runnin' the town",
+            "matched_tokens": 8,
+            "total_tokens": 8,
+            "coverage": 1.0,
+            "start": 148.2,
+            "end": 151.22,
+            "probability_mean": 0.7730543468496762,
+            "words": [
+              {
+                "text": "whole",
+                "start": 148.2,
+                "end": 149.1,
+                "probability": 0.0070183309726417065,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "gang",
+                "start": 149.1,
+                "end": 149.44,
+                "probability": 0.8992102146148682,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "with",
+                "start": 149.44,
+                "end": 149.68,
+                "probability": 0.9744150042533875,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "me",
+                "start": 149.68,
+                "end": 149.86,
+                "probability": 0.9995085000991821,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 149.86,
+                "end": 150.26,
+                "probability": 0.6186366081237793,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "runnin",
+                "start": 150.26,
+                "end": 150.54,
+                "probability": 0.9351369738578796,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 150.54,
+                "end": 150.76,
+                "probability": 0.7524347305297852,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "town",
+                "start": 150.76,
+                "end": 151.22,
+                "probability": 0.9980744123458862,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          },
+          {
+            "line_id": "section_007_line_004",
+            "authoritative_text": "From the dirt to the stars, yeah we figured it out",
+            "lead_text": "From the dirt to the stars, yeah we figured it out",
+            "matched_tokens": 11,
+            "total_tokens": 11,
+            "coverage": 1.0,
+            "start": 151.22,
+            "end": 154.4,
+            "probability_mean": 0.9691910581155256,
+            "words": [
+              {
+                "text": "from",
+                "start": 151.22,
+                "end": 151.6,
+                "probability": 0.9604780673980713,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 151.6,
+                "end": 151.68,
+                "probability": 0.998754620552063,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "dirt",
+                "start": 151.68,
+                "end": 152.02,
+                "probability": 0.998986542224884,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "to",
+                "start": 152.02,
+                "end": 152.3,
+                "probability": 0.9952194094657898,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "the",
+                "start": 152.3,
+                "end": 152.4,
+                "probability": 0.9994648098945618,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "stars",
+                "start": 152.4,
+                "end": 152.86,
+                "probability": 0.995805025100708,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "yeah",
+                "start": 152.86,
+                "end": 153.1,
+                "probability": 0.8669329285621643,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "we",
+                "start": 153.1,
+                "end": 153.18,
+                "probability": 0.8716317415237427,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "figured",
+                "start": 153.18,
+                "end": 153.62,
+                "probability": 0.978166937828064,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "it",
+                "start": 153.62,
+                "end": 153.92,
+                "probability": 0.9966568946838379,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "out",
+                "start": 153.92,
+                "end": 154.4,
+                "probability": 0.9990046620368958,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "line_id": "section_001_line_004",
+      "matched_tokens": 8,
+      "total_tokens": 8,
+      "start": 3.56,
+      "end": 6.48,
+      "probability_mean": 0.8914759606122971
+    },
+    {
+      "line_id": "section_002_line_001",
+      "matched_tokens": 8,
+      "total_tokens": 8,
+      "start": 11.12,
+      "end": 13.92,
+      "probability_mean": 0.8023360297083855
+    },
+    {
+      "line_id": "section_002_line_002",
+      "matched_tokens": 11,
+      "total_tokens": 11,
+      "start": 14.18,
+      "end": 16.86,
+      "probability_mean": 0.9134763018651442
+    },
+    {
+      "line_id": "section_002_line_003",
+      "matched_tokens": 9,
+      "total_tokens": 9,
+      "start": 17.16,
+      "end": 19.92,
+      "probability_mean": 0.8463079277037954
+    },
+    {
+      "line_id": "section_007_line_004",
+      "matched_tokens": 11,
+      "total_tokens": 11,
+      "start": 151.22,
+      "end": 154.4,
+      "probability_mean": 0.9691910581155256
+    }
+  ]
+}

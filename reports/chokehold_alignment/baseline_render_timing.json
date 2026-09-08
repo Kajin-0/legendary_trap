@@ -1,0 +1,3200 @@
+{
+  "schema_version": "1.0",
+  "song_id": "chokehold",
+  "audio": {
+    "path": "source/Chokehold¿.mp3",
+    "duration_seconds": 130.032
+  },
+  "alignment": {
+    "method": "deterministic_token_weighted_schedule",
+    "acoustic_evidence": false
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Unsectioned",
+      "start": 0.0,
+      "end": 0.45,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 1,
+          "original_text": "chokehold",
+          "lead_text": "chokehold",
+          "adlibs": [],
+          "start": 0.0,
+          "end": 0.45,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 1,
+          "words": [
+            {
+              "text": "chokehold",
+              "start": 0.0,
+              "end": 0.45,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Intro",
+      "start": 0.57,
+      "end": 1.872,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 3,
+          "original_text": "uh-yeah",
+          "lead_text": "uh-yeah",
+          "adlibs": [],
+          "start": 0.57,
+          "end": 1.422,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 2,
+          "words": [
+            {
+              "text": "uh",
+              "start": 0.57,
+              "end": 0.996,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 0.996,
+              "end": 1.422,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 4,
+          "original_text": "(uh, uh)",
+          "lead_text": "",
+          "adlibs": [
+            "uh, uh"
+          ],
+          "start": 1.422,
+          "end": 1.872,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 0,
+          "words": [],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Verse",
+      "start": 1.992,
+      "end": 46.697,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 6,
+          "original_text": "yeah I been in a chokehold since I was young, can’t breathe right",
+          "lead_text": "yeah I been in a chokehold since I was young, can’t breathe right",
+          "adlibs": [],
+          "start": 1.992,
+          "end": 7.526,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 13,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 1.992,
+              "end": 2.417,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 2.417,
+              "end": 2.843,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "been",
+              "start": 2.843,
+              "end": 3.269,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 3.269,
+              "end": 3.695,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 3.695,
+              "end": 4.12,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "chokehold",
+              "start": 4.12,
+              "end": 4.546,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "since",
+              "start": 4.546,
+              "end": 4.972,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 4.972,
+              "end": 5.398,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "was",
+              "start": 5.398,
+              "end": 5.823,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "young",
+              "start": 5.823,
+              "end": 6.249,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "can't",
+              "start": 6.249,
+              "end": 6.675,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "breathe",
+              "start": 6.675,
+              "end": 7.101,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "right",
+              "start": 7.101,
+              "end": 7.526,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 7,
+          "original_text": "every person that I trusted had me losing sleep at night",
+          "lead_text": "every person that I trusted had me losing sleep at night",
+          "adlibs": [],
+          "start": 7.526,
+          "end": 12.21,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "every",
+              "start": 7.526,
+              "end": 7.952,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "person",
+              "start": 7.952,
+              "end": 8.378,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 8.378,
+              "end": 8.804,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 8.804,
+              "end": 9.23,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trusted",
+              "start": 9.23,
+              "end": 9.655,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "had",
+              "start": 9.655,
+              "end": 10.081,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 10.081,
+              "end": 10.507,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "losing",
+              "start": 10.507,
+              "end": 10.933,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sleep",
+              "start": 10.933,
+              "end": 11.358,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "at",
+              "start": 11.358,
+              "end": 11.784,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "night",
+              "start": 11.784,
+              "end": 12.21,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 8,
+          "original_text": "huh, she got me in a chokehold with the way she move",
+          "lead_text": "huh, she got me in a chokehold with the way she move",
+          "adlibs": [],
+          "start": 12.21,
+          "end": 17.319,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "huh",
+              "start": 12.21,
+              "end": 12.636,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "she",
+              "start": 12.636,
+              "end": 13.061,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 13.061,
+              "end": 13.487,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 13.487,
+              "end": 13.913,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 13.913,
+              "end": 14.339,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 14.339,
+              "end": 14.764,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "chokehold",
+              "start": 14.764,
+              "end": 15.19,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 15.19,
+              "end": 15.616,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 15.616,
+              "end": 16.042,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "way",
+              "start": 16.042,
+              "end": 16.467,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "she",
+              "start": 16.467,
+              "end": 16.893,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "move",
+              "start": 16.893,
+              "end": 17.319,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 9,
+          "original_text": "I know it’s bad for me I still can’t get out of it, that’s the truth",
+          "lead_text": "I know it’s bad for me I still can’t get out of it, that’s the truth",
+          "adlibs": [],
+          "start": 17.319,
+          "end": 24.131,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 16,
+          "words": [
+            {
+              "text": "i",
+              "start": 17.319,
+              "end": 17.745,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 17.745,
+              "end": 18.171,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 18.171,
+              "end": 18.596,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "bad",
+              "start": 18.596,
+              "end": 19.022,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 19.022,
+              "end": 19.448,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 19.448,
+              "end": 19.874,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 19.874,
+              "end": 20.299,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "still",
+              "start": 20.299,
+              "end": 20.725,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "can't",
+              "start": 20.725,
+              "end": 21.151,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "get",
+              "start": 21.151,
+              "end": 21.577,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "out",
+              "start": 21.577,
+              "end": 22.002,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 22.002,
+              "end": 22.428,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 22.428,
+              "end": 22.854,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that's",
+              "start": 22.854,
+              "end": 23.28,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 23.28,
+              "end": 23.705,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "truth",
+              "start": 23.705,
+              "end": 24.131,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 10,
+          "original_text": "why the hell is he tryna fit in this lifestyle he did drugs once",
+          "lead_text": "why the hell is he tryna fit in this lifestyle he did drugs once",
+          "adlibs": [],
+          "start": 24.131,
+          "end": 30.092,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 14,
+          "words": [
+            {
+              "text": "why",
+              "start": 24.131,
+              "end": 24.557,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 24.557,
+              "end": 24.983,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hell",
+              "start": 24.983,
+              "end": 25.409,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "is",
+              "start": 25.409,
+              "end": 25.834,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "he",
+              "start": 25.834,
+              "end": 26.26,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "tryna",
+              "start": 26.26,
+              "end": 26.686,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fit",
+              "start": 26.686,
+              "end": 27.112,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 27.112,
+              "end": 27.537,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "this",
+              "start": 27.537,
+              "end": 27.963,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lifestyle",
+              "start": 27.963,
+              "end": 28.389,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "he",
+              "start": 28.389,
+              "end": 28.815,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "did",
+              "start": 28.815,
+              "end": 29.24,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "drugs",
+              "start": 29.24,
+              "end": 29.666,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "once",
+              "start": 29.666,
+              "end": 30.092,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 11,
+          "original_text": "Sixteen first experienced high and fell in love with that",
+          "lead_text": "Sixteen first experienced high and fell in love with that",
+          "adlibs": [],
+          "start": 30.092,
+          "end": 34.35,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "sixteen",
+              "start": 30.092,
+              "end": 30.518,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "first",
+              "start": 30.518,
+              "end": 30.943,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "experienced",
+              "start": 30.943,
+              "end": 31.369,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "high",
+              "start": 31.369,
+              "end": 31.795,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 31.795,
+              "end": 32.221,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fell",
+              "start": 32.221,
+              "end": 32.646,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 32.646,
+              "end": 33.072,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "love",
+              "start": 33.072,
+              "end": 33.498,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "with",
+              "start": 33.498,
+              "end": 33.924,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 33.924,
+              "end": 34.35,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 12,
+          "original_text": "Said you love me, but I knew from the start you were full of lie",
+          "lead_text": "Said you love me, but I knew from the start you were full of lie",
+          "adlibs": [],
+          "start": 34.35,
+          "end": 40.736,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 15,
+          "words": [
+            {
+              "text": "said",
+              "start": 34.35,
+              "end": 34.775,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 34.775,
+              "end": 35.201,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "love",
+              "start": 35.201,
+              "end": 35.627,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 35.627,
+              "end": 36.053,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "but",
+              "start": 36.053,
+              "end": 36.478,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 36.478,
+              "end": 36.904,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "knew",
+              "start": 36.904,
+              "end": 37.33,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "from",
+              "start": 37.33,
+              "end": 37.756,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 37.756,
+              "end": 38.181,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "start",
+              "start": 38.181,
+              "end": 38.607,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 38.607,
+              "end": 39.033,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "were",
+              "start": 39.033,
+              "end": 39.459,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "full",
+              "start": 39.459,
+              "end": 39.884,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 39.884,
+              "end": 40.31,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "lie",
+              "start": 40.31,
+              "end": 40.736,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 13,
+          "original_text": "you copy everything I do but the pain ain’t something you can fake, goodbye",
+          "lead_text": "you copy everything I do but the pain ain’t something you can fake, goodbye",
+          "adlibs": [],
+          "start": 40.736,
+          "end": 46.697,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 14,
+          "words": [
+            {
+              "text": "you",
+              "start": 40.736,
+              "end": 41.162,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "copy",
+              "start": 41.162,
+              "end": 41.588,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "everything",
+              "start": 41.588,
+              "end": 42.013,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 42.013,
+              "end": 42.439,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "do",
+              "start": 42.439,
+              "end": 42.865,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "but",
+              "start": 42.865,
+              "end": 43.291,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 43.291,
+              "end": 43.716,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pain",
+              "start": 43.716,
+              "end": 44.142,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "ain't",
+              "start": 44.142,
+              "end": 44.568,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "something",
+              "start": 44.568,
+              "end": 44.994,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 44.994,
+              "end": 45.419,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "can",
+              "start": 45.419,
+              "end": 45.845,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fake",
+              "start": 45.845,
+              "end": 46.271,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "goodbye",
+              "start": 46.271,
+              "end": 46.697,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Hook",
+      "start": 46.817,
+      "end": 86.413,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 15,
+          "original_text": "she got me in a chokehold and I don’t even fight it",
+          "lead_text": "she got me in a chokehold and I don’t even fight it",
+          "adlibs": [],
+          "start": 46.817,
+          "end": 51.926,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "she",
+              "start": 46.817,
+              "end": 47.242,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 47.242,
+              "end": 47.668,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 47.668,
+              "end": 48.094,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 48.094,
+              "end": 48.52,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 48.52,
+              "end": 48.945,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "chokehold",
+              "start": 48.945,
+              "end": 49.371,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 49.371,
+              "end": 49.797,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 49.797,
+              "end": 50.223,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "don't",
+              "start": 50.223,
+              "end": 50.649,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "even",
+              "start": 50.649,
+              "end": 51.074,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fight",
+              "start": 51.074,
+              "end": 51.5,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 51.5,
+              "end": 51.926,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 16,
+          "original_text": "every time I try to leave she pull me right back, I invited",
+          "lead_text": "every time I try to leave she pull me right back, I invited",
+          "adlibs": [],
+          "start": 51.926,
+          "end": 57.461,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 13,
+          "words": [
+            {
+              "text": "every",
+              "start": 51.926,
+              "end": 52.352,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "time",
+              "start": 52.352,
+              "end": 52.777,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 52.777,
+              "end": 53.203,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "try",
+              "start": 53.203,
+              "end": 53.629,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 53.629,
+              "end": 54.055,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "leave",
+              "start": 54.055,
+              "end": 54.48,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "she",
+              "start": 54.48,
+              "end": 54.906,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pull",
+              "start": 54.906,
+              "end": 55.332,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 55.332,
+              "end": 55.758,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "right",
+              "start": 55.758,
+              "end": 56.183,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "back",
+              "start": 56.183,
+              "end": 56.609,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 56.609,
+              "end": 57.035,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "invited",
+              "start": 57.035,
+              "end": 57.461,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 17,
+          "original_text": "yeah I know this slowly killing everything I had inside",
+          "lead_text": "yeah I know this slowly killing everything I had inside",
+          "adlibs": [],
+          "start": 57.461,
+          "end": 61.718,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 57.461,
+              "end": 57.887,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 57.887,
+              "end": 58.312,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 58.312,
+              "end": 58.738,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "this",
+              "start": 58.738,
+              "end": 59.164,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "slowly",
+              "start": 59.164,
+              "end": 59.59,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "killing",
+              "start": 59.59,
+              "end": 60.015,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "everything",
+              "start": 60.015,
+              "end": 60.441,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 60.441,
+              "end": 60.867,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "had",
+              "start": 60.867,
+              "end": 61.293,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "inside",
+              "start": 61.293,
+              "end": 61.718,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 18,
+          "original_text": "but leaving her feel worse than staying, so I just comply",
+          "lead_text": "but leaving her feel worse than staying, so I just comply",
+          "adlibs": [],
+          "start": 61.718,
+          "end": 66.402,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "but",
+              "start": 61.718,
+              "end": 62.144,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "leaving",
+              "start": 62.144,
+              "end": 62.57,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "her",
+              "start": 62.57,
+              "end": 62.996,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 62.996,
+              "end": 63.421,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "worse",
+              "start": 63.421,
+              "end": 63.847,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "than",
+              "start": 63.847,
+              "end": 64.273,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "staying",
+              "start": 64.273,
+              "end": 64.699,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "so",
+              "start": 64.699,
+              "end": 65.124,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 65.124,
+              "end": 65.55,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "just",
+              "start": 65.55,
+              "end": 65.976,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "comply",
+              "start": 65.976,
+              "end": 66.402,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 19,
+          "original_text": "I been losing sleep, losing myself, can’t recognize my face",
+          "lead_text": "I been losing sleep, losing myself, can’t recognize my face",
+          "adlibs": [],
+          "start": 66.402,
+          "end": 70.659,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "i",
+              "start": 66.402,
+              "end": 66.828,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "been",
+              "start": 66.828,
+              "end": 67.253,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "losing",
+              "start": 67.253,
+              "end": 67.679,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sleep",
+              "start": 67.679,
+              "end": 68.105,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "losing",
+              "start": 68.105,
+              "end": 68.531,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "myself",
+              "start": 68.531,
+              "end": 68.956,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "can't",
+              "start": 68.956,
+              "end": 69.382,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "recognize",
+              "start": 69.382,
+              "end": 69.808,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 69.808,
+              "end": 70.234,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "face",
+              "start": 70.234,
+              "end": 70.659,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 20,
+          "original_text": "she the only thing that feel like home and also feel like a cage",
+          "lead_text": "she the only thing that feel like home and also feel like a cage",
+          "adlibs": [],
+          "start": 70.659,
+          "end": 76.62,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 14,
+          "words": [
+            {
+              "text": "she",
+              "start": 70.659,
+              "end": 71.085,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 71.085,
+              "end": 71.511,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "only",
+              "start": 71.511,
+              "end": 71.937,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "thing",
+              "start": 71.937,
+              "end": 72.362,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 72.362,
+              "end": 72.788,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 72.788,
+              "end": 73.214,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 73.214,
+              "end": 73.64,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "home",
+              "start": 73.64,
+              "end": 74.066,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 74.066,
+              "end": 74.491,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "also",
+              "start": 74.491,
+              "end": 74.917,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 74.917,
+              "end": 75.343,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 75.343,
+              "end": 75.769,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 75.769,
+              "end": 76.194,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "cage",
+              "start": 76.194,
+              "end": 76.62,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_007",
+          "source_line": 21,
+          "original_text": "yeah everything I said I’d never do I’m doing it for her",
+          "lead_text": "yeah everything I said I’d never do I’m doing it for her",
+          "adlibs": [],
+          "start": 76.62,
+          "end": 81.729,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 76.62,
+              "end": 77.046,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "everything",
+              "start": 77.046,
+              "end": 77.472,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 77.472,
+              "end": 77.897,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "said",
+              "start": 77.897,
+              "end": 78.323,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'd",
+              "start": 78.323,
+              "end": 78.749,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "never",
+              "start": 78.749,
+              "end": 79.175,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "do",
+              "start": 79.175,
+              "end": 79.6,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 79.6,
+              "end": 80.026,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "doing",
+              "start": 80.026,
+              "end": 80.452,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 80.452,
+              "end": 80.878,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 80.878,
+              "end": 81.303,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "her",
+              "start": 81.303,
+              "end": 81.729,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_004_line_008",
+          "source_line": 22,
+          "original_text": "got me gone completely, nothing after that matters, that’s for sure",
+          "lead_text": "got me gone completely, nothing after that matters, that’s for sure",
+          "adlibs": [],
+          "start": 81.729,
+          "end": 86.413,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "got",
+              "start": 81.729,
+              "end": 82.155,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 82.155,
+              "end": 82.581,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gone",
+              "start": 82.581,
+              "end": 83.007,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "completely",
+              "start": 83.007,
+              "end": 83.432,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "nothing",
+              "start": 83.432,
+              "end": 83.858,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "after",
+              "start": 83.858,
+              "end": 84.284,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 84.284,
+              "end": 84.71,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "matters",
+              "start": 84.71,
+              "end": 85.135,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that's",
+              "start": 85.135,
+              "end": 85.561,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 85.561,
+              "end": 85.987,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sure",
+              "start": 85.987,
+              "end": 86.413,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Hook",
+      "start": 86.533,
+      "end": 126.129,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 24,
+          "original_text": "she got me in a chokehold and I don’t even fight it (don’t even fight it)",
+          "lead_text": "she got me in a chokehold and I don’t even fight it",
+          "adlibs": [
+            "don’t even fight it"
+          ],
+          "start": 86.533,
+          "end": 91.642,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "she",
+              "start": 86.533,
+              "end": 86.958,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "got",
+              "start": 86.958,
+              "end": 87.384,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 87.384,
+              "end": 87.81,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 87.81,
+              "end": 88.236,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 88.236,
+              "end": 88.661,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "chokehold",
+              "start": 88.661,
+              "end": 89.087,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 89.087,
+              "end": 89.513,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 89.513,
+              "end": 89.939,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "don't",
+              "start": 89.939,
+              "end": 90.365,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "even",
+              "start": 90.365,
+              "end": 90.79,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fight",
+              "start": 90.79,
+              "end": 91.216,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 91.216,
+              "end": 91.642,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 25,
+          "original_text": "every time I try to leave she pull me right back, I invited (I invited)",
+          "lead_text": "every time I try to leave she pull me right back, I invited",
+          "adlibs": [
+            "I invited"
+          ],
+          "start": 91.642,
+          "end": 97.177,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 13,
+          "words": [
+            {
+              "text": "every",
+              "start": 91.642,
+              "end": 92.068,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "time",
+              "start": 92.068,
+              "end": 92.493,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 92.493,
+              "end": 92.919,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "try",
+              "start": 92.919,
+              "end": 93.345,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "to",
+              "start": 93.345,
+              "end": 93.771,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "leave",
+              "start": 93.771,
+              "end": 94.196,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "she",
+              "start": 94.196,
+              "end": 94.622,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pull",
+              "start": 94.622,
+              "end": 95.048,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 95.048,
+              "end": 95.474,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "right",
+              "start": 95.474,
+              "end": 95.899,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "back",
+              "start": 95.899,
+              "end": 96.325,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 96.325,
+              "end": 96.751,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "invited",
+              "start": 96.751,
+              "end": 97.177,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 26,
+          "original_text": "yeah I know this slowly killing everything I had inside (had inside)",
+          "lead_text": "yeah I know this slowly killing everything I had inside",
+          "adlibs": [
+            "had inside"
+          ],
+          "start": 97.177,
+          "end": 101.434,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 97.177,
+              "end": 97.602,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 97.602,
+              "end": 98.028,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "know",
+              "start": 98.028,
+              "end": 98.454,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "this",
+              "start": 98.454,
+              "end": 98.88,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "slowly",
+              "start": 98.88,
+              "end": 99.306,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "killing",
+              "start": 99.306,
+              "end": 99.731,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "everything",
+              "start": 99.731,
+              "end": 100.157,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 100.157,
+              "end": 100.583,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "had",
+              "start": 100.583,
+              "end": 101.009,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "inside",
+              "start": 101.009,
+              "end": 101.434,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 27,
+          "original_text": "but leaving her feel worse than staying, so I just comply (just comply)",
+          "lead_text": "but leaving her feel worse than staying, so I just comply",
+          "adlibs": [
+            "just comply"
+          ],
+          "start": 101.434,
+          "end": 106.118,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "but",
+              "start": 101.434,
+              "end": 101.86,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "leaving",
+              "start": 101.86,
+              "end": 102.286,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "her",
+              "start": 102.286,
+              "end": 102.712,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 102.712,
+              "end": 103.137,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "worse",
+              "start": 103.137,
+              "end": 103.563,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "than",
+              "start": 103.563,
+              "end": 103.989,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "staying",
+              "start": 103.989,
+              "end": 104.415,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "so",
+              "start": 104.415,
+              "end": 104.84,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 104.84,
+              "end": 105.266,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "just",
+              "start": 105.266,
+              "end": 105.692,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "comply",
+              "start": 105.692,
+              "end": 106.118,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_005",
+          "source_line": 28,
+          "original_text": "I been losing sleep, losing myself, can’t recognize my face (recognize my face)",
+          "lead_text": "I been losing sleep, losing myself, can’t recognize my face",
+          "adlibs": [
+            "recognize my face"
+          ],
+          "start": 106.118,
+          "end": 110.375,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "i",
+              "start": 106.118,
+              "end": 106.543,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "been",
+              "start": 106.543,
+              "end": 106.969,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "losing",
+              "start": 106.969,
+              "end": 107.395,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sleep",
+              "start": 107.395,
+              "end": 107.821,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "losing",
+              "start": 107.821,
+              "end": 108.247,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "myself",
+              "start": 108.247,
+              "end": 108.672,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "can't",
+              "start": 108.672,
+              "end": 109.098,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "recognize",
+              "start": 109.098,
+              "end": 109.524,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 109.524,
+              "end": 109.95,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "face",
+              "start": 109.95,
+              "end": 110.375,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_006",
+          "source_line": 29,
+          "original_text": "she the only thing that feel like home and also feel like a cage (feel like a cage)",
+          "lead_text": "she the only thing that feel like home and also feel like a cage",
+          "adlibs": [
+            "feel like a cage"
+          ],
+          "start": 110.375,
+          "end": 116.336,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 14,
+          "words": [
+            {
+              "text": "she",
+              "start": 110.375,
+              "end": 110.801,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 110.801,
+              "end": 111.227,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "only",
+              "start": 111.227,
+              "end": 111.653,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "thing",
+              "start": 111.653,
+              "end": 112.078,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 112.078,
+              "end": 112.504,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 112.504,
+              "end": 112.93,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 112.93,
+              "end": 113.356,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "home",
+              "start": 113.356,
+              "end": 113.781,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "and",
+              "start": 113.781,
+              "end": 114.207,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "also",
+              "start": 114.207,
+              "end": 114.633,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "feel",
+              "start": 114.633,
+              "end": 115.059,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "like",
+              "start": 115.059,
+              "end": 115.485,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 115.485,
+              "end": 115.91,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "cage",
+              "start": 115.91,
+              "end": 116.336,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_007",
+          "source_line": 30,
+          "original_text": "yeah everything I said I’d never do I’m doing it for her (doing it for her)",
+          "lead_text": "yeah everything I said I’d never do I’m doing it for her",
+          "adlibs": [
+            "doing it for her"
+          ],
+          "start": 116.336,
+          "end": 121.445,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 116.336,
+              "end": 116.762,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "everything",
+              "start": 116.762,
+              "end": 117.188,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 117.188,
+              "end": 117.613,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "said",
+              "start": 117.613,
+              "end": 118.039,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'd",
+              "start": 118.039,
+              "end": 118.465,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "never",
+              "start": 118.465,
+              "end": 118.891,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "do",
+              "start": 118.891,
+              "end": 119.316,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i'm",
+              "start": 119.316,
+              "end": 119.742,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "doing",
+              "start": 119.742,
+              "end": 120.168,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it",
+              "start": 120.168,
+              "end": 120.594,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 120.594,
+              "end": 121.019,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "her",
+              "start": 121.019,
+              "end": 121.445,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_005_line_008",
+          "source_line": 31,
+          "original_text": "got me gone completely, nothing after that matters, that’s for sure (that’s for sure)",
+          "lead_text": "got me gone completely, nothing after that matters, that’s for sure",
+          "adlibs": [
+            "that’s for sure"
+          ],
+          "start": 121.445,
+          "end": 126.129,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "got",
+              "start": 121.445,
+              "end": 121.871,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "me",
+              "start": 121.871,
+              "end": 122.297,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "gone",
+              "start": 122.297,
+              "end": 122.722,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "completely",
+              "start": 122.722,
+              "end": 123.148,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "nothing",
+              "start": 123.148,
+              "end": 123.574,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "after",
+              "start": 123.574,
+              "end": 124.0,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that",
+              "start": 124.0,
+              "end": 124.426,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "matters",
+              "start": 124.426,
+              "end": 124.851,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "that's",
+              "start": 124.851,
+              "end": 125.277,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "for",
+              "start": 125.277,
+              "end": 125.703,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "sure",
+              "start": 125.703,
+              "end": 126.129,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Outro",
+      "start": 126.249,
+      "end": 130.032,
+      "confidence": 0.0,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 33,
+          "original_text": "uh, yeah",
+          "lead_text": "uh, yeah",
+          "adlibs": [],
+          "start": 126.249,
+          "end": 127.1,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 2,
+          "words": [
+            {
+              "text": "uh",
+              "start": 126.249,
+              "end": 126.674,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 126.674,
+              "end": 127.1,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 34,
+          "original_text": "hmm, huh",
+          "lead_text": "hmm, huh",
+          "adlibs": [],
+          "start": 127.1,
+          "end": 127.952,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 2,
+          "words": [
+            {
+              "text": "hmm",
+              "start": 127.1,
+              "end": 127.526,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "huh",
+              "start": 127.526,
+              "end": 127.952,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 35,
+          "original_text": "yeah, uh",
+          "lead_text": "yeah, uh",
+          "adlibs": [],
+          "start": 127.952,
+          "end": 128.803,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 2,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 127.952,
+              "end": 128.377,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "uh",
+              "start": 128.377,
+              "end": 128.803,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 36,
+          "original_text": "huh, hmm, yeah",
+          "lead_text": "huh, hmm, yeah",
+          "adlibs": [],
+          "start": 128.803,
+          "end": 130.032,
+          "confidence": 0.0,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "estimated": 1.0
+          },
+          "acoustic_start": null,
+          "acoustic_end": null,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "huh",
+              "start": 128.803,
+              "end": 129.213,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "hmm",
+              "start": 129.213,
+              "end": 129.622,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "yeah",
+              "start": 129.622,
+              "end": 130.032,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ],
+          "timing_source": "estimated",
+          "estimated_timing": true,
+          "acoustic_supported": false
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "timing_policy": "estimated; no acoustic timing available",
+    "authoritative_line_count": 31,
+    "estimated_line_count": 31
+  },
+  "authoritative_lyrics": {
+    "path": "/home/User/legendary_trap/input/lyrics/chokehold.txt",
+    "sha256": "0f6f3226360fb2fc2956730182f8340df3d3b58b82419650accde110fd17445e"
+  }
+}

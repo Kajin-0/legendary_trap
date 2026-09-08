@@ -1,0 +1,82 @@
+{
+  "song_id": "we_got_chemistry",
+  "old_estimated_lines": 116,
+  "new_estimated_lines": 20,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_001_line_006",
+    "section_001_line_009",
+    "section_001_line_010",
+    "section_002_line_001",
+    "section_002_line_014",
+    "section_002_line_019",
+    "section_002_line_028",
+    "section_006_line_010",
+    "section_006_line_012",
+    "section_007_line_002",
+    "section_007_line_003",
+    "section_007_line_004",
+    "section_007_line_005",
+    "section_007_line_007",
+    "section_007_line_008",
+    "section_007_line_009",
+    "section_007_line_010"
+  ],
+  "authoritative_lead_lines": 116,
+  "direct_lead_lines": 96,
+  "direct_lead_line_coverage": 0.8275862068965517,
+  "direct_tokens": 473,
+  "authoritative_tokens": 592,
+  "direct_token_coverage": 0.7989864864864865,
+  "high_capacity_recovered_lines": 6,
+  "high_capacity_applied_line_ids": [
+    "section_001_line_002",
+    "section_001_line_004",
+    "section_001_line_005",
+    "section_001_line_006",
+    "section_001_line_007",
+    "section_001_line_008"
+  ],
+  "duration_seconds": 249.24,
+  "render_runtime_seconds": 98.878,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "20 low-confidence lines"
+    ],
+    "line_count": 116,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_003",
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_001_line_009",
+      "section_001_line_010",
+      "section_002_line_001",
+      "section_002_line_014",
+      "section_002_line_019",
+      "section_002_line_028",
+      "section_006_line_010",
+      "section_006_line_012",
+      "section_007_line_002",
+      "section_007_line_003",
+      "section_007_line_004",
+      "section_007_line_005",
+      "section_007_line_007",
+      "section_007_line_008",
+      "section_007_line_009",
+      "section_007_line_010"
+    ],
+    "authoritative_sha256": "84878ce78a520f176cd752b713ebfdc9c529b4f53d6f79d774ba08da20eda054"
+  },
+  "video": "output/we_got_chemistry/we_got_chemistry.mp4",
+  "subtitles": [
+    "output/we_got_chemistry/we_got_chemistry.ass",
+    "output/we_got_chemistry/we_got_chemistry.srt",
+    "output/we_got_chemistry/we_got_chemistry.vtt"
+  ],
+  "timing": "output/we_got_chemistry/render_timing.json"
+}

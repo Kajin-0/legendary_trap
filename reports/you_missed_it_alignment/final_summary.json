@@ -1,0 +1,65 @@
+{
+  "song_id": "you_missed_it",
+  "old_estimated_lines": 57,
+  "new_estimated_lines": 12,
+  "estimated_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_001_line_005",
+    "section_006_line_010",
+    "section_006_line_011",
+    "section_006_line_012",
+    "section_006_line_013",
+    "section_006_line_014",
+    "section_006_line_015",
+    "section_006_line_016"
+  ],
+  "authoritative_lead_lines": 45,
+  "direct_lead_lines": 45,
+  "direct_lead_line_coverage": 1.0,
+  "direct_tokens": 414,
+  "authoritative_tokens": 455,
+  "direct_token_coverage": 0.9098901098901099,
+  "high_capacity_recovered_lines": 5,
+  "high_capacity_applied_line_ids": [
+    "section_002_line_001",
+    "section_002_line_002",
+    "section_002_line_003",
+    "section_002_line_004",
+    "section_002_line_005"
+  ],
+  "duration_seconds": 169.632,
+  "render_runtime_seconds": 72.925,
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "12 low-confidence lines"
+    ],
+    "line_count": 57,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_003",
+      "section_001_line_004",
+      "section_001_line_005",
+      "section_006_line_010",
+      "section_006_line_011",
+      "section_006_line_012",
+      "section_006_line_013",
+      "section_006_line_014",
+      "section_006_line_015",
+      "section_006_line_016"
+    ],
+    "authoritative_sha256": "7b71f490058b16b3d1120dd4f9afd1d764354d46e7fcaabc5a257dc78d772eba"
+  },
+  "video": "output/you_missed_it/you_missed_it.mp4",
+  "subtitles": [
+    "output/you_missed_it/you_missed_it.ass",
+    "output/you_missed_it/you_missed_it.srt",
+    "output/you_missed_it/you_missed_it.vtt"
+  ],
+  "timing": "output/you_missed_it/render_timing.json"
+}

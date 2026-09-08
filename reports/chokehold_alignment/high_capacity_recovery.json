@@ -1,0 +1,324 @@
+{
+  "recovery": {
+    "song_id": "chokehold",
+    "model": "distil-whisper/distil-large-v3-ct2",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "prompting": false,
+    "load_seconds": 4.495858578942716,
+    "runtime_seconds": 11.734543358907104,
+    "groups": [
+      {
+        "group_id": "intro_passage",
+        "window": [
+          0.0,
+          16.0
+        ],
+        "line_ids": [
+          "section_001_line_001",
+          "section_002_line_001",
+          "section_002_line_002",
+          "section_003_line_001"
+        ],
+        "load_seconds": 4.495858578942716,
+        "inference_seconds": 5.864498539362103,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 8.86,
+            "end": 15.98,
+            "text": " I've been in a show call since I was young can",
+            "avg_logprob": -0.18325297037760416,
+            "no_speech_prob": 0.02948778308928013,
+            "words": [
+              {
+                "text": "I've",
+                "start": 8.86,
+                "end": 9.38,
+                "probability": 0.8355668783187866
+              },
+              {
+                "text": "been",
+                "start": 9.38,
+                "end": 9.38,
+                "probability": 0.9945443868637085
+              },
+              {
+                "text": "in",
+                "start": 9.38,
+                "end": 14.04,
+                "probability": 0.987385630607605
+              },
+              {
+                "text": "a",
+                "start": 14.04,
+                "end": 14.2,
+                "probability": 0.9510964751243591
+              },
+              {
+                "text": "show",
+                "start": 14.2,
+                "end": 14.44,
+                "probability": 0.6924027800559998
+              },
+              {
+                "text": "call",
+                "start": 14.44,
+                "end": 14.82,
+                "probability": 0.6568073630332947
+              },
+              {
+                "text": "since",
+                "start": 14.82,
+                "end": 15.18,
+                "probability": 0.919635534286499
+              },
+              {
+                "text": "I",
+                "start": 15.18,
+                "end": 15.38,
+                "probability": 0.9911993145942688
+              },
+              {
+                "text": "was",
+                "start": 15.38,
+                "end": 15.56,
+                "probability": 0.9982936978340149
+              },
+              {
+                "text": "young",
+                "start": 15.56,
+                "end": 15.84,
+                "probability": 0.9746605753898621
+              },
+              {
+                "text": "can",
+                "start": 15.84,
+                "end": 15.98,
+                "probability": 0.2857007682323456
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 11,
+        "authoritative_token_count": 16,
+        "matched_tokens": 8,
+        "coverage": 0.5,
+        "unresolved_tokens": 8,
+        "lines": [
+          {
+            "line_id": "section_001_line_001",
+            "authoritative_text": "chokehold",
+            "lead_text": "chokehold",
+            "matched_tokens": 0,
+            "total_tokens": 1,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_002_line_001",
+            "authoritative_text": "uh-yeah",
+            "lead_text": "uh-yeah",
+            "matched_tokens": 0,
+            "total_tokens": 2,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_002_line_002",
+            "authoritative_text": "(uh, uh)",
+            "lead_text": "",
+            "matched_tokens": 0,
+            "total_tokens": 0,
+            "coverage": 1.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_003_line_001",
+            "authoritative_text": "yeah I been in a chokehold since I was young, can\u2019t breathe right",
+            "lead_text": "yeah I been in a chokehold since I was young, can\u2019t breathe right",
+            "matched_tokens": 8,
+            "total_tokens": 13,
+            "coverage": 0.6153846153846154,
+            "start": 9.38,
+            "end": 15.98,
+            "probability_mean": 0.8878145478665829,
+            "words": [
+              {
+                "text": "been",
+                "start": 9.38,
+                "end": 9.38,
+                "probability": 0.9945443868637085,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "in",
+                "start": 9.38,
+                "end": 14.04,
+                "probability": 0.987385630607605,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "a",
+                "start": 14.04,
+                "end": 14.2,
+                "probability": 0.9510964751243591,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "since",
+                "start": 14.82,
+                "end": 15.18,
+                "probability": 0.919635534286499,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "i",
+                "start": 15.18,
+                "end": 15.38,
+                "probability": 0.9911993145942688,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "was",
+                "start": 15.38,
+                "end": 15.56,
+                "probability": 0.9982936978340149,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "young",
+                "start": 15.56,
+                "end": 15.84,
+                "probability": 0.9746605753898621,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              },
+              {
+                "text": "can't",
+                "start": 15.84,
+                "end": 15.98,
+                "probability": 0.2857007682323456,
+                "timing_source": "asr_distil_large_v3",
+                "acoustic_support": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "outro_passage",
+        "window": [
+          124.0,
+          130.032
+        ],
+        "line_ids": [
+          "section_006_line_001",
+          "section_006_line_002",
+          "section_006_line_003",
+          "section_006_line_004"
+        ],
+        "load_seconds": 4.495858578942716,
+        "inference_seconds": 5.772903956938535,
+        "language": "en",
+        "language_probability": 1,
+        "segments": [
+          {
+            "start": 124.0,
+            "end": 126.02,
+            "text": " Thank you.",
+            "avg_logprob": -1.1011810104052226,
+            "no_speech_prob": 0.0997513085603714,
+            "words": [
+              {
+                "text": "Thank",
+                "start": 124.0,
+                "end": 124.3,
+                "probability": 0.01169449184089899
+              },
+              {
+                "text": "you.",
+                "start": 124.3,
+                "end": 126.02,
+                "probability": 0.9658589959144592
+              }
+            ]
+          }
+        ],
+        "asr_word_count": 2,
+        "authoritative_token_count": 9,
+        "matched_tokens": 0,
+        "coverage": 0.0,
+        "unresolved_tokens": 9,
+        "lines": [
+          {
+            "line_id": "section_006_line_001",
+            "authoritative_text": "uh, yeah",
+            "lead_text": "uh, yeah",
+            "matched_tokens": 0,
+            "total_tokens": 2,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_006_line_002",
+            "authoritative_text": "hmm, huh",
+            "lead_text": "hmm, huh",
+            "matched_tokens": 0,
+            "total_tokens": 2,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_006_line_003",
+            "authoritative_text": "yeah, uh",
+            "lead_text": "yeah, uh",
+            "matched_tokens": 0,
+            "total_tokens": 2,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          },
+          {
+            "line_id": "section_006_line_004",
+            "authoritative_text": "huh, hmm, yeah",
+            "lead_text": "huh, hmm, yeah",
+            "matched_tokens": 0,
+            "total_tokens": 3,
+            "coverage": 0.0,
+            "start": null,
+            "end": null,
+            "probability_mean": 0.0,
+            "words": []
+          }
+        ]
+      }
+    ]
+  },
+  "accepted": []
+}
