@@ -1,0 +1,13 @@
+{
+  "openai_whisper": "20250625",
+  "model": "turbo",
+  "device": "cpu",
+  "torch": "2.7.1+cpu",
+  "load_seconds": 11.243642517831177,
+  "checkpoint": "large-v3-turbo.pt",
+  "checkpoint_bytes": 1617941637,
+  "initial_download_seconds_observed": 20.0,
+  "cached_load_seconds": 11.243642517831177,
+  "download_ceiling": "timeout 15m",
+  "official_implementation": "openai-whisper 20250625"
+}

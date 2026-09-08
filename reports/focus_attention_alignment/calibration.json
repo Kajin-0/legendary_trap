@@ -1,0 +1,2196 @@
+{
+  "n": 20,
+  "median_absolute_error_ms": 0.0,
+  "mean_absolute_error_ms": 297.00000000000205,
+  "p90_absolute_error_ms": 799.9999999999972,
+  "max_error_ms": 1219.9999999999989,
+  "success_le_100ms": 11,
+  "success_le_150ms": 11,
+  "success_le_250ms": 11,
+  "median_word_probability": 0.0033851492480607703,
+  "probability_distribution": [
+    0.008151569193842079,
+    0.052190329875884345,
+    0.0001803975465008989,
+    0.050251275300979614,
+    0.0027307820273563266,
+    0.0018888961058109999,
+    0.0073145427741110325,
+    0.06490773843446125,
+    0.00010785157792270184,
+    0.010975997639798151,
+    0.0011961811687797308,
+    4.6477653086185455e-06,
+    1.1947072380280588e-05,
+    0.0005322287324815989,
+    0.09392175823450089,
+    0.004039516468765214,
+    0.005100297974422574,
+    0.00011491803888930008,
+    0.00812005145073158,
+    0.0006541273323819041
+  ],
+  "probability_margin_distribution": [
+    0.008010526938278417,
+    0.05213603198717465,
+    7.394268322968856e-05,
+    0.05018139916501241,
+    0.002638237339851912,
+    0.0017655003175605088,
+    0.007177433915785514,
+    0.06479623140815723
+  ],
+  "calibration_passed": false,
+  "rows": [
+    {
+      "line_id": "section_002_line_007",
+      "text": "Everybody sees the smile, that\u2019s the art",
+      "window": [
+        29.98,
+        31.58
+      ],
+      "reference_start": 29.98,
+      "prediction": {
+        "text": "Everybody sees the smile, that\u2019s the art",
+        "offset": 29.98,
+        "duration": 1.6,
+        "words": [
+          {
+            "text": "Everybody",
+            "start": 29.98,
+            "end": 30.04,
+            "probability": 0.008151569193842079,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " sees",
+            "start": 30.04,
+            "end": 30.2,
+            "probability": 5.6959463108796626e-05,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 30.2,
+            "end": 30.4,
+            "probability": 0.5166761875152588,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " smile",
+            "start": 30.4,
+            "end": 30.66,
+            "probability": 0.955920398235321,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 30.66,
+            "end": 30.92,
+            "probability": 0.7421662211418152,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " that\u2019s",
+            "start": 30.92,
+            "end": 31.22,
+            "probability": 0.21221905949278153,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 31.22,
+            "end": 31.22,
+            "probability": 0.9144599437713623,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " art",
+            "start": 31.22,
+            "end": 31.48,
+            "probability": 0.4681844711303711,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 19.05383299710229,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_003_line_002",
+      "text": "Used to laugh every day, used to dream \u2018bout everything",
+      "window": [
+        37.22,
+        40.82
+      ],
+      "reference_start": 37.22,
+      "prediction": {
+        "text": "Used to laugh every day, used to dream \u2018bout everything",
+        "offset": 37.22,
+        "duration": 3.6,
+        "words": [
+          {
+            "text": "Used",
+            "start": 37.22,
+            "end": 37.72,
+            "probability": 0.052190329875884345,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " to",
+            "start": 37.72,
+            "end": 37.74,
+            "probability": 0.011294672265648842,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " laugh",
+            "start": 37.74,
+            "end": 38.04,
+            "probability": 0.6698268055915833,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " every",
+            "start": 38.04,
+            "end": 38.3,
+            "probability": 0.7582188844680786,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " day",
+            "start": 38.3,
+            "end": 38.62,
+            "probability": 0.9431423544883728,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 38.62,
+            "end": 38.8,
+            "probability": 0.4100748598575592,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " used",
+            "start": 38.8,
+            "end": 38.82,
+            "probability": 0.8785693049430847,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " to",
+            "start": 38.82,
+            "end": 38.94,
+            "probability": 0.9883840084075928,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " dream",
+            "start": 38.94,
+            "end": 39.16,
+            "probability": 0.9959644079208374,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " \u2018bout",
+            "start": 39.16,
+            "end": 39.4,
+            "probability": 0.0009675570687335266,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " everything",
+            "start": 39.4,
+            "end": 39.82,
+            "probability": 0.6849034428596497,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.185395658016205,
+        "token_count": 14,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_003_line_006",
+      "text": "Why the people that you love slowly drift away",
+      "window": [
+        48.3,
+        51.04
+      ],
+      "reference_start": 48.3,
+      "prediction": {
+        "text": "Why the people that you love slowly drift away",
+        "offset": 48.3,
+        "duration": 2.74,
+        "words": [
+          {
+            "text": "Why",
+            "start": 48.3,
+            "end": 48.82,
+            "probability": 0.0001803975465008989,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 48.82,
+            "end": 49.0,
+            "probability": 0.006779046263545752,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " people",
+            "start": 49.0,
+            "end": 49.16,
+            "probability": 0.9524523615837097,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " that",
+            "start": 49.16,
+            "end": 49.42,
+            "probability": 0.8118022680282593,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " you",
+            "start": 49.42,
+            "end": 49.62,
+            "probability": 0.9465286135673523,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " love",
+            "start": 49.62,
+            "end": 49.92,
+            "probability": 0.9652785062789917,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " slowly",
+            "start": 49.92,
+            "end": 50.2,
+            "probability": 0.8492733240127563,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " drift",
+            "start": 50.2,
+            "end": 50.54,
+            "probability": 0.9794780015945435,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " away",
+            "start": 50.54,
+            "end": 50.94,
+            "probability": 0.9940013289451599,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.081802674103528,
+        "token_count": 9,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_003_line_009",
+      "text": "I was givin\u2019 out trust like it grew on trees",
+      "window": [
+        56.74,
+        59.26
+      ],
+      "reference_start": 56.74,
+      "prediction": {
+        "text": "I was givin\u2019 out trust like it grew on trees",
+        "offset": 56.74,
+        "duration": 2.52,
+        "words": [
+          {
+            "text": "I",
+            "start": 56.74,
+            "end": 56.98,
+            "probability": 0.050251275300979614,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " was",
+            "start": 56.98,
+            "end": 57.16,
+            "probability": 0.008583002723753452,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " givin\u2019",
+            "start": 57.16,
+            "end": 57.82,
+            "probability": 0.23146118111617398,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " out",
+            "start": 57.82,
+            "end": 57.82,
+            "probability": 0.00017797620967030525,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " trust",
+            "start": 57.82,
+            "end": 58.26,
+            "probability": 0.42832815647125244,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " like",
+            "start": 58.26,
+            "end": 58.5,
+            "probability": 0.5954256057739258,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " it",
+            "start": 58.5,
+            "end": 58.64,
+            "probability": 0.578889012336731,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " grew",
+            "start": 58.64,
+            "end": 58.9,
+            "probability": 0.00027096629492007196,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " on",
+            "start": 58.9,
+            "end": 59.12,
+            "probability": 0.7900212407112122,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " trees",
+            "start": 59.12,
+            "end": 59.24,
+            "probability": 0.14139552414417267,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 9.772033273242414,
+        "token_count": 14,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_003_line_013",
+      "text": "Had nights where my chest felt heavy as hell",
+      "window": [
+        67.78,
+        70.82
+      ],
+      "reference_start": 68.58,
+      "prediction": {
+        "text": "Had nights where my chest felt heavy as hell",
+        "offset": 67.78,
+        "duration": 3.04,
+        "words": [
+          {
+            "text": "Had",
+            "start": 67.78,
+            "end": 68.7,
+            "probability": 0.0027307820273563266,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " nights",
+            "start": 68.7,
+            "end": 69.02,
+            "probability": 0.0016965941758826375,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " where",
+            "start": 69.02,
+            "end": 69.18,
+            "probability": 0.33773595094680786,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " my",
+            "start": 69.18,
+            "end": 69.4,
+            "probability": 0.9783278703689575,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " chest",
+            "start": 69.4,
+            "end": 69.7,
+            "probability": 0.995451033115387,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " felt",
+            "start": 69.7,
+            "end": 70.06,
+            "probability": 0.7834540605545044,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " heavy",
+            "start": 70.06,
+            "end": 70.5,
+            "probability": 0.7354511022567749,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " as",
+            "start": 70.5,
+            "end": 70.66,
+            "probability": 0.9797012805938721,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " hell",
+            "start": 70.66,
+            "end": 70.8,
+            "probability": 0.9554538726806641,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.377510840073228,
+        "token_count": 10,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 799.9999999999972
+    },
+    {
+      "line_id": "section_004_line_002",
+      "text": "And I still hear voices from the past",
+      "window": [
+        79.7,
+        82.82
+      ],
+      "reference_start": 79.7,
+      "prediction": {
+        "text": "And I still hear voices from the past",
+        "offset": 79.7,
+        "duration": 3.12,
+        "words": [
+          {
+            "text": "And",
+            "start": 79.7,
+            "end": 80.3,
+            "probability": 0.0018888961058109999,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 80.3,
+            "end": 80.5,
+            "probability": 0.521259605884552,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " still",
+            "start": 80.5,
+            "end": 80.66,
+            "probability": 0.44861841201782227,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " hear",
+            "start": 80.66,
+            "end": 80.94,
+            "probability": 0.9692538380622864,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " voices",
+            "start": 80.94,
+            "end": 81.42,
+            "probability": 0.9207212924957275,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " from",
+            "start": 81.42,
+            "end": 82.0,
+            "probability": 0.707951009273529,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 82.0,
+            "end": 82.3,
+            "probability": 0.7346282005310059,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " past",
+            "start": 82.3,
+            "end": 82.68,
+            "probability": 0.035414326936006546,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.922378065995872,
+        "token_count": 8,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_005_line_001",
+      "text": "Focus, tears in my eyes but I hide that shit",
+      "window": [
+        91.88,
+        95.68
+      ],
+      "reference_start": 93.1,
+      "prediction": {
+        "text": "Focus, tears in my eyes but I hide that shit",
+        "offset": 91.88,
+        "duration": 3.8,
+        "words": [
+          {
+            "text": "Focus",
+            "start": 91.88,
+            "end": 93.56,
+            "probability": 0.0073145427741110325,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 93.56,
+            "end": 93.8,
+            "probability": 0.10912754386663437,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " tears",
+            "start": 93.8,
+            "end": 93.8,
+            "probability": 0.0004522318486124277,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " in",
+            "start": 93.8,
+            "end": 93.88,
+            "probability": 0.4435708522796631,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " my",
+            "start": 93.88,
+            "end": 94.0,
+            "probability": 0.9455746412277222,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " eyes",
+            "start": 94.0,
+            "end": 94.18,
+            "probability": 0.9133497476577759,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " but",
+            "start": 94.18,
+            "end": 94.28,
+            "probability": 0.10988722741603851,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 94.28,
+            "end": 94.44,
+            "probability": 0.7817725539207458,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " hide",
+            "start": 94.44,
+            "end": 94.6,
+            "probability": 0.8912522792816162,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " that",
+            "start": 94.6,
+            "end": 94.78,
+            "probability": 0.9676151275634766,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " shit",
+            "start": 94.78,
+            "end": 95.0,
+            "probability": 0.8816144466400146,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.515339866746217,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 1219.9999999999989
+    },
+    {
+      "line_id": "section_005_line_004",
+      "text": "Tryna find myself while I\u2019m losin\u2019 it",
+      "window": [
+        101.46,
+        104.58
+      ],
+      "reference_start": 101.46,
+      "prediction": {
+        "text": "Tryna find myself while I\u2019m losin\u2019 it",
+        "offset": 101.46,
+        "duration": 3.12,
+        "words": [
+          {
+            "text": "Tryna",
+            "start": 101.46,
+            "end": 101.82,
+            "probability": 0.06490773843446125,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " find",
+            "start": 101.82,
+            "end": 102.2,
+            "probability": 0.7317740321159363,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " myself",
+            "start": 102.2,
+            "end": 102.62,
+            "probability": 0.9671065807342529,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " while",
+            "start": 102.62,
+            "end": 102.94,
+            "probability": 0.7475857138633728,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I\u2019m",
+            "start": 102.94,
+            "end": 103.06,
+            "probability": 0.21851010748395083,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " losin\u2019",
+            "start": 103.06,
+            "end": 104.48,
+            "probability": 0.2855277768976521,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " it",
+            "start": 104.48,
+            "end": 104.48,
+            "probability": 0.47293660044670105,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.59622990200296,
+        "token_count": 15,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_005_line_008",
+      "text": "They don\u2019t know all the battles in the dark",
+      "window": [
+        112.34,
+        115.24
+      ],
+      "reference_start": 112.34,
+      "prediction": {
+        "text": "They don\u2019t know all the battles in the dark",
+        "offset": 112.34,
+        "duration": 2.9,
+        "words": [
+          {
+            "text": "They",
+            "start": 112.34,
+            "end": 113.02,
+            "probability": 0.00010785157792270184,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " don\u2019t",
+            "start": 113.02,
+            "end": 113.76,
+            "probability": 0.0030947167670092313,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " know",
+            "start": 113.76,
+            "end": 113.76,
+            "probability": 5.053518634667853e-06,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " all",
+            "start": 113.76,
+            "end": 114.04,
+            "probability": 0.6900560259819031,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 114.04,
+            "end": 114.14,
+            "probability": 0.9604784846305847,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " battles",
+            "start": 114.14,
+            "end": 114.56,
+            "probability": 0.9914954900741577,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " in",
+            "start": 114.56,
+            "end": 114.74,
+            "probability": 0.9239857792854309,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 114.74,
+            "end": 114.9,
+            "probability": 0.992109477519989,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " dark",
+            "start": 114.9,
+            "end": 115.18,
+            "probability": 0.9224766492843628,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 11.50218402268365,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_006_line_003",
+      "text": "Thinkin\u2019 maybe if I changed, it\u2019d be different",
+      "window": [
+        121.0,
+        124.06
+      ],
+      "reference_start": 121.0,
+      "prediction": {
+        "text": "Thinkin\u2019 maybe if I changed, it\u2019d be different",
+        "offset": 121.0,
+        "duration": 3.06,
+        "words": [
+          {
+            "text": "Thinkin\u2019",
+            "start": 121.0,
+            "end": 121.66,
+            "probability": 0.010975997639798151,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " maybe",
+            "start": 121.66,
+            "end": 121.66,
+            "probability": 3.848059714073315e-05,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " if",
+            "start": 121.66,
+            "end": 121.98,
+            "probability": 0.9040160179138184,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 121.98,
+            "end": 122.14,
+            "probability": 0.9336444735527039,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " changed",
+            "start": 122.14,
+            "end": 122.58,
+            "probability": 0.11697246879339218,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 122.58,
+            "end": 122.7,
+            "probability": 0.31766176223754883,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " it\u2019d",
+            "start": 122.7,
+            "end": 122.9,
+            "probability": 0.17535609296919574,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " be",
+            "start": 122.9,
+            "end": 122.9,
+            "probability": 0.02944525144994259,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " different",
+            "start": 122.9,
+            "end": 123.4,
+            "probability": 0.9382705688476562,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 9.785814814735204,
+        "token_count": 16,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_006_line_007",
+      "text": "And every lesson came attached to pain",
+      "window": [
+        129.96,
+        131.74
+      ],
+      "reference_start": 129.96,
+      "prediction": {
+        "text": "And every lesson came attached to pain",
+        "offset": 129.96,
+        "duration": 1.78,
+        "words": [
+          {
+            "text": "And",
+            "start": 129.96,
+            "end": 130.3,
+            "probability": 0.0011961811687797308,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " every",
+            "start": 130.3,
+            "end": 130.5,
+            "probability": 0.011763151735067368,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " lesson",
+            "start": 130.5,
+            "end": 130.78,
+            "probability": 0.8569402098655701,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " came",
+            "start": 130.78,
+            "end": 131.0,
+            "probability": 0.7633448243141174,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " attached",
+            "start": 131.0,
+            "end": 131.26,
+            "probability": 0.9289016723632812,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " to",
+            "start": 131.26,
+            "end": 131.48,
+            "probability": 0.5248028635978699,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " pain",
+            "start": 131.48,
+            "end": 131.72,
+            "probability": 0.48787593841552734,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.327197168953717,
+        "token_count": 7,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_006_line_010",
+      "text": "Still carryin\u2019 moments that live inside me",
+      "window": [
+        139.58,
+        142.7
+      ],
+      "reference_start": 140.12,
+      "prediction": {
+        "text": "Still carryin\u2019 moments that live inside me",
+        "offset": 139.58,
+        "duration": 3.12,
+        "words": [
+          {
+            "text": "Still",
+            "start": 139.58,
+            "end": 140.0,
+            "probability": 4.6477653086185455e-06,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " carryin\u2019",
+            "start": 140.0,
+            "end": 141.14,
+            "probability": 0.17795093315817212,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " moments",
+            "start": 141.14,
+            "end": 141.14,
+            "probability": 3.453473709669197e-06,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " that",
+            "start": 141.14,
+            "end": 141.4,
+            "probability": 0.9492258429527283,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " live",
+            "start": 141.4,
+            "end": 141.68,
+            "probability": 0.9472940564155579,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " inside",
+            "start": 141.68,
+            "end": 142.16,
+            "probability": 0.9821272492408752,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " me",
+            "start": 142.16,
+            "end": 142.52,
+            "probability": 0.9509168267250061,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 11.927186040673405,
+        "token_count": 10,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 539.999999999992
+    },
+    {
+      "line_id": "section_006_line_014",
+      "text": "Maybe not tomorrow, maybe not today",
+      "window": [
+        151.72,
+        154.58
+      ],
+      "reference_start": 151.72,
+      "prediction": {
+        "text": "Maybe not tomorrow, maybe not today",
+        "offset": 151.72,
+        "duration": 2.86,
+        "words": [
+          {
+            "text": "Maybe",
+            "start": 151.72,
+            "end": 152.16,
+            "probability": 1.1947072380280588e-05,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " not",
+            "start": 152.16,
+            "end": 152.54,
+            "probability": 0.00320117617957294,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " tomorrow",
+            "start": 152.54,
+            "end": 152.86,
+            "probability": 0.5100356340408325,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 152.86,
+            "end": 153.2,
+            "probability": 0.9057188034057617,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " maybe",
+            "start": 153.2,
+            "end": 153.38,
+            "probability": 0.88022780418396,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " not",
+            "start": 153.38,
+            "end": 153.78,
+            "probability": 0.9444200396537781,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " today",
+            "start": 153.78,
+            "end": 154.26,
+            "probability": 0.874061644077301,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 10.054485708009452,
+        "token_count": 7,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_007_line_002",
+      "text": "Why does everybody leave when I care the most?",
+      "window": [
+        161.06,
+        164.76
+      ],
+      "reference_start": 161.8,
+      "prediction": {
+        "text": "Why does everybody leave when I care the most?",
+        "offset": 161.06,
+        "duration": 3.7,
+        "words": [
+          {
+            "text": "Why",
+            "start": 161.06,
+            "end": 162.26,
+            "probability": 0.0005322287324815989,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " does",
+            "start": 162.26,
+            "end": 162.44,
+            "probability": 0.011359312571585178,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " everybody",
+            "start": 162.44,
+            "end": 162.92,
+            "probability": 0.6427339315414429,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " leave",
+            "start": 162.92,
+            "end": 163.46,
+            "probability": 0.8444231748580933,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " when",
+            "start": 163.46,
+            "end": 163.76,
+            "probability": 0.7530897259712219,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 163.76,
+            "end": 163.96,
+            "probability": 0.965070366859436,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " care",
+            "start": 163.96,
+            "end": 164.18,
+            "probability": 0.9673613905906677,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 164.18,
+            "end": 164.36,
+            "probability": 0.9860976934432983,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " most",
+            "start": 164.36,
+            "end": 164.66,
+            "probability": 0.9912500381469727,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": "?",
+            "start": 164.66,
+            "end": 164.74,
+            "probability": 0.8342869877815247,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 12.474556534085423,
+        "token_count": 10,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 740.0000000000091
+    },
+    {
+      "line_id": "section_007_line_007",
+      "text": "I been losin\u2019 sleep, I been losin\u2019 hope",
+      "window": [
+        173.28,
+        176.02
+      ],
+      "reference_start": 174.22,
+      "prediction": {
+        "text": "I been losin\u2019 sleep, I been losin\u2019 hope",
+        "offset": 173.28,
+        "duration": 2.74,
+        "words": [
+          {
+            "text": "I",
+            "start": 173.28,
+            "end": 174.12,
+            "probability": 0.09392175823450089,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " been",
+            "start": 174.12,
+            "end": 174.32,
+            "probability": 0.0007443955983035266,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " losin\u2019",
+            "start": 174.32,
+            "end": 175.06,
+            "probability": 0.2949062964039513,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " sleep",
+            "start": 175.06,
+            "end": 175.06,
+            "probability": 0.0006375499651767313,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 175.06,
+            "end": 175.12,
+            "probability": 0.8334386348724365,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 175.12,
+            "end": 175.32,
+            "probability": 0.9311341643333435,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " been",
+            "start": 175.32,
+            "end": 175.42,
+            "probability": 0.7378852367401123,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " losin\u2019",
+            "start": 175.42,
+            "end": 175.98,
+            "probability": 0.38711652904748917,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " hope",
+            "start": 175.98,
+            "end": 176.0,
+            "probability": 0.01737077720463276,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 15.181570264045149,
+        "token_count": 15,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 939.9999999999977
+    },
+    {
+      "line_id": "section_008_line_001",
+      "text": "Focus, tears in my eyes but I hide that shit",
+      "window": [
+        184.76,
+        187.88
+      ],
+      "reference_start": 185.32,
+      "prediction": {
+        "text": "Focus, tears in my eyes but I hide that shit",
+        "offset": 184.76,
+        "duration": 3.12,
+        "words": [
+          {
+            "text": "Focus",
+            "start": 184.76,
+            "end": 185.72,
+            "probability": 0.004039516468765214,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 185.72,
+            "end": 185.98,
+            "probability": 0.12759746611118317,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " tears",
+            "start": 185.98,
+            "end": 185.98,
+            "probability": 4.555789928417653e-05,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " in",
+            "start": 185.98,
+            "end": 186.1,
+            "probability": 0.7269712090492249,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " my",
+            "start": 186.1,
+            "end": 186.24,
+            "probability": 0.9786367416381836,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " eyes",
+            "start": 186.24,
+            "end": 186.36,
+            "probability": 0.9732151031494141,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " but",
+            "start": 186.36,
+            "end": 186.48,
+            "probability": 0.11086978018283844,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 186.48,
+            "end": 186.62,
+            "probability": 0.8265137672424316,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " hide",
+            "start": 186.62,
+            "end": 186.8,
+            "probability": 0.9579789638519287,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " that",
+            "start": 186.8,
+            "end": 187.0,
+            "probability": 0.9678818583488464,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " shit",
+            "start": 187.0,
+            "end": 187.22,
+            "probability": 0.8330902457237244,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 16.502483523916453,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 560.0000000000023
+    },
+    {
+      "line_id": "section_008_line_005",
+      "text": "Focus, focus, I can\u2019t fall apart",
+      "window": [
+        196.76,
+        199.34
+      ],
+      "reference_start": 196.76,
+      "prediction": {
+        "text": "Focus, focus, I can\u2019t fall apart",
+        "offset": 196.76,
+        "duration": 2.58,
+        "words": [
+          {
+            "text": "Focus",
+            "start": 196.76,
+            "end": 197.26,
+            "probability": 0.005100297974422574,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 197.26,
+            "end": 197.42,
+            "probability": 0.3793857991695404,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " focus",
+            "start": 197.42,
+            "end": 197.42,
+            "probability": 0.00022958367480896413,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 197.42,
+            "end": 197.42,
+            "probability": 0.7572082281112671,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 197.42,
+            "end": 197.64,
+            "probability": 0.4973621666431427,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " can\u2019t",
+            "start": 197.64,
+            "end": 197.88,
+            "probability": 0.26134064753125585,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " fall",
+            "start": 197.88,
+            "end": 198.08,
+            "probability": 0.0038314880803227425,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " apart",
+            "start": 198.08,
+            "end": 198.56,
+            "probability": 0.991231381893158,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 14.895533424336463,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 0.0
+    },
+    {
+      "line_id": "section_008_line_008",
+      "text": "They don\u2019t know all the battles in the dark",
+      "window": [
+        204.48,
+        208.88
+      ],
+      "reference_start": 204.74,
+      "prediction": {
+        "text": "They don\u2019t know all the battles in the dark",
+        "offset": 204.48,
+        "duration": 4.4,
+        "words": [
+          {
+            "text": "They",
+            "start": 204.48,
+            "end": 205.16,
+            "probability": 0.00011491803888930008,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " don\u2019t",
+            "start": 205.16,
+            "end": 205.92,
+            "probability": 0.0012667759338000906,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " know",
+            "start": 205.92,
+            "end": 205.92,
+            "probability": 3.6906997138430597e-06,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " all",
+            "start": 205.92,
+            "end": 206.18,
+            "probability": 0.5157709717750549,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 206.18,
+            "end": 206.32,
+            "probability": 0.9505116939544678,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " battles",
+            "start": 206.32,
+            "end": 206.62,
+            "probability": 0.9848292469978333,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " in",
+            "start": 206.62,
+            "end": 206.9,
+            "probability": 0.8946966528892517,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 206.9,
+            "end": 207.0,
+            "probability": 0.9937113523483276,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " dark",
+            "start": 207.0,
+            "end": 207.66,
+            "probability": 0.9829095602035522,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 14.784567981027067,
+        "token_count": 12,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 260.0000000000193
+    },
+    {
+      "line_id": "section_008_line_012",
+      "text": "Through the pain, through the rain, I won\u2019t fold",
+      "window": [
+        216.66,
+        223.42
+      ],
+      "reference_start": 216.96,
+      "prediction": {
+        "text": "Through the pain, through the rain, I won\u2019t fold",
+        "offset": 216.66,
+        "duration": 6.76,
+        "words": [
+          {
+            "text": "Through",
+            "start": 216.66,
+            "end": 217.16,
+            "probability": 0.00812005145073158,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 217.16,
+            "end": 217.16,
+            "probability": 0.03863299638032913,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " pain",
+            "start": 217.16,
+            "end": 217.54,
+            "probability": 0.8208335638046265,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 217.54,
+            "end": 217.76,
+            "probability": 0.23599597811698914,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " through",
+            "start": 217.76,
+            "end": 217.78,
+            "probability": 0.3155769407749176,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " the",
+            "start": 217.78,
+            "end": 217.78,
+            "probability": 0.9717020988464355,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " rain",
+            "start": 217.78,
+            "end": 218.3,
+            "probability": 0.9891997575759888,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": ",",
+            "start": 218.3,
+            "end": 218.42,
+            "probability": 0.5516387224197388,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " I",
+            "start": 218.42,
+            "end": 218.62,
+            "probability": 0.9920048117637634,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " won\u2019t",
+            "start": 218.62,
+            "end": 222.6,
+            "probability": 0.3329406813627429,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " fold",
+            "start": 222.6,
+            "end": 222.6,
+            "probability": 0.007194226607680321,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 14.56554959807545,
+        "token_count": 15,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 300.00000000001137
+    },
+    {
+      "line_id": "section_009_line_008",
+      "text": "One more day\u2026",
+      "window": [
+        230.2,
+        240.0
+      ],
+      "reference_start": 230.78,
+      "prediction": {
+        "text": "One more day\u2026",
+        "offset": 230.2,
+        "duration": 9.8,
+        "words": [
+          {
+            "text": "One",
+            "start": 230.2,
+            "end": 232.32,
+            "probability": 0.0006541273323819041,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " more",
+            "start": 232.32,
+            "end": 232.74,
+            "probability": 0.006897772662341595,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          },
+          {
+            "text": " day\u2026",
+            "start": 232.74,
+            "end": 234.96,
+            "probability": 0.1367492419667542,
+            "timing_source": "whisper_attention_forced_alignment",
+            "transcript_constrained": true,
+            "lexically_recognized": false,
+            "acoustic_supported": false
+          }
+        ],
+        "runtime_seconds": 14.87655526213348,
+        "token_count": 4,
+        "attention_concentration": null,
+        "attention_concentration_note": "OpenAI find_alignment does not expose a calibrated concentration scalar."
+      },
+      "absolute_error_ms": 580.0000000000125
+    }
+  ]
+}

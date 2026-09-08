@@ -1,0 +1,7 @@
+{
+  "window_policy": "previous direct end to next direct start, minimum 0.75 seconds",
+  "attention_concentration": "not exposed by upstream find_alignment",
+  "load_seconds": 11.243642517831177,
+  "calibration_gate": {"median_max_ms": 150, "p90_max_ms": 300, "passed": false},
+  "target_evaluation": "not run because calibration failed"
+}
