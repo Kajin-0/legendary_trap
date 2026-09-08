@@ -1,0 +1,12 @@
+{
+  "clip_id": null,
+  "status": "clip_id_not_recoverable",
+  "methods_attempted": [
+    "mp3_metadata",
+    "repository_search",
+    "title_search",
+    "artist_search",
+    "two_distinctive_lyric_searches"
+  ],
+  "audio_identity_verified": false
+}

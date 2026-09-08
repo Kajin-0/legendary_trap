@@ -1,0 +1,28 @@
+{
+  "status": "clip_id_not_recoverable",
+  "focus_clip_id": null,
+  "public_search": {
+    "endpoint": "https://studio-api-prod.suno.com/api/unified/feed",
+    "status": "HTTP 401 Unauthorized",
+    "queries_attempted": 4,
+    "indexed_web_search": "No exact FOCUS lyric/title result identified; unrelated indexed pages excluded"
+  },
+  "native_alignment": "not_attempted",
+  "authentication": {
+    "required": true,
+    "configured_project_credentials": false,
+    "configured_names": []
+  },
+  "songs_processed": [
+    "focus"
+  ],
+  "songs_not_processed": [
+    "apple",
+    "chokehold",
+    "commin_long_ways",
+    "off_the_wave",
+    "slidin",
+    "we_got_chemistry",
+    "you_missed_it"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "generated_at_utc": "2026-09-08T03:41:53.868658+00:00",
+  "songs": [
+    {
+      "song_id": "apple",
+      "source": "AppLE.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 3779188,
+      "sha256": "5cab300c97fb14490439ae2dedce50c0e19a130a86bd03e3dd17e6a7cb4a335a",
+      "ffprobe": {
+        "format": {
+          "duration": "169.632000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "chokehold",
+      "source": "Chokehold¿.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 2751988,
+      "sha256": "b1613d324b9006c26af90f78f4427c5eea414652770385b6ca1991f67c797644",
+      "ffprobe": {
+        "format": {
+          "duration": "130.032000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "commin_long_ways",
+      "source": "COMIN LONG WAYS.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 3456844,
+      "sha256": "c08834ec15009e26fcb81e530d303030e430633a4cc3b756c6b94e9fec2830fe",
+      "ffprobe": {
+        "format": {
+          "duration": "162.840000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "focus",
+      "source": "FOCUS.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 4984900,
+      "sha256": "6d3e5d41b711c9fdc550655d4cafd31fbd1054f6cfa7127ecc0afdb73bf95eda",
+      "ffprobe": {
+        "format": {
+          "duration": "240.024000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "off_the_wave",
+      "source": "Off the Wave.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 4209052,
+      "sha256": "6de9ff6fdd97a05e0a00888f5e89be1eb709677b657029234d64a32a8053878d",
+      "ffprobe": {
+        "format": {
+          "duration": "190.440000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "slidin",
+      "source": "slidin.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 1972660,
+      "sha256": "037ba7c7b74c3d18970a42f0bb336b75e9e6584dca4bec97f59efe7622d4fc2f",
+      "ffprobe": {
+        "format": {
+          "duration": "87.240000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "we_got_chemistry",
+      "source": "we got chemistry.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 5575012,
+      "sha256": "100a78a37c8f3e6e054068120190af6eddd4c249ae4343c1467de0159cdd2b37",
+      "ffprobe": {
+        "format": {
+          "duration": "249.240000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    },
+    {
+      "song_id": "you_missed_it",
+      "source": "you missed it.mp3",
+      "embedded_suno_clip_id": null,
+      "embedded_urls": [],
+      "uuid_candidates": [],
+      "file_size_bytes": 3684244,
+      "sha256": "8c93bbc5f07915da9f214689d78e8b56f03003eb3a99a71578848ba8cd887342",
+      "ffprobe": {
+        "format": {
+          "duration": "169.632000",
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf60.16.100"
+          }
+        }
+      },
+      "printable_suno_traces": []
+    }
+  ]
+}

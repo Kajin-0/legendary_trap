@@ -1,0 +1,35 @@
+{
+  "endpoint": "https://studio-api-prod.suno.com/api/unified/feed",
+  "read_only": true,
+  "queries": [
+    {
+      "term": "FOCUS",
+      "http_status": 401,
+      "error": "http_error",
+      "candidate_count": 0,
+      "scores": []
+    },
+    {
+      "term": "PRODBYAPKIMZ",
+      "http_status": 401,
+      "error": "http_error",
+      "candidate_count": 0,
+      "scores": []
+    },
+    {
+      "term": "Whole world movin on but Im stuck with it",
+      "http_status": 401,
+      "error": "http_error",
+      "candidate_count": 0,
+      "scores": []
+    },
+    {
+      "term": "FOCUS Whole world movin",
+      "http_status": 401,
+      "error": "http_error",
+      "candidate_count": 0,
+      "scores": []
+    }
+  ],
+  "authentication_configured": false
+}
