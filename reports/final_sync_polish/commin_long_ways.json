@@ -1,0 +1,41 @@
+{
+  "song_id": "commin_long_ways",
+  "regions_inspected": [
+    "intro",
+    "outro"
+  ],
+  "lines_modified": [
+    {
+      "line_id": "section_001_line_001",
+      "old_start": 0.0,
+      "old_end": 1.62,
+      "new_start": 0.0,
+      "new_end": 1.2,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_003",
+      "old_start": 3.82,
+      "old_end": 3.82,
+      "new_start": 3.82,
+      "new_end": 4.18,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_007_line_005",
+      "old_start": 154.4,
+      "old_end": 162.84,
+      "new_start": 154.4,
+      "new_end": 156.2,
+      "timing_source": "estimated"
+    }
+  ],
+  "line_count": 56,
+  "old_estimated_lines": 56,
+  "new_estimated_lines": 8,
+  "direct_acoustic_lines": 5,
+  "display_only_or_cadence_lines": 0,
+  "validation": "pending",
+  "non_target_timing_changes": 0,
+  "render_runtime_seconds": 63.629
+}

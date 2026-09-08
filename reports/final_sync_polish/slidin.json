@@ -1,0 +1,24 @@
+{
+  "song_id": "slidin",
+  "regions_inspected": [
+    "late verse display pacing"
+  ],
+  "lines_modified": [
+    {
+      "line_id": "section_004_line_011",
+      "old_start": 78.06,
+      "old_end": 79.58,
+      "new_start": 78.06,
+      "new_end": 79.72,
+      "timing_source": "existing_acoustic_display"
+    }
+  ],
+  "line_count": 40,
+  "old_estimated_lines": 2,
+  "new_estimated_lines": 2,
+  "direct_acoustic_lines": 10,
+  "display_only_or_cadence_lines": 2,
+  "validation": "pending",
+  "non_target_timing_changes": 0,
+  "render_runtime_seconds": 39.165
+}

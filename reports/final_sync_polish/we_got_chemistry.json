@@ -1,0 +1,145 @@
+{
+  "song_id": "we_got_chemistry",
+  "regions_inspected": [
+    "opening",
+    "outro"
+  ],
+  "lines_modified": [
+    {
+      "line_id": "section_001_line_001",
+      "old_start": 0.0,
+      "old_end": 14.56,
+      "new_start": 12.66,
+      "new_end": 14.56,
+      "timing_source": "asr_distil_large_v3"
+    },
+    {
+      "line_id": "section_001_line_010",
+      "old_start": 29.98,
+      "old_end": 29.98,
+      "new_start": 29.98,
+      "new_end": 30.65,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_011",
+      "old_start": 29.98,
+      "old_end": 31.22,
+      "new_start": 30.65,
+      "new_end": 31.22,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_007_line_001",
+      "old_start": 226.44,
+      "old_end": 226.46,
+      "new_start": 226.44,
+      "new_end": 228.34,
+      "timing_source": "asr_distil_large_v3"
+    },
+    {
+      "line_id": "section_007_line_002",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 228.42,
+      "new_end": 230.34,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_003",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 230.42,
+      "new_end": 232.36,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_004",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 232.44,
+      "new_end": 234.0,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_005",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 234.08,
+      "new_end": 235.72,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_006",
+      "old_start": 226.46,
+      "old_end": 226.68,
+      "new_start": 235.8,
+      "new_end": 237.54,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_007",
+      "old_start": 226.68,
+      "old_end": 227.042,
+      "new_start": 237.62,
+      "new_end": 239.58,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_008",
+      "old_start": 227.042,
+      "old_end": 227.248,
+      "new_start": 239.66,
+      "new_end": 243.34,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_009",
+      "old_start": 227.248,
+      "old_end": 227.3,
+      "new_start": 243.42,
+      "new_end": 244.4,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_010",
+      "old_start": 227.248,
+      "old_end": 227.248,
+      "new_start": 244.48,
+      "new_end": 245.15,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_011",
+      "old_start": 227.3,
+      "old_end": 228.52,
+      "new_start": 245.23,
+      "new_end": 245.8,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_012",
+      "old_start": 228.52,
+      "old_end": 230.36,
+      "new_start": 245.88,
+      "new_end": 247.46,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_013",
+      "old_start": 230.36,
+      "old_end": 232.02,
+      "new_start": 247.54,
+      "new_end": 249.14,
+      "timing_source": "repeated_section_cadence"
+    }
+  ],
+  "line_count": 116,
+  "old_estimated_lines": 20,
+  "new_estimated_lines": 10,
+  "direct_acoustic_lines": 6,
+  "display_only_or_cadence_lines": 12,
+  "validation": "pending",
+  "non_target_timing_changes": 0,
+  "render_runtime_seconds": 107.019
+}

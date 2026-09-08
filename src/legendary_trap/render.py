@@ -76,7 +76,11 @@ def render(song_id: str, timeout_seconds: int = 900, preview_start: float | None
     duration = float(document["audio"]["duration_seconds"])
     all_invalid = {line["line_id"] for section in document["sections"] for line in section["lines"]
                    if float(line.get("end", 0.0)) <= float(line.get("start", 0.0))}
-    document = complete_estimated_lines(document, duration, DEFAULT_ESTIMATED_LINES | all_invalid)
+    # Targeted sync polish supplies deliberate display timing for selected
+    # weak regions. Do not replace those repaired bounds with the historical
+    # FOCUS fallback; still complete genuinely invalid rows.
+    completion_ids = all_invalid if document.get("diagnostics", {}).get("targeted_sync_polish") else DEFAULT_ESTIMATED_LINES | all_invalid
+    document = complete_estimated_lines(document, duration, completion_ids)
     render_document = document
     if preview_start is not None:
         start = max(0.0, preview_start)

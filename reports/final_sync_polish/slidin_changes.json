@@ -1,0 +1,16 @@
+{
+  "song_id": "slidin",
+  "regions": [
+    "late verse display pacing"
+  ],
+  "changes": [
+    {
+      "line_id": "section_004_line_011",
+      "old_start": 78.06,
+      "old_end": 79.58,
+      "new_start": 78.06,
+      "new_end": 79.72,
+      "timing_source": "existing_acoustic_display"
+    }
+  ]
+}

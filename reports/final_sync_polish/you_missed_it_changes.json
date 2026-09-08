@@ -1,0 +1,49 @@
+{
+  "song_id": "you_missed_it",
+  "regions": [
+    "intro",
+    "outro"
+  ],
+  "changes": [
+    {
+      "line_id": "section_001_line_001",
+      "old_start": 0.0,
+      "old_end": 2.16,
+      "new_start": 0.0,
+      "new_end": 0.8,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_002",
+      "old_start": 2.16,
+      "old_end": 4.32,
+      "new_start": 0.92,
+      "new_end": 1.7,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_003",
+      "old_start": 4.32,
+      "old_end": 6.48,
+      "new_start": 1.82,
+      "new_end": 2.6,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_004",
+      "old_start": 6.48,
+      "old_end": 8.64,
+      "new_start": 2.72,
+      "new_end": 3.5,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_005",
+      "old_start": 8.64,
+      "old_end": 10.8,
+      "new_start": 3.62,
+      "new_end": 4.55,
+      "timing_source": "estimated"
+    }
+  ]
+}

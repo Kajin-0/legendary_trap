@@ -1,0 +1,57 @@
+{
+  "song_id": "apple",
+  "regions": [
+    "second chorus",
+    "bridge/verse transition"
+  ],
+  "changes": [
+    {
+      "line_id": "section_002_line_004",
+      "old_start": 25.68,
+      "old_end": 25.68,
+      "new_start": 21.38,
+      "new_end": 25.68,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_005_line_005",
+      "old_start": 96.3,
+      "old_end": 110.9,
+      "new_start": 96.3,
+      "new_end": 99.5,
+      "timing_source": "existing_acoustic_display"
+    },
+    {
+      "line_id": "section_005_line_006",
+      "old_start": 110.9,
+      "old_end": 110.9,
+      "new_start": 99.8,
+      "new_end": 103.2,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_005_line_007",
+      "old_start": 110.9,
+      "old_end": 110.9,
+      "new_start": 103.5,
+      "new_end": 107.0,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_005_line_008",
+      "old_start": 110.9,
+      "old_end": 110.9,
+      "new_start": 107.3,
+      "new_end": 110.9,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_006_line_002",
+      "old_start": 112.56,
+      "old_end": 112.56,
+      "new_start": 112.56,
+      "new_end": 113.02,
+      "timing_source": "estimated"
+    }
+  ]
+}

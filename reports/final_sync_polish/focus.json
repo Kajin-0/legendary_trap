@@ -1,0 +1,33 @@
+{
+  "song_id": "focus",
+  "regions_inspected": [
+    "intro",
+    "outro"
+  ],
+  "lines_modified": [
+    {
+      "line_id": "section_001_line_004",
+      "old_start": 0.6,
+      "old_end": 0.877,
+      "new_start": 0.9,
+      "new_end": 1.8,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_009_line_010",
+      "old_start": 236.592,
+      "old_end": 240.024,
+      "new_start": 238.3,
+      "new_end": 239.5,
+      "timing_source": "estimated"
+    }
+  ],
+  "line_count": 92,
+  "old_estimated_lines": 9,
+  "new_estimated_lines": 9,
+  "direct_acoustic_lines": 0,
+  "display_only_or_cadence_lines": 0,
+  "validation": "pending",
+  "non_target_timing_changes": 0,
+  "render_runtime_seconds": 98.534
+}
