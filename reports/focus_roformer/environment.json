@@ -1,0 +1,12 @@
+{
+  "python": "3.13.7",
+  "torch": "2.7.1+cpu",
+  "separator_package": null,
+  "separator_package_installation": "not attempted after checkpoint license gate",
+  "device": "cpu",
+  "model": "melband-roformer-kim-vocals",
+  "checkpoint_size_bytes": 913106900,
+  "checkpoint_downloaded": false,
+  "upstream_commit": "77ff05e6ce533d85439d1e7a52d8316a2987c1b9",
+  "reason": "checkpoint explicitly marked CC-BY-NC-SA-4.0"
+}

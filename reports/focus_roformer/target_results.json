@@ -1,0 +1,10 @@
+{
+  "status": "not_run",
+  "reason": "micro separation was not authorized after license review",
+  "targets": [
+    "section_001_line_004",
+    "section_001_line_006",
+    "section_009_line_002",
+    "section_009_line_010"
+  ]
+}

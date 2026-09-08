@@ -1,0 +1,12 @@
+{
+  "status": "license_blocked",
+  "separation_runtime_seconds": null,
+  "asr_runtime_seconds": null,
+  "mixture_rms": null,
+  "vocals_rms": null,
+  "vocal_to_mixture_energy_ratio": null,
+  "recovered_lead_lines": 0,
+  "recovered_direct_tokens": 0,
+  "chronology_violations": 0,
+  "full_song_processed": false
+}

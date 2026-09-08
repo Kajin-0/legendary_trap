@@ -1,0 +1,9 @@
+{
+  "status": "not_run",
+  "reason": "no legally usable checkpoint was available",
+  "target": "section_009_line_010",
+  "original_asr": "not_run_in_this_phase",
+  "roformer_asr": "not_run",
+  "recovered_tokens": 0,
+  "recovered_lines": 0
+}

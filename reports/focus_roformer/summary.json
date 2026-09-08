@@ -1,0 +1,17 @@
+{
+  "status": "modern_separation_rescue_exhausted",
+  "song_id": "focus",
+  "baseline_direct_lead_lines": 78,
+  "baseline_authoritative_lead_lines": 82,
+  "baseline_direct_lead_line_coverage": 0.9512195121951219,
+  "baseline_direct_tokens": 543,
+  "baseline_authoritative_tokens": 602,
+  "baseline_direct_token_coverage": 0.9019933554817275,
+  "roformer_recovered_lead_lines": 0,
+  "roformer_recovered_tokens": 0,
+  "final_direct_lead_lines": 78,
+  "final_direct_tokens": 543,
+  "chronology_violations": 0,
+  "decision": "not_integrated; recommended checkpoint is noncommercial and alternatives are unreviewed",
+  "next_branch": "adaptation/fine-tuning or explicitly estimated/manual fallback"
+}

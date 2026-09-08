@@ -1,0 +1,18 @@
+{
+  "status": "not_run",
+  "reason": "license gate blocked checkpoint download",
+  "candidates": [
+    {
+      "model": "melband-roformer-kim-vocals",
+      "package": "melband-roformer-infer",
+      "checkpoint_size_bytes": 913106900,
+      "checkpoint_license": "CC-BY-NC-SA-4.0",
+      "decision": "rejected_before_download"
+    },
+    {
+      "model": "community RoFormer alternatives",
+      "checkpoint_license": "not-reviewed",
+      "decision": "not selected; no clearly permissive checkpoint identified"
+    }
+  ]
+}
