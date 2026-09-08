@@ -54,7 +54,8 @@ def test_preset_names_are_explicit() -> None:
     assert set(PRESETS) == {"orbital", "horizon", "atmospheric", "trap_sunset_hybrid", "trap_sunset_hybrid_v2",
                             "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                             "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact",
-                            "trap_polar_350_artistlockup", "artist_identity_preview"}
+                            "trap_polar_350_artistlockup", "artist_identity_preview",
+                            "focus_baseline_no_identity", "chokehold_identity_check"}
     assert Path("output/off_the_wave/timing.json").read_bytes() != b""
 
 

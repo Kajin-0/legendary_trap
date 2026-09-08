@@ -1,0 +1,38 @@
+{
+  "song": "focus",
+  "preview": {"start_seconds": 20.0, "duration_seconds": 18.0},
+  "timing_sha256": "61ba97a77a432e84c721000f5f733257e157e6ec7b10fb1e71ebe173214e1980",
+  "canonical_intersecting_events": [
+    {"start": 29.98, "end": 29.98, "relative_start": 9.98, "relative_end": 9.98, "text": "Too much pain got engraved in my heart (my heart)", "renderable": false},
+    {"start": 29.98, "end": 31.58, "relative_start": 9.98, "relative_end": 11.58, "text": "Everybody sees the smile, that’s the art (that’s the art)", "renderable": true},
+    {"start": 31.58, "end": 34.5, "relative_start": 11.58, "relative_end": 14.5, "text": "They don’t know all the battles in the dark (the dark)", "renderable": true},
+    {"start": 34.5, "end": 37.22, "relative_start": 14.5, "relative_end": 17.22, "text": "I remember bein’ young, didn’t care ‘bout a thing (a thing)", "renderable": true},
+    {"start": 37.22, "end": 39.74, "relative_start": 17.22, "relative_end": 18.0, "text": "Used to laugh every day, used to dream ‘bout everything (everything)", "renderable": true}
+  ],
+  "baseline_ass_lyric_events": [
+    {"start": 9.98, "end": 11.58, "text": "Everybody sees the smile, that’s the art (that’s the art)"},
+    {"start": 11.58, "end": 14.5, "text": "They don’t know all the battles in the dark (the dark)"},
+    {"start": 14.5, "end": 17.22, "text": "I remember bein’ young, didn’t care ‘bout a thing (a thing)"},
+    {"start": 17.22, "end": 18.0, "text": "Used to laugh every day, used to dream ‘bout everything (everything)"}
+  ],
+  "identity_ass_lyric_events": [
+    {"start": 9.98, "end": 11.58, "text": "Everybody sees the smile, that’s the art (that’s the art)"},
+    {"start": 11.58, "end": 14.5, "text": "They don’t know all the battles in the dark (the dark)"},
+    {"start": 14.5, "end": 17.22, "text": "I remember bein’ young, didn’t care ‘bout a thing (a thing)"},
+    {"start": 17.22, "end": 18.0, "text": "Used to laugh every day, used to dream ‘bout everything (everything)"}
+  ],
+  "comparison": {
+    "expected_intersecting_count_including_zero_duration": 5,
+    "expected_positive_duration_count": 4,
+    "baseline_lyric_event_count": 4,
+    "identity_lyric_event_count": 4,
+    "missing_positive_duration_events": 0,
+    "duplicate_events": 0,
+    "retimed_events": 0,
+    "text_changes": 0,
+    "canonical_zero_duration_boundary_events_not_rendered": 1,
+    "max_expected_gap_seconds": 9.98,
+    "max_rendered_gap_seconds": 9.98,
+    "gap_explanation": "The 0.00–9.98 preview interval is a canonical no-positive-duration lyric interval; the zero-duration boundary event at 29.98s is intentionally not rendered as a subtitle."
+  }
+}

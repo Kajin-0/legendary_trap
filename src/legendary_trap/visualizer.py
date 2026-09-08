@@ -11,9 +11,10 @@ from pathlib import Path
 import numpy as np
 from scipy.ndimage import rotate
 
-from .artist_lockup import artist_lockup_for_song
+from .artist_lockup import ArtistLockup, artist_lockup_for_song
+from .artist_overlay import build_artist_overlay
 from .audio_features import FeatureSequence, extract_features
-from .subtitle_render import write_subtitles
+from .subtitle_render import clip_render_document, write_subtitles
 
 ROOT = Path(__file__).resolve().parents[2]
 FFMPEG = ROOT / "tools" / "ffmpeg-7.0.2-amd64-static" / "ffmpeg"
@@ -59,6 +60,12 @@ PRESETS = {
     "artist_identity_preview": Preset("artist_identity_preview", (8, 5, 16),
                                        (242, 128, 73), (104, 81, 202),
                                        "trap_sunset_polar_v3", 180, 360),
+    "focus_baseline_no_identity": Preset("focus_baseline_no_identity", (8, 5, 16),
+                                          (242, 128, 73), (104, 81, 202),
+                                          "trap_sunset_polar_v3", 180, 360),
+    "chokehold_identity_check": Preset("chokehold_identity_check", (8, 5, 16),
+                                        (242, 128, 73), (104, 81, 202),
+                                        "trap_sunset_polar_v3", 180, 360),
 }
 
 
@@ -387,28 +394,20 @@ def _write_png(frame: np.ndarray, path: Path) -> None:
 
 def render_preview(song_id: str, preset_name: str, start: float, duration: float,
                    timeout_seconds: int = 600, lyric_font: str = "Montserrat",
-                   lyric_size: int = 84, low_max_hz: float = 700.0) -> dict:
+                   lyric_size: int = 84, low_max_hz: float = 700.0,
+                   identity_enabled: bool = True) -> dict:
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
     song = next(item for item in manifest["songs"] if item["id"] == song_id)
     source = ROOT / "source" / song["audio_source"]
     reference = json.loads((ROOT / "output" / song_id / "timing.json").read_text(encoding="utf-8"))
-    render_document = json.loads(json.dumps(reference))
-    for section in render_document["sections"]:
-        for line in section["lines"]:
-            line["start"] = round(max(0, min(duration, line["start"] - start)), 3)
-            line["end"] = round(max(0, min(duration, line["end"] - start)), 3)
-    render_document["audio"]["duration_seconds"] = duration
+    render_document = clip_render_document(reference, start, duration)
     output_dir = ROOT / "output" / "aesthetic_previews"
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
-    lockup = artist_lockup_for_song(song_id)
-    artist_offset_x = 72 + 104 * len(lockup.pfp_paths) if lockup.pfp_paths else 72
+    lockup = artist_lockup_for_song(song_id) if identity_enabled else ArtistLockup(None, None, "disabled")
     subtitle_paths = write_subtitles(render_document, output_dir, display_title,
                                      lyric_font=lyric_font, lyric_size=lyric_size,
-                                     artist_name=lockup.name,
-                                     artist_font="Super Crown" if lockup.name else lyric_font,
-                                     artist_title=display_title,
-                                     artist_offset_x=artist_offset_x)
+                                     include_title=not lockup.name)
     features = extract_features(source, start, duration, FPS, low_max_hz=low_max_hz)
     preset = PRESETS[preset_name]
     particles = (_hybrid_particles(preset) if preset.visualizer in
@@ -418,21 +417,16 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     filter_parts = ["[0:v]scale=1920:1080:flags=lanczos[base]"]
-    current_label = "base"
     input_args: list[str] = []
-    for pfp_index, pfp_path in enumerate(lockup.pfp_paths):
-        input_args.extend(["-loop", "1", "-i", str(pfp_path)])
-        next_label = f"pfp_{pfp_index}"
-        crop_shape = lockup.crop_shapes[pfp_index] if pfp_index < len(lockup.crop_shapes) else "circle"
-        if crop_shape == "circle":
-            crop_filter = ",format=rgba,geq=lum='lum(X,Y)':a='if(lte((X-W/2)*(X-W/2)+(Y-H/2)*(Y-H/2),(W/2)*(W/2)),255,0)'"
-        else:
-            crop_filter = ",format=rgba"
-        filter_parts.append(f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos{crop_filter}[{next_label}]")
-        output_label = f"lockup_{pfp_index}"
-        x = 72 + pfp_index * 104
-        filter_parts.append(f"[{current_label}][{next_label}]overlay={x}:72:format=auto[{output_label}]")
-        current_label = output_label
+    current_label = "base"
+    if lockup.name:
+        overlay_path = ROOT / "work" / "artist_overlays" / f"{song_id}_{preset_name}.png"
+        overlay_path.parent.mkdir(parents=True, exist_ok=True)
+        build_artist_overlay(lockup, display_title).save(overlay_path)
+        input_args.extend(["-loop", "1", "-i", str(overlay_path)])
+        filter_parts.extend(["[2:v]format=rgba[identity]",
+                             "[base][identity]overlay=0:0:format=auto[with_identity]"])
+        current_label = "with_identity"
     filter_parts.append(f"[{current_label}]subtitles='{subtitle_path}'[v]")
     command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
                "-pixel_format", "rgb24", "-video_size", f"{WIDTH}x{HEIGHT}", "-framerate", str(FPS),
@@ -440,7 +434,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                *input_args, "-filter_complex", ";".join(filter_parts),
                "-map", "[v]", "-map", "1:a:0", "-c:v", "libx264", "-preset", "veryfast",
                "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k",
-               "-shortest", "-movflags", "+faststart", str(video)]
+               "-t", str(duration), "-shortest", "-movflags", "+faststart", str(video)]
     started = time.perf_counter()
     process = subprocess.Popen(command, stdin=subprocess.PIPE)
     try:
@@ -470,10 +464,11 @@ def main() -> int:
     parser.add_argument("--lyric-font", default="Montserrat")
     parser.add_argument("--lyric-size", type=int, default=84)
     parser.add_argument("--low-max-hz", type=float, default=700.0)
+    parser.add_argument("--no-identity", action="store_true")
     args = parser.parse_args()
     print(json.dumps(render_preview(args.song, args.preset, args.start, args.duration,
                                     args.timeout, args.lyric_font, args.lyric_size,
-                                    args.low_max_hz), indent=2))
+                                    args.low_max_hz, not args.no_identity), indent=2))
     return 0
 
 
