@@ -36,7 +36,7 @@
     "new_estimated_lines": 8,
     "direct_acoustic_lines": 5,
     "display_only_or_cadence_lines": 0,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 63.629
   },
@@ -69,7 +69,7 @@
     "new_estimated_lines": 9,
     "direct_acoustic_lines": 0,
     "display_only_or_cadence_lines": 0,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 98.534
   },
@@ -214,7 +214,7 @@
     "new_estimated_lines": 10,
     "direct_acoustic_lines": 6,
     "display_only_or_cadence_lines": 12,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 107.019
   },
@@ -238,7 +238,7 @@
     "new_estimated_lines": 2,
     "direct_acoustic_lines": 10,
     "display_only_or_cadence_lines": 2,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 39.165
   },
@@ -295,7 +295,7 @@
     "new_estimated_lines": 12,
     "direct_acoustic_lines": 5,
     "display_only_or_cadence_lines": 0,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 71.221
   },
@@ -360,7 +360,7 @@
     "new_estimated_lines": 5,
     "direct_acoustic_lines": 0,
     "display_only_or_cadence_lines": 1,
-    "validation": "pending",
+    "validation": "passed",
     "non_target_timing_changes": 0,
     "render_runtime_seconds": 63.46
   }

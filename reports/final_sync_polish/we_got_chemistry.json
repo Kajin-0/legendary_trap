@@ -139,7 +139,7 @@
   "new_estimated_lines": 10,
   "direct_acoustic_lines": 6,
   "display_only_or_cadence_lines": 12,
-  "validation": "pending",
+  "validation": "passed",
   "non_target_timing_changes": 0,
   "render_runtime_seconds": 107.019
 }
