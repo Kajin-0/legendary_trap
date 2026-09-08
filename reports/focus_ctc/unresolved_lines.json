@@ -1,0 +1,351 @@
+{
+  "lines": [
+    {
+      "line_id": "section_001_line_004",
+      "section_id": "section_001",
+      "authoritative_text": "Focus\u2026",
+      "lead_text": "Focus\u2026",
+      "window": [
+        0.6,
+        0.877
+      ],
+      "ctc_forced_word_count": 1,
+      "ctc_forced_words": [
+        {
+          "text": "focus",
+          "start": 4.0656,
+          "end": 4.6865,
+          "confidence": 0.1278,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.1278,
+      "raw_words_at_or_above_0_5": [],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_001_line_006",
+      "section_id": "section_001",
+      "authoritative_text": "focus\u2026",
+      "lead_text": "focus\u2026",
+      "window": [
+        4.96,
+        5.21
+      ],
+      "ctc_forced_word_count": 1,
+      "ctc_forced_words": [
+        {
+          "text": "focus",
+          "start": 6.3288,
+          "end": 6.509,
+          "confidence": 0.2497,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.2497,
+      "raw_words_at_or_above_0_5": [],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_002_line_002",
+      "section_id": "section_002",
+      "authoritative_text": "Whole world movin\u2019 on, but I\u2019m stuck with it (stuck with it)",
+      "lead_text": "Whole world movin\u2019 on, but I\u2019m stuck with it",
+      "window": [
+        6.8,
+        7.702
+      ],
+      "ctc_forced_word_count": 9,
+      "ctc_forced_words": [
+        {
+          "text": "whole",
+          "start": 15.0074,
+          "end": 15.2876,
+          "confidence": 0.2173,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "world",
+          "start": 15.3677,
+          "end": 15.6478,
+          "confidence": 0.246,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "movin",
+          "start": 15.7279,
+          "end": 15.908,
+          "confidence": 0.3571,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "on",
+          "start": 16.0281,
+          "end": 16.0681,
+          "confidence": 0.0653,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "but",
+          "start": 16.1082,
+          "end": 16.2482,
+          "confidence": 0.0764,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "im",
+          "start": 16.3283,
+          "end": 16.3883,
+          "confidence": 0.3979,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "stuck",
+          "start": 16.4884,
+          "end": 16.8086,
+          "confidence": 0.2425,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "with",
+          "start": 17.4291,
+          "end": 17.5892,
+          "confidence": 0.3916,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "it",
+          "start": 17.6892,
+          "end": 17.7293,
+          "confidence": 0.2054,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.244389,
+      "raw_words_at_or_above_0_5": [],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_002_line_003",
+      "section_id": "section_002",
+      "authoritative_text": "Late nights starin\u2019 at the roof, can\u2019t quit (can\u2019t quit)",
+      "lead_text": "Late nights starin\u2019 at the roof, can\u2019t quit",
+      "window": [
+        7.702,
+        8.603
+      ],
+      "ctc_forced_word_count": 8,
+      "ctc_forced_words": [
+        {
+          "text": "late",
+          "start": 17.9094,
+          "end": 18.0895,
+          "confidence": 0.5429,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "nights",
+          "start": 18.1495,
+          "end": 18.3297,
+          "confidence": 0.1491,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "starin",
+          "start": 18.3697,
+          "end": 18.6299,
+          "confidence": 0.7869,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "at",
+          "start": 18.7099,
+          "end": 18.77,
+          "confidence": 0.4087,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "the",
+          "start": 18.81,
+          "end": 18.89,
+          "confidence": 0.023,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "roof",
+          "start": 18.9501,
+          "end": 19.1502,
+          "confidence": 0.4106,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "cant",
+          "start": 19.3303,
+          "end": 19.5505,
+          "confidence": 0.3518,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "quit",
+          "start": 19.6906,
+          "end": 20.2309,
+          "confidence": 0.0391,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.339012,
+      "raw_words_at_or_above_0_5": [
+        "late",
+        "starin"
+      ],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_002_line_005",
+      "section_id": "section_002",
+      "authoritative_text": "Focus, focus, I can\u2019t fall apart (fall apart)",
+      "lead_text": "Focus, focus, I can\u2019t fall apart",
+      "window": [
+        17.62,
+        18.856
+      ],
+      "ctc_forced_word_count": 6,
+      "ctc_forced_words": [
+        {
+          "text": "focus",
+          "start": 22.9528,
+          "end": 24.2737,
+          "confidence": 0.2819,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "focus",
+          "start": 24.3137,
+          "end": 24.5139,
+          "confidence": 0.2282,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "i",
+          "start": 24.5539,
+          "end": 24.5739,
+          "confidence": 0.6469,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "cant",
+          "start": 24.6139,
+          "end": 24.774,
+          "confidence": 0.3254,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "fall",
+          "start": 24.8541,
+          "end": 25.0742,
+          "confidence": 0.3577,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        },
+        {
+          "text": "apart",
+          "start": 25.1943,
+          "end": 25.6746,
+          "confidence": 0.4076,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.374617,
+      "raw_words_at_or_above_0_5": [
+        "i"
+      ],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_009_line_002",
+      "section_id": "section_009",
+      "authoritative_text": "Yeah\u2026",
+      "lead_text": "Yeah\u2026",
+      "window": [
+        220.17,
+        220.82
+      ],
+      "ctc_forced_word_count": 1,
+      "ctc_forced_words": [
+        {
+          "text": "yeah",
+          "start": 218.17,
+          "end": 218.4101,
+          "confidence": 0.0495,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.0495,
+      "raw_words_at_or_above_0_5": [],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    },
+    {
+      "line_id": "section_009_line_010",
+      "section_id": "section_009",
+      "authoritative_text": "Focus.",
+      "lead_text": "Focus.",
+      "window": [
+        236.592,
+        240.024
+      ],
+      "ctc_forced_word_count": 1,
+      "ctc_forced_words": [
+        {
+          "text": "focus",
+          "start": 230.0955,
+          "end": 230.4756,
+          "confidence": 0.071,
+          "timing_source": "ctc_forced_alignment",
+          "acoustic_support": true
+        }
+      ],
+      "ctc_mean_confidence": 0.071,
+      "raw_words_at_or_above_0_5": [],
+      "accepted_recovered_tokens": 0,
+      "accepted_line_recovery": false,
+      "reason": "Forced trellis placement lacked credible posterior support; placement alone is not acoustic evidence."
+    }
+  ]
+}

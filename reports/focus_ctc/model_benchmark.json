@@ -1,0 +1,18 @@
+{
+  "model": "facebook/wav2vec2-base-960h",
+  "parameter_count": 94396320,
+  "weight_bytes": 377607901,
+  "transformers": "4.57.6",
+  "torch": "2.7.1+cpu",
+  "ctc_segmentation": "1.7.4",
+  "micro_runtime_seconds": 8.7858,
+  "group_runtime_seconds": 19.199361984152347,
+  "singing_specific": {
+    "reviewed": [
+      "SOFA",
+      "Silasimo/SOFA-GTSinger"
+    ],
+    "executed": false,
+    "reason": "SOFA requires an older Python 3.8-oriented stack; the English GTSinger checkpoint is approximately 1.22 GB and is non-commercial licensed."
+  }
+}
