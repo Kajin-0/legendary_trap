@@ -1,13 +1,12 @@
-# Source transport archive
-# GitHub web upload caps individual files at 25 MB, so Suno.zip is tracked as split parts.
+# Tracked source transport
+# Original MP3s under source/ are intentionally committed so GitHub can transport them to the VPS.
 *.zip
-!source/
-!source/Suno.zip.part-*
 
-# Local extracted audio
+# Canonical runtime audio remains local/untracked
 input/audio/*
 !input/audio/.gitkeep
-*.mp3
+
+# Other audio formats are runtime-only unless explicitly added under source/
 *.wav
 *.flac
 *.m4a
