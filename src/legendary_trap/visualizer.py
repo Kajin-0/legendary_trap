@@ -42,6 +42,9 @@ PRESETS = {
     "trap_sunset_polar_lowmirror": Preset("trap_sunset_polar_lowmirror", (8, 5, 16),
                                            (242, 128, 73), (104, 81, 202),
                                            "trap_sunset_polar_lowmirror", 126, 360),
+    "trap_sunset_polar_v2": Preset("trap_sunset_polar_v2", (8, 5, 16),
+                                   (242, 128, 73), (104, 81, 202),
+                                   "trap_sunset_polar_v2", 180, 360),
 }
 
 
@@ -71,9 +74,14 @@ def polar_low_radii(low_profile: np.ndarray, bass: float, samples: int = 256,
     profile = np.interp(symmetric_u, np.linspace(0, 1, len(low_profile)),
                         np.asarray(low_profile, dtype=np.float32))
     ear_gate = np.abs(np.sin(2 * np.pi * upper_u)) ** 0.7
-    displacement = profile * (56.0 + 180.0 * float(bass)) * (0.42 + 0.78 * ear_gate)
-    radii = base_radius + 12.0 * float(bass) + upper * displacement
-    radii += (1.0 - upper) * (2.0 + 3.0 * float(bass))
+    side_weight = np.abs(np.cos(angles))
+    lower = np.clip(np.sin(angles), 0.0, 1.0)
+    angular_weight = 0.24 + 0.34 * side_weight + 0.78 * upper + 0.18 * lower
+    displacement = profile * (56.0 + 180.0 * float(bass)) * (
+        0.38 + 0.72 * ear_gate * upper + 0.25 * angular_weight
+    )
+    radii = base_radius + 12.0 * float(bass) + displacement * angular_weight
+    radii += (1.0 - upper) * (3.0 + 6.0 * float(bass))
     return angles, radii.astype(np.float32)
 
 
@@ -121,6 +129,8 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
                          float(features.highs[index]))
     transient = float(features.transients[index])
+    polar_mode = preset.visualizer in {"trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}
+    impact = float(np.clip(0.62 * bass + 1.55 * transient, 0.0, 1.8))
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
     # Explicit day-to-sunset trajectory: smooth, slow, and independent of audio.
@@ -147,34 +157,52 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     frame = frame * (1 - haze[..., None]) + haze_color * haze[..., None]
     # Distant layered terrain and a low road/horizon silhouette.
     horizon = HEIGHT * 0.66
-    distant = horizon - 32 - 20 * np.sin(xx / 100 + t * 0.04) - 11 * np.sin(xx / 37 - t * 0.02)
-    near = horizon - 11 - 35 * np.sin(xx / 145 + 1.2 + t * 0.025) - 13 * np.sin(xx / 53)
+    distant = horizon - 32 - 20 * np.sin(xx / 100 + t * 0.12) - 11 * np.sin(xx / 37 - t * 0.06)
+    near = horizon - 11 - 35 * np.sin(xx / 145 + 1.2 + t * 0.075) - 13 * np.sin(xx / 53 + t * 0.035)
     frame[yy > distant] *= 0.78
     frame[yy > near] *= 0.50
     ground = yy > horizon + 4
     frame[ground] *= 0.56
     # Bass pressure swells the horizon luminance and compresses the frame edges.
-    frame *= (1 + 0.10 * bass + 0.07 * transient)
-    # Inertial particles: velocity classes receive a decaying kick impulse.
+    frame *= (1 + 0.10 * bass + 0.07 * transient + (0.04 * impact if polar_mode else 0))
+    # Inertial particles: polar mode makes the three depth classes visibly
+    # distinct; the legacy hybrid keeps its original restrained treatment.
     positions, depths, velocity, phases = particles
     history_start = max(0, index - 14)
     impulse = float(np.sum(features.transients[history_start:index + 1] *
                             np.exp(-np.linspace(0, 2.8, index - history_start + 1))))
     speed = 0.18 + 0.16 * bass + 0.22 * impulse
+    if polar_mode:
+        speed += 0.30 * impact
     px = (positions[:, 0] + velocity[:, 0] * t * speed * (0.3 + depths) +
           np.sin(phases + t * 0.25) * 0.006 * (1 + bass * 2)) % 1.0
     py = (positions[:, 1] + velocity[:, 1] * t * speed +
           np.cos(phases * 0.8 + t * 0.18) * 0.004) % 1.0
     px, py = (px * WIDTH).astype(np.int32), (py * HEIGHT).astype(np.int32)
-    particle_alpha = (0.035 + depths * (0.09 + 0.14 * highs + 0.10 * transient)).astype(np.float32)
-    particle_color = tuple(np.clip(palette * 0.72 + np.array([65, 50, 42]), 0, 255))
-    _blend(frame, px, py, particle_color, particle_alpha)
+    particle_color = tuple(np.clip(palette * (0.72 if not polar_mode else 0.88) +
+                                  np.array([65, 50, 42]), 0, 255))
+    if polar_mode:
+        for mask, size, alpha, trail in [
+            (depths < 0.40, 1, 0.22 + 0.10 * highs, 1),
+            ((depths >= 0.40) & (depths < 0.75), 2, 0.30 + 0.16 * highs, 2),
+            (depths >= 0.75, 3, 0.42 + 0.20 * highs + 0.12 * transient, 4),
+        ]:
+            for step in range(trail, -1, -1):
+                trail_x = px[mask] - velocity[mask, 0] * step * (1.5 + impact * 4.0)
+                trail_y = py[mask] - velocity[mask, 1] * step * (0.8 + impact * 2.0)
+                _blend(frame, trail_x, trail_y, particle_color, alpha * (0.40 if step else 1.0))
+                if size > 1:
+                    _blend(frame, trail_x + size, trail_y, particle_color, alpha * 0.45)
+                    _blend(frame, trail_x, trail_y + size, particle_color, alpha * 0.45)
+    else:
+        particle_alpha = (0.035 + depths * (0.09 + 0.14 * highs + 0.10 * transient)).astype(np.float32)
+        _blend(frame, px, py, particle_color, particle_alpha)
     glow_color = tuple(np.clip(palette * 0.84 + np.array([20, 15, 8]), 0, 255))
-    if preset.visualizer == "trap_sunset_polar_lowmirror":
+    if polar_mode:
         # The main geometry is deliberately low-frequency only. Highs remain
         # in the particle layer above, never in this polar contour.
         angles, radii = polar_low_radii(_low_profile(features, index), bass, samples=512)
-        center = np.array([WIDTH * 0.50, HEIGHT * 0.72], dtype=np.float32)
+        center = np.array([WIDTH * 0.50, HEIGHT * 0.61], dtype=np.float32)
         aspect = 0.78
         upper = np.clip(-np.sin(angles), 0.0, 1.0)
         core_color = tuple(np.clip(palette * 0.35 + np.array([180, 150, 125]), 0, 255))
@@ -200,10 +228,15 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
         ix = center[0] + np.cos(inner_angles) * inner_radius
         iy = center[1] + np.sin(inner_angles) * inner_radius * aspect
         _blend(frame, ix, iy, body_color, 0.22)
-        polar_haze = np.clip(0.02 + 0.04 * bass + 0.03 * transient, 0, 0.12)
+        polar_haze = np.clip(0.025 + 0.06 * bass + 0.08 * transient, 0, 0.18)
         _blend(frame, center[0] + np.cos(angles) * radii * 1.38,
                center[1] + np.sin(angles) * radii * aspect * 1.38,
                tuple(np.clip(palette * 0.52, 0, 255)), polar_haze)
+        if transient > 0.55:
+            shock_scale = 1.05 + 0.14 * min(1.0, transient)
+            _blend(frame, center[0] + np.cos(angles) * radii * shock_scale,
+                   center[1] + np.sin(angles) * radii * aspect * shock_scale,
+                   core_color, 0.07 * (transient - 0.55) / 0.45)
     else:
         # Legacy hybrid ribbon retained for the existing preset only.
         x = np.linspace(90, WIDTH - 90, 640)
@@ -228,17 +261,20 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     # Reactive edge vignette: pressure tightens, then relaxes with attack/release.
     edge = np.clip(((xx - WIDTH / 2) / (WIDTH / 2)) ** 2 +
                    ((yy - HEIGHT / 2) / (HEIGHT / 2)) ** 2, 0, 1)
-    vignette = 1 - edge ** (1.25 - 0.18 * bass - 0.12 * transient) * (0.30 + 0.25 * bass + 0.12 * transient)
+    pressure = 0.30 + 0.25 * bass + 0.12 * transient + (0.12 * impact if polar_mode else 0)
+    vignette = 1 - edge ** (1.25 - 0.18 * bass - 0.12 * transient) * pressure
     frame *= vignette[..., None]
     vignette_tint = np.clip(palette * 0.18 * edge[..., None] * (0.35 + 0.65 * bass), 0, 30)
     frame = np.clip(frame + vignette_tint, 0, 255)
     # A restrained impact tint follows the transient rather than blinking the frame.
-    frame += np.clip(transient * 18, 0, 18)
+    frame += np.clip(transient * (22 if polar_mode else 18) + (impact * 3 if polar_mode else 0), 0, 24)
     # Few-pixel kick-linked camera displacement and signed sub-degree rotation.
-    shake = min(4.0, 0.8 * transient + 0.35 * bass)
+    shake = min(7.0 if polar_mode else 4.0,
+                (1.25 * transient + 0.70 * bass) if polar_mode else (0.8 * transient + 0.35 * bass))
     offset_x = int(np.sin(t * 48.0 + 0.4) * shake)
     offset_y = int(np.cos(t * 41.0 + 0.7) * shake * 0.55)
-    rotation = np.sin(t * 39.0 + 1.1) * transient * 0.16 + np.sin(t * 2.7) * bass * 0.035
+    rotation = (np.sin(t * 39.0 + 1.1) * transient * (0.25 if polar_mode else 0.16) +
+                np.sin(t * 2.7) * bass * (0.06 if polar_mode else 0.035))
     frame = rotate(frame, float(rotation), reshape=False, order=1, mode="nearest", prefilter=False)
     frame = np.roll(frame, (offset_y, offset_x), axis=(0, 1))
     return np.clip(frame, 0, 255).astype(np.uint8)
@@ -246,7 +282,7 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...]) -> np.ndarray:
-    if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror"}:
+    if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}:
         return _hybrid_frame(features, index, preset, particles)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
@@ -344,7 +380,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     features = extract_features(source, start, duration, FPS)
     preset = PRESETS[preset_name]
     particles = (_hybrid_particles(preset) if preset.visualizer in
-                 {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror"} else _particles(preset))
+                 {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}
+                 else _particles(preset))
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",

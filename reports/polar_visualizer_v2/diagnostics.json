@@ -1,0 +1,50 @@
+{
+  "song": "off_the_wave",
+  "segment": {"start_s": 20.0, "duration_s": 18.0, "fps": 30},
+  "preset": "trap_sunset_polar_v2",
+  "polar_center_internal": [480.0, 329.4],
+  "frames": [
+    {
+      "label": "quiet",
+      "time_s": 0.0,
+      "bass": 0.1173,
+      "transient": 0.0,
+      "max_displacement_px_internal": 87.07,
+      "upper_left_ear_displacement_px_internal": 87.07,
+      "upper_right_ear_displacement_px_internal": 87.07,
+      "bottom_arc_mean_displacement_px_internal": 8.867,
+      "particle_mean_speed": 0.252,
+      "particle_max_speed": 0.8,
+      "shake_translation_px": 0.082,
+      "shake_rotation_deg": 0.007
+    },
+    {
+      "label": "medium",
+      "time_s": 4.767,
+      "bass": 0.4867,
+      "transient": 0.0187,
+      "max_displacement_px_internal": 145.843,
+      "upper_left_ear_displacement_px_internal": 145.843,
+      "upper_right_ear_displacement_px_internal": 145.842,
+      "bottom_arc_mean_displacement_px_internal": 35.563,
+      "particle_mean_speed": 0.79,
+      "particle_max_speed": 2.508,
+      "shake_translation_px": 0.364,
+      "shake_rotation_deg": 0.034
+    },
+    {
+      "label": "hit",
+      "time_s": 4.867,
+      "bass": 0.7248,
+      "transient": 0.9813,
+      "max_displacement_px_internal": 188.948,
+      "upper_left_ear_displacement_px_internal": 188.948,
+      "upper_right_ear_displacement_px_internal": 188.948,
+      "bottom_arc_mean_displacement_px_internal": 51.854,
+      "particle_mean_speed": 1.821,
+      "particle_max_speed": 5.779,
+      "shake_translation_px": 1.734,
+      "shake_rotation_deg": 0.289
+    }
+  ]
+}
