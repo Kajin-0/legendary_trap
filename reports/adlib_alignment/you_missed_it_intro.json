@@ -1,0 +1,143 @@
+{
+  "song": "you_missed_it",
+  "section_id": "section_001",
+  "window": {
+    "start": 0.0,
+    "end": 10.8
+  },
+  "events": [
+    {
+      "event_id": "section_001_line_001_adlib_1",
+      "line_id": "section_001_line_001",
+      "display_text": "[(Yeah)",
+      "acoustic_match_text": "yeah",
+      "acoustic_match_tokens": [
+        "yeah"
+      ],
+      "annotation_metadata": "",
+      "start": 0.96,
+      "end": 1.5,
+      "timing_source": "estimated",
+      "estimated": true,
+      "candidate_start": null,
+      "candidate_end": null,
+      "candidate_confidence": 0.0,
+      "candidate_source": "adlib_estimated",
+      "matched_candidates": [],
+      "promotion_recommendation": "retain_current"
+    },
+    {
+      "event_id": "section_001_line_002_adlib_1",
+      "line_id": "section_001_line_002",
+      "display_text": "(Phew, phew)",
+      "acoustic_match_text": "phew phew",
+      "acoustic_match_tokens": [
+        "phew",
+        "phew"
+      ],
+      "annotation_metadata": "",
+      "start": 1.64,
+      "end": 1.86,
+      "timing_source": "estimated",
+      "estimated": true,
+      "candidate_start": null,
+      "candidate_end": null,
+      "candidate_confidence": 0.0,
+      "candidate_source": "adlib_estimated",
+      "matched_candidates": [],
+      "promotion_recommendation": "retain_current"
+    },
+    {
+      "event_id": "section_001_line_003_adlib_1",
+      "line_id": "section_001_line_003",
+      "display_text": "(Luh crank)",
+      "acoustic_match_text": "luh crank",
+      "acoustic_match_tokens": [
+        "luh",
+        "crank"
+      ],
+      "annotation_metadata": "",
+      "start": 3.42,
+      "end": 3.96,
+      "timing_source": "estimated",
+      "estimated": true,
+      "candidate_start": null,
+      "candidate_end": null,
+      "candidate_confidence": 0.0,
+      "candidate_source": "adlib_estimated",
+      "matched_candidates": [],
+      "promotion_recommendation": "retain_current"
+    },
+    {
+      "event_id": "section_001_line_004_adlib_1",
+      "line_id": "section_001_line_004",
+      "display_text": "(Ding! bell sound)",
+      "acoustic_match_text": "ding",
+      "acoustic_match_tokens": [
+        "ding"
+      ],
+      "annotation_metadata": "bell sound",
+      "start": 5.74,
+      "end": 6.2,
+      "timing_source": "estimated",
+      "estimated": true,
+      "candidate_start": null,
+      "candidate_end": null,
+      "candidate_confidence": 0.0,
+      "candidate_source": "adlib_estimated",
+      "matched_candidates": [],
+      "promotion_recommendation": "retain_current"
+    },
+    {
+      "event_id": "section_001_line_005_adlib_1",
+      "line_id": "section_001_line_005",
+      "display_text": "(Yeah, yeah, yeah!)]",
+      "acoustic_match_text": "yeah yeah yeah",
+      "acoustic_match_tokens": [
+        "yeah",
+        "yeah",
+        "yeah"
+      ],
+      "annotation_metadata": "",
+      "start": 7.34,
+      "end": 11.56,
+      "timing_source": "estimated",
+      "estimated": true,
+      "candidate_start": 10.06,
+      "candidate_end": 11.56,
+      "candidate_confidence": 0.9782,
+      "candidate_source": "adlib_asr_direct",
+      "matched_candidates": [
+        {
+          "expected": "yeah",
+          "candidate": {
+            "text": "yeah,",
+            "start": 10.06,
+            "end": 10.06,
+            "probability": 0.9318372011184692,
+            "model": "base.en"
+          },
+          "score": 0.9809
+        },
+        {
+          "expected": "yeah",
+          "candidate": {
+            "text": "yeah,",
+            "start": 10.06,
+            "end": 11.56,
+            "probability": 0.9123604893684387,
+            "model": "base.en"
+          },
+          "score": 0.9755
+        }
+      ],
+      "promotion_recommendation": "retain_current"
+    }
+  ],
+  "ding_candidates": [],
+  "distil_hypothesis": {
+    "attempted": true,
+    "status": "aborted_during_model_load",
+    "reason": "bounded process produced no result; no unbounded retry"
+  }
+}

@@ -122,7 +122,7 @@ def evaluate(song_id: str) -> dict:
     primary = [x for x in edge_rows if x["primary_lane"] == "lead" and x["total_tokens"]]
     return {"song_id": song_id, "authoritative_sha256": parsed.sha256,
             "section_count": len(parsed.sections), "line_count": len(parsed.lines),
-            "adlib_only_events": sum(x["event_type"] == "adlib_only" for x in edge_rows),
+            "adlib_only_events": sum(x["event_type"] in {"adlib_only", "vocal_adlib"} for x in edge_rows),
             "section_map": section_map, "repeat_groups": repeated,
             "edge_diagnostics": edge_rows, "boundary_candidates": candidates,
             "leading_edge_failures": sum(x["leading_unmatched_token_count"] > 0 for x in primary),

@@ -1,0 +1,48 @@
+{
+  "mode": "shadow_only",
+  "authoritative_text_changed": false,
+  "primary_timing_promoted": false,
+  "songs": [
+    {
+      "song": "apple",
+      "event_count": 0,
+      "candidate_direct_events": 0
+    },
+    {
+      "song": "chokehold",
+      "event_count": 1,
+      "candidate_direct_events": 0
+    },
+    {
+      "song": "commin_long_ways",
+      "event_count": 5,
+      "candidate_direct_events": 2
+    },
+    {
+      "song": "focus",
+      "event_count": 7,
+      "candidate_direct_events": 1
+    },
+    {
+      "song": "off_the_wave",
+      "event_count": 2,
+      "candidate_direct_events": 1
+    },
+    {
+      "song": "slidin",
+      "event_count": 2,
+      "candidate_direct_events": 0
+    },
+    {
+      "song": "we_got_chemistry",
+      "event_count": 0,
+      "candidate_direct_events": 0
+    },
+    {
+      "song": "you_missed_it",
+      "event_count": 12,
+      "candidate_direct_events": 5
+    }
+  ],
+  "decision": "retain_current_timing_until_multi-model_adlib_anchor_is_available"
+}

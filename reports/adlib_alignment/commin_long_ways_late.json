@@ -1,0 +1,29 @@
+{
+  "song": "commin_long_ways",
+  "target": "late bridge/outro, including Long ways, long ways",
+  "shadow_only": true,
+  "locked_before_seconds": 130.0,
+  "events": [
+    {
+      "line_id": "section_006_line_001",
+      "text": "Long ways, long ways (echo)",
+      "current_start": 133.36,
+      "current_end": 133.8,
+      "candidate_start": 133.36,
+      "candidate_end": 133.8,
+      "decision": "retain_current",
+      "reason": "existing direct timing is strong; no adlib candidate was allowed to override it"
+    },
+    {
+      "line_id": "section_007_line_005",
+      "text": "(What? Yeah, long ways baby)",
+      "current_start": 154.4,
+      "current_end": 162.78,
+      "candidate_start": 154.4,
+      "candidate_end": 162.78,
+      "decision": "retain_current",
+      "reason": "existing bounded late-outro estimate retained; no new acoustic evidence"
+    }
+  ],
+  "non_target_primary_timing_changes": 0
+}

@@ -41,6 +41,9 @@ class LyricLine:
     event_type: str = "lead"
     primary_lane: str = "lead"
     structurally_inferred: bool = False
+    acoustic_match_texts: list[str] = field(default_factory=list)
+    acoustic_match_tokens: list[list[str]] = field(default_factory=list)
+    annotation_metadata: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -122,7 +125,29 @@ def section_role(label: str) -> str:
 def _event_type(lead: str, adlibs: list[str]) -> tuple[str, str]:
     if lead:
         return ("lead_with_adlib", "lead") if adlibs else ("lead", "lead")
-    return "adlib_only", "secondary"
+    return "vocal_adlib", "secondary"
+
+
+def _adlib_views(adlibs: list[str]) -> tuple[list[str], list[list[str]], list[str]]:
+    """Return acoustic matching views without changing display annotations.
+
+    Lyric annotations can contain a vocal token followed by a production note,
+    e.g. ``Ding! bell sound``.  The display remains authoritative, while the
+    acoustic view contains only the vocal material supported by the annotation.
+    """
+    match_texts: list[str] = []
+    match_tokens: list[list[str]] = []
+    metadata: list[str] = []
+    for adlib in adlibs:
+        words = tokens(adlib)
+        note: list[str] = []
+        if words and words[0] == "ding" and "bell" in words and "sound" in words:
+            words = ["ding"]
+            note = ["bell sound"]
+        match_texts.append(" ".join(words))
+        match_tokens.append(words)
+        metadata.append("; ".join(note))
+    return match_texts, match_tokens, metadata
 
 
 def _fingerprint(section: LyricSection) -> str:
@@ -155,11 +180,14 @@ def parse_lyrics(path: Path, song_id: str) -> ParsedLyrics:
             sections.append(current)
         lead, adlibs = _split_parentheticals(raw_line)
         event_type, lane = _event_type(lead, adlibs)
+        match_texts, match_tokens, metadata = _adlib_views(adlibs)
         current.lines.append(LyricLine(
             line_id=f"{current.section_id}_line_{len(current.lines)+1:03d}",
             section_id=current.section_id, source_line=number, original_text=raw_line,
             lead_text=lead, adlibs=adlibs, normalized_text=normalize(lead), tokens=tokens(lead),
             event_type=event_type, primary_lane=lane,
+            acoustic_match_texts=match_texts, acoustic_match_tokens=match_tokens,
+            annotation_metadata=metadata,
         ))
     groups: dict[str, list[LyricSection]] = {}
     for section in sections:
