@@ -34,6 +34,8 @@ PRESETS = {
     "orbital": Preset("orbital", (5, 8, 18), (75, 216, 255), (154, 92, 255), "orbital", 72, 390),
     "horizon": Preset("horizon", (6, 9, 20), (65, 215, 255), (130, 102, 255), "horizon", 54, 390),
     "atmospheric": Preset("atmospheric", (9, 7, 18), (229, 131, 190), (83, 155, 255), "atmospheric", 96, 360),
+    "trap_sunset_hybrid": Preset("trap_sunset_hybrid", (8, 5, 16), (242, 128, 73),
+                                  (104, 81, 202), "trap_sunset_hybrid", 126, 360),
 }
 
 
@@ -54,8 +56,98 @@ def _particles(preset: Preset) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
     return positions, depths, phases
 
 
+def _hybrid_particles(preset: Preset) -> tuple[np.ndarray, ...]:
+    """Create three deterministic depth classes with inertial base velocities."""
+    rng = np.random.default_rng(78123)
+    count = preset.particle_count
+    positions = rng.random((count, 2), dtype=np.float32)
+    depths = np.repeat(np.array([0.25, 0.55, 0.90], dtype=np.float32), count // 3)
+    depths = np.pad(depths, (0, count - len(depths)), constant_values=0.55)
+    velocity = rng.normal(0, 1, (count, 2)).astype(np.float32)
+    velocity[:, 0] += 0.35 + depths * 0.7
+    velocity[:, 1] *= 0.28
+    phases = rng.uniform(0, 6.28, count).astype(np.float32)
+    return positions, depths, velocity, phases
+
+
+def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
+                  particles: tuple[np.ndarray, ...]) -> np.ndarray:
+    """Render a dusk landscape whose physical pressure is driven by the low end."""
+    t = index / features.fps
+    bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
+                         float(features.highs[index]))
+    transient = float(features.transients[index])
+    yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
+    frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
+    # Continuous dusk palette drift: amber/magenta slowly gives way to violet/indigo.
+    palette = 0.5 + 0.5 * np.sin(t * 0.12)
+    top = np.array([10, 8, 30], dtype=np.float32) * (1 - palette) + np.array([22, 7, 31], dtype=np.float32) * palette
+    bottom = np.array([51, 19, 36], dtype=np.float32) * (1 - palette) + np.array([18, 17, 58], dtype=np.float32) * palette
+    vertical = (yy / HEIGHT)[..., None]
+    frame[:] = top * (1 - vertical) + bottom * vertical
+    # Moving sunset disc and haze layers establish depth without becoming literal footage.
+    sun_x = WIDTH * (0.68 + 0.025 * np.sin(t * 0.09))
+    sun_y = HEIGHT * 0.47
+    sun_distance = ((xx - sun_x) ** 2 + ((yy - sun_y) * 1.15) ** 2) / (190 + bass * 50) ** 2
+    sun = np.exp(-sun_distance * 2.1) * (0.18 + 0.12 * bass + 0.05 * transient)
+    sun_color = np.array([255, 118, 58], dtype=np.float32)
+    frame = frame * (1 - sun[..., None]) + sun_color * sun[..., None]
+    haze = np.exp(-((yy / HEIGHT - 0.54) ** 2) / 0.055) * (0.06 + 0.08 * mids)
+    frame = frame * (1 - haze[..., None]) + np.array([153, 63, 98], dtype=np.float32) * haze[..., None]
+    # Distant layered terrain and a low road/horizon silhouette.
+    horizon = HEIGHT * 0.66
+    distant = horizon - 32 - 20 * np.sin(xx / 100 + t * 0.04) - 11 * np.sin(xx / 37 - t * 0.02)
+    near = horizon - 11 - 35 * np.sin(xx / 145 + 1.2 + t * 0.025) - 13 * np.sin(xx / 53)
+    frame[yy > distant] *= 0.78
+    frame[yy > near] *= 0.50
+    ground = yy > horizon + 4
+    frame[ground] *= 0.56
+    # Bass pressure swells the horizon luminance and compresses the frame edges.
+    frame *= (1 + 0.10 * bass + 0.07 * transient)
+    # Inertial particles: velocity classes receive a decaying kick impulse.
+    positions, depths, velocity, phases = particles
+    history_start = max(0, index - 14)
+    impulse = float(np.sum(features.transients[history_start:index + 1] *
+                            np.exp(-np.linspace(0, 2.8, index - history_start + 1))))
+    speed = 0.18 + 0.16 * bass + 0.22 * impulse
+    px = (positions[:, 0] + velocity[:, 0] * t * speed * (0.3 + depths) +
+          np.sin(phases + t * 0.25) * 0.006 * (1 + bass * 2)) % 1.0
+    py = (positions[:, 1] + velocity[:, 1] * t * speed +
+          np.cos(phases * 0.8 + t * 0.18) * 0.004) % 1.0
+    px, py = (px * WIDTH).astype(np.int32), (py * HEIGHT).astype(np.int32)
+    particle_alpha = (0.025 + depths * (0.08 + 0.12 * highs + 0.08 * transient)).astype(np.float32)
+    _blend(frame, px, py, (245, 173, 112), particle_alpha)
+    # Low-centered filled spectrum: a body, crisp core, and soft reflected haze.
+    x = np.linspace(90, WIDTH - 90, len(features.spectrum[index]))
+    baseline = HEIGHT * 0.68
+    body = 8 + features.spectrum[index] * (29 + 39 * bass) + 8 * mids
+    for fraction, alpha in [(1.9, 0.035), (1.35, 0.075), (1.0, 0.22)]:
+        _blend(frame, x, baseline - body * fraction, (245, 124, 79), alpha)
+        _blend(frame, x, baseline + body * fraction * 0.45, (116, 79, 191), alpha * 0.55)
+    # Fill a thin musical body between the spectrum edge and baseline.
+    for fill in np.linspace(0, 1, 5):
+        _blend(frame, x, baseline - body * fill, (232, 112, 84), 0.12 * (1 - fill) + 0.03)
+    _blend(frame, x, baseline - body, (255, 190, 125), 0.90)
+    _blend(frame, x, baseline + body * 0.54, (96, 79, 189), 0.24)
+    # Reactive edge vignette: pressure tightens, then relaxes with attack/release.
+    edge = np.clip(((xx - WIDTH / 2) / (WIDTH / 2)) ** 2 +
+                   ((yy - HEIGHT / 2) / (HEIGHT / 2)) ** 2, 0, 1)
+    vignette = 1 - edge ** (1.25 - 0.18 * bass - 0.12 * transient) * (0.38 + 0.25 * bass + 0.12 * transient)
+    frame *= vignette[..., None]
+    # A restrained impact tint follows the transient rather than blinking the frame.
+    frame += np.clip(transient * 18, 0, 18)
+    # Few-pixel kick-linked camera displacement: scene moves, subtitles do not.
+    shake = min(4.0, 0.8 * transient + 0.35 * bass)
+    offset_x = int(np.sin(t * 48.0) * shake)
+    offset_y = int(np.cos(t * 41.0) * shake * 0.55)
+    frame = np.roll(frame, (offset_y, offset_x), axis=(0, 1))
+    return np.clip(frame, 0, 255).astype(np.uint8)
+
+
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
-                 particles: tuple[np.ndarray, np.ndarray, np.ndarray]) -> np.ndarray:
+                 particles: tuple[np.ndarray, ...]) -> np.ndarray:
+    if preset.visualizer == "trap_sunset_hybrid":
+        return _hybrid_frame(features, index, preset, particles)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
@@ -150,7 +242,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     subtitle_paths = write_subtitles(render_document, output_dir, preset_name)
     features = extract_features(source, start, duration, FPS)
     preset = PRESETS[preset_name]
-    particles = _particles(preset)
+    particles = _hybrid_particles(preset) if preset.visualizer == "trap_sunset_hybrid" else _particles(preset)
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",

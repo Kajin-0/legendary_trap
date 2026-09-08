@@ -12,3 +12,11 @@ the existing canonical timing document and was not changed.
 
 All previews are 1920x1080, 30 fps, H.264/AAC, and 18 seconds long. The
 review package contains the three MP4s and their representative PNG frames.
+
+## Hybrid direction
+
+The follow-up `trap_sunset_hybrid` prototype keeps the same interval and subtitle
+policy while adding a procedural dusk landscape, three inertial particle depth
+classes, a bass-biased low horizon spectrum, transient impact motion, dynamic
+edge vignette, and continuous sunset-to-indigo palette drift. Its preview is
+delivered separately in `legendary-trap-aesthetic-previews-v2.zip`.
