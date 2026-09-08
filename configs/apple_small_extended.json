@@ -1,0 +1,18 @@
+{
+  "name": "small_local_extended_fine",
+  "song_id": "apple",
+  "model": "small.en",
+  "compute_type": "int8",
+  "beam_size": 5,
+  "hinting": false,
+  "fine_alignment": "bounded_onset",
+  "fine_radius": 0.18,
+  "windows": [
+    {"window_id": "intro_chorus_verse_start", "start": 0.0, "end": 31.98},
+    {"window_id": "verse_1_tail", "start": 38.68, "end": 46.28},
+    {"window_id": "chorus_2_bridge", "start": 68.82, "end": 91.30},
+    {"window_id": "verse_2_repeated", "start": 108.90, "end": 125.24},
+    {"window_id": "verse_2_tail", "start": 126.90, "end": 138.84},
+    {"window_id": "outro", "start": 145.36, "end": 169.632}
+  ]
+}

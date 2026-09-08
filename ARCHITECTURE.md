@@ -21,7 +21,8 @@ PATH="$PWD/tools:$PATH" timeout 15m .venv/bin/python scripts/run_pipeline.py app
 ```
 
 Do not run all songs until the Apple report's low-confidence lines have been
-reviewed acoustically. The current reference VPS has no NVIDIA GPU; the chosen
-CPU stack is `faster-whisper` tiny.en, int8, CPU word timestamps. Demucs and
-WhisperX are intentionally not installed because their Torch stacks are not
-resource-appropriate for this 8-core CPU pilot.
+reviewed acoustically. The current reference VPS has no NVIDIA GPU; the normal
+stack is `faster-whisper` base.en for full-song evidence and small.en int8 for
+bounded weak-window retranscription. A CPU-only Torch/Demucs install was used
+for one Apple A/B test; it worsened coverage and chronology, so it is disabled
+by default. WhisperX is not installed.

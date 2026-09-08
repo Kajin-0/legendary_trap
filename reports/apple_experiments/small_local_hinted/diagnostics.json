@@ -1,0 +1,13 @@
+{
+  "asr_token_count": 573,
+  "authoritative_token_count": 380,
+  "token_alignment_coverage": 0.9368421052631579,
+  "unresolved_authoritative_tokens": 24,
+  "line_alignment_coverage": 0.9818181818181818,
+  "experiment": "small_local_hinted",
+  "runtime_seconds": 127.433,
+  "local_asr_runtime_seconds": 125.592,
+  "model": "small.en",
+  "beam_size": 5,
+  "hinted": true
+}

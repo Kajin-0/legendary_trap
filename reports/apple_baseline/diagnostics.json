@@ -1,0 +1,48 @@
+{
+  "song_id": "apple",
+  "valid": true,
+  "diagnostics": {
+    "asr_token_count": 632,
+    "authoritative_token_count": 380,
+    "token_alignment_coverage": 0.8657894736842106,
+    "unresolved_authoritative_tokens": 51,
+    "line_alignment_coverage": 0.9090909090909091,
+    "audio_duration_seconds": 169.632,
+    "authoritative_section_count": 6,
+    "authoritative_line_count": 55,
+    "model": "base.en",
+    "device": "cpu",
+    "stage_runtime_seconds": 104.897,
+    "stage_runtimes_seconds": {
+      "parse": 0.0008,
+      "asr": 103.08,
+      "alignment_and_export": 1.815
+    },
+    "asr_cached": false
+  },
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "5 low-confidence lines"
+    ],
+    "line_count": 55,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_002_line_003",
+      "section_003_line_001",
+      "section_003_line_002",
+      "section_006_line_001"
+    ],
+    "authoritative_sha256": "47ccae5cfc27863e4124d75363ff878820398a06f2a73ebd6093cd044e77c634"
+  },
+  "artifacts": [
+    "output/apple/apple.ass",
+    "output/apple/apple.karaoke.ass",
+    "output/apple/apple.srt",
+    "output/apple/apple.vtt",
+    "output/apple/diagnostics.json",
+    "output/apple/timing.json",
+    "output/apple/validation.json"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "small_local_unhinted",
+  "song_id": "apple",
+  "valid": true,
+  "runtime_seconds": 29.688,
+  "local_asr_runtime_seconds": 28.148,
+  "token_coverage": 0.9078947368421053,
+  "line_coverage": 0.9818181818181818,
+  "unresolved_tokens": 35,
+  "low_confidence_line_ids": [
+    "section_001_line_001"
+  ],
+  "validation_failures": []
+}

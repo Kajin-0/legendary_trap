@@ -1,0 +1,368 @@
+{
+  "song_id": "apple",
+  "separation_model": "htdemucs",
+  "device": "cpu",
+  "separation_runtime_seconds": 59.34,
+  "original_mix": {
+    "experiment": "small_local_unhinted_fine",
+    "token_coverage": 0.9078947368421053,
+    "line_coverage": 0.9818181818181818,
+    "unresolved_tokens": 35,
+    "low_confidence_lines": [
+      "section_001_line_001"
+    ],
+    "validation_failures": []
+  },
+  "vocals_stem": {
+    "experiment": "demucs_vocals_small_local",
+    "base_asr_runtime_seconds": 122.143,
+    "local_asr_runtime_seconds": 64.484,
+    "token_coverage": 0.6684210526315789,
+    "line_coverage": 0.8909090909090909,
+    "unresolved_tokens": 126,
+    "low_confidence_lines": [
+      "section_001_line_001",
+      "section_003_line_002",
+      "section_004_line_002",
+      "section_004_line_003",
+      "section_004_line_004",
+      "section_006_line_011"
+    ],
+    "validation_failures": [
+      "line order violation: section_003_line_003"
+    ]
+  },
+  "confidence_delta_by_line": [
+    {
+      "line_id": "section_001_line_001",
+      "original_confidence": 0.12,
+      "vocals_confidence": 0.12,
+      "delta": 0.0
+    },
+    {
+      "line_id": "section_002_line_001",
+      "original_confidence": 0.9574,
+      "vocals_confidence": 0.8486,
+      "delta": -0.1088
+    },
+    {
+      "line_id": "section_002_line_002",
+      "original_confidence": 0.798,
+      "vocals_confidence": 0.5725,
+      "delta": -0.2255
+    },
+    {
+      "line_id": "section_002_line_003",
+      "original_confidence": 0.9529,
+      "vocals_confidence": 0.9532,
+      "delta": 0.0003
+    },
+    {
+      "line_id": "section_002_line_004",
+      "original_confidence": 0.9165,
+      "vocals_confidence": 0.8875,
+      "delta": -0.029
+    },
+    {
+      "line_id": "section_003_line_001",
+      "original_confidence": 0.9353,
+      "vocals_confidence": 0.8339,
+      "delta": -0.1014
+    },
+    {
+      "line_id": "section_003_line_002",
+      "original_confidence": 0.5844,
+      "vocals_confidence": 0.12,
+      "delta": -0.4644
+    },
+    {
+      "line_id": "section_003_line_003",
+      "original_confidence": 0.7397,
+      "vocals_confidence": 0.7299,
+      "delta": -0.0098
+    },
+    {
+      "line_id": "section_003_line_004",
+      "original_confidence": 0.9603,
+      "vocals_confidence": 0.9225,
+      "delta": -0.0378
+    },
+    {
+      "line_id": "section_003_line_005",
+      "original_confidence": 0.9165,
+      "vocals_confidence": 0.9418,
+      "delta": 0.0253
+    },
+    {
+      "line_id": "section_003_line_006",
+      "original_confidence": 0.9651,
+      "vocals_confidence": 0.9324,
+      "delta": -0.0327
+    },
+    {
+      "line_id": "section_003_line_007",
+      "original_confidence": 0.9248,
+      "vocals_confidence": 0.9622,
+      "delta": 0.0374
+    },
+    {
+      "line_id": "section_003_line_008",
+      "original_confidence": 0.9041,
+      "vocals_confidence": 0.8678,
+      "delta": -0.0363
+    },
+    {
+      "line_id": "section_003_line_009",
+      "original_confidence": 0.9,
+      "vocals_confidence": 0.8541,
+      "delta": -0.0459
+    },
+    {
+      "line_id": "section_003_line_010",
+      "original_confidence": 0.9624,
+      "vocals_confidence": 0.9783,
+      "delta": 0.0159
+    },
+    {
+      "line_id": "section_003_line_011",
+      "original_confidence": 0.9858,
+      "vocals_confidence": 0.9921,
+      "delta": 0.0063
+    },
+    {
+      "line_id": "section_003_line_012",
+      "original_confidence": 0.9855,
+      "vocals_confidence": 0.9409,
+      "delta": -0.0446
+    },
+    {
+      "line_id": "section_003_line_013",
+      "original_confidence": 0.9669,
+      "vocals_confidence": 0.962,
+      "delta": -0.0049
+    },
+    {
+      "line_id": "section_003_line_014",
+      "original_confidence": 0.9694,
+      "vocals_confidence": 0.9691,
+      "delta": -0.0003
+    },
+    {
+      "line_id": "section_003_line_015",
+      "original_confidence": 0.9837,
+      "vocals_confidence": 0.9855,
+      "delta": 0.0018
+    },
+    {
+      "line_id": "section_003_line_016",
+      "original_confidence": 0.9958,
+      "vocals_confidence": 0.9976,
+      "delta": 0.0018
+    },
+    {
+      "line_id": "section_003_line_017",
+      "original_confidence": 0.9865,
+      "vocals_confidence": 0.9978,
+      "delta": 0.0113
+    },
+    {
+      "line_id": "section_004_line_001",
+      "original_confidence": 0.9032,
+      "vocals_confidence": 0.673,
+      "delta": -0.2302
+    },
+    {
+      "line_id": "section_004_line_002",
+      "original_confidence": 0.9273,
+      "vocals_confidence": 0.12,
+      "delta": -0.8073
+    },
+    {
+      "line_id": "section_004_line_003",
+      "original_confidence": 0.9741,
+      "vocals_confidence": 0.12,
+      "delta": -0.8541
+    },
+    {
+      "line_id": "section_004_line_004",
+      "original_confidence": 0.9199,
+      "vocals_confidence": 0.12,
+      "delta": -0.7999
+    },
+    {
+      "line_id": "section_005_line_001",
+      "original_confidence": 0.9441,
+      "vocals_confidence": 0.7975,
+      "delta": -0.1466
+    },
+    {
+      "line_id": "section_005_line_002",
+      "original_confidence": 0.8877,
+      "vocals_confidence": 0.8234,
+      "delta": -0.0643
+    },
+    {
+      "line_id": "section_005_line_003",
+      "original_confidence": 0.9846,
+      "vocals_confidence": 0.9504,
+      "delta": -0.0342
+    },
+    {
+      "line_id": "section_005_line_004",
+      "original_confidence": 0.9392,
+      "vocals_confidence": 0.8984,
+      "delta": -0.0408
+    },
+    {
+      "line_id": "section_005_line_005",
+      "original_confidence": 0.9604,
+      "vocals_confidence": 0.9798,
+      "delta": 0.0194
+    },
+    {
+      "line_id": "section_005_line_006",
+      "original_confidence": 0.997,
+      "vocals_confidence": 0.986,
+      "delta": -0.011
+    },
+    {
+      "line_id": "section_005_line_007",
+      "original_confidence": 0.9972,
+      "vocals_confidence": 0.9911,
+      "delta": -0.0061
+    },
+    {
+      "line_id": "section_005_line_008",
+      "original_confidence": 0.9958,
+      "vocals_confidence": 0.9677,
+      "delta": -0.0281
+    },
+    {
+      "line_id": "section_006_line_001",
+      "original_confidence": 0.9356,
+      "vocals_confidence": 0.9551,
+      "delta": 0.0195
+    },
+    {
+      "line_id": "section_006_line_002",
+      "original_confidence": 0.8637,
+      "vocals_confidence": 0.8555,
+      "delta": -0.0082
+    },
+    {
+      "line_id": "section_006_line_003",
+      "original_confidence": 0.9824,
+      "vocals_confidence": 0.9527,
+      "delta": -0.0297
+    },
+    {
+      "line_id": "section_006_line_004",
+      "original_confidence": 0.835,
+      "vocals_confidence": 0.7079,
+      "delta": -0.1271
+    },
+    {
+      "line_id": "section_006_line_005",
+      "original_confidence": 0.9808,
+      "vocals_confidence": 0.9666,
+      "delta": -0.0142
+    },
+    {
+      "line_id": "section_006_line_006",
+      "original_confidence": 0.9386,
+      "vocals_confidence": 0.7081,
+      "delta": -0.2305
+    },
+    {
+      "line_id": "section_006_line_007",
+      "original_confidence": 0.9845,
+      "vocals_confidence": 0.9924,
+      "delta": 0.0079
+    },
+    {
+      "line_id": "section_006_line_008",
+      "original_confidence": 0.9395,
+      "vocals_confidence": 0.7083,
+      "delta": -0.2312
+    },
+    {
+      "line_id": "section_006_line_009",
+      "original_confidence": 0.9937,
+      "vocals_confidence": 0.7541,
+      "delta": -0.2396
+    },
+    {
+      "line_id": "section_006_line_010",
+      "original_confidence": 0.9463,
+      "vocals_confidence": 0.7579,
+      "delta": -0.1884
+    },
+    {
+      "line_id": "section_006_line_011",
+      "original_confidence": 0.9891,
+      "vocals_confidence": 0.12,
+      "delta": -0.8691
+    },
+    {
+      "line_id": "section_006_line_012",
+      "original_confidence": 0.9049,
+      "vocals_confidence": 0.7645,
+      "delta": -0.1404
+    },
+    {
+      "line_id": "section_006_line_013",
+      "original_confidence": 0.9942,
+      "vocals_confidence": 0.8248,
+      "delta": -0.1694
+    },
+    {
+      "line_id": "section_006_line_014",
+      "original_confidence": 0.9853,
+      "vocals_confidence": 0.7013,
+      "delta": -0.284
+    },
+    {
+      "line_id": "section_006_line_015",
+      "original_confidence": 0.8548,
+      "vocals_confidence": 0.8201,
+      "delta": -0.0347
+    },
+    {
+      "line_id": "section_006_line_016",
+      "original_confidence": 0.9849,
+      "vocals_confidence": 0.6998,
+      "delta": -0.2851
+    },
+    {
+      "line_id": "section_006_line_017",
+      "original_confidence": 0.974,
+      "vocals_confidence": 0.8203,
+      "delta": -0.1537
+    },
+    {
+      "line_id": "section_006_line_018",
+      "original_confidence": 0.9385,
+      "vocals_confidence": 0.967,
+      "delta": 0.0285
+    },
+    {
+      "line_id": "section_006_line_019",
+      "original_confidence": 0.9804,
+      "vocals_confidence": 0.9739,
+      "delta": -0.0065
+    },
+    {
+      "line_id": "section_006_line_020",
+      "original_confidence": 0.9851,
+      "vocals_confidence": 0.9791,
+      "delta": -0.006
+    },
+    {
+      "line_id": "section_006_line_021",
+      "original_confidence": 0.9227,
+      "vocals_confidence": 0.9154,
+      "delta": -0.0073
+    }
+  ],
+  "conclusion": "Demucs vocals materially worsened coverage and caused a chronology violation; separation remains optional and disabled for the selected Apple configuration."
+}

@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from legendary_trap.alignment import AcousticToken, align_tokens
-from legendary_trap.lyrics import parse_lyrics
+from legendary_trap.lyrics import normalize, parse_lyrics
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -32,3 +32,8 @@ def test_alignment_is_monotonic_and_uses_authoritative_tokens() -> None:
     assert unresolved == 0
     assert [matches[i].text for i in sorted(matches)] == ["hello", "world"]
     assert matches[0].start < matches[1].start
+
+
+def test_alignment_normalization_handles_numbers_and_slang() -> None:
+    assert normalize("Nineteen") != normalize("19")
+    assert normalize("workin' at Five Guys") == "workin at five guys"

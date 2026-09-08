@@ -21,6 +21,9 @@ def make_document(song_id: str, audio: dict, parsed, sections: list[dict], align
                           "adlibs": line.adlibs, "start": round(row["start"], 3),
                           "end": round(max(row["start"], row["end"]), 3),
                           "confidence": round(row["confidence"], 4), "matched_tokens": row["matched_tokens"],
+                          "confidence_components": {k: round(v, 4) for k, v in row["confidence_components"].items()},
+                          "acoustic_start": round(row.get("acoustic_start", row["start"]), 3),
+                          "acoustic_end": round(row.get("acoustic_end", row["end"]), 3),
                           "total_tokens": row["total_tokens"], "words": words})
         rendered.append({"section_id": block["section"].section_id, "label": block["section"].label,
                          "start": round(block["start"], 3), "end": round(block["end"], 3),

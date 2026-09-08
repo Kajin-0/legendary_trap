@@ -1,0 +1,13 @@
+{
+  "asr_token_count": 631,
+  "authoritative_token_count": 380,
+  "token_alignment_coverage": 0.6684210526315789,
+  "unresolved_authoritative_tokens": 126,
+  "line_alignment_coverage": 0.8909090909090909,
+  "experiment": "demucs_vocals_small_local",
+  "runtime_seconds": 66.438,
+  "local_asr_runtime_seconds": 64.484,
+  "model": "small.en",
+  "beam_size": 5,
+  "hinted": false
+}

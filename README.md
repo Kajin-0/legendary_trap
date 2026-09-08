@@ -91,7 +91,21 @@ PATH="$PWD/tools:$PATH" timeout 15m .venv/bin/python scripts/run_pipeline.py app
 
 The canonical product is `output/apple/timing.json`; `validation.json`,
 `diagnostics.json`, ASS, SRT, and VTT are generated from it. ASR evidence is
-stored only under `work/apple/asr.json`.
+stored only under `work/apple/asr-*.json`.
+
+Apple-only experiments use tracked JSON configurations and never process the
+other songs implicitly:
+
+```bash
+timeout 15m .venv/bin/python -m legendary_trap.experiment apple \
+  --config configs/apple_small_local_fine.json
+.venv/bin/python -m legendary_trap.compare_experiments \
+  reports/apple_baseline reports/apple_experiments/small_local_unhinted_fine
+```
+
+The frozen control is under `reports/apple_baseline/`; experiment reports are
+under `reports/apple_experiments/`, and selected Apple artifacts are under
+`reports/apple_final/`.
 
 This keeps model/runtime selection separate from repository bootstrap. The correct Whisper/WhisperX/Demucs stack depends on whether the VPS has CUDA, available RAM/VRAM, and a suitable PyTorch runtime.
 

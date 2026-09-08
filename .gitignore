@@ -16,6 +16,7 @@ work/*
 !work/.gitkeep
 output/*
 !output/.gitkeep
+reports/apple_experiments/*/timing.json
 
 # Model/runtime caches
 models/

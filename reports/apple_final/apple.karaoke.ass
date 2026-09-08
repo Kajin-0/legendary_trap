@@ -1,0 +1,66 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,1,2,0,2,40,40,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.52,Default,,0,0,0,,Apple
+Dialogue: 0,0:00:10.52,0:00:15.16,Default,,0,0,0,,{\k76}how {\k76}could {\k22}you {\k28}be {\k38}so {\k58}cold {\k38}cold {\k1}cold
+Dialogue: 0,0:00:15.48,0:00:16.88,Default,,0,0,0,,{\k20}you're {\k20}bitter {\k34}like {\k50}apple
+Dialogue: 0,0:00:17.52,0:00:21.76,Default,,0,0,0,,{\k70}i {\k38}thought {\k24}you {\k26}was {\k38}my {\k70}girl {\k68}girl {\k72}girl
+Dialogue: 0,0:00:22.10,0:00:25.28,Default,,0,0,0,,{\k22}you {\k18}are {\k24}just {\k28}an {\k42}apple {\k132}oh {\k52}oh
+Dialogue: 0,0:00:25.28,0:00:27.26,Default,,0,0,0,,{\k68}nineteen {\k14}thought {\k20}i {\k14}found {\k26}my {\k28}wife
+Dialogue: 0,0:00:30.56,0:00:31.96,Default,,0,0,0,,{\k140}got
+Dialogue: 0,0:00:32.38,0:00:33.74,Default,,0,0,0,,{\k8}so {\k18}i {\k22}gotta {\k34}find {\k36}guys
+Dialogue: 0,0:00:33.74,0:00:35.46,Default,,0,0,0,,{\k46}that {\k32}eat {\k14}it {\k24}eat {\k14}it {\k28}eat {\k12}it
+Dialogue: 0,0:00:35.54,0:00:36.96,Default,,0,0,0,,{\k14}shorty {\k22}from {\k86}chicago
+Dialogue: 0,0:00:37.64,0:00:39.34,Default,,0,0,0,,{\k8}thought {\k20}she {\k24}had {\k18}the {\k32}same {\k28}heart {\k22}as {\k18}me
+Dialogue: 0,0:00:39.34,0:00:40.68,Default,,0,0,0,,{\k32}boy {\k24}was {\k20}i {\k42}wrong
+Dialogue: 0,0:00:40.90,0:00:42.68,Default,,0,0,0,,{\k10}thought {\k18}she {\k22}was {\k40}saint {\k30}but {\k20}she {\k12}a {\k26}sinner
+Dialogue: 0,0:00:43.18,0:00:44.28,Default,,0,0,0,,{\k4}my {\k22}good {\k32}girl {\k26}turned {\k26}to
+Dialogue: 0,0:00:44.28,0:00:45.98,Default,,0,0,0,,{\k28}how {\k50}could {\k20}you {\k20}be {\k20}so {\k32}cold
+Dialogue: 0,0:00:48.04,0:00:49.80,Default,,0,0,0,,{\k8}how {\k22}could {\k20}you {\k22}be {\k22}so {\k82}heartless
+Dialogue: 0,0:00:51.34,0:00:52.58,Default,,0,0,0,,{\k6}i {\k22}thought {\k22}you {\k20}were {\k18}my {\k36}soul
+Dialogue: 0,0:00:54.06,0:00:55.86,Default,,0,0,0,,{\k44}now {\k22}i {\k22}wish {\k12}we {\k32}never {\k48}started
+Dialogue: 0,0:00:57.44,0:01:01.06,Default,,0,0,0,,{\k56}but {\k28}it's {\k30}my {\k42}fault {\k4}i {\k24}don't {\k22}blame {\k38}you {\k24}blame {\k40}you
+Dialogue: 0,0:01:01.06,0:01:04.40,Default,,0,0,0,,{\k18}it {\k22}was {\k44}my {\k34}loss {\k46}i {\k18}can't {\k22}blame {\k38}you {\k26}blame {\k44}you
+Dialogue: 0,0:01:04.40,0:01:07.64,Default,,0,0,0,,{\k12}it {\k22}was {\k44}my {\k30}fault {\k8}i {\k20}don't {\k22}blame {\k42}you {\k2}blame {\k38}you
+Dialogue: 0,0:01:07.64,0:01:10.82,Default,,0,0,0,,{\k12}it {\k26}was {\k40}my {\k36}loss {\k44}i {\k24}can't {\k14}blame {\k50}you {\k16}blame {\k36}you
+Dialogue: 0,0:01:10.82,0:01:13.84,Default,,0,0,0,,{\k10}could {\k14}you {\k22}be {\k42}so {\k46}cold {\k22}cold {\k28}cold
+Dialogue: 0,0:01:13.84,0:01:17.20,Default,,0,0,0,,{\k50}now {\k28}you're {\k14}bitter {\k26}like {\k52}apple {\k60}oh {\k6}oh
+Dialogue: 0,0:01:17.20,0:01:20.50,Default,,0,0,0,,{\k4}i {\k16}thought {\k22}you {\k26}was {\k36}my {\k54}girl {\k40}girl {\k88}girl
+Dialogue: 0,0:01:20.50,0:01:23.04,Default,,0,0,0,,{\k38}now {\k22}you {\k20}are {\k18}just {\k26}an {\k34}apple {\k96}oh
+Dialogue: 0,0:01:23.88,0:01:26.80,Default,,0,0,0,,{\k52}now {\k20}you're {\k22}just {\k12}a {\k44}memory {\k28}not {\k8}a {\k26}friend {\k20}to {\k24}me
+Dialogue: 0,0:01:26.80,0:01:29.30,Default,,0,0,0,,{\k36}you {\k22}turned {\k26}got {\k36}me {\k18}in {\k30}disbelief
+Dialogue: 0,0:01:29.30,0:01:32.88,Default,,0,0,0,,{\k92}it {\k42}wasn't {\k20}meant {\k20}to {\k22}be {\k50}now {\k20}you're {\k22}dead {\k16}to {\k24}me
+Dialogue: 0,0:01:32.88,0:01:35.78,Default,,0,0,0,,{\k78}you {\k28}pretend {\k30}to {\k24}be {\k40}who {\k54}you're {\k36}not
+Dialogue: 0,0:01:36.30,0:01:42.26,Default,,0,0,0,,{\k84}and {\k24}i {\k26}don't {\k24}need {\k36}you {\k1}no
+Dialogue: 0,0:01:42.26,0:01:46.82,Default,,0,0,0,,{\k138}and {\k22}i {\k22}don't {\k30}need {\k40}you {\k1}no
+Dialogue: 0,0:01:46.82,0:01:47.18,Default,,0,0,0,,{\k12}and {\k24}i {\k1}don't {\k1}need {\k1}you {\k1}no
+Dialogue: 0,0:01:47.18,0:01:48.88,Default,,0,0,0,,{\k1}and {\k1}i {\k24}don't {\k28}need {\k38}you {\k6}no
+Dialogue: 0,0:01:48.90,0:01:51.08,Default,,0,0,0,,{\k104}she {\k18}broke {\k24}my {\k72}heart
+Dialogue: 0,0:01:51.78,0:01:53.06,Default,,0,0,0,,{\k34}you {\k20}be {\k38}so {\k36}cold
+Dialogue: 0,0:01:53.06,0:01:54.32,Default,,0,0,0,,{\k18}she {\k18}broke {\k22}my {\k68}heart
+Dialogue: 0,0:01:55.06,0:01:56.18,Default,,0,0,0,,{\k18}you {\k20}be {\k38}so {\k36}cold
+Dialogue: 0,0:01:56.18,0:01:57.22,Default,,0,0,0,,{\k24}she {\k20}broke {\k22}my {\k38}heart
+Dialogue: 0,0:01:57.78,0:01:59.48,Default,,0,0,0,,{\k56}could {\k14}you {\k22}be {\k38}so {\k40}cold
+Dialogue: 0,0:01:59.58,0:02:00.60,Default,,0,0,0,,{\k6}she {\k22}broke {\k22}my {\k52}heart
+Dialogue: 0,0:02:01.04,0:02:02.82,Default,,0,0,0,,{\k54}could {\k14}you {\k24}be {\k36}so {\k50}cold
+Dialogue: 0,0:02:03.24,0:02:04.54,Default,,0,0,0,,{\k10}now {\k22}i {\k22}don't {\k16}feel {\k14}the {\k46}same
+Dialogue: 0,0:02:04.92,0:02:06.82,Default,,0,0,0,,{\k62}got {\k22}some {\k44}baddies {\k22}in {\k12}the {\k28}line
+Dialogue: 0,0:02:06.82,0:02:08.90,Default,,0,0,0,,{\k16}but {\k24}i {\k22}don't {\k16}know {\k22}if {\k20}i {\k14}could {\k26}trust {\k48}again
+Dialogue: 0,0:02:09.48,0:02:11.46,Default,,0,0,0,,{\k22}mention {\k36}they {\k26}don't {\k16}really {\k50}look {\k18}like {\k30}you
+Dialogue: 0,0:02:11.88,0:02:13.10,Default,,0,0,0,,{\k26}don't {\k32}look {\k36}like {\k28}you
+Dialogue: 0,0:02:13.36,0:02:15.24,Default,,0,0,0,,{\k30}i {\k20}might {\k62}have {\k16}to {\k26}spin {\k34}again
+Dialogue: 0,0:02:15.90,0:02:16.84,Default,,0,0,0,,{\k10}some {\k16}of {\k18}my {\k26}old {\k24}hoes
+Dialogue: 0,0:02:16.84,0:02:19.42,Default,,0,0,0,,{\k46}you {\k22}know {\k20}bring {\k20}it {\k22}back {\k16}to {\k74}2016
+Dialogue: 0,0:02:20.06,0:02:23.00,Default,,0,0,0,,{\k12}it's {\k8}a {\k32}cold {\k40}world {\k1}i {\k1}need {\k1}to {\k1}get {\k1}my {\k1}heart {\k1}back
+Dialogue: 0,0:02:23.00,0:02:23.98,Default,,0,0,0,,{\k1}bitch {\k12}you {\k22}took {\k16}it {\k28}from {\k20}me
+Dialogue: 0,0:02:24.20,0:02:25.78,Default,,0,0,0,,{\k38}now {\k14}i'm {\k20}screaming {\k8}bring {\k18}it {\k24}back
+Dialogue: 0,0:02:25.78,0:02:27.36,Default,,0,0,0,,{\k18}i {\k20}know {\k24}you {\k32}didn't {\k28}mean {\k36}to
+Dialogue: 0,0:02:27.56,0:02:45.90,Default,,0,0,0,,{\k26}now {\k14}you {\k26}got {\k14}me {\k78}singing {\k10}got {\k1614}me {\k2}singing

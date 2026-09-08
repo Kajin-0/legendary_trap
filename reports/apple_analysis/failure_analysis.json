@@ -1,0 +1,1989 @@
+{
+  "song_id": "apple",
+  "baseline_commit": "1d01f2dfb90874ffee1287e14ccd8751c1ff5ff4",
+  "rows": [
+    {
+      "line_id": "section_001_line_001",
+      "section_id": "section_001",
+      "exact_authoritative_text": "Apple",
+      "normalized_text": "",
+      "current_start": 0.0,
+      "current_end": 2.312,
+      "confidence": 0.12,
+      "aligned_token_count": 0,
+      "authoritative_token_count": 1,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "How",
+          "start": 11.559999999999995,
+          "end": 11.759999999999998,
+          "probability": 0.31094250082969666
+        },
+        {
+          "text": "could",
+          "start": 11.759999999999998,
+          "end": 11.96,
+          "probability": 0.8683823347091675
+        },
+        {
+          "text": "you",
+          "start": 11.96,
+          "end": 12.2,
+          "probability": 0.9878028035163879
+        },
+        {
+          "text": "be",
+          "start": 12.2,
+          "end": 12.4,
+          "probability": 0.9830350875854492
+        },
+        {
+          "text": "so",
+          "start": 12.4,
+          "end": 12.8,
+          "probability": 0.6498834490776062
+        },
+        {
+          "text": "cold,",
+          "start": 12.8,
+          "end": 13.4,
+          "probability": 0.20571798086166382
+        },
+        {
+          "text": "cold,",
+          "start": 13.78,
+          "end": 14.16,
+          "probability": 0.7298250198364258
+        },
+        {
+          "text": "cold,",
+          "start": 15.16,
+          "end": 15.16,
+          "probability": 0.7898302674293518
+        },
+        {
+          "text": "that",
+          "start": 15.46,
+          "end": 15.48,
+          "probability": 0.4953882396221161
+        },
+        {
+          "text": "you",
+          "start": 15.48,
+          "end": 15.68,
+          "probability": 0.9711536765098572
+        },
+        {
+          "text": "be",
+          "start": 15.68,
+          "end": 15.88,
+          "probability": 0.6366416215896606
+        },
+        {
+          "text": "the",
+          "start": 15.88,
+          "end": 16.04,
+          "probability": 0.3952566683292389
+        }
+      ],
+      "preceding_aligned_line": null,
+      "following_aligned_line": {
+        "line_id": "section_002_line_001",
+        "text": "How could you be so cold, cold, cold?",
+        "start": 11.56,
+        "end": 15.16,
+        "confidence": 0.6907
+      },
+      "available_temporal_window": {
+        "start": 0.0,
+        "end": 13.56
+      },
+      "suspected_failure_class": "instrumental gap / intro vocal not recognized"
+    },
+    {
+      "line_id": "section_002_line_002",
+      "section_id": "section_002",
+      "exact_authoritative_text": "Now you're bitter like apple, oh-oh",
+      "normalized_text": "you're bitter like apple oh oh",
+      "current_start": 15.48,
+      "current_end": 19.52,
+      "confidence": 0.7335,
+      "aligned_token_count": 6,
+      "authoritative_token_count": 7,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "you",
+          "start": 15.48,
+          "end": 15.68,
+          "probability": 0.9711536765098572
+        },
+        {
+          "text": "oh,",
+          "start": 19.52,
+          "end": 19.52,
+          "probability": 0.9172683358192444
+        },
+        {
+          "text": "oh,",
+          "start": 19.52,
+          "end": 19.52,
+          "probability": 0.9305232167243958
+        },
+        {
+          "text": "that",
+          "start": 15.46,
+          "end": 15.48,
+          "probability": 0.4953882396221161
+        },
+        {
+          "text": "oh,",
+          "start": 18.6,
+          "end": 19.44,
+          "probability": 0.8794720768928528
+        },
+        {
+          "text": "oh,",
+          "start": 19.44,
+          "end": 19.44,
+          "probability": 0.9070547223091125
+        },
+        {
+          "text": "be",
+          "start": 15.68,
+          "end": 15.88,
+          "probability": 0.6366416215896606
+        },
+        {
+          "text": "oh,",
+          "start": 19.54,
+          "end": 19.8,
+          "probability": 0.9357781410217285
+        },
+        {
+          "text": "cold,",
+          "start": 15.16,
+          "end": 15.16,
+          "probability": 0.7898302674293518
+        },
+        {
+          "text": "the",
+          "start": 15.88,
+          "end": 16.04,
+          "probability": 0.3952566683292389
+        },
+        {
+          "text": "light",
+          "start": 16.04,
+          "end": 16.38,
+          "probability": 0.6060101985931396
+        },
+        {
+          "text": "apple,",
+          "start": 16.38,
+          "end": 16.88,
+          "probability": 0.7471276521682739
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_002_line_001",
+        "text": "How could you be so cold, cold, cold?",
+        "start": 11.56,
+        "end": 15.16,
+        "confidence": 0.6907
+      },
+      "following_aligned_line": {
+        "line_id": "section_002_line_004",
+        "text": "Now you are just an apple, oh-oh",
+        "start": 25.68,
+        "end": 25.68,
+        "confidence": 0.9758
+      },
+      "available_temporal_window": {
+        "start": 13.16,
+        "end": 27.68
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_002_line_003",
+      "section_id": "section_002",
+      "exact_authoritative_text": "I thought you was my girl, girl, girl",
+      "normalized_text": "",
+      "current_start": 19.52,
+      "current_end": 21.06,
+      "confidence": 0.12,
+      "aligned_token_count": 0,
+      "authoritative_token_count": 8,
+      "unmatched_authoritative_tokens": 8,
+      "nearest_asr_words": [
+        {
+          "text": "oh,",
+          "start": 19.52,
+          "end": 19.52,
+          "probability": 0.9172683358192444
+        },
+        {
+          "text": "oh,",
+          "start": 19.52,
+          "end": 19.52,
+          "probability": 0.9305232167243958
+        },
+        {
+          "text": "oh,",
+          "start": 19.54,
+          "end": 19.8,
+          "probability": 0.9357781410217285
+        },
+        {
+          "text": "oh,",
+          "start": 19.44,
+          "end": 19.44,
+          "probability": 0.9070547223091125
+        },
+        {
+          "text": "oh,",
+          "start": 20.06,
+          "end": 21.36,
+          "probability": 0.9466891884803772
+        },
+        {
+          "text": "oh,",
+          "start": 21.36,
+          "end": 21.36,
+          "probability": 0.9375290870666504
+        },
+        {
+          "text": "oh,",
+          "start": 21.36,
+          "end": 21.36,
+          "probability": 0.9539926648139954
+        },
+        {
+          "text": "oh,",
+          "start": 21.36,
+          "end": 21.38,
+          "probability": 0.9505521059036255
+        },
+        {
+          "text": "oh,",
+          "start": 21.38,
+          "end": 21.4,
+          "probability": 0.9535432457923889
+        },
+        {
+          "text": "oh,",
+          "start": 21.88,
+          "end": 21.9,
+          "probability": 0.9590892791748047
+        },
+        {
+          "text": "oh,",
+          "start": 21.92,
+          "end": 21.94,
+          "probability": 0.9623427391052246
+        },
+        {
+          "text": "oh,",
+          "start": 18.6,
+          "end": 19.44,
+          "probability": 0.8794720768928528
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_002_line_002",
+        "text": "Now you're bitter like apple, oh-oh",
+        "start": 15.48,
+        "end": 19.52,
+        "confidence": 0.7335
+      },
+      "following_aligned_line": {
+        "line_id": "section_002_line_004",
+        "text": "Now you are just an apple, oh-oh",
+        "start": 25.68,
+        "end": 25.68,
+        "confidence": 0.9758
+      },
+      "available_temporal_window": {
+        "start": 17.52,
+        "end": 27.68
+      },
+      "suspected_failure_class": "ASR deletion or low vocal SNR"
+    },
+    {
+      "line_id": "section_002_line_004",
+      "section_id": "section_002",
+      "exact_authoritative_text": "Now you are just an apple, oh-oh",
+      "normalized_text": "oh oh",
+      "current_start": 25.68,
+      "current_end": 25.68,
+      "confidence": 0.9758,
+      "aligned_token_count": 2,
+      "authoritative_token_count": 8,
+      "unmatched_authoritative_tokens": 6,
+      "nearest_asr_words": [
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9739680886268616
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9744887948036194
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9770731925964355
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9817580580711365
+        },
+        {
+          "text": "oh,",
+          "start": 25.86,
+          "end": 25.86,
+          "probability": 0.980059802532196
+        },
+        {
+          "text": "oh,",
+          "start": 25.86,
+          "end": 25.94,
+          "probability": 0.9828529953956604
+        },
+        {
+          "text": "oh,",
+          "start": 23.08,
+          "end": 25.46,
+          "probability": 0.9755310416221619
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9809057712554932
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9816252589225769
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9812188744544983
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.983758270740509
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9811338186264038
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_002_line_002",
+        "text": "Now you're bitter like apple, oh-oh",
+        "start": 15.48,
+        "end": 19.52,
+        "confidence": 0.7335
+      },
+      "following_aligned_line": {
+        "line_id": "section_003_line_003",
+        "text": "I don't eat no Five Guys, so I gotta find guys",
+        "start": 29.98,
+        "end": 33.74,
+        "confidence": 0.5558
+      },
+      "available_temporal_window": {
+        "start": 17.52,
+        "end": 31.98
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_003_line_001",
+      "section_id": "section_003",
+      "exact_authoritative_text": "Nineteen, thought I found my wife",
+      "normalized_text": "",
+      "current_start": 25.68,
+      "current_end": 27.113,
+      "confidence": 0.12,
+      "aligned_token_count": 0,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 6,
+      "nearest_asr_words": [
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9739680886268616
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9744887948036194
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9770731925964355
+        },
+        {
+          "text": "oh,",
+          "start": 25.68,
+          "end": 25.68,
+          "probability": 0.9817580580711365
+        },
+        {
+          "text": "oh,",
+          "start": 25.86,
+          "end": 25.86,
+          "probability": 0.980059802532196
+        },
+        {
+          "text": "oh,",
+          "start": 25.86,
+          "end": 25.94,
+          "probability": 0.9828529953956604
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9809057712554932
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9816252589225769
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.9812188744544983
+        },
+        {
+          "text": "oh,",
+          "start": 26.0,
+          "end": 26.0,
+          "probability": 0.983758270740509
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9811338186264038
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9800457954406738
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_002_line_004",
+        "text": "Now you are just an apple, oh-oh",
+        "start": 25.68,
+        "end": 25.68,
+        "confidence": 0.9758
+      },
+      "following_aligned_line": {
+        "line_id": "section_003_line_003",
+        "text": "I don't eat no Five Guys, so I gotta find guys",
+        "start": 29.98,
+        "end": 33.74,
+        "confidence": 0.5558
+      },
+      "available_temporal_window": {
+        "start": 23.68,
+        "end": 31.98
+      },
+      "suspected_failure_class": "ASR deletion or low vocal SNR"
+    },
+    {
+      "line_id": "section_003_line_002",
+      "section_id": "section_003",
+      "exact_authoritative_text": "Shorty got a new job, workin' at the Five Guys",
+      "normalized_text": "",
+      "current_start": 27.113,
+      "current_end": 28.547,
+      "confidence": 0.12,
+      "aligned_token_count": 0,
+      "authoritative_token_count": 10,
+      "unmatched_authoritative_tokens": 10,
+      "nearest_asr_words": [
+        {
+          "text": "oh,",
+          "start": 26.52,
+          "end": 26.52,
+          "probability": 0.9828778505325317
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9811338186264038
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9800457954406738
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9825798869132996
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9802535772323608
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9821348190307617
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.982799232006073
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.983826220035553
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9828850030899048
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9821920990943909
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9829729795455933
+        },
+        {
+          "text": "oh,",
+          "start": 26.1,
+          "end": 26.1,
+          "probability": 0.9830069541931152
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_002_line_004",
+        "text": "Now you are just an apple, oh-oh",
+        "start": 25.68,
+        "end": 25.68,
+        "confidence": 0.9758
+      },
+      "following_aligned_line": {
+        "line_id": "section_003_line_003",
+        "text": "I don't eat no Five Guys, so I gotta find guys",
+        "start": 29.98,
+        "end": 33.74,
+        "confidence": 0.5558
+      },
+      "available_temporal_window": {
+        "start": 23.68,
+        "end": 31.98
+      },
+      "suspected_failure_class": "ASR deletion or low vocal SNR"
+    },
+    {
+      "line_id": "section_003_line_008",
+      "section_id": "section_003",
+      "exact_authoritative_text": "Thought she was a saint, but she a sinner",
+      "normalized_text": "thought she was saint but she a sinner",
+      "current_start": 40.9,
+      "current_end": 42.68,
+      "confidence": 0.7151,
+      "aligned_token_count": 8,
+      "authoritative_token_count": 9,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "thought",
+          "start": 40.9,
+          "end": 41.0,
+          "probability": 0.9859553575515747
+        },
+        {
+          "text": "sinner,",
+          "start": 42.42,
+          "end": 42.68,
+          "probability": 0.8244649469852448
+        },
+        {
+          "text": "she",
+          "start": 41.0,
+          "end": 41.18,
+          "probability": 0.9976251721382141
+        },
+        {
+          "text": "a",
+          "start": 42.3,
+          "end": 42.42,
+          "probability": 0.13433468341827393
+        },
+        {
+          "text": "was",
+          "start": 41.18,
+          "end": 41.4,
+          "probability": 0.9618794322013855
+        },
+        {
+          "text": "she",
+          "start": 42.1,
+          "end": 42.3,
+          "probability": 0.9863709807395935
+        },
+        {
+          "text": "insane",
+          "start": 41.4,
+          "end": 41.8,
+          "probability": 0.43384721875190735
+        },
+        {
+          "text": "my",
+          "start": 43.18,
+          "end": 43.22,
+          "probability": 0.731177568435669
+        },
+        {
+          "text": "But",
+          "start": 41.8,
+          "end": 42.1,
+          "probability": 0.3966670632362366
+        },
+        {
+          "text": "wrong,",
+          "start": 40.26,
+          "end": 40.68,
+          "probability": 0.7942667603492737
+        },
+        {
+          "text": "good",
+          "start": 43.22,
+          "end": 43.44,
+          "probability": 0.9948898553848267
+        },
+        {
+          "text": "I",
+          "start": 40.06,
+          "end": 40.26,
+          "probability": 0.9280292987823486
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_003_line_007",
+        "text": "Boy, was I wrong",
+        "start": 39.34,
+        "end": 40.68,
+        "confidence": 0.6241
+      },
+      "following_aligned_line": {
+        "line_id": "section_003_line_009",
+        "text": "My good girl turned to a",
+        "start": 43.18,
+        "end": 44.28,
+        "confidence": 0.7915
+      },
+      "available_temporal_window": {
+        "start": 38.68,
+        "end": 45.18
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_003_line_009",
+      "section_id": "section_003",
+      "exact_authoritative_text": "My good girl turned to a",
+      "normalized_text": "my good girl turned to",
+      "current_start": 43.18,
+      "current_end": 44.28,
+      "confidence": 0.7915,
+      "aligned_token_count": 5,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "my",
+          "start": 43.18,
+          "end": 43.22,
+          "probability": 0.731177568435669
+        },
+        {
+          "text": "to",
+          "start": 44.02,
+          "end": 44.28,
+          "probability": 0.38410279154777527
+        },
+        {
+          "text": "good",
+          "start": 43.22,
+          "end": 43.44,
+          "probability": 0.9948898553848267
+        },
+        {
+          "text": "girl",
+          "start": 43.44,
+          "end": 43.76,
+          "probability": 0.9693794250488281
+        },
+        {
+          "text": "turned",
+          "start": 43.76,
+          "end": 44.02,
+          "probability": 0.8779107332229614
+        },
+        {
+          "text": "How",
+          "start": 44.28,
+          "end": 44.56,
+          "probability": 0.03832315281033516
+        },
+        {
+          "text": "sinner,",
+          "start": 42.42,
+          "end": 42.68,
+          "probability": 0.8244649469852448
+        },
+        {
+          "text": "could",
+          "start": 44.56,
+          "end": 45.06,
+          "probability": 0.9851359724998474
+        },
+        {
+          "text": "a",
+          "start": 42.3,
+          "end": 42.42,
+          "probability": 0.13433468341827393
+        },
+        {
+          "text": "you",
+          "start": 45.06,
+          "end": 45.26,
+          "probability": 0.9922577738761902
+        },
+        {
+          "text": "she",
+          "start": 42.1,
+          "end": 42.3,
+          "probability": 0.9863709807395935
+        },
+        {
+          "text": "be",
+          "start": 45.26,
+          "end": 45.46,
+          "probability": 0.9984540939331055
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_003_line_008",
+        "text": "Thought she was a saint, but she a sinner",
+        "start": 40.9,
+        "end": 42.68,
+        "confidence": 0.7151
+      },
+      "following_aligned_line": {
+        "line_id": "section_003_line_010",
+        "text": "How could you be so cold?",
+        "start": 44.28,
+        "end": 45.98,
+        "confidence": 0.812
+      },
+      "available_temporal_window": {
+        "start": 40.68,
+        "end": 46.28
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_004_line_001",
+      "section_id": "section_004",
+      "exact_authoritative_text": "How could you be so cold, cold, cold?",
+      "normalized_text": "could you be so cold cold cold",
+      "current_start": 70.82,
+      "current_end": 73.84,
+      "confidence": 0.7346,
+      "aligned_token_count": 7,
+      "authoritative_token_count": 8,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "Could",
+          "start": 70.82,
+          "end": 70.92,
+          "probability": 0.028095854446291924
+        },
+        {
+          "text": "cold",
+          "start": 73.56,
+          "end": 73.84,
+          "probability": 0.9957002401351929
+        },
+        {
+          "text": "you",
+          "start": 70.92,
+          "end": 71.06,
+          "probability": 0.9843015074729919
+        },
+        {
+          "text": "be",
+          "start": 71.06,
+          "end": 71.28,
+          "probability": 0.994933545589447
+        },
+        {
+          "text": "you",
+          "start": 70.46,
+          "end": 70.82,
+          "probability": 0.431596577167511
+        },
+        {
+          "text": "so",
+          "start": 71.28,
+          "end": 71.7,
+          "probability": 0.7997103929519653
+        },
+        {
+          "text": "Now",
+          "start": 73.84,
+          "end": 74.34,
+          "probability": 0.4487629234790802
+        },
+        {
+          "text": "blame",
+          "start": 70.3,
+          "end": 70.46,
+          "probability": 0.9988446235656738
+        },
+        {
+          "text": "you'll",
+          "start": 74.34,
+          "end": 74.62,
+          "probability": 0.6042900681495667
+        },
+        {
+          "text": "cold,",
+          "start": 72.78,
+          "end": 73.0,
+          "probability": 0.9791399240493774
+        },
+        {
+          "text": "cold,",
+          "start": 71.7,
+          "end": 72.16,
+          "probability": 0.360118567943573
+        },
+        {
+          "text": "be",
+          "start": 74.62,
+          "end": 74.76,
+          "probability": 0.9933986663818359
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_003_line_017",
+        "text": "It was my loss, I can't blame you, blame you",
+        "start": 67.64,
+        "end": 70.82,
+        "confidence": 0.9323
+      },
+      "following_aligned_line": {
+        "line_id": "section_004_line_002",
+        "text": "Now you're bitter like apple, oh-oh",
+        "start": 73.84,
+        "end": 77.2,
+        "confidence": 0.6365
+      },
+      "available_temporal_window": {
+        "start": 68.82,
+        "end": 75.84
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_004_line_004",
+      "section_id": "section_004",
+      "exact_authoritative_text": "Now you are just an apple, oh-oh",
+      "normalized_text": "now you are just an apple oh",
+      "current_start": 80.5,
+      "current_end": 83.04,
+      "confidence": 0.8181,
+      "aligned_token_count": 7,
+      "authoritative_token_count": 8,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "Now",
+          "start": 80.5,
+          "end": 80.88,
+          "probability": 0.8901622891426086
+        },
+        {
+          "text": "oh",
+          "start": 82.08,
+          "end": 83.04,
+          "probability": 0.9693891406059265
+        },
+        {
+          "text": "you",
+          "start": 80.88,
+          "end": 81.1,
+          "probability": 0.9866655468940735
+        },
+        {
+          "text": "are",
+          "start": 81.1,
+          "end": 81.3,
+          "probability": 0.543247640132904
+        },
+        {
+          "text": "just",
+          "start": 81.3,
+          "end": 81.48,
+          "probability": 0.953603982925415
+        },
+        {
+          "text": "girl",
+          "start": 79.62,
+          "end": 80.5,
+          "probability": 0.9689221382141113
+        },
+        {
+          "text": "apple,",
+          "start": 81.74,
+          "end": 82.08,
+          "probability": 0.9845922589302063
+        },
+        {
+          "text": "an",
+          "start": 81.48,
+          "end": 81.74,
+          "probability": 0.3990042209625244
+        },
+        {
+          "text": "girl,",
+          "start": 79.22,
+          "end": 79.62,
+          "probability": 0.98298579454422
+        },
+        {
+          "text": "Now",
+          "start": 83.88000000000001,
+          "end": 84.4,
+          "probability": 0.020984839648008347
+        },
+        {
+          "text": "you're",
+          "start": 84.4,
+          "end": 84.6,
+          "probability": 0.686241626739502
+        },
+        {
+          "text": "just",
+          "start": 84.6,
+          "end": 84.82,
+          "probability": 0.012660346925258636
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_004_line_003",
+        "text": "I thought you was my girl, girl, girl",
+        "start": 77.2,
+        "end": 80.5,
+        "confidence": 0.8707
+      },
+      "following_aligned_line": {
+        "line_id": "section_005_line_001",
+        "text": "Now you're just a memory, not a friend to me",
+        "start": 83.88,
+        "end": 86.8,
+        "confidence": 0.7207
+      },
+      "available_temporal_window": {
+        "start": 78.5,
+        "end": 85.88
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_005_line_002",
+      "section_id": "section_005",
+      "exact_authoritative_text": "You turned enemy, got me in disbelief",
+      "normalized_text": "you turned got me in disbelief",
+      "current_start": 86.8,
+      "current_end": 89.3,
+      "confidence": 0.6883,
+      "aligned_token_count": 6,
+      "authoritative_token_count": 7,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "You",
+          "start": 86.8,
+          "end": 87.16,
+          "probability": 0.4729827344417572
+        },
+        {
+          "text": "disbelief",
+          "start": 89.0,
+          "end": 89.3,
+          "probability": 0.322115033864975
+        },
+        {
+          "text": "me",
+          "start": 86.56,
+          "end": 86.8,
+          "probability": 0.9959261417388916
+        },
+        {
+          "text": "in",
+          "start": 88.82,
+          "end": 89.0,
+          "probability": 0.8355080485343933
+        },
+        {
+          "text": "turned",
+          "start": 87.16,
+          "end": 87.38,
+          "probability": 0.614754855632782
+        },
+        {
+          "text": "of",
+          "start": 86.36,
+          "end": 86.56,
+          "probability": 0.9885820746421814
+        },
+        {
+          "text": "me",
+          "start": 88.46,
+          "end": 88.82,
+          "probability": 0.9745556712150574
+        },
+        {
+          "text": "into",
+          "start": 87.38,
+          "end": 87.76,
+          "probability": 0.7229626774787903
+        },
+        {
+          "text": "friend",
+          "start": 86.1,
+          "end": 86.36,
+          "probability": 0.9904775619506836
+        },
+        {
+          "text": "a",
+          "start": 86.02,
+          "end": 86.1,
+          "probability": 0.9883726239204407
+        },
+        {
+          "text": "got",
+          "start": 88.2,
+          "end": 88.46,
+          "probability": 0.9096047878265381
+        },
+        {
+          "text": "It",
+          "start": 89.3,
+          "end": 90.22,
+          "probability": 0.6104896664619446
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_005_line_001",
+        "text": "Now you're just a memory, not a friend to me",
+        "start": 83.88,
+        "end": 86.8,
+        "confidence": 0.7207
+      },
+      "following_aligned_line": {
+        "line_id": "section_005_line_003",
+        "text": "It wasn't meant to be, now you're dead to me",
+        "start": 89.3,
+        "end": 92.88,
+        "confidence": 0.9229
+      },
+      "available_temporal_window": {
+        "start": 84.8,
+        "end": 91.3
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_001",
+      "section_id": "section_006",
+      "exact_authoritative_text": "She broke my heart",
+      "normalized_text": "",
+      "current_start": 110.9,
+      "current_end": 112.56,
+      "confidence": 0.12,
+      "aligned_token_count": 0,
+      "authoritative_token_count": 4,
+      "unmatched_authoritative_tokens": 4,
+      "nearest_asr_words": [
+        {
+          "text": "Can",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.8978676795959473
+        },
+        {
+          "text": "I",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9614646434783936
+        },
+        {
+          "text": "don't",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9505091607570648
+        },
+        {
+          "text": "need",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9794881939888
+        },
+        {
+          "text": "you,",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9892252087593079
+        },
+        {
+          "text": "no",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9896741509437561
+        },
+        {
+          "text": "Can",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9301968216896057
+        },
+        {
+          "text": "I",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9723332524299622
+        },
+        {
+          "text": "don't",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9495558142662048
+        },
+        {
+          "text": "need",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9794625639915466
+        },
+        {
+          "text": "you,",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9905977845191956
+        },
+        {
+          "text": "no",
+          "start": 110.9,
+          "end": 110.9,
+          "probability": 0.9898791313171387
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_005_line_008",
+        "text": "And I don't need you, no",
+        "start": 110.9,
+        "end": 110.9,
+        "confidence": 0.9765
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_002",
+        "text": "How could you be so cold?",
+        "start": 112.56,
+        "end": 112.56,
+        "confidence": 0.9864
+      },
+      "available_temporal_window": {
+        "start": 108.9,
+        "end": 114.56
+      },
+      "suspected_failure_class": "repeated-line / ASR deletion"
+    },
+    {
+      "line_id": "section_006_line_002",
+      "section_id": "section_006",
+      "exact_authoritative_text": "How could you be so cold?",
+      "normalized_text": "could you so",
+      "current_start": 112.56,
+      "current_end": 112.56,
+      "confidence": 0.9864,
+      "aligned_token_count": 3,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 3,
+      "nearest_asr_words": [
+        {
+          "text": "no",
+          "start": 112.52,
+          "end": 112.56,
+          "probability": 0.9886834025382996
+        },
+        {
+          "text": "Can",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9489337801933289
+        },
+        {
+          "text": "I",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9860653877258301
+        },
+        {
+          "text": "don't",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9481800496578217
+        },
+        {
+          "text": "need",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9709910154342651
+        },
+        {
+          "text": "you,",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9905473589897156
+        },
+        {
+          "text": "no",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9736863970756531
+        },
+        {
+          "text": "Can",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9613007307052612
+        },
+        {
+          "text": "I",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9824819564819336
+        },
+        {
+          "text": "don't",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.8473090827465057
+        },
+        {
+          "text": "need",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9803760051727295
+        },
+        {
+          "text": "you,",
+          "start": 112.56,
+          "end": 112.56,
+          "probability": 0.9861447811126709
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_005_line_008",
+        "text": "And I don't need you, no",
+        "start": 110.9,
+        "end": 110.9,
+        "confidence": 0.9765
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_003",
+        "text": "She broke my heart",
+        "start": 113.02,
+        "end": 113.96,
+        "confidence": 0.7056
+      },
+      "available_temporal_window": {
+        "start": 108.9,
+        "end": 115.02
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_004",
+      "section_id": "section_006",
+      "exact_authoritative_text": "How could you be so cold?",
+      "normalized_text": "could you be so cold",
+      "current_start": 114.52,
+      "current_end": 116.18,
+      "confidence": 0.7108,
+      "aligned_token_count": 5,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "cuz",
+          "start": 114.52,
+          "end": 115.06,
+          "probability": 0.5206850543618202
+        },
+        {
+          "text": "cold,",
+          "start": 115.82,
+          "end": 116.18,
+          "probability": 0.7388916611671448
+        },
+        {
+          "text": "she",
+          "start": 116.18,
+          "end": 116.42,
+          "probability": 0.6259191036224365
+        },
+        {
+          "text": "so",
+          "start": 115.44,
+          "end": 115.82,
+          "probability": 0.854896605014801
+        },
+        {
+          "text": "broke",
+          "start": 116.42,
+          "end": 116.62,
+          "probability": 0.9939263463020325
+        },
+        {
+          "text": "you",
+          "start": 115.06,
+          "end": 115.24,
+          "probability": 0.8591877818107605
+        },
+        {
+          "text": "my",
+          "start": 116.62,
+          "end": 116.84,
+          "probability": 0.9981234669685364
+        },
+        {
+          "text": "be",
+          "start": 115.24,
+          "end": 115.44,
+          "probability": 0.5805844664573669
+        },
+        {
+          "text": "heart,",
+          "start": 113.58,
+          "end": 113.96,
+          "probability": 0.9962820410728455
+        },
+        {
+          "text": "heart,",
+          "start": 116.84,
+          "end": 117.22,
+          "probability": 0.9983550906181335
+        },
+        {
+          "text": "my",
+          "start": 113.36,
+          "end": 113.58,
+          "probability": 0.9932153224945068
+        },
+        {
+          "text": "broke",
+          "start": 113.18,
+          "end": 113.36,
+          "probability": 0.7650315761566162
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_003",
+        "text": "She broke my heart",
+        "start": 113.02,
+        "end": 113.96,
+        "confidence": 0.7056
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_005",
+        "text": "She broke my heart",
+        "start": 116.18,
+        "end": 117.22,
+        "confidence": 0.9041
+      },
+      "available_temporal_window": {
+        "start": 111.96,
+        "end": 118.18
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_006",
+      "section_id": "section_006",
+      "exact_authoritative_text": "How could you be so cold?",
+      "normalized_text": "could you be so cold",
+      "current_start": 117.78,
+      "current_end": 119.48,
+      "confidence": 0.9846,
+      "aligned_token_count": 5,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "cuz",
+          "start": 117.78,
+          "end": 118.34,
+          "probability": 0.9760219156742096
+        },
+        {
+          "text": "cold,",
+          "start": 119.08,
+          "end": 119.48,
+          "probability": 0.9919049739837646
+        },
+        {
+          "text": "she",
+          "start": 119.58,
+          "end": 119.64,
+          "probability": 0.700374186038971
+        },
+        {
+          "text": "broke",
+          "start": 119.64,
+          "end": 119.86,
+          "probability": 0.992317795753479
+        },
+        {
+          "text": "so",
+          "start": 118.7,
+          "end": 119.08,
+          "probability": 0.9919752478599548
+        },
+        {
+          "text": "you",
+          "start": 118.34,
+          "end": 118.48,
+          "probability": 0.9787994623184204
+        },
+        {
+          "text": "my",
+          "start": 119.86,
+          "end": 120.08,
+          "probability": 0.9981689453125
+        },
+        {
+          "text": "be",
+          "start": 118.48,
+          "end": 118.7,
+          "probability": 0.9840565919876099
+        },
+        {
+          "text": "heart,",
+          "start": 116.84,
+          "end": 117.22,
+          "probability": 0.9983550906181335
+        },
+        {
+          "text": "heart,",
+          "start": 120.08,
+          "end": 120.6,
+          "probability": 0.9986261129379272
+        },
+        {
+          "text": "my",
+          "start": 116.62,
+          "end": 116.84,
+          "probability": 0.9981234669685364
+        },
+        {
+          "text": "broke",
+          "start": 116.42,
+          "end": 116.62,
+          "probability": 0.9939263463020325
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_005",
+        "text": "She broke my heart",
+        "start": 116.18,
+        "end": 117.22,
+        "confidence": 0.9041
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_007",
+        "text": "She broke my heart",
+        "start": 119.58,
+        "end": 120.6,
+        "confidence": 0.9224
+      },
+      "available_temporal_window": {
+        "start": 115.22,
+        "end": 121.58
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_008",
+      "section_id": "section_006",
+      "exact_authoritative_text": "How could you be so cold?",
+      "normalized_text": "could you be so cold",
+      "current_start": 121.04,
+      "current_end": 122.82,
+      "confidence": 0.989,
+      "aligned_token_count": 5,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "cuz",
+          "start": 121.04,
+          "end": 121.58,
+          "probability": 0.9841130971908569
+        },
+        {
+          "text": "cold,",
+          "start": 122.32,
+          "end": 122.82,
+          "probability": 0.9967097043991089
+        },
+        {
+          "text": "so",
+          "start": 121.96,
+          "end": 122.32,
+          "probability": 0.9911290407180786
+        },
+        {
+          "text": "now",
+          "start": 123.24,
+          "end": 123.34,
+          "probability": 0.9136395454406738
+        },
+        {
+          "text": "you",
+          "start": 121.58,
+          "end": 121.72,
+          "probability": 0.9825130701065063
+        },
+        {
+          "text": "be",
+          "start": 121.72,
+          "end": 121.96,
+          "probability": 0.9905569553375244
+        },
+        {
+          "text": "I",
+          "start": 123.34,
+          "end": 123.56,
+          "probability": 0.9343958497047424
+        },
+        {
+          "text": "heart,",
+          "start": 120.08,
+          "end": 120.6,
+          "probability": 0.9986261129379272
+        },
+        {
+          "text": "don't",
+          "start": 123.56,
+          "end": 123.78,
+          "probability": 0.9884872138500214
+        },
+        {
+          "text": "feel",
+          "start": 123.78,
+          "end": 123.94,
+          "probability": 0.9762322902679443
+        },
+        {
+          "text": "my",
+          "start": 119.86,
+          "end": 120.08,
+          "probability": 0.9981689453125
+        },
+        {
+          "text": "the",
+          "start": 123.94,
+          "end": 124.08,
+          "probability": 0.9981206059455872
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_007",
+        "text": "She broke my heart",
+        "start": 119.58,
+        "end": 120.6,
+        "confidence": 0.9224
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_009",
+        "text": "Now I don't feel the same",
+        "start": 123.24,
+        "end": 124.54,
+        "confidence": 0.9684
+      },
+      "available_temporal_window": {
+        "start": 118.6,
+        "end": 125.24
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_012",
+      "section_id": "section_006",
+      "exact_authoritative_text": "Not to mention they don't really look like you",
+      "normalized_text": "mention they don't really look like you",
+      "current_start": 129.48,
+      "current_end": 131.46,
+      "confidence": 0.9133,
+      "aligned_token_count": 7,
+      "authoritative_token_count": 9,
+      "unmatched_authoritative_tokens": 2,
+      "nearest_asr_words": [
+        {
+          "text": "mentioned",
+          "start": 129.48,
+          "end": 129.7,
+          "probability": 0.7147544622421265
+        },
+        {
+          "text": "you,",
+          "start": 131.16,
+          "end": 131.46,
+          "probability": 0.9962714910507202
+        },
+        {
+          "text": "I",
+          "start": 129.38,
+          "end": 129.48,
+          "probability": 0.8341385126113892
+        },
+        {
+          "text": "and",
+          "start": 129.36,
+          "end": 129.38,
+          "probability": 0.3393003046512604
+        },
+        {
+          "text": "they",
+          "start": 129.7,
+          "end": 130.06,
+          "probability": 0.8774435520172119
+        },
+        {
+          "text": "like",
+          "start": 130.98,
+          "end": 131.16,
+          "probability": 0.9427236914634705
+        },
+        {
+          "text": "look",
+          "start": 130.48,
+          "end": 130.98,
+          "probability": 0.8715589642524719
+        },
+        {
+          "text": "don't",
+          "start": 130.06,
+          "end": 130.32,
+          "probability": 0.9930520057678223
+        },
+        {
+          "text": "don't",
+          "start": 131.88,
+          "end": 132.14,
+          "probability": 0.8884541392326355
+        },
+        {
+          "text": "really",
+          "start": 130.32,
+          "end": 130.48,
+          "probability": 0.9974526762962341
+        },
+        {
+          "text": "look",
+          "start": 132.14,
+          "end": 132.46,
+          "probability": 0.9971345663070679
+        },
+        {
+          "text": "again,",
+          "start": 128.42,
+          "end": 128.9,
+          "probability": 0.9844928979873657
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_011",
+        "text": "But I don't know if I could trust again",
+        "start": 126.82,
+        "end": 128.9,
+        "confidence": 0.9453
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_013",
+        "text": "Don't look like you",
+        "start": 131.88,
+        "end": 133.1,
+        "confidence": 0.9708
+      },
+      "available_temporal_window": {
+        "start": 126.9,
+        "end": 133.88
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_015",
+      "section_id": "section_006",
+      "exact_authoritative_text": "On some of my old hoes",
+      "normalized_text": "some of my old hoes",
+      "current_start": 135.9,
+      "current_end": 136.84,
+      "confidence": 0.5654,
+      "aligned_token_count": 5,
+      "authoritative_token_count": 6,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "some",
+          "start": 135.9,
+          "end": 136.0,
+          "probability": 0.2384410798549652
+        },
+        {
+          "text": "holes,",
+          "start": 136.6,
+          "end": 136.84,
+          "probability": 0.46704357862472534
+        },
+        {
+          "text": "I'm",
+          "start": 135.82,
+          "end": 135.9,
+          "probability": 0.48405152559280396
+        },
+        {
+          "text": "of",
+          "start": 136.0,
+          "end": 136.16,
+          "probability": 0.5341938138008118
+        },
+        {
+          "text": "old",
+          "start": 136.34,
+          "end": 136.6,
+          "probability": 0.5923634767532349
+        },
+        {
+          "text": "my",
+          "start": 136.16,
+          "end": 136.34,
+          "probability": 0.9950447082519531
+        },
+        {
+          "text": "you",
+          "start": 136.84,
+          "end": 137.3,
+          "probability": 0.9613829851150513
+        },
+        {
+          "text": "know,",
+          "start": 137.3,
+          "end": 137.52,
+          "probability": 0.9972637891769409
+        },
+        {
+          "text": "again,",
+          "start": 134.9,
+          "end": 135.24,
+          "probability": 0.9949952363967896
+        },
+        {
+          "text": "bring",
+          "start": 137.9,
+          "end": 138.1,
+          "probability": 0.5928305387496948
+        },
+        {
+          "text": "spin",
+          "start": 134.64,
+          "end": 134.9,
+          "probability": 0.6852460503578186
+        },
+        {
+          "text": "to",
+          "start": 134.48,
+          "end": 134.64,
+          "probability": 0.9831928014755249
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_014",
+        "text": "I might have to spin again",
+        "start": 133.36,
+        "end": 135.24,
+        "confidence": 0.9263
+      },
+      "following_aligned_line": {
+        "line_id": "section_006_line_016",
+        "text": "You know, bring it back to 2016",
+        "start": 136.84,
+        "end": 139.42,
+        "confidence": 0.9247
+      },
+      "available_temporal_window": {
+        "start": 133.24,
+        "end": 138.84
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    },
+    {
+      "line_id": "section_006_line_021",
+      "section_id": "section_006",
+      "exact_authoritative_text": "But now you got me singing, got me singing",
+      "normalized_text": "now you got me singing got me singing",
+      "current_start": 147.56,
+      "current_end": 165.9,
+      "confidence": 0.8079,
+      "aligned_token_count": 8,
+      "authoritative_token_count": 9,
+      "unmatched_authoritative_tokens": 1,
+      "nearest_asr_words": [
+        {
+          "text": "now",
+          "start": 147.56,
+          "end": 147.82,
+          "probability": 0.4423101246356964
+        },
+        {
+          "text": "singin'",
+          "start": 165.88,
+          "end": 165.9,
+          "probability": 0.9633839130401611
+        },
+        {
+          "text": "me",
+          "start": 149.74,
+          "end": 165.88,
+          "probability": 0.9903789758682251
+        },
+        {
+          "text": "and",
+          "start": 147.5,
+          "end": 147.56,
+          "probability": 0.33933526277542114
+        },
+        {
+          "text": "you",
+          "start": 147.82,
+          "end": 147.96,
+          "probability": 0.9703529477119446
+        },
+        {
+          "text": "got",
+          "start": 147.96,
+          "end": 148.22,
+          "probability": 0.964531660079956
+        },
+        {
+          "text": "to,",
+          "start": 147.0,
+          "end": 147.36,
+          "probability": 0.9813789129257202
+        },
+        {
+          "text": "me",
+          "start": 148.22,
+          "end": 148.36,
+          "probability": 0.998613715171814
+        },
+        {
+          "text": "singin'",
+          "start": 148.36,
+          "end": 149.14,
+          "probability": 0.5724103972315788
+        },
+        {
+          "text": "mean",
+          "start": 146.72,
+          "end": 147.0,
+          "probability": 0.9956745505332947
+        },
+        {
+          "text": "didn't",
+          "start": 146.4,
+          "end": 146.72,
+          "probability": 0.9963417053222656
+        },
+        {
+          "text": "you",
+          "start": 146.16,
+          "end": 146.4,
+          "probability": 0.9780227541923523
+        }
+      ],
+      "preceding_aligned_line": {
+        "line_id": "section_006_line_020",
+        "text": "I know you didn't mean to",
+        "start": 145.78,
+        "end": 147.36,
+        "confidence": 0.9254
+      },
+      "following_aligned_line": null,
+      "available_temporal_window": {
+        "start": 145.36,
+        "end": 169.632
+      },
+      "suspected_failure_class": "partial ASR substitution/deletion"
+    }
+  ]
+}

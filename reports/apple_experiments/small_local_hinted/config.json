@@ -1,0 +1,36 @@
+{
+  "name": "small_local_hinted",
+  "song_id": "apple",
+  "model": "small.en",
+  "compute_type": "int8",
+  "beam_size": 5,
+  "hinting": true,
+  "initial_prompts": {
+    "intro": "Apple. How could you be so cold, cold, cold?",
+    "chorus_girl": "I thought you was my girl, girl, girl. Now you are just an apple, oh-oh.",
+    "verse_opening": "Nineteen, thought I found my wife. Shorty got a new job, workin' at the Five Guys.",
+    "she_broke": "She broke my heart. How could you be so cold."
+  },
+  "windows": [
+    {
+      "window_id": "intro",
+      "start": 0.0,
+      "end": 13.56
+    },
+    {
+      "window_id": "chorus_girl",
+      "start": 17.52,
+      "end": 27.68
+    },
+    {
+      "window_id": "verse_opening",
+      "start": 23.68,
+      "end": 31.98
+    },
+    {
+      "window_id": "she_broke",
+      "start": 108.9,
+      "end": 114.56
+    }
+  ]
+}

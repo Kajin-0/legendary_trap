@@ -1,0 +1,2830 @@
+{
+  "schema_version": "1.0",
+  "song_id": "apple",
+  "audio": {
+    "path": "input/audio/apple.mp3",
+    "duration_seconds": 169.632
+  },
+  "alignment": {
+    "method": "weighted_monotonic_dp",
+    "fine_alignment": "word_timestamp_bounded_windows"
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Intro",
+      "start": 0.0,
+      "end": 2.312,
+      "confidence": 0.12,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 2,
+          "original_text": "Apple",
+          "lead_text": "Apple",
+          "adlibs": [],
+          "start": 0.0,
+          "end": 2.312,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "total_tokens": 1,
+          "words": []
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Chorus",
+      "start": 11.56,
+      "end": 25.68,
+      "confidence": 0.63,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 5,
+          "original_text": "How could you be so cold, cold, cold?",
+          "lead_text": "How could you be so cold, cold, cold?",
+          "adlibs": [],
+          "start": 11.56,
+          "end": 15.16,
+          "confidence": 0.6907,
+          "matched_tokens": 8,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "how",
+              "start": 11.56,
+              "end": 11.76,
+              "confidence": 0.3109
+            },
+            {
+              "text": "could",
+              "start": 11.76,
+              "end": 11.96,
+              "confidence": 0.8684
+            },
+            {
+              "text": "you",
+              "start": 11.96,
+              "end": 12.2,
+              "confidence": 0.9878
+            },
+            {
+              "text": "be",
+              "start": 12.2,
+              "end": 12.4,
+              "confidence": 0.983
+            },
+            {
+              "text": "so",
+              "start": 12.4,
+              "end": 12.8,
+              "confidence": 0.6499
+            },
+            {
+              "text": "cold",
+              "start": 12.8,
+              "end": 13.4,
+              "confidence": 0.2057
+            },
+            {
+              "text": "cold",
+              "start": 13.78,
+              "end": 14.16,
+              "confidence": 0.7298
+            },
+            {
+              "text": "cold",
+              "start": 15.16,
+              "end": 15.16,
+              "confidence": 0.7898
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 6,
+          "original_text": "Now you're bitter like apple, oh-oh",
+          "lead_text": "Now you're bitter like apple, oh-oh",
+          "adlibs": [],
+          "start": 15.48,
+          "end": 19.52,
+          "confidence": 0.7335,
+          "matched_tokens": 6,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "you're",
+              "start": 15.48,
+              "end": 15.68,
+              "confidence": 0.9712
+            },
+            {
+              "text": "bitter",
+              "start": 15.68,
+              "end": 15.88,
+              "confidence": 0.6366
+            },
+            {
+              "text": "like",
+              "start": 16.04,
+              "end": 16.38,
+              "confidence": 0.606
+            },
+            {
+              "text": "apple",
+              "start": 16.38,
+              "end": 16.88,
+              "confidence": 0.7471
+            },
+            {
+              "text": "oh",
+              "start": 18.3,
+              "end": 18.4,
+              "confidence": 0.5095
+            },
+            {
+              "text": "oh",
+              "start": 19.52,
+              "end": 19.52,
+              "confidence": 0.9305
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 7,
+          "original_text": "I thought you was my girl, girl, girl",
+          "lead_text": "I thought you was my girl, girl, girl",
+          "adlibs": [],
+          "start": 19.52,
+          "end": 21.06,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "total_tokens": 8,
+          "words": []
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 8,
+          "original_text": "Now you are just an apple, oh-oh",
+          "lead_text": "Now you are just an apple, oh-oh",
+          "adlibs": [],
+          "start": 25.68,
+          "end": 25.68,
+          "confidence": 0.9758,
+          "matched_tokens": 2,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "oh",
+              "start": 25.68,
+              "end": 25.68,
+              "confidence": 0.9745
+            },
+            {
+              "text": "oh",
+              "start": 25.68,
+              "end": 25.68,
+              "confidence": 0.9771
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Verse",
+      "start": 25.68,
+      "end": 70.82,
+      "confidence": 0.7245,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 11,
+          "original_text": "Nineteen, thought I found my wife",
+          "lead_text": "Nineteen, thought I found my wife",
+          "adlibs": [],
+          "start": 25.68,
+          "end": 27.113,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "total_tokens": 6,
+          "words": []
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 12,
+          "original_text": "Shorty got a new job, workin' at the Five Guys",
+          "lead_text": "Shorty got a new job, workin' at the Five Guys",
+          "adlibs": [],
+          "start": 27.113,
+          "end": 28.547,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "total_tokens": 10,
+          "words": []
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 13,
+          "original_text": "I don't eat no Five Guys, so I gotta find guys",
+          "lead_text": "I don't eat no Five Guys, so I gotta find guys",
+          "adlibs": [],
+          "start": 29.98,
+          "end": 33.74,
+          "confidence": 0.5558,
+          "matched_tokens": 11,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "i",
+              "start": 29.98,
+              "end": 30.8,
+              "confidence": 0.1241
+            },
+            {
+              "text": "don't",
+              "start": 30.8,
+              "end": 31.08,
+              "confidence": 0.6129
+            },
+            {
+              "text": "eat",
+              "start": 31.08,
+              "end": 31.2,
+              "confidence": 0.525
+            },
+            {
+              "text": "no",
+              "start": 31.2,
+              "end": 31.38,
+              "confidence": 0.6486
+            },
+            {
+              "text": "five",
+              "start": 31.38,
+              "end": 31.74,
+              "confidence": 0.4725
+            },
+            {
+              "text": "guys",
+              "start": 31.74,
+              "end": 32.12,
+              "confidence": 0.4653
+            },
+            {
+              "text": "so",
+              "start": 32.38,
+              "end": 32.46,
+              "confidence": 0.8517
+            },
+            {
+              "text": "i",
+              "start": 32.46,
+              "end": 32.64,
+              "confidence": 0.9833
+            },
+            {
+              "text": "gotta",
+              "start": 32.64,
+              "end": 32.86,
+              "confidence": 0.3951
+            },
+            {
+              "text": "find",
+              "start": 33.04,
+              "end": 33.38,
+              "confidence": 0.7252
+            },
+            {
+              "text": "guys",
+              "start": 33.38,
+              "end": 33.74,
+              "confidence": 0.3095
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 14,
+          "original_text": "that eat it, eat it, eat it",
+          "lead_text": "that eat it, eat it, eat it",
+          "adlibs": [],
+          "start": 33.74,
+          "end": 35.46,
+          "confidence": 0.8017,
+          "matched_tokens": 7,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "that",
+              "start": 33.74,
+              "end": 34.2,
+              "confidence": 0.1131
+            },
+            {
+              "text": "eat",
+              "start": 34.2,
+              "end": 34.52,
+              "confidence": 0.6965
+            },
+            {
+              "text": "it",
+              "start": 34.52,
+              "end": 34.66,
+              "confidence": 0.9522
+            },
+            {
+              "text": "eat",
+              "start": 34.68,
+              "end": 34.92,
+              "confidence": 0.9616
+            },
+            {
+              "text": "it",
+              "start": 34.92,
+              "end": 35.06,
+              "confidence": 0.9941
+            },
+            {
+              "text": "eat",
+              "start": 35.06,
+              "end": 35.34,
+              "confidence": 0.8995
+            },
+            {
+              "text": "it",
+              "start": 35.34,
+              "end": 35.46,
+              "confidence": 0.9948
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 15,
+          "original_text": "Shorty from Chicago",
+          "lead_text": "Shorty from Chicago",
+          "adlibs": [],
+          "start": 35.54,
+          "end": 36.96,
+          "confidence": 0.5824,
+          "matched_tokens": 3,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "shorty",
+              "start": 35.54,
+              "end": 35.68,
+              "confidence": 0.3245
+            },
+            {
+              "text": "from",
+              "start": 35.88,
+              "end": 36.1,
+              "confidence": 0.6717
+            },
+            {
+              "text": "chicago",
+              "start": 36.1,
+              "end": 36.96,
+              "confidence": 0.7508
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 16,
+          "original_text": "Thought she had the same heart as me",
+          "lead_text": "Thought she had the same heart as me",
+          "adlibs": [],
+          "start": 37.64,
+          "end": 39.34,
+          "confidence": 0.8255,
+          "matched_tokens": 8,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "thought",
+              "start": 37.64,
+              "end": 37.72,
+              "confidence": 0.1874
+            },
+            {
+              "text": "she",
+              "start": 37.72,
+              "end": 37.92,
+              "confidence": 0.9907
+            },
+            {
+              "text": "had",
+              "start": 37.92,
+              "end": 38.16,
+              "confidence": 0.9914
+            },
+            {
+              "text": "the",
+              "start": 38.16,
+              "end": 38.34,
+              "confidence": 0.466
+            },
+            {
+              "text": "same",
+              "start": 38.34,
+              "end": 38.66,
+              "confidence": 0.9939
+            },
+            {
+              "text": "heart",
+              "start": 38.66,
+              "end": 38.94,
+              "confidence": 0.994
+            },
+            {
+              "text": "as",
+              "start": 38.94,
+              "end": 39.16,
+              "confidence": 0.9835
+            },
+            {
+              "text": "me",
+              "start": 39.16,
+              "end": 39.34,
+              "confidence": 0.9971
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 17,
+          "original_text": "Boy, was I wrong",
+          "lead_text": "Boy, was I wrong",
+          "adlibs": [],
+          "start": 39.34,
+          "end": 40.68,
+          "confidence": 0.6241,
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "boy",
+              "start": 39.34,
+              "end": 39.66,
+              "confidence": 0.265
+            },
+            {
+              "text": "was",
+              "start": 39.82,
+              "end": 40.06,
+              "confidence": 0.5089
+            },
+            {
+              "text": "i",
+              "start": 40.06,
+              "end": 40.26,
+              "confidence": 0.928
+            },
+            {
+              "text": "wrong",
+              "start": 40.26,
+              "end": 40.68,
+              "confidence": 0.7943
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 18,
+          "original_text": "Thought she was a saint, but she a sinner",
+          "lead_text": "Thought she was a saint, but she a sinner",
+          "adlibs": [],
+          "start": 40.9,
+          "end": 42.68,
+          "confidence": 0.7151,
+          "matched_tokens": 8,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "thought",
+              "start": 40.9,
+              "end": 41.0,
+              "confidence": 0.986
+            },
+            {
+              "text": "she",
+              "start": 41.0,
+              "end": 41.18,
+              "confidence": 0.9976
+            },
+            {
+              "text": "was",
+              "start": 41.18,
+              "end": 41.4,
+              "confidence": 0.9619
+            },
+            {
+              "text": "saint",
+              "start": 41.4,
+              "end": 41.8,
+              "confidence": 0.4338
+            },
+            {
+              "text": "but",
+              "start": 41.8,
+              "end": 42.1,
+              "confidence": 0.3967
+            },
+            {
+              "text": "she",
+              "start": 42.1,
+              "end": 42.3,
+              "confidence": 0.9864
+            },
+            {
+              "text": "a",
+              "start": 42.3,
+              "end": 42.42,
+              "confidence": 0.1343
+            },
+            {
+              "text": "sinner",
+              "start": 42.42,
+              "end": 42.68,
+              "confidence": 0.8245
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_009",
+          "source_line": 19,
+          "original_text": "My good girl turned to a",
+          "lead_text": "My good girl turned to a",
+          "adlibs": [],
+          "start": 43.18,
+          "end": 44.28,
+          "confidence": 0.7915,
+          "matched_tokens": 5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "my",
+              "start": 43.18,
+              "end": 43.22,
+              "confidence": 0.7312
+            },
+            {
+              "text": "good",
+              "start": 43.22,
+              "end": 43.44,
+              "confidence": 0.9949
+            },
+            {
+              "text": "girl",
+              "start": 43.44,
+              "end": 43.76,
+              "confidence": 0.9694
+            },
+            {
+              "text": "turned",
+              "start": 43.76,
+              "end": 44.02,
+              "confidence": 0.8779
+            },
+            {
+              "text": "to",
+              "start": 44.02,
+              "end": 44.28,
+              "confidence": 0.3841
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_010",
+          "source_line": 20,
+          "original_text": "How could you be so cold?",
+          "lead_text": "How could you be so cold?",
+          "adlibs": [],
+          "start": 44.28,
+          "end": 45.98,
+          "confidence": 0.812,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "how",
+              "start": 44.28,
+              "end": 44.56,
+              "confidence": 0.0383
+            },
+            {
+              "text": "could",
+              "start": 44.56,
+              "end": 45.06,
+              "confidence": 0.9851
+            },
+            {
+              "text": "you",
+              "start": 45.06,
+              "end": 45.26,
+              "confidence": 0.9923
+            },
+            {
+              "text": "be",
+              "start": 45.26,
+              "end": 45.46,
+              "confidence": 0.9985
+            },
+            {
+              "text": "so",
+              "start": 45.46,
+              "end": 45.66,
+              "confidence": 0.9967
+            },
+            {
+              "text": "cold",
+              "start": 45.66,
+              "end": 45.98,
+              "confidence": 0.861
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_011",
+          "source_line": 21,
+          "original_text": "How could you be so heartless?",
+          "lead_text": "How could you be so heartless?",
+          "adlibs": [],
+          "start": 48.04,
+          "end": 49.8,
+          "confidence": 0.9291,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "how",
+              "start": 48.04,
+              "end": 48.12,
+              "confidence": 0.96
+            },
+            {
+              "text": "could",
+              "start": 48.12,
+              "end": 48.34,
+              "confidence": 0.9884
+            },
+            {
+              "text": "you",
+              "start": 48.34,
+              "end": 48.54,
+              "confidence": 0.9974
+            },
+            {
+              "text": "be",
+              "start": 48.54,
+              "end": 48.76,
+              "confidence": 0.9978
+            },
+            {
+              "text": "so",
+              "start": 48.76,
+              "end": 48.98,
+              "confidence": 0.9977
+            },
+            {
+              "text": "heartless",
+              "start": 48.98,
+              "end": 49.8,
+              "confidence": 0.6333
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_012",
+          "source_line": 22,
+          "original_text": "I thought you were my soul",
+          "lead_text": "I thought you were my soul",
+          "adlibs": [],
+          "start": 51.34,
+          "end": 52.58,
+          "confidence": 0.9277,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "i",
+              "start": 51.34,
+              "end": 51.4,
+              "confidence": 0.9563
+            },
+            {
+              "text": "thought",
+              "start": 51.4,
+              "end": 51.62,
+              "confidence": 0.9573
+            },
+            {
+              "text": "you",
+              "start": 51.62,
+              "end": 51.84,
+              "confidence": 0.6988
+            },
+            {
+              "text": "were",
+              "start": 51.84,
+              "end": 52.04,
+              "confidence": 0.9919
+            },
+            {
+              "text": "my",
+              "start": 52.04,
+              "end": 52.22,
+              "confidence": 0.995
+            },
+            {
+              "text": "soul",
+              "start": 52.22,
+              "end": 52.58,
+              "confidence": 0.9671
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_013",
+          "source_line": 23,
+          "original_text": "Now I wish we never started",
+          "lead_text": "Now I wish we never started",
+          "adlibs": [],
+          "start": 54.06,
+          "end": 55.86,
+          "confidence": 0.8344,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "now",
+              "start": 54.06,
+              "end": 54.5,
+              "confidence": 0.7629
+            },
+            {
+              "text": "i",
+              "start": 54.5,
+              "end": 54.72,
+              "confidence": 0.9598
+            },
+            {
+              "text": "wish",
+              "start": 54.72,
+              "end": 54.94,
+              "confidence": 0.9757
+            },
+            {
+              "text": "we",
+              "start": 54.94,
+              "end": 55.06,
+              "confidence": 0.5393
+            },
+            {
+              "text": "never",
+              "start": 55.06,
+              "end": 55.38,
+              "confidence": 0.777
+            },
+            {
+              "text": "started",
+              "start": 55.38,
+              "end": 55.86,
+              "confidence": 0.9915
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_014",
+          "source_line": 24,
+          "original_text": "But it's my fault, I don't blame you, blame you",
+          "lead_text": "But it's my fault, I don't blame you, blame you",
+          "adlibs": [],
+          "start": 57.44,
+          "end": 61.06,
+          "confidence": 0.847,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "but",
+              "start": 57.44,
+              "end": 58.0,
+              "confidence": 0.0438
+            },
+            {
+              "text": "it's",
+              "start": 58.0,
+              "end": 58.28,
+              "confidence": 0.7316
+            },
+            {
+              "text": "my",
+              "start": 58.28,
+              "end": 58.58,
+              "confidence": 0.9109
+            },
+            {
+              "text": "fault",
+              "start": 58.58,
+              "end": 59.0,
+              "confidence": 0.9253
+            },
+            {
+              "text": "i",
+              "start": 59.34,
+              "end": 59.38,
+              "confidence": 0.9693
+            },
+            {
+              "text": "don't",
+              "start": 59.38,
+              "end": 59.62,
+              "confidence": 0.9885
+            },
+            {
+              "text": "blame",
+              "start": 59.62,
+              "end": 59.84,
+              "confidence": 0.996
+            },
+            {
+              "text": "you",
+              "start": 59.84,
+              "end": 60.22,
+              "confidence": 0.9549
+            },
+            {
+              "text": "blame",
+              "start": 60.42,
+              "end": 60.66,
+              "confidence": 0.9599
+            },
+            {
+              "text": "you",
+              "start": 60.66,
+              "end": 61.06,
+              "confidence": 0.9895
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_015",
+          "source_line": 25,
+          "original_text": "It was my loss, I can't blame you, blame you",
+          "lead_text": "It was my loss, I can't blame you, blame you",
+          "adlibs": [],
+          "start": 61.06,
+          "end": 64.4,
+          "confidence": 0.9185,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "it",
+              "start": 61.06,
+              "end": 61.24,
+              "confidence": 0.5698
+            },
+            {
+              "text": "was",
+              "start": 61.24,
+              "end": 61.46,
+              "confidence": 0.9858
+            },
+            {
+              "text": "my",
+              "start": 61.46,
+              "end": 61.9,
+              "confidence": 0.9815
+            },
+            {
+              "text": "loss",
+              "start": 61.9,
+              "end": 62.24,
+              "confidence": 0.7046
+            },
+            {
+              "text": "i",
+              "start": 62.24,
+              "end": 62.7,
+              "confidence": 0.986
+            },
+            {
+              "text": "can't",
+              "start": 62.7,
+              "end": 62.88,
+              "confidence": 0.9769
+            },
+            {
+              "text": "blame",
+              "start": 62.88,
+              "end": 63.1,
+              "confidence": 0.9991
+            },
+            {
+              "text": "you",
+              "start": 63.1,
+              "end": 63.48,
+              "confidence": 0.9909
+            },
+            {
+              "text": "blame",
+              "start": 63.7,
+              "end": 63.96,
+              "confidence": 0.9954
+            },
+            {
+              "text": "you",
+              "start": 63.96,
+              "end": 64.4,
+              "confidence": 0.9946
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_016",
+          "source_line": 26,
+          "original_text": "It was my fault, I don't blame you, blame you",
+          "lead_text": "It was my fault, I don't blame you, blame you",
+          "adlibs": [],
+          "start": 64.4,
+          "end": 67.64,
+          "confidence": 0.9789,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "it",
+              "start": 64.4,
+              "end": 64.52,
+              "confidence": 0.8338
+            },
+            {
+              "text": "was",
+              "start": 64.52,
+              "end": 64.74,
+              "confidence": 0.9946
+            },
+            {
+              "text": "my",
+              "start": 64.74,
+              "end": 65.18,
+              "confidence": 0.991
+            },
+            {
+              "text": "fault",
+              "start": 65.18,
+              "end": 65.48,
+              "confidence": 0.9996
+            },
+            {
+              "text": "i",
+              "start": 65.86,
+              "end": 65.94,
+              "confidence": 0.9972
+            },
+            {
+              "text": "don't",
+              "start": 65.94,
+              "end": 66.14,
+              "confidence": 0.9929
+            },
+            {
+              "text": "blame",
+              "start": 66.14,
+              "end": 66.36,
+              "confidence": 0.9996
+            },
+            {
+              "text": "you",
+              "start": 66.36,
+              "end": 66.78,
+              "confidence": 0.9966
+            },
+            {
+              "text": "blame",
+              "start": 67.24,
+              "end": 67.26,
+              "confidence": 0.9969
+            },
+            {
+              "text": "you",
+              "start": 67.26,
+              "end": 67.64,
+              "confidence": 0.9865
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_017",
+          "source_line": 27,
+          "original_text": "It was my loss, I can't blame you, blame you",
+          "lead_text": "It was my loss, I can't blame you, blame you",
+          "adlibs": [],
+          "start": 67.64,
+          "end": 70.82,
+          "confidence": 0.9323,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "it",
+              "start": 67.64,
+              "end": 67.76,
+              "confidence": 0.9199
+            },
+            {
+              "text": "was",
+              "start": 67.76,
+              "end": 68.02,
+              "confidence": 0.9983
+            },
+            {
+              "text": "my",
+              "start": 68.02,
+              "end": 68.42,
+              "confidence": 0.9966
+            },
+            {
+              "text": "loss",
+              "start": 68.42,
+              "end": 68.78,
+              "confidence": 0.9872
+            },
+            {
+              "text": "i",
+              "start": 68.78,
+              "end": 69.22,
+              "confidence": 0.9962
+            },
+            {
+              "text": "can't",
+              "start": 69.22,
+              "end": 69.46,
+              "confidence": 0.997
+            },
+            {
+              "text": "blame",
+              "start": 69.46,
+              "end": 69.6,
+              "confidence": 0.9999
+            },
+            {
+              "text": "you",
+              "start": 69.6,
+              "end": 70.1,
+              "confidence": 0.9976
+            },
+            {
+              "text": "blame",
+              "start": 70.3,
+              "end": 70.46,
+              "confidence": 0.9988
+            },
+            {
+              "text": "you",
+              "start": 70.46,
+              "end": 70.82,
+              "confidence": 0.4316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Chorus",
+      "start": 70.82,
+      "end": 83.04,
+      "confidence": 0.765,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 30,
+          "original_text": "How could you be so cold, cold, cold?",
+          "lead_text": "How could you be so cold, cold, cold?",
+          "adlibs": [],
+          "start": 70.82,
+          "end": 73.84,
+          "confidence": 0.7346,
+          "matched_tokens": 7,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "could",
+              "start": 70.82,
+              "end": 70.92,
+              "confidence": 0.0281
+            },
+            {
+              "text": "you",
+              "start": 70.92,
+              "end": 71.06,
+              "confidence": 0.9843
+            },
+            {
+              "text": "be",
+              "start": 71.06,
+              "end": 71.28,
+              "confidence": 0.9949
+            },
+            {
+              "text": "so",
+              "start": 71.28,
+              "end": 71.7,
+              "confidence": 0.7997
+            },
+            {
+              "text": "cold",
+              "start": 71.7,
+              "end": 72.16,
+              "confidence": 0.3601
+            },
+            {
+              "text": "cold",
+              "start": 72.78,
+              "end": 73.0,
+              "confidence": 0.9791
+            },
+            {
+              "text": "cold",
+              "start": 73.56,
+              "end": 73.84,
+              "confidence": 0.9957
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 31,
+          "original_text": "Now you're bitter like apple, oh-oh",
+          "lead_text": "Now you're bitter like apple, oh-oh",
+          "adlibs": [],
+          "start": 73.84,
+          "end": 77.2,
+          "confidence": 0.6365,
+          "matched_tokens": 7,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "now",
+              "start": 73.84,
+              "end": 74.34,
+              "confidence": 0.4488
+            },
+            {
+              "text": "you're",
+              "start": 74.34,
+              "end": 74.62,
+              "confidence": 0.6043
+            },
+            {
+              "text": "bitter",
+              "start": 74.62,
+              "end": 74.76,
+              "confidence": 0.9934
+            },
+            {
+              "text": "like",
+              "start": 74.94,
+              "end": 75.2,
+              "confidence": 0.6929
+            },
+            {
+              "text": "apple",
+              "start": 75.2,
+              "end": 75.72,
+              "confidence": 0.8543
+            },
+            {
+              "text": "oh",
+              "start": 75.9,
+              "end": 76.5,
+              "confidence": 0.6104
+            },
+            {
+              "text": "oh",
+              "start": 77.14,
+              "end": 77.2,
+              "confidence": 0.2517
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 32,
+          "original_text": "I thought you was my girl, girl, girl",
+          "lead_text": "I thought you was my girl, girl, girl",
+          "adlibs": [],
+          "start": 77.2,
+          "end": 80.5,
+          "confidence": 0.8707,
+          "matched_tokens": 8,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "i",
+              "start": 77.2,
+              "end": 77.24,
+              "confidence": 0.4957
+            },
+            {
+              "text": "thought",
+              "start": 77.24,
+              "end": 77.4,
+              "confidence": 0.7124
+            },
+            {
+              "text": "you",
+              "start": 77.4,
+              "end": 77.62,
+              "confidence": 0.9914
+            },
+            {
+              "text": "was",
+              "start": 77.62,
+              "end": 77.88,
+              "confidence": 0.8771
+            },
+            {
+              "text": "my",
+              "start": 77.88,
+              "end": 78.24,
+              "confidence": 0.9505
+            },
+            {
+              "text": "girl",
+              "start": 78.24,
+              "end": 78.78,
+              "confidence": 0.9864
+            },
+            {
+              "text": "girl",
+              "start": 79.22,
+              "end": 79.62,
+              "confidence": 0.983
+            },
+            {
+              "text": "girl",
+              "start": 79.62,
+              "end": 80.5,
+              "confidence": 0.9689
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 33,
+          "original_text": "Now you are just an apple, oh-oh",
+          "lead_text": "Now you are just an apple, oh-oh",
+          "adlibs": [],
+          "start": 80.5,
+          "end": 83.04,
+          "confidence": 0.8181,
+          "matched_tokens": 7,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "now",
+              "start": 80.5,
+              "end": 80.88,
+              "confidence": 0.8902
+            },
+            {
+              "text": "you",
+              "start": 80.88,
+              "end": 81.1,
+              "confidence": 0.9867
+            },
+            {
+              "text": "are",
+              "start": 81.1,
+              "end": 81.3,
+              "confidence": 0.5432
+            },
+            {
+              "text": "just",
+              "start": 81.3,
+              "end": 81.48,
+              "confidence": 0.9536
+            },
+            {
+              "text": "an",
+              "start": 81.48,
+              "end": 81.74,
+              "confidence": 0.399
+            },
+            {
+              "text": "apple",
+              "start": 81.74,
+              "end": 82.08,
+              "confidence": 0.9846
+            },
+            {
+              "text": "oh",
+              "start": 82.08,
+              "end": 83.04,
+              "confidence": 0.9694
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Bridge",
+      "start": 83.88,
+      "end": 110.9,
+      "confidence": 0.8568,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 36,
+          "original_text": "Now you're just a memory, not a friend to me",
+          "lead_text": "Now you're just a memory, not a friend to me",
+          "adlibs": [],
+          "start": 83.88,
+          "end": 86.8,
+          "confidence": 0.7207,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "now",
+              "start": 83.88,
+              "end": 84.4,
+              "confidence": 0.021
+            },
+            {
+              "text": "you're",
+              "start": 84.4,
+              "end": 84.6,
+              "confidence": 0.6862
+            },
+            {
+              "text": "just",
+              "start": 84.6,
+              "end": 84.82,
+              "confidence": 0.0127
+            },
+            {
+              "text": "a",
+              "start": 84.82,
+              "end": 84.94,
+              "confidence": 0.8564
+            },
+            {
+              "text": "memory",
+              "start": 84.94,
+              "end": 85.38,
+              "confidence": 0.9722
+            },
+            {
+              "text": "not",
+              "start": 85.74,
+              "end": 86.02,
+              "confidence": 0.6951
+            },
+            {
+              "text": "a",
+              "start": 86.02,
+              "end": 86.1,
+              "confidence": 0.9884
+            },
+            {
+              "text": "friend",
+              "start": 86.1,
+              "end": 86.36,
+              "confidence": 0.9905
+            },
+            {
+              "text": "to",
+              "start": 86.36,
+              "end": 86.56,
+              "confidence": 0.9886
+            },
+            {
+              "text": "me",
+              "start": 86.56,
+              "end": 86.8,
+              "confidence": 0.9959
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 37,
+          "original_text": "You turned enemy, got me in disbelief",
+          "lead_text": "You turned enemy, got me in disbelief",
+          "adlibs": [],
+          "start": 86.8,
+          "end": 89.3,
+          "confidence": 0.6883,
+          "matched_tokens": 6,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "you",
+              "start": 86.8,
+              "end": 87.16,
+              "confidence": 0.473
+            },
+            {
+              "text": "turned",
+              "start": 87.16,
+              "end": 87.38,
+              "confidence": 0.6148
+            },
+            {
+              "text": "got",
+              "start": 88.2,
+              "end": 88.46,
+              "confidence": 0.9096
+            },
+            {
+              "text": "me",
+              "start": 88.46,
+              "end": 88.82,
+              "confidence": 0.9746
+            },
+            {
+              "text": "in",
+              "start": 88.82,
+              "end": 89.0,
+              "confidence": 0.8355
+            },
+            {
+              "text": "disbelief",
+              "start": 89.0,
+              "end": 89.3,
+              "confidence": 0.3221
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 38,
+          "original_text": "It wasn't meant to be, now you're dead to me",
+          "lead_text": "It wasn't meant to be, now you're dead to me",
+          "adlibs": [],
+          "start": 89.3,
+          "end": 92.88,
+          "confidence": 0.9229,
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "it",
+              "start": 89.3,
+              "end": 90.22,
+              "confidence": 0.6105
+            },
+            {
+              "text": "wasn't",
+              "start": 90.22,
+              "end": 90.64,
+              "confidence": 0.9647
+            },
+            {
+              "text": "meant",
+              "start": 90.64,
+              "end": 90.84,
+              "confidence": 0.8721
+            },
+            {
+              "text": "to",
+              "start": 90.84,
+              "end": 91.04,
+              "confidence": 0.9971
+            },
+            {
+              "text": "be",
+              "start": 91.04,
+              "end": 91.26,
+              "confidence": 0.9987
+            },
+            {
+              "text": "now",
+              "start": 91.56,
+              "end": 92.06,
+              "confidence": 0.9809
+            },
+            {
+              "text": "you're",
+              "start": 92.06,
+              "end": 92.26,
+              "confidence": 0.8692
+            },
+            {
+              "text": "dead",
+              "start": 92.26,
+              "end": 92.48,
+              "confidence": 0.9531
+            },
+            {
+              "text": "to",
+              "start": 92.48,
+              "end": 92.64,
+              "confidence": 0.9836
+            },
+            {
+              "text": "me",
+              "start": 92.64,
+              "end": 92.88,
+              "confidence": 0.9994
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 39,
+          "original_text": "You pretend to be who you're not",
+          "lead_text": "You pretend to be who you're not",
+          "adlibs": [],
+          "start": 92.88,
+          "end": 95.78,
+          "confidence": 0.6961,
+          "matched_tokens": 7,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "you",
+              "start": 92.88,
+              "end": 93.66,
+              "confidence": 0.8564
+            },
+            {
+              "text": "pretend",
+              "start": 93.66,
+              "end": 93.94,
+              "confidence": 0.9513
+            },
+            {
+              "text": "to",
+              "start": 93.94,
+              "end": 94.24,
+              "confidence": 0.3416
+            },
+            {
+              "text": "be",
+              "start": 94.24,
+              "end": 94.48,
+              "confidence": 0.999
+            },
+            {
+              "text": "who",
+              "start": 94.48,
+              "end": 94.88,
+              "confidence": 0.6069
+            },
+            {
+              "text": "you're",
+              "start": 94.88,
+              "end": 95.42,
+              "confidence": 0.8396
+            },
+            {
+              "text": "not",
+              "start": 95.42,
+              "end": 95.78,
+              "confidence": 0.2778
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_005",
+          "source_line": 40,
+          "original_text": "And I don't need you, no",
+          "lead_text": "And I don't need you, no",
+          "adlibs": [],
+          "start": 96.3,
+          "end": 110.9,
+          "confidence": 0.9201,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "and",
+              "start": 96.3,
+              "end": 97.14,
+              "confidence": 0.7801
+            },
+            {
+              "text": "i",
+              "start": 110.56,
+              "end": 110.56,
+              "confidence": 0.9581
+            },
+            {
+              "text": "don't",
+              "start": 110.56,
+              "end": 110.56,
+              "confidence": 0.8256
+            },
+            {
+              "text": "need",
+              "start": 110.56,
+              "end": 110.56,
+              "confidence": 0.9854
+            },
+            {
+              "text": "you",
+              "start": 110.56,
+              "end": 110.62,
+              "confidence": 0.9849
+            },
+            {
+              "text": "no",
+              "start": 110.68,
+              "end": 110.9,
+              "confidence": 0.9866
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_006",
+          "source_line": 41,
+          "original_text": "And I don't need you, no",
+          "lead_text": "And I don't need you, no",
+          "adlibs": [],
+          "start": 110.9,
+          "end": 110.9,
+          "confidence": 0.9614,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "and",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.8979
+            },
+            {
+              "text": "i",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9615
+            },
+            {
+              "text": "don't",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9505
+            },
+            {
+              "text": "need",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9795
+            },
+            {
+              "text": "you",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9892
+            },
+            {
+              "text": "no",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9897
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_007",
+          "source_line": 42,
+          "original_text": "And I don't need you, no",
+          "lead_text": "And I don't need you, no",
+          "adlibs": [],
+          "start": 110.9,
+          "end": 110.9,
+          "confidence": 0.9687,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "and",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9302
+            },
+            {
+              "text": "i",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9723
+            },
+            {
+              "text": "don't",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9496
+            },
+            {
+              "text": "need",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9795
+            },
+            {
+              "text": "you",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9906
+            },
+            {
+              "text": "no",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9899
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_008",
+          "source_line": 43,
+          "original_text": "And I don't need you, no",
+          "lead_text": "And I don't need you, no",
+          "adlibs": [],
+          "start": 110.9,
+          "end": 110.9,
+          "confidence": 0.9765,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "and",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9445
+            },
+            {
+              "text": "i",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9784
+            },
+            {
+              "text": "don't",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9687
+            },
+            {
+              "text": "need",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9859
+            },
+            {
+              "text": "you",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9909
+            },
+            {
+              "text": "no",
+              "start": 110.9,
+              "end": 110.9,
+              "confidence": 0.9905
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Verse 2",
+      "start": 110.9,
+      "end": 165.9,
+      "confidence": 0.8318,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 46,
+          "original_text": "She broke my heart",
+          "lead_text": "She broke my heart",
+          "adlibs": [],
+          "start": 110.9,
+          "end": 112.56,
+          "confidence": 0.12,
+          "matched_tokens": 0,
+          "total_tokens": 4,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 47,
+          "original_text": "How could you be so cold?",
+          "lead_text": "How could you be so cold?",
+          "adlibs": [],
+          "start": 112.56,
+          "end": 112.56,
+          "confidence": 0.9864,
+          "matched_tokens": 3,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "could",
+              "start": 112.56,
+              "end": 112.56,
+              "confidence": 0.9905
+            },
+            {
+              "text": "you",
+              "start": 112.56,
+              "end": 112.56,
+              "confidence": 0.9861
+            },
+            {
+              "text": "so",
+              "start": 112.56,
+              "end": 112.56,
+              "confidence": 0.9824
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 48,
+          "original_text": "She broke my heart",
+          "lead_text": "She broke my heart",
+          "adlibs": [],
+          "start": 113.02,
+          "end": 113.96,
+          "confidence": 0.7056,
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "she",
+              "start": 113.02,
+              "end": 113.18,
+              "confidence": 0.068
+            },
+            {
+              "text": "broke",
+              "start": 113.18,
+              "end": 113.36,
+              "confidence": 0.765
+            },
+            {
+              "text": "my",
+              "start": 113.36,
+              "end": 113.58,
+              "confidence": 0.9932
+            },
+            {
+              "text": "heart",
+              "start": 113.58,
+              "end": 113.96,
+              "confidence": 0.9963
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 49,
+          "original_text": "How could you be so cold?",
+          "lead_text": "How could you be so cold?",
+          "adlibs": [],
+          "start": 114.52,
+          "end": 116.18,
+          "confidence": 0.7108,
+          "matched_tokens": 5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "could",
+              "start": 114.52,
+              "end": 115.06,
+              "confidence": 0.5207
+            },
+            {
+              "text": "you",
+              "start": 115.06,
+              "end": 115.24,
+              "confidence": 0.8592
+            },
+            {
+              "text": "be",
+              "start": 115.24,
+              "end": 115.44,
+              "confidence": 0.5806
+            },
+            {
+              "text": "so",
+              "start": 115.44,
+              "end": 115.82,
+              "confidence": 0.8549
+            },
+            {
+              "text": "cold",
+              "start": 115.82,
+              "end": 116.18,
+              "confidence": 0.7389
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_005",
+          "source_line": 50,
+          "original_text": "She broke my heart",
+          "lead_text": "She broke my heart",
+          "adlibs": [],
+          "start": 116.18,
+          "end": 117.22,
+          "confidence": 0.9041,
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "she",
+              "start": 116.18,
+              "end": 116.42,
+              "confidence": 0.6259
+            },
+            {
+              "text": "broke",
+              "start": 116.42,
+              "end": 116.62,
+              "confidence": 0.9939
+            },
+            {
+              "text": "my",
+              "start": 116.62,
+              "end": 116.84,
+              "confidence": 0.9981
+            },
+            {
+              "text": "heart",
+              "start": 116.84,
+              "end": 117.22,
+              "confidence": 0.9984
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_006",
+          "source_line": 51,
+          "original_text": "How could you be so cold?",
+          "lead_text": "How could you be so cold?",
+          "adlibs": [],
+          "start": 117.78,
+          "end": 119.48,
+          "confidence": 0.9846,
+          "matched_tokens": 5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "could",
+              "start": 117.78,
+              "end": 118.34,
+              "confidence": 0.976
+            },
+            {
+              "text": "you",
+              "start": 118.34,
+              "end": 118.48,
+              "confidence": 0.9788
+            },
+            {
+              "text": "be",
+              "start": 118.48,
+              "end": 118.7,
+              "confidence": 0.9841
+            },
+            {
+              "text": "so",
+              "start": 118.7,
+              "end": 119.08,
+              "confidence": 0.992
+            },
+            {
+              "text": "cold",
+              "start": 119.08,
+              "end": 119.48,
+              "confidence": 0.9919
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_007",
+          "source_line": 52,
+          "original_text": "She broke my heart",
+          "lead_text": "She broke my heart",
+          "adlibs": [],
+          "start": 119.58,
+          "end": 120.6,
+          "confidence": 0.9224,
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "she",
+              "start": 119.58,
+              "end": 119.64,
+              "confidence": 0.7004
+            },
+            {
+              "text": "broke",
+              "start": 119.64,
+              "end": 119.86,
+              "confidence": 0.9923
+            },
+            {
+              "text": "my",
+              "start": 119.86,
+              "end": 120.08,
+              "confidence": 0.9982
+            },
+            {
+              "text": "heart",
+              "start": 120.08,
+              "end": 120.6,
+              "confidence": 0.9986
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_008",
+          "source_line": 53,
+          "original_text": "How could you be so cold?",
+          "lead_text": "How could you be so cold?",
+          "adlibs": [],
+          "start": 121.04,
+          "end": 122.82,
+          "confidence": 0.989,
+          "matched_tokens": 5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "could",
+              "start": 121.04,
+              "end": 121.58,
+              "confidence": 0.9841
+            },
+            {
+              "text": "you",
+              "start": 121.58,
+              "end": 121.72,
+              "confidence": 0.9825
+            },
+            {
+              "text": "be",
+              "start": 121.72,
+              "end": 121.96,
+              "confidence": 0.9906
+            },
+            {
+              "text": "so",
+              "start": 121.96,
+              "end": 122.32,
+              "confidence": 0.9911
+            },
+            {
+              "text": "cold",
+              "start": 122.32,
+              "end": 122.82,
+              "confidence": 0.9967
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_009",
+          "source_line": 54,
+          "original_text": "Now I don't feel the same",
+          "lead_text": "Now I don't feel the same",
+          "adlibs": [],
+          "start": 123.24,
+          "end": 124.54,
+          "confidence": 0.9684,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "now",
+              "start": 123.24,
+              "end": 123.34,
+              "confidence": 0.9136
+            },
+            {
+              "text": "i",
+              "start": 123.34,
+              "end": 123.56,
+              "confidence": 0.9344
+            },
+            {
+              "text": "don't",
+              "start": 123.56,
+              "end": 123.78,
+              "confidence": 0.9885
+            },
+            {
+              "text": "feel",
+              "start": 123.78,
+              "end": 123.94,
+              "confidence": 0.9762
+            },
+            {
+              "text": "the",
+              "start": 123.94,
+              "end": 124.08,
+              "confidence": 0.9981
+            },
+            {
+              "text": "same",
+              "start": 124.08,
+              "end": 124.54,
+              "confidence": 0.9997
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_010",
+          "source_line": 55,
+          "original_text": "Got some baddies in the line",
+          "lead_text": "Got some baddies in the line",
+          "adlibs": [],
+          "start": 124.92,
+          "end": 126.82,
+          "confidence": 0.7315,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "got",
+              "start": 124.92,
+              "end": 125.54,
+              "confidence": 0.5323
+            },
+            {
+              "text": "some",
+              "start": 125.54,
+              "end": 125.76,
+              "confidence": 0.9907
+            },
+            {
+              "text": "baddies",
+              "start": 125.76,
+              "end": 126.2,
+              "confidence": 0.9505
+            },
+            {
+              "text": "in",
+              "start": 126.2,
+              "end": 126.42,
+              "confidence": 0.9764
+            },
+            {
+              "text": "the",
+              "start": 126.42,
+              "end": 126.54,
+              "confidence": 0.6434
+            },
+            {
+              "text": "line",
+              "start": 126.54,
+              "end": 126.82,
+              "confidence": 0.2956
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_011",
+          "source_line": 56,
+          "original_text": "But I don't know if I could trust again",
+          "lead_text": "But I don't know if I could trust again",
+          "adlibs": [],
+          "start": 126.82,
+          "end": 128.9,
+          "confidence": 0.9453,
+          "matched_tokens": 9,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "but",
+              "start": 126.82,
+              "end": 126.98,
+              "confidence": 0.9793
+            },
+            {
+              "text": "i",
+              "start": 126.98,
+              "end": 127.22,
+              "confidence": 0.9864
+            },
+            {
+              "text": "don't",
+              "start": 127.22,
+              "end": 127.44,
+              "confidence": 0.9953
+            },
+            {
+              "text": "know",
+              "start": 127.44,
+              "end": 127.6,
+              "confidence": 0.9957
+            },
+            {
+              "text": "if",
+              "start": 127.6,
+              "end": 127.82,
+              "confidence": 0.9758
+            },
+            {
+              "text": "i",
+              "start": 127.82,
+              "end": 128.02,
+              "confidence": 0.9917
+            },
+            {
+              "text": "could",
+              "start": 128.02,
+              "end": 128.16,
+              "confidence": 0.6057
+            },
+            {
+              "text": "trust",
+              "start": 128.16,
+              "end": 128.42,
+              "confidence": 0.9938
+            },
+            {
+              "text": "again",
+              "start": 128.42,
+              "end": 128.9,
+              "confidence": 0.9845
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_012",
+          "source_line": 57,
+          "original_text": "Not to mention they don't really look like you",
+          "lead_text": "Not to mention they don't really look like you",
+          "adlibs": [],
+          "start": 129.48,
+          "end": 131.46,
+          "confidence": 0.9133,
+          "matched_tokens": 7,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "mention",
+              "start": 129.48,
+              "end": 129.7,
+              "confidence": 0.7148
+            },
+            {
+              "text": "they",
+              "start": 129.7,
+              "end": 130.06,
+              "confidence": 0.8774
+            },
+            {
+              "text": "don't",
+              "start": 130.06,
+              "end": 130.32,
+              "confidence": 0.9931
+            },
+            {
+              "text": "really",
+              "start": 130.32,
+              "end": 130.48,
+              "confidence": 0.9975
+            },
+            {
+              "text": "look",
+              "start": 130.48,
+              "end": 130.98,
+              "confidence": 0.8716
+            },
+            {
+              "text": "like",
+              "start": 130.98,
+              "end": 131.16,
+              "confidence": 0.9427
+            },
+            {
+              "text": "you",
+              "start": 131.16,
+              "end": 131.46,
+              "confidence": 0.9963
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_013",
+          "source_line": 58,
+          "original_text": "Don't look like you",
+          "lead_text": "Don't look like you",
+          "adlibs": [],
+          "start": 131.88,
+          "end": 133.1,
+          "confidence": 0.9708,
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "don't",
+              "start": 131.88,
+              "end": 132.14,
+              "confidence": 0.8885
+            },
+            {
+              "text": "look",
+              "start": 132.14,
+              "end": 132.46,
+              "confidence": 0.9971
+            },
+            {
+              "text": "like",
+              "start": 132.46,
+              "end": 132.82,
+              "confidence": 0.9993
+            },
+            {
+              "text": "you",
+              "start": 132.82,
+              "end": 133.1,
+              "confidence": 0.9983
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_014",
+          "source_line": 59,
+          "original_text": "I might have to spin again",
+          "lead_text": "I might have to spin again",
+          "adlibs": [],
+          "start": 133.36,
+          "end": 135.24,
+          "confidence": 0.9263,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "i",
+              "start": 133.36,
+              "end": 133.66,
+              "confidence": 0.95
+            },
+            {
+              "text": "might",
+              "start": 133.66,
+              "end": 133.86,
+              "confidence": 0.9795
+            },
+            {
+              "text": "have",
+              "start": 133.86,
+              "end": 134.48,
+              "confidence": 0.965
+            },
+            {
+              "text": "to",
+              "start": 134.48,
+              "end": 134.64,
+              "confidence": 0.9832
+            },
+            {
+              "text": "spin",
+              "start": 134.64,
+              "end": 134.9,
+              "confidence": 0.6852
+            },
+            {
+              "text": "again",
+              "start": 134.9,
+              "end": 135.24,
+              "confidence": 0.995
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_015",
+          "source_line": 60,
+          "original_text": "On some of my old hoes",
+          "lead_text": "On some of my old hoes",
+          "adlibs": [],
+          "start": 135.9,
+          "end": 136.84,
+          "confidence": 0.5654,
+          "matched_tokens": 5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "some",
+              "start": 135.9,
+              "end": 136.0,
+              "confidence": 0.2384
+            },
+            {
+              "text": "of",
+              "start": 136.0,
+              "end": 136.16,
+              "confidence": 0.5342
+            },
+            {
+              "text": "my",
+              "start": 136.16,
+              "end": 136.34,
+              "confidence": 0.995
+            },
+            {
+              "text": "old",
+              "start": 136.34,
+              "end": 136.6,
+              "confidence": 0.5924
+            },
+            {
+              "text": "hoes",
+              "start": 136.6,
+              "end": 136.84,
+              "confidence": 0.467
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_016",
+          "source_line": 61,
+          "original_text": "You know, bring it back to 2016",
+          "lead_text": "You know, bring it back to 2016",
+          "adlibs": [],
+          "start": 136.84,
+          "end": 139.42,
+          "confidence": 0.9247,
+          "matched_tokens": 7,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "you",
+              "start": 136.84,
+              "end": 137.3,
+              "confidence": 0.9614
+            },
+            {
+              "text": "know",
+              "start": 137.3,
+              "end": 137.52,
+              "confidence": 0.9973
+            },
+            {
+              "text": "bring",
+              "start": 137.9,
+              "end": 138.1,
+              "confidence": 0.5928
+            },
+            {
+              "text": "it",
+              "start": 138.1,
+              "end": 138.3,
+              "confidence": 0.9644
+            },
+            {
+              "text": "back",
+              "start": 138.3,
+              "end": 138.52,
+              "confidence": 0.9989
+            },
+            {
+              "text": "to",
+              "start": 138.52,
+              "end": 138.68,
+              "confidence": 0.9603
+            },
+            {
+              "text": "2016",
+              "start": 138.68,
+              "end": 139.42,
+              "confidence": 0.9977
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_017",
+          "source_line": 62,
+          "original_text": "It's a cold world, I need to get my heart back",
+          "lead_text": "It's a cold world, I need to get my heart back",
+          "adlibs": [],
+          "start": 140.06,
+          "end": 143.0,
+          "confidence": 0.8711,
+          "matched_tokens": 11,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "it's",
+              "start": 140.06,
+              "end": 140.18,
+              "confidence": 0.966
+            },
+            {
+              "text": "a",
+              "start": 140.18,
+              "end": 140.26,
+              "confidence": 0.7229
+            },
+            {
+              "text": "cold",
+              "start": 140.26,
+              "end": 140.58,
+              "confidence": 0.8557
+            },
+            {
+              "text": "world",
+              "start": 140.58,
+              "end": 140.98,
+              "confidence": 0.968
+            },
+            {
+              "text": "i",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.5098
+            },
+            {
+              "text": "need",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.8873
+            },
+            {
+              "text": "to",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.9834
+            },
+            {
+              "text": "get",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.836
+            },
+            {
+              "text": "my",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.8837
+            },
+            {
+              "text": "heart",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.9785
+            },
+            {
+              "text": "back",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.9906
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_018",
+          "source_line": 63,
+          "original_text": "Bitch, you took it from me",
+          "lead_text": "Bitch, you took it from me",
+          "adlibs": [],
+          "start": 143.0,
+          "end": 143.98,
+          "confidence": 0.6927,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "bitch",
+              "start": 143.0,
+              "end": 143.0,
+              "confidence": 0.6134
+            },
+            {
+              "text": "you",
+              "start": 143.0,
+              "end": 143.12,
+              "confidence": 0.0522
+            },
+            {
+              "text": "took",
+              "start": 143.12,
+              "end": 143.34,
+              "confidence": 0.5884
+            },
+            {
+              "text": "it",
+              "start": 143.34,
+              "end": 143.5,
+              "confidence": 0.9815
+            },
+            {
+              "text": "from",
+              "start": 143.5,
+              "end": 143.78,
+              "confidence": 0.9239
+            },
+            {
+              "text": "me",
+              "start": 143.78,
+              "end": 143.98,
+              "confidence": 0.9969
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_019",
+          "source_line": 64,
+          "original_text": "Now I'm screaming, \"Bring it back\"",
+          "lead_text": "Now I'm screaming, \"Bring it back\"",
+          "adlibs": [],
+          "start": 144.2,
+          "end": 145.78,
+          "confidence": 0.9021,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "now",
+              "start": 144.2,
+              "end": 144.58,
+              "confidence": 0.9013
+            },
+            {
+              "text": "i'm",
+              "start": 144.58,
+              "end": 144.72,
+              "confidence": 0.9371
+            },
+            {
+              "text": "screaming",
+              "start": 144.72,
+              "end": 144.92,
+              "confidence": 0.8474
+            },
+            {
+              "text": "bring",
+              "start": 145.28,
+              "end": 145.36,
+              "confidence": 0.7623
+            },
+            {
+              "text": "it",
+              "start": 145.36,
+              "end": 145.54,
+              "confidence": 0.9652
+            },
+            {
+              "text": "back",
+              "start": 145.54,
+              "end": 145.78,
+              "confidence": 0.9991
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_020",
+          "source_line": 65,
+          "original_text": "I know you didn't mean to",
+          "lead_text": "I know you didn't mean to",
+          "adlibs": [],
+          "start": 145.78,
+          "end": 147.36,
+          "confidence": 0.9254,
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "i",
+              "start": 145.78,
+              "end": 145.96,
+              "confidence": 0.6153
+            },
+            {
+              "text": "know",
+              "start": 145.96,
+              "end": 146.16,
+              "confidence": 0.9857
+            },
+            {
+              "text": "you",
+              "start": 146.16,
+              "end": 146.4,
+              "confidence": 0.978
+            },
+            {
+              "text": "didn't",
+              "start": 146.4,
+              "end": 146.72,
+              "confidence": 0.9963
+            },
+            {
+              "text": "mean",
+              "start": 146.72,
+              "end": 147.0,
+              "confidence": 0.9957
+            },
+            {
+              "text": "to",
+              "start": 147.0,
+              "end": 147.36,
+              "confidence": 0.9814
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_021",
+          "source_line": 66,
+          "original_text": "But now you got me singing, got me singing",
+          "lead_text": "But now you got me singing, got me singing",
+          "adlibs": [],
+          "start": 147.56,
+          "end": 165.9,
+          "confidence": 0.8079,
+          "matched_tokens": 8,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "now",
+              "start": 147.56,
+              "end": 147.82,
+              "confidence": 0.4423
+            },
+            {
+              "text": "you",
+              "start": 147.82,
+              "end": 147.96,
+              "confidence": 0.9704
+            },
+            {
+              "text": "got",
+              "start": 147.96,
+              "end": 148.22,
+              "confidence": 0.9645
+            },
+            {
+              "text": "me",
+              "start": 148.22,
+              "end": 148.36,
+              "confidence": 0.9986
+            },
+            {
+              "text": "singing",
+              "start": 148.36,
+              "end": 149.14,
+              "confidence": 0.5724
+            },
+            {
+              "text": "got",
+              "start": 149.64,
+              "end": 149.74,
+              "confidence": 0.5611
+            },
+            {
+              "text": "me",
+              "start": 149.74,
+              "end": 165.88,
+              "confidence": 0.9904
+            },
+            {
+              "text": "singing",
+              "start": 165.88,
+              "end": 165.9,
+              "confidence": 0.9634
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "asr_token_count": 632,
+    "authoritative_token_count": 380,
+    "token_alignment_coverage": 0.8657894736842106,
+    "unresolved_authoritative_tokens": 51,
+    "line_alignment_coverage": 0.9090909090909091,
+    "audio_duration_seconds": 169.632,
+    "authoritative_section_count": 6,
+    "authoritative_line_count": 55,
+    "model": "base.en",
+    "device": "cpu",
+    "stage_runtime_seconds": 104.897,
+    "stage_runtimes_seconds": {
+      "parse": 0.0008,
+      "asr": 103.08,
+      "alignment_and_export": 1.815
+    },
+    "asr_cached": false
+  },
+  "authoritative_lyrics": {
+    "path": "/home/User/legendary_trap/input/lyrics/apple.txt",
+    "sha256": "47ccae5cfc27863e4124d75363ff878820398a06f2a73ebd6093cd044e77c634"
+  }
+}

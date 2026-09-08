@@ -8,6 +8,11 @@ from pathlib import Path
 
 TOKEN_RE = re.compile(r"[\w]+(?:['’][\w]+)?", re.UNICODE)
 SECTION_RE = re.compile(r"^\s*\[(.+?)\]\s*$")
+NUMBER_EQUIVALENTS = {
+    "0": "zero", "1": "one", "2": "two", "3": "three", "4": "four",
+    "5": "five", "6": "six", "7": "seven", "8": "eight", "9": "nine",
+    "10": "ten", "19": "nineteen", "2016": "twenty sixteen",
+}
 
 
 def normalize(text: str) -> str:

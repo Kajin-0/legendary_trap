@@ -1,0 +1,31 @@
+{
+  "experiment": "small_local_extended_fine",
+  "song_id": "apple",
+  "valid": true,
+  "runtime_seconds": 71.496,
+  "local_asr_runtime_seconds": 68.467,
+  "token_coverage": 0.7368421052631579,
+  "line_coverage": 0.7818181818181819,
+  "unresolved_tokens": 100,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_004_line_001",
+    "section_004_line_002",
+    "section_004_line_003",
+    "section_004_line_004",
+    "section_005_line_001",
+    "section_005_line_002",
+    "section_006_line_001",
+    "section_006_line_002",
+    "section_006_line_003",
+    "section_006_line_006",
+    "section_006_line_008"
+  ],
+  "validation_failures": [],
+  "fine_alignment": {
+    "method": "bounded_rms_onset_peak",
+    "radius_seconds": 0.18,
+    "refined_line_count": 43,
+    "median_boundary_shift_seconds": 0.02199999999999136
+  }
+}

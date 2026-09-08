@@ -1,0 +1,17 @@
+{
+  "name": "demucs_vocals_small_local",
+  "song_id": "apple",
+  "audio_path": "work/apple/separation/htdemucs/apple/vocals.wav",
+  "base_asr": "work/apple/asr-demucs-base.en.json",
+  "base_model": "base.en",
+  "model": "small.en",
+  "compute_type": "int8",
+  "beam_size": 5,
+  "hinting": false,
+  "windows": [
+    {"window_id": "intro", "start": 0.0, "end": 13.56},
+    {"window_id": "chorus_girl", "start": 17.52, "end": 27.68},
+    {"window_id": "verse_opening", "start": 23.68, "end": 31.98},
+    {"window_id": "she_broke", "start": 108.90, "end": 114.56}
+  ]
+}

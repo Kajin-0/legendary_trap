@@ -3,8 +3,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from difflib import SequenceMatcher
+from itertools import pairwise
 
-from .lyrics import LyricLine, ParsedLyrics, normalize
+from .lyrics import NUMBER_EQUIVALENTS, LyricLine, ParsedLyrics, normalize
 
 
 @dataclass
@@ -20,11 +21,31 @@ def asr_tokens(asr: dict) -> list[AcousticToken]:
             for s in asr["segments"] for w in s["words"]]
 
 
+def fuse_local_asr(base_asr: dict, local_asr: dict) -> dict:
+    """Replace full-song evidence only inside declared windows."""
+    windows = [(x["window"]["start"], x["window"]["end"]) for x in local_asr["windows"]]
+    base_words = [w for s in base_asr["segments"] for w in s["words"]]
+    words = [w for w in base_words if not any(w["start"] < end and w["end"] > start for start, end in windows)]
+    for row in local_asr["windows"]:
+        for segment in row["segments"]:
+            words.extend(segment["words"])
+    words.sort(key=lambda w: (w["start"], w["end"]))
+    return {**base_asr, "segments": [{"start": words[0]["start"], "end": words[-1]["end"],
+                                      "text": " ".join(w["text"] for w in words), "words": words}] if words else []}
+
+
 def _sim(a: str, b: str) -> float:
     a, b = normalize(a), normalize(b)
     if a == b: return 1.0
+    if NUMBER_EQUIVALENTS.get(a) == b or NUMBER_EQUIVALENTS.get(b) == a: return 0.95
     if a.replace("'", "") == b.replace("'", ""): return 0.92
-    return SequenceMatcher(None, a, b).ratio()
+    ratio = SequenceMatcher(None, a, b).ratio()
+    # Small ASR spelling/slang variants are useful as acoustic evidence, but
+    # they never replace the authoritative token in the output.
+    aliases = {"cuz": "because", "cause": "because", "gonna": "going to", "wanna": "want to"}
+    if aliases.get(a) == b or aliases.get(b) == a:
+        return 0.88
+    return ratio
 
 
 def align_tokens(auth: list[str], acoustic: list[AcousticToken]) -> tuple[dict[int, AcousticToken], float, int]:
@@ -75,14 +96,26 @@ def build_alignment(parsed: ParsedLyrics, asr: dict, duration: float) -> tuple[l
     rows = []
     for line, lo, hi in _line_word_ranges(parsed):
         found = [matches[i] for i in range(lo, hi) if i in matches]
+        similarities = [_sim(line.tokens[i - lo], matches[i].text) for i in range(lo, hi) if i in matches]
         if found:
             start, end = min(w.start for w in found), max(w.end for w in found)
-            conf = sum(w.probability for w in found) / len(found)
+            token_coverage = len(found) / len(line.tokens) if line.tokens else 1.0
+            lexical_match = sum(similarities) / len(similarities)
+            acoustic_support = sum(w.probability for w in found) / len(found)
+            gaps = [b.start - a.end for a, b in pairwise(found)]
+            temporal_consistency = 1.0 if not gaps else max(0.0, min(1.0, 1.0 - sum(max(0.0, g - 2.0) for g in gaps) / (2.0 * len(gaps))))
+            conf = (0.35 * token_coverage + 0.25 * lexical_match +
+                    0.20 * temporal_consistency + 0.20 * acoustic_support)
+            components = {"token_coverage": token_coverage, "lexical_match": lexical_match,
+                          "temporal_consistency": temporal_consistency, "acoustic_support": acoustic_support}
         else:
             start = end = None
             conf = 0.0
+            components = {"token_coverage": 0.0, "lexical_match": 0.0,
+                          "temporal_consistency": 0.0, "acoustic_support": 0.0}
         rows.append({"line": line, "start": start, "end": end, "confidence": min(1.0, max(0.0, conf)),
-                     "words": found, "matched_tokens": len(found), "total_tokens": len(line.tokens)})
+                     "confidence_components": components, "words": found,
+                     "matched_tokens": len(found), "total_tokens": len(line.tokens)})
     # Fill missing lines only inside the bounded neighboring evidence window.
     for idx, row in enumerate(rows):
         if row["start"] is not None: continue
@@ -94,6 +127,8 @@ def build_alignment(parsed: ParsedLyrics, asr: dict, duration: float) -> tuple[l
         # Conservative interpolation is explicitly low confidence, not fabricated precision.
         row["start"], row["end"] = left, max(left, min(right, left + max(0.25, (right-left) / max(1, count))))
         row["confidence"] = 0.12
+        row["confidence_components"] = {"token_coverage": 0.0, "lexical_match": 0.0,
+                                        "temporal_consistency": 0.0, "acoustic_support": 0.0}
     # Section bounds preserve chronological repeated-section identity.
     sections = []
     offset = 0

@@ -1,0 +1,67 @@
+{
+  "song_id": "apple",
+  "selected_experiment": "small_local_unhinted_fine",
+  "selection_reason": "Best validation-safe acoustic result; hints improved nominal coverage but hallucinated text, Demucs failed chronology, and broad windows degraded coverage.",
+  "metrics": {
+    "token_coverage": 0.9078947368421053,
+    "line_coverage": 0.9818181818181818,
+    "authoritative_lines": 55,
+    "authoritative_tokens": 380,
+    "unresolved_tokens": 35,
+    "low_confidence_lines": [
+      "section_001_line_001"
+    ],
+    "validation_valid": true,
+    "chronology_violations": 0
+  },
+  "configuration": {
+    "name": "small_local_unhinted_fine",
+    "song_id": "apple",
+    "model": "small.en",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "hinting": false,
+    "fine_alignment": "bounded_onset",
+    "fine_radius": 0.18,
+    "windows": [
+      {
+        "window_id": "intro",
+        "start": 0.0,
+        "end": 13.56
+      },
+      {
+        "window_id": "chorus_girl",
+        "start": 17.52,
+        "end": 27.68
+      },
+      {
+        "window_id": "verse_opening",
+        "start": 23.68,
+        "end": 31.98
+      },
+      {
+        "window_id": "she_broke",
+        "start": 108.9,
+        "end": 114.56
+      }
+    ]
+  },
+  "fine_alignment": {
+    "method": "bounded_rms_onset_peak",
+    "radius_seconds": 0.18,
+    "refined_line_count": 54,
+    "median_boundary_shift_seconds": -0.020000000000010232
+  },
+  "remaining_ambiguity": [
+    "section_001_line_001: intro Apple is not acoustically supported by either base.en or small.en; local small.en hears chorus material instead."
+  ],
+  "artifacts": [
+    "apple.ass",
+    "apple.karaoke.ass",
+    "apple.srt",
+    "apple.vtt",
+    "diagnostics.json",
+    "timing.json",
+    "validation.json"
+  ]
+}

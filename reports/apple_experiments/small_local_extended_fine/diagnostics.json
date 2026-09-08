@@ -1,0 +1,19 @@
+{
+  "asr_token_count": 381,
+  "authoritative_token_count": 380,
+  "token_alignment_coverage": 0.7368421052631579,
+  "unresolved_authoritative_tokens": 100,
+  "line_alignment_coverage": 0.7818181818181819,
+  "fine_alignment": {
+    "method": "bounded_rms_onset_peak",
+    "radius_seconds": 0.18,
+    "refined_line_count": 43,
+    "median_boundary_shift_seconds": 0.02199999999999136
+  },
+  "experiment": "small_local_extended_fine",
+  "runtime_seconds": 71.496,
+  "local_asr_runtime_seconds": 68.467,
+  "model": "small.en",
+  "beam_size": 5,
+  "hinted": false
+}

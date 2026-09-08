@@ -1,0 +1,20 @@
+{
+  "experiment": "small_local_unhinted_fine",
+  "song_id": "apple",
+  "valid": true,
+  "runtime_seconds": 28.326,
+  "local_asr_runtime_seconds": 25.029,
+  "token_coverage": 0.9078947368421053,
+  "line_coverage": 0.9818181818181818,
+  "unresolved_tokens": 35,
+  "low_confidence_line_ids": [
+    "section_001_line_001"
+  ],
+  "validation_failures": [],
+  "fine_alignment": {
+    "method": "bounded_rms_onset_peak",
+    "radius_seconds": 0.18,
+    "refined_line_count": 54,
+    "median_boundary_shift_seconds": -0.020000000000010232
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "demucs_vocals_small_local",
+  "song_id": "apple",
+  "valid": false,
+  "runtime_seconds": 66.438,
+  "local_asr_runtime_seconds": 64.484,
+  "token_coverage": 0.6684210526315789,
+  "line_coverage": 0.8909090909090909,
+  "unresolved_tokens": 126,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_003_line_002",
+    "section_004_line_002",
+    "section_004_line_003",
+    "section_004_line_004",
+    "section_006_line_011"
+  ],
+  "validation_failures": [
+    "line order violation: section_003_line_003"
+  ]
+}

@@ -13,6 +13,7 @@ The isolated `.venv` contains the CPU stack selected for the pilot:
   RapidFuzz 3.14.6
 - pytest 9.1.1 and Ruff 0.16.6
 
-Torch, WhisperX, and Demucs are not installed: this host is CPU-only and the
-pilot does not justify their additional dependency and runtime cost. Separation
-is therefore a future configurable experiment, not a hidden prerequisite.
+For the isolated Apple separation A/B only, Torch 2.7.1+cpu and Demucs 4.1.0
+were installed from the PyTorch CPU index. WhisperX remains uninstalled. The
+Demucs A/B was negative, so separation remains an optional experiment and is
+not a hidden prerequisite of the normal pipeline.

@@ -1,0 +1,593 @@
+{
+  "report_type": "apple_baseline_control",
+  "commit_sha": "1d01f2dfb90874ffee1287e14ccd8751c1ff5ff4",
+  "generated_at_utc": "2026-09-08T00:36:41.845062+00:00",
+  "song_id": "apple",
+  "model": "base.en",
+  "compute_type": "int8",
+  "device": "cpu",
+  "configuration": {
+    "beam_size": 3,
+    "best_of": 1,
+    "temperature": 0,
+    "vad_filter": false,
+    "word_timestamps": true,
+    "condition_on_previous_text": false,
+    "alignment": "weighted_monotonic_dp",
+    "fine_alignment": "word_timestamp_bounded_windows"
+  },
+  "audio_duration_seconds": 169.632,
+  "runtime_by_stage_seconds": {
+    "parse": 0.0008,
+    "asr": 103.08,
+    "alignment_and_export": 1.815
+  },
+  "authoritative_lines": 55,
+  "authoritative_tokens": 380,
+  "asr_tokens": 632,
+  "aligned_tokens": 329,
+  "token_coverage": 0.8657894736842106,
+  "line_coverage": 0.9090909090909091,
+  "unresolved_tokens": 51,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_002_line_003",
+    "section_003_line_001",
+    "section_003_line_002",
+    "section_006_line_001"
+  ],
+  "validation_valid": true,
+  "validation_failures": [],
+  "per_line": [
+    {
+      "line_id": "section_001_line_001",
+      "section_id": "section_001",
+      "original_text": "Apple",
+      "start": 0.0,
+      "end": 2.312,
+      "confidence": 0.12,
+      "matched_tokens": 0,
+      "total_tokens": 1
+    },
+    {
+      "line_id": "section_002_line_001",
+      "section_id": "section_002",
+      "original_text": "How could you be so cold, cold, cold?",
+      "start": 11.56,
+      "end": 15.16,
+      "confidence": 0.6907,
+      "matched_tokens": 8,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_002_line_002",
+      "section_id": "section_002",
+      "original_text": "Now you're bitter like apple, oh-oh",
+      "start": 15.48,
+      "end": 19.52,
+      "confidence": 0.7335,
+      "matched_tokens": 6,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_002_line_003",
+      "section_id": "section_002",
+      "original_text": "I thought you was my girl, girl, girl",
+      "start": 19.52,
+      "end": 21.06,
+      "confidence": 0.12,
+      "matched_tokens": 0,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_002_line_004",
+      "section_id": "section_002",
+      "original_text": "Now you are just an apple, oh-oh",
+      "start": 25.68,
+      "end": 25.68,
+      "confidence": 0.9758,
+      "matched_tokens": 2,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_003_line_001",
+      "section_id": "section_003",
+      "original_text": "Nineteen, thought I found my wife",
+      "start": 25.68,
+      "end": 27.113,
+      "confidence": 0.12,
+      "matched_tokens": 0,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_002",
+      "section_id": "section_003",
+      "original_text": "Shorty got a new job, workin' at the Five Guys",
+      "start": 27.113,
+      "end": 28.547,
+      "confidence": 0.12,
+      "matched_tokens": 0,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_003_line_003",
+      "section_id": "section_003",
+      "original_text": "I don't eat no Five Guys, so I gotta find guys",
+      "start": 29.98,
+      "end": 33.74,
+      "confidence": 0.5558,
+      "matched_tokens": 11,
+      "total_tokens": 11
+    },
+    {
+      "line_id": "section_003_line_004",
+      "section_id": "section_003",
+      "original_text": "that eat it, eat it, eat it",
+      "start": 33.74,
+      "end": 35.46,
+      "confidence": 0.8017,
+      "matched_tokens": 7,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_003_line_005",
+      "section_id": "section_003",
+      "original_text": "Shorty from Chicago",
+      "start": 35.54,
+      "end": 36.96,
+      "confidence": 0.5824,
+      "matched_tokens": 3,
+      "total_tokens": 3
+    },
+    {
+      "line_id": "section_003_line_006",
+      "section_id": "section_003",
+      "original_text": "Thought she had the same heart as me",
+      "start": 37.64,
+      "end": 39.34,
+      "confidence": 0.8255,
+      "matched_tokens": 8,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_003_line_007",
+      "section_id": "section_003",
+      "original_text": "Boy, was I wrong",
+      "start": 39.34,
+      "end": 40.68,
+      "confidence": 0.6241,
+      "matched_tokens": 4,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_003_line_008",
+      "section_id": "section_003",
+      "original_text": "Thought she was a saint, but she a sinner",
+      "start": 40.9,
+      "end": 42.68,
+      "confidence": 0.7151,
+      "matched_tokens": 8,
+      "total_tokens": 9
+    },
+    {
+      "line_id": "section_003_line_009",
+      "section_id": "section_003",
+      "original_text": "My good girl turned to a",
+      "start": 43.18,
+      "end": 44.28,
+      "confidence": 0.7915,
+      "matched_tokens": 5,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_010",
+      "section_id": "section_003",
+      "original_text": "How could you be so cold?",
+      "start": 44.28,
+      "end": 45.98,
+      "confidence": 0.812,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_011",
+      "section_id": "section_003",
+      "original_text": "How could you be so heartless?",
+      "start": 48.04,
+      "end": 49.8,
+      "confidence": 0.9291,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_012",
+      "section_id": "section_003",
+      "original_text": "I thought you were my soul",
+      "start": 51.34,
+      "end": 52.58,
+      "confidence": 0.9277,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_013",
+      "section_id": "section_003",
+      "original_text": "Now I wish we never started",
+      "start": 54.06,
+      "end": 55.86,
+      "confidence": 0.8344,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_003_line_014",
+      "section_id": "section_003",
+      "original_text": "But it's my fault, I don't blame you, blame you",
+      "start": 57.44,
+      "end": 61.06,
+      "confidence": 0.847,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_003_line_015",
+      "section_id": "section_003",
+      "original_text": "It was my loss, I can't blame you, blame you",
+      "start": 61.06,
+      "end": 64.4,
+      "confidence": 0.9185,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_003_line_016",
+      "section_id": "section_003",
+      "original_text": "It was my fault, I don't blame you, blame you",
+      "start": 64.4,
+      "end": 67.64,
+      "confidence": 0.9789,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_003_line_017",
+      "section_id": "section_003",
+      "original_text": "It was my loss, I can't blame you, blame you",
+      "start": 67.64,
+      "end": 70.82,
+      "confidence": 0.9323,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_004_line_001",
+      "section_id": "section_004",
+      "original_text": "How could you be so cold, cold, cold?",
+      "start": 70.82,
+      "end": 73.84,
+      "confidence": 0.7346,
+      "matched_tokens": 7,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_004_line_002",
+      "section_id": "section_004",
+      "original_text": "Now you're bitter like apple, oh-oh",
+      "start": 73.84,
+      "end": 77.2,
+      "confidence": 0.6365,
+      "matched_tokens": 7,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_004_line_003",
+      "section_id": "section_004",
+      "original_text": "I thought you was my girl, girl, girl",
+      "start": 77.2,
+      "end": 80.5,
+      "confidence": 0.8707,
+      "matched_tokens": 8,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_004_line_004",
+      "section_id": "section_004",
+      "original_text": "Now you are just an apple, oh-oh",
+      "start": 80.5,
+      "end": 83.04,
+      "confidence": 0.8181,
+      "matched_tokens": 7,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_005_line_001",
+      "section_id": "section_005",
+      "original_text": "Now you're just a memory, not a friend to me",
+      "start": 83.88,
+      "end": 86.8,
+      "confidence": 0.7207,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_005_line_002",
+      "section_id": "section_005",
+      "original_text": "You turned enemy, got me in disbelief",
+      "start": 86.8,
+      "end": 89.3,
+      "confidence": 0.6883,
+      "matched_tokens": 6,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_005_line_003",
+      "section_id": "section_005",
+      "original_text": "It wasn't meant to be, now you're dead to me",
+      "start": 89.3,
+      "end": 92.88,
+      "confidence": 0.9229,
+      "matched_tokens": 10,
+      "total_tokens": 10
+    },
+    {
+      "line_id": "section_005_line_004",
+      "section_id": "section_005",
+      "original_text": "You pretend to be who you're not",
+      "start": 92.88,
+      "end": 95.78,
+      "confidence": 0.6961,
+      "matched_tokens": 7,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_005_line_005",
+      "section_id": "section_005",
+      "original_text": "And I don't need you, no",
+      "start": 96.3,
+      "end": 110.9,
+      "confidence": 0.9201,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_005_line_006",
+      "section_id": "section_005",
+      "original_text": "And I don't need you, no",
+      "start": 110.9,
+      "end": 110.9,
+      "confidence": 0.9614,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_005_line_007",
+      "section_id": "section_005",
+      "original_text": "And I don't need you, no",
+      "start": 110.9,
+      "end": 110.9,
+      "confidence": 0.9687,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_005_line_008",
+      "section_id": "section_005",
+      "original_text": "And I don't need you, no",
+      "start": 110.9,
+      "end": 110.9,
+      "confidence": 0.9765,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_001",
+      "section_id": "section_006",
+      "original_text": "She broke my heart",
+      "start": 110.9,
+      "end": 112.56,
+      "confidence": 0.12,
+      "matched_tokens": 0,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_006_line_002",
+      "section_id": "section_006",
+      "original_text": "How could you be so cold?",
+      "start": 112.56,
+      "end": 112.56,
+      "confidence": 0.9864,
+      "matched_tokens": 3,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_003",
+      "section_id": "section_006",
+      "original_text": "She broke my heart",
+      "start": 113.02,
+      "end": 113.96,
+      "confidence": 0.7056,
+      "matched_tokens": 4,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_006_line_004",
+      "section_id": "section_006",
+      "original_text": "How could you be so cold?",
+      "start": 114.52,
+      "end": 116.18,
+      "confidence": 0.7108,
+      "matched_tokens": 5,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_005",
+      "section_id": "section_006",
+      "original_text": "She broke my heart",
+      "start": 116.18,
+      "end": 117.22,
+      "confidence": 0.9041,
+      "matched_tokens": 4,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_006_line_006",
+      "section_id": "section_006",
+      "original_text": "How could you be so cold?",
+      "start": 117.78,
+      "end": 119.48,
+      "confidence": 0.9846,
+      "matched_tokens": 5,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_007",
+      "section_id": "section_006",
+      "original_text": "She broke my heart",
+      "start": 119.58,
+      "end": 120.6,
+      "confidence": 0.9224,
+      "matched_tokens": 4,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_006_line_008",
+      "section_id": "section_006",
+      "original_text": "How could you be so cold?",
+      "start": 121.04,
+      "end": 122.82,
+      "confidence": 0.989,
+      "matched_tokens": 5,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_009",
+      "section_id": "section_006",
+      "original_text": "Now I don't feel the same",
+      "start": 123.24,
+      "end": 124.54,
+      "confidence": 0.9684,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_010",
+      "section_id": "section_006",
+      "original_text": "Got some baddies in the line",
+      "start": 124.92,
+      "end": 126.82,
+      "confidence": 0.7315,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_011",
+      "section_id": "section_006",
+      "original_text": "But I don't know if I could trust again",
+      "start": 126.82,
+      "end": 128.9,
+      "confidence": 0.9453,
+      "matched_tokens": 9,
+      "total_tokens": 9
+    },
+    {
+      "line_id": "section_006_line_012",
+      "section_id": "section_006",
+      "original_text": "Not to mention they don't really look like you",
+      "start": 129.48,
+      "end": 131.46,
+      "confidence": 0.9133,
+      "matched_tokens": 7,
+      "total_tokens": 9
+    },
+    {
+      "line_id": "section_006_line_013",
+      "section_id": "section_006",
+      "original_text": "Don't look like you",
+      "start": 131.88,
+      "end": 133.1,
+      "confidence": 0.9708,
+      "matched_tokens": 4,
+      "total_tokens": 4
+    },
+    {
+      "line_id": "section_006_line_014",
+      "section_id": "section_006",
+      "original_text": "I might have to spin again",
+      "start": 133.36,
+      "end": 135.24,
+      "confidence": 0.9263,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_015",
+      "section_id": "section_006",
+      "original_text": "On some of my old hoes",
+      "start": 135.9,
+      "end": 136.84,
+      "confidence": 0.5654,
+      "matched_tokens": 5,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_016",
+      "section_id": "section_006",
+      "original_text": "You know, bring it back to 2016",
+      "start": 136.84,
+      "end": 139.42,
+      "confidence": 0.9247,
+      "matched_tokens": 7,
+      "total_tokens": 7
+    },
+    {
+      "line_id": "section_006_line_017",
+      "section_id": "section_006",
+      "original_text": "It's a cold world, I need to get my heart back",
+      "start": 140.06,
+      "end": 143.0,
+      "confidence": 0.8711,
+      "matched_tokens": 11,
+      "total_tokens": 11
+    },
+    {
+      "line_id": "section_006_line_018",
+      "section_id": "section_006",
+      "original_text": "Bitch, you took it from me",
+      "start": 143.0,
+      "end": 143.98,
+      "confidence": 0.6927,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_019",
+      "section_id": "section_006",
+      "original_text": "Now I'm screaming, \"Bring it back\"",
+      "start": 144.2,
+      "end": 145.78,
+      "confidence": 0.9021,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_020",
+      "section_id": "section_006",
+      "original_text": "I know you didn't mean to",
+      "start": 145.78,
+      "end": 147.36,
+      "confidence": 0.9254,
+      "matched_tokens": 6,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_006_line_021",
+      "section_id": "section_006",
+      "original_text": "But now you got me singing, got me singing",
+      "start": 147.56,
+      "end": 165.9,
+      "confidence": 0.8079,
+      "matched_tokens": 8,
+      "total_tokens": 9
+    }
+  ]
+}
