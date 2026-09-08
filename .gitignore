@@ -1,6 +1,10 @@
-# Source archives and local audio
-Suno.zip
+# Source transport archive
+# Suno.zip is intentionally tracked under source/ because GitHub is the VPS transfer path.
 *.zip
+!source/
+!source/Suno.zip
+
+# Local extracted audio
 input/audio/*
 !input/audio/.gitkeep
 *.mp3
