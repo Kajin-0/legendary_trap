@@ -1,0 +1,31 @@
+{
+  "song": "off_the_wave",
+  "segment": {"start_s": 20.0, "duration_s": 18.0, "fps": 30},
+  "mapping": "32 log-spaced samples, 20 Hz minimum",
+  "weighting": "20-40 modest, 40-70 strong, 70-180 strongest, 180-300 moderate, taper to cutoff",
+  "placement_internal": [480.0, 329.4],
+  "variants": {
+    "20-500Hz": {
+      "sample_count": 32,
+      "frames": {
+        "quiet": {"time_s": 0.0, "whole_p95_p10": 81.205, "upper_p95_p10": 81.713, "bottom_p95_p10": 0.845, "bottom_mean_displacement": 7.632},
+        "medium": {"time_s": 4.767, "whole_p95_p10": 104.133, "upper_p95_p10": 124.743, "bottom_p95_p10": 5.358, "bottom_mean_displacement": 27.738},
+        "hit": {"time_s": 4.867, "whole_p95_p10": 152.752, "upper_p95_p10": 156.05, "bottom_p95_p10": 8.06, "bottom_mean_displacement": 40.082}
+      }
+    },
+    "20-350Hz": {
+      "sample_count": 32,
+      "frames": {
+        "quiet": {"time_s": 0.0, "whole_p95_p10": 87.021, "upper_p95_p10": 87.121, "bottom_p95_p10": 0.835, "bottom_mean_displacement": 7.601},
+        "medium": {"time_s": 4.767, "whole_p95_p10": 112.974, "upper_p95_p10": 123.565, "bottom_p95_p10": 5.291, "bottom_mean_displacement": 27.539},
+        "hit": {"time_s": 4.867, "whole_p95_p10": 168.911, "upper_p95_p10": 164.769, "bottom_p95_p10": 7.959, "bottom_mean_displacement": 39.783}
+      }
+    }
+  },
+  "impact_controls": {
+    "strong_hit_translation_px": 5.7,
+    "strong_hit_rotation_deg": 0.65,
+    "zoom": "disabled",
+    "shockwave": "thresholded above impact 0.78"
+  }
+}

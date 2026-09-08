@@ -22,6 +22,7 @@ class FeatureSequence:
     rms: np.ndarray
     transients: np.ndarray
     low_spectrum: np.ndarray | None = None
+    low_max_hz: float = LOW_SPECTRUM_MAX_HZ
 
 
 def _normalize(values: np.ndarray) -> np.ndarray:
@@ -40,7 +41,9 @@ def _smooth(values: np.ndarray, attack: float, release: float) -> np.ndarray:
 
 
 def extract_features(path: Path, start: float, duration: float, fps: int = 30,
-                     bins: int = 256) -> FeatureSequence:
+                     bins: int = 256, low_max_hz: float = LOW_SPECTRUM_MAX_HZ) -> FeatureSequence:
+    if low_max_hz <= LOW_SPECTRUM_MIN_HZ:
+        raise ValueError("low_max_hz must be above the low-spectrum minimum")
     audio, sample_rate = sf.read(path, start=max(0, int(start * 48000)),
                                  frames=max(1, int((duration + 0.2) * 48000)),
                                  dtype="float32", always_2d=True)
@@ -53,7 +56,7 @@ def extract_features(path: Path, start: float, duration: float, fps: int = 30,
     fft_size = 4096
     window = np.hanning(fft_size).astype(np.float32)
     frequencies = np.fft.rfftfreq(fft_size, 1 / sample_rate)
-    low_frequencies = np.geomspace(LOW_SPECTRUM_MIN_HZ, LOW_SPECTRUM_MAX_HZ,
+    low_frequencies = np.geomspace(LOW_SPECTRUM_MIN_HZ, low_max_hz,
                                    LOW_SPECTRUM_BINS).astype(np.float32)
     spectrum = np.zeros((frame_count, bins), dtype=np.float32)
     low_spectrum = np.zeros((frame_count, len(low_frequencies)), dtype=np.float32)
@@ -76,13 +79,16 @@ def extract_features(path: Path, start: float, duration: float, fps: int = 30,
         low_values = np.interp(low_frequencies, frequencies, log_magnitudes)
         # Give the sub/808 range more visual resolution and taper the upper
         # low-mids so the polar geometry never becomes a treble analyzer.
-        weights = np.interp(low_frequencies, [20, 60, 180, 350, 700],
-                            [1.10, 1.28, 1.18, 0.72, 0.22])
+        weighting_frequencies = [20, 40, 70, 180, 300, low_max_hz]
+        weighting_values = [0.72, 1.06, 1.32, 1.18, 0.72, 0.20]
+        weights = np.interp(low_frequencies, weighting_frequencies, weighting_values)
         low_spectrum[index] = low_values * weights
         bass[index] = log_magnitudes[(frequencies >= 20) & (frequencies < 180)].mean()
         mids[index] = log_magnitudes[(frequencies >= 180) & (frequencies < 2500)].mean()
         highs[index] = log_magnitudes[frequencies >= 2500].mean()
-    normalized_spectrum = np.clip(spectrum / np.percentile(spectrum, 98), 0, 1)
+    normalized_spectrum = np.clip(
+        spectrum / max(1e-6, float(np.percentile(spectrum, 98))), 0, 1
+    )
     low_spectrum = np.clip(
         low_spectrum / max(1e-6, float(np.percentile(low_spectrum, 98))), 0, 1
     )
@@ -93,4 +99,4 @@ def extract_features(path: Path, start: float, duration: float, fps: int = 30,
     delta = np.maximum(0.0, np.diff(np.r_[rms[0], rms]))
     transients = _smooth(_normalize(delta), 0.75, 0.18)
     return FeatureSequence(fps, normalized_spectrum.astype(np.float32), bass, mids, highs,
-                           rms, transients, low_spectrum.astype(np.float32))
+                           rms, transients, low_spectrum.astype(np.float32), float(low_max_hz))

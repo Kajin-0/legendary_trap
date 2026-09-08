@@ -45,6 +45,12 @@ PRESETS = {
     "trap_sunset_polar_v2": Preset("trap_sunset_polar_v2", (8, 5, 16),
                                    (242, 128, 73), (104, 81, 202),
                                    "trap_sunset_polar_v2", 180, 360),
+    "trap_polar_500hz_maximpact": Preset("trap_polar_500hz_maximpact", (8, 5, 16),
+                                          (242, 128, 73), (104, 81, 202),
+                                          "trap_sunset_polar_v3", 180, 360),
+    "trap_polar_350hz_maximpact": Preset("trap_polar_350hz_maximpact", (8, 5, 16),
+                                          (242, 128, 73), (104, 81, 202),
+                                          "trap_sunset_polar_v3", 180, 360),
 }
 
 
@@ -129,8 +135,13 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
                          float(features.highs[index]))
     transient = float(features.transients[index])
-    polar_mode = preset.visualizer in {"trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}
-    impact = float(np.clip(0.62 * bass + 1.55 * transient, 0.0, 1.8))
+    polar_mode = preset.visualizer in {
+        "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2", "trap_sunset_polar_v3"
+    }
+    low_profile = _low_profile(features, index)
+    previous_low = _low_profile(features, max(0, index - 1))
+    low_burst = float(np.clip((float(low_profile.mean()) - float(previous_low.mean())) * 4.0, 0.0, 1.0))
+    impact = float(np.clip(0.52 * bass + 1.55 * transient + 0.55 * low_burst, 0.0, 1.8))
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
     # Explicit day-to-sunset trajectory: smooth, slow, and independent of audio.
@@ -201,7 +212,7 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     if polar_mode:
         # The main geometry is deliberately low-frequency only. Highs remain
         # in the particle layer above, never in this polar contour.
-        angles, radii = polar_low_radii(_low_profile(features, index), bass, samples=512)
+        angles, radii = polar_low_radii(low_profile, bass, samples=512)
         center = np.array([WIDTH * 0.50, HEIGHT * 0.61], dtype=np.float32)
         aspect = 0.78
         upper = np.clip(-np.sin(angles), 0.0, 1.0)
@@ -232,11 +243,11 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
         _blend(frame, center[0] + np.cos(angles) * radii * 1.38,
                center[1] + np.sin(angles) * radii * aspect * 1.38,
                tuple(np.clip(palette * 0.52, 0, 255)), polar_haze)
-        if transient > 0.55:
-            shock_scale = 1.05 + 0.14 * min(1.0, transient)
+        if impact > 0.78:
+            shock_scale = 1.05 + 0.16 * min(1.0, impact)
             _blend(frame, center[0] + np.cos(angles) * radii * shock_scale,
                    center[1] + np.sin(angles) * radii * aspect * shock_scale,
-                   core_color, 0.07 * (transient - 0.55) / 0.45)
+                   core_color, 0.10 * min(1.0, (impact - 0.78) / 0.55))
     else:
         # Legacy hybrid ribbon retained for the existing preset only.
         x = np.linspace(90, WIDTH - 90, 640)
@@ -269,12 +280,14 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     # A restrained impact tint follows the transient rather than blinking the frame.
     frame += np.clip(transient * (22 if polar_mode else 18) + (impact * 3 if polar_mode else 0), 0, 24)
     # Few-pixel kick-linked camera displacement and signed sub-degree rotation.
-    shake = min(7.0 if polar_mode else 4.0,
-                (1.25 * transient + 0.70 * bass) if polar_mode else (0.8 * transient + 0.35 * bass))
-    offset_x = int(np.sin(t * 48.0 + 0.4) * shake)
-    offset_y = int(np.cos(t * 41.0 + 0.7) * shake * 0.55)
-    rotation = (np.sin(t * 39.0 + 1.1) * transient * (0.25 if polar_mode else 0.16) +
-                np.sin(t * 2.7) * bass * (0.06 if polar_mode else 0.035))
+    shake = min(9.0 if polar_mode else 4.0,
+                (5.5 * transient + 1.8 * bass + 1.5 * low_burst) if polar_mode else
+                (0.8 * transient + 0.35 * bass))
+    recoil = np.exp(-max(0.0, 1.0 / features.fps) * 3.0)
+    offset_x = int(np.sin(t * 48.0 + 0.4) * shake * recoil)
+    offset_y = int(np.cos(t * 41.0 + 0.7) * shake * 0.55 * recoil)
+    rotation = (np.sin(t * 39.0 + 1.1) * transient * (0.58 if polar_mode else 0.16) +
+                np.sin(t * 2.7) * bass * (0.12 if polar_mode else 0.035))
     frame = rotate(frame, float(rotation), reshape=False, order=1, mode="nearest", prefilter=False)
     frame = np.roll(frame, (offset_y, offset_x), axis=(0, 1))
     return np.clip(frame, 0, 255).astype(np.uint8)
@@ -282,7 +295,8 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...]) -> np.ndarray:
-    if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}:
+    if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
+                             "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
         return _hybrid_frame(features, index, preset, particles)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
@@ -362,7 +376,8 @@ def _write_png(frame: np.ndarray, path: Path) -> None:
 
 
 def render_preview(song_id: str, preset_name: str, start: float, duration: float,
-                   timeout_seconds: int = 600) -> dict:
+                   timeout_seconds: int = 600, lyric_font: str = "Montserrat",
+                   lyric_size: int = 84, low_max_hz: float = 700.0) -> dict:
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
     song = next(item for item in manifest["songs"] if item["id"] == song_id)
     source = ROOT / "source" / song["audio_source"]
@@ -376,11 +391,13 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     output_dir = ROOT / "output" / "aesthetic_previews"
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
-    subtitle_paths = write_subtitles(render_document, output_dir, display_title)
-    features = extract_features(source, start, duration, FPS)
+    subtitle_paths = write_subtitles(render_document, output_dir, display_title,
+                                     lyric_font=lyric_font, lyric_size=lyric_size)
+    features = extract_features(source, start, duration, FPS, low_max_hz=low_max_hz)
     preset = PRESETS[preset_name]
     particles = (_hybrid_particles(preset) if preset.visualizer in
-                 {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2"}
+                 {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
+                  "trap_sunset_polar_v3"}
                  else _particles(preset))
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
@@ -417,8 +434,13 @@ def main() -> int:
     parser.add_argument("--start", type=float, default=20.0)
     parser.add_argument("--duration", type=float, default=18.0)
     parser.add_argument("--timeout", type=int, default=600)
+    parser.add_argument("--lyric-font", default="Montserrat")
+    parser.add_argument("--lyric-size", type=int, default=84)
+    parser.add_argument("--low-max-hz", type=float, default=700.0)
     args = parser.parse_args()
-    print(json.dumps(render_preview(args.song, args.preset, args.start, args.duration, args.timeout), indent=2))
+    print(json.dumps(render_preview(args.song, args.preset, args.start, args.duration,
+                                    args.timeout, args.lyric_font, args.lyric_size,
+                                    args.low_max_hz), indent=2))
     return 0
 
 

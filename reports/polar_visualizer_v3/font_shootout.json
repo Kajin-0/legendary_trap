@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "family": "Big Shoulders Display",
+      "requested_weight": "Black",
+      "resolved_file": "/home/User/.local/share/fonts/BigShouldersDisplay[wght].ttf",
+      "resolved_fc_family": "Big Shoulders Display / Big Shoulders Display Thin",
+      "size_px": 98,
+      "result": "tested; tall editorial option"
+    },
+    {
+      "family": "Barlow Condensed",
+      "requested_weight": "Black",
+      "resolved_file": "/home/User/.local/share/fonts/BarlowCondensed-Black.ttf",
+      "resolved_fc_family": "Barlow Condensed",
+      "size_px": 90,
+      "result": "selected; strongest readable urban/trap treatment"
+    },
+    {
+      "family": "Anton",
+      "requested_weight": "Regular",
+      "resolved_file": "/home/User/.local/share/fonts/Anton-Regular.ttf",
+      "resolved_fc_family": "Anton",
+      "size_px": 92,
+      "result": "tested; heavier but less balanced on long lines"
+    },
+    {
+      "family": "Archivo",
+      "requested_weight": "Black",
+      "resolved_file": "/home/User/.local/share/fonts/Archivo[wdth,wght].ttf",
+      "resolved_fc_family": "Archivo",
+      "size_px": 90,
+      "result": "tested as variable family; exact Black query fell back"
+    },
+    {
+      "family": "Montserrat",
+      "requested_weight": "Semibold baseline",
+      "resolved_file": "/home/User/.local/share/fonts/Montserrat[wght].ttf",
+      "resolved_fc_family": "Montserrat",
+      "size_px": 84,
+      "result": "baseline retained for comparison"
+    }
+  ],
+  "selected_main_font": "Barlow Condensed Black",
+  "center_position": "\\an5\\pos(960,540)"
+}
