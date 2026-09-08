@@ -1,0 +1,72 @@
+{
+  "song_id": "chokehold",
+  "video": "output/chokehold/chokehold.mp4",
+  "timing": "output/chokehold/timing.json",
+  "subtitle_paths": {
+    "ass": "output/chokehold/chokehold.ass",
+    "srt": "output/chokehold/chokehold.srt",
+    "vtt": "output/chokehold/chokehold.vtt"
+  },
+  "duration_seconds": 130.032,
+  "video_duration_seconds": 130.005,
+  "estimated_line_count": 31,
+  "line_count": 31,
+  "render_runtime_seconds": 59.286,
+  "media": {
+    "resolution": "1920x1080",
+    "fps": "30/1",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true
+  },
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "31 low-confidence lines"
+    ],
+    "line_count": 31,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_002_line_001",
+      "section_002_line_002",
+      "section_003_line_001",
+      "section_003_line_002",
+      "section_003_line_003",
+      "section_003_line_004",
+      "section_003_line_005",
+      "section_003_line_006",
+      "section_003_line_007",
+      "section_003_line_008",
+      "section_004_line_001",
+      "section_004_line_002",
+      "section_004_line_003",
+      "section_004_line_004",
+      "section_004_line_005",
+      "section_004_line_006",
+      "section_004_line_007",
+      "section_004_line_008",
+      "section_005_line_001",
+      "section_005_line_002",
+      "section_005_line_003",
+      "section_005_line_004",
+      "section_005_line_005",
+      "section_005_line_006",
+      "section_005_line_007",
+      "section_005_line_008",
+      "section_006_line_001",
+      "section_006_line_002",
+      "section_006_line_003",
+      "section_006_line_004"
+    ],
+    "authoritative_sha256": "0f6f3226360fb2fc2956730182f8340df3d3b58b82419650accde110fd17445e"
+  },
+  "qc": {
+    "video_exists": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_matches_timing": true,
+    "ffprobe_success": true,
+    "valid": true
+  }
+}

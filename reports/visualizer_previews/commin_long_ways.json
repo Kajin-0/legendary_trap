@@ -1,0 +1,26 @@
+{
+  "song_id": "commin_long_ways",
+  "source_duration_seconds": 25,
+  "lyric_events": 56,
+  "estimated_timing_events": 56,
+  "preview_start_seconds": 45,
+  "preview_end_seconds": 70,
+  "preview_duration_seconds": 25.0,
+  "render_runtime_seconds": 10.889,
+  "output_path": "output/previews/commin_long_ways.mp4",
+  "subtitle_paths": {
+    "ass": "/home/User/legendary_trap/output/previews/commin_long_ways.ass",
+    "srt": "/home/User/legendary_trap/output/previews/commin_long_ways.srt",
+    "vtt": "/home/User/legendary_trap/output/previews/commin_long_ways.vtt"
+  },
+  "qc_frame_path": "work/focus/render_qc/preview_commin_long_ways.png",
+  "qc": {
+    "authoritative_text_exact": true,
+    "ranges_valid": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_25_seconds": true,
+    "ffmpeg_success": true,
+    "valid": true
+  }
+}

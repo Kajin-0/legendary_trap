@@ -1,0 +1,26 @@
+{
+  "song_id": "off_the_wave",
+  "source_duration_seconds": 25,
+  "lyric_events": 64,
+  "estimated_timing_events": 64,
+  "preview_start_seconds": 45,
+  "preview_end_seconds": 70,
+  "preview_duration_seconds": 25.0,
+  "render_runtime_seconds": 10.841,
+  "output_path": "output/previews/off_the_wave.mp4",
+  "subtitle_paths": {
+    "ass": "/home/User/legendary_trap/output/previews/off_the_wave.ass",
+    "srt": "/home/User/legendary_trap/output/previews/off_the_wave.srt",
+    "vtt": "/home/User/legendary_trap/output/previews/off_the_wave.vtt"
+  },
+  "qc_frame_path": "work/focus/render_qc/preview_off_the_wave.png",
+  "qc": {
+    "authoritative_text_exact": true,
+    "ranges_valid": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_25_seconds": true,
+    "ffmpeg_success": true,
+    "valid": true
+  }
+}

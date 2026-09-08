@@ -5,9 +5,16 @@ import argparse
 import json
 import subprocess
 import time
+from copy import deepcopy
 from pathlib import Path
 
-from .lyric_timing import DEFAULT_ESTIMATED_LINES, complete_estimated_lines, estimated_line_ids
+from .lyric_timing import (
+    DEFAULT_ESTIMATED_LINES,
+    build_estimated_document,
+    complete_estimated_lines,
+    estimated_line_ids,
+)
+from .lyrics import parse_lyrics
 from .subtitle_render import write_subtitles
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -28,13 +35,22 @@ def build_filter(ass_path: Path, title: str) -> str:
     )
 
 
-def render(song_id: str, timeout_seconds: int = 900) -> dict:
+def render(song_id: str, timeout_seconds: int = 900, preview_start: float | None = None,
+           preview_duration: float | None = None) -> dict:
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
     song = next(item for item in manifest["songs"] if item["id"] == song_id)
     source = ROOT / "source" / song["audio_source"]
     reference = ROOT / "output" / song_id / "timing.json"
-    output_dir = ROOT / "output" / song_id
-    document = json.loads(reference.read_text(encoding="utf-8"))
+    output_dir = ROOT / "output" / song_id if preview_start is None else ROOT / "output" / "previews"
+    if reference.exists():
+        document = json.loads(reference.read_text(encoding="utf-8"))
+    else:
+        parsed = parse_lyrics(ROOT / song["lyrics_path"], song_id)
+        duration_probe = subprocess.run([str(ROOT / "tools/ffmpeg-7.0.2-amd64-static/ffprobe"), "-v", "error",
+                                         "-show_entries", "format=duration", "-of", "csv=p=0", str(source)],
+                                        check=True, capture_output=True, text=True, timeout=30)
+        document = build_estimated_document(parsed, float(duration_probe.stdout.strip()), song_id,
+                                            str(source.relative_to(ROOT)))
     # The high-capacity FOCUS experiment is the best existing evidence. Merge
     # only its accepted rows; authoritative text and all other rows remain in
     # the canonical reference document.
@@ -61,11 +77,32 @@ def render(song_id: str, timeout_seconds: int = 900) -> dict:
     all_invalid = {line["line_id"] for section in document["sections"] for line in section["lines"]
                    if float(line.get("end", 0.0)) <= float(line.get("start", 0.0))}
     document = complete_estimated_lines(document, duration, DEFAULT_ESTIMATED_LINES | all_invalid)
-    subtitle_paths = write_subtitles(document, output_dir, song_id)
-    timing_path = output_dir / "render_timing.json"
-    timing_path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    render_document = document
+    if preview_start is not None:
+        start = max(0.0, preview_start)
+        end = min(float(document["audio"]["duration_seconds"]), start + (preview_duration or 25.0))
+        render_document = deepcopy(document)
+        clip_duration = end - start
+        for section in render_document["sections"]:
+            for line in section["lines"]:
+                line["start"] = round(min(clip_duration, max(0.0, line["start"] - start)), 3)
+                line["end"] = round(min(clip_duration, max(0.0, line["end"] - start)), 3)
+                for word in line.get("words", []):
+                    word["start"] = round(min(clip_duration, max(0.0, word["start"] - start)), 3)
+                    word["end"] = round(min(clip_duration, max(0.0, word["end"] - start)), 3)
+        render_document["audio"]["duration_seconds"] = round(end - start, 3)
+    subtitle_paths = write_subtitles(render_document, output_dir, song_id)
+    if preview_start is None and not reference.exists():
+        timing_path = output_dir / "timing.json"
+    elif preview_start is not None:
+        timing_path = output_dir / f"{song_id}.timing.json"
+    else:
+        timing_path = output_dir / "render_timing.json"
+    timing_path.write_text(json.dumps(render_document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     video = output_dir / f"{song_id}.mp4"
-    command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-i", str(source),
+    seek = ["-ss", str(start)] if preview_start is not None else []
+    length = ["-t", str(end - start)] if preview_start is not None else []
+    command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", *seek, *length, "-i", str(source),
                "-filter_complex", build_filter(Path(subtitle_paths["ass"]), song_id),
                "-map", "[v]", "-map", "0:a:0", "-c:v", "libx264", "-preset", "veryfast",
                "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k",
@@ -75,19 +112,24 @@ def render(song_id: str, timeout_seconds: int = 900) -> dict:
     runtime = round(time.perf_counter() - started, 3)
     return {"song_id": song_id, "video": str(video.relative_to(ROOT)), "resolution": "1920x1080",
             "fps": 30, "duration_seconds": duration, "render_runtime_seconds": runtime,
-            "subtitle_line_count": sum(len(s["lines"]) for s in document["sections"]),
-            "estimated_line_ids": estimated_line_ids(document), "subtitle_paths": subtitle_paths,
+            "subtitle_line_count": sum(len(s["lines"]) for s in render_document["sections"]),
+            "estimated_line_ids": estimated_line_ids(render_document), "subtitle_paths": subtitle_paths,
             "timing_path": str(timing_path.relative_to(ROOT)), "command": command}
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Render one lyric visualizer")
-    parser.add_argument("song_id", choices=["focus"])
+    parser.add_argument("song_id", choices=["apple", "chokehold", "commin_long_ways", "focus",
+                                             "off_the_wave", "slidin", "we_got_chemistry", "you_missed_it"])
     parser.add_argument("--timeout", type=int, default=900)
+    parser.add_argument("--preview-start", type=float)
+    parser.add_argument("--preview-duration", type=float, default=25.0)
     args = parser.parse_args()
-    result = render(args.song_id, args.timeout)
+    result = render(args.song_id, args.timeout, args.preview_start, args.preview_duration)
     print(json.dumps(result, indent=2))
-    (ROOT / "output" / args.song_id / "render_diagnostics.json").write_text(json.dumps(result, indent=2) + "\n")
+    diagnostics_dir = ROOT / "output" / args.song_id if args.preview_start is None else ROOT / "output" / "previews"
+    diagnostics_dir.mkdir(parents=True, exist_ok=True)
+    (diagnostics_dir / f"{args.song_id}.render_diagnostics.json").write_text(json.dumps(result, indent=2) + "\n")
     return 0
 
 

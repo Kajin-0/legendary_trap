@@ -1,0 +1,51 @@
+{
+  "song_id": "apple",
+  "video": "output/apple/apple.mp4",
+  "timing": "output/apple/render_timing.json",
+  "subtitle_paths": {
+    "ass": "output/apple/apple.ass",
+    "srt": "output/apple/apple.srt",
+    "vtt": "output/apple/apple.vtt"
+  },
+  "duration_seconds": 169.632,
+  "video_duration_seconds": 169.6,
+  "estimated_line_count": 5,
+  "line_count": 55,
+  "render_runtime_seconds": 71.64,
+  "media": {
+    "resolution": "1920x1080",
+    "fps": "30/1",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true
+  },
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "10 low-confidence lines"
+    ],
+    "line_count": 55,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_002_line_003",
+      "section_002_line_004",
+      "section_003_line_001",
+      "section_003_line_002",
+      "section_005_line_006",
+      "section_005_line_007",
+      "section_005_line_008",
+      "section_006_line_001",
+      "section_006_line_002"
+    ],
+    "authoritative_sha256": "47ccae5cfc27863e4124d75363ff878820398a06f2a73ebd6093cd044e77c634"
+  },
+  "qc": {
+    "video_exists": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_matches_timing": true,
+    "ffprobe_success": true,
+    "valid": true
+  }
+}

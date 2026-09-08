@@ -1,0 +1,26 @@
+{
+  "song_id": "we_got_chemistry",
+  "source_duration_seconds": 25,
+  "lyric_events": 116,
+  "estimated_timing_events": 116,
+  "preview_start_seconds": 60,
+  "preview_end_seconds": 85,
+  "preview_duration_seconds": 25.0,
+  "render_runtime_seconds": 12.23,
+  "output_path": "output/previews/we_got_chemistry.mp4",
+  "subtitle_paths": {
+    "ass": "/home/User/legendary_trap/output/previews/we_got_chemistry.ass",
+    "srt": "/home/User/legendary_trap/output/previews/we_got_chemistry.srt",
+    "vtt": "/home/User/legendary_trap/output/previews/we_got_chemistry.vtt"
+  },
+  "qc_frame_path": "work/focus/render_qc/preview_we_got_chemistry.png",
+  "qc": {
+    "authoritative_text_exact": true,
+    "ranges_valid": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_25_seconds": true,
+    "ffmpeg_success": true,
+    "valid": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "song_id": "apple",
+  "source_duration_seconds": 25,
+  "lyric_events": 55,
+  "estimated_timing_events": 5,
+  "preview_start_seconds": 20,
+  "preview_end_seconds": 45,
+  "preview_duration_seconds": 25.0,
+  "render_runtime_seconds": 11.236,
+  "output_path": "output/previews/apple.mp4",
+  "subtitle_paths": {
+    "ass": "/home/User/legendary_trap/output/previews/apple.ass",
+    "srt": "/home/User/legendary_trap/output/previews/apple.srt",
+    "vtt": "/home/User/legendary_trap/output/previews/apple.vtt"
+  },
+  "qc_frame_path": "work/focus/render_qc/preview_apple.png",
+  "qc": {
+    "authoritative_text_exact": true,
+    "ranges_valid": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_25_seconds": true,
+    "ffmpeg_success": true,
+    "valid": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "song_id": "you_missed_it",
+  "source_duration_seconds": 25,
+  "lyric_events": 57,
+  "estimated_timing_events": 57,
+  "preview_start_seconds": 30,
+  "preview_end_seconds": 55,
+  "preview_duration_seconds": 25.0,
+  "render_runtime_seconds": 12.302,
+  "output_path": "output/previews/you_missed_it.mp4",
+  "subtitle_paths": {
+    "ass": "/home/User/legendary_trap/output/previews/you_missed_it.ass",
+    "srt": "/home/User/legendary_trap/output/previews/you_missed_it.srt",
+    "vtt": "/home/User/legendary_trap/output/previews/you_missed_it.vtt"
+  },
+  "qc_frame_path": "work/focus/render_qc/preview_you_missed_it.png",
+  "qc": {
+    "authoritative_text_exact": true,
+    "ranges_valid": true,
+    "resolution_1080p": true,
+    "has_audio": true,
+    "duration_25_seconds": true,
+    "ffmpeg_success": true,
+    "valid": true
+  }
+}
