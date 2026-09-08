@@ -21,9 +21,10 @@ The intended sequence is:
 7. validate coverage/order/confidence quantitatively;
 8. render ASS/SRT/VTT from canonical timing JSON.
 
-## Local-first layout
+## Single-repository layout
 
-- `input/audio/`: local source audio, ignored by Git.
+- `source/`: original tracked MP3 files used to transport audio through GitHub to the VPS. Treat these files as immutable source material.
+- `input/audio/`: normalized runtime copies, ignored by Git.
 - `input/lyrics/`: committed authoritative lyrics.
 - `work/`: generated stems, ASR data, alignment scratch data; ignored by Git.
 - `output/`: generated deliverables; ignored by Git until a deliberate policy is chosen.
@@ -31,6 +32,17 @@ The intended sequence is:
 - `scripts/`: thin command-line utilities.
 
 Avoid writing project-specific files into `/tmp`, home-directory scratch folders, or unrelated repositories unless a dependency requires it. Shared ML model caches may live outside the repo to avoid multi-gigabyte duplication.
+
+## Bootstrap
+
+After `git pull`, run:
+
+```bash
+python3 scripts/import_suno.py
+bash scripts/check_environment.sh
+```
+
+The importer must copy from the tracked source MP3s and verify authoritative lyric fingerprints. Do not invent a ZIP/archive dependency unless the repository structure is deliberately changed later.
 
 ## Runtime policy
 
@@ -57,4 +69,4 @@ Target after fine alignment: median line-start error roughly below 100-150 ms wh
 
 ## Legacy ASS files
 
-Existing ASS files from the source archive are unreliable. They may be inspected only as diagnostics. Never use them as training labels, ground truth, or authoritative timing.
+Existing ASS files from the original source set are unreliable. They may be inspected only as diagnostics. Never use them as training labels, ground truth, or authoritative timing.
