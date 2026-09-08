@@ -18,17 +18,27 @@ def load(path: Path) -> dict:
 
 def compare(base: Path, candidate: Path) -> dict:
     a,b=load(base),load(candidate)
-    keys=("token_coverage","line_coverage","unresolved_tokens","runtime_seconds")
     def timing(path: Path) -> dict:
-        p=path if path.is_file() and path.name == "timing.json" else path / "timing.json"
+        p=path if path.is_file() and path.name == "timing.json" else (path.parent if path.is_file() else path) / "timing.json"
         return json.loads(p.read_text()) if p.exists() else {"sections":[]}
     at,bt=timing(base),timing(candidate)
+    def metric(data: dict, key: str, aliases: tuple[str, ...] = ()) -> float:
+        for name in (key, *aliases):
+            if name in data: return data[name]
+        nested=data.get("diagnostics", {})
+        for name in (key, *aliases):
+            if name in nested: return nested[name]
+        return 0.0
     al={l["line_id"]:l for s in at.get("sections",[]) for l in s.get("lines",[])}
     bl={l["line_id"]:l for s in bt.get("sections",[]) for l in s.get("lines",[])}
     line_deltas=[{"line_id":k,"confidence_delta":bl[k]["confidence"]-al[k]["confidence"],
                   "start_delta":bl[k]["start"]-al[k]["start"],"end_delta":bl[k]["end"]-al[k]["end"]}
                  for k in sorted(al.keys() & bl.keys())]
-    return {"base":str(base),"candidate":str(candidate),"deltas":{k:b.get(k, b.get("diagnostics",{}).get(k,0))-a.get(k,a.get("diagnostics",{}).get(k,0)) for k in keys},
+    return {"base":str(base),"candidate":str(candidate),"deltas":{
+                "token_coverage":metric(b,"token_coverage",("token_acoustic_coverage",))-metric(a,"token_coverage",("token_acoustic_coverage",)),
+                "line_coverage":metric(b,"line_coverage",("line_acoustic_coverage",))-metric(a,"line_coverage",("line_acoustic_coverage",)),
+                "unresolved_tokens":metric(b,"unresolved_tokens")-metric(a,"unresolved_tokens"),
+                "runtime_seconds":metric(b,"runtime_seconds")-metric(a,"runtime_seconds")},
             "base_low_confidence":a.get("low_confidence_line_ids",a.get("validation",{}).get("low_confidence_line_ids",[])),
             "candidate_low_confidence":b.get("low_confidence_line_ids",b.get("validation",{}).get("low_confidence_line_ids",[])),
             "base_validation_failures":a.get("validation_failures",a.get("validation",{}).get("failures",[])),

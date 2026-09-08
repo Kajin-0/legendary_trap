@@ -1,0 +1,64 @@
+{
+  "song_id": "focus",
+  "valid": true,
+  "diagnostics": {
+    "asr_token_count": 694,
+    "authoritative_token_count": 602,
+    "token_alignment_coverage": 0.8654485049833887,
+    "unresolved_authoritative_tokens": 81,
+    "line_alignment_coverage": 0.8152173913043478,
+    "line_acoustic_coverage": 0.8152173913043478,
+    "lead_line_acoustic_coverage": 0.9146341463414634,
+    "adlib_only_line_count": 10,
+    "token_acoustic_coverage": 0.8654485049833887,
+    "audio_duration_seconds": 240.024,
+    "authoritative_section_count": 9,
+    "authoritative_line_count": 92,
+    "model": "base.en",
+    "device": "cpu",
+    "stage_runtime_seconds": 84.036,
+    "stage_runtimes_seconds": {
+      "parse": 0.0032,
+      "asr": 80.58,
+      "alignment_and_export": 3.453
+    },
+    "asr_cached": true
+  },
+  "validation": {
+    "valid": true,
+    "failures": [],
+    "warnings": [
+      "17 low-confidence lines"
+    ],
+    "line_count": 92,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_001_line_007",
+      "section_002_line_002",
+      "section_002_line_003",
+      "section_002_line_005",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_002",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_009",
+      "section_009_line_010"
+    ],
+    "authoritative_sha256": "c6b5cad5e69494e30529fff837be65d6e5058613a1da168f2efaf473468f013c"
+  },
+  "artifacts": [
+    "output/focus/diagnostics.json",
+    "output/focus/focus.ass",
+    "output/focus/focus.karaoke.ass",
+    "output/focus/focus.srt",
+    "output/focus/focus.vtt",
+    "output/focus/timing.json",
+    "output/focus/validation.json"
+  ]
+}

@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,1,2,0,2,40,40,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,(Ha…)
+Dialogue: 0,0:00:00.00,0:00:00.60,Default,,0,0,0,,{\k60}woah
+Dialogue: 0,0:00:00.60,0:00:00.87,Default,,0,0,0,,{\k28}focus
+Dialogue: 0,0:00:04.76,0:00:04.96,Default,,0,0,0,,{\k5}pain {\k5}in {\k5}my {\k20}heart
+Dialogue: 0,0:00:04.96,0:00:05.21,Default,,0,0,0,,{\k25}focus
+Dialogue: 0,0:00:05.21,0:00:05.46,Default,,0,0,0,,(Yeah)
+Dialogue: 0,0:00:06.08,0:00:06.80,Default,,0,0,0,,{\k7}focus {\k2}tears {\k7}in {\k7}my {\k1}eyes {\k7}but {\k7}i {\k7}hide {\k7}that {\k7}shit
+Dialogue: 0,0:00:06.80,0:00:07.70,Default,,0,0,0,,{\k10}whole {\k10}world {\k10}movin {\k10}on {\k10}but {\k10}i'm {\k10}stuck {\k10}with {\k10}it
+Dialogue: 0,0:00:07.70,0:00:08.60,Default,,0,0,0,,{\k11}late {\k11}nights {\k11}starin {\k11}at {\k11}the {\k11}roof {\k11}can't {\k11}quit
+Dialogue: 0,0:00:17.62,0:00:17.62,Default,,0,0,0,,{\k1}tryna {\k1}find {\k1}myself {\k1}while {\k1}i'm {\k1}losin {\k1}it
+Dialogue: 0,0:00:17.62,0:00:18.85,Default,,0,0,0,,{\k21}focus {\k21}focus {\k21}i {\k21}can't {\k21}fall {\k21}apart
+Dialogue: 0,0:00:29.98,0:00:29.98,Default,,0,0,0,,{\k1}too {\k1}much {\k1}pain {\k1}got {\k1}engraved {\k1}in {\k1}my {\k1}heart
+Dialogue: 0,0:00:29.98,0:00:31.58,Default,,0,0,0,,{\k23}everybody {\k24}sees {\k10}the {\k30}smile {\k18}that's {\k6}the {\k50}art
+Dialogue: 0,0:00:31.58,0:00:34.50,Default,,0,0,0,,{\k64}they {\k38}don't {\k20}know {\k36}all {\k8}the {\k40}battles {\k22}in {\k6}the {\k58}dark
+Dialogue: 0,0:00:34.50,0:00:37.22,Default,,0,0,0,,{\k30}i {\k22}remember {\k84}bein {\k26}young {\k8}didn't {\k26}care {\k40}bout {\k30}a {\k34}thing
+Dialogue: 0,0:00:37.22,0:00:39.74,Default,,0,0,0,,{\k36}used {\k12}to {\k24}laugh {\k30}every {\k38}day {\k12}used {\k12}to {\k22}dream {\k24}bout {\k40}everything
+Dialogue: 0,0:00:40.82,0:00:43.06,Default,,0,0,0,,{\k32}then {\k1}life {\k28}started {\k50}changin {\k64}people {\k30}started {\k52}leavin
+Dialogue: 0,0:00:43.26,0:00:46.00,Default,,0,0,0,,{\k10}had {\k8}me {\k26}starin {\k28}at {\k10}the {\k36}ceiling {\k72}every {\k34}damn {\k50}weekend
+Dialogue: 0,0:00:46.00,0:00:48.30,Default,,0,0,0,,{\k56}never {\k34}understood {\k4}why {\k33}the {\k16}good {\k42}things {\k26}fade
+Dialogue: 0,0:00:48.30,0:00:51.04,Default,,0,0,0,,{\k50}why {\k12}the {\k22}people {\k26}that {\k16}you {\k28}love {\k32}slowly {\k30}drift {\k58}away
+Dialogue: 0,0:00:51.04,0:00:53.86,Default,,0,0,0,,{\k40}got {\k56}memories {\k40}trapped {\k28}in {\k8}the {\k28}back {\k20}of {\k22}my {\k40}brain
+Dialogue: 0,0:00:53.86,0:00:56.74,Default,,0,0,0,,{\k32}every {\k34}song {\k10}every {\k36}picture {\k32}bringin {\k38}back {\k30}the {\k48}pain
+Dialogue: 0,0:00:56.74,0:00:59.26,Default,,0,0,0,,{\k28}i {\k8}was {\k26}givin {\k38}out {\k32}trust {\k38}like {\k25}it {\k25}grew {\k20}on {\k24}trees
+Dialogue: 0,0:00:59.26,0:01:02.10,Default,,0,0,0,,{\k80}till {\k12}i {\k26}learned {\k41}not {\k44}everybody {\k62}keeps {\k42}receipts
+Dialogue: 0,0:01:02.10,0:01:05.18,Default,,0,0,0,,{\k66}now {\k38}i {\k74}overthink {\k38}every {\k34}text {\k22}i {\k36}read
+Dialogue: 0,0:01:05.18,0:01:07.78,Default,,0,0,0,,{\k26}and {\k68}every {\k36}goodbye {\k54}feels {\k34}like {\k18}a {\k24}defeat
+Dialogue: 0,0:01:08.58,0:01:10.82,Default,,0,0,0,,{\k14}had {\k20}nights {\k22}where {\k18}my {\k30}chest {\k38}felt {\k34}heavy {\k24}as {\k24}hell
+Dialogue: 0,0:01:10.82,0:01:13.70,Default,,0,0,0,,{\k34}wanted {\k38}somebody {\k38}to {\k34}ask {\k42}if {\k20}i {\k12}was {\k26}doin {\k44}well
+Dialogue: 0,0:01:14.26,0:01:16.70,Default,,0,0,0,,{\k27}kept {\k27}sayin {\k46}i'm {\k34}fine {\k52}while {\k14}i {\k27}fought {\k18}by {\k58}myself
+Dialogue: 0,0:01:16.70,0:01:19.70,Default,,0,0,0,,{\k27}put {\k34}my {\k36}feelings {\k24}on {\k27}a {\k32}shelf {\k36}now {\k27}they're {\k28}screamin {\k32}for {\k58}help
+Dialogue: 0,0:01:19.70,0:01:19.70,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:01:19.70,0:01:22.82,Default,,0,0,0,,{\k60}and {\k14}i {\k16}still {\k24}hear {\k54}voices {\k54}from {\k30}the {\k60}past
+Dialogue: 0,0:01:22.82,0:01:25.78,Default,,0,0,0,,{\k56}tellin {\k32}me {\k38}nothin {\k46}good {\k52}ever {\k72}lasts
+Dialogue: 0,0:01:25.78,0:01:28.54,Default,,0,0,0,,{\k26}but {\k22}i {\k39}keep {\k20}runnin {\k30}keep {\k40}movin {\k78}fast
+Dialogue: 0,0:01:28.54,0:01:31.88,Default,,0,0,0,,{\k66}prayin {\k58}someday {\k26}i {\k46}escape {\k46}that {\k92}path
+Dialogue: 0,0:01:33.10,0:01:35.68,Default,,0,0,0,,{\k54}focus {\k10}tears {\k14}in {\k8}my {\k18}eyes {\k12}but {\k14}i {\k30}hide {\k16}that {\k28}shit
+Dialogue: 0,0:01:35.68,0:01:37.88,Default,,0,0,0,,{\k28}whole {\k44}world {\k36}movin {\k18}on {\k20}but {\k10}i'm {\k16}stuck {\k26}with {\k22}it
+Dialogue: 0,0:01:37.88,0:01:41.46,Default,,0,0,0,,{\k20}late {\k98}nights {\k28}starin {\k24}at {\k12}the {\k28}roof {\k30}can't {\k34}quit
+Dialogue: 0,0:01:41.46,0:01:43.68,Default,,0,0,0,,{\k24}tryna {\k34}find {\k44}myself {\k26}while {\k18}i'm {\k34}losin {\k30}it
+Dialogue: 0,0:01:44.58,0:01:46.84,Default,,0,0,0,,{\k54}focus {\k8}focus {\k22}i {\k24}can't {\k54}fall {\k34}apart
+Dialogue: 0,0:01:46.84,0:01:50.06,Default,,0,0,0,,{\k46}too {\k24}much {\k38}pain {\k28}got {\k16}engraved {\k60}in {\k34}my {\k28}heart
+Dialogue: 0,0:01:50.06,0:01:52.34,Default,,0,0,0,,{\k74}everybody {\k24}sees {\k14}the {\k26}smile {\k40}that's {\k8}the {\k42}art
+Dialogue: 0,0:01:52.34,0:01:55.24,Default,,0,0,0,,{\k32}they {\k110}don't {\k24}know {\k30}all {\k10}the {\k34}battles {\k28}in {\k10}the {\k44}dark
+Dialogue: 0,0:01:55.24,0:01:58.00,Default,,0,0,0,,{\k52}sometimes {\k28}i {\k18}miss {\k42}people {\k28}i {\k66}shouldn't {\k30}miss
+Dialogue: 0,0:01:58.00,0:02:01.00,Default,,0,0,0,,{\k38}sometimes {\k48}i {\k16}reread {\k36}messages {\k16}it {\k40}is {\k14}what {\k18}it {\k36}is
+Dialogue: 0,0:02:01.00,0:02:04.06,Default,,0,0,0,,{\k32}thinkin {\k6}maybe {\k36}if {\k16}i {\k22}changed {\k2}it'd {\k14}be {\k78}different
+Dialogue: 0,0:02:04.06,0:02:06.14,Default,,0,0,0,,{\k36}maybe {\k36}they'd {\k18}still {\k20}be {\k22}here {\k20}if {\k12}i {\k44}listened
+Dialogue: 0,0:02:06.14,0:02:08.46,Default,,0,0,0,,{\k80}but {\k18}regret {\k54}got {\k6}a {\k20}way {\k8}of {\k16}makin {\k30}chains
+Dialogue: 0,0:02:08.50,0:02:09.96,Default,,0,0,0,,{\k40}every {\k28}memory {\k28}attached {\k20}to {\k2}a {\k28}name
+Dialogue: 0,0:02:09.96,0:02:11.74,Default,,0,0,0,,{\k32}and {\k14}every {\k26}lesson {\k28}came {\k26}attached {\k24}to {\k28}pain
+Dialogue: 0,0:02:11.74,0:02:15.52,Default,,0,0,0,,{\k42}guess {\k10}that's {\k16}how {\k20}you {\k34}grow {\k68}even {\k32}if {\k14}it {\k28}drives {\k34}you {\k60}insane
+Dialogue: 0,0:02:17.20,0:02:19.58,Default,,0,0,0,,{\k54}i {\k12}got {\k24}scars {\k38}that {\k24}nobody {\k46}can {\k40}see
+Dialogue: 0,0:02:20.12,0:02:22.50,Default,,0,0,0,,{\k14}still {\k34}carryin {\k28}moments {\k24}that {\k22}live {\k48}inside {\k46}me
+Dialogue: 0,0:02:22.70,0:02:25.36,Default,,0,0,0,,{\k44}tryna {\k16}become {\k8}the {\k34}man {\k52}i {\k48}wanna {\k36}be
+Dialogue: 0,0:02:25.36,0:02:28.98,Default,,0,0,0,,{\k42}while {\k46}fightin {\k30}the {\k40}person {\k44}i {\k24}used {\k20}to {\k24}be
+Dialogue: 0,0:02:28.98,0:02:31.72,Default,,0,0,0,,{\k14}and {\k20}i {\k12}know {\k28}one {\k34}day {\k36}all {\k14}this {\k28}hurt {\k42}gon {\k46}fade
+Dialogue: 0,0:02:31.72,0:02:34.18,Default,,0,0,0,,{\k48}maybe {\k34}not {\k16}tomorrow {\k30}maybe {\k46}not {\k42}today
+Dialogue: 0,0:02:34.58,0:02:37.52,Default,,0,0,0,,{\k30}but {\k18}if {\k16}i {\k20}keep {\k46}pushin {\k26}keep {\k68}makin {\k26}my {\k44}way
+Dialogue: 0,0:02:37.52,0:02:41.06,Default,,0,0,0,,{\k48}maybe {\k30}all {\k20}these {\k34}rainy {\k22}nights {\k30}lead {\k39}to {\k24}better {\k126}days
+Dialogue: 0,0:02:41.06,0:02:41.31,Default,,0,0,0,,(Woah…)
+Dialogue: 0,0:02:41.80,0:02:44.06,Default,,0,0,0,,{\k46}why {\k20}does {\k32}everybody {\k58}leave {\k36}when {\k14}i {\k20}care {\k25}the {\k25}most
+Dialogue: 0,0:02:44.76,0:02:47.34,Default,,0,0,0,,{\k40}why {\k16}do {\k26}memories {\k66}hit {\k38}when {\k42}i'm {\k30}alone
+Dialogue: 0,0:02:47.90,0:02:50.32,Default,,0,0,0,,{\k10}tried {\k14}to {\k24}lock {\k32}away {\k20}the {\k30}pain {\k24}but {\k18}it {\k28}won't {\k12}let {\k30}go
+Dialogue: 0,0:02:50.78,0:02:53.28,Default,,0,0,0,,{\k46}now {\k25}i'm {\k30}fightin {\k14}every {\k36}shadow {\k30}that {\k20}i {\k16}used {\k16}to {\k42}know
+Dialogue: 0,0:02:53.28,0:02:53.53,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:02:54.22,0:02:56.02,Default,,0,0,0,,{\k22}i {\k8}been {\k20}losin {\k42}sleep {\k22}i {\k14}been {\k24}losin {\k38}hope
+Dialogue: 0,0:02:56.02,0:02:59.04,Default,,0,0,0,,{\k60}tryna {\k24}stay {\k16}afloat {\k40}while {\k18}i'm {\k12}barely {\k44}holdin {\k52}on
+Dialogue: 0,0:02:59.52,0:03:01.94,Default,,0,0,0,,{\k35}if {\k36}nobody {\k40}saves {\k36}me {\k35}i'll {\k34}save {\k104}myself
+Dialogue: 0,0:03:01.94,0:03:04.76,Default,,0,0,0,,{\k44}turn {\k20}these {\k22}tears {\k38}into {\k28}strength {\k34}and {\k44}carry {\k44}on
+Dialogue: 0,0:03:05.32,0:03:07.88,Default,,0,0,0,,{\k46}focus {\k18}tears {\k14}in {\k6}my {\k18}eyes {\k12}but {\k8}i {\k22}hide {\k12}that {\k32}shit
+Dialogue: 0,0:03:07.88,0:03:10.84,Default,,0,0,0,,{\k28}whole {\k18}world {\k10}movin {\k22}on {\k18}but {\k12}i'm {\k16}stuck {\k20}with {\k28}it
+Dialogue: 0,0:03:10.84,0:03:13.42,Default,,0,0,0,,{\k16}late {\k26}nights {\k28}starin {\k24}at {\k10}the {\k28}roof {\k126}can't {\k1}quit
+Dialogue: 0,0:03:13.42,0:03:16.76,Default,,0,0,0,,{\k16}tryna {\k30}find {\k38}myself {\k32}while {\k20}i'm {\k28}losin {\k124}it
+Dialogue: 0,0:03:16.76,0:03:19.34,Default,,0,0,0,,{\k40}focus {\k24}focus {\k10}i {\k20}can't {\k38}fall {\k30}apart
+Dialogue: 0,0:03:19.34,0:03:21.70,Default,,0,0,0,,{\k18}too {\k26}much {\k32}pain {\k30}got {\k20}engraved {\k48}in {\k16}my {\k46}heart
+Dialogue: 0,0:03:21.70,0:03:24.48,Default,,0,0,0,,{\k90}everybody {\k60}sees {\k40}the {\k22}smile {\k6}that's {\k8}the {\k40}art
+Dialogue: 0,0:03:24.74,0:03:27.30,Default,,0,0,0,,{\k52}they {\k32}don't {\k28}know {\k28}all {\k10}the {\k36}battles {\k24}in {\k10}the {\k36}dark
+Dialogue: 0,0:03:28.88,0:03:30.94,Default,,0,0,0,,{\k36}focus {\k14}even {\k28}when {\k12}the {\k30}world {\k32}gets {\k48}cold
+Dialogue: 0,0:03:31.38,0:03:33.44,Default,,0,0,0,,{\k22}even {\k26}when {\k14}my {\k40}story {\k70}feels {\k34}untold
+Dialogue: 0,0:03:33.44,0:03:36.66,Default,,0,0,0,,{\k102}i'm {\k28}still {\k40}here {\k18}still {\k38}chasin {\k32}what {\k22}i {\k28}know
+Dialogue: 0,0:03:36.96,0:03:39.52,Default,,0,0,0,,{\k28}through {\k6}the {\k38}pain {\k29}through {\k6}the {\k32}rain {\k14}i {\k60}won't {\k34}fold
+Dialogue: 0,0:03:39.52,0:03:40.17,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:40.17,0:03:40.82,Default,,0,0,0,,{\k65}yeah
+Dialogue: 0,0:03:43.42,0:03:44.64,Default,,0,0,0,,{\k72}keep {\k50}movin
+Dialogue: 0,0:03:44.64,0:03:45.04,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:46.26,0:03:47.52,Default,,0,0,0,,{\k30}even {\k40}when {\k8}it {\k48}hurts
+Dialogue: 0,0:03:47.52,0:03:47.96,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:48.86,0:03:50.20,Default,,0,0,0,,{\k18}one {\k45}more {\k46}step
+Dialogue: 0,0:03:50.78,0:03:53.16,Default,,0,0,0,,{\k152}one {\k79}more {\k52}day
+Dialogue: 0,0:03:53.16,0:03:56.59,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:03:56.59,0:04:00.02,Default,,0,0,0,,{\k343}focus

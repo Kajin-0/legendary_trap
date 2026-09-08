@@ -1,0 +1,1712 @@
+{
+  "song_id": "focus",
+  "selected_source": "full_song_base_en_baseline",
+  "selection_reason": "small.en bounded refinement was tested and rejected: it produced repeated focus/I ain't hallucinations and did not improve line acoustic coverage.",
+  "baseline": {
+    "report_type": "focus_baseline",
+    "commit_sha": "47f8ba9fb15783849e28a9ce5d35d72fdcde5b17",
+    "generated_at_utc": "2026-09-08T01:12:51.622749+00:00",
+    "song_id": "focus",
+    "model": "base.en",
+    "compute_type": "int8",
+    "device": "cpu",
+    "configuration": {
+      "beam_size": 3,
+      "best_of": 1,
+      "temperature": 0,
+      "vad_filter": false,
+      "word_timestamps": true,
+      "condition_on_previous_text": false,
+      "alignment": "weighted_monotonic_dp",
+      "fine_alignment": "word_timestamp_bounded_windows"
+    },
+    "audio_duration_seconds": 240.024,
+    "runtime_by_stage_seconds": {
+      "parse": 0.0032,
+      "asr": 80.58,
+      "alignment_and_export": 3.453
+    },
+    "authoritative_lines": 92,
+    "authoritative_lead_lines": 82,
+    "adlib_only_lines": 10,
+    "authoritative_tokens": 602,
+    "asr_tokens": 694,
+    "aligned_tokens": 521,
+    "token_acoustic_coverage": 0.8654485049833887,
+    "line_acoustic_coverage": 0.8152173913043478,
+    "lead_line_acoustic_coverage": 0.9146341463414634,
+    "unresolved_lines": [
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_002_line_002",
+      "section_002_line_003",
+      "section_002_line_005",
+      "section_009_line_002",
+      "section_009_line_010"
+    ],
+    "unresolved_adlib_only_lines": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_007",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_009"
+    ],
+    "unresolved_tokens": 81,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_001_line_007",
+      "section_002_line_002",
+      "section_002_line_003",
+      "section_002_line_005",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_002",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_009",
+      "section_009_line_010"
+    ],
+    "validation_valid": true,
+    "validation_failures": [],
+    "per_line": [
+      {
+        "line_id": "section_001_line_001",
+        "section_id": "section_001",
+        "original_text": "(Yeah…)",
+        "start": 0.0,
+        "end": 0.0,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_001_line_002",
+        "section_id": "section_001",
+        "original_text": "(Ha…)",
+        "start": 0.0,
+        "end": 0.0,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_001_line_003",
+        "section_id": "section_001",
+        "original_text": "Woah…",
+        "start": 0.0,
+        "end": 0.6,
+        "confidence": 0.8096,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.0482
+        },
+        "matched_tokens": 1,
+        "total_tokens": 1,
+        "acoustic_word_count": 1
+      },
+      {
+        "line_id": "section_001_line_004",
+        "section_id": "section_001",
+        "original_text": "Focus…",
+        "start": 0.6,
+        "end": 0.877,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 1,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_001_line_005",
+        "section_id": "section_001",
+        "original_text": "Pain in my heart…",
+        "start": 4.76,
+        "end": 4.96,
+        "confidence": 0.7007,
+        "confidence_components": {
+          "token_coverage": 0.25,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8158
+        },
+        "matched_tokens": 1,
+        "total_tokens": 4,
+        "acoustic_word_count": 1
+      },
+      {
+        "line_id": "section_001_line_006",
+        "section_id": "section_001",
+        "original_text": "focus…",
+        "start": 4.96,
+        "end": 5.21,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 1,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_001_line_007",
+        "section_id": "section_001",
+        "original_text": "(Yeah)",
+        "start": 5.21,
+        "end": 5.46,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_002_line_001",
+        "section_id": "section_002",
+        "original_text": "Focus, tears in my eyes but I hide that shit (hide that shit)",
+        "start": 6.08,
+        "end": 6.8,
+        "confidence": 0.6999,
+        "confidence_components": {
+          "token_coverage": 0.2,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8994
+        },
+        "matched_tokens": 2,
+        "total_tokens": 10,
+        "acoustic_word_count": 2
+      },
+      {
+        "line_id": "section_002_line_002",
+        "section_id": "section_002",
+        "original_text": "Whole world movin’ on, but I’m stuck with it (stuck with it)",
+        "start": 6.8,
+        "end": 7.702,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 9,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_002_line_003",
+        "section_id": "section_002",
+        "original_text": "Late nights starin’ at the roof, can’t quit (can’t quit)",
+        "start": 7.702,
+        "end": 8.603,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 8,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_002_line_004",
+        "section_id": "section_002",
+        "original_text": "Tryna find myself while I’m losin’ it (losin’ it)",
+        "start": 17.62,
+        "end": 17.62,
+        "confidence": 0.6897,
+        "confidence_components": {
+          "token_coverage": 0.1429,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9487
+        },
+        "matched_tokens": 1,
+        "total_tokens": 7,
+        "acoustic_word_count": 1
+      },
+      {
+        "line_id": "section_002_line_005",
+        "section_id": "section_002",
+        "original_text": "Focus, focus, I can’t fall apart (fall apart)",
+        "start": 17.62,
+        "end": 18.856,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 6,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_002_line_006",
+        "section_id": "section_002",
+        "original_text": "Too much pain got engraved in my heart (my heart)",
+        "start": 29.98,
+        "end": 29.98,
+        "confidence": 0.665,
+        "confidence_components": {
+          "token_coverage": 0.125,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8563
+        },
+        "matched_tokens": 1,
+        "total_tokens": 8,
+        "acoustic_word_count": 1
+      },
+      {
+        "line_id": "section_002_line_007",
+        "section_id": "section_002",
+        "original_text": "Everybody sees the smile, that’s the art (that’s the art)",
+        "start": 29.98,
+        "end": 31.58,
+        "confidence": 0.914,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8198
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_002_line_008",
+        "section_id": "section_002",
+        "original_text": "They don’t know all the battles in the dark (the dark)",
+        "start": 31.58,
+        "end": 34.5,
+        "confidence": 0.9694,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.847
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_001",
+        "section_id": "section_003",
+        "original_text": "I remember bein’ young, didn’t care ‘bout a thing (a thing)",
+        "start": 34.5,
+        "end": 37.22,
+        "confidence": 0.8737,
+        "confidence_components": {
+          "token_coverage": 0.7778,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7575
+        },
+        "matched_tokens": 7,
+        "total_tokens": 9,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_003_line_002",
+        "section_id": "section_003",
+        "original_text": "Used to laugh every day, used to dream ‘bout everything (everything)",
+        "start": 37.22,
+        "end": 39.74,
+        "confidence": 0.9686,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8428
+        },
+        "matched_tokens": 10,
+        "total_tokens": 10,
+        "acoustic_word_count": 10
+      },
+      {
+        "line_id": "section_003_line_003",
+        "section_id": "section_003",
+        "original_text": "Then life started changin’, people started leavin’ (leavin’)",
+        "start": 40.82,
+        "end": 43.06,
+        "confidence": 0.9405,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9523
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_003_line_004",
+        "section_id": "section_003",
+        "original_text": "Had me starin’ at the ceiling every damn weekend (weekend)",
+        "start": 43.26,
+        "end": 46.0,
+        "confidence": 0.9701,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8505
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_005",
+        "section_id": "section_003",
+        "original_text": "Never understood why the good things fade (fade)",
+        "start": 46.0,
+        "end": 48.3,
+        "confidence": 0.8986,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7432
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_003_line_006",
+        "section_id": "section_003",
+        "original_text": "Why the people that you love slowly drift away (away)",
+        "start": 48.3,
+        "end": 51.04,
+        "confidence": 0.9796,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8981
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_007",
+        "section_id": "section_003",
+        "original_text": "Got memories trapped in the back of my brain (my brain)",
+        "start": 51.04,
+        "end": 53.86,
+        "confidence": 0.9788,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8939
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_008",
+        "section_id": "section_003",
+        "original_text": "Every song, every picture bringin’ back the pain (pain)",
+        "start": 53.86,
+        "end": 56.74,
+        "confidence": 0.9851,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9257
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_003_line_009",
+        "section_id": "section_003",
+        "original_text": "I was givin’ out trust like it grew on trees (on trees)",
+        "start": 56.74,
+        "end": 59.26,
+        "confidence": 0.9088,
+        "confidence_components": {
+          "token_coverage": 0.8,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8941
+        },
+        "matched_tokens": 8,
+        "total_tokens": 10,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_003_line_010",
+        "section_id": "section_003",
+        "original_text": "Till I learned not everybody keeps receipts (nah)",
+        "start": 59.26,
+        "end": 62.1,
+        "confidence": 0.8838,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.6688
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_003_line_011",
+        "section_id": "section_003",
+        "original_text": "Now I overthink every text I read (I read)",
+        "start": 62.1,
+        "end": 65.18,
+        "confidence": 0.968,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8398
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_003_line_012",
+        "section_id": "section_003",
+        "original_text": "And every goodbye feels like a defeat (defeat)",
+        "start": 65.18,
+        "end": 67.78,
+        "confidence": 0.9786,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8932
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_003_line_013",
+        "section_id": "section_003",
+        "original_text": "Had nights where my chest felt heavy as hell (as hell)",
+        "start": 68.58,
+        "end": 70.82,
+        "confidence": 0.9278,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.6388
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_014",
+        "section_id": "section_003",
+        "original_text": "Wanted somebody to ask if I was doin’ well (doin’ well)",
+        "start": 70.82,
+        "end": 73.7,
+        "confidence": 0.972,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.86
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_003_line_015",
+        "section_id": "section_003",
+        "original_text": "Kept sayin’ “I’m fine” while I fought by myself (myself)",
+        "start": 74.26,
+        "end": 76.7,
+        "confidence": 0.8246,
+        "confidence_components": {
+          "token_coverage": 0.6667,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7062
+        },
+        "matched_tokens": 6,
+        "total_tokens": 9,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_003_line_016",
+        "section_id": "section_003",
+        "original_text": "Put my feelings on a shelf, now they’re screamin’ for help",
+        "start": 76.7,
+        "end": 79.7,
+        "confidence": 0.851,
+        "confidence_components": {
+          "token_coverage": 0.7273,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7322
+        },
+        "matched_tokens": 8,
+        "total_tokens": 11,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_004_line_001",
+        "section_id": "section_004",
+        "original_text": "(Yeah…)",
+        "start": 79.7,
+        "end": 79.7,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_004_line_002",
+        "section_id": "section_004",
+        "original_text": "And I still hear voices from the past",
+        "start": 79.7,
+        "end": 82.82,
+        "confidence": 0.9862,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.931
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_004_line_003",
+        "section_id": "section_004",
+        "original_text": "Tellin’ me nothin’ good ever lasts",
+        "start": 82.82,
+        "end": 85.78,
+        "confidence": 0.9672,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8362
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_004_line_004",
+        "section_id": "section_004",
+        "original_text": "But I keep runnin’, keep movin’ fast",
+        "start": 85.78,
+        "end": 88.54,
+        "confidence": 0.9474,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9872
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_004_line_005",
+        "section_id": "section_004",
+        "original_text": "Prayin’ someday I escape that path",
+        "start": 88.54,
+        "end": 91.88,
+        "confidence": 0.9347,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.6736
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_005_line_001",
+        "section_id": "section_005",
+        "original_text": "Focus, tears in my eyes but I hide that shit (hide that shit)",
+        "start": 93.1,
+        "end": 95.68,
+        "confidence": 0.9555,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7775
+        },
+        "matched_tokens": 10,
+        "total_tokens": 10,
+        "acoustic_word_count": 10
+      },
+      {
+        "line_id": "section_005_line_002",
+        "section_id": "section_005",
+        "original_text": "Whole world movin’ on, but I’m stuck with it (stuck with it)",
+        "start": 95.68,
+        "end": 97.88,
+        "confidence": 0.9678,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8388
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_005_line_003",
+        "section_id": "section_005",
+        "original_text": "Late nights starin’ at the roof, can’t quit (can’t quit)",
+        "start": 97.88,
+        "end": 101.46,
+        "confidence": 0.9816,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9079
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_005_line_004",
+        "section_id": "section_005",
+        "original_text": "Tryna find myself while I’m losin’ it (losin’ it)",
+        "start": 101.46,
+        "end": 103.68,
+        "confidence": 0.9914,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9571
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_005_line_005",
+        "section_id": "section_005",
+        "original_text": "Focus, focus, I can’t fall apart (fall apart)",
+        "start": 104.58,
+        "end": 106.84,
+        "confidence": 0.9569,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7845
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_005_line_006",
+        "section_id": "section_005",
+        "original_text": "Too much pain got engraved in my heart (my heart)",
+        "start": 106.84,
+        "end": 110.06,
+        "confidence": 0.9677,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8383
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_005_line_007",
+        "section_id": "section_005",
+        "original_text": "Everybody sees the smile, that’s the art (that’s the art)",
+        "start": 110.06,
+        "end": 112.34,
+        "confidence": 0.9719,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8593
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_005_line_008",
+        "section_id": "section_005",
+        "original_text": "They don’t know all the battles in the dark (the dark)",
+        "start": 112.34,
+        "end": 115.24,
+        "confidence": 0.9533,
+        "confidence_components": {
+          "token_coverage": 0.8889,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9608
+        },
+        "matched_tokens": 8,
+        "total_tokens": 9,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_006_line_001",
+        "section_id": "section_006",
+        "original_text": "Sometimes I miss people I shouldn’t miss (shouldn’t miss)",
+        "start": 115.24,
+        "end": 118.0,
+        "confidence": 0.9733,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8665
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_006_line_002",
+        "section_id": "section_006",
+        "original_text": "Sometimes I reread messages, it is what it is (what it is)",
+        "start": 118.0,
+        "end": 121.0,
+        "confidence": 0.9683,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8414
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_006_line_003",
+        "section_id": "section_006",
+        "original_text": "Thinkin’ maybe if I changed, it’d be different (different)",
+        "start": 121.0,
+        "end": 124.06,
+        "confidence": 0.972,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8598
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_006_line_004",
+        "section_id": "section_006",
+        "original_text": "Maybe they’d still be here if I listened (listened)",
+        "start": 124.06,
+        "end": 126.14,
+        "confidence": 0.9902,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9508
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_006_line_005",
+        "section_id": "section_006",
+        "original_text": "But regret got a way of makin’ chains (chains)",
+        "start": 126.14,
+        "end": 128.46,
+        "confidence": 0.9623,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8114
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_006_line_006",
+        "section_id": "section_006",
+        "original_text": "Every memory attached to a name (a name)",
+        "start": 128.5,
+        "end": 129.96,
+        "confidence": 0.9633,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8163
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_006_line_007",
+        "section_id": "section_006",
+        "original_text": "And every lesson came attached to pain (to pain)",
+        "start": 129.96,
+        "end": 131.74,
+        "confidence": 0.9781,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8905
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_006_line_008",
+        "section_id": "section_006",
+        "original_text": "Guess that’s how you grow, even if it drives you insane (insane)",
+        "start": 131.74,
+        "end": 135.52,
+        "confidence": 0.9802,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.901
+        },
+        "matched_tokens": 11,
+        "total_tokens": 11,
+        "acoustic_word_count": 11
+      },
+      {
+        "line_id": "section_006_line_009",
+        "section_id": "section_006",
+        "original_text": "I got scars that nobody can see (can see)",
+        "start": 137.2,
+        "end": 139.58,
+        "confidence": 0.9822,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.911
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_006_line_010",
+        "section_id": "section_006",
+        "original_text": "Still carryin’ moments that live inside me (inside me)",
+        "start": 140.12,
+        "end": 142.5,
+        "confidence": 0.978,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8901
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_006_line_011",
+        "section_id": "section_006",
+        "original_text": "Tryna become the man I wanna be (wanna be)",
+        "start": 142.7,
+        "end": 145.36,
+        "confidence": 0.945,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.725
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_006_line_012",
+        "section_id": "section_006",
+        "original_text": "While fightin’ the person I used to be (used to be)",
+        "start": 145.36,
+        "end": 148.98,
+        "confidence": 0.9423,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7113
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_006_line_013",
+        "section_id": "section_006",
+        "original_text": "And I know one day all this hurt gon’ fade (gon’ fade)",
+        "start": 148.98,
+        "end": 151.72,
+        "confidence": 0.9368,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.6838
+        },
+        "matched_tokens": 10,
+        "total_tokens": 10,
+        "acoustic_word_count": 10
+      },
+      {
+        "line_id": "section_006_line_014",
+        "section_id": "section_006",
+        "original_text": "Maybe not tomorrow, maybe not today (not today)",
+        "start": 151.72,
+        "end": 154.18,
+        "confidence": 0.9712,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8562
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_006_line_015",
+        "section_id": "section_006",
+        "original_text": "But if I keep pushin’, keep makin’ my way (my way)",
+        "start": 154.58,
+        "end": 157.52,
+        "confidence": 0.9878,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9388
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_006_line_016",
+        "section_id": "section_006",
+        "original_text": "Maybe all these rainy nights lead to better days",
+        "start": 157.52,
+        "end": 161.06,
+        "confidence": 0.9137,
+        "confidence_components": {
+          "token_coverage": 0.8889,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7627
+        },
+        "matched_tokens": 8,
+        "total_tokens": 9,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_007_line_001",
+        "section_id": "section_007",
+        "original_text": "(Woah…)",
+        "start": 161.06,
+        "end": 161.31,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_007_line_002",
+        "section_id": "section_007",
+        "original_text": "Why does everybody leave when I care the most? (care the most)",
+        "start": 161.8,
+        "end": 164.06,
+        "confidence": 0.8696,
+        "confidence_components": {
+          "token_coverage": 0.7778,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7371
+        },
+        "matched_tokens": 7,
+        "total_tokens": 9,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_007_line_003",
+        "section_id": "section_007",
+        "original_text": "Why do memories hit when I’m alone? (alone)",
+        "start": 164.76,
+        "end": 167.34,
+        "confidence": 0.9684,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8422
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_007_line_004",
+        "section_id": "section_007",
+        "original_text": "Tried to lock away the pain but it won’t let go (won’t let go)",
+        "start": 167.9,
+        "end": 170.32,
+        "confidence": 0.964,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8198
+        },
+        "matched_tokens": 11,
+        "total_tokens": 11,
+        "acoustic_word_count": 11
+      },
+      {
+        "line_id": "section_007_line_005",
+        "section_id": "section_007",
+        "original_text": "Now I’m fightin’ every shadow that I used to know (used to know)",
+        "start": 170.78,
+        "end": 173.28,
+        "confidence": 0.9251,
+        "confidence_components": {
+          "token_coverage": 0.9,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8003
+        },
+        "matched_tokens": 9,
+        "total_tokens": 10,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_007_line_006",
+        "section_id": "section_007",
+        "original_text": "(Yeah…)",
+        "start": 173.28,
+        "end": 173.53,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_007_line_007",
+        "section_id": "section_007",
+        "original_text": "I been losin’ sleep, I been losin’ hope (losin’ hope)",
+        "start": 174.22,
+        "end": 176.02,
+        "confidence": 0.9044,
+        "confidence_components": {
+          "token_coverage": 0.75,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9596
+        },
+        "matched_tokens": 6,
+        "total_tokens": 8,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_007_line_008",
+        "section_id": "section_007",
+        "original_text": "Tryna stay afloat while I’m barely holdin’ on (holdin’ on)",
+        "start": 176.02,
+        "end": 179.04,
+        "confidence": 0.9471,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7353
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_007_line_009",
+        "section_id": "section_007",
+        "original_text": "If nobody saves me, I’ll save myself (myself)",
+        "start": 179.52,
+        "end": 181.94,
+        "confidence": 0.8437,
+        "confidence_components": {
+          "token_coverage": 0.5714,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9684
+        },
+        "matched_tokens": 4,
+        "total_tokens": 7,
+        "acoustic_word_count": 4
+      },
+      {
+        "line_id": "section_007_line_010",
+        "section_id": "section_007",
+        "original_text": "Turn these tears into strength and carry on",
+        "start": 181.94,
+        "end": 184.76,
+        "confidence": 0.9861,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9305
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_008_line_001",
+        "section_id": "section_008",
+        "original_text": "Focus, tears in my eyes but I hide that shit (hide that shit)",
+        "start": 185.32,
+        "end": 187.88,
+        "confidence": 0.9694,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8471
+        },
+        "matched_tokens": 10,
+        "total_tokens": 10,
+        "acoustic_word_count": 10
+      },
+      {
+        "line_id": "section_008_line_002",
+        "section_id": "section_008",
+        "original_text": "Whole world movin’ on, but I’m stuck with it (stuck with it)",
+        "start": 187.88,
+        "end": 190.84,
+        "confidence": 0.9525,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7626
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_008_line_003",
+        "section_id": "section_008",
+        "original_text": "Late nights starin’ at the roof, can’t quit (can’t quit)",
+        "start": 190.84,
+        "end": 193.42,
+        "confidence": 0.9802,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9008
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_008_line_004",
+        "section_id": "section_008",
+        "original_text": "Tryna find myself while I’m losin’ it (losin’ it)",
+        "start": 193.42,
+        "end": 196.76,
+        "confidence": 0.9868,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9339
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_008_line_005",
+        "section_id": "section_008",
+        "original_text": "Focus, focus, I can’t fall apart (fall apart)",
+        "start": 196.76,
+        "end": 199.34,
+        "confidence": 0.9434,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7172
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_008_line_006",
+        "section_id": "section_008",
+        "original_text": "Too much pain got engraved in my heart (my heart)",
+        "start": 199.34,
+        "end": 201.7,
+        "confidence": 0.9803,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9014
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_008_line_007",
+        "section_id": "section_008",
+        "original_text": "Everybody sees the smile, that’s the art (that’s the art)",
+        "start": 201.7,
+        "end": 204.48,
+        "confidence": 0.8911,
+        "confidence_components": {
+          "token_coverage": 0.8571,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.7057
+        },
+        "matched_tokens": 6,
+        "total_tokens": 7,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_008_line_008",
+        "section_id": "section_008",
+        "original_text": "They don’t know all the battles in the dark (the dark)",
+        "start": 204.74,
+        "end": 207.3,
+        "confidence": 0.9834,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9169
+        },
+        "matched_tokens": 9,
+        "total_tokens": 9,
+        "acoustic_word_count": 9
+      },
+      {
+        "line_id": "section_008_line_009",
+        "section_id": "section_008",
+        "original_text": "Focus, even when the world gets cold (gets cold)",
+        "start": 208.88,
+        "end": 210.94,
+        "confidence": 0.9875,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9377
+        },
+        "matched_tokens": 7,
+        "total_tokens": 7,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_008_line_010",
+        "section_id": "section_008",
+        "original_text": "Even when my story feels untold (untold)",
+        "start": 211.38,
+        "end": 213.44,
+        "confidence": 0.9765,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8825
+        },
+        "matched_tokens": 6,
+        "total_tokens": 6,
+        "acoustic_word_count": 6
+      },
+      {
+        "line_id": "section_008_line_011",
+        "section_id": "section_008",
+        "original_text": "I’m still here, still chasin’ what I know (I know)",
+        "start": 213.44,
+        "end": 216.66,
+        "confidence": 0.9902,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9508
+        },
+        "matched_tokens": 8,
+        "total_tokens": 8,
+        "acoustic_word_count": 8
+      },
+      {
+        "line_id": "section_008_line_012",
+        "section_id": "section_008",
+        "original_text": "Through the pain, through the rain, I won’t fold (won’t fold)",
+        "start": 216.96,
+        "end": 219.52,
+        "confidence": 0.8876,
+        "confidence_components": {
+          "token_coverage": 0.7778,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.8271
+        },
+        "matched_tokens": 7,
+        "total_tokens": 9,
+        "acoustic_word_count": 7
+      },
+      {
+        "line_id": "section_009_line_001",
+        "section_id": "section_009",
+        "original_text": "(Focus…)",
+        "start": 219.52,
+        "end": 220.17,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_009_line_002",
+        "section_id": "section_009",
+        "original_text": "Yeah…",
+        "start": 220.17,
+        "end": 220.82,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 1,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_009_line_003",
+        "section_id": "section_009",
+        "original_text": "Keep movin’…",
+        "start": 223.42,
+        "end": 224.64,
+        "confidence": 0.9408,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.704
+        },
+        "matched_tokens": 2,
+        "total_tokens": 2,
+        "acoustic_word_count": 2
+      },
+      {
+        "line_id": "section_009_line_004",
+        "section_id": "section_009",
+        "original_text": "(Focus…)",
+        "start": 224.64,
+        "end": 225.045,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_009_line_005",
+        "section_id": "section_009",
+        "original_text": "Even when it hurts…",
+        "start": 226.26,
+        "end": 227.52,
+        "confidence": 0.9945,
+        "confidence_components": {
+          "token_coverage": 1.0,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.9726
+        },
+        "matched_tokens": 4,
+        "total_tokens": 4,
+        "acoustic_word_count": 4
+      },
+      {
+        "line_id": "section_009_line_006",
+        "section_id": "section_009",
+        "original_text": "(Focus…)",
+        "start": 227.52,
+        "end": 227.967,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_009_line_007",
+        "section_id": "section_009",
+        "original_text": "One more step…",
+        "start": 228.86,
+        "end": 230.2,
+        "confidence": 0.8181,
+        "confidence_components": {
+          "token_coverage": 0.6667,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.6736
+        },
+        "matched_tokens": 2,
+        "total_tokens": 3,
+        "acoustic_word_count": 2
+      },
+      {
+        "line_id": "section_009_line_008",
+        "section_id": "section_009",
+        "original_text": "One more day…",
+        "start": 230.78,
+        "end": 233.16,
+        "confidence": 0.8657,
+        "confidence_components": {
+          "token_coverage": 0.6667,
+          "lexical_match": 1.0,
+          "temporal_consistency": 1.0,
+          "acoustic_support": 0.912
+        },
+        "matched_tokens": 2,
+        "total_tokens": 3,
+        "acoustic_word_count": 2
+      },
+      {
+        "line_id": "section_009_line_009",
+        "section_id": "section_009",
+        "original_text": "(Yeah…)",
+        "start": 233.16,
+        "end": 236.592,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 0,
+        "acoustic_word_count": 0
+      },
+      {
+        "line_id": "section_009_line_010",
+        "section_id": "section_009",
+        "original_text": "Focus.",
+        "start": 236.592,
+        "end": 240.024,
+        "confidence": 0.12,
+        "confidence_components": {
+          "token_coverage": 0.0,
+          "lexical_match": 0.0,
+          "temporal_consistency": 0.0,
+          "acoustic_support": 0.0
+        },
+        "matched_tokens": 0,
+        "total_tokens": 1,
+        "acoustic_word_count": 0
+      }
+    ],
+    "total_runtime_seconds": 84.036
+  },
+  "refinement": {
+    "experiment": "focus_small_local_fine",
+    "song_id": "focus",
+    "valid": true,
+    "runtime_seconds": 85.706,
+    "local_asr_runtime_seconds": 79.284,
+    "token_coverage": 0.8770764119601329,
+    "line_coverage": 0.8152173913043478,
+    "unresolved_tokens": 74,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_005",
+      "section_001_line_007",
+      "section_002_line_005",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_002",
+      "section_009_line_003",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_007",
+      "section_009_line_008",
+      "section_009_line_009",
+      "section_009_line_010"
+    ],
+    "validation_failures": [],
+    "fine_alignment": {
+      "method": "bounded_rms_onset_peak",
+      "radius_seconds": 0.18,
+      "refined_line_count": 75,
+      "median_boundary_shift_seconds": -0.0660000000000025
+    }
+  },
+  "quality_tiers": {
+    "tier_a_authoritative_text": true,
+    "tier_b_line_subtitles": false,
+    "tier_c_karaoke": false
+  },
+  "remaining_unresolved_lead_lines": [
+    "section_001_line_004",
+    "section_001_line_006",
+    "section_002_line_002",
+    "section_002_line_003",
+    "section_002_line_005",
+    "section_009_line_002",
+    "section_009_line_010"
+  ],
+  "remaining_unresolved_adlib_lines": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_007",
+    "section_004_line_001",
+    "section_007_line_001",
+    "section_007_line_006",
+    "section_009_line_001",
+    "section_009_line_004",
+    "section_009_line_006",
+    "section_009_line_009"
+  ],
+  "chronology_violations": 0
+}

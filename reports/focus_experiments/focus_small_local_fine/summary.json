@@ -1,0 +1,36 @@
+{
+  "experiment": "focus_small_local_fine",
+  "song_id": "focus",
+  "valid": true,
+  "runtime_seconds": 85.706,
+  "local_asr_runtime_seconds": 79.284,
+  "token_coverage": 0.8770764119601329,
+  "line_coverage": 0.8152173913043478,
+  "unresolved_tokens": 74,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_005",
+    "section_001_line_007",
+    "section_002_line_005",
+    "section_004_line_001",
+    "section_007_line_001",
+    "section_007_line_006",
+    "section_009_line_001",
+    "section_009_line_002",
+    "section_009_line_003",
+    "section_009_line_004",
+    "section_009_line_006",
+    "section_009_line_007",
+    "section_009_line_008",
+    "section_009_line_009",
+    "section_009_line_010"
+  ],
+  "validation_failures": [],
+  "fine_alignment": {
+    "method": "bounded_rms_onset_peak",
+    "radius_seconds": 0.18,
+    "refined_line_count": 75,
+    "median_boundary_shift_seconds": -0.0660000000000025
+  }
+}

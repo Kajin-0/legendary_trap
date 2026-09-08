@@ -1,0 +1,97 @@
+{
+  "song_id": "focus",
+  "commit_sha": "47f8ba9fb15783849e28a9ce5d35d72fdcde5b17",
+  "selected_configuration": {
+    "beam_size": 3,
+    "best_of": 1,
+    "temperature": 0,
+    "vad_filter": false,
+    "word_timestamps": true,
+    "condition_on_previous_text": false,
+    "alignment": "weighted_monotonic_dp",
+    "fine_alignment": "word_timestamp_bounded_windows"
+  },
+  "metrics": {
+    "authoritative_lines": 92,
+    "authoritative_lead_lines": 82,
+    "adlib_only_lines": 10,
+    "authoritative_tokens": 602,
+    "asr_tokens": 694,
+    "aligned_tokens": 521,
+    "token_acoustic_coverage": 0.8654485049833887,
+    "line_acoustic_coverage": 0.8152173913043478,
+    "lead_line_acoustic_coverage": 0.9146341463414634,
+    "unresolved_tokens": 81,
+    "unresolved_lines": [
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_002_line_002",
+      "section_002_line_003",
+      "section_002_line_005",
+      "section_009_line_002",
+      "section_009_line_010"
+    ],
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_004",
+      "section_001_line_006",
+      "section_001_line_007",
+      "section_002_line_002",
+      "section_002_line_003",
+      "section_002_line_005",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_002",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_009",
+      "section_009_line_010"
+    ],
+    "validation_valid": true
+  },
+  "refinement_result": {
+    "experiment": "focus_small_local_fine",
+    "song_id": "focus",
+    "valid": true,
+    "runtime_seconds": 85.706,
+    "local_asr_runtime_seconds": 79.284,
+    "token_coverage": 0.8770764119601329,
+    "line_coverage": 0.8152173913043478,
+    "unresolved_tokens": 74,
+    "low_confidence_line_ids": [
+      "section_001_line_001",
+      "section_001_line_002",
+      "section_001_line_005",
+      "section_001_line_007",
+      "section_002_line_005",
+      "section_004_line_001",
+      "section_007_line_001",
+      "section_007_line_006",
+      "section_009_line_001",
+      "section_009_line_002",
+      "section_009_line_003",
+      "section_009_line_004",
+      "section_009_line_006",
+      "section_009_line_007",
+      "section_009_line_008",
+      "section_009_line_009",
+      "section_009_line_010"
+    ],
+    "validation_failures": [],
+    "fine_alignment": {
+      "method": "bounded_rms_onset_peak",
+      "radius_seconds": 0.18,
+      "refined_line_count": 75,
+      "median_boundary_shift_seconds": -0.0660000000000025
+    }
+  },
+  "quality_tiers": {
+    "tier_a_authoritative_text": true,
+    "tier_b_line_subtitles": false,
+    "tier_c_karaoke": false
+  },
+  "recommendation": "Do not scale line-subtitle processing yet; FOCUS is structurally valid but below the 98% line-acoustic target and has seven unresolved lead lines plus ad-lib-only regions."
+}

@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,1,2,0,2,40,40,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,(Ha…)
+Dialogue: 0,0:00:00.00,0:00:00.60,Default,,0,0,0,,Woah…
+Dialogue: 0,0:00:00.60,0:00:00.87,Default,,0,0,0,,Focus…
+Dialogue: 0,0:00:04.76,0:00:04.96,Default,,0,0,0,,Pain in my heart…
+Dialogue: 0,0:00:04.96,0:00:05.21,Default,,0,0,0,,focus…
+Dialogue: 0,0:00:05.21,0:00:05.46,Default,,0,0,0,,(Yeah)
+Dialogue: 0,0:00:06.08,0:00:06.80,Default,,0,0,0,,Focus, tears in my eyes but I hide that shit (hide that shit)
+Dialogue: 0,0:00:06.80,0:00:07.70,Default,,0,0,0,,Whole world movin’ on, but I’m stuck with it (stuck with it)
+Dialogue: 0,0:00:07.70,0:00:08.60,Default,,0,0,0,,Late nights starin’ at the roof, can’t quit (can’t quit)
+Dialogue: 0,0:00:17.62,0:00:17.62,Default,,0,0,0,,Tryna find myself while I’m losin’ it (losin’ it)
+Dialogue: 0,0:00:17.62,0:00:18.85,Default,,0,0,0,,Focus, focus, I can’t fall apart (fall apart)
+Dialogue: 0,0:00:29.98,0:00:29.98,Default,,0,0,0,,Too much pain got engraved in my heart (my heart)
+Dialogue: 0,0:00:29.98,0:00:31.58,Default,,0,0,0,,Everybody sees the smile, that’s the art (that’s the art)
+Dialogue: 0,0:00:31.58,0:00:34.50,Default,,0,0,0,,They don’t know all the battles in the dark (the dark)
+Dialogue: 0,0:00:34.50,0:00:37.22,Default,,0,0,0,,I remember bein’ young, didn’t care ‘bout a thing (a thing)
+Dialogue: 0,0:00:37.22,0:00:39.74,Default,,0,0,0,,Used to laugh every day, used to dream ‘bout everything (everything)
+Dialogue: 0,0:00:40.82,0:00:43.06,Default,,0,0,0,,Then life started changin’, people started leavin’ (leavin’)
+Dialogue: 0,0:00:43.26,0:00:46.00,Default,,0,0,0,,Had me starin’ at the ceiling every damn weekend (weekend)
+Dialogue: 0,0:00:46.00,0:00:48.30,Default,,0,0,0,,Never understood why the good things fade (fade)
+Dialogue: 0,0:00:48.30,0:00:51.04,Default,,0,0,0,,Why the people that you love slowly drift away (away)
+Dialogue: 0,0:00:51.04,0:00:53.86,Default,,0,0,0,,Got memories trapped in the back of my brain (my brain)
+Dialogue: 0,0:00:53.86,0:00:56.74,Default,,0,0,0,,Every song, every picture bringin’ back the pain (pain)
+Dialogue: 0,0:00:56.74,0:00:59.26,Default,,0,0,0,,I was givin’ out trust like it grew on trees (on trees)
+Dialogue: 0,0:00:59.26,0:01:02.10,Default,,0,0,0,,Till I learned not everybody keeps receipts (nah)
+Dialogue: 0,0:01:02.10,0:01:05.18,Default,,0,0,0,,Now I overthink every text I read (I read)
+Dialogue: 0,0:01:05.18,0:01:07.78,Default,,0,0,0,,And every goodbye feels like a defeat (defeat)
+Dialogue: 0,0:01:08.58,0:01:10.82,Default,,0,0,0,,Had nights where my chest felt heavy as hell (as hell)
+Dialogue: 0,0:01:10.82,0:01:13.70,Default,,0,0,0,,Wanted somebody to ask if I was doin’ well (doin’ well)
+Dialogue: 0,0:01:14.26,0:01:16.70,Default,,0,0,0,,Kept sayin’ “I’m fine” while I fought by myself (myself)
+Dialogue: 0,0:01:16.70,0:01:19.70,Default,,0,0,0,,Put my feelings on a shelf, now they’re screamin’ for help
+Dialogue: 0,0:01:19.70,0:01:19.70,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:01:19.70,0:01:22.82,Default,,0,0,0,,And I still hear voices from the past
+Dialogue: 0,0:01:22.82,0:01:25.78,Default,,0,0,0,,Tellin’ me nothin’ good ever lasts
+Dialogue: 0,0:01:25.78,0:01:28.54,Default,,0,0,0,,But I keep runnin’, keep movin’ fast
+Dialogue: 0,0:01:28.54,0:01:31.88,Default,,0,0,0,,Prayin’ someday I escape that path
+Dialogue: 0,0:01:33.10,0:01:35.68,Default,,0,0,0,,Focus, tears in my eyes but I hide that shit (hide that shit)
+Dialogue: 0,0:01:35.68,0:01:37.88,Default,,0,0,0,,Whole world movin’ on, but I’m stuck with it (stuck with it)
+Dialogue: 0,0:01:37.88,0:01:41.46,Default,,0,0,0,,Late nights starin’ at the roof, can’t quit (can’t quit)
+Dialogue: 0,0:01:41.46,0:01:43.68,Default,,0,0,0,,Tryna find myself while I’m losin’ it (losin’ it)
+Dialogue: 0,0:01:44.58,0:01:46.84,Default,,0,0,0,,Focus, focus, I can’t fall apart (fall apart)
+Dialogue: 0,0:01:46.84,0:01:50.06,Default,,0,0,0,,Too much pain got engraved in my heart (my heart)
+Dialogue: 0,0:01:50.06,0:01:52.34,Default,,0,0,0,,Everybody sees the smile, that’s the art (that’s the art)
+Dialogue: 0,0:01:52.34,0:01:55.24,Default,,0,0,0,,They don’t know all the battles in the dark (the dark)
+Dialogue: 0,0:01:55.24,0:01:58.00,Default,,0,0,0,,Sometimes I miss people I shouldn’t miss (shouldn’t miss)
+Dialogue: 0,0:01:58.00,0:02:01.00,Default,,0,0,0,,Sometimes I reread messages, it is what it is (what it is)
+Dialogue: 0,0:02:01.00,0:02:04.06,Default,,0,0,0,,Thinkin’ maybe if I changed, it’d be different (different)
+Dialogue: 0,0:02:04.06,0:02:06.14,Default,,0,0,0,,Maybe they’d still be here if I listened (listened)
+Dialogue: 0,0:02:06.14,0:02:08.46,Default,,0,0,0,,But regret got a way of makin’ chains (chains)
+Dialogue: 0,0:02:08.50,0:02:09.96,Default,,0,0,0,,Every memory attached to a name (a name)
+Dialogue: 0,0:02:09.96,0:02:11.74,Default,,0,0,0,,And every lesson came attached to pain (to pain)
+Dialogue: 0,0:02:11.74,0:02:15.52,Default,,0,0,0,,Guess that’s how you grow, even if it drives you insane (insane)
+Dialogue: 0,0:02:17.20,0:02:19.58,Default,,0,0,0,,I got scars that nobody can see (can see)
+Dialogue: 0,0:02:20.12,0:02:22.50,Default,,0,0,0,,Still carryin’ moments that live inside me (inside me)
+Dialogue: 0,0:02:22.70,0:02:25.36,Default,,0,0,0,,Tryna become the man I wanna be (wanna be)
+Dialogue: 0,0:02:25.36,0:02:28.98,Default,,0,0,0,,While fightin’ the person I used to be (used to be)
+Dialogue: 0,0:02:28.98,0:02:31.72,Default,,0,0,0,,And I know one day all this hurt gon’ fade (gon’ fade)
+Dialogue: 0,0:02:31.72,0:02:34.18,Default,,0,0,0,,Maybe not tomorrow, maybe not today (not today)
+Dialogue: 0,0:02:34.58,0:02:37.52,Default,,0,0,0,,But if I keep pushin’, keep makin’ my way (my way)
+Dialogue: 0,0:02:37.52,0:02:41.06,Default,,0,0,0,,Maybe all these rainy nights lead to better days
+Dialogue: 0,0:02:41.06,0:02:41.31,Default,,0,0,0,,(Woah…)
+Dialogue: 0,0:02:41.80,0:02:44.06,Default,,0,0,0,,Why does everybody leave when I care the most? (care the most)
+Dialogue: 0,0:02:44.76,0:02:47.34,Default,,0,0,0,,Why do memories hit when I’m alone? (alone)
+Dialogue: 0,0:02:47.90,0:02:50.32,Default,,0,0,0,,Tried to lock away the pain but it won’t let go (won’t let go)
+Dialogue: 0,0:02:50.78,0:02:53.28,Default,,0,0,0,,Now I’m fightin’ every shadow that I used to know (used to know)
+Dialogue: 0,0:02:53.28,0:02:53.53,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:02:54.22,0:02:56.02,Default,,0,0,0,,I been losin’ sleep, I been losin’ hope (losin’ hope)
+Dialogue: 0,0:02:56.02,0:02:59.04,Default,,0,0,0,,Tryna stay afloat while I’m barely holdin’ on (holdin’ on)
+Dialogue: 0,0:02:59.52,0:03:01.94,Default,,0,0,0,,If nobody saves me, I’ll save myself (myself)
+Dialogue: 0,0:03:01.94,0:03:04.76,Default,,0,0,0,,Turn these tears into strength and carry on
+Dialogue: 0,0:03:05.32,0:03:07.88,Default,,0,0,0,,Focus, tears in my eyes but I hide that shit (hide that shit)
+Dialogue: 0,0:03:07.88,0:03:10.84,Default,,0,0,0,,Whole world movin’ on, but I’m stuck with it (stuck with it)
+Dialogue: 0,0:03:10.84,0:03:13.42,Default,,0,0,0,,Late nights starin’ at the roof, can’t quit (can’t quit)
+Dialogue: 0,0:03:13.42,0:03:16.76,Default,,0,0,0,,Tryna find myself while I’m losin’ it (losin’ it)
+Dialogue: 0,0:03:16.76,0:03:19.34,Default,,0,0,0,,Focus, focus, I can’t fall apart (fall apart)
+Dialogue: 0,0:03:19.34,0:03:21.70,Default,,0,0,0,,Too much pain got engraved in my heart (my heart)
+Dialogue: 0,0:03:21.70,0:03:24.48,Default,,0,0,0,,Everybody sees the smile, that’s the art (that’s the art)
+Dialogue: 0,0:03:24.74,0:03:27.30,Default,,0,0,0,,They don’t know all the battles in the dark (the dark)
+Dialogue: 0,0:03:28.88,0:03:30.94,Default,,0,0,0,,Focus, even when the world gets cold (gets cold)
+Dialogue: 0,0:03:31.38,0:03:33.44,Default,,0,0,0,,Even when my story feels untold (untold)
+Dialogue: 0,0:03:33.44,0:03:36.66,Default,,0,0,0,,I’m still here, still chasin’ what I know (I know)
+Dialogue: 0,0:03:36.96,0:03:39.52,Default,,0,0,0,,Through the pain, through the rain, I won’t fold (won’t fold)
+Dialogue: 0,0:03:39.52,0:03:40.17,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:40.17,0:03:40.82,Default,,0,0,0,,Yeah…
+Dialogue: 0,0:03:43.42,0:03:44.64,Default,,0,0,0,,Keep movin’…
+Dialogue: 0,0:03:44.64,0:03:45.04,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:46.26,0:03:47.52,Default,,0,0,0,,Even when it hurts…
+Dialogue: 0,0:03:47.52,0:03:47.96,Default,,0,0,0,,(Focus…)
+Dialogue: 0,0:03:48.86,0:03:50.20,Default,,0,0,0,,One more step…
+Dialogue: 0,0:03:50.78,0:03:53.16,Default,,0,0,0,,One more day…
+Dialogue: 0,0:03:53.16,0:03:56.59,Default,,0,0,0,,(Yeah…)
+Dialogue: 0,0:03:56.59,0:04:00.02,Default,,0,0,0,,Focus.

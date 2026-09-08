@@ -1,0 +1,277 @@
+{
+  "threshold": 0.45,
+  "lines": [
+    {
+      "line_id": "section_001_line_001",
+      "section_id": "section_001",
+      "original_text": "(Yeah…)",
+      "start": 0.0,
+      "end": 0.0,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_001_line_002",
+      "section_id": "section_001",
+      "original_text": "(Ha…)",
+      "start": 0.0,
+      "end": 0.0,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_001_line_004",
+      "section_id": "section_001",
+      "original_text": "Focus…",
+      "start": 0.6,
+      "end": 0.877,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 1
+    },
+    {
+      "line_id": "section_001_line_006",
+      "section_id": "section_001",
+      "original_text": "focus…",
+      "start": 4.96,
+      "end": 5.21,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 1
+    },
+    {
+      "line_id": "section_001_line_007",
+      "section_id": "section_001",
+      "original_text": "(Yeah)",
+      "start": 5.21,
+      "end": 5.46,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_002_line_002",
+      "section_id": "section_002",
+      "original_text": "Whole world movin’ on, but I’m stuck with it (stuck with it)",
+      "start": 6.8,
+      "end": 7.702,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 9
+    },
+    {
+      "line_id": "section_002_line_003",
+      "section_id": "section_002",
+      "original_text": "Late nights starin’ at the roof, can’t quit (can’t quit)",
+      "start": 7.702,
+      "end": 8.603,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 8
+    },
+    {
+      "line_id": "section_002_line_005",
+      "section_id": "section_002",
+      "original_text": "Focus, focus, I can’t fall apart (fall apart)",
+      "start": 17.62,
+      "end": 18.856,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 6
+    },
+    {
+      "line_id": "section_004_line_001",
+      "section_id": "section_004",
+      "original_text": "(Yeah…)",
+      "start": 79.7,
+      "end": 79.7,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_007_line_001",
+      "section_id": "section_007",
+      "original_text": "(Woah…)",
+      "start": 161.06,
+      "end": 161.31,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_007_line_006",
+      "section_id": "section_007",
+      "original_text": "(Yeah…)",
+      "start": 173.28,
+      "end": 173.53,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_009_line_001",
+      "section_id": "section_009",
+      "original_text": "(Focus…)",
+      "start": 219.52,
+      "end": 220.17,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_009_line_002",
+      "section_id": "section_009",
+      "original_text": "Yeah…",
+      "start": 220.17,
+      "end": 220.82,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 1
+    },
+    {
+      "line_id": "section_009_line_004",
+      "section_id": "section_009",
+      "original_text": "(Focus…)",
+      "start": 224.64,
+      "end": 225.045,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_009_line_006",
+      "section_id": "section_009",
+      "original_text": "(Focus…)",
+      "start": 227.52,
+      "end": 227.967,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_009_line_009",
+      "section_id": "section_009",
+      "original_text": "(Yeah…)",
+      "start": 233.16,
+      "end": 236.592,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "line_id": "section_009_line_010",
+      "section_id": "section_009",
+      "original_text": "Focus.",
+      "start": 236.592,
+      "end": 240.024,
+      "confidence": 0.12,
+      "confidence_components": {
+        "token_coverage": 0.0,
+        "lexical_match": 0.0,
+        "temporal_consistency": 0.0,
+        "acoustic_support": 0.0
+      },
+      "matched_tokens": 0,
+      "total_tokens": 1
+    }
+  ]
+}

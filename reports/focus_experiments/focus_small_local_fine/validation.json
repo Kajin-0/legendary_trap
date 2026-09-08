@@ -1,0 +1,28 @@
+{
+  "valid": true,
+  "failures": [],
+  "warnings": [
+    "17 low-confidence lines"
+  ],
+  "line_count": 92,
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_005",
+    "section_001_line_007",
+    "section_002_line_005",
+    "section_004_line_001",
+    "section_007_line_001",
+    "section_007_line_006",
+    "section_009_line_001",
+    "section_009_line_002",
+    "section_009_line_003",
+    "section_009_line_004",
+    "section_009_line_006",
+    "section_009_line_007",
+    "section_009_line_008",
+    "section_009_line_009",
+    "section_009_line_010"
+  ],
+  "authoritative_sha256": "c6b5cad5e69494e30529fff837be65d6e5058613a1da168f2efaf473468f013c"
+}
