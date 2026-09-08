@@ -17,10 +17,11 @@ ScriptType: v4.00+
 PlayResX: {width}
 PlayResY: {height}
 ScaledBorderAndShadow: yes
+WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Lyric,Lato Semibold,58,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,2,140,140,145,1
+Style: Lyric,Montserrat,84,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,5,180,180,0,1
 Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
 
 [Events]
@@ -30,7 +31,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for line in _lines(document):
         if line["end"] <= line["start"]:
             continue
-        rows.append(f"Dialogue: 1,{_ts(line['start'], True)},{_ts(line['end'], True)},Lyric,,0,0,0,,{{\\fad(160,220)}}{_ass_text(line['original_text'])}")
+        rows.append(f"Dialogue: 1,{_ts(line['start'], True)},{_ts(line['end'], True)},Lyric,,0,0,0,,{{\\an5\\pos(960,540)\\fad(160,220)}}{_ass_text(line['original_text'])}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(header + "\n".join(rows) + "\n", encoding="utf-8")
 
