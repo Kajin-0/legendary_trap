@@ -12,7 +12,9 @@ def test_playlist_contains_the_eight_authoritative_tracks() -> None:
         "apple", "chokehold", "commin_long_ways", "focus", "off_the_wave",
         "slidin", "we_got_chemistry", "you_missed_it",
     ]
-    assert set(artists["artists"]) == {"jayc3", "opptalk", "prodbyapkimz", "thesidequest24", "vonkaikills"}
+    assert set(artists["artists"]) == {
+        "jayc3", "OppTalk", "PRODBYAPKIMZ", "TheSideQuest24", "WILLZ", "VonKai", "KarmaisMagic"
+    }
 
 
 def test_compilation_offsets_are_deterministic_and_local_timing_is_untouched() -> None:
@@ -34,13 +36,21 @@ def test_metadata_files_are_repository_local() -> None:
 
 def test_all_supplied_artist_assets_resolve() -> None:
     artists = load_catalog()[1]["artists"]
-    assert set(artists) == {"jayc3", "opptalk", "prodbyapkimz", "thesidequest24", "vonkaikills"}
-    assert all(Path(record["pfp"]).is_file() for record in artists.values())
+    assert set(artists) == {
+        "jayc3", "OppTalk", "PRODBYAPKIMZ", "TheSideQuest24", "WILLZ", "VonKai", "KarmaisMagic"
+    }
+    assert all(Path(record["pfp"]).is_file() for record in artists.values() if record["pfp"])
 
 
-def test_song_mappings_remain_explicitly_unresolved() -> None:
+def test_authoritative_song_mappings_and_display_names_are_exact() -> None:
     songs = load_catalog()[0]
-    assert all(record["artists"] == [] for record in songs["songs"].values())
+    assert {song: record["artists"][0] for song, record in songs["songs"].items()} == {
+        "apple": "KarmaisMagic", "chokehold": "OppTalk", "commin_long_ways": "PRODBYAPKIMZ",
+        "focus": "PRODBYAPKIMZ", "off_the_wave": "WILLZ", "slidin": "jayc3",
+        "we_got_chemistry": "VonKai", "you_missed_it": "TheSideQuest24",
+    }
+    assert load_catalog()[1]["artists"]["VonKai"]["display_name"] == "VonKai"
+    assert load_catalog()[1]["artists"]["TheSideQuest24"]["display_name"] == "TheSideQuest24"
 
 
 def test_artist_catalog_does_not_change_canonical_timing() -> None:

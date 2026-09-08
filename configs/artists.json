@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "artists": {
-    "jayc3": {"display_name": "jayc3", "pfp": "assets/artists/jayc3.jpeg"},
-    "opptalk": {"display_name": "opptalk", "pfp": "assets/artists/opptalk.webp"},
-    "prodbyapkimz": {"display_name": "prodbyapkimz", "pfp": "assets/artists/prodbyapkimz.webp"},
-    "thesidequest24": {"display_name": "thesidequest24", "pfp": "assets/artists/thesidequest24.webp"},
-    "vonkaikills": {"display_name": "vonkaikills", "pfp": "assets/artists/vonkaikills.jpeg"}
+    "jayc3": {"display_name": "jayc3", "pfp": "assets/artists/jayc3.jpeg", "crop": "circle"},
+    "OppTalk": {"display_name": "OppTalk", "pfp": "assets/artists/opptalk.webp", "crop": "circle"},
+    "PRODBYAPKIMZ": {"display_name": "PRODBYAPKIMZ", "pfp": "assets/artists/prodbyapkimz.webp", "crop": "circle"},
+    "TheSideQuest24": {"display_name": "TheSideQuest24", "pfp": "assets/artists/thesidequest24.webp", "crop": "square"},
+    "WILLZ": {"display_name": "WILLZ", "pfp": null, "crop": "none"},
+    "VonKai": {"display_name": "VonKai", "pfp": "assets/artists/vonkaikills.jpeg", "crop": "circle"},
+    "KarmaisMagic": {"display_name": "KarmaisMagic", "pfp": null, "crop": "none"}
   }
 }

@@ -11,13 +11,13 @@
     "you_missed_it"
   ],
   "songs": {
-    "apple": {"title": "AppLE", "artists": []},
-    "chokehold": {"title": "Chokehold", "artists": []},
-    "commin_long_ways": {"title": "COMIN LONG WAYS", "artists": []},
-    "focus": {"title": "FOCUS", "artists": []},
-    "off_the_wave": {"title": "Off the Wave", "artists": []},
-    "slidin": {"title": "slidin", "artists": []},
-    "we_got_chemistry": {"title": "we got chemistry", "artists": []},
-    "you_missed_it": {"title": "you missed it", "artists": []}
+    "apple": {"title": "AppLE", "artists": ["KarmaisMagic"]},
+    "chokehold": {"title": "Chokehold", "artists": ["OppTalk"]},
+    "commin_long_ways": {"title": "COMIN LONG WAYS", "artists": ["PRODBYAPKIMZ"]},
+    "focus": {"title": "FOCUS", "artists": ["PRODBYAPKIMZ"]},
+    "off_the_wave": {"title": "Off the Wave", "artists": ["WILLZ"]},
+    "slidin": {"title": "slidin", "artists": ["jayc3"]},
+    "we_got_chemistry": {"title": "we got chemistry", "artists": ["VonKai"]},
+    "you_missed_it": {"title": "you missed it", "artists": ["TheSideQuest24"]}
   }
 }

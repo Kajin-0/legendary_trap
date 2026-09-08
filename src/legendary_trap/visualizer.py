@@ -402,10 +402,13 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
     lockup = artist_lockup_for_song(song_id)
+    artist_offset_x = 72 + 104 * len(lockup.pfp_paths) if lockup.pfp_paths else 72
     subtitle_paths = write_subtitles(render_document, output_dir, display_title,
                                      lyric_font=lyric_font, lyric_size=lyric_size,
                                      artist_name=lockup.name,
-                                     artist_font="Super Crown" if lockup.name else lyric_font)
+                                     artist_font="Super Crown" if lockup.name else lyric_font,
+                                     artist_title=display_title,
+                                     artist_offset_x=artist_offset_x)
     features = extract_features(source, start, duration, FPS, low_max_hz=low_max_hz)
     preset = PRESETS[preset_name]
     particles = (_hybrid_particles(preset) if preset.visualizer in
@@ -420,12 +423,12 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     for pfp_index, pfp_path in enumerate(lockup.pfp_paths):
         input_args.extend(["-loop", "1", "-i", str(pfp_path)])
         next_label = f"pfp_{pfp_index}"
-        filter_parts.append(
-            f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos,format=rgba,"
-            "geq=lum='lum(X,Y)':a='if(lte((X-W/2)*(X-W/2)+(Y-H/2)*(Y-H/2),"
-            "(W/2)*(W/2)),255,0)'"
-            f"[{next_label}]"
-        )
+        crop_shape = lockup.crop_shapes[pfp_index] if pfp_index < len(lockup.crop_shapes) else "circle"
+        if crop_shape == "circle":
+            crop_filter = ",format=rgba,geq=lum='lum(X,Y)':a='if(lte((X-W/2)*(X-W/2)+(Y-H/2)*(Y-H/2),(W/2)*(W/2)),255,0)'"
+        else:
+            crop_filter = ",format=rgba"
+        filter_parts.append(f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos{crop_filter}[{next_label}]")
         output_label = f"lockup_{pfp_index}"
         x = 72 + pfp_index * 104
         filter_parts.append(f"[{current_label}][{next_label}]overlay={x}:72:format=auto[{output_label}]")

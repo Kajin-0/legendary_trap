@@ -6,7 +6,7 @@
     "thesidequest24": {"source": "source/thesidequest24.webp", "path": "assets/artists/thesidequest24.webp", "sha256": "8382203fda0b343a1c0bb4888a71c2a36244dc763706517fecfc020ed452a13d"},
     "vonkaikills": {"source": "source/vonkaikills.jpeg", "path": "assets/artists/vonkaikills.jpeg", "sha256": "33d31fcc69bf602939c43bb92a29a09a685714866753bbb90a04ce4ee89c4792"}
   },
-  "song_mapping_status": "unresolved_for_all_eight_songs",
-  "mapping_evidence_checked": ["MP3 format tags", "configs/songs.json", "song_manifest.json", "source filenames"],
-  "preview_status": "not_rendered_without_authoritative_song_artist_mapping"
+  "song_mapping_status": "authoritative_user_mapping_for_all_eight_songs",
+  "preview_status": "focus_identity_preview_rendered",
+  "display_names": ["TheSideQuest24", "OppTalk", "PRODBYAPKIMZ", "jayc3", "WILLZ", "VonKai", "KarmaisMagic"]
 }

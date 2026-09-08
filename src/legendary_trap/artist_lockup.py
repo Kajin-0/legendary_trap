@@ -15,6 +15,7 @@ class ArtistLockup:
     asset_status: str
     artist_ids: tuple[str, ...] = ()
     pfp_paths: tuple[Path, ...] = ()
+    crop_shapes: tuple[str, ...] = ()
 
 
 def artist_lockup_for_song(song_id: str) -> ArtistLockup:
@@ -34,9 +35,13 @@ def artist_lockup_for_song(song_id: str) -> ArtistLockup:
     names = tuple(record["display_name"] for record in records)
     name = " × ".join(names)
     pfp_paths = tuple(ROOT / record["pfp"] for record in records if record.get("pfp"))
-    if len(pfp_paths) != len(records) or any(not path.is_file() for path in pfp_paths):
-        return ArtistLockup(name, None, "missing_repo_local_pfp", artist_ids, pfp_paths)
-    return ArtistLockup(name, pfp_paths[0] if pfp_paths else None, "ready", artist_ids, pfp_paths)
+    crop_shapes = tuple(record.get("crop", "circle") for record in records if record.get("pfp"))
+    if any(not path.is_file() for path in pfp_paths):
+        return ArtistLockup(name, None, "missing_repo_local_pfp", artist_ids, pfp_paths, crop_shapes)
+    status = "ready_text_only" if not pfp_paths else (
+        "ready_partial_pfp" if len(pfp_paths) < len(records) else "ready"
+    )
+    return ArtistLockup(name, pfp_paths[0] if pfp_paths else None, status, artist_ids, pfp_paths, crop_shapes)
 
 
 def format_artist_names(names: tuple[str, ...] | list[str]) -> str:

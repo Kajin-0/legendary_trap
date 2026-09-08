@@ -98,9 +98,19 @@ def test_polar_bottom_arc_is_reactive_but_weaker_than_top() -> None:
 
 def test_artist_lockup_does_not_fabricate_missing_identity_or_assets() -> None:
     lockup = artist_lockup_for_song("off_the_wave")
-    assert lockup.name is None
+    assert lockup.name == "WILLZ"
     assert lockup.pfp_path is None
-    assert lockup.asset_status == "missing_authoritative_artist_metadata"
+    assert lockup.asset_status == "ready_text_only"
+
+
+def test_artist_lockup_resolves_authoritative_pfp_and_adaptive_crop() -> None:
+    focus = artist_lockup_for_song("focus")
+    artwork = artist_lockup_for_song("you_missed_it")
+    assert focus.name == "PRODBYAPKIMZ"
+    assert focus.pfp_path == Path("assets/artists/prodbyapkimz.webp").resolve()
+    assert focus.crop_shapes == ("circle",)
+    assert artwork.name == "TheSideQuest24"
+    assert artwork.crop_shapes == ("square",)
 
 
 def test_artist_lockup_supports_multiple_verified_names() -> None:
