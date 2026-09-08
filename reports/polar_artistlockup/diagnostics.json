@@ -1,0 +1,19 @@
+{
+  "low_frequency_cutoff_hz": 350,
+  "low_frequency_samples": 32,
+  "mapping": "log-spaced, bass-focused low spectrum",
+  "polar_center_working_resolution": [480.0, 329.4],
+  "polar_placement_changed": false,
+  "lower_arc_tuning": {"previous_lower_gain": 0.18, "new_lower_gain": 0.32, "upper_gain": 0.78},
+  "sampled_radii_displacement": {
+    "quiet_max": 57.561,
+    "medium_max": 146.129,
+    "hit_max": 254.379,
+    "quiet_upper_mean": 34.94,
+    "quiet_lower_mean": 5.106,
+    "hit_upper_mean": 157.987,
+    "hit_lower_mean": 29.874
+  },
+  "impact_stack": "retained from approved 350 Hz baseline",
+  "subtitle_timing_sha256": "a067ae1a3f5cb9094244084c3be0430e803a67c74e223378e3332e265d29081b"
+}

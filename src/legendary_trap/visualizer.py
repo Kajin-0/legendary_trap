@@ -11,6 +11,7 @@ from pathlib import Path
 import numpy as np
 from scipy.ndimage import rotate
 
+from .artist_lockup import artist_lockup_for_song
 from .audio_features import FeatureSequence, extract_features
 from .subtitle_render import write_subtitles
 
@@ -51,6 +52,9 @@ PRESETS = {
     "trap_polar_350hz_maximpact": Preset("trap_polar_350hz_maximpact", (8, 5, 16),
                                           (242, 128, 73), (104, 81, 202),
                                           "trap_sunset_polar_v3", 180, 360),
+    "trap_polar_350_artistlockup": Preset("trap_polar_350_artistlockup", (8, 5, 16),
+                                           (242, 128, 73), (104, 81, 202),
+                                           "trap_sunset_polar_v3", 180, 360),
 }
 
 
@@ -82,7 +86,9 @@ def polar_low_radii(low_profile: np.ndarray, bass: float, samples: int = 256,
     ear_gate = np.abs(np.sin(2 * np.pi * upper_u)) ** 0.7
     side_weight = np.abs(np.cos(angles))
     lower = np.clip(np.sin(angles), 0.0, 1.0)
-    angular_weight = 0.24 + 0.34 * side_weight + 0.78 * upper + 0.18 * lower
+    # The lower arc is visibly alive but remains subordinate to the upper
+    # 808 lobes; it uses the same low-frequency source profile.
+    angular_weight = 0.26 + 0.34 * side_weight + 0.78 * upper + 0.32 * lower
     displacement = profile * (56.0 + 180.0 * float(bass)) * (
         0.38 + 0.72 * ear_gate * upper + 0.25 * angular_weight
     )
@@ -391,8 +397,11 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     output_dir = ROOT / "output" / "aesthetic_previews"
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
+    lockup = artist_lockup_for_song(song_id)
     subtitle_paths = write_subtitles(render_document, output_dir, display_title,
-                                     lyric_font=lyric_font, lyric_size=lyric_size)
+                                     lyric_font=lyric_font, lyric_size=lyric_size,
+                                     artist_name=lockup.name,
+                                     artist_font="Super Crown" if lockup.name else lyric_font)
     features = extract_features(source, start, duration, FPS, low_max_hz=low_max_hz)
     preset = PRESETS[preset_name]
     particles = (_hybrid_particles(preset) if preset.visualizer in

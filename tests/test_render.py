@@ -25,3 +25,16 @@ def test_lyrics_use_explicit_middle_center_and_large_montserrat(tmp_path: Path) 
     assert "Style: Lyric,Montserrat,84" in value
     assert "Dialogue: 1,0:00:00.00,0:00:02.00" in value
     assert "{\\an5\\pos(960,540)\\fad(160,220)}A centered lyric" in value
+
+
+def test_artist_lockup_is_optional_and_separate_from_lyrics(tmp_path: Path) -> None:
+    document = {"sections": [{"lines": [{"start": 0.0, "end": 2.0,
+                                            "original_text": "A centered lyric"}]}]}
+    path = tmp_path / "artist.ass"
+    write_visual_ass(document, path, "off the wave", lyric_font="Barlow Condensed",
+                     lyric_size=90, artist_name="Artist Name", artist_font="Super Crown")
+    value = path.read_text(encoding="utf-8")
+    assert "Style: Artist,Super Crown,27" in value
+    assert "\\an7\\pos(72,62)" in value
+    assert "Style: Lyric,Barlow Condensed,90" in value
+    assert "{\\an5\\pos(960,540)\\fad(160,220)}A centered lyric" in value

@@ -1,0 +1,15 @@
+{
+  "song_id": "off_the_wave",
+  "segment": {"start_seconds": 20, "duration_seconds": 18},
+  "candidates": [
+    {"family": "Super Crown", "style": "Regular", "size": 92, "resolved_file": "/home/User/.local/share/fonts/SuperCrown-6Rwmv.ttf", "result": "strong personality; graffiti styling is too decorative for long lyric lines"},
+    {"family": "Barlow Condensed", "style": "Black", "size": 90, "resolved_file": "/home/User/.local/share/fonts/BarlowCondensed-Black.ttf", "result": "selected lyric font; readable and urban/editorial"},
+    {"family": "Big Shoulders Display", "style": "variable resolved family", "size": 90, "resolved_file": "/home/User/.local/share/fonts/BigShouldersDisplay[wght].ttf", "result": "bold and readable; less balanced on long lines"},
+    {"family": "Anton", "style": "Regular", "size": 90, "resolved_file": "/home/User/.local/share/fonts/Anton-Regular.ttf", "result": "strong display face; narrower visual rhythm"},
+    {"family": "Archivo", "style": "variable resolved family", "size": 86, "resolved_file": "/home/User/.local/share/fonts/Archivo[wdth,wght].ttf", "result": "clean but less distinctive"}
+  ],
+  "lyric_font": "Barlow Condensed",
+  "lyric_size": 90,
+  "artist_font_reserve": "Super Crown",
+  "center_position": "\\an5\\pos(960,540)"
+}

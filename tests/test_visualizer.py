@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 
+from legendary_trap.artist_lockup import artist_lockup_for_song
 from legendary_trap.audio_features import (
     LOW_SPECTRUM_BINS,
     LOW_SPECTRUM_MAX_HZ,
@@ -36,7 +37,8 @@ def test_presets_have_required_visual_dimensions_and_are_deterministic() -> None
                  np.array([0.1], dtype=np.float32))
     for name in ("orbital", "horizon", "atmospheric", "trap_sunset_hybrid", "trap_sunset_hybrid_v2",
                  "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
-                 "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact"):
+                 "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact",
+                 "trap_polar_350_artistlockup"):
         particles = (_hybrid_particles(PRESETS[name]) if PRESETS[name].visualizer in
                       {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                        "trap_sunset_polar_v3"}
@@ -50,7 +52,8 @@ def test_presets_have_required_visual_dimensions_and_are_deterministic() -> None
 def test_preset_names_are_explicit() -> None:
     assert set(PRESETS) == {"orbital", "horizon", "atmospheric", "trap_sunset_hybrid", "trap_sunset_hybrid_v2",
                             "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
-                            "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact"}
+                            "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact",
+                            "trap_polar_350_artistlockup"}
     assert Path("output/off_the_wave/timing.json").read_bytes() != b""
 
 
@@ -90,6 +93,13 @@ def test_polar_bottom_arc_is_reactive_but_weaker_than_top() -> None:
     bottom = np.sin(angles) > 0.04
     assert np.mean(radii[bottom] - 92.0) > 0
     assert np.mean(radii[upper] - 92.0) > np.mean(radii[bottom] - 92.0)
+
+
+def test_artist_lockup_does_not_fabricate_missing_identity_or_assets() -> None:
+    lockup = artist_lockup_for_song("off_the_wave")
+    assert lockup.name is None
+    assert lockup.pfp_path is None
+    assert lockup.asset_status == "missing_authoritative_artist_metadata"
 
 
 def test_low_cutoff_variants_are_explicit(tmp_path: Path) -> None:

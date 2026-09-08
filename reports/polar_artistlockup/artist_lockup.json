@@ -1,0 +1,8 @@
+{
+  "song_id": "off_the_wave",
+  "name": null,
+  "pfp_path": null,
+  "asset_status": "missing_authoritative_artist_metadata",
+  "policy": "do_not_fabricate_artist_identity_or_profile_assets",
+  "preview_behavior": "no_artist_lockup_rendered"
+}
