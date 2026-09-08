@@ -6,20 +6,21 @@ Local-first lyric-to-audio alignment pipeline for generated songs.
 
 The lyric `.txt` files are authoritative. ASR output is **never** allowed to replace, rewrite, or "correct" lyric text. Speech recognition is used only to estimate acoustic position; final text always comes from the authoritative lyric files.
 
-Existing `.ass` files from the source archive are intentionally excluded from the repository because their transcription/timing quality is inconsistent. They may be retained locally for diagnostics, but they are not ground truth.
+Existing `.ass` files from the original source set are intentionally excluded because their transcription/timing quality is inconsistent. They are not ground truth.
 
 ## Project layout
 
 ```text
 legendary_trap/
+├── source/             # original tracked MP3 transport copies
 ├── input/
-│   ├── audio/          # local MP3/WAV/FLAC; gitignored
+│   ├── audio/          # normalized runtime copies; gitignored
 │   └── lyrics/         # authoritative lyrics; committed
 ├── src/legendary_trap/
 ├── scripts/
 ├── work/               # stems, ASR, alignment intermediates; gitignored
 ├── output/             # generated timing/subtitle artifacts; gitignored initially
-├── song_manifest.json  # canonical song IDs and source filename mappings
+├── song_manifest.json  # canonical song IDs and filename mappings
 ├── pyproject.toml
 └── .gitignore
 ```
@@ -65,13 +66,13 @@ git clone https://github.com/Kajin-0/legendary_trap.git
 cd legendary_trap
 ```
 
-Copy `Suno.zip` into the repository root, then import it:
+The original MP3s are already tracked under `source/`. Import them into normalized runtime paths:
 
 ```bash
-python3 scripts/import_suno.py Suno.zip
+python3 scripts/import_suno.py
 ```
 
-The importer extracts and renames only the required MP3 and authoritative lyric files into the canonical `input/` layout. It does not import legacy ASS files.
+The importer verifies the authoritative lyric fingerprints and copies the 8 source MP3s into canonical filenames under `input/audio/`.
 
 Then inspect the machine before installing heavy ML dependencies:
 
@@ -79,7 +80,7 @@ Then inspect the machine before installing heavy ML dependencies:
 bash scripts/check_environment.sh
 ```
 
-This deliberately keeps model/runtime selection separate from the repository bootstrap. The correct Whisper/WhisperX/Demucs stack depends on whether the VPS has CUDA, available RAM/VRAM, and a suitable PyTorch runtime.
+This keeps model/runtime selection separate from repository bootstrap. The correct Whisper/WhisperX/Demucs stack depends on whether the VPS has CUDA, available RAM/VRAM, and a suitable PyTorch runtime.
 
 ## Song IDs
 
@@ -103,7 +104,7 @@ See `song_manifest.json` for exact source filename mappings.
 5. Treat parenthetical ad-libs/backing vocals as separately alignable content where possible.
 6. Prevent repeated chorus sections from cross-aligning to the wrong occurrence by constraining fine alignment to coarse section windows.
 7. Emit confidence/diagnostic metadata rather than hiding uncertain alignments.
-8. Keep source audio, stems, model caches, and generated work products out of normal Git history.
+8. Keep tracked source MP3s immutable; keep stems, model caches, runtime audio copies, and generated work products out of normal Git history.
 
 ## Target quality gates
 
@@ -115,4 +116,4 @@ See `song_manifest.json` for exact source filename mappings.
 - low-confidence alignments: explicitly flagged
 - target median line-start error after refinement: roughly **<100–150 ms** where acoustically resolvable
 
-The repository is intentionally small and local-first so an agent running from the repository root can inspect code, lyrics, manifests, diagnostics, and local audio without jumping between unrelated directories.
+The repository is intentionally single-directory and agent-friendly so Chipotlai/OpenCode can inspect source audio, lyrics, manifests, diagnostics, and code without jumping across unrelated locations.
