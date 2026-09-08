@@ -4,12 +4,13 @@ from __future__ import annotations
 import subprocess
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 from .artist_lockup import ArtistLockup
 
 FINAL_WIDTH, FINAL_HEIGHT = 1920, 1080
 PFP_SIZE = 128
+PFP_SUPERSAMPLE = 4
 LEFT = 56
 TOP = 56
 
@@ -30,15 +31,26 @@ def _cover_crop(path: Path, size: int) -> Image.Image:
 
 
 def _masked_pfp(path: Path, shape: str) -> Image.Image:
-    image = _cover_crop(path, PFP_SIZE)
-    mask = Image.new("L", (PFP_SIZE, PFP_SIZE), 0)
+    size = PFP_SIZE * PFP_SUPERSAMPLE
+    image = _cover_crop(path, size)
+    mask = Image.new("L", (size, size), 0)
     draw = ImageDraw.Draw(mask)
     if shape == "circle":
-        draw.ellipse((0, 0, PFP_SIZE - 1, PFP_SIZE - 1), fill=255)
+        draw.ellipse((0, 0, size - 1, size - 1), fill=255)
     else:
-        draw.rounded_rectangle((0, 0, PFP_SIZE - 1, PFP_SIZE - 1), radius=16, fill=255)
+        draw.rounded_rectangle((0, 0, size - 1, size - 1),
+                               radius=16 * PFP_SUPERSAMPLE, fill=255)
     image.putalpha(mask)
-    return image
+    return image.resize((PFP_SIZE, PFP_SIZE), Image.Resampling.LANCZOS)
+
+
+def _draw_edge(draw: ImageDraw.ImageDraw, x: int, y: int, shape: str) -> None:
+    box = (x + 1, y + 1, x + PFP_SIZE - 2, y + PFP_SIZE - 2)
+    edge = (255, 235, 213, 205)
+    if shape == "circle":
+        draw.ellipse(box, outline=edge, width=2)
+    else:
+        draw.rounded_rectangle(box, radius=15, outline=edge, width=2)
 
 
 def build_artist_overlay(lockup: ArtistLockup, title: str) -> Image.Image:
@@ -52,14 +64,11 @@ def build_artist_overlay(lockup: ArtistLockup, title: str) -> Image.Image:
         title_font = _font("Barlow Condensed", 22)
         if pfp_count:
             for index, path in enumerate(lockup.pfp_paths):
-                image = _masked_pfp(path, lockup.crop_shapes[index] if index < len(lockup.crop_shapes) else "circle")
+                shape = lockup.crop_shapes[index] if index < len(lockup.crop_shapes) else "circle"
+                image = _masked_pfp(path, shape)
                 x = LEFT + index * (PFP_SIZE + 10)
-                shadow = Image.new("RGBA", overlay.size, (0, 0, 0, 0))
-                shadow_piece = Image.new("RGBA", image.size, (0, 0, 0, 150))
-                shadow_piece.putalpha(image.getchannel("A").filter(ImageFilter.GaussianBlur(5)))
-                shadow.alpha_composite(shadow_piece, (x + 3, TOP + 4))
-                overlay = Image.alpha_composite(overlay, shadow)
                 overlay.alpha_composite(image, (x, TOP))
+                _draw_edge(ImageDraw.Draw(overlay), x, TOP, shape)
         draw = ImageDraw.Draw(overlay)
         draw.text((text_x, TOP + 15), lockup.name, font=artist_font,
                   fill=(255, 249, 240, 255), stroke_width=2, stroke_fill=(20, 26, 38, 210))

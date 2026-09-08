@@ -395,13 +395,15 @@ def _write_png(frame: np.ndarray, path: Path) -> None:
 def render_preview(song_id: str, preset_name: str, start: float, duration: float,
                    timeout_seconds: int = 600, lyric_font: str = "Montserrat",
                    lyric_size: int = 84, low_max_hz: float = 700.0,
-                   identity_enabled: bool = True) -> dict:
+                   identity_enabled: bool = True, output_path: Path | None = None) -> dict:
+    if output_path is not None:
+        output_path = output_path.resolve()
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
     song = next(item for item in manifest["songs"] if item["id"] == song_id)
     source = ROOT / "source" / song["audio_source"]
     reference = json.loads((ROOT / "output" / song_id / "timing.json").read_text(encoding="utf-8"))
     render_document = clip_render_document(reference, start, duration)
-    output_dir = ROOT / "output" / "aesthetic_previews"
+    output_dir = (output_path.parent if output_path else ROOT / "output" / "aesthetic_previews")
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
     lockup = artist_lockup_for_song(song_id) if identity_enabled else ArtistLockup(None, None, "disabled")
@@ -414,7 +416,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                  {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                   "trap_sunset_polar_v3"}
                  else _particles(preset))
-    video = output_dir / f"{preset_name}.mp4"
+    video = output_path or output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     filter_parts = ["[0:v]scale=1920:1080:flags=lanczos[base]"]
     input_args: list[str] = []
@@ -446,7 +448,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         process.kill()
         process.wait()
         raise
-    still = output_dir / f"{preset_name}.png"
+    still = video.with_suffix(".png")
     _write_png(render_frame(features, len(features.bass) // 2, preset, particles), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
