@@ -57,6 +57,24 @@ authoritative lyrics.txt
 
 The canonical product is timing JSON, not ASS. Subtitle formats are render targets generated from the same timing data.
 
+## Lyric visualizer pilot
+
+The current production deliverable is a line-level lyric visualizer. It uses
+the best existing FOCUS timing evidence and deterministically estimates only
+weak gaps from neighboring events; estimated lines are marked in
+`output/focus/render_timing.json` and never counted as direct acoustic
+evidence. Rendering is bounded and self-contained:
+
+```bash
+timeout 15m .venv/bin/python -m legendary_trap.render focus --timeout 840
+```
+
+This produces `output/focus/focus.mp4` (1920×1080, 30 fps, H.264/AAC) plus
+line-level ASS, SRT, VTT, and render diagnostics. The visual language is a
+dark, restrained background with an audio-reactive cyan waveform and readable
+centered lyrics. Width/height are parameters in the subtitle layer so a later
+vertical profile can be added without changing the timing model.
+
 ## VPS bootstrap
 
 Clone the repo into one working directory:
