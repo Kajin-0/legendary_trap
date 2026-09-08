@@ -1,0 +1,35 @@
+{
+  "you_missed_it": {
+    "first_chorus_line_6_old": [
+      29.96,
+      30.74
+    ],
+    "first_chorus_line_6_new": [
+      28.06,
+      30.74
+    ],
+    "intro_events_changed": 5,
+    "final_chorus_lines_changed": 1,
+    "outro_events_changed": 7,
+    "repeat_template_donors": [
+      "section_004",
+      "section_006"
+    ],
+    "warp_a": 10.8,
+    "warp_b": 1.0,
+    "non_target_timing_changes": 0,
+    "chronology_valid": true,
+    "promotion": true
+  },
+  "commin_long_ways": {
+    "late_lines_changed": 3,
+    "target_region": [
+      146.24,
+      162.78
+    ],
+    "first_chorus_frozen": true,
+    "non_target_timing_changes": 0,
+    "chronology_valid": true,
+    "promotion": true
+  }
+}

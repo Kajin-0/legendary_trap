@@ -1,0 +1,36 @@
+{
+  "song_id": "you_missed_it",
+  "repeat_group": "Chorus",
+  "occurrences": [
+    "section_002",
+    "section_004",
+    "section_006"
+  ],
+  "donors": [
+    "section_004",
+    "section_006"
+  ],
+  "consensus_method": "median relative line offsets",
+  "warp_a": 10.8,
+  "warp_b": 1.0,
+  "changed_lines": [
+    {
+      "line_id": "section_002_line_006",
+      "text": "Flawless, shining, bitch I'm gifted (shining!)",
+      "old_start": 29.96,
+      "old_end": 30.74,
+      "new_start": 28.06,
+      "new_end": 30.74,
+      "source": "repeat_template_edge_reconstruction",
+      "donor_occurrences": [
+        "section_004",
+        "section_006"
+      ],
+      "warp_a": 10.8,
+      "warp_b": 1.0,
+      "direct_anchor_count": 3,
+      "reason": "missing leading tokens reconstructed from chorus consensus"
+    }
+  ],
+  "non_target_timing_changes": 0
+}

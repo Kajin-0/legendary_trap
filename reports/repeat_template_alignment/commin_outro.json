@@ -1,0 +1,53 @@
+{
+  "song_id": "commin_long_ways",
+  "target_region": [
+    146.24,
+    162.78
+  ],
+  "changes": [
+    {
+      "line_id": "section_007_line_002",
+      "text": "Up, up, never down (skrrt)",
+      "old_start": 146.24,
+      "old_end": 149.9,
+      "new_start": 146.24,
+      "new_end": 149.9,
+      "source": "local_boundary_estimate",
+      "donor_occurrences": [],
+      "warp_a": null,
+      "warp_b": null,
+      "direct_anchor_count": 1,
+      "reason": "bounded late-outro boundary reconstruction"
+    },
+    {
+      "line_id": "section_007_line_003",
+      "text": "Whole gang with me, we runnin' the town",
+      "old_start": 149.9,
+      "old_end": 151.22,
+      "new_start": 149.9,
+      "new_end": 151.22,
+      "source": "local_boundary_estimate",
+      "donor_occurrences": [],
+      "warp_a": null,
+      "warp_b": null,
+      "direct_anchor_count": 1,
+      "reason": "bounded late-outro boundary reconstruction"
+    },
+    {
+      "line_id": "section_007_line_005",
+      "text": "(What? Yeah, long ways baby)",
+      "old_start": 154.4,
+      "old_end": 162.78,
+      "new_start": 154.4,
+      "new_end": 162.78,
+      "source": "local_boundary_estimate",
+      "donor_occurrences": [],
+      "warp_a": null,
+      "warp_b": null,
+      "direct_anchor_count": 1,
+      "reason": "bounded late-outro boundary reconstruction"
+    }
+  ],
+  "first_chorus_frozen": true,
+  "non_target_timing_changes": 0
+}
