@@ -1,0 +1,19 @@
+{
+  "features": [
+    "onset_strength",
+    "energy_rise",
+    "vocal_band",
+    "pyin_voicing",
+    "temporal_prior"
+  ],
+  "weights": {
+    "onset_strength": 0.35,
+    "energy_rise": 0.25,
+    "voicing": 0.2,
+    "vocal_band": 0.15,
+    "temporal_prior": 0.05
+  },
+  "audio_duration": 240.0,
+  "calibration_passed": false,
+  "target_acceptance": "disabled when calibration fails"
+}

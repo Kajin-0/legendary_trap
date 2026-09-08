@@ -1,0 +1,27 @@
+{
+  "calibration": {
+    "n": 20,
+    "median_absolute_error_seconds": 1.2150000000000034,
+    "mean_absolute_error_seconds": 1.2875000000000008,
+    "p90_absolute_error_seconds": 2.230000000000004,
+    "max_absolute_error_seconds": 5.050000000000011,
+    "within_100ms": 1,
+    "within_150ms": 1,
+    "within_250ms": 4
+  },
+  "calibration_passed": false,
+  "direct_lead_line_acoustic_coverage": 0.9512195121951219,
+  "bounded_event_recovered_lines": 0,
+  "renderable_lead_line_coverage": 0.9512195121951219,
+  "direct_token_acoustic_coverage": 0.9019933554817275,
+  "estimated_token_count": 0,
+  "unresolved_token_count": 59,
+  "target_count": 4,
+  "accepted_bounded_events": 0,
+  "chronology_violations": 0,
+  "authoritative_text_preserved": true,
+  "tier_a": true,
+  "tier_b": false,
+  "tier_c": false,
+  "decision": "reject_fallback_due_to_poor_calibration"
+}

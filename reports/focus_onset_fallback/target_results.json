@@ -1,0 +1,114 @@
+[
+  {
+    "line_id": "section_001_line_004",
+    "original_text": "Focus\u2026",
+    "window": [
+      0.6,
+      4.76
+    ],
+    "candidate": {
+      "start": 1.97,
+      "end": 2.24,
+      "score": 0.782933,
+      "confidence": 0.518582,
+      "evidence": {
+        "onset_strength": 1.0,
+        "energy_rise": 1.0,
+        "voicing": 0.0,
+        "vocal_band": 1.0,
+        "temporal_prior": 0.658654
+      },
+      "competing_score": 0.755289,
+      "window": [
+        0.6,
+        4.76
+      ]
+    },
+    "accepted": false,
+    "reason": "rejected: calibration error exceeded the acceptance gate"
+  },
+  {
+    "line_id": "section_001_line_006",
+    "original_text": "focus\u2026",
+    "window": [
+      4.96,
+      6.08
+    ],
+    "candidate": {
+      "start": 5.75,
+      "end": 6.08,
+      "score": 0.693958,
+      "confidence": 0.461094,
+      "evidence": {
+        "onset_strength": 0.845886,
+        "energy_rise": 1.0,
+        "voicing": 0.0,
+        "vocal_band": 0.789556,
+        "temporal_prior": 0.589286
+      },
+      "competing_score": 0.665326,
+      "window": [
+        4.96,
+        6.08
+      ]
+    },
+    "accepted": false,
+    "reason": "rejected: calibration error exceeded the acceptance gate"
+  },
+  {
+    "line_id": "section_009_line_002",
+    "original_text": "Yeah\u2026",
+    "window": [
+      219.52,
+      223.42
+    ],
+    "candidate": {
+      "start": 220.97,
+      "end": 222.48,
+      "score": 0.737158,
+      "confidence": 0.481358,
+      "evidence": {
+        "onset_strength": 1.0,
+        "energy_rise": 0.0,
+        "voicing": 1.0,
+        "vocal_band": 0.999856,
+        "temporal_prior": 0.74359
+      },
+      "competing_score": 0.730856,
+      "window": [
+        219.52,
+        223.42
+      ]
+    },
+    "accepted": false,
+    "reason": "rejected: calibration error exceeded the acceptance gate"
+  },
+  {
+    "line_id": "section_009_line_010",
+    "original_text": "Focus.",
+    "window": [
+      233.16,
+      240.0
+    ],
+    "candidate": {
+      "start": 238.75,
+      "end": 239.46,
+      "score": 0.621849,
+      "confidence": 0.407892,
+      "evidence": {
+        "onset_strength": 1.0,
+        "energy_rise": 0.727039,
+        "voicing": 0.0,
+        "vocal_band": 0.478764,
+        "temporal_prior": 0.365497
+      },
+      "competing_score": 0.611307,
+      "window": [
+        233.16,
+        240.0
+      ]
+    },
+    "accepted": false,
+    "reason": "rejected: calibration error exceeded the acceptance gate"
+  }
+]

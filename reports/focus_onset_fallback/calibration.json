@@ -1,0 +1,552 @@
+{
+  "n": 20,
+  "median_absolute_error_seconds": 1.2150000000000034,
+  "mean_absolute_error_seconds": 1.2875000000000008,
+  "p90_absolute_error_seconds": 2.230000000000004,
+  "max_absolute_error_seconds": 5.050000000000011,
+  "within_100ms": 1,
+  "within_150ms": 1,
+  "within_250ms": 4,
+  "rows": [
+    {
+      "line_id": "section_002_line_007",
+      "reference_start": 29.98,
+      "window": [
+        29.98,
+        31.58
+      ],
+      "prediction": {
+        "start": 30.51,
+        "end": 30.78,
+        "score": 0.756386,
+        "confidence": 0.50184,
+        "evidence": {
+          "onset_strength": 0.352174,
+          "energy_rise": 1.0,
+          "voicing": 1.0,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.6625
+        },
+        "competing_score": 0.727274,
+        "window": [
+          29.98,
+          31.58
+        ]
+      },
+      "absolute_error_seconds": 0.5300000000000011
+    },
+    {
+      "line_id": "section_003_line_003",
+      "reference_start": 40.82,
+      "window": [
+        39.74,
+        43.26
+      ],
+      "prediction": {
+        "start": 42.17,
+        "end": 42.44,
+        "score": 0.849498,
+        "confidence": 0.617088,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 1.0,
+          "voicing": 0.423372,
+          "vocal_band": 0.892383,
+          "temporal_prior": 0.619318
+        },
+        "competing_score": 0.664027,
+        "window": [
+          39.74,
+          43.26
+        ]
+      },
+      "absolute_error_seconds": 1.3500000000000014
+    },
+    {
+      "line_id": "section_003_line_006",
+      "reference_start": 48.3,
+      "window": [
+        48.3,
+        51.04
+      ],
+      "prediction": {
+        "start": 49.08,
+        "end": 49.96,
+        "score": 0.819467,
+        "confidence": 0.584306,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 1.0,
+          "voicing": 0.492903,
+          "vocal_band": 0.61613,
+          "temporal_prior": 0.569343
+        },
+        "competing_score": 0.671888,
+        "window": [
+          48.3,
+          51.04
+        ]
+      },
+      "absolute_error_seconds": 0.7800000000000011
+    },
+    {
+      "line_id": "section_003_line_010",
+      "reference_start": 59.26,
+      "window": [
+        59.26,
+        62.1
+      ],
+      "prediction": {
+        "start": 60.59,
+        "end": 60.86,
+        "score": 0.740539,
+        "confidence": 0.500841,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.0,
+          "voicing": 1.0,
+          "vocal_band": 0.958052,
+          "temporal_prior": 0.93662
+        },
+        "competing_score": 0.68485,
+        "window": [
+          59.26,
+          62.1
+        ]
+      },
+      "absolute_error_seconds": 1.3300000000000054
+    },
+    {
+      "line_id": "section_003_line_013",
+      "reference_start": 68.58,
+      "window": [
+        67.78,
+        70.82
+      ],
+      "prediction": {
+        "start": 69.43,
+        "end": 70.62,
+        "score": 0.666658,
+        "confidence": 0.469223,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.027835,
+          "voicing": 1.0,
+          "vocal_band": 0.426502,
+          "temporal_prior": 0.914474
+        },
+        "competing_score": 0.5641,
+        "window": [
+          67.78,
+          70.82
+        ]
+      },
+      "absolute_error_seconds": 0.8500000000000085
+    },
+    {
+      "line_id": "section_004_line_002",
+      "reference_start": 79.7,
+      "window": [
+        79.7,
+        82.82
+      ],
+      "prediction": {
+        "start": 80.64,
+        "end": 81.05,
+        "score": 0.770888,
+        "confidence": 0.510744,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.197312,
+          "voicing": 1.0,
+          "vocal_band": 0.942877,
+          "temporal_prior": 0.602564
+        },
+        "competing_score": 0.743269,
+        "window": [
+          79.7,
+          82.82
+        ]
+      },
+      "absolute_error_seconds": 0.9399999999999977
+    },
+    {
+      "line_id": "section_004_line_005",
+      "reference_start": 88.54,
+      "window": [
+        88.54,
+        93.1
+      ],
+      "prediction": {
+        "start": 89.06,
+        "end": 89.33,
+        "score": 0.761423,
+        "confidence": 0.521056,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 1.0,
+          "voicing": 9.9e-05,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.22807
+        },
+        "competing_score": 0.686764,
+        "window": [
+          88.54,
+          93.1
+        ]
+      },
+      "absolute_error_seconds": 0.519999999999996
+    },
+    {
+      "line_id": "section_005_line_004",
+      "reference_start": 101.46,
+      "window": [
+        101.46,
+        104.58
+      ],
+      "prediction": {
+        "start": 103.69,
+        "end": 104.58,
+        "score": 0.683022,
+        "confidence": 0.457628,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.111713,
+          "voicing": 1.0,
+          "vocal_band": 0.510454,
+          "temporal_prior": 0.570513
+        },
+        "competing_score": 0.643984,
+        "window": [
+          101.46,
+          104.58
+        ]
+      },
+      "absolute_error_seconds": 2.230000000000004
+    },
+    {
+      "line_id": "section_005_line_008",
+      "reference_start": 112.34,
+      "window": [
+        112.34,
+        115.24
+      ],
+      "prediction": {
+        "start": 113.96,
+        "end": 114.23,
+        "score": 0.709708,
+        "confidence": 0.50541,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.0,
+          "voicing": 1.0,
+          "vocal_band": 0.770468,
+          "temporal_prior": 0.882759
+        },
+        "competing_score": 0.583709,
+        "window": [
+          112.34,
+          115.24
+        ]
+      },
+      "absolute_error_seconds": 1.6199999999999903
+    },
+    {
+      "line_id": "section_006_line_003",
+      "reference_start": 121.0,
+      "window": [
+        121.0,
+        124.06
+      ],
+      "prediction": {
+        "start": 123.05,
+        "end": 123.81,
+        "score": 0.767862,
+        "confidence": 0.522905,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.139422,
+          "voicing": 1.0,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.660131
+        },
+        "competing_score": 0.699879,
+        "window": [
+          121.0,
+          124.06
+        ]
+      },
+      "absolute_error_seconds": 2.049999999999997
+    },
+    {
+      "line_id": "section_006_line_007",
+      "reference_start": 129.96,
+      "window": [
+        129.96,
+        131.74
+      ],
+      "prediction": {
+        "start": 131.25,
+        "end": 131.52,
+        "score": 0.747269,
+        "confidence": 0.499033,
+        "evidence": {
+          "onset_strength": 0.928374,
+          "energy_rise": 1.0,
+          "voicing": 0.0,
+          "vocal_band": 0.965398,
+          "temporal_prior": 0.550562
+        },
+        "competing_score": 0.709244,
+        "window": [
+          129.96,
+          131.74
+        ]
+      },
+      "absolute_error_seconds": 1.289999999999992
+    },
+    {
+      "line_id": "section_006_line_010",
+      "reference_start": 140.12,
+      "window": [
+        139.58,
+        142.7
+      ],
+      "prediction": {
+        "start": 140.27,
+        "end": 140.54,
+        "score": 0.722115,
+        "confidence": 0.507505,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.0,
+          "voicing": 1.0,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.442308
+        },
+        "competing_score": 0.613174,
+        "window": [
+          139.58,
+          142.7
+        ]
+      },
+      "absolute_error_seconds": 0.15000000000000568
+    },
+    {
+      "line_id": "section_006_line_014",
+      "reference_start": 151.72,
+      "window": [
+        151.72,
+        154.58
+      ],
+      "prediction": {
+        "start": 151.79,
+        "end": 152.06,
+        "score": 0.662633,
+        "confidence": 0.453482,
+        "evidence": {
+          "onset_strength": 0.943212,
+          "energy_rise": 0.0,
+          "voicing": 1.0,
+          "vocal_band": 0.867073,
+          "temporal_prior": 0.048951
+        },
+        "competing_score": 0.597573,
+        "window": [
+          151.72,
+          154.58
+        ]
+      },
+      "absolute_error_seconds": 0.06999999999999318
+    },
+    {
+      "line_id": "section_007_line_003",
+      "reference_start": 164.76,
+      "window": [
+        164.06,
+        167.9
+      ],
+      "prediction": {
+        "start": 164.51,
+        "end": 166.02,
+        "score": 0.782109,
+        "confidence": 0.532888,
+        "evidence": {
+          "onset_strength": 1.0,
+          "energy_rise": 0.306359,
+          "voicing": 1.0,
+          "vocal_band": 0.95867,
+          "temporal_prior": 0.234375
+        },
+        "competing_score": 0.71206,
+        "window": [
+          164.06,
+          167.9
+        ]
+      },
+      "absolute_error_seconds": 0.25
+    },
+    {
+      "line_id": "section_007_line_007",
+      "reference_start": 174.22,
+      "window": [
+        173.28,
+        176.02
+      ],
+      "prediction": {
+        "start": 174.47,
+        "end": 174.74,
+        "score": 0.737468,
+        "confidence": 0.487489,
+        "evidence": {
+          "onset_strength": 0.95309,
+          "energy_rise": 0.160418,
+          "voicing": 1.0,
+          "vocal_band": 0.802339,
+          "temporal_prior": 0.868613
+        },
+        "competing_score": 0.714226,
+        "window": [
+          173.28,
+          176.02
+        ]
+      },
+      "absolute_error_seconds": 0.25
+    },
+    {
+      "line_id": "section_008_line_001",
+      "reference_start": 185.32,
+      "window": [
+        184.76,
+        187.88
+      ],
+      "prediction": {
+        "start": 186.48,
+        "end": 187.88,
+        "score": 0.846791,
+        "confidence": 0.592942,
+        "evidence": {
+          "onset_strength": 0.917937,
+          "energy_rise": 0.591673,
+          "voicing": 1.0,
+          "vocal_band": 0.884822,
+          "temporal_prior": 0.897436
+        },
+        "competing_score": 0.725283,
+        "window": [
+          184.76,
+          187.88
+        ]
+      },
+      "absolute_error_seconds": 1.1599999999999966
+    },
+    {
+      "line_id": "section_008_line_004",
+      "reference_start": 193.42,
+      "window": [
+        193.42,
+        196.76
+      ],
+      "prediction": {
+        "start": 195.81,
+        "end": 196.76,
+        "score": 0.576586,
+        "confidence": 0.380366,
+        "evidence": {
+          "onset_strength": 0.423265,
+          "energy_rise": 1.0,
+          "voicing": 0.0,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.568862
+        },
+        "competing_score": 0.560629,
+        "window": [
+          193.42,
+          196.76
+        ]
+      },
+      "absolute_error_seconds": 2.390000000000015
+    },
+    {
+      "line_id": "section_008_line_008",
+      "reference_start": 204.74,
+      "window": [
+        204.48,
+        208.88
+      ],
+      "prediction": {
+        "start": 206.41,
+        "end": 206.68,
+        "score": 0.585001,
+        "confidence": 0.384573,
+        "evidence": {
+          "onset_strength": 0.40325,
+          "energy_rise": 1.0,
+          "voicing": 0.0,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.877273
+        },
+        "competing_score": 0.572651,
+        "window": [
+          204.48,
+          208.88
+        ]
+      },
+      "absolute_error_seconds": 1.6699999999999875
+    },
+    {
+      "line_id": "section_008_line_011",
+      "reference_start": 213.44,
+      "window": [
+        213.44,
+        216.96
+      ],
+      "prediction": {
+        "start": 214.71,
+        "end": 214.98,
+        "score": 0.750786,
+        "confidence": 0.488684,
+        "evidence": {
+          "onset_strength": 0.999328,
+          "energy_rise": 0.859583,
+          "voicing": 0.000229,
+          "vocal_band": 1.0,
+          "temporal_prior": 0.721591
+        },
+        "competing_score": 0.748864,
+        "window": [
+          213.44,
+          216.96
+        ]
+      },
+      "absolute_error_seconds": 1.2700000000000102
+    },
+    {
+      "line_id": "section_009_line_008",
+      "reference_start": 230.78,
+      "window": [
+        230.2,
+        240.0
+      ],
+      "prediction": {
+        "start": 235.83,
+        "end": 236.1,
+        "score": 0.637195,
+        "confidence": 0.417772,
+        "evidence": {
+          "onset_strength": 0.660062,
+          "energy_rise": 1.0,
+          "voicing": 0.0,
+          "vocal_band": 0.757479,
+          "temporal_prior": 0.85102
+        },
+        "competing_score": 0.626921,
+        "window": [
+          230.2,
+          240.0
+        ]
+      },
+      "absolute_error_seconds": 5.050000000000011
+    }
+  ]
+}
