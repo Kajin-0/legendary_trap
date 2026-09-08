@@ -1,0 +1,236 @@
+{
+  "lines": [
+    {
+      "line_id": "section_002_line_002",
+      "authoritative_text": "Whole world movin\u2019 on, but I\u2019m stuck with it (stuck with it)",
+      "lead_text": "Whole world movin\u2019 on, but I\u2019m stuck with it",
+      "matched_tokens": 9,
+      "total_tokens": 9,
+      "coverage": 1.0,
+      "start": 14.78,
+      "end": 17.16,
+      "probability_mean": 0.9070891208118863,
+      "words": [
+        {
+          "text": "whole",
+          "start": 14.78,
+          "end": 15.2,
+          "probability": 0.20531627535820007,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "world",
+          "start": 15.2,
+          "end": 15.62,
+          "probability": 0.9945001602172852,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "movin",
+          "start": 15.78,
+          "end": 15.9,
+          "probability": 0.9849256873130798,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "on",
+          "start": 15.9,
+          "end": 16.18,
+          "probability": 0.9982301592826843,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "but",
+          "start": 16.32,
+          "end": 16.32,
+          "probability": 0.9868965744972229,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "i'm",
+          "start": 16.32,
+          "end": 16.4,
+          "probability": 0.9977653324604034,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "stuck",
+          "start": 16.4,
+          "end": 16.7,
+          "probability": 0.9984601736068726,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "with",
+          "start": 16.7,
+          "end": 16.92,
+          "probability": 0.9985164999961853,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "it",
+          "start": 16.92,
+          "end": 17.16,
+          "probability": 0.9991912245750427,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": true,
+      "accepted_tokens": 8,
+      "acceptance_reason": "credible bounded ASR evidence"
+    },
+    {
+      "line_id": "section_002_line_003",
+      "authoritative_text": "Late nights starin\u2019 at the roof, can\u2019t quit (can\u2019t quit)",
+      "lead_text": "Late nights starin\u2019 at the roof, can\u2019t quit",
+      "matched_tokens": 8,
+      "total_tokens": 8,
+      "coverage": 1.0,
+      "start": 17.76,
+      "end": 19.98,
+      "probability_mean": 0.9634497910737991,
+      "words": [
+        {
+          "text": "late",
+          "start": 17.76,
+          "end": 18.02,
+          "probability": 0.7666605710983276,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "nights",
+          "start": 18.02,
+          "end": 18.26,
+          "probability": 0.9851012229919434,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "starin",
+          "start": 18.26,
+          "end": 18.56,
+          "probability": 0.9672213196754456,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "at",
+          "start": 18.56,
+          "end": 18.78,
+          "probability": 0.9982982277870178,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "the",
+          "start": 18.78,
+          "end": 18.98,
+          "probability": 0.9980646967887878,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "roof",
+          "start": 18.98,
+          "end": 19.2,
+          "probability": 0.9985507130622864,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "can't",
+          "start": 19.42,
+          "end": 19.62,
+          "probability": 0.996290385723114,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "quit",
+          "start": 19.62,
+          "end": 19.98,
+          "probability": 0.9974111914634705,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": true,
+      "accepted_tokens": 8,
+      "acceptance_reason": "credible bounded ASR evidence"
+    },
+    {
+      "line_id": "section_002_line_005",
+      "authoritative_text": "Focus, focus, I can\u2019t fall apart (fall apart)",
+      "lead_text": "Focus, focus, I can\u2019t fall apart",
+      "matched_tokens": 6,
+      "total_tokens": 6,
+      "coverage": 1.0,
+      "start": 23.6,
+      "end": 25.48,
+      "probability_mean": 0.959543764591217,
+      "words": [
+        {
+          "text": "focus",
+          "start": 23.6,
+          "end": 24.2,
+          "probability": 0.7817717790603638,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "focus",
+          "start": 24.34,
+          "end": 24.42,
+          "probability": 0.9864452481269836,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "i",
+          "start": 24.58,
+          "end": 24.58,
+          "probability": 0.993104875087738,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "can't",
+          "start": 24.58,
+          "end": 24.88,
+          "probability": 0.9992977976799011,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "fall",
+          "start": 24.88,
+          "end": 25.0,
+          "probability": 0.9970535039901733,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        },
+        {
+          "text": "apart",
+          "start": 25.0,
+          "end": 25.48,
+          "probability": 0.9995893836021423,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": true,
+      "accepted_tokens": 6,
+      "acceptance_reason": "credible bounded ASR evidence"
+    }
+  ]
+}

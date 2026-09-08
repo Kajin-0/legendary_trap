@@ -1,0 +1,40 @@
+{
+  "report_type": "focus_large_whisper_bounded_capacity_experiment",
+  "generated_at_utc": "2026-09-08T02:02:49.618574+00:00",
+  "song_id": "focus",
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "device": "cpu",
+  "compute_type": "int8",
+  "beam_size": 5,
+  "prompting": false,
+  "baseline_lead_line_acoustic_coverage": 0.9146341463414634,
+  "final_lead_line_acoustic_coverage": 0.9512195121951219,
+  "baseline_direct_token_acoustic_coverage": 0.8654485049833887,
+  "final_direct_token_acoustic_coverage": 0.9019933554817275,
+  "baseline_direct_tokens": 521,
+  "newly_recovered_authoritative_tokens": 22,
+  "final_direct_tokens": 543,
+  "baseline_lead_lines": 75,
+  "newly_recovered_lead_lines": 3,
+  "final_resolved_lead_lines": 78,
+  "unresolved_tokens": 59,
+  "unresolved_lead_lines_before": [
+    "section_001_line_004",
+    "section_001_line_006",
+    "section_002_line_002",
+    "section_002_line_003",
+    "section_002_line_005",
+    "section_009_line_002",
+    "section_009_line_010"
+  ],
+  "unresolved_lead_lines_after": [
+    "section_001_line_004",
+    "section_001_line_006",
+    "section_009_line_002",
+    "section_009_line_010"
+  ],
+  "chronology_violations": 0,
+  "validation_valid": true,
+  "adlib_status": "not processed; experiment restricted to seven unresolved lead lines",
+  "decision": "useful_capacity_signal_but_not_full_production_replacement"
+}

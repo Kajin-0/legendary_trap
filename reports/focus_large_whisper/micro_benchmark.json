@@ -1,0 +1,237 @@
+{
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "compute_type": "int8",
+  "device": "cpu",
+  "window_start": 4.8,
+  "window_end": 19.62,
+  "audio": "work/focus/large_whisper/early_micro.wav",
+  "load_seconds": 107.7612604261376,
+  "inference_seconds": 7.506496182177216,
+  "total_seconds": 115.26775796758011,
+  "language": "en",
+  "language_probability": 1,
+  "duration_seconds": 14.82,
+  "segments": [
+    {
+      "start": 4.8,
+      "end": 19.6,
+      "text": " Fog dash, focus, pain in my heart, focus, yeah, focus, tears in my eyes, but I hide that shit, whole world, moving on, but I'm stuck with it, late night staring at the roof can't",
+      "avg_logprob": -0.21210670843720436,
+      "no_speech_prob": 0.10306871682405472,
+      "words": [
+        {
+          "text": " Fog",
+          "start": 4.8,
+          "end": 5.5,
+          "probability": 0.6334846019744873
+        },
+        {
+          "text": " dash,",
+          "start": 5.5,
+          "end": 5.8,
+          "probability": 0.045473363250494
+        },
+        {
+          "text": " focus,",
+          "start": 6.34,
+          "end": 6.78,
+          "probability": 0.7899172306060791
+        },
+        {
+          "text": " pain",
+          "start": 7.26,
+          "end": 7.6,
+          "probability": 0.9856063723564148
+        },
+        {
+          "text": " in",
+          "start": 7.6,
+          "end": 7.84,
+          "probability": 0.7314601540565491
+        },
+        {
+          "text": " my",
+          "start": 7.84,
+          "end": 8.02,
+          "probability": 0.9992883801460266
+        },
+        {
+          "text": " heart,",
+          "start": 8.02,
+          "end": 9.14,
+          "probability": 0.9978298544883728
+        },
+        {
+          "text": " focus,",
+          "start": 9.16,
+          "end": 9.9,
+          "probability": 0.8805851340293884
+        },
+        {
+          "text": " yeah,",
+          "start": 10.66,
+          "end": 10.78,
+          "probability": 0.8124536871910095
+        },
+        {
+          "text": " focus,",
+          "start": 12.06,
+          "end": 12.62,
+          "probability": 0.8742663264274597
+        },
+        {
+          "text": " tears",
+          "start": 12.78,
+          "end": 12.9,
+          "probability": 0.9905989766120911
+        },
+        {
+          "text": " in",
+          "start": 12.9,
+          "end": 13.0,
+          "probability": 0.9940502047538757
+        },
+        {
+          "text": " my",
+          "start": 13.0,
+          "end": 13.12,
+          "probability": 0.9995155334472656
+        },
+        {
+          "text": " eyes,",
+          "start": 13.12,
+          "end": 13.26,
+          "probability": 0.938116192817688
+        },
+        {
+          "text": " but",
+          "start": 13.36,
+          "end": 13.36,
+          "probability": 0.9976129531860352
+        },
+        {
+          "text": " I",
+          "start": 13.36,
+          "end": 13.48,
+          "probability": 0.9964434504508972
+        },
+        {
+          "text": " hide",
+          "start": 13.48,
+          "end": 13.7,
+          "probability": 0.9962872266769409
+        },
+        {
+          "text": " that",
+          "start": 13.7,
+          "end": 13.84,
+          "probability": 0.9986696243286133
+        },
+        {
+          "text": " shit,",
+          "start": 13.84,
+          "end": 14.14,
+          "probability": 0.9943404197692871
+        },
+        {
+          "text": " whole",
+          "start": 15.18,
+          "end": 15.2,
+          "probability": 0.9347510933876038
+        },
+        {
+          "text": " world,",
+          "start": 15.2,
+          "end": 15.6,
+          "probability": 0.9974965453147888
+        },
+        {
+          "text": " moving",
+          "start": 15.78,
+          "end": 15.88,
+          "probability": 0.9898474812507629
+        },
+        {
+          "text": " on,",
+          "start": 15.88,
+          "end": 16.16,
+          "probability": 0.9995612502098083
+        },
+        {
+          "text": " but",
+          "start": 16.3,
+          "end": 16.32,
+          "probability": 0.9672943949699402
+        },
+        {
+          "text": " I'm",
+          "start": 16.32,
+          "end": 16.42,
+          "probability": 0.9989966750144958
+        },
+        {
+          "text": " stuck",
+          "start": 16.42,
+          "end": 16.68,
+          "probability": 0.9992966651916504
+        },
+        {
+          "text": " with",
+          "start": 16.68,
+          "end": 16.92,
+          "probability": 0.9996339082717896
+        },
+        {
+          "text": " it,",
+          "start": 16.92,
+          "end": 17.16,
+          "probability": 0.9997581839561462
+        },
+        {
+          "text": " late",
+          "start": 17.92,
+          "end": 18.02,
+          "probability": 0.9483720660209656
+        },
+        {
+          "text": " night",
+          "start": 18.02,
+          "end": 18.26,
+          "probability": 0.9772934317588806
+        },
+        {
+          "text": " staring",
+          "start": 18.26,
+          "end": 18.56,
+          "probability": 0.9480986595153809
+        },
+        {
+          "text": " at",
+          "start": 18.56,
+          "end": 18.78,
+          "probability": 0.9997029900550842
+        },
+        {
+          "text": " the",
+          "start": 18.78,
+          "end": 18.94,
+          "probability": 0.9996169805526733
+        },
+        {
+          "text": " roof",
+          "start": 18.94,
+          "end": 19.18,
+          "probability": 0.999089241027832
+        },
+        {
+          "text": " can't",
+          "start": 19.18,
+          "end": 19.6,
+          "probability": 0.7412490546703339
+        }
+      ]
+    }
+  ],
+  "asr_word_count": 35,
+  "cache_dir": "default Hugging Face cache"
+}

@@ -1,0 +1,1732 @@
+{
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "load_seconds": 2.9900509668514132,
+  "runtime_seconds": 20.136144076939672,
+  "groups": [
+    {
+      "group_id": "intro",
+      "window": [
+        0.0,
+        7.21
+      ],
+      "line_ids": [
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_001_line_005",
+        "section_001_line_006"
+      ],
+      "load_seconds": 2.9900509668514132,
+      "inference_seconds": 6.242971198167652,
+      "language": "en",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 0.8,
+          "text": " Yeah",
+          "avg_logprob": -0.5157062640556922,
+          "no_speech_prob": 0.08639875054359436,
+          "words": [
+            {
+              "text": " Yeah",
+              "start": 0.0,
+              "end": 0.8,
+              "probability": 0.6828588247299194
+            }
+          ]
+        },
+        {
+          "start": 3.12,
+          "end": 4.52,
+          "text": " Focus",
+          "avg_logprob": -0.5157062640556922,
+          "no_speech_prob": 0.08639875054359436,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 3.12,
+              "end": 4.52,
+              "probability": 0.0012526216451078653
+            }
+          ]
+        },
+        {
+          "start": 5.02,
+          "end": 5.62,
+          "text": " Focus",
+          "avg_logprob": -0.5157062640556922,
+          "no_speech_prob": 0.08639875054359436,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 4.92,
+              "end": 5.62,
+              "probability": 0.03267809376120567
+            }
+          ]
+        },
+        {
+          "start": 5.62,
+          "end": 6.28,
+          "text": " Focus",
+          "avg_logprob": -0.5157062640556922,
+          "no_speech_prob": 0.08639875054359436,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 5.62,
+              "end": 6.28,
+              "probability": 0.039093855768442154
+            }
+          ]
+        }
+      ],
+      "asr_word_count": 4,
+      "authoritative_token_count": 7,
+      "matched_tokens": 3,
+      "coverage": 0.42857142857142855,
+      "unresolved_tokens": 4,
+      "lines": [
+        {
+          "line_id": "section_001_line_003",
+          "authoritative_text": "Woah\u2026",
+          "lead_text": "Woah\u2026",
+          "matched_tokens": 1,
+          "total_tokens": 1,
+          "coverage": 1.0,
+          "start": 0.0,
+          "end": 0.8,
+          "probability_mean": 0.6828588247299194,
+          "words": [
+            {
+              "text": "woah",
+              "start": 0.0,
+              "end": 0.8,
+              "probability": 0.6828588247299194,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_004",
+          "authoritative_text": "Focus\u2026",
+          "lead_text": "Focus\u2026",
+          "matched_tokens": 1,
+          "total_tokens": 1,
+          "coverage": 1.0,
+          "start": 3.12,
+          "end": 4.52,
+          "probability_mean": 0.0012526216451078653,
+          "words": [
+            {
+              "text": "focus",
+              "start": 3.12,
+              "end": 4.52,
+              "probability": 0.0012526216451078653,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": false,
+          "accepted_tokens": 0,
+          "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+        },
+        {
+          "line_id": "section_001_line_005",
+          "authoritative_text": "Pain in my heart\u2026",
+          "lead_text": "Pain in my heart\u2026",
+          "matched_tokens": 0,
+          "total_tokens": 4,
+          "coverage": 0.0,
+          "start": null,
+          "end": null,
+          "probability_mean": 0.0,
+          "words": []
+        },
+        {
+          "line_id": "section_001_line_006",
+          "authoritative_text": "focus\u2026",
+          "lead_text": "focus\u2026",
+          "matched_tokens": 1,
+          "total_tokens": 1,
+          "coverage": 1.0,
+          "start": 5.62,
+          "end": 6.28,
+          "probability_mean": 0.039093855768442154,
+          "words": [
+            {
+              "text": "focus",
+              "start": 5.62,
+              "end": 6.28,
+              "probability": 0.039093855768442154,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": false,
+          "accepted_tokens": 0,
+          "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+        }
+      ]
+    },
+    {
+      "group_id": "early_section",
+      "window": [
+        4.08,
+        33.58
+      ],
+      "line_ids": [
+        "section_002_line_001",
+        "section_002_line_002",
+        "section_002_line_003",
+        "section_002_line_004",
+        "section_002_line_005",
+        "section_002_line_006",
+        "section_002_line_007",
+        "section_002_line_008"
+      ],
+      "load_seconds": 2.9900509668514132,
+      "inference_seconds": 7.17860899399966,
+      "language": "en",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 4.08,
+          "end": 9.18,
+          "text": " Focus, focus, pain in my heart",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Focus,",
+              "start": 4.08,
+              "end": 4.76,
+              "probability": 0.47090280055999756
+            },
+            {
+              "text": " focus,",
+              "start": 5.24,
+              "end": 5.44,
+              "probability": 0.4545658826828003
+            },
+            {
+              "text": " pain",
+              "start": 7.1,
+              "end": 7.6,
+              "probability": 0.17338140308856964
+            },
+            {
+              "text": " in",
+              "start": 7.6,
+              "end": 7.84,
+              "probability": 0.8797228932380676
+            },
+            {
+              "text": " my",
+              "start": 7.84,
+              "end": 8.02,
+              "probability": 0.9992696642875671
+            },
+            {
+              "text": " heart",
+              "start": 8.02,
+              "end": 9.18,
+              "probability": 0.997778594493866
+            }
+          ]
+        },
+        {
+          "start": 9.18,
+          "end": 10.8,
+          "text": " Focus, yeah",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Focus,",
+              "start": 9.18,
+              "end": 9.84,
+              "probability": 0.702364444732666
+            },
+            {
+              "text": " yeah",
+              "start": 10.68,
+              "end": 10.8,
+              "probability": 0.8416049480438232
+            }
+          ]
+        },
+        {
+          "start": 12.14,
+          "end": 14.1,
+          "text": " Focus, tears in my eyes, but I hide that shit",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Focus,",
+              "start": 12.14,
+              "end": 12.62,
+              "probability": 0.21341635286808014
+            },
+            {
+              "text": " tears",
+              "start": 12.78,
+              "end": 12.9,
+              "probability": 0.9755085706710815
+            },
+            {
+              "text": " in",
+              "start": 12.9,
+              "end": 13.0,
+              "probability": 0.9793740510940552
+            },
+            {
+              "text": " my",
+              "start": 13.0,
+              "end": 13.12,
+              "probability": 0.9987232089042664
+            },
+            {
+              "text": " eyes,",
+              "start": 13.12,
+              "end": 13.26,
+              "probability": 0.9910290241241455
+            },
+            {
+              "text": " but",
+              "start": 13.34,
+              "end": 13.38,
+              "probability": 0.9911337494850159
+            },
+            {
+              "text": " I",
+              "start": 13.38,
+              "end": 13.5,
+              "probability": 0.9919615387916565
+            },
+            {
+              "text": " hide",
+              "start": 13.5,
+              "end": 13.7,
+              "probability": 0.9961802959442139
+            },
+            {
+              "text": " that",
+              "start": 13.7,
+              "end": 13.88,
+              "probability": 0.9965934157371521
+            },
+            {
+              "text": " shit",
+              "start": 13.88,
+              "end": 14.12,
+              "probability": 0.9914303421974182
+            }
+          ]
+        },
+        {
+          "start": 14.78,
+          "end": 17.1,
+          "text": " Whole world, moving on, but I'm stuck with it",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Whole",
+              "start": 14.78,
+              "end": 15.2,
+              "probability": 0.20531627535820007
+            },
+            {
+              "text": " world,",
+              "start": 15.2,
+              "end": 15.62,
+              "probability": 0.9945001602172852
+            },
+            {
+              "text": " moving",
+              "start": 15.78,
+              "end": 15.9,
+              "probability": 0.9849256873130798
+            },
+            {
+              "text": " on,",
+              "start": 15.9,
+              "end": 16.18,
+              "probability": 0.9982301592826843
+            },
+            {
+              "text": " but",
+              "start": 16.32,
+              "end": 16.32,
+              "probability": 0.9868965744972229
+            },
+            {
+              "text": " I'm",
+              "start": 16.32,
+              "end": 16.4,
+              "probability": 0.9977653324604034
+            },
+            {
+              "text": " stuck",
+              "start": 16.4,
+              "end": 16.7,
+              "probability": 0.9984601736068726
+            },
+            {
+              "text": " with",
+              "start": 16.7,
+              "end": 16.92,
+              "probability": 0.9985164999961853
+            },
+            {
+              "text": " it",
+              "start": 16.92,
+              "end": 17.16,
+              "probability": 0.9991912245750427
+            }
+          ]
+        },
+        {
+          "start": 17.76,
+          "end": 19.98,
+          "text": " Late night staring at the roof, can't quit",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Late",
+              "start": 17.76,
+              "end": 18.02,
+              "probability": 0.7666605710983276
+            },
+            {
+              "text": " night",
+              "start": 18.02,
+              "end": 18.26,
+              "probability": 0.9851012229919434
+            },
+            {
+              "text": " staring",
+              "start": 18.26,
+              "end": 18.56,
+              "probability": 0.9672213196754456
+            },
+            {
+              "text": " at",
+              "start": 18.56,
+              "end": 18.78,
+              "probability": 0.9982982277870178
+            },
+            {
+              "text": " the",
+              "start": 18.78,
+              "end": 18.98,
+              "probability": 0.9980646967887878
+            },
+            {
+              "text": " roof,",
+              "start": 18.98,
+              "end": 19.2,
+              "probability": 0.9985507130622864
+            },
+            {
+              "text": " can't",
+              "start": 19.42,
+              "end": 19.62,
+              "probability": 0.996290385723114
+            },
+            {
+              "text": " quit",
+              "start": 19.62,
+              "end": 19.98,
+              "probability": 0.9974111914634705
+            }
+          ]
+        },
+        {
+          "start": 19.98,
+          "end": 23.6,
+          "text": " Trying to find myself while I'm losing it",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Trying",
+              "start": 19.98,
+              "end": 20.9,
+              "probability": 0.3478511869907379
+            },
+            {
+              "text": " to",
+              "start": 20.9,
+              "end": 20.98,
+              "probability": 0.999313473701477
+            },
+            {
+              "text": " find",
+              "start": 20.98,
+              "end": 21.32,
+              "probability": 0.9863098859786987
+            },
+            {
+              "text": " myself",
+              "start": 21.32,
+              "end": 21.82,
+              "probability": 0.9991642236709595
+            },
+            {
+              "text": " while",
+              "start": 21.82,
+              "end": 22.06,
+              "probability": 0.9900504350662231
+            },
+            {
+              "text": " I'm",
+              "start": 22.06,
+              "end": 22.24,
+              "probability": 0.9983676075935364
+            },
+            {
+              "text": " losing",
+              "start": 22.24,
+              "end": 22.58,
+              "probability": 0.9786856174468994
+            },
+            {
+              "text": " it",
+              "start": 22.58,
+              "end": 23.6,
+              "probability": 0.9988504648208618
+            }
+          ]
+        },
+        {
+          "start": 23.6,
+          "end": 25.48,
+          "text": " Focus, focus, I can't fall apart",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Focus,",
+              "start": 23.6,
+              "end": 24.2,
+              "probability": 0.7817717790603638
+            },
+            {
+              "text": " focus,",
+              "start": 24.34,
+              "end": 24.42,
+              "probability": 0.9864452481269836
+            },
+            {
+              "text": " I",
+              "start": 24.58,
+              "end": 24.58,
+              "probability": 0.993104875087738
+            },
+            {
+              "text": " can't",
+              "start": 24.58,
+              "end": 24.88,
+              "probability": 0.9992977976799011
+            },
+            {
+              "text": " fall",
+              "start": 24.88,
+              "end": 25.0,
+              "probability": 0.9970535039901733
+            },
+            {
+              "text": " apart",
+              "start": 25.0,
+              "end": 25.48,
+              "probability": 0.9995893836021423
+            }
+          ]
+        },
+        {
+          "start": 26.02,
+          "end": 28.78,
+          "text": " Too much pain got engraved in my heart",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Too",
+              "start": 26.02,
+              "end": 26.5,
+              "probability": 0.7916390299797058
+            },
+            {
+              "text": " much",
+              "start": 26.5,
+              "end": 26.8,
+              "probability": 0.986957848072052
+            },
+            {
+              "text": " pain",
+              "start": 26.8,
+              "end": 27.2,
+              "probability": 0.9989829659461975
+            },
+            {
+              "text": " got",
+              "start": 27.2,
+              "end": 27.42,
+              "probability": 0.7488712668418884
+            },
+            {
+              "text": " engraved",
+              "start": 27.42,
+              "end": 28.0,
+              "probability": 0.926030158996582
+            },
+            {
+              "text": " in",
+              "start": 28.0,
+              "end": 28.12,
+              "probability": 0.9810228943824768
+            },
+            {
+              "text": " my",
+              "start": 28.12,
+              "end": 28.26,
+              "probability": 0.9994437098503113
+            },
+            {
+              "text": " heart",
+              "start": 28.26,
+              "end": 28.78,
+              "probability": 0.9972227811813354
+            }
+          ]
+        },
+        {
+          "start": 28.78,
+          "end": 31.56,
+          "text": " Everybody sees a smile, that's the art",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " Everybody",
+              "start": 28.78,
+              "end": 29.66,
+              "probability": 0.895817220211029
+            },
+            {
+              "text": " sees",
+              "start": 29.66,
+              "end": 30.26,
+              "probability": 0.9820136427879333
+            },
+            {
+              "text": " a",
+              "start": 30.26,
+              "end": 30.42,
+              "probability": 0.9984912872314453
+            },
+            {
+              "text": " smile,",
+              "start": 30.42,
+              "end": 30.74,
+              "probability": 0.9991911053657532
+            },
+            {
+              "text": " that's",
+              "start": 30.98,
+              "end": 31.02,
+              "probability": 0.9973228275775909
+            },
+            {
+              "text": " the",
+              "start": 31.02,
+              "end": 31.16,
+              "probability": 0.9981132745742798
+            },
+            {
+              "text": " art",
+              "start": 31.16,
+              "end": 31.56,
+              "probability": 0.9579806923866272
+            }
+          ]
+        },
+        {
+          "start": 32.1,
+          "end": 33.56,
+          "text": " They don't know all the battle",
+          "avg_logprob": -0.15620583405188465,
+          "no_speech_prob": 0.01445975061506033,
+          "words": [
+            {
+              "text": " They",
+              "start": 32.04,
+              "end": 32.28,
+              "probability": 0.4778250753879547
+            },
+            {
+              "text": " don't",
+              "start": 32.28,
+              "end": 32.68,
+              "probability": 0.9994722902774811
+            },
+            {
+              "text": " know",
+              "start": 32.68,
+              "end": 32.96,
+              "probability": 0.9997001886367798
+            },
+            {
+              "text": " all",
+              "start": 32.96,
+              "end": 33.2,
+              "probability": 0.8443812131881714
+            },
+            {
+              "text": " the",
+              "start": 33.2,
+              "end": 33.38,
+              "probability": 0.9966555833816528
+            },
+            {
+              "text": " battle",
+              "start": 33.38,
+              "end": 33.56,
+              "probability": 0.45006170868873596
+            }
+          ]
+        }
+      ],
+      "asr_word_count": 70,
+      "authoritative_token_count": 64,
+      "matched_tokens": 60,
+      "coverage": 0.9375,
+      "unresolved_tokens": 4,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "authoritative_text": "Focus, tears in my eyes but I hide that shit (hide that shit)",
+          "lead_text": "Focus, tears in my eyes but I hide that shit",
+          "matched_tokens": 10,
+          "total_tokens": 10,
+          "coverage": 1.0,
+          "start": 12.14,
+          "end": 14.12,
+          "probability_mean": 0.9125350549817085,
+          "words": [
+            {
+              "text": "focus",
+              "start": 12.14,
+              "end": 12.62,
+              "probability": 0.21341635286808014,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "tears",
+              "start": 12.78,
+              "end": 12.9,
+              "probability": 0.9755085706710815,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "in",
+              "start": 12.9,
+              "end": 13.0,
+              "probability": 0.9793740510940552,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "my",
+              "start": 13.0,
+              "end": 13.12,
+              "probability": 0.9987232089042664,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "eyes",
+              "start": 13.12,
+              "end": 13.26,
+              "probability": 0.9910290241241455,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "but",
+              "start": 13.34,
+              "end": 13.38,
+              "probability": 0.9911337494850159,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "i",
+              "start": 13.38,
+              "end": 13.5,
+              "probability": 0.9919615387916565,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "hide",
+              "start": 13.5,
+              "end": 13.7,
+              "probability": 0.9961802959442139,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "that",
+              "start": 13.7,
+              "end": 13.88,
+              "probability": 0.9965934157371521,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "shit",
+              "start": 13.88,
+              "end": 14.12,
+              "probability": 0.9914303421974182,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "authoritative_text": "Whole world movin\u2019 on, but I\u2019m stuck with it (stuck with it)",
+          "lead_text": "Whole world movin\u2019 on, but I\u2019m stuck with it",
+          "matched_tokens": 9,
+          "total_tokens": 9,
+          "coverage": 1.0,
+          "start": 14.78,
+          "end": 17.16,
+          "probability_mean": 0.9070891208118863,
+          "words": [
+            {
+              "text": "whole",
+              "start": 14.78,
+              "end": 15.2,
+              "probability": 0.20531627535820007,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "world",
+              "start": 15.2,
+              "end": 15.62,
+              "probability": 0.9945001602172852,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "movin",
+              "start": 15.78,
+              "end": 15.9,
+              "probability": 0.9849256873130798,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "on",
+              "start": 15.9,
+              "end": 16.18,
+              "probability": 0.9982301592826843,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "but",
+              "start": 16.32,
+              "end": 16.32,
+              "probability": 0.9868965744972229,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "i'm",
+              "start": 16.32,
+              "end": 16.4,
+              "probability": 0.9977653324604034,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "stuck",
+              "start": 16.4,
+              "end": 16.7,
+              "probability": 0.9984601736068726,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "with",
+              "start": 16.7,
+              "end": 16.92,
+              "probability": 0.9985164999961853,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "it",
+              "start": 16.92,
+              "end": 17.16,
+              "probability": 0.9991912245750427,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": true,
+          "accepted_tokens": 8,
+          "acceptance_reason": "credible bounded ASR evidence"
+        },
+        {
+          "line_id": "section_002_line_003",
+          "authoritative_text": "Late nights starin\u2019 at the roof, can\u2019t quit (can\u2019t quit)",
+          "lead_text": "Late nights starin\u2019 at the roof, can\u2019t quit",
+          "matched_tokens": 8,
+          "total_tokens": 8,
+          "coverage": 1.0,
+          "start": 17.76,
+          "end": 19.98,
+          "probability_mean": 0.9634497910737991,
+          "words": [
+            {
+              "text": "late",
+              "start": 17.76,
+              "end": 18.02,
+              "probability": 0.7666605710983276,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "nights",
+              "start": 18.02,
+              "end": 18.26,
+              "probability": 0.9851012229919434,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "starin",
+              "start": 18.26,
+              "end": 18.56,
+              "probability": 0.9672213196754456,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "at",
+              "start": 18.56,
+              "end": 18.78,
+              "probability": 0.9982982277870178,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "the",
+              "start": 18.78,
+              "end": 18.98,
+              "probability": 0.9980646967887878,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "roof",
+              "start": 18.98,
+              "end": 19.2,
+              "probability": 0.9985507130622864,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "can't",
+              "start": 19.42,
+              "end": 19.62,
+              "probability": 0.996290385723114,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "quit",
+              "start": 19.62,
+              "end": 19.98,
+              "probability": 0.9974111914634705,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": true,
+          "accepted_tokens": 8,
+          "acceptance_reason": "credible bounded ASR evidence"
+        },
+        {
+          "line_id": "section_002_line_004",
+          "authoritative_text": "Tryna find myself while I\u2019m losin\u2019 it (losin\u2019 it)",
+          "lead_text": "Tryna find myself while I\u2019m losin\u2019 it",
+          "matched_tokens": 7,
+          "total_tokens": 7,
+          "coverage": 1.0,
+          "start": 19.98,
+          "end": 23.6,
+          "probability_mean": 0.8998970602239881,
+          "words": [
+            {
+              "text": "tryna",
+              "start": 19.98,
+              "end": 20.9,
+              "probability": 0.3478511869907379,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "find",
+              "start": 20.98,
+              "end": 21.32,
+              "probability": 0.9863098859786987,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "myself",
+              "start": 21.32,
+              "end": 21.82,
+              "probability": 0.9991642236709595,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "while",
+              "start": 21.82,
+              "end": 22.06,
+              "probability": 0.9900504350662231,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "i'm",
+              "start": 22.06,
+              "end": 22.24,
+              "probability": 0.9983676075935364,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "losin",
+              "start": 22.24,
+              "end": 22.58,
+              "probability": 0.9786856174468994,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "it",
+              "start": 22.58,
+              "end": 23.6,
+              "probability": 0.9988504648208618,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_005",
+          "authoritative_text": "Focus, focus, I can\u2019t fall apart (fall apart)",
+          "lead_text": "Focus, focus, I can\u2019t fall apart",
+          "matched_tokens": 6,
+          "total_tokens": 6,
+          "coverage": 1.0,
+          "start": 23.6,
+          "end": 25.48,
+          "probability_mean": 0.959543764591217,
+          "words": [
+            {
+              "text": "focus",
+              "start": 23.6,
+              "end": 24.2,
+              "probability": 0.7817717790603638,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "focus",
+              "start": 24.34,
+              "end": 24.42,
+              "probability": 0.9864452481269836,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "i",
+              "start": 24.58,
+              "end": 24.58,
+              "probability": 0.993104875087738,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "can't",
+              "start": 24.58,
+              "end": 24.88,
+              "probability": 0.9992977976799011,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "fall",
+              "start": 24.88,
+              "end": 25.0,
+              "probability": 0.9970535039901733,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "apart",
+              "start": 25.0,
+              "end": 25.48,
+              "probability": 0.9995893836021423,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": true,
+          "accepted_tokens": 6,
+          "acceptance_reason": "credible bounded ASR evidence"
+        },
+        {
+          "line_id": "section_002_line_006",
+          "authoritative_text": "Too much pain got engraved in my heart (my heart)",
+          "lead_text": "Too much pain got engraved in my heart",
+          "matched_tokens": 8,
+          "total_tokens": 8,
+          "coverage": 1.0,
+          "start": 26.02,
+          "end": 28.78,
+          "probability_mean": 0.9287713319063187,
+          "words": [
+            {
+              "text": "too",
+              "start": 26.02,
+              "end": 26.5,
+              "probability": 0.7916390299797058,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "much",
+              "start": 26.5,
+              "end": 26.8,
+              "probability": 0.986957848072052,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "pain",
+              "start": 26.8,
+              "end": 27.2,
+              "probability": 0.9989829659461975,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "got",
+              "start": 27.2,
+              "end": 27.42,
+              "probability": 0.7488712668418884,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "engraved",
+              "start": 27.42,
+              "end": 28.0,
+              "probability": 0.926030158996582,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "in",
+              "start": 28.0,
+              "end": 28.12,
+              "probability": 0.9810228943824768,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "my",
+              "start": 28.12,
+              "end": 28.26,
+              "probability": 0.9994437098503113,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "heart",
+              "start": 28.26,
+              "end": 28.78,
+              "probability": 0.9972227811813354,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_007",
+          "authoritative_text": "Everybody sees the smile, that\u2019s the art (that\u2019s the art)",
+          "lead_text": "Everybody sees the smile, that\u2019s the art",
+          "matched_tokens": 6,
+          "total_tokens": 7,
+          "coverage": 0.8571428571428571,
+          "start": 28.78,
+          "end": 31.56,
+          "probability_mean": 0.9717397938172022,
+          "words": [
+            {
+              "text": "everybody",
+              "start": 28.78,
+              "end": 29.66,
+              "probability": 0.895817220211029,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "sees",
+              "start": 29.66,
+              "end": 30.26,
+              "probability": 0.9820136427879333,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "smile",
+              "start": 30.42,
+              "end": 30.74,
+              "probability": 0.9991911053657532,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "that's",
+              "start": 30.98,
+              "end": 31.02,
+              "probability": 0.9973228275775909,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "the",
+              "start": 31.02,
+              "end": 31.16,
+              "probability": 0.9981132745742798,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "art",
+              "start": 31.16,
+              "end": 31.56,
+              "probability": 0.9579806923866272,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_008",
+          "authoritative_text": "They don\u2019t know all the battles in the dark (the dark)",
+          "lead_text": "They don\u2019t know all the battles in the dark",
+          "matched_tokens": 6,
+          "total_tokens": 9,
+          "coverage": 0.6666666666666666,
+          "start": 32.04,
+          "end": 33.56,
+          "probability_mean": 0.7946826765934626,
+          "words": [
+            {
+              "text": "they",
+              "start": 32.04,
+              "end": 32.28,
+              "probability": 0.4778250753879547,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "don't",
+              "start": 32.28,
+              "end": 32.68,
+              "probability": 0.9994722902774811,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "know",
+              "start": 32.68,
+              "end": 32.96,
+              "probability": 0.9997001886367798,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "all",
+              "start": 32.96,
+              "end": 33.2,
+              "probability": 0.8443812131881714,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "the",
+              "start": 33.2,
+              "end": 33.38,
+              "probability": 0.9966555833816528,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "battles",
+              "start": 33.38,
+              "end": 33.56,
+              "probability": 0.45006170868873596,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "outro",
+      "window": [
+        218.17,
+        240.024
+      ],
+      "line_ids": [
+        "section_009_line_002",
+        "section_009_line_003",
+        "section_009_line_005",
+        "section_009_line_007",
+        "section_009_line_008",
+        "section_009_line_010"
+      ],
+      "load_seconds": 2.9900509668514132,
+      "inference_seconds": 6.714444554876536,
+      "language": "en",
+      "language_probability": 1,
+      "segments": [
+        {
+          "start": 218.17,
+          "end": 222.73,
+          "text": " I won't fall",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " I",
+              "start": 218.17,
+              "end": 218.59,
+              "probability": 0.8733720779418945
+            },
+            {
+              "text": " won't",
+              "start": 218.59,
+              "end": 222.73,
+              "probability": 0.9808649122714996
+            },
+            {
+              "text": " fall",
+              "start": 222.73,
+              "end": 222.73,
+              "probability": 0.9620546698570251
+            }
+          ]
+        },
+        {
+          "start": 222.73,
+          "end": 223.23,
+          "text": " Focus",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 222.73,
+              "end": 223.23,
+              "probability": 0.7956327795982361
+            }
+          ]
+        },
+        {
+          "start": 223.23,
+          "end": 224.89,
+          "text": " Keep moving",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Keep",
+              "start": 223.23,
+              "end": 224.27,
+              "probability": 0.7669507265090942
+            },
+            {
+              "text": " moving",
+              "start": 224.27,
+              "end": 224.89,
+              "probability": 0.9856464266777039
+            }
+          ]
+        },
+        {
+          "start": 224.89,
+          "end": 226.03,
+          "text": " Focus",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 224.89,
+              "end": 226.03,
+              "probability": 0.05565180629491806
+            }
+          ]
+        },
+        {
+          "start": 226.03,
+          "end": 228.11,
+          "text": " Even when it hurts",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Even",
+              "start": 226.03,
+              "end": 226.71,
+              "probability": 0.1402253955602646
+            },
+            {
+              "text": " when",
+              "start": 226.71,
+              "end": 226.99,
+              "probability": 0.9975071549415588
+            },
+            {
+              "text": " it",
+              "start": 226.99,
+              "end": 227.23,
+              "probability": 0.9975664615631104
+            },
+            {
+              "text": " hurts",
+              "start": 227.23,
+              "end": 228.11,
+              "probability": 0.9840951561927795
+            }
+          ]
+        },
+        {
+          "start": 228.11,
+          "end": 228.85,
+          "text": " Focus",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 228.11,
+              "end": 228.85,
+              "probability": 0.26538845896720886
+            }
+          ]
+        },
+        {
+          "start": 228.85,
+          "end": 230.57,
+          "text": " One more step",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " One",
+              "start": 228.85,
+              "end": 229.61,
+              "probability": 0.6528660655021667
+            },
+            {
+              "text": " more",
+              "start": 229.61,
+              "end": 229.95,
+              "probability": 0.9967867136001587
+            },
+            {
+              "text": " step",
+              "start": 229.95,
+              "end": 230.57,
+              "probability": 0.4398293197154999
+            }
+          ]
+        },
+        {
+          "start": 231.19,
+          "end": 234.01,
+          "text": " One more day",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " One",
+              "start": 231.19,
+              "end": 232.39,
+              "probability": 0.8194554448127747
+            },
+            {
+              "text": " more",
+              "start": 232.39,
+              "end": 232.79,
+              "probability": 0.9750375747680664
+            },
+            {
+              "text": " day",
+              "start": 232.79,
+              "end": 234.01,
+              "probability": 0.9972460269927979
+            }
+          ]
+        },
+        {
+          "start": 234.01,
+          "end": 234.39,
+          "text": " Yeah",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Yeah",
+              "start": 234.01,
+              "end": 234.39,
+              "probability": 0.046404171735048294
+            }
+          ]
+        },
+        {
+          "start": 238.61,
+          "end": 239.97,
+          "text": " Focus",
+          "avg_logprob": -0.2978871734369369,
+          "no_speech_prob": 0.048314567655324936,
+          "words": [
+            {
+              "text": " Focus",
+              "start": 238.61,
+              "end": 239.97,
+              "probability": 0.39261335134506226
+            }
+          ]
+        }
+      ],
+      "asr_word_count": 20,
+      "authoritative_token_count": 14,
+      "matched_tokens": 13,
+      "coverage": 0.9285714285714286,
+      "unresolved_tokens": 1,
+      "lines": [
+        {
+          "line_id": "section_009_line_002",
+          "authoritative_text": "Yeah\u2026",
+          "lead_text": "Yeah\u2026",
+          "matched_tokens": 0,
+          "total_tokens": 1,
+          "coverage": 0.0,
+          "start": null,
+          "end": null,
+          "probability_mean": 0.0,
+          "words": [],
+          "accepted_direct_evidence": false,
+          "accepted_tokens": 0,
+          "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+        },
+        {
+          "line_id": "section_009_line_003",
+          "authoritative_text": "Keep movin\u2019\u2026",
+          "lead_text": "Keep movin\u2019\u2026",
+          "matched_tokens": 2,
+          "total_tokens": 2,
+          "coverage": 1.0,
+          "start": 223.23,
+          "end": 224.89,
+          "probability_mean": 0.876298576593399,
+          "words": [
+            {
+              "text": "keep",
+              "start": 223.23,
+              "end": 224.27,
+              "probability": 0.7669507265090942,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "movin",
+              "start": 224.27,
+              "end": 224.89,
+              "probability": 0.9856464266777039,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_005",
+          "authoritative_text": "Even when it hurts\u2026",
+          "lead_text": "Even when it hurts\u2026",
+          "matched_tokens": 4,
+          "total_tokens": 4,
+          "coverage": 1.0,
+          "start": 226.03,
+          "end": 228.11,
+          "probability_mean": 0.7798485420644283,
+          "words": [
+            {
+              "text": "even",
+              "start": 226.03,
+              "end": 226.71,
+              "probability": 0.1402253955602646,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "when",
+              "start": 226.71,
+              "end": 226.99,
+              "probability": 0.9975071549415588,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "it",
+              "start": 226.99,
+              "end": 227.23,
+              "probability": 0.9975664615631104,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "hurts",
+              "start": 227.23,
+              "end": 228.11,
+              "probability": 0.9840951561927795,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_007",
+          "authoritative_text": "One more step\u2026",
+          "lead_text": "One more step\u2026",
+          "matched_tokens": 3,
+          "total_tokens": 3,
+          "coverage": 1.0,
+          "start": 228.85,
+          "end": 230.57,
+          "probability_mean": 0.6964940329392751,
+          "words": [
+            {
+              "text": "one",
+              "start": 228.85,
+              "end": 229.61,
+              "probability": 0.6528660655021667,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "more",
+              "start": 229.61,
+              "end": 229.95,
+              "probability": 0.9967867136001587,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "step",
+              "start": 229.95,
+              "end": 230.57,
+              "probability": 0.4398293197154999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_008",
+          "authoritative_text": "One more day\u2026",
+          "lead_text": "One more day\u2026",
+          "matched_tokens": 3,
+          "total_tokens": 3,
+          "coverage": 1.0,
+          "start": 231.19,
+          "end": 234.01,
+          "probability_mean": 0.930579682191213,
+          "words": [
+            {
+              "text": "one",
+              "start": 231.19,
+              "end": 232.39,
+              "probability": 0.8194554448127747,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "more",
+              "start": 232.39,
+              "end": 232.79,
+              "probability": 0.9750375747680664,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            },
+            {
+              "text": "day",
+              "start": 232.79,
+              "end": 234.01,
+              "probability": 0.9972460269927979,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_010",
+          "authoritative_text": "Focus.",
+          "lead_text": "Focus.",
+          "matched_tokens": 1,
+          "total_tokens": 1,
+          "coverage": 1.0,
+          "start": 238.61,
+          "end": 239.97,
+          "probability_mean": 0.39261335134506226,
+          "words": [
+            {
+              "text": "focus",
+              "start": 238.61,
+              "end": 239.97,
+              "probability": 0.39261335134506226,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_support": true
+            }
+          ],
+          "accepted_direct_evidence": false,
+          "accepted_tokens": 0,
+          "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+        }
+      ]
+    }
+  ]
+}

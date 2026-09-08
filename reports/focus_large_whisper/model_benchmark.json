@@ -1,0 +1,30 @@
+{
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "micro_window": [
+    4.8,
+    19.62
+  ],
+  "download_and_first_load_seconds": 107.7612604261376,
+  "micro_inference_seconds": 7.506496182177216,
+  "micro_total_seconds": 115.26775796758011,
+  "micro_asr_word_count": 35,
+  "micro_target_line": "Whole world movin\u2019 on, but I\u2019m stuck with it",
+  "micro_target_direct_words_at_or_above_0_5": 8,
+  "micro_target_meaningful": true,
+  "cached_group_load_seconds": 2.9900509668514132,
+  "group_total_seconds": 20.136144076939672,
+  "group_runtimes": {
+    "intro": 6.242971198167652,
+    "early_section": 7.17860899399966,
+    "outro": 6.714444554876536
+  },
+  "large_v3_turbo": {
+    "model": "large-v3-turbo",
+    "cache_bytes": 1621666023,
+    "load_seconds": 37.29450448602438,
+    "inference_seconds": 8.00053781317547,
+    "asr_word_count": 36,
+    "target_line_recognized": true,
+    "target_line_direct_words_at_or_above_0_5": 9
+  }
+}

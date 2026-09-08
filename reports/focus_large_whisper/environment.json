@@ -1,0 +1,13 @@
+{
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "faster_whisper": "1.2.1",
+  "torch": "2.7.1+cpu",
+  "python": "3.13.7",
+  "device": "cpu",
+  "compute_type": "int8",
+  "downloaded_cache_bytes": 3026902770,
+  "downloaded_cache_size": "approximately 2.9 GiB",
+  "cache_location": "~/.cache/huggingface/hub/models--distil-whisper--distil-large-v3-ct2",
+  "no_full_song_inference": true,
+  "no_prompting": true
+}

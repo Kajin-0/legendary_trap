@@ -1,0 +1,91 @@
+{
+  "lines": [
+    {
+      "line_id": "section_001_line_004",
+      "authoritative_text": "Focus\u2026",
+      "lead_text": "Focus\u2026",
+      "matched_tokens": 1,
+      "total_tokens": 1,
+      "coverage": 1.0,
+      "start": 3.12,
+      "end": 4.52,
+      "probability_mean": 0.0012526216451078653,
+      "words": [
+        {
+          "text": "focus",
+          "start": 3.12,
+          "end": 4.52,
+          "probability": 0.0012526216451078653,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": false,
+      "accepted_tokens": 0,
+      "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+    },
+    {
+      "line_id": "section_001_line_006",
+      "authoritative_text": "focus\u2026",
+      "lead_text": "focus\u2026",
+      "matched_tokens": 1,
+      "total_tokens": 1,
+      "coverage": 1.0,
+      "start": 5.62,
+      "end": 6.28,
+      "probability_mean": 0.039093855768442154,
+      "words": [
+        {
+          "text": "focus",
+          "start": 5.62,
+          "end": 6.28,
+          "probability": 0.039093855768442154,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": false,
+      "accepted_tokens": 0,
+      "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+    },
+    {
+      "line_id": "section_009_line_002",
+      "authoritative_text": "Yeah\u2026",
+      "lead_text": "Yeah\u2026",
+      "matched_tokens": 0,
+      "total_tokens": 1,
+      "coverage": 0.0,
+      "start": null,
+      "end": null,
+      "probability_mean": 0.0,
+      "words": [],
+      "accepted_direct_evidence": false,
+      "accepted_tokens": 0,
+      "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+    },
+    {
+      "line_id": "section_009_line_010",
+      "authoritative_text": "Focus.",
+      "lead_text": "Focus.",
+      "matched_tokens": 1,
+      "total_tokens": 1,
+      "coverage": 1.0,
+      "start": 238.61,
+      "end": 239.97,
+      "probability_mean": 0.39261335134506226,
+      "words": [
+        {
+          "text": "focus",
+          "start": 238.61,
+          "end": 239.97,
+          "probability": 0.39261335134506226,
+          "timing_source": "asr_distil_large_v3",
+          "acoustic_support": true
+        }
+      ],
+      "accepted_direct_evidence": false,
+      "accepted_tokens": 0,
+      "acceptance_reason": "rejected: low probability, weak coverage, or repeated-word artifact"
+    }
+  ]
+}

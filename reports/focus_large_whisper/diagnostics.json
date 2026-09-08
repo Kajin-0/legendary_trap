@@ -1,0 +1,65 @@
+{
+  "acceptance_policy": {
+    "matched_word_ratio_minimum": 0.8,
+    "line_mean_probability_minimum": 0.75,
+    "matched_word_probability_minimum": 0.5,
+    "strong_word_ratio_minimum": 0.8,
+    "estimated_or_interpolated_not_counted": true
+  },
+  "hallucination_or_weak_evidence": [
+    {
+      "line_id": "section_001_line_004",
+      "reason": "focus probability 0.001; repeated-word artifact"
+    },
+    {
+      "line_id": "section_001_line_006",
+      "reason": "focus probability 0.039; repeated-word artifact"
+    },
+    {
+      "line_id": "section_009_line_002",
+      "reason": "no direct match"
+    },
+    {
+      "line_id": "section_009_line_010",
+      "reason": "focus probability 0.393 below acceptance gate"
+    }
+  ],
+  "group_metrics": [
+    {
+      "group_id": "intro",
+      "window": [
+        0.0,
+        7.21
+      ],
+      "asr_word_count": 4,
+      "authoritative_token_count": 7,
+      "matched_tokens": 3,
+      "coverage": 0.42857142857142855,
+      "inference_seconds": 6.242971198167652
+    },
+    {
+      "group_id": "early_section",
+      "window": [
+        4.08,
+        33.58
+      ],
+      "asr_word_count": 70,
+      "authoritative_token_count": 64,
+      "matched_tokens": 60,
+      "coverage": 0.9375,
+      "inference_seconds": 7.17860899399966
+    },
+    {
+      "group_id": "outro",
+      "window": [
+        218.17,
+        240.024
+      ],
+      "asr_word_count": 20,
+      "authoritative_token_count": 14,
+      "matched_tokens": 13,
+      "coverage": 0.9285714285714286,
+      "inference_seconds": 6.714444554876536
+    }
+  ]
+}
