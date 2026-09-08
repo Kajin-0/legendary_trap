@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "track_order": [
+    "apple",
+    "chokehold",
+    "commin_long_ways",
+    "focus",
+    "off_the_wave",
+    "slidin",
+    "we_got_chemistry",
+    "you_missed_it"
+  ],
+  "songs": {
+    "apple": {"title": "AppLE", "artists": []},
+    "chokehold": {"title": "Chokehold", "artists": []},
+    "commin_long_ways": {"title": "COMIN LONG WAYS", "artists": []},
+    "focus": {"title": "FOCUS", "artists": []},
+    "off_the_wave": {"title": "Off the Wave", "artists": []},
+    "slidin": {"title": "slidin", "artists": []},
+    "we_got_chemistry": {"title": "we got chemistry", "artists": []},
+    "you_missed_it": {"title": "you missed it", "artists": []}
+  }
+}

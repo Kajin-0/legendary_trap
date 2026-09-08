@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 
-from legendary_trap.artist_lockup import artist_lockup_for_song
+from legendary_trap.artist_lockup import artist_lockup_for_song, format_artist_names
 from legendary_trap.audio_features import (
     LOW_SPECTRUM_BINS,
     LOW_SPECTRUM_MAX_HZ,
@@ -12,6 +12,7 @@ from legendary_trap.audio_features import (
     extract_features,
 )
 from legendary_trap.visualizer import (
+    APPROVED_POLAR_LOW_MAX_HZ,
     HEIGHT,
     PRESETS,
     WIDTH,
@@ -100,6 +101,15 @@ def test_artist_lockup_does_not_fabricate_missing_identity_or_assets() -> None:
     assert lockup.name is None
     assert lockup.pfp_path is None
     assert lockup.asset_status == "missing_authoritative_artist_metadata"
+
+
+def test_artist_lockup_supports_multiple_verified_names() -> None:
+    assert format_artist_names(("Artist One", "Artist Two")) == "Artist One × Artist Two"
+
+
+def test_artist_preview_uses_approved_350_hz_polar_cutoff() -> None:
+    assert APPROVED_POLAR_LOW_MAX_HZ == 350.0
+    assert PRESETS["trap_polar_350_artistlockup"].visualizer == "trap_sunset_polar_v3"
 
 
 def test_low_cutoff_variants_are_explicit(tmp_path: Path) -> None:

@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 FFMPEG = ROOT / "tools" / "ffmpeg-7.0.2-amd64-static" / "ffmpeg"
 WIDTH, HEIGHT = 960, 540
 FPS = 30
+APPROVED_POLAR_LOW_MAX_HZ = 350.0
 
 
 @dataclass(frozen=True)
