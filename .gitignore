@@ -53,3 +53,8 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local third-party compatibility checkout and model; never commit the upstream binary.
+third_party/lyrics-aligner/
+.venv-lyrics-aligner/
+.envs/lyrics-aligner/

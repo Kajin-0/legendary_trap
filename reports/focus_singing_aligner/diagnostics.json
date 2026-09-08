@@ -1,0 +1,76 @@
+{
+  "total_group_runtime_seconds": 186.71162864519283,
+  "groups": [
+    {
+      "group_id": "intro",
+      "window_start": 0.0,
+      "window_end": 7.21,
+      "phoneme_count": 30,
+      "supported_phonemes": 2,
+      "phoneme_acoustic_coverage": 0.06666666666666667,
+      "model_runtime_seconds": 35.44855844322592,
+      "vocal_magnitude_median": 31.948963165283203,
+      "vocal_magnitude_p95": 176.36764526367188
+    },
+    {
+      "group_id": "early_section",
+      "window_start": 4.8,
+      "window_end": 19.62,
+      "phoneme_count": 169,
+      "supported_phonemes": 2,
+      "phoneme_acoustic_coverage": 0.011834319526627219,
+      "model_runtime_seconds": 63.51813524775207,
+      "vocal_magnitude_median": 93.7169189453125,
+      "vocal_magnitude_p95": 182.61831665039062
+    },
+    {
+      "group_id": "outro",
+      "window_start": 218.17,
+      "window_end": 240.024,
+      "phoneme_count": 59,
+      "supported_phonemes": 1,
+      "phoneme_acoustic_coverage": 0.01694915254237288,
+      "model_runtime_seconds": 86.56292450800538,
+      "vocal_magnitude_median": 37.673912048339844,
+      "vocal_magnitude_p95": 118.86763763427734
+    }
+  ],
+  "evidence_rule": "word is direct only when mean phoneme support >= 0.5; line recovery requires credible word support; forced placements alone never count",
+  "target_lines": [
+    {
+      "line_id": "section_001_line_004",
+      "supported_words": 0,
+      "word_count": 1
+    },
+    {
+      "line_id": "section_001_line_006",
+      "supported_words": 0,
+      "word_count": 1
+    },
+    {
+      "line_id": "section_002_line_002",
+      "supported_words": 0,
+      "word_count": 9
+    },
+    {
+      "line_id": "section_002_line_003",
+      "supported_words": 0,
+      "word_count": 8
+    },
+    {
+      "line_id": "section_002_line_005",
+      "supported_words": 0,
+      "word_count": 6
+    },
+    {
+      "line_id": "section_009_line_002",
+      "supported_words": 0,
+      "word_count": 1
+    },
+    {
+      "line_id": "section_009_line_010",
+      "supported_words": 0,
+      "word_count": 1
+    }
+  ]
+}

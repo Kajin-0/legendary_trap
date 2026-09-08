@@ -1,0 +1,17 @@
+{
+  "window": [
+    4.8,
+    19.62
+  ],
+  "transcript": "four lead-line context group containing section_002_line_002; ad-libs excluded",
+  "model_runtime_seconds": 5.5427144397981465,
+  "phoneme_count": 140,
+  "supported_phonemes": 2,
+  "phoneme_acoustic_coverage": 0.014285714285714285,
+  "target_line_meaningful_support": false,
+  "oov_words": [
+    "movin\u2019",
+    "Tryna",
+    "losin\u2019"
+  ]
+}

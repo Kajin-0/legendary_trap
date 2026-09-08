@@ -1,0 +1,433 @@
+{
+  "lines": [
+    {
+      "line_id": "section_001_line_004",
+      "section_id": "section_001",
+      "authoritative_text": "Focus\u2026",
+      "window": [
+        0.6,
+        0.877
+      ],
+      "word_count": 1,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Focus",
+          "start": 4.416,
+          "end": 5.248,
+          "phoneme_count": 5,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.351106,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.351106
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_001_line_006",
+      "section_id": "section_001",
+      "authoritative_text": "focus\u2026",
+      "window": [
+        4.96,
+        5.21
+      ],
+      "word_count": 1,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "focus",
+          "start": 6.544,
+          "end": 7.04,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.112512,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.112512
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_002_line_002",
+      "section_id": "section_002",
+      "authoritative_text": "Whole world movin\u2019 on, but I\u2019m stuck with it (stuck with it)",
+      "window": [
+        6.8,
+        7.702
+      ],
+      "word_count": 9,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Whole",
+          "start": 14.944,
+          "end": 15.264,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.21086,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.21086
+        },
+        {
+          "text": "world",
+          "start": 15.296,
+          "end": 15.904,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.034927,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.034927
+        },
+        {
+          "text": "movin\u2019",
+          "start": 15.92,
+          "end": 15.984,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.055584,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.055584
+        },
+        {
+          "text": "on",
+          "start": 16.0,
+          "end": 16.208,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.202886,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.202886
+        },
+        {
+          "text": "but",
+          "start": 16.224,
+          "end": 16.272,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.054789,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.054789
+        },
+        {
+          "text": "I\u2019m",
+          "start": 16.288,
+          "end": 16.368,
+          "phoneme_count": 2,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.381337,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.381337
+        },
+        {
+          "text": "stuck",
+          "start": 16.384,
+          "end": 16.704,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.041429,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.041429
+        },
+        {
+          "text": "with",
+          "start": 16.72,
+          "end": 16.896,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.224758,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.224758
+        },
+        {
+          "text": "it",
+          "start": 16.912,
+          "end": 16.96,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.231016,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.231016
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_002_line_003",
+      "section_id": "section_002",
+      "authoritative_text": "Late nights starin\u2019 at the roof, can\u2019t quit (can\u2019t quit)",
+      "window": [
+        7.702,
+        8.603
+      ],
+      "word_count": 8,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Late",
+          "start": 16.976,
+          "end": 17.024,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.090752,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.090752
+        },
+        {
+          "text": "nights",
+          "start": 17.04,
+          "end": 17.104,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.003027,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.003027
+        },
+        {
+          "text": "starin\u2019",
+          "start": 17.12,
+          "end": 17.216,
+          "phoneme_count": 6,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.008499,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.008499
+        },
+        {
+          "text": "at",
+          "start": 17.232,
+          "end": 17.344,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.128864,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.128864
+        },
+        {
+          "text": "the",
+          "start": 17.36,
+          "end": 17.392,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.000157,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.000157
+        },
+        {
+          "text": "roof",
+          "start": 17.408,
+          "end": 17.552,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.065309,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.065309
+        },
+        {
+          "text": "can\u2019t",
+          "start": 17.568,
+          "end": 17.808,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.087635,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.087635
+        },
+        {
+          "text": "quit",
+          "start": 17.824,
+          "end": 18.032,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.013613,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.013613
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_002_line_005",
+      "section_id": "section_002",
+      "authoritative_text": "Focus, focus, I can\u2019t fall apart (fall apart)",
+      "window": [
+        17.62,
+        18.856
+      ],
+      "word_count": 6,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Focus",
+          "start": 18.768,
+          "end": 19.04,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.043468,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.043468
+        },
+        {
+          "text": "focus",
+          "start": 19.056,
+          "end": 19.2,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.039242,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.039242
+        },
+        {
+          "text": "I",
+          "start": 19.216,
+          "end": 19.232,
+          "phoneme_count": 1,
+          "supported_phonemes": 0,
+          "phoneme_support": 4.5e-05,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 4.5e-05
+        },
+        {
+          "text": "can\u2019t",
+          "start": 19.248,
+          "end": 19.424,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.072918,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.072918
+        },
+        {
+          "text": "fall",
+          "start": 19.44,
+          "end": 19.488,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.0001,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.0001
+        },
+        {
+          "text": "apart",
+          "start": 19.504,
+          "end": 19.584,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.018513,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.018513
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_009_line_002",
+      "section_id": "section_009",
+      "authoritative_text": "Yeah\u2026",
+      "window": [
+        220.17,
+        220.82
+      ],
+      "word_count": 1,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Yeah",
+          "start": 218.186,
+          "end": 222.042,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.055429,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.055429
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    },
+    {
+      "line_id": "section_009_line_010",
+      "section_id": "section_009",
+      "authoritative_text": "Focus.",
+      "window": [
+        236.592,
+        240.024
+      ],
+      "word_count": 1,
+      "supported_words": 0,
+      "phoneme_support": [
+        {
+          "text": "Focus",
+          "start": 236.474,
+          "end": 237.098,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.1046,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.1046
+        }
+      ],
+      "line_acoustic_support": false,
+      "reason": "No credible singing-aligner word evidence; forced placement is retained only as diagnostic output."
+    }
+  ]
+}

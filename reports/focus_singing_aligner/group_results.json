@@ -1,0 +1,3296 @@
+{
+  "runtime_seconds": 186.71162864519283,
+  "groups": [
+    {
+      "window_start": 0.0,
+      "window_end": 7.21,
+      "words": [
+        {
+          "text": "Woah",
+          "start": 4.384,
+          "end": 4.4,
+          "phoneme_count": 1,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.006106,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.006106
+        },
+        {
+          "text": "Focus",
+          "start": 4.416,
+          "end": 5.248,
+          "phoneme_count": 5,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.351106,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.351106
+        },
+        {
+          "text": "Pain",
+          "start": 5.264,
+          "end": 5.472,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.135653,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.135653
+        },
+        {
+          "text": "in",
+          "start": 5.6,
+          "end": 6.288,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.212884,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.212884
+        },
+        {
+          "text": "my",
+          "start": 6.304,
+          "end": 6.336,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.000116,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.000116
+        },
+        {
+          "text": "heart",
+          "start": 6.352,
+          "end": 6.512,
+          "phoneme_count": 4,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.29416,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.29416
+        },
+        {
+          "text": "focus",
+          "start": 6.544,
+          "end": 7.04,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.112512,
+          "vocal_activity_ratio": 0.18115,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.112512
+        }
+      ],
+      "phonemes": [
+        {
+          "symbol": ">",
+          "start": 0.0,
+          "end": 4.384,
+          "support": 0.321438,
+          "frame_count": 274
+        },
+        {
+          "symbol": "W",
+          "start": 4.384,
+          "end": 4.4,
+          "support": 0.006106,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 4.4,
+          "end": 4.416,
+          "support": 0.197025,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 4.416,
+          "end": 4.512,
+          "support": 0.5,
+          "frame_count": 6
+        },
+        {
+          "symbol": "OW",
+          "start": 4.512,
+          "end": 4.64,
+          "support": 0.278759,
+          "frame_count": 8
+        },
+        {
+          "symbol": "K",
+          "start": 4.64,
+          "end": 4.784,
+          "support": 0.422776,
+          "frame_count": 9
+        },
+        {
+          "symbol": "AH",
+          "start": 4.784,
+          "end": 5.168,
+          "support": 0.095617,
+          "frame_count": 24
+        },
+        {
+          "symbol": "S",
+          "start": 5.168,
+          "end": 5.248,
+          "support": 0.45838,
+          "frame_count": 5
+        },
+        {
+          "symbol": ">",
+          "start": 5.248,
+          "end": 5.264,
+          "support": 0.177272,
+          "frame_count": 1
+        },
+        {
+          "symbol": "P",
+          "start": 5.264,
+          "end": 5.312,
+          "support": 0.076064,
+          "frame_count": 3
+        },
+        {
+          "symbol": "EY",
+          "start": 5.312,
+          "end": 5.424,
+          "support": 0.077481,
+          "frame_count": 7
+        },
+        {
+          "symbol": "N",
+          "start": 5.424,
+          "end": 5.472,
+          "support": 0.253413,
+          "frame_count": 3
+        },
+        {
+          "symbol": ">",
+          "start": 5.472,
+          "end": 5.6,
+          "support": 0.172829,
+          "frame_count": 8
+        },
+        {
+          "symbol": "IH",
+          "start": 5.6,
+          "end": 6.272,
+          "support": 0.182238,
+          "frame_count": 42
+        },
+        {
+          "symbol": "N",
+          "start": 6.272,
+          "end": 6.288,
+          "support": 0.243529,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 6.288,
+          "end": 6.304,
+          "support": 0.012903,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 6.304,
+          "end": 6.32,
+          "support": 0.000212,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 6.32,
+          "end": 6.336,
+          "support": 2.1e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 6.336,
+          "end": 6.352,
+          "support": 0.001893,
+          "frame_count": 1
+        },
+        {
+          "symbol": "HH",
+          "start": 6.352,
+          "end": 6.368,
+          "support": 0.5,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AA",
+          "start": 6.368,
+          "end": 6.4,
+          "support": 0.176224,
+          "frame_count": 2
+        },
+        {
+          "symbol": "R",
+          "start": 6.4,
+          "end": 6.432,
+          "support": 0.292499,
+          "frame_count": 2
+        },
+        {
+          "symbol": "T",
+          "start": 6.432,
+          "end": 6.512,
+          "support": 0.207918,
+          "frame_count": 5
+        },
+        {
+          "symbol": ">",
+          "start": 6.512,
+          "end": 6.544,
+          "support": 0.054622,
+          "frame_count": 2
+        },
+        {
+          "symbol": "F",
+          "start": 6.544,
+          "end": 6.672,
+          "support": 0.031152,
+          "frame_count": 8
+        },
+        {
+          "symbol": "OW",
+          "start": 6.672,
+          "end": 6.8,
+          "support": 0.203585,
+          "frame_count": 8
+        },
+        {
+          "symbol": "K",
+          "start": 6.8,
+          "end": 6.864,
+          "support": 0.088315,
+          "frame_count": 4
+        },
+        {
+          "symbol": "AH",
+          "start": 6.864,
+          "end": 6.896,
+          "support": 0.013664,
+          "frame_count": 2
+        },
+        {
+          "symbol": "S",
+          "start": 6.896,
+          "end": 7.04,
+          "support": 0.225844,
+          "frame_count": 9
+        },
+        {
+          "symbol": ">",
+          "start": 7.04,
+          "end": 7.184,
+          "support": 0.002563,
+          "frame_count": 9
+        }
+      ],
+      "phoneme_count": 30,
+      "supported_phonemes": 2,
+      "phoneme_acoustic_coverage": 0.06666666666666667,
+      "vocal_magnitude_median": 31.948963165283203,
+      "vocal_magnitude_p95": 176.36764526367188,
+      "vad_threshold": 0.0,
+      "model_runtime_seconds": 35.44855844322592,
+      "g2p": {
+        "words": [
+          {
+            "original_word": "Woah",
+            "normalized_word": "woah",
+            "phonemes": [
+              "W"
+            ],
+            "g2p_source": "g2p-en",
+            "g2p_fallback": true
+          },
+          {
+            "original_word": "Focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Pain",
+            "normalized_word": "pain",
+            "phonemes": [
+              "P",
+              "EY",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "in",
+            "normalized_word": "in",
+            "phonemes": [
+              "IH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "my",
+            "normalized_word": "my",
+            "phonemes": [
+              "M",
+              "AY"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "heart",
+            "normalized_word": "heart",
+            "phonemes": [
+              "HH",
+              "AA",
+              "R",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          }
+        ],
+        "oov_words": [
+          "Woah"
+        ]
+      },
+      "group_id": "intro"
+    },
+    {
+      "window_start": 4.8,
+      "window_end": 19.62,
+      "words": [
+        {
+          "text": "Focus",
+          "start": 4.816,
+          "end": 5.248,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.030826,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.030826
+        },
+        {
+          "text": "tears",
+          "start": 5.536,
+          "end": 6.64,
+          "phoneme_count": 4,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.268555,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.268555
+        },
+        {
+          "text": "in",
+          "start": 7.456,
+          "end": 7.776,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.061323,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.061323
+        },
+        {
+          "text": "my",
+          "start": 7.792,
+          "end": 8.96,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.373571,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.373571
+        },
+        {
+          "text": "eyes",
+          "start": 11.312,
+          "end": 11.92,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.121256,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.121256
+        },
+        {
+          "text": "but",
+          "start": 12.384,
+          "end": 12.816,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.094271,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.094271
+        },
+        {
+          "text": "I",
+          "start": 12.928,
+          "end": 13.088,
+          "phoneme_count": 1,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.285613,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.285613
+        },
+        {
+          "text": "hide",
+          "start": 13.12,
+          "end": 13.952,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.087512,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.087512
+        },
+        {
+          "text": "that",
+          "start": 13.968,
+          "end": 14.544,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.017256,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.017256
+        },
+        {
+          "text": "shit",
+          "start": 14.56,
+          "end": 14.8,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.088058,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.088058
+        },
+        {
+          "text": "Whole",
+          "start": 14.944,
+          "end": 15.264,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.21086,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.21086
+        },
+        {
+          "text": "world",
+          "start": 15.296,
+          "end": 15.904,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.034927,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.034927
+        },
+        {
+          "text": "movin\u2019",
+          "start": 15.92,
+          "end": 15.984,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.055584,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.055584
+        },
+        {
+          "text": "on",
+          "start": 16.0,
+          "end": 16.208,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.202886,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.202886
+        },
+        {
+          "text": "but",
+          "start": 16.224,
+          "end": 16.272,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.054789,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.054789
+        },
+        {
+          "text": "I\u2019m",
+          "start": 16.288,
+          "end": 16.368,
+          "phoneme_count": 2,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.381337,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.381337
+        },
+        {
+          "text": "stuck",
+          "start": 16.384,
+          "end": 16.704,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.041429,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.041429
+        },
+        {
+          "text": "with",
+          "start": 16.72,
+          "end": 16.896,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.224758,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.224758
+        },
+        {
+          "text": "it",
+          "start": 16.912,
+          "end": 16.96,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.231016,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.231016
+        },
+        {
+          "text": "Late",
+          "start": 16.976,
+          "end": 17.024,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.090752,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.090752
+        },
+        {
+          "text": "nights",
+          "start": 17.04,
+          "end": 17.104,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.003027,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.003027
+        },
+        {
+          "text": "starin\u2019",
+          "start": 17.12,
+          "end": 17.216,
+          "phoneme_count": 6,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.008499,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.008499
+        },
+        {
+          "text": "at",
+          "start": 17.232,
+          "end": 17.344,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.128864,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.128864
+        },
+        {
+          "text": "the",
+          "start": 17.36,
+          "end": 17.392,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.000157,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.000157
+        },
+        {
+          "text": "roof",
+          "start": 17.408,
+          "end": 17.552,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.065309,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.065309
+        },
+        {
+          "text": "can\u2019t",
+          "start": 17.568,
+          "end": 17.808,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.087635,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.087635
+        },
+        {
+          "text": "quit",
+          "start": 17.824,
+          "end": 18.032,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.013613,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.013613
+        },
+        {
+          "text": "Tryna",
+          "start": 18.048,
+          "end": 18.096,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.000523,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.000523
+        },
+        {
+          "text": "find",
+          "start": 18.112,
+          "end": 18.224,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.02326,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.02326
+        },
+        {
+          "text": "myself",
+          "start": 18.24,
+          "end": 18.432,
+          "phoneme_count": 6,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.092042,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.092042
+        },
+        {
+          "text": "while",
+          "start": 18.448,
+          "end": 18.528,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.000921,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.000921
+        },
+        {
+          "text": "I\u2019m",
+          "start": 18.544,
+          "end": 18.576,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.010018,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.010018
+        },
+        {
+          "text": "losin\u2019",
+          "start": 18.592,
+          "end": 18.64,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.003925,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.003925
+        },
+        {
+          "text": "it",
+          "start": 18.656,
+          "end": 18.752,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.007933,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.007933
+        },
+        {
+          "text": "Focus",
+          "start": 18.768,
+          "end": 19.04,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.043468,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.043468
+        },
+        {
+          "text": "focus",
+          "start": 19.056,
+          "end": 19.2,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.039242,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.039242
+        },
+        {
+          "text": "I",
+          "start": 19.216,
+          "end": 19.232,
+          "phoneme_count": 1,
+          "supported_phonemes": 0,
+          "phoneme_support": 4.5e-05,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 4.5e-05
+        },
+        {
+          "text": "can\u2019t",
+          "start": 19.248,
+          "end": 19.424,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.072918,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.072918
+        },
+        {
+          "text": "fall",
+          "start": 19.44,
+          "end": 19.488,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.0001,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.0001
+        },
+        {
+          "text": "apart",
+          "start": 19.504,
+          "end": 19.584,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.018513,
+          "vocal_activity_ratio": 0.513185,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.018513
+        }
+      ],
+      "phonemes": [
+        {
+          "symbol": ">",
+          "start": 4.8,
+          "end": 4.816,
+          "support": 6e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 4.816,
+          "end": 4.832,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "OW",
+          "start": 4.832,
+          "end": 4.848,
+          "support": 0.000104,
+          "frame_count": 1
+        },
+        {
+          "symbol": "K",
+          "start": 4.848,
+          "end": 4.864,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 4.864,
+          "end": 5.168,
+          "support": 0.007575,
+          "frame_count": 19
+        },
+        {
+          "symbol": "S",
+          "start": 5.168,
+          "end": 5.248,
+          "support": 0.146449,
+          "frame_count": 5
+        },
+        {
+          "symbol": ">",
+          "start": 5.248,
+          "end": 5.536,
+          "support": 0.034716,
+          "frame_count": 18
+        },
+        {
+          "symbol": "T",
+          "start": 5.536,
+          "end": 5.6,
+          "support": 0.5,
+          "frame_count": 4
+        },
+        {
+          "symbol": "EH",
+          "start": 5.6,
+          "end": 6.256,
+          "support": 0.402157,
+          "frame_count": 41
+        },
+        {
+          "symbol": "R",
+          "start": 6.256,
+          "end": 6.448,
+          "support": 0.058677,
+          "frame_count": 12
+        },
+        {
+          "symbol": "Z",
+          "start": 6.448,
+          "end": 6.64,
+          "support": 0.113386,
+          "frame_count": 12
+        },
+        {
+          "symbol": ">",
+          "start": 6.64,
+          "end": 7.456,
+          "support": 0.030836,
+          "frame_count": 51
+        },
+        {
+          "symbol": "IH",
+          "start": 7.456,
+          "end": 7.76,
+          "support": 0.122477,
+          "frame_count": 19
+        },
+        {
+          "symbol": "N",
+          "start": 7.76,
+          "end": 7.776,
+          "support": 0.000168,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 7.776,
+          "end": 7.792,
+          "support": 0.009954,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 7.792,
+          "end": 7.856,
+          "support": 0.391209,
+          "frame_count": 4
+        },
+        {
+          "symbol": "AY",
+          "start": 7.856,
+          "end": 8.96,
+          "support": 0.355932,
+          "frame_count": 69
+        },
+        {
+          "symbol": ">",
+          "start": 8.96,
+          "end": 11.312,
+          "support": 0.069698,
+          "frame_count": 147
+        },
+        {
+          "symbol": "AY",
+          "start": 11.312,
+          "end": 11.712,
+          "support": 0.087663,
+          "frame_count": 25
+        },
+        {
+          "symbol": "Z",
+          "start": 11.712,
+          "end": 11.92,
+          "support": 0.15485,
+          "frame_count": 13
+        },
+        {
+          "symbol": ">",
+          "start": 11.92,
+          "end": 12.384,
+          "support": 0.019352,
+          "frame_count": 29
+        },
+        {
+          "symbol": "B",
+          "start": 12.384,
+          "end": 12.464,
+          "support": 0.044048,
+          "frame_count": 5
+        },
+        {
+          "symbol": "AH",
+          "start": 12.464,
+          "end": 12.56,
+          "support": 0.238014,
+          "frame_count": 6
+        },
+        {
+          "symbol": "T",
+          "start": 12.56,
+          "end": 12.816,
+          "support": 0.000752,
+          "frame_count": 16
+        },
+        {
+          "symbol": ">",
+          "start": 12.816,
+          "end": 12.928,
+          "support": 0.01225,
+          "frame_count": 7
+        },
+        {
+          "symbol": "AY",
+          "start": 12.928,
+          "end": 13.088,
+          "support": 0.285613,
+          "frame_count": 10
+        },
+        {
+          "symbol": ">",
+          "start": 13.088,
+          "end": 13.12,
+          "support": 0.214754,
+          "frame_count": 2
+        },
+        {
+          "symbol": "HH",
+          "start": 13.12,
+          "end": 13.696,
+          "support": 0.187762,
+          "frame_count": 36
+        },
+        {
+          "symbol": "AY",
+          "start": 13.696,
+          "end": 13.824,
+          "support": 0.073522,
+          "frame_count": 8
+        },
+        {
+          "symbol": "D",
+          "start": 13.824,
+          "end": 13.952,
+          "support": 0.001253,
+          "frame_count": 8
+        },
+        {
+          "symbol": ">",
+          "start": 13.952,
+          "end": 13.968,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "DH",
+          "start": 13.968,
+          "end": 14.0,
+          "support": 0.018117,
+          "frame_count": 2
+        },
+        {
+          "symbol": "AE",
+          "start": 14.0,
+          "end": 14.528,
+          "support": 0.03329,
+          "frame_count": 33
+        },
+        {
+          "symbol": "T",
+          "start": 14.528,
+          "end": 14.544,
+          "support": 0.000361,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 14.544,
+          "end": 14.56,
+          "support": 0.002638,
+          "frame_count": 1
+        },
+        {
+          "symbol": "SH",
+          "start": 14.56,
+          "end": 14.704,
+          "support": 0.025349,
+          "frame_count": 9
+        },
+        {
+          "symbol": "IH",
+          "start": 14.704,
+          "end": 14.784,
+          "support": 0.12407,
+          "frame_count": 5
+        },
+        {
+          "symbol": "T",
+          "start": 14.784,
+          "end": 14.8,
+          "support": 0.114754,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 14.8,
+          "end": 14.944,
+          "support": 0.121792,
+          "frame_count": 9
+        },
+        {
+          "symbol": "HH",
+          "start": 14.944,
+          "end": 15.04,
+          "support": 0.26213,
+          "frame_count": 6
+        },
+        {
+          "symbol": "OW",
+          "start": 15.04,
+          "end": 15.104,
+          "support": 0.02572,
+          "frame_count": 4
+        },
+        {
+          "symbol": "L",
+          "start": 15.104,
+          "end": 15.264,
+          "support": 0.34473,
+          "frame_count": 10
+        },
+        {
+          "symbol": ">",
+          "start": 15.264,
+          "end": 15.296,
+          "support": 0.255841,
+          "frame_count": 2
+        },
+        {
+          "symbol": "W",
+          "start": 15.296,
+          "end": 15.36,
+          "support": 0.075701,
+          "frame_count": 4
+        },
+        {
+          "symbol": "ER",
+          "start": 15.36,
+          "end": 15.648,
+          "support": 0.045035,
+          "frame_count": 18
+        },
+        {
+          "symbol": "L",
+          "start": 15.648,
+          "end": 15.888,
+          "support": 0.018588,
+          "frame_count": 15
+        },
+        {
+          "symbol": "D",
+          "start": 15.888,
+          "end": 15.904,
+          "support": 0.000384,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 15.904,
+          "end": 15.92,
+          "support": 0.000635,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 15.92,
+          "end": 15.936,
+          "support": 0.001106,
+          "frame_count": 1
+        },
+        {
+          "symbol": "V",
+          "start": 15.936,
+          "end": 15.952,
+          "support": 5e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 15.952,
+          "end": 15.984,
+          "support": 0.165596,
+          "frame_count": 2
+        },
+        {
+          "symbol": ">",
+          "start": 15.984,
+          "end": 16.0,
+          "support": 2.3e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AA",
+          "start": 16.0,
+          "end": 16.192,
+          "support": 0.405193,
+          "frame_count": 12
+        },
+        {
+          "symbol": "N",
+          "start": 16.192,
+          "end": 16.208,
+          "support": 0.000579,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 16.208,
+          "end": 16.224,
+          "support": 0.003434,
+          "frame_count": 1
+        },
+        {
+          "symbol": "B",
+          "start": 16.224,
+          "end": 16.24,
+          "support": 0.133609,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 16.24,
+          "end": 16.256,
+          "support": 0.014148,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 16.256,
+          "end": 16.272,
+          "support": 0.01661,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 16.272,
+          "end": 16.288,
+          "support": 0.098529,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 16.288,
+          "end": 16.352,
+          "support": 0.262675,
+          "frame_count": 4
+        },
+        {
+          "symbol": "M",
+          "start": 16.352,
+          "end": 16.368,
+          "support": 0.5,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 16.368,
+          "end": 16.384,
+          "support": 1.2e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 16.384,
+          "end": 16.512,
+          "support": 0.012708,
+          "frame_count": 8
+        },
+        {
+          "symbol": "T",
+          "start": 16.512,
+          "end": 16.576,
+          "support": 0.00927,
+          "frame_count": 4
+        },
+        {
+          "symbol": "AH",
+          "start": 16.576,
+          "end": 16.64,
+          "support": 0.060527,
+          "frame_count": 4
+        },
+        {
+          "symbol": "K",
+          "start": 16.64,
+          "end": 16.704,
+          "support": 0.083213,
+          "frame_count": 4
+        },
+        {
+          "symbol": ">",
+          "start": 16.704,
+          "end": 16.72,
+          "support": 0.003788,
+          "frame_count": 1
+        },
+        {
+          "symbol": "W",
+          "start": 16.72,
+          "end": 16.816,
+          "support": 0.357919,
+          "frame_count": 6
+        },
+        {
+          "symbol": "IH",
+          "start": 16.816,
+          "end": 16.88,
+          "support": 0.266231,
+          "frame_count": 4
+        },
+        {
+          "symbol": "DH",
+          "start": 16.88,
+          "end": 16.896,
+          "support": 0.050125,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 16.896,
+          "end": 16.912,
+          "support": 0.087779,
+          "frame_count": 1
+        },
+        {
+          "symbol": "IH",
+          "start": 16.912,
+          "end": 16.944,
+          "support": 0.462005,
+          "frame_count": 2
+        },
+        {
+          "symbol": "T",
+          "start": 16.944,
+          "end": 16.96,
+          "support": 2.6e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 16.96,
+          "end": 16.976,
+          "support": 0.003705,
+          "frame_count": 1
+        },
+        {
+          "symbol": "L",
+          "start": 16.976,
+          "end": 16.992,
+          "support": 0.002745,
+          "frame_count": 1
+        },
+        {
+          "symbol": "EY",
+          "start": 16.992,
+          "end": 17.008,
+          "support": 0.264879,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 17.008,
+          "end": 17.024,
+          "support": 0.004632,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.024,
+          "end": 17.04,
+          "support": 0.064345,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 17.04,
+          "end": 17.056,
+          "support": 0.000883,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 17.056,
+          "end": 17.072,
+          "support": 0.000687,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 17.072,
+          "end": 17.088,
+          "support": 0.0014,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 17.088,
+          "end": 17.104,
+          "support": 0.009137,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.104,
+          "end": 17.12,
+          "support": 0.001679,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 17.12,
+          "end": 17.136,
+          "support": 0.002591,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 17.136,
+          "end": 17.152,
+          "support": 0.016718,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AE",
+          "start": 17.152,
+          "end": 17.168,
+          "support": 0.00014,
+          "frame_count": 1
+        },
+        {
+          "symbol": "R",
+          "start": 17.168,
+          "end": 17.184,
+          "support": 3.1e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "IH",
+          "start": 17.184,
+          "end": 17.2,
+          "support": 0.000293,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 17.2,
+          "end": 17.216,
+          "support": 0.031219,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.216,
+          "end": 17.232,
+          "support": 0.077397,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AE",
+          "start": 17.232,
+          "end": 17.328,
+          "support": 0.241613,
+          "frame_count": 6
+        },
+        {
+          "symbol": "T",
+          "start": 17.328,
+          "end": 17.344,
+          "support": 0.016116,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.344,
+          "end": 17.36,
+          "support": 0.002686,
+          "frame_count": 1
+        },
+        {
+          "symbol": "DH",
+          "start": 17.36,
+          "end": 17.376,
+          "support": 5.9e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 17.376,
+          "end": 17.392,
+          "support": 0.000254,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.392,
+          "end": 17.408,
+          "support": 0.095892,
+          "frame_count": 1
+        },
+        {
+          "symbol": "R",
+          "start": 17.408,
+          "end": 17.456,
+          "support": 0.01789,
+          "frame_count": 3
+        },
+        {
+          "symbol": "UW",
+          "start": 17.456,
+          "end": 17.536,
+          "support": 0.064096,
+          "frame_count": 5
+        },
+        {
+          "symbol": "F",
+          "start": 17.536,
+          "end": 17.552,
+          "support": 0.113942,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.552,
+          "end": 17.568,
+          "support": 0.000404,
+          "frame_count": 1
+        },
+        {
+          "symbol": "K",
+          "start": 17.568,
+          "end": 17.632,
+          "support": 0.159647,
+          "frame_count": 4
+        },
+        {
+          "symbol": "AE",
+          "start": 17.632,
+          "end": 17.776,
+          "support": 0.17882,
+          "frame_count": 9
+        },
+        {
+          "symbol": "N",
+          "start": 17.776,
+          "end": 17.792,
+          "support": 0.003036,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 17.792,
+          "end": 17.808,
+          "support": 0.009038,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 17.808,
+          "end": 17.824,
+          "support": 0.032242,
+          "frame_count": 1
+        },
+        {
+          "symbol": "K",
+          "start": 17.824,
+          "end": 17.888,
+          "support": 0.021104,
+          "frame_count": 4
+        },
+        {
+          "symbol": "W",
+          "start": 17.888,
+          "end": 17.92,
+          "support": 0.009028,
+          "frame_count": 2
+        },
+        {
+          "symbol": "IH",
+          "start": 17.92,
+          "end": 18.016,
+          "support": 0.023798,
+          "frame_count": 6
+        },
+        {
+          "symbol": "T",
+          "start": 18.016,
+          "end": 18.032,
+          "support": 0.000523,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.032,
+          "end": 18.048,
+          "support": 0.004476,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 18.048,
+          "end": 18.064,
+          "support": 0.001561,
+          "frame_count": 1
+        },
+        {
+          "symbol": "R",
+          "start": 18.064,
+          "end": 18.08,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 18.08,
+          "end": 18.096,
+          "support": 9e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.096,
+          "end": 18.112,
+          "support": 3e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 18.112,
+          "end": 18.128,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 18.128,
+          "end": 18.192,
+          "support": 0.093028,
+          "frame_count": 4
+        },
+        {
+          "symbol": "N",
+          "start": 18.192,
+          "end": 18.208,
+          "support": 4e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "D",
+          "start": 18.208,
+          "end": 18.224,
+          "support": 7e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.224,
+          "end": 18.24,
+          "support": 1e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 18.24,
+          "end": 18.256,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 18.256,
+          "end": 18.288,
+          "support": 0.185331,
+          "frame_count": 2
+        },
+        {
+          "symbol": "S",
+          "start": 18.288,
+          "end": 18.384,
+          "support": 0.366919,
+          "frame_count": 6
+        },
+        {
+          "symbol": "EH",
+          "start": 18.384,
+          "end": 18.4,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "L",
+          "start": 18.4,
+          "end": 18.416,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 18.416,
+          "end": 18.432,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.432,
+          "end": 18.448,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "W",
+          "start": 18.448,
+          "end": 18.464,
+          "support": 0.000968,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 18.464,
+          "end": 18.512,
+          "support": 0.00179,
+          "frame_count": 3
+        },
+        {
+          "symbol": "L",
+          "start": 18.512,
+          "end": 18.528,
+          "support": 5e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.528,
+          "end": 18.544,
+          "support": 1e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 18.544,
+          "end": 18.56,
+          "support": 0.020032,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 18.56,
+          "end": 18.576,
+          "support": 3e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.576,
+          "end": 18.592,
+          "support": 9.3e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "L",
+          "start": 18.592,
+          "end": 18.608,
+          "support": 5.5e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 18.608,
+          "end": 18.624,
+          "support": 2.4e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 18.624,
+          "end": 18.64,
+          "support": 0.011696,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.64,
+          "end": 18.656,
+          "support": 0.008734,
+          "frame_count": 1
+        },
+        {
+          "symbol": "IH",
+          "start": 18.656,
+          "end": 18.736,
+          "support": 0.013225,
+          "frame_count": 5
+        },
+        {
+          "symbol": "T",
+          "start": 18.736,
+          "end": 18.752,
+          "support": 0.002642,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 18.752,
+          "end": 18.768,
+          "support": 2e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 18.768,
+          "end": 18.816,
+          "support": 0.000313,
+          "frame_count": 3
+        },
+        {
+          "symbol": "OW",
+          "start": 18.816,
+          "end": 18.992,
+          "support": 0.206629,
+          "frame_count": 11
+        },
+        {
+          "symbol": "K",
+          "start": 18.992,
+          "end": 19.008,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 19.008,
+          "end": 19.024,
+          "support": 0.010396,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 19.024,
+          "end": 19.04,
+          "support": 1e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 19.04,
+          "end": 19.056,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 19.056,
+          "end": 19.072,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "OW",
+          "start": 19.072,
+          "end": 19.12,
+          "support": 0.18975,
+          "frame_count": 3
+        },
+        {
+          "symbol": "K",
+          "start": 19.12,
+          "end": 19.136,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 19.136,
+          "end": 19.152,
+          "support": 1e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 19.152,
+          "end": 19.2,
+          "support": 0.006459,
+          "frame_count": 3
+        },
+        {
+          "symbol": ">",
+          "start": 19.2,
+          "end": 19.216,
+          "support": 0.001154,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AY",
+          "start": 19.216,
+          "end": 19.232,
+          "support": 4.5e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 19.232,
+          "end": 19.248,
+          "support": 0.153134,
+          "frame_count": 1
+        },
+        {
+          "symbol": "K",
+          "start": 19.248,
+          "end": 19.376,
+          "support": 0.042041,
+          "frame_count": 8
+        },
+        {
+          "symbol": "AE",
+          "start": 19.376,
+          "end": 19.392,
+          "support": 0.249633,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 19.392,
+          "end": 19.408,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 19.408,
+          "end": 19.424,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 19.424,
+          "end": 19.44,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "F",
+          "start": 19.44,
+          "end": 19.456,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AO",
+          "start": 19.456,
+          "end": 19.472,
+          "support": 0.000291,
+          "frame_count": 1
+        },
+        {
+          "symbol": "L",
+          "start": 19.472,
+          "end": 19.488,
+          "support": 1e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 19.488,
+          "end": 19.504,
+          "support": 3.2e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 19.504,
+          "end": 19.52,
+          "support": 0.086872,
+          "frame_count": 1
+        },
+        {
+          "symbol": "P",
+          "start": 19.52,
+          "end": 19.536,
+          "support": 7.5e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AA",
+          "start": 19.536,
+          "end": 19.552,
+          "support": 0.0,
+          "frame_count": 1
+        },
+        {
+          "symbol": "R",
+          "start": 19.552,
+          "end": 19.568,
+          "support": 1e-06,
+          "frame_count": 1
+        },
+        {
+          "symbol": "T",
+          "start": 19.568,
+          "end": 19.584,
+          "support": 0.005616,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 19.584,
+          "end": 19.6,
+          "support": 0.019641,
+          "frame_count": 1
+        }
+      ],
+      "phoneme_count": 169,
+      "supported_phonemes": 2,
+      "phoneme_acoustic_coverage": 0.011834319526627219,
+      "vocal_magnitude_median": 93.7169189453125,
+      "vocal_magnitude_p95": 182.61831665039062,
+      "vad_threshold": 0.0,
+      "model_runtime_seconds": 63.51813524775207,
+      "g2p": {
+        "words": [
+          {
+            "original_word": "Focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "tears",
+            "normalized_word": "tears",
+            "phonemes": [
+              "T",
+              "EH",
+              "R",
+              "Z"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "in",
+            "normalized_word": "in",
+            "phonemes": [
+              "IH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "my",
+            "normalized_word": "my",
+            "phonemes": [
+              "M",
+              "AY"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "eyes",
+            "normalized_word": "eyes",
+            "phonemes": [
+              "AY",
+              "Z"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "but",
+            "normalized_word": "but",
+            "phonemes": [
+              "B",
+              "AH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "I",
+            "normalized_word": "i",
+            "phonemes": [
+              "AY"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "hide",
+            "normalized_word": "hide",
+            "phonemes": [
+              "HH",
+              "AY",
+              "D"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "that",
+            "normalized_word": "that",
+            "phonemes": [
+              "DH",
+              "AE",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "shit",
+            "normalized_word": "shit",
+            "phonemes": [
+              "SH",
+              "IH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Whole",
+            "normalized_word": "whole",
+            "phonemes": [
+              "HH",
+              "OW",
+              "L"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "world",
+            "normalized_word": "world",
+            "phonemes": [
+              "W",
+              "ER",
+              "L",
+              "D"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "movin\u2019",
+            "normalized_word": "movin",
+            "phonemes": [
+              "M",
+              "V",
+              "N"
+            ],
+            "g2p_source": "g2p-en",
+            "g2p_fallback": true
+          },
+          {
+            "original_word": "on",
+            "normalized_word": "on",
+            "phonemes": [
+              "AA",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "but",
+            "normalized_word": "but",
+            "phonemes": [
+              "B",
+              "AH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "I\u2019m",
+            "normalized_word": "i'm",
+            "phonemes": [
+              "AY",
+              "M"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "stuck",
+            "normalized_word": "stuck",
+            "phonemes": [
+              "S",
+              "T",
+              "AH",
+              "K"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "with",
+            "normalized_word": "with",
+            "phonemes": [
+              "W",
+              "IH",
+              "DH"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "it",
+            "normalized_word": "it",
+            "phonemes": [
+              "IH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Late",
+            "normalized_word": "late",
+            "phonemes": [
+              "L",
+              "EY",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "nights",
+            "normalized_word": "nights",
+            "phonemes": [
+              "N",
+              "AY",
+              "T",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "starin\u2019",
+            "normalized_word": "starin",
+            "phonemes": [
+              "S",
+              "T",
+              "AE",
+              "R",
+              "IH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "at",
+            "normalized_word": "at",
+            "phonemes": [
+              "AE",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "the",
+            "normalized_word": "the",
+            "phonemes": [
+              "DH",
+              "AH"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "roof",
+            "normalized_word": "roof",
+            "phonemes": [
+              "R",
+              "UW",
+              "F"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "can\u2019t",
+            "normalized_word": "can't",
+            "phonemes": [
+              "K",
+              "AE",
+              "N",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "quit",
+            "normalized_word": "quit",
+            "phonemes": [
+              "K",
+              "W",
+              "IH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Tryna",
+            "normalized_word": "tryna",
+            "phonemes": [
+              "T",
+              "R",
+              "N"
+            ],
+            "g2p_source": "g2p-en",
+            "g2p_fallback": true
+          },
+          {
+            "original_word": "find",
+            "normalized_word": "find",
+            "phonemes": [
+              "F",
+              "AY",
+              "N",
+              "D"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "myself",
+            "normalized_word": "myself",
+            "phonemes": [
+              "M",
+              "AY",
+              "S",
+              "EH",
+              "L",
+              "F"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "while",
+            "normalized_word": "while",
+            "phonemes": [
+              "W",
+              "AY",
+              "L"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "I\u2019m",
+            "normalized_word": "i'm",
+            "phonemes": [
+              "AY",
+              "M"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "losin\u2019",
+            "normalized_word": "losin",
+            "phonemes": [
+              "L",
+              "S",
+              "N"
+            ],
+            "g2p_source": "g2p-en",
+            "g2p_fallback": true
+          },
+          {
+            "original_word": "it",
+            "normalized_word": "it",
+            "phonemes": [
+              "IH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "I",
+            "normalized_word": "i",
+            "phonemes": [
+              "AY"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "can\u2019t",
+            "normalized_word": "can't",
+            "phonemes": [
+              "K",
+              "AE",
+              "N",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "fall",
+            "normalized_word": "fall",
+            "phonemes": [
+              "F",
+              "AO",
+              "L"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "apart",
+            "normalized_word": "apart",
+            "phonemes": [
+              "AH",
+              "P",
+              "AA",
+              "R",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          }
+        ],
+        "oov_words": [
+          "movin\u2019",
+          "Tryna",
+          "losin\u2019"
+        ]
+      },
+      "group_id": "early_section"
+    },
+    {
+      "window_start": 218.17,
+      "window_end": 240.024,
+      "words": [
+        {
+          "text": "Yeah",
+          "start": 218.186,
+          "end": 222.042,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.055429,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.055429
+        },
+        {
+          "text": "Keep",
+          "start": 223.994,
+          "end": 224.33,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.218788,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.218788
+        },
+        {
+          "text": "movin\u2019",
+          "start": 224.346,
+          "end": 224.394,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.055485,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.055485
+        },
+        {
+          "text": "Even",
+          "start": 224.41,
+          "end": 225.066,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.106042,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.106042
+        },
+        {
+          "text": "when",
+          "start": 225.738,
+          "end": 225.962,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.084659,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.084659
+        },
+        {
+          "text": "it",
+          "start": 226.49,
+          "end": 227.066,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.036807,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.036807
+        },
+        {
+          "text": "hurts",
+          "start": 227.082,
+          "end": 228.282,
+          "phoneme_count": 4,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.261048,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.261048
+        },
+        {
+          "text": "One",
+          "start": 228.618,
+          "end": 228.858,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.114937,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.114937
+        },
+        {
+          "text": "more",
+          "start": 229.274,
+          "end": 229.898,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.262785,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.262785
+        },
+        {
+          "text": "step",
+          "start": 229.914,
+          "end": 231.018,
+          "phoneme_count": 4,
+          "supported_phonemes": 1,
+          "phoneme_support": 0.272924,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.272924
+        },
+        {
+          "text": "One",
+          "start": 232.058,
+          "end": 232.106,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.002273,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.002273
+        },
+        {
+          "text": "more",
+          "start": 232.122,
+          "end": 232.778,
+          "phoneme_count": 3,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.135411,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.135411
+        },
+        {
+          "text": "day",
+          "start": 232.842,
+          "end": 236.346,
+          "phoneme_count": 2,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.064131,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.064131
+        },
+        {
+          "text": "Focus",
+          "start": 236.474,
+          "end": 237.098,
+          "phoneme_count": 5,
+          "supported_phonemes": 0,
+          "phoneme_support": 0.1046,
+          "vocal_activity_ratio": 0.31694,
+          "timing_source": "singing_forced_alignment",
+          "acoustic_support": false,
+          "confidence": 0.1046
+        }
+      ],
+      "phonemes": [
+        {
+          "symbol": ">",
+          "start": 218.17,
+          "end": 218.186,
+          "support": 2.2e-05,
+          "frame_count": 1
+        },
+        {
+          "symbol": "Y",
+          "start": 218.186,
+          "end": 218.202,
+          "support": 0.002231,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AE",
+          "start": 218.202,
+          "end": 222.042,
+          "support": 0.108628,
+          "frame_count": 240
+        },
+        {
+          "symbol": ">",
+          "start": 222.042,
+          "end": 223.994,
+          "support": 0.169701,
+          "frame_count": 122
+        },
+        {
+          "symbol": "K",
+          "start": 223.994,
+          "end": 224.154,
+          "support": 0.464169,
+          "frame_count": 10
+        },
+        {
+          "symbol": "IY",
+          "start": 224.154,
+          "end": 224.314,
+          "support": 0.191053,
+          "frame_count": 10
+        },
+        {
+          "symbol": "P",
+          "start": 224.314,
+          "end": 224.33,
+          "support": 0.001141,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 224.33,
+          "end": 224.346,
+          "support": 0.002082,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 224.346,
+          "end": 224.362,
+          "support": 0.009023,
+          "frame_count": 1
+        },
+        {
+          "symbol": "V",
+          "start": 224.362,
+          "end": 224.378,
+          "support": 0.00353,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 224.378,
+          "end": 224.394,
+          "support": 0.153903,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 224.394,
+          "end": 224.41,
+          "support": 0.000622,
+          "frame_count": 1
+        },
+        {
+          "symbol": "IY",
+          "start": 224.41,
+          "end": 224.554,
+          "support": 0.021524,
+          "frame_count": 9
+        },
+        {
+          "symbol": "V",
+          "start": 224.554,
+          "end": 224.602,
+          "support": 0.026853,
+          "frame_count": 3
+        },
+        {
+          "symbol": "IH",
+          "start": 224.602,
+          "end": 224.906,
+          "support": 0.213441,
+          "frame_count": 19
+        },
+        {
+          "symbol": "N",
+          "start": 224.906,
+          "end": 225.066,
+          "support": 0.162349,
+          "frame_count": 10
+        },
+        {
+          "symbol": ">",
+          "start": 225.066,
+          "end": 225.738,
+          "support": 0.109596,
+          "frame_count": 42
+        },
+        {
+          "symbol": "W",
+          "start": 225.738,
+          "end": 225.786,
+          "support": 0.11097,
+          "frame_count": 3
+        },
+        {
+          "symbol": "EH",
+          "start": 225.786,
+          "end": 225.914,
+          "support": 0.002369,
+          "frame_count": 8
+        },
+        {
+          "symbol": "N",
+          "start": 225.914,
+          "end": 225.962,
+          "support": 0.140637,
+          "frame_count": 3
+        },
+        {
+          "symbol": ">",
+          "start": 225.962,
+          "end": 226.49,
+          "support": 0.023376,
+          "frame_count": 33
+        },
+        {
+          "symbol": "IH",
+          "start": 226.49,
+          "end": 227.05,
+          "support": 0.071647,
+          "frame_count": 35
+        },
+        {
+          "symbol": "T",
+          "start": 227.05,
+          "end": 227.066,
+          "support": 0.001967,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 227.066,
+          "end": 227.082,
+          "support": 0.003048,
+          "frame_count": 1
+        },
+        {
+          "symbol": "HH",
+          "start": 227.082,
+          "end": 227.274,
+          "support": 0.29826,
+          "frame_count": 12
+        },
+        {
+          "symbol": "ER",
+          "start": 227.274,
+          "end": 227.834,
+          "support": 0.344912,
+          "frame_count": 35
+        },
+        {
+          "symbol": "T",
+          "start": 227.834,
+          "end": 228.122,
+          "support": 0.060699,
+          "frame_count": 18
+        },
+        {
+          "symbol": "S",
+          "start": 228.122,
+          "end": 228.282,
+          "support": 0.340321,
+          "frame_count": 10
+        },
+        {
+          "symbol": ">",
+          "start": 228.282,
+          "end": 228.618,
+          "support": 0.053227,
+          "frame_count": 21
+        },
+        {
+          "symbol": "W",
+          "start": 228.618,
+          "end": 228.634,
+          "support": 0.015002,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 228.634,
+          "end": 228.778,
+          "support": 0.270564,
+          "frame_count": 9
+        },
+        {
+          "symbol": "N",
+          "start": 228.778,
+          "end": 228.858,
+          "support": 0.059246,
+          "frame_count": 5
+        },
+        {
+          "symbol": ">",
+          "start": 228.858,
+          "end": 229.274,
+          "support": 0.154379,
+          "frame_count": 26
+        },
+        {
+          "symbol": "M",
+          "start": 229.274,
+          "end": 229.338,
+          "support": 0.279848,
+          "frame_count": 4
+        },
+        {
+          "symbol": "AO",
+          "start": 229.338,
+          "end": 229.802,
+          "support": 0.406173,
+          "frame_count": 29
+        },
+        {
+          "symbol": "R",
+          "start": 229.802,
+          "end": 229.898,
+          "support": 0.102334,
+          "frame_count": 6
+        },
+        {
+          "symbol": ">",
+          "start": 229.898,
+          "end": 229.914,
+          "support": 0.15069,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 229.914,
+          "end": 230.026,
+          "support": 0.5,
+          "frame_count": 7
+        },
+        {
+          "symbol": "T",
+          "start": 230.026,
+          "end": 230.122,
+          "support": 0.280063,
+          "frame_count": 6
+        },
+        {
+          "symbol": "EH",
+          "start": 230.122,
+          "end": 230.618,
+          "support": 0.161295,
+          "frame_count": 31
+        },
+        {
+          "symbol": "P",
+          "start": 230.618,
+          "end": 231.018,
+          "support": 0.150339,
+          "frame_count": 25
+        },
+        {
+          "symbol": ">",
+          "start": 231.018,
+          "end": 232.058,
+          "support": 0.023725,
+          "frame_count": 65
+        },
+        {
+          "symbol": "W",
+          "start": 232.058,
+          "end": 232.074,
+          "support": 0.006312,
+          "frame_count": 1
+        },
+        {
+          "symbol": "AH",
+          "start": 232.074,
+          "end": 232.09,
+          "support": 0.000119,
+          "frame_count": 1
+        },
+        {
+          "symbol": "N",
+          "start": 232.09,
+          "end": 232.106,
+          "support": 0.000388,
+          "frame_count": 1
+        },
+        {
+          "symbol": ">",
+          "start": 232.106,
+          "end": 232.122,
+          "support": 0.015138,
+          "frame_count": 1
+        },
+        {
+          "symbol": "M",
+          "start": 232.122,
+          "end": 232.218,
+          "support": 0.06976,
+          "frame_count": 6
+        },
+        {
+          "symbol": "AO",
+          "start": 232.218,
+          "end": 232.666,
+          "support": 0.299038,
+          "frame_count": 28
+        },
+        {
+          "symbol": "R",
+          "start": 232.666,
+          "end": 232.778,
+          "support": 0.037434,
+          "frame_count": 7
+        },
+        {
+          "symbol": ">",
+          "start": 232.778,
+          "end": 232.842,
+          "support": 0.002639,
+          "frame_count": 4
+        },
+        {
+          "symbol": "D",
+          "start": 232.842,
+          "end": 232.954,
+          "support": 0.030533,
+          "frame_count": 7
+        },
+        {
+          "symbol": "EY",
+          "start": 232.954,
+          "end": 236.346,
+          "support": 0.09773,
+          "frame_count": 212
+        },
+        {
+          "symbol": ">",
+          "start": 236.346,
+          "end": 236.474,
+          "support": 0.012282,
+          "frame_count": 8
+        },
+        {
+          "symbol": "F",
+          "start": 236.474,
+          "end": 236.57,
+          "support": 0.132807,
+          "frame_count": 6
+        },
+        {
+          "symbol": "OW",
+          "start": 236.57,
+          "end": 236.698,
+          "support": 0.161452,
+          "frame_count": 8
+        },
+        {
+          "symbol": "K",
+          "start": 236.698,
+          "end": 236.81,
+          "support": 0.089498,
+          "frame_count": 7
+        },
+        {
+          "symbol": "AH",
+          "start": 236.81,
+          "end": 236.826,
+          "support": 0.004093,
+          "frame_count": 1
+        },
+        {
+          "symbol": "S",
+          "start": 236.826,
+          "end": 237.098,
+          "support": 0.135152,
+          "frame_count": 17
+        },
+        {
+          "symbol": ">",
+          "start": 237.098,
+          "end": 239.978,
+          "support": 0.046859,
+          "frame_count": 180
+        }
+      ],
+      "phoneme_count": 59,
+      "supported_phonemes": 1,
+      "phoneme_acoustic_coverage": 0.01694915254237288,
+      "vocal_magnitude_median": 37.673912048339844,
+      "vocal_magnitude_p95": 118.86763763427734,
+      "vad_threshold": 0.0,
+      "model_runtime_seconds": 86.56292450800538,
+      "g2p": {
+        "words": [
+          {
+            "original_word": "Yeah",
+            "normalized_word": "yeah",
+            "phonemes": [
+              "Y",
+              "AE"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Keep",
+            "normalized_word": "keep",
+            "phonemes": [
+              "K",
+              "IY",
+              "P"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "movin\u2019",
+            "normalized_word": "movin",
+            "phonemes": [
+              "M",
+              "V",
+              "N"
+            ],
+            "g2p_source": "g2p-en",
+            "g2p_fallback": true
+          },
+          {
+            "original_word": "Even",
+            "normalized_word": "even",
+            "phonemes": [
+              "IY",
+              "V",
+              "IH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "when",
+            "normalized_word": "when",
+            "phonemes": [
+              "W",
+              "EH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "it",
+            "normalized_word": "it",
+            "phonemes": [
+              "IH",
+              "T"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "hurts",
+            "normalized_word": "hurts",
+            "phonemes": [
+              "HH",
+              "ER",
+              "T",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "One",
+            "normalized_word": "one",
+            "phonemes": [
+              "W",
+              "AH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "more",
+            "normalized_word": "more",
+            "phonemes": [
+              "M",
+              "AO",
+              "R"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "step",
+            "normalized_word": "step",
+            "phonemes": [
+              "S",
+              "T",
+              "EH",
+              "P"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "One",
+            "normalized_word": "one",
+            "phonemes": [
+              "W",
+              "AH",
+              "N"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "more",
+            "normalized_word": "more",
+            "phonemes": [
+              "M",
+              "AO",
+              "R"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "day",
+            "normalized_word": "day",
+            "phonemes": [
+              "D",
+              "EY"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          },
+          {
+            "original_word": "Focus",
+            "normalized_word": "focus",
+            "phonemes": [
+              "F",
+              "OW",
+              "K",
+              "AH",
+              "S"
+            ],
+            "g2p_source": "cmudict",
+            "g2p_fallback": false
+          }
+        ],
+        "oov_words": [
+          "movin\u2019"
+        ]
+      },
+      "group_id": "outro"
+    }
+  ]
+}
