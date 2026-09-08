@@ -421,7 +421,10 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         input_args.extend(["-loop", "1", "-i", str(pfp_path)])
         next_label = f"pfp_{pfp_index}"
         filter_parts.append(
-            f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos,format=rgba[{next_label}]"
+            f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos,format=rgba,"
+            "geq=lum='lum(X,Y)':a='if(lte((X-W/2)*(X-W/2)+(Y-H/2)*(Y-H/2),"
+            "(W/2)*(W/2)),255,0)'"
+            f"[{next_label}]"
         )
         output_label = f"lockup_{pfp_index}"
         x = 72 + pfp_index * 104
