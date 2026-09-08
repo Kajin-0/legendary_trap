@@ -145,8 +145,30 @@ def _hybrid_particles(preset: Preset) -> tuple[np.ndarray, ...]:
     return positions, depths, velocity, phases
 
 
+PALETTE_STOPS = np.array([
+    [68, 126, 173],   # daylight blue
+    [235, 173, 96],   # gold
+    [224, 103, 70],   # orange
+    [192, 86, 140],   # magenta
+    [70, 68, 145],    # indigo
+], dtype=np.float32)
+PALETTE_CYCLE_SECONDS = 64.0
+
+
+def palette_at_time(time_seconds: float) -> np.ndarray:
+    """Return the continuously cycling cinematic base palette."""
+    phase = (float(time_seconds) % PALETTE_CYCLE_SECONDS) / PALETTE_CYCLE_SECONDS
+    position = phase * len(PALETTE_STOPS)
+    left = int(position) % len(PALETTE_STOPS)
+    fraction = position - int(position)
+    eased = fraction * fraction * (3.0 - 2.0 * fraction)
+    right = (left + 1) % len(PALETTE_STOPS)
+    return PALETTE_STOPS[left] * (1.0 - eased) + PALETTE_STOPS[right] * eased
+
+
 def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
-                  particles: tuple[np.ndarray, ...]) -> np.ndarray:
+                  particles: tuple[np.ndarray, ...],
+                  palette_time_offset: float = 0.0) -> np.ndarray:
     """Render a dusk landscape whose physical pressure is driven by the low end."""
     t = index / features.fps
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
@@ -161,14 +183,9 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     impact = float(np.clip(0.52 * bass + 1.55 * transient + 0.55 * low_burst, 0.0, 1.8))
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
-    # Explicit day-to-sunset trajectory: smooth, slow, and independent of audio.
-    stops = np.array([[68, 126, 173], [235, 173, 96], [224, 103, 70],
-                      [192, 86, 140], [70, 68, 145]], dtype=np.float32)
-    progress = np.clip(t / 18.0, 0.0, 1.0)
-    smooth_progress = progress * progress * (3.0 - 2.0 * progress)
-    position = smooth_progress * (len(stops) - 1)
-    left = min(len(stops) - 2, int(position))
-    palette = stops[left] * (1 - position % 1) + stops[left + 1] * (position % 1)
+    # Continuous master-time palette drift.  Audio only modulates luminance;
+    # it cannot pin the scene to a terminal palette stop.
+    palette = palette_at_time(t + palette_time_offset)
     top = palette * 0.82 + np.array([0, 4, 8], dtype=np.float32)
     bottom = palette * 0.96 + np.array([12, 0, 8], dtype=np.float32)
     vertical = (yy / HEIGHT)[..., None]
@@ -178,7 +195,7 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     sun_y = HEIGHT * 0.47
     sun_distance = ((xx - sun_x) ** 2 + ((yy - sun_y) * 1.15) ** 2) / (190 + bass * 50) ** 2
     sun = np.exp(-sun_distance * 2.1) * (0.18 + 0.12 * bass + 0.05 * transient)
-    sun_color = np.array([255, 218, 142], dtype=np.float32) * (1 - smooth_progress) + np.array([255, 106, 97], dtype=np.float32) * smooth_progress
+    sun_color = palette * 0.28 + np.array([255, 184, 116], dtype=np.float32) * 0.72
     frame = frame * (1 - sun[..., None]) + sun_color * sun[..., None]
     haze = np.exp(-((yy / HEIGHT - 0.54) ** 2) / 0.055) * (0.06 + 0.08 * mids)
     haze_color = palette * 0.62 + np.array([35, 16, 24], dtype=np.float32)
@@ -311,10 +328,11 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 
 
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
-                 particles: tuple[np.ndarray, ...]) -> np.ndarray:
+                 particles: tuple[np.ndarray, ...],
+                 palette_time_offset: float = 0.0) -> np.ndarray:
     if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
                              "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
-        return _hybrid_frame(features, index, preset, particles)
+        return _hybrid_frame(features, index, preset, particles, palette_time_offset)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
@@ -395,7 +413,8 @@ def _write_png(frame: np.ndarray, path: Path) -> None:
 def render_preview(song_id: str, preset_name: str, start: float, duration: float,
                    timeout_seconds: int = 600, lyric_font: str = "Montserrat",
                    lyric_size: int = 84, low_max_hz: float = 700.0,
-                   identity_enabled: bool = True, output_path: Path | None = None) -> dict:
+                   identity_enabled: bool = True, output_path: Path | None = None,
+                   palette_time_offset: float = 0.0) -> dict:
     if output_path is not None:
         output_path = output_path.resolve()
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
@@ -441,7 +460,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     process = subprocess.Popen(command, stdin=subprocess.PIPE)
     try:
         for index in range(len(features.bass)):
-            process.stdin.write(render_frame(features, index, preset, particles).tobytes())
+                process.stdin.write(render_frame(features, index, preset, particles,
+                                                 palette_time_offset).tobytes())
         process.stdin.close()
         process.wait(timeout=timeout_seconds)
     except (BrokenPipeError, subprocess.TimeoutExpired):
@@ -449,7 +469,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         process.wait()
         raise
     still = video.with_suffix(".png")
-    _write_png(render_frame(features, len(features.bass) // 2, preset, particles), still)
+    _write_png(render_frame(features, len(features.bass) // 2, preset, particles,
+                            palette_time_offset), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
             "video": str(video.relative_to(ROOT)), "still": str(still.relative_to(ROOT)),

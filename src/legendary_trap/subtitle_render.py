@@ -11,6 +11,14 @@ def _ass_text(value: str) -> str:
     return value.replace("\\", r"\\").replace("{", r"\{").replace("}", r"\}")
 
 
+def _is_secondary_event(line: dict) -> bool:
+    """Classify only explicit adlib/parenthetical events as secondary."""
+    event_type = str(line.get("event_type", "")).lower()
+    lane = str(line.get("lane", "")).lower()
+    text = str(line.get("original_text", "")).lstrip()
+    return event_type in {"vocal_adlib", "adlib_only", "interjection"} or lane == "secondary" or text.startswith("(")
+
+
 def clip_render_document(document: dict, start: float, duration: float) -> dict:
     """Clip only positive-duration lyric events intersecting a preview window."""
     if start < 0 or duration < 0:
@@ -46,6 +54,7 @@ WrapStyle: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Lyric,{lyric_font},{lyric_size},&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,{lyric_bold},0,1,2,1,5,180,180,0,1
+Style: Adlib,{lyric_font},56,&H00E8D8C8,&H00E8D8C8,&H00141A26,&H90070B12,1,0,1,1,1,5,180,180,0,1
 Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
 
 [Events]
@@ -57,7 +66,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for line in _lines(document):
         if line["end"] <= line["start"]:
             continue
-        rows.append(f"Dialogue: 1,{_ts(line['start'], True)},{_ts(line['end'], True)},Lyric,,0,0,0,,{{\\an5\\pos(960,540)\\fad(160,220)}}{_ass_text(line['original_text'])}")
+        secondary = _is_secondary_event(line)
+        style = "Adlib" if secondary else "Lyric"
+        position = r"{\an5\pos(960,635)\fad(120,160)}" if secondary else r"{\an5\pos(960,540)\fad(160,220)}"
+        layer = 2 if secondary else 1
+        rows.append(f"Dialogue: {layer},{_ts(line['start'], True)},{_ts(line['end'], True)},{style},,0,0,0,,{position}{_ass_text(line['original_text'])}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(header + "\n".join(rows) + "\n", encoding="utf-8")
 

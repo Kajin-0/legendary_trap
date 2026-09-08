@@ -1,0 +1,71 @@
+{
+  "repairs": [
+    {
+      "song": "chokehold",
+      "line_id": "section_006_line_002",
+      "old_end": 130.032,
+      "new_end": 129.9,
+      "reason": "direct 50ms primary-primary boundary collision; minimal end clamp"
+    },
+    {
+      "song": "commin_long_ways",
+      "line_id": "section_002_line_008",
+      "old_end": 34.92,
+      "new_end": 34.88,
+      "reason": "direct 40ms primary-primary boundary collision; minimal end clamp"
+    },
+    {
+      "song": "slidin",
+      "line_id": "section_003_line_002",
+      "old_end": 28.54,
+      "new_end": 27.24,
+      "reason": "normal consecutive primary lines collided by 1.30s"
+    },
+    {
+      "song": "slidin",
+      "line_id": "section_004_line_011",
+      "old_end": 79.72,
+      "new_end": 79.58,
+      "reason": "normal consecutive primary lines collided by 0.14s"
+    },
+    {
+      "song": "you_missed_it",
+      "lines": [
+        "section_001_line_005",
+        "section_002_line_001"
+      ],
+      "reason": "intentional vocal adlib over lead; moved to distinct secondary ASS lane"
+    }
+  ],
+  "remaining_overlaps": [
+    {
+      "song": "commin_long_ways",
+      "start": 3.82,
+      "end": 4.18,
+      "overlap_seconds": 0.36,
+      "text_a": "(What? Skrrt)",
+      "text_b": "From the dirt, now we up, no debate",
+      "section_a": "section_001",
+      "section_b": "section_001",
+      "event_type_a": null,
+      "event_type_b": null,
+      "classification": "intentional_lead_adlib",
+      "handled_by": "secondary_ass_style"
+    },
+    {
+      "song": "you_missed_it",
+      "start": 10.8,
+      "end": 11.56,
+      "overlap_seconds": 0.76,
+      "text_a": "(Yeah, yeah, yeah!)]",
+      "text_b": "Yeah, she blowing up my phone, but I’m riding in a Tonka (skrrt, yeah)",
+      "section_a": "section_001",
+      "section_b": "section_002",
+      "event_type_a": "vocal_adlib",
+      "event_type_b": null,
+      "classification": "intentional_lead_adlib",
+      "handled_by": "secondary_ass_style"
+    }
+  ],
+  "unhandled_primary_primary": []
+}

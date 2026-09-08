@@ -1,0 +1,58 @@
+{
+  "song": "we_got_chemistry",
+  "target_range": [
+    160.0,
+    249.24
+  ],
+  "promoted": false,
+  "reason": "cached late high-capacity evidence maps the repeated outro occurrence ambiguously; no safe local edit was promoted",
+  "before": [
+    {
+      "line_id": "section_006_line_010",
+      "start": 224.76,
+      "end": 225.41
+    },
+    {
+      "line_id": "section_006_line_011",
+      "start": 225.41,
+      "end": 225.68
+    },
+    {
+      "line_id": "section_006_line_012",
+      "start": 225.68,
+      "end": 225.68
+    },
+    {
+      "line_id": "section_006_line_013",
+      "start": 225.68,
+      "end": 226.14
+    }
+  ],
+  "after": [
+    {
+      "line_id": "section_006_line_010",
+      "start": 224.76,
+      "end": 225.41
+    },
+    {
+      "line_id": "section_006_line_011",
+      "start": 225.41,
+      "end": 225.68
+    },
+    {
+      "line_id": "section_006_line_012",
+      "start": 225.68,
+      "end": 225.68
+    },
+    {
+      "line_id": "section_006_line_013",
+      "start": 225.68,
+      "end": 226.14
+    }
+  ],
+  "evidence": {
+    "source": "work/we_got_chemistry/large_whisper/groups.json",
+    "strong_direct_anchor_count": 0,
+    "note": "The cached pass supports alternate boundaries but also assigns repeated lines across section_006/section_007 inconsistently; preserving canonical timing is safer than shifting the final occurrence."
+  }
+}

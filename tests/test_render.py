@@ -84,3 +84,16 @@ def test_identity_mode_has_no_legacy_duplicate_title_event(tmp_path: Path) -> No
     events = [line for line in path.read_text().splitlines() if line.startswith("Dialogue:")]
     assert len(events) == 1
     assert ",Lyric,," in events[0]
+
+
+def test_adlib_overlap_uses_distinct_secondary_lane(tmp_path: Path) -> None:
+    document = {"sections": [{"lines": [
+        {"start": 1.0, "end": 2.0, "original_text": "(Yeah)", "event_type": "vocal_adlib"},
+        {"start": 1.5, "end": 3.0, "original_text": "primary lyric"},
+    ]}]}
+    path = tmp_path / "lanes.ass"
+    write_visual_ass(document, path, "focus", lyric_font="Barlow Condensed", lyric_size=90,
+                     include_title=False)
+    rows = [line for line in path.read_text().splitlines() if line.startswith("Dialogue:")]
+    assert any(",Adlib,," in row and r"\pos(960,635)" in row for row in rows)
+    assert any(",Lyric,," in row and r"\pos(960,540)" in row for row in rows)

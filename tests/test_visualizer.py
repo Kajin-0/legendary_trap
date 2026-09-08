@@ -14,9 +14,11 @@ from legendary_trap.audio_features import (
 from legendary_trap.visualizer import (
     APPROVED_POLAR_LOW_MAX_HZ,
     HEIGHT,
+    PALETTE_CYCLE_SECONDS,
     PRESETS,
     WIDTH,
     _hybrid_particles,
+    palette_at_time,
     polar_low_radii,
     render_frame,
 )
@@ -95,6 +97,13 @@ def test_polar_bottom_arc_is_reactive_but_weaker_than_top() -> None:
     bottom = np.sin(angles) > 0.04
     assert np.mean(radii[bottom] - 92.0) > 0
     assert np.mean(radii[upper] - 92.0) > np.mean(radii[bottom] - 92.0)
+
+
+def test_palette_cycles_without_terminal_freeze() -> None:
+    assert not np.array_equal(palette_at_time(30.0), palette_at_time(60.0))
+    assert np.allclose(palette_at_time(0.0), palette_at_time(PALETTE_CYCLE_SECONDS))
+    assert np.max(np.abs(palette_at_time(PALETTE_CYCLE_SECONDS - 0.001) -
+                         palette_at_time(PALETTE_CYCLE_SECONDS + 0.001))) < 1.0
 
 
 def test_artist_lockup_does_not_fabricate_missing_identity_or_assets() -> None:
