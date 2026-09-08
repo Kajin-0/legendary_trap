@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Import local song audio from the original Suno archive.
+"""Import song audio from the repository transport archive.
 
-The repository already contains authoritative lyric text. This script imports only
-source audio and verifies that the archive contains the expected lyric files.
-Legacy ASS files and image assets are intentionally ignored.
+The repository contains authoritative lyric text plus a tracked source/Suno.zip
+transport artifact. This script extracts only source audio, verifies that the ZIP
+lyrics exactly match the committed authoritative lyrics, and ignores legacy ASS
+files and image assets.
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "song_manifest.json"
+DEFAULT_ARCHIVE = ROOT / "source" / "Suno.zip"
 
 
 def normalize_text(data: bytes) -> str:
@@ -34,7 +36,13 @@ def find_member(zf: zipfile.ZipFile, basename: str) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("archive", type=Path, help="Path to Suno.zip")
+    parser.add_argument(
+        "archive",
+        nargs="?",
+        type=Path,
+        default=DEFAULT_ARCHIVE,
+        help="Path to Suno.zip (default: source/Suno.zip)",
+    )
     parser.add_argument(
         "--overwrite-audio",
         action="store_true",
@@ -45,6 +53,10 @@ def main() -> int:
     archive = args.archive.expanduser().resolve()
     if not archive.is_file():
         print(f"ERROR: archive not found: {archive}", file=sys.stderr)
+        print(
+            "Upload Suno.zip to source/Suno.zip in GitHub, then git pull on the VPS.",
+            file=sys.stderr,
+        )
         return 2
 
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
@@ -70,7 +82,6 @@ def main() -> int:
             audio_dest = ROOT / song["audio_path"]
             lyric_dest = ROOT / song["lyrics_path"]
 
-            # Verify the archive lyric against the committed authoritative text.
             if not lyric_dest.is_file():
                 failures.append(f"{song_id}: committed lyric missing: {lyric_dest}")
                 continue
