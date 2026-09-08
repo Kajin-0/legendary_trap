@@ -20,6 +20,20 @@ PHONEME_MAP_PATH = UPSTREAM / "files" / "phoneme2idx.pickle"
 _MODEL_CACHE = None
 
 
+def _install_stft_compat(torch_module) -> None:
+    """Make the 2021 upstream STFT call loadable on modern Torch."""
+    if getattr(torch_module.stft, "_legendary_trap_compat", False):
+        return
+    original = torch_module.stft
+
+    def compatible_stft(*args, **kwargs):
+        kwargs.setdefault("return_complex", False)
+        return original(*args, **kwargs)
+
+    compatible_stft._legendary_trap_compat = True
+    torch_module.stft = compatible_stft
+
+
 def _clean_word(word: str) -> str:
     return (word.lower().replace("’", "'").replace("`", "'").strip("'\".,!?;:()[]{}"))
 
@@ -55,17 +69,20 @@ def words_to_arpabet(words: list[str]) -> dict:
 
 
 def _load_upstream():
+    import torch
+
     global _MODEL_CACHE
     if _MODEL_CACHE is not None:
         return _MODEL_CACHE
     if str(UPSTREAM) not in sys.path:
         sys.path.insert(0, str(UPSTREAM))
+    _install_stft_compat(torch)
     import model as upstream_model
 
     with PHONEME_MAP_PATH.open("rb") as handle:
         phoneme_to_index = pickle.load(handle)
     aligner = upstream_model.InformedOpenUnmix3().eval()
-    aligner.load_state_dict(__import__("torch").load(MODEL_PATH, map_location="cpu", weights_only=False))
+    aligner.load_state_dict(torch.load(MODEL_PATH, map_location="cpu", weights_only=False))
     _MODEL_CACHE = (aligner, phoneme_to_index)
     return _MODEL_CACHE
 
