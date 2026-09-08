@@ -54,7 +54,7 @@ def test_preset_names_are_explicit() -> None:
     assert set(PRESETS) == {"orbital", "horizon", "atmospheric", "trap_sunset_hybrid", "trap_sunset_hybrid_v2",
                             "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                             "trap_polar_500hz_maximpact", "trap_polar_350hz_maximpact",
-                            "trap_polar_350_artistlockup"}
+                            "trap_polar_350_artistlockup", "artist_identity_preview"}
     assert Path("output/off_the_wave/timing.json").read_bytes() != b""
 
 
@@ -110,6 +110,7 @@ def test_artist_lockup_supports_multiple_verified_names() -> None:
 def test_artist_preview_uses_approved_350_hz_polar_cutoff() -> None:
     assert APPROVED_POLAR_LOW_MAX_HZ == 350.0
     assert PRESETS["trap_polar_350_artistlockup"].visualizer == "trap_sunset_polar_v3"
+    assert PRESETS["artist_identity_preview"].visualizer == "trap_sunset_polar_v3"
 
 
 def test_low_cutoff_variants_are_explicit(tmp_path: Path) -> None:

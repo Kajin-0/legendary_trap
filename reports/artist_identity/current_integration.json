@@ -1,0 +1,12 @@
+{
+  "assets": {
+    "jayc3": {"source": "source/jayc3.jpeg", "path": "assets/artists/jayc3.jpeg", "sha256": "529ccadfca0a1e1f62822b3c63a220db8ef48823d0e0ce43a95ee5c7f17cb361"},
+    "opptalk": {"source": "source/opptalk.webp", "path": "assets/artists/opptalk.webp", "sha256": "336238139b4872e5b704fc2e5573ed26a97c694b2287a58bccc1071f714ed40f"},
+    "prodbyapkimz": {"source": "source/prodbyapkimz.webp", "path": "assets/artists/prodbyapkimz.webp", "sha256": "48dce96950483460ea15043c734a3d2c1faf1395354f8b2c1b7bb27bd8c6d665"},
+    "thesidequest24": {"source": "source/thesidequest24.webp", "path": "assets/artists/thesidequest24.webp", "sha256": "8382203fda0b343a1c0bb4888a71c2a36244dc763706517fecfc020ed452a13d"},
+    "vonkaikills": {"source": "source/vonkaikills.jpeg", "path": "assets/artists/vonkaikills.jpeg", "sha256": "33d31fcc69bf602939c43bb92a29a09a685714866753bbb90a04ce4ee89c4792"}
+  },
+  "song_mapping_status": "unresolved_for_all_eight_songs",
+  "mapping_evidence_checked": ["MP3 format tags", "configs/songs.json", "song_manifest.json", "source filenames"],
+  "preview_status": "not_rendered_without_authoritative_song_artist_mapping"
+}

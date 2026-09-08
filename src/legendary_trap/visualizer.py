@@ -56,6 +56,9 @@ PRESETS = {
     "trap_polar_350_artistlockup": Preset("trap_polar_350_artistlockup", (8, 5, 16),
                                            (242, 128, 73), (104, 81, 202),
                                            "trap_sunset_polar_v3", 180, 360),
+    "artist_identity_preview": Preset("artist_identity_preview", (8, 5, 16),
+                                       (242, 128, 73), (104, 81, 202),
+                                       "trap_sunset_polar_v3", 180, 360),
 }
 
 
@@ -411,10 +414,24 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                  else _particles(preset))
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
+    filter_parts = ["[0:v]scale=1920:1080:flags=lanczos[base]"]
+    current_label = "base"
+    input_args: list[str] = []
+    for pfp_index, pfp_path in enumerate(lockup.pfp_paths):
+        input_args.extend(["-loop", "1", "-i", str(pfp_path)])
+        next_label = f"pfp_{pfp_index}"
+        filter_parts.append(
+            f"[{pfp_index + 2}:v]scale=96:96:flags=lanczos,format=rgba[{next_label}]"
+        )
+        output_label = f"lockup_{pfp_index}"
+        x = 72 + pfp_index * 104
+        filter_parts.append(f"[{current_label}][{next_label}]overlay={x}:72:format=auto[{output_label}]")
+        current_label = output_label
+    filter_parts.append(f"[{current_label}]subtitles='{subtitle_path}'[v]")
     command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
                "-pixel_format", "rgb24", "-video_size", f"{WIDTH}x{HEIGHT}", "-framerate", str(FPS),
                "-i", "-", "-ss", str(start), "-t", str(duration), "-i", str(source),
-               "-filter_complex", f"[0:v]scale=1920:1080:flags=lanczos,subtitles='{subtitle_path}'[v]",
+               *input_args, "-filter_complex", ";".join(filter_parts),
                "-map", "[v]", "-map", "1:a:0", "-c:v", "libx264", "-preset", "veryfast",
                "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k",
                "-shortest", "-movflags", "+faststart", str(video)]

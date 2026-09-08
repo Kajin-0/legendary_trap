@@ -1,4 +1,10 @@
 {
   "schema_version": 1,
-  "artists": {}
+  "artists": {
+    "jayc3": {"display_name": "jayc3", "pfp": "assets/artists/jayc3.jpeg"},
+    "opptalk": {"display_name": "opptalk", "pfp": "assets/artists/opptalk.webp"},
+    "prodbyapkimz": {"display_name": "prodbyapkimz", "pfp": "assets/artists/prodbyapkimz.webp"},
+    "thesidequest24": {"display_name": "thesidequest24", "pfp": "assets/artists/thesidequest24.webp"},
+    "vonkaikills": {"display_name": "vonkaikills", "pfp": "assets/artists/vonkaikills.jpeg"}
+  }
 }

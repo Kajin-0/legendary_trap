@@ -1,10 +1,10 @@
 # Artist identity and future compilation
 
-The bounded recovery audit found no authoritative artist names or PFPs in the
-working tree, ignored project files, reachable Git history, branches, tags,
-stashes, unreachable Git objects, or targeted adjacent project directories.
-The catalog therefore intentionally contains empty artist lists and no image
-files. No unrelated image was reused.
+The five authoritative source images are now preserved byte-for-byte under
+`assets/artists/` and registered in `configs/artists.json`. Existing MP3 tags,
+song configuration, manifest metadata, and source filenames contain no
+authoritative song-to-artist mapping, so all eight song artist lists remain
+explicitly empty. No mapping was inferred from image appearance.
 
 `configs/songs.json` defines the fixed eight-track order and per-song artist
 slots. `configs/artists.json` is the auditable artist/PFP registry. The

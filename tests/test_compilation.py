@@ -12,7 +12,7 @@ def test_playlist_contains_the_eight_authoritative_tracks() -> None:
         "apple", "chokehold", "commin_long_ways", "focus", "off_the_wave",
         "slidin", "we_got_chemistry", "you_missed_it",
     ]
-    assert artists["artists"] == {}
+    assert set(artists["artists"]) == {"jayc3", "opptalk", "prodbyapkimz", "thesidequest24", "vonkaikills"}
 
 
 def test_compilation_offsets_are_deterministic_and_local_timing_is_untouched() -> None:
@@ -30,6 +30,17 @@ def test_missing_or_invalid_duration_is_rejected() -> None:
 def test_metadata_files_are_repository_local() -> None:
     assert Path("configs/songs.json").is_file()
     assert Path("configs/artists.json").is_file()
+
+
+def test_all_supplied_artist_assets_resolve() -> None:
+    artists = load_catalog()[1]["artists"]
+    assert set(artists) == {"jayc3", "opptalk", "prodbyapkimz", "thesidequest24", "vonkaikills"}
+    assert all(Path(record["pfp"]).is_file() for record in artists.values())
+
+
+def test_song_mappings_remain_explicitly_unresolved() -> None:
+    songs = load_catalog()[0]
+    assert all(record["artists"] == [] for record in songs["songs"].values())
 
 
 def test_artist_catalog_does_not_change_canonical_timing() -> None:
