@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
+from scipy.ndimage import rotate
 
 from .audio_features import FeatureSequence, extract_features
 from .subtitle_render import write_subtitles
@@ -36,6 +37,8 @@ PRESETS = {
     "atmospheric": Preset("atmospheric", (9, 7, 18), (229, 131, 190), (83, 155, 255), "atmospheric", 96, 360),
     "trap_sunset_hybrid": Preset("trap_sunset_hybrid", (8, 5, 16), (242, 128, 73),
                                   (104, 81, 202), "trap_sunset_hybrid", 126, 360),
+    "trap_sunset_hybrid_v2": Preset("trap_sunset_hybrid_v2", (8, 5, 16), (242, 128, 73),
+                                     (104, 81, 202), "trap_sunset_hybrid", 126, 360),
 }
 
 
@@ -79,10 +82,16 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     transient = float(features.transients[index])
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
-    # Continuous dusk palette drift: amber/magenta slowly gives way to violet/indigo.
-    palette = 0.5 + 0.5 * np.sin(t * 0.12)
-    top = np.array([10, 8, 30], dtype=np.float32) * (1 - palette) + np.array([22, 7, 31], dtype=np.float32) * palette
-    bottom = np.array([51, 19, 36], dtype=np.float32) * (1 - palette) + np.array([18, 17, 58], dtype=np.float32) * palette
+    # Explicit day-to-sunset trajectory: smooth, slow, and independent of audio.
+    stops = np.array([[68, 126, 173], [235, 173, 96], [224, 103, 70],
+                      [192, 86, 140], [70, 68, 145]], dtype=np.float32)
+    progress = np.clip(t / 18.0, 0.0, 1.0)
+    smooth_progress = progress * progress * (3.0 - 2.0 * progress)
+    position = smooth_progress * (len(stops) - 1)
+    left = min(len(stops) - 2, int(position))
+    palette = stops[left] * (1 - position % 1) + stops[left + 1] * (position % 1)
+    top = palette * 0.82 + np.array([0, 4, 8], dtype=np.float32)
+    bottom = palette * 0.96 + np.array([12, 0, 8], dtype=np.float32)
     vertical = (yy / HEIGHT)[..., None]
     frame[:] = top * (1 - vertical) + bottom * vertical
     # Moving sunset disc and haze layers establish depth without becoming literal footage.
@@ -90,10 +99,11 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     sun_y = HEIGHT * 0.47
     sun_distance = ((xx - sun_x) ** 2 + ((yy - sun_y) * 1.15) ** 2) / (190 + bass * 50) ** 2
     sun = np.exp(-sun_distance * 2.1) * (0.18 + 0.12 * bass + 0.05 * transient)
-    sun_color = np.array([255, 118, 58], dtype=np.float32)
+    sun_color = np.array([255, 218, 142], dtype=np.float32) * (1 - smooth_progress) + np.array([255, 106, 97], dtype=np.float32) * smooth_progress
     frame = frame * (1 - sun[..., None]) + sun_color * sun[..., None]
     haze = np.exp(-((yy / HEIGHT - 0.54) ** 2) / 0.055) * (0.06 + 0.08 * mids)
-    frame = frame * (1 - haze[..., None]) + np.array([153, 63, 98], dtype=np.float32) * haze[..., None]
+    haze_color = palette * 0.62 + np.array([35, 16, 24], dtype=np.float32)
+    frame = frame * (1 - haze[..., None]) + haze_color * haze[..., None]
     # Distant layered terrain and a low road/horizon silhouette.
     horizon = HEIGHT * 0.66
     distant = horizon - 32 - 20 * np.sin(xx / 100 + t * 0.04) - 11 * np.sin(xx / 37 - t * 0.02)
@@ -115,31 +125,47 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     py = (positions[:, 1] + velocity[:, 1] * t * speed +
           np.cos(phases * 0.8 + t * 0.18) * 0.004) % 1.0
     px, py = (px * WIDTH).astype(np.int32), (py * HEIGHT).astype(np.int32)
-    particle_alpha = (0.025 + depths * (0.08 + 0.12 * highs + 0.08 * transient)).astype(np.float32)
-    _blend(frame, px, py, (245, 173, 112), particle_alpha)
-    # Low-centered filled spectrum: a body, crisp core, and soft reflected haze.
-    x = np.linspace(90, WIDTH - 90, len(features.spectrum[index]))
-    baseline = HEIGHT * 0.68
-    body = 8 + features.spectrum[index] * (29 + 39 * bass) + 8 * mids
-    for fraction, alpha in [(1.9, 0.035), (1.35, 0.075), (1.0, 0.22)]:
-        _blend(frame, x, baseline - body * fraction, (245, 124, 79), alpha)
-        _blend(frame, x, baseline + body * fraction * 0.45, (116, 79, 191), alpha * 0.55)
-    # Fill a thin musical body between the spectrum edge and baseline.
-    for fill in np.linspace(0, 1, 5):
-        _blend(frame, x, baseline - body * fill, (232, 112, 84), 0.12 * (1 - fill) + 0.03)
-    _blend(frame, x, baseline - body, (255, 190, 125), 0.90)
-    _blend(frame, x, baseline + body * 0.54, (96, 79, 189), 0.24)
+    particle_alpha = (0.035 + depths * (0.09 + 0.14 * highs + 0.10 * transient)).astype(np.float32)
+    particle_color = tuple(np.clip(palette * 0.72 + np.array([65, 50, 42]), 0, 255))
+    _blend(frame, px, py, particle_color, particle_alpha)
+    # Low-centered filled energy ribbon: integrated mass replaces the analyzer strip.
+    x = np.linspace(90, WIDTH - 90, 640)
+    raw_spectrum = np.interp(x, np.linspace(90, WIDTH - 90, len(features.spectrum[index])), features.spectrum[index])
+    smooth_spectrum = np.convolve(raw_spectrum, np.ones(17) / 17, mode="same")
+    low_bias = 1.22 - 0.42 * np.linspace(0, 1, len(raw_spectrum))
+    envelope = np.clip(smooth_spectrum * low_bias + mids * 0.12, 0, 1)
+    baseline = HEIGHT * 0.60
+    body = 16 + envelope * (34 + 62 * bass) + mids * 9
+    glow_color = tuple(np.clip(palette * 0.84 + np.array([20, 15, 8]), 0, 255))
+    fill_levels = np.linspace(0.02, 1.0, 54)
+    fill_x = np.tile(x, len(fill_levels))
+    fill_y = np.concatenate([baseline - body * fill for fill in fill_levels])
+    fill_alpha = np.repeat(np.linspace(0.022, 0.095, len(fill_levels)), len(x))
+    _blend(frame, fill_x, fill_y, glow_color, fill_alpha)
+    # A second, dense half-pixel body keeps the shape smooth instead of dotted.
+    dense_x = np.repeat(x, 3)
+    dense_y = np.repeat(baseline - body, 3) + np.tile([0.0, 1.0, 2.0], len(x))
+    _blend(frame, dense_x, dense_y, glow_color, 0.16)
+    detail = np.clip(envelope + (raw_spectrum - smooth_spectrum) * (0.25 + highs * 0.35), 0, 1)
+    core_color = tuple(np.clip(palette * 0.58 + np.array([105, 82, 65]), 0, 255))
+    _blend(frame, x, baseline - (16 + detail * (34 + 62 * bass) + mids * 9), core_color, 0.94)
+    # Broad reflected haze, deliberately too soft to read as a second equalizer band.
+    _blend(frame, x, baseline + 48 + envelope * 18, tuple(np.clip(palette * 0.55, 0, 255)), 0.055 + bass * 0.035)
     # Reactive edge vignette: pressure tightens, then relaxes with attack/release.
     edge = np.clip(((xx - WIDTH / 2) / (WIDTH / 2)) ** 2 +
                    ((yy - HEIGHT / 2) / (HEIGHT / 2)) ** 2, 0, 1)
-    vignette = 1 - edge ** (1.25 - 0.18 * bass - 0.12 * transient) * (0.38 + 0.25 * bass + 0.12 * transient)
+    vignette = 1 - edge ** (1.25 - 0.18 * bass - 0.12 * transient) * (0.30 + 0.25 * bass + 0.12 * transient)
     frame *= vignette[..., None]
+    vignette_tint = np.clip(palette * 0.18 * edge[..., None] * (0.35 + 0.65 * bass), 0, 30)
+    frame = np.clip(frame + vignette_tint, 0, 255)
     # A restrained impact tint follows the transient rather than blinking the frame.
     frame += np.clip(transient * 18, 0, 18)
-    # Few-pixel kick-linked camera displacement: scene moves, subtitles do not.
+    # Few-pixel kick-linked camera displacement and signed sub-degree rotation.
     shake = min(4.0, 0.8 * transient + 0.35 * bass)
-    offset_x = int(np.sin(t * 48.0) * shake)
-    offset_y = int(np.cos(t * 41.0) * shake * 0.55)
+    offset_x = int(np.sin(t * 48.0 + 0.4) * shake)
+    offset_y = int(np.cos(t * 41.0 + 0.7) * shake * 0.55)
+    rotation = np.sin(t * 39.0 + 1.1) * transient * 0.16 + np.sin(t * 2.7) * bass * 0.035
+    frame = rotate(frame, float(rotation), reshape=False, order=1, mode="nearest", prefilter=False)
     frame = np.roll(frame, (offset_y, offset_x), axis=(0, 1))
     return np.clip(frame, 0, 255).astype(np.uint8)
 
@@ -239,7 +265,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     render_document["audio"]["duration_seconds"] = duration
     output_dir = ROOT / "output" / "aesthetic_previews"
     output_dir.mkdir(parents=True, exist_ok=True)
-    subtitle_paths = write_subtitles(render_document, output_dir, preset_name)
+    display_title = song_id.replace("_", " ").upper()
+    subtitle_paths = write_subtitles(render_document, output_dir, display_title)
     features = extract_features(source, start, duration, FPS)
     preset = PRESETS[preset_name]
     particles = _hybrid_particles(preset) if preset.visualizer == "trap_sunset_hybrid" else _particles(preset)

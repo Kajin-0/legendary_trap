@@ -20,8 +20,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Lyric,DejaVu Sans,56,&H00F5FBFF,&H00F5FBFF,&H00131E2E,&H96070B12,1,0,1,3,1,2,110,110,150,1
-Style: Title,DejaVu Sans,28,&H009AB9CC,&H009AB9CC,&H00131E2E,&H00000000,1,0,1,2,0,8,90,90,70,1
+Style: Lyric,Lato Semibold,58,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,2,140,140,145,1
+Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

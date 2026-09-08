@@ -20,3 +20,8 @@ policy while adding a procedural dusk landscape, three inertial particle depth
 classes, a bass-biased low horizon spectrum, transient impact motion, dynamic
 edge vignette, and continuous sunset-to-indigo palette drift. Its preview is
 delivered separately in `legendary-trap-aesthetic-previews-v2.zip`.
+
+The refined `v2` preview uses an explicit 18-second palette interpolation from
+daylight blue through gold, amber, magenta, and indigo; a dense filled ribbon
+with bass-weighted envelope; Lato Semibold centered subtitles; and signed
+sub-degree rotation layered onto the transient translation shake.
