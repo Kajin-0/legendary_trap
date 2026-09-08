@@ -62,6 +62,7 @@ def apply_you_missed_it(document: dict) -> dict:
                     (5.74, 6.2), (7.34, 11.56)]
     for line, (start, end) in zip(intro["lines"], intro_bounds):
         old = (line["start"], line["end"])
+        line["event_type"], line["primary_lane"] = "adlib_only", "secondary"
         _set_bounds(line, start, end, "estimated")
         line["secondary_lane_evidence"] = "asr-base.en local intro activity"
         changes.append({"line_id": line["line_id"], "text": line["original_text"],
@@ -107,6 +108,7 @@ def apply_you_missed_it(document: dict) -> dict:
     mapped = map_sparse_events(events, acoustic, 153.36, 166.52)
     for line, mapped_event in zip(outro["lines"], mapped):
         old = (line["start"], line["end"])
+        line["event_type"], line["primary_lane"] = "adlib_only", "secondary"
         source = "local_adlib_asr" if mapped_event["timing_source"] == "asr" else "estimated"
         _set_bounds(line, mapped_event["start"], mapped_event["end"], source,
                     acoustic_core=(mapped_event["start"], mapped_event["end"]) if source != "estimated" else None)
