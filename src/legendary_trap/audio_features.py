@@ -7,6 +7,10 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 
+LOW_SPECTRUM_MIN_HZ = 20.0
+LOW_SPECTRUM_MAX_HZ = 700.0
+LOW_SPECTRUM_BINS = 32
+
 
 @dataclass(frozen=True)
 class FeatureSequence:
@@ -17,6 +21,7 @@ class FeatureSequence:
     highs: np.ndarray
     rms: np.ndarray
     transients: np.ndarray
+    low_spectrum: np.ndarray | None = None
 
 
 def _normalize(values: np.ndarray) -> np.ndarray:
@@ -48,7 +53,10 @@ def extract_features(path: Path, start: float, duration: float, fps: int = 30,
     fft_size = 4096
     window = np.hanning(fft_size).astype(np.float32)
     frequencies = np.fft.rfftfreq(fft_size, 1 / sample_rate)
+    low_frequencies = np.geomspace(LOW_SPECTRUM_MIN_HZ, LOW_SPECTRUM_MAX_HZ,
+                                   LOW_SPECTRUM_BINS).astype(np.float32)
     spectrum = np.zeros((frame_count, bins), dtype=np.float32)
+    low_spectrum = np.zeros((frame_count, len(low_frequencies)), dtype=np.float32)
     bass = np.zeros(frame_count, dtype=np.float32)
     mids = np.zeros(frame_count, dtype=np.float32)
     highs = np.zeros(frame_count, dtype=np.float32)
@@ -65,14 +73,24 @@ def extract_features(path: Path, start: float, duration: float, fps: int = 30,
         reshaped = np.interp(np.linspace(0, len(log_magnitudes) - 1, bins),
                              np.arange(len(log_magnitudes)), log_magnitudes)
         spectrum[index] = reshaped
+        low_values = np.interp(low_frequencies, frequencies, log_magnitudes)
+        # Give the sub/808 range more visual resolution and taper the upper
+        # low-mids so the polar geometry never becomes a treble analyzer.
+        weights = np.interp(low_frequencies, [20, 60, 180, 350, 700],
+                            [1.10, 1.28, 1.18, 0.72, 0.22])
+        low_spectrum[index] = low_values * weights
         bass[index] = log_magnitudes[(frequencies >= 20) & (frequencies < 180)].mean()
         mids[index] = log_magnitudes[(frequencies >= 180) & (frequencies < 2500)].mean()
         highs[index] = log_magnitudes[frequencies >= 2500].mean()
     normalized_spectrum = np.clip(spectrum / np.percentile(spectrum, 98), 0, 1)
+    low_spectrum = np.clip(
+        low_spectrum / max(1e-6, float(np.percentile(low_spectrum, 98))), 0, 1
+    )
     bass = _smooth(_normalize(bass), 0.24, 0.06)
     mids = _smooth(_normalize(mids), 0.38, 0.12)
     highs = _smooth(_normalize(highs), 0.62, 0.24)
     rms = _smooth(_normalize(rms), 0.28, 0.10)
     delta = np.maximum(0.0, np.diff(np.r_[rms[0], rms]))
     transients = _smooth(_normalize(delta), 0.75, 0.18)
-    return FeatureSequence(fps, normalized_spectrum.astype(np.float32), bass, mids, highs, rms, transients)
+    return FeatureSequence(fps, normalized_spectrum.astype(np.float32), bass, mids, highs,
+                           rms, transients, low_spectrum.astype(np.float32))

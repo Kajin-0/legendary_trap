@@ -1,0 +1,45 @@
+{
+  "song": "off_the_wave",
+  "segment": {"start_s": 20.0, "duration_s": 18.0, "fps": 30},
+  "feature_contract": {
+    "low_frequency_range_hz": [20.0, 700.0],
+    "sample_count": 32,
+    "mapping": "geometric/log-spaced",
+    "main_polar_high_frequency_cutoff_hz": 700.0
+  },
+  "frames": [
+    {
+      "label": "quiet",
+      "time_s": 0.0,
+      "bass": 0.1173,
+      "transient": 0.0,
+      "low_spectrum_max": 1.0,
+      "low_spectrum_mean": 0.4558,
+      "polar_max_displacement_px_internal": 61.723,
+      "left_ear_max_radius_px_internal": 153.723,
+      "right_ear_max_radius_px_internal": 153.723
+    },
+    {
+      "label": "medium",
+      "time_s": 4.767,
+      "bass": 0.4867,
+      "transient": 0.0187,
+      "low_spectrum_max": 0.9348,
+      "low_spectrum_mean": 0.5035,
+      "polar_max_displacement_px_internal": 105.472,
+      "left_ear_max_radius_px_internal": 197.472,
+      "right_ear_max_radius_px_internal": 197.472
+    },
+    {
+      "label": "808_hit",
+      "time_s": 4.867,
+      "bass": 0.7248,
+      "transient": 0.9813,
+      "low_spectrum_max": 1.0,
+      "low_spectrum_mean": 0.6088,
+      "polar_max_displacement_px_internal": 130.771,
+      "left_ear_max_radius_px_internal": 222.771,
+      "right_ear_max_radius_px_internal": 222.771
+    }
+  ]
+}

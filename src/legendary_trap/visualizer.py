@@ -39,7 +39,48 @@ PRESETS = {
                                   (104, 81, 202), "trap_sunset_hybrid", 126, 360),
     "trap_sunset_hybrid_v2": Preset("trap_sunset_hybrid_v2", (8, 5, 16), (242, 128, 73),
                                      (104, 81, 202), "trap_sunset_hybrid", 126, 360),
+    "trap_sunset_polar_lowmirror": Preset("trap_sunset_polar_lowmirror", (8, 5, 16),
+                                           (242, 128, 73), (104, 81, 202),
+                                           "trap_sunset_polar_lowmirror", 126, 360),
 }
+
+
+def mirrored_low_profile(values: np.ndarray, samples: int = 256) -> np.ndarray:
+    """Return one low-frequency profile mirrored around the polar top axis."""
+    values = np.asarray(values, dtype=np.float32).reshape(-1)
+    if values.size == 0:
+        return np.zeros(samples, dtype=np.float32)
+    source = np.clip(values, 0.0, 1.0)
+    half = max(2, samples // 2)
+    side = np.interp(np.linspace(0, len(source) - 1, half),
+                     np.arange(len(source)), source)
+    mirrored = np.concatenate([side, side[::-1]])
+    return np.interp(np.linspace(0, len(mirrored) - 1, samples),
+                     np.arange(len(mirrored)), mirrored).astype(np.float32)
+
+
+def polar_low_radii(low_profile: np.ndarray, bass: float, samples: int = 256,
+                    base_radius: float = 92.0) -> tuple[np.ndarray, np.ndarray]:
+    """Build a quiet lower halo and mirrored upper low-end lobes."""
+    angles = np.linspace(0.0, 2 * np.pi, samples, endpoint=False, dtype=np.float32)
+    upper = np.clip(-np.sin(angles), 0.0, 1.0)
+    # Two broad lobe gates place the strongest response upper-left/right while
+    # retaining the same mirrored low-spectrum source on both sides.
+    upper_u = np.mod(angles - np.pi, 2 * np.pi) / np.pi
+    symmetric_u = np.minimum(upper_u, 1.0 - upper_u) * 2.0
+    profile = np.interp(symmetric_u, np.linspace(0, 1, len(low_profile)),
+                        np.asarray(low_profile, dtype=np.float32))
+    ear_gate = np.abs(np.sin(2 * np.pi * upper_u)) ** 0.7
+    displacement = profile * (56.0 + 180.0 * float(bass)) * (0.42 + 0.78 * ear_gate)
+    radii = base_radius + 12.0 * float(bass) + upper * displacement
+    radii += (1.0 - upper) * (2.0 + 3.0 * float(bass))
+    return angles, radii.astype(np.float32)
+
+
+def _low_profile(features: FeatureSequence, index: int) -> np.ndarray:
+    if features.low_spectrum is None or features.low_spectrum.size == 0:
+        return np.zeros(32, dtype=np.float32)
+    return features.low_spectrum[index]
 
 
 def _blend(frame: np.ndarray, x: np.ndarray, y: np.ndarray, color: tuple[float, ...], alpha: np.ndarray | float) -> None:
@@ -128,29 +169,62 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     particle_alpha = (0.035 + depths * (0.09 + 0.14 * highs + 0.10 * transient)).astype(np.float32)
     particle_color = tuple(np.clip(palette * 0.72 + np.array([65, 50, 42]), 0, 255))
     _blend(frame, px, py, particle_color, particle_alpha)
-    # Low-centered filled energy ribbon: integrated mass replaces the analyzer strip.
-    x = np.linspace(90, WIDTH - 90, 640)
-    raw_spectrum = np.interp(x, np.linspace(90, WIDTH - 90, len(features.spectrum[index])), features.spectrum[index])
-    smooth_spectrum = np.convolve(raw_spectrum, np.ones(17) / 17, mode="same")
-    low_bias = 1.22 - 0.42 * np.linspace(0, 1, len(raw_spectrum))
-    envelope = np.clip(smooth_spectrum * low_bias + mids * 0.12, 0, 1)
-    baseline = HEIGHT * 0.60
-    body = 16 + envelope * (34 + 62 * bass) + mids * 9
     glow_color = tuple(np.clip(palette * 0.84 + np.array([20, 15, 8]), 0, 255))
-    fill_levels = np.linspace(0.02, 1.0, 54)
-    fill_x = np.tile(x, len(fill_levels))
-    fill_y = np.concatenate([baseline - body * fill for fill in fill_levels])
-    fill_alpha = np.repeat(np.linspace(0.022, 0.095, len(fill_levels)), len(x))
-    _blend(frame, fill_x, fill_y, glow_color, fill_alpha)
-    # A second, dense half-pixel body keeps the shape smooth instead of dotted.
-    dense_x = np.repeat(x, 3)
-    dense_y = np.repeat(baseline - body, 3) + np.tile([0.0, 1.0, 2.0], len(x))
-    _blend(frame, dense_x, dense_y, glow_color, 0.16)
-    detail = np.clip(envelope + (raw_spectrum - smooth_spectrum) * (0.25 + highs * 0.35), 0, 1)
-    core_color = tuple(np.clip(palette * 0.58 + np.array([105, 82, 65]), 0, 255))
-    _blend(frame, x, baseline - (16 + detail * (34 + 62 * bass) + mids * 9), core_color, 0.94)
-    # Broad reflected haze, deliberately too soft to read as a second equalizer band.
-    _blend(frame, x, baseline + 48 + envelope * 18, tuple(np.clip(palette * 0.55, 0, 255)), 0.055 + bass * 0.035)
+    if preset.visualizer == "trap_sunset_polar_lowmirror":
+        # The main geometry is deliberately low-frequency only. Highs remain
+        # in the particle layer above, never in this polar contour.
+        angles, radii = polar_low_radii(_low_profile(features, index), bass, samples=512)
+        center = np.array([WIDTH * 0.50, HEIGHT * 0.72], dtype=np.float32)
+        aspect = 0.78
+        upper = np.clip(-np.sin(angles), 0.0, 1.0)
+        core_color = tuple(np.clip(palette * 0.35 + np.array([180, 150, 125]), 0, 255))
+        body_color = tuple(np.clip(palette * 0.62 + np.array([78, 52, 40]), 0, 255))
+        upper_mask = upper > 0.04
+        inner_radius = 68.0 + 8.0 * bass
+        for fill in np.linspace(0.35, 1.0, 18):
+            fill_radii = inner_radius + (radii - inner_radius) * fill
+            fx = center[0] + np.cos(angles[upper_mask]) * fill_radii[upper_mask]
+            fy = center[1] + np.sin(angles[upper_mask]) * fill_radii[upper_mask] * aspect
+            _blend(frame, fx, fy, body_color, 0.026 + 0.012 * bass)
+        for scale, alpha, color in [(1.28, 0.055, glow_color), (1.12, 0.12, body_color),
+                                    (1.0, 0.98, core_color)]:
+            px = center[0] + np.cos(angles) * radii * scale
+            py = center[1] + np.sin(angles) * radii * aspect * scale
+            # Several close contours produce a filled luminous body at the
+            # 960px working resolution without turning it into an analyzer bar.
+            for offset in np.linspace(-2.5, 2.5, 5):
+                _blend(frame, px, py + offset, color, alpha / 3.0)
+            _blend(frame, px, py + 1.2, color, alpha * 0.50)
+        inner_angles = np.linspace(np.pi, 2 * np.pi, 160, endpoint=False)
+        inner_radius = 74 + 8 * bass
+        ix = center[0] + np.cos(inner_angles) * inner_radius
+        iy = center[1] + np.sin(inner_angles) * inner_radius * aspect
+        _blend(frame, ix, iy, body_color, 0.22)
+        polar_haze = np.clip(0.02 + 0.04 * bass + 0.03 * transient, 0, 0.12)
+        _blend(frame, center[0] + np.cos(angles) * radii * 1.38,
+               center[1] + np.sin(angles) * radii * aspect * 1.38,
+               tuple(np.clip(palette * 0.52, 0, 255)), polar_haze)
+    else:
+        # Legacy hybrid ribbon retained for the existing preset only.
+        x = np.linspace(90, WIDTH - 90, 640)
+        raw_spectrum = np.interp(x, np.linspace(90, WIDTH - 90, len(features.spectrum[index])), features.spectrum[index])
+        smooth_spectrum = np.convolve(raw_spectrum, np.ones(17) / 17, mode="same")
+        low_bias = 1.22 - 0.42 * np.linspace(0, 1, len(raw_spectrum))
+        envelope = np.clip(smooth_spectrum * low_bias + mids * 0.12, 0, 1)
+        baseline = HEIGHT * 0.60
+        body = 16 + envelope * (34 + 62 * bass) + mids * 9
+        fill_levels = np.linspace(0.02, 1.0, 54)
+        fill_x = np.tile(x, len(fill_levels))
+        fill_y = np.concatenate([baseline - body * fill for fill in fill_levels])
+        fill_alpha = np.repeat(np.linspace(0.022, 0.095, len(fill_levels)), len(x))
+        _blend(frame, fill_x, fill_y, glow_color, fill_alpha)
+        dense_x = np.repeat(x, 3)
+        dense_y = np.repeat(baseline - body, 3) + np.tile([0.0, 1.0, 2.0], len(x))
+        _blend(frame, dense_x, dense_y, glow_color, 0.16)
+        detail = np.clip(envelope + (raw_spectrum - smooth_spectrum) * (0.25 + highs * 0.35), 0, 1)
+        core_color = tuple(np.clip(palette * 0.58 + np.array([105, 82, 65]), 0, 255))
+        _blend(frame, x, baseline - (16 + detail * (34 + 62 * bass) + mids * 9), core_color, 0.94)
+        _blend(frame, x, baseline + 48 + envelope * 18, tuple(np.clip(palette * 0.55, 0, 255)), 0.055 + bass * 0.035)
     # Reactive edge vignette: pressure tightens, then relaxes with attack/release.
     edge = np.clip(((xx - WIDTH / 2) / (WIDTH / 2)) ** 2 +
                    ((yy - HEIGHT / 2) / (HEIGHT / 2)) ** 2, 0, 1)
@@ -172,7 +246,7 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...]) -> np.ndarray:
-    if preset.visualizer == "trap_sunset_hybrid":
+    if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror"}:
         return _hybrid_frame(features, index, preset, particles)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
@@ -269,7 +343,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     subtitle_paths = write_subtitles(render_document, output_dir, display_title)
     features = extract_features(source, start, duration, FPS)
     preset = PRESETS[preset_name]
-    particles = _hybrid_particles(preset) if preset.visualizer == "trap_sunset_hybrid" else _particles(preset)
+    particles = (_hybrid_particles(preset) if preset.visualizer in
+                 {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror"} else _particles(preset))
     video = output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     command = [str(FFMPEG), "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo",
