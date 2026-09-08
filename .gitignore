@@ -1,8 +1,8 @@
 # Source transport archive
-# Suno.zip is intentionally tracked under source/ because GitHub is the VPS transfer path.
+# GitHub web upload caps individual files at 25 MB, so Suno.zip is tracked as split parts.
 *.zip
 !source/
-!source/Suno.zip
+!source/Suno.zip.part-*
 
 # Local extracted audio
 input/audio/*
