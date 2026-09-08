@@ -30,14 +30,24 @@ def make_document(song_id: str, audio: dict, parsed, sections: list[dict], align
                                   "acoustic_supported": False})
             lines.append({"line_id": line.line_id, "source_line": line.source_line,
                           "original_text": line.original_text, "lead_text": line.lead_text,
-                          "adlibs": line.adlibs, "start": round(row["start"], 3),
+                          "adlibs": line.adlibs, "event_type": line.event_type,
+                          "primary_lane": line.primary_lane,
+                          "structurally_inferred": line.structurally_inferred,
+                          "start": round(row["start"], 3),
                           "end": round(max(row["start"], row["end"]), 3),
                           "confidence": round(row["confidence"], 4), "matched_tokens": row["matched_tokens"],
                           "confidence_components": {k: round(v, 4) for k, v in row["confidence_components"].items()},
                           "acoustic_start": round(row.get("acoustic_start", row["start"]), 3),
                           "acoustic_end": round(row.get("acoustic_end", row["end"]), 3),
                           "total_tokens": row["total_tokens"], "words": words})
-        rendered.append({"section_id": block["section"].section_id, "label": block["section"].label,
+        section = block["section"]
+        rendered.append({"section_id": section.section_id, "label": section.label,
+                         "raw_label": section.raw_label, "normalized_label": section.normalized_label,
+                         "structural_role": section.structural_role,
+                         "structural_inferred": section.structural_inferred,
+                         "fingerprint": section.fingerprint, "repeat_group": section.repeat_group,
+                         "occurrence_index": section.occurrence_index,
+                         "occurrence_count": section.occurrence_count,
                          "start": round(block["start"], 3), "end": round(block["end"], 3),
                          "confidence": round(sum(x["confidence"] for x in block["rows"]) / len(block["rows"],) if block["rows"] else 0, 4),
                          "lines": lines})

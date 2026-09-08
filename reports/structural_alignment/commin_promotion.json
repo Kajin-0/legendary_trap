@@ -1,0 +1,49 @@
+{
+  "song_id": "commin_long_ways",
+  "source_section": "section_004",
+  "target_section": "section_002",
+  "reason": "first chorus occurrence constrained by later identical chorus cadence",
+  "changes": [
+    {
+      "line_id": "section_002_line_004",
+      "old_start": 25.14,
+      "old_end": 25.36,
+      "new_start": 19.92,
+      "new_end": 22.94,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_002_line_005",
+      "old_start": 25.36,
+      "old_end": 25.5,
+      "new_start": 22.94,
+      "new_end": 25.84,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_002_line_006",
+      "old_start": 25.54,
+      "old_end": 25.54,
+      "new_start": 26.2,
+      "new_end": 28.96,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_002_line_007",
+      "old_start": 25.54,
+      "old_end": 31.82,
+      "new_start": 29.16,
+      "new_end": 31.88,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_002_line_008",
+      "old_start": 32.18,
+      "old_end": 34.88,
+      "new_start": 32.18,
+      "new_end": 34.92,
+      "timing_source": "repeated_section_cadence"
+    }
+  ],
+  "non_target_timing_changes": 0
+}

@@ -1,0 +1,60 @@
+{
+  "apple": {
+    "sha256": "47ccae5cfc27863e4124d75363ff878820398a06f2a73ebd6093cd044e77c634",
+    "sections": 6,
+    "lines": 55,
+    "adlib_only": 0,
+    "structurally_inferred_sections": []
+  },
+  "chokehold": {
+    "sha256": "0f6f3226360fb2fc2956730182f8340df3d3b58b82419650accde110fd17445e",
+    "sections": 6,
+    "lines": 31,
+    "adlib_only": 1,
+    "structurally_inferred_sections": []
+  },
+  "commin_long_ways": {
+    "sha256": "946034177fd378a484f40bbdd217759a5dc04890e3dff81ec23c25791141e647",
+    "sections": 7,
+    "lines": 56,
+    "adlib_only": 6,
+    "structurally_inferred_sections": []
+  },
+  "focus": {
+    "sha256": "c6b5cad5e69494e30529fff837be65d6e5058613a1da168f2efaf473468f013c",
+    "sections": 9,
+    "lines": 92,
+    "adlib_only": 10,
+    "structurally_inferred_sections": []
+  },
+  "off_the_wave": {
+    "sha256": "65f58188376c8f615ebceb5d18141e4bf67b80cb14af8caca7f0412126f97308",
+    "sections": 7,
+    "lines": 64,
+    "adlib_only": 0,
+    "structurally_inferred_sections": []
+  },
+  "slidin": {
+    "sha256": "f11788face4bd92c5423a93c1806ba104816d73e4498139d4a74304117fbd74f",
+    "sections": 4,
+    "lines": 40,
+    "adlib_only": 2,
+    "structurally_inferred_sections": []
+  },
+  "we_got_chemistry": {
+    "sha256": "84878ce78a520f176cd752b713ebfdc9c529b4f53d6f79d774ba08da20eda054",
+    "sections": 7,
+    "lines": 116,
+    "adlib_only": 0,
+    "structurally_inferred_sections": []
+  },
+  "you_missed_it": {
+    "sha256": "7b71f490058b16b3d1120dd4f9afd1d764354d46e7fcaabc5a257dc78d772eba",
+    "sections": 7,
+    "lines": 56,
+    "adlib_only": 9,
+    "structurally_inferred_sections": [
+      "section_007"
+    ]
+  }
+}

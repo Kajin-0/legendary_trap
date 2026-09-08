@@ -5,6 +5,8 @@ import hashlib
 import math
 from pathlib import Path
 
+from .lyrics import section_heading
+
 
 def validate(document: dict, lyric_path: Path, expected_sha256: str, duration: float) -> dict:
     failures, warnings = [], []
@@ -14,7 +16,7 @@ def validate(document: dict, lyric_path: Path, expected_sha256: str, duration: f
         failures.append("authoritative lyric SHA-256 mismatch")
     lines = [line for s in document["sections"] for line in s["lines"]]
     authoritative = [raw_line for raw_line in raw.splitlines()
-                     if raw_line.strip() and not (raw_line.strip().startswith("[") and raw_line.strip().endswith("]"))]
+                     if raw_line.strip() and section_heading(raw_line) is None]
     emitted = [line["original_text"] for line in lines]
     if emitted != authoritative:
         failures.append("emitted authoritative line sequence does not exactly match source")

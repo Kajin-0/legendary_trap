@@ -1,0 +1,45 @@
+{
+  "song_id": "you_missed_it",
+  "removed_structural_marker": {
+    "line_id": "section_006_line_009",
+    "source_line": 55,
+    "original_text": "[Outro",
+    "lead_text": "[Outro",
+    "adlibs": [],
+    "start": 165.76,
+    "end": 166.08,
+    "confidence": 0.9673,
+    "matched_tokens": 1,
+    "confidence_components": {
+      "token_coverage": 1.0,
+      "lexical_match": 1.0,
+      "temporal_consistency": 1.0,
+      "acoustic_support": 0.8364
+    },
+    "acoustic_start": 165.76,
+    "acoustic_end": 166.08,
+    "total_tokens": 1,
+    "words": [
+      {
+        "text": "outro",
+        "start": 165.76,
+        "end": 166.08,
+        "confidence": 0.8364,
+        "timing_source": "asr",
+        "acoustic_supported": true
+      }
+    ]
+  },
+  "new_section_id": "section_007",
+  "adlib_line_ids": [
+    "section_007_line_001",
+    "section_007_line_002",
+    "section_007_line_003",
+    "section_007_line_004",
+    "section_007_line_005",
+    "section_007_line_006",
+    "section_007_line_007"
+  ],
+  "timestamps_preserved": true,
+  "non_target_timing_changes": 0
+}
