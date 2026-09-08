@@ -30,6 +30,13 @@ def test_authoritative_lyrics_exist_and_match_fingerprints() -> None:
         )
 
 
+def test_tracked_source_audio_exists_and_is_nonempty() -> None:
+    for song in MANIFEST["songs"]:
+        path = ROOT / "source" / song["audio_source"]
+        assert path.is_file(), f"missing source audio: {path}"
+        assert path.stat().st_size > 0, f"empty source audio: {path}"
+
+
 def test_manifest_paths_stay_inside_expected_directories() -> None:
     for song in MANIFEST["songs"]:
         assert song["lyrics_path"].startswith("input/lyrics/")
