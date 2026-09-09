@@ -45,7 +45,6 @@ def test_authoritative_lyrics_contain_no_asr_generated_wording() -> None:
 def test_unaffected_timing_documents_remain_hashed_controls() -> None:
     expected = {
         "apple": "8275d3c4b3aa1b8a9ab3141cc3dc90c5e0abce27b7c4493118a17094899d9b88",
-        "chokehold": "45d0b778548f4e49fef4cb5a3a3c3a47301266042f01fe368b7c819dbbbd8c35",
         "commin_long_ways": "3f59eadd57cf6acc28e398a4bbbdb2cc45ddc903aa25094ed3a594b69b432b85",
         "off_the_wave": "a067ae1a3f5cb9094244084c3be0430e803a67c74e223378e3332e265d29081b",
         "slidin": "283f141b9d0bab6433d28b7cc5ffacad6ba2d0db7027689f87e00e2ba1f71524",
@@ -58,3 +57,31 @@ def test_unaffected_timing_documents_remain_hashed_controls() -> None:
 def test_visualizer_configuration_remains_frozen() -> None:
     assert PALETTE_CYCLE_SECONDS == 64.0
     assert PRESETS["trap_polar_350_artistlockup"].visualizer == "trap_sunset_polar_v3"
+
+
+def test_catalog_has_no_malformed_primary_duration_after_cleanup() -> None:
+    zero, short = [], []
+    for song in ("apple", "chokehold", "commin_long_ways", "focus", "off_the_wave",
+                 "slidin", "we_got_chemistry", "you_missed_it"):
+        for line in _lines(_timing(song)):
+            secondary = (line.get("event_type") in {"vocal_adlib", "adlib_only", "interjection"}
+                         or line.get("lane") == "secondary" or line.get("primary_lane") == "secondary"
+                         or str(line.get("original_text", "")).lstrip().startswith("("))
+            if secondary:
+                continue
+            duration = line["end"] - line["start"]
+            if duration <= 0:
+                zero.append(f"{song}:{line['line_id']}")
+            elif duration < 0.10:
+                short.append(f"{song}:{line['line_id']}")
+    assert zero == []
+    assert short == []
+
+
+def test_targeted_adlibs_use_secondary_lane() -> None:
+    for song, line_ids in {"chokehold": ["section_006_line_003", "section_006_line_004"],
+                           "we_got_chemistry": ["section_002_line_019", "section_002_line_028"]}.items():
+        by_id = {line["line_id"]: line for line in _lines(_timing(song))}
+        for line_id in line_ids:
+            assert by_id[line_id]["event_type"] == "vocal_adlib"
+            assert by_id[line_id]["lane"] == "secondary"

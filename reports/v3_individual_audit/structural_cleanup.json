@@ -1,0 +1,111 @@
+{
+  "targets": [
+    {
+      "song": "chokehold",
+      "section": "Outro",
+      "line_id": "section_006_line_003",
+      "text": "yeah, uh",
+      "start": 129.9,
+      "end": 129.95,
+      "timing_source": "asr_direct_adlib",
+      "event_type": "vocal_adlib",
+      "lane": "secondary",
+      "acoustic_supported": true,
+      "neighbor_context": {
+        "primary_index": null,
+        "previous_primary": {
+          "line_id": "section_006_line_002",
+          "text": "hmm, huh",
+          "start": 129.06,
+          "end": 129.9
+        },
+        "next_primary": null
+      }
+    },
+    {
+      "song": "chokehold",
+      "section": "Outro",
+      "line_id": "section_006_line_004",
+      "text": "huh, hmm, yeah",
+      "start": 129.95,
+      "end": 130.032,
+      "timing_source": "bounded_local_adlib_interpolation",
+      "event_type": "vocal_adlib",
+      "lane": "secondary",
+      "acoustic_supported": true,
+      "neighbor_context": {
+        "primary_index": null,
+        "previous_primary": {
+          "line_id": "section_006_line_002",
+          "text": "hmm, huh",
+          "start": 129.06,
+          "end": 129.9
+        },
+        "next_primary": null
+      }
+    },
+    {
+      "song": "we_got_chemistry",
+      "section": "Verse 1",
+      "line_id": "section_002_line_019",
+      "text": "Yeah",
+      "start": 65.2,
+      "end": 65.3,
+      "timing_source": "bounded_local_adlib_interpolation",
+      "event_type": "vocal_adlib",
+      "lane": "secondary",
+      "acoustic_supported": true,
+      "neighbor_context": {
+        "primary_index": null,
+        "previous_primary": {
+          "line_id": "section_002_line_018",
+          "text": "When you walk in places",
+          "start": 63.74,
+          "end": 65.3
+        },
+        "next_primary": {
+          "line_id": "section_002_line_020",
+          "text": "Girl you got a dangerous charm",
+          "start": 65.3,
+          "end": 68.14
+        }
+      }
+    },
+    {
+      "song": "we_got_chemistry",
+      "section": "Verse 1",
+      "line_id": "section_002_line_028",
+      "text": "Uh huh yeah",
+      "start": 80.04,
+      "end": 80.18,
+      "timing_source": "asr_direct_adlib",
+      "event_type": "vocal_adlib",
+      "lane": "secondary",
+      "acoustic_supported": true,
+      "neighbor_context": {
+        "primary_index": null,
+        "previous_primary": {
+          "line_id": "section_002_line_027",
+          "text": "Only see the presentation",
+          "start": 78.74,
+          "end": 80.04
+        },
+        "next_primary": {
+          "line_id": "section_002_line_029",
+          "text": "You keep coming back around",
+          "start": 80.04,
+          "end": 83.74
+        }
+      }
+    }
+  ],
+  "catalog_invariants_after": {
+    "zero_duration_primary": [],
+    "short_primary_lt_0.10": []
+  },
+  "long_gaps_are_diagnostic_only": true,
+  "evidence": {
+    "chokehold": "cached base.en local words 129.90–130.032; high-capacity pass had no usable words",
+    "we_got_chemistry": "cached base.en local words at 65.30 and 80.04–80.18"
+  }
+}
