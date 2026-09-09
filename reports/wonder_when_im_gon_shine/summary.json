@@ -1,0 +1,112 @@
+{
+  "source_filename": "source/Wonder When Im Gon Shine.mp3",
+  "source_sha256": "fa851704487a003fe3f62dcc9d8afdac8f3d3e3fbb9140b30afefee2851b8f05",
+  "source_duration": 165.24,
+  "artist_tag": null,
+  "authoritative_lyric_sha256": "c6fe5d85cebe8a6ac429da344710d0de3c3211cb036b1f6fbf35d3226e28600e",
+  "authoritative_renderable_lines": 84,
+  "rendered_lines": 84,
+  "primary_count": 59,
+  "secondary_adlib_count": 25,
+  "direct_acoustic_lines": 30,
+  "bounded_asr_lines": 36,
+  "cadence_interpolated_lines": 18,
+  "line_acoustic_coverage": 0.5476190476190477,
+  "token_acoustic_coverage": 0.5582191780821918,
+  "unresolved_line_ids": [],
+  "low_confidence_line_ids": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_001_line_005",
+    "section_001_line_006",
+    "section_001_line_007",
+    "section_001_line_008",
+    "section_001_line_009",
+    "section_001_line_010",
+    "section_001_line_011",
+    "section_001_line_012",
+    "section_001_line_013",
+    "section_001_line_014",
+    "section_001_line_015",
+    "section_001_line_016",
+    "section_001_line_017",
+    "section_001_line_018"
+  ],
+  "zero_duration_primary": 0,
+  "short_primary": 0,
+  "unsupported_repeated_occurrences": 0,
+  "unhandled_primary_collisions": 0,
+  "long_gap_diagnostics": [],
+  "text_parity": {
+    "missing": 0,
+    "duplicate_unsupported": 0,
+    "text_mismatch": 0,
+    "unsupported_phantom": 0
+  },
+  "section_occurrence_windows": {
+    "section_001": {
+      "start": 9.86,
+      "end": 29.96,
+      "timing_source": "cadence_interpolated",
+      "confidence": 0.32
+    },
+    "section_002": {
+      "start": 29.96,
+      "end": 54.78,
+      "timing_source": "direct_acoustic",
+      "confidence": 0.73
+    },
+    "section_003": {
+      "start": 54.78,
+      "end": 68.6,
+      "timing_source": "direct_acoustic",
+      "confidence": 0.67
+    },
+    "section_004": {
+      "start": 69.14,
+      "end": 95.5,
+      "timing_source": "bounded_asr",
+      "confidence": 0.76
+    },
+    "section_005": {
+      "start": 95.5,
+      "end": 108.94,
+      "timing_source": "direct_acoustic",
+      "confidence": 0.86
+    },
+    "section_006": {
+      "start": 108.94,
+      "end": 123.02,
+      "timing_source": "direct_acoustic",
+      "confidence": 0.8
+    },
+    "section_007": {
+      "start": 124.56,
+      "end": 150.18,
+      "timing_source": "bounded_asr",
+      "confidence": 0.75
+    }
+  },
+  "chorus_occurrence_confidence": {
+    "1": 0.32,
+    "2": 0.76,
+    "3": 0.75
+  },
+  "bridge_occurrence_confidence": {
+    "1": 0.67,
+    "2": 0.8
+  },
+  "asr_wording_changes": 0,
+  "existing_eight_timing_hashes": {
+    "apple": "8275d3c4b3aa1b8a9ab3141cc3dc90c5e0abce27b7c4493118a17094899d9b88",
+    "chokehold": "1cc68e6703aa62417e058acd2e723e1739c0efc8b94e39807dc2265a9e698385",
+    "commin_long_ways": "3f59eadd57cf6acc28e398a4bbbdb2cc45ddc903aa25094ed3a594b69b432b85",
+    "focus": "63435609fc1091fc14947765ce5869dc283e2173c9ee0edb61fdfb4996f1fc8a",
+    "off_the_wave": "a067ae1a3f5cb9094244084c3be0430e803a67c74e223378e3332e265d29081b",
+    "slidin": "283f141b9d0bab6433d28b7cc5ffacad6ba2d0db7027689f87e00e2ba1f71524",
+    "we_got_chemistry": "2719ca38ecfaba9c38c1c397a501b5ebd61a9b1fc82e5a4fcbd31228d1141979",
+    "you_missed_it": "18d088ba77baa50b186948237aeeb93b560a418252300c3b55ab23ed75e5097f"
+  }
+}

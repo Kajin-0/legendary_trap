@@ -1,0 +1,2 @@
+00:09.86–00:29.96 — first chorus line timing is cadence-interpolated because unhinted ASR collapsed the vocal to repeated W tokens.
+No primary-primary collisions remain; parenthetical chorus responses use the secondary lane.
