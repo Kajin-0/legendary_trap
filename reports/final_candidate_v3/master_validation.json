@@ -1,0 +1,356 @@
+{
+  "schema_version": 3,
+  "track_order": [
+    "apple",
+    "chokehold",
+    "commin_long_ways",
+    "focus",
+    "off_the_wave",
+    "slidin",
+    "we_got_chemistry",
+    "you_missed_it"
+  ],
+  "transition_seconds": 0.0,
+  "tracks": [
+    {
+      "song_id": "apple",
+      "title": "AppLE",
+      "artist": "KarmaisMagic",
+      "pfp": null,
+      "source_duration": 169.632,
+      "rendered_duration": 169.6,
+      "duration_difference": -0.03200000000001069,
+      "source_audio_sha256": "5cab300c97fb14490439ae2dedce50c0e19a130a86bd03e3dd17e6a7cb4a335a",
+      "timing_sha256": "8275d3c4b3aa1b8a9ab3141cc3dc90c5e0abce27b7c4493118a17094899d9b88",
+      "subtitle": {
+        "authoritative_renderable": 55,
+        "rendered_ass": 55,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 55,
+        "secondary_count": 0,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/01_apple.mp4",
+      "master_start": 0.0
+    },
+    {
+      "song_id": "chokehold",
+      "title": "Chokehold",
+      "artist": "OppTalk",
+      "pfp": "assets/artists/opptalk.webp",
+      "source_duration": 130.032,
+      "rendered_duration": 130.005,
+      "duration_difference": -0.027000000000015234,
+      "source_audio_sha256": "b1613d324b9006c26af90f78f4427c5eea414652770385b6ca1991f67c797644",
+      "timing_sha256": "1cc68e6703aa62417e058acd2e723e1739c0efc8b94e39807dc2265a9e698385",
+      "subtitle": {
+        "authoritative_renderable": 31,
+        "rendered_ass": 31,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 28,
+        "secondary_count": 3,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/02_chokehold.mp4",
+      "master_start": 169.6
+    },
+    {
+      "song_id": "commin_long_ways",
+      "title": "COMIN LONG WAYS",
+      "artist": "PRODBYAPKIMZ",
+      "pfp": "assets/artists/prodbyapkimz.webp",
+      "source_duration": 162.84,
+      "rendered_duration": 162.816,
+      "duration_difference": -0.02400000000000091,
+      "source_audio_sha256": "c08834ec15009e26fcb81e530d303030e430633a4cc3b756c6b94e9fec2830fe",
+      "timing_sha256": "3f59eadd57cf6acc28e398a4bbbdb2cc45ddc903aa25094ed3a594b69b432b85",
+      "subtitle": {
+        "authoritative_renderable": 55,
+        "rendered_ass": 55,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 50,
+        "secondary_count": 5,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/03_commin_long_ways.mp4",
+      "master_start": 299.605
+    },
+    {
+      "song_id": "focus",
+      "title": "FOCUS",
+      "artist": "PRODBYAPKIMZ",
+      "pfp": "assets/artists/prodbyapkimz.webp",
+      "source_duration": 240.024,
+      "rendered_duration": 240.0,
+      "duration_difference": -0.02400000000000091,
+      "source_audio_sha256": "6d3e5d41b711c9fdc550655d4cafd31fbd1054f6cfa7127ecc0afdb73bf95eda",
+      "timing_sha256": "63435609fc1091fc14947765ce5869dc283e2173c9ee0edb61fdfb4996f1fc8a",
+      "subtitle": {
+        "authoritative_renderable": 89,
+        "rendered_ass": 89,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 82,
+        "secondary_count": 7,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/04_focus.mp4",
+      "master_start": 462.42100000000005
+    },
+    {
+      "song_id": "off_the_wave",
+      "title": "Off the Wave",
+      "artist": "WILLZ",
+      "pfp": null,
+      "source_duration": 190.44,
+      "rendered_duration": 190.4,
+      "duration_difference": -0.03999999999999204,
+      "source_audio_sha256": "6de9ff6fdd97a05e0a00888f5e89be1eb709677b657029234d64a32a8053878d",
+      "timing_sha256": "a067ae1a3f5cb9094244084c3be0430e803a67c74e223378e3332e265d29081b",
+      "subtitle": {
+        "authoritative_renderable": 64,
+        "rendered_ass": 64,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 64,
+        "secondary_count": 0,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/05_off_the_wave.mp4",
+      "master_start": 702.421
+    },
+    {
+      "song_id": "slidin",
+      "title": "slidin",
+      "artist": "jayc3",
+      "pfp": "assets/artists/jayc3.jpeg",
+      "source_duration": 87.24,
+      "rendered_duration": 87.21,
+      "duration_difference": -0.030000000000001137,
+      "source_audio_sha256": "037ba7c7b74c3d18970a42f0bb336b75e9e6584dca4bec97f59efe7622d4fc2f",
+      "timing_sha256": "283f141b9d0bab6433d28b7cc5ffacad6ba2d0db7027689f87e00e2ba1f71524",
+      "subtitle": {
+        "authoritative_renderable": 40,
+        "rendered_ass": 40,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 38,
+        "secondary_count": 2,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/06_slidin.mp4",
+      "master_start": 892.821
+    },
+    {
+      "song_id": "we_got_chemistry",
+      "title": "we got chemistry",
+      "artist": "VonKai",
+      "pfp": "assets/artists/vonkaikills.jpeg",
+      "source_duration": 249.24,
+      "rendered_duration": 249.216,
+      "duration_difference": -0.02400000000000091,
+      "source_audio_sha256": "100a78a37c8f3e6e054068120190af6eddd4c249ae4343c1467de0159cdd2b37",
+      "timing_sha256": "2719ca38ecfaba9c38c1c397a501b5ebd61a9b1fc82e5a4fcbd31228d1141979",
+      "subtitle": {
+        "authoritative_renderable": 103,
+        "rendered_ass": 103,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 101,
+        "secondary_count": 2,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/07_we_got_chemistry.mp4",
+      "master_start": 980.0310000000001
+    },
+    {
+      "song_id": "you_missed_it",
+      "title": "you missed it",
+      "artist": "TheSideQuest24",
+      "pfp": "assets/artists/thesidequest24.webp",
+      "source_duration": 169.632,
+      "rendered_duration": 169.6,
+      "duration_difference": -0.03200000000001069,
+      "source_audio_sha256": "8c93bbc5f07915da9f214689d78e8b56f03003eb3a99a71578848ba8cd887342",
+      "timing_sha256": "18d088ba77baa50b186948237aeeb93b560a418252300c3b55ab23ed75e5097f",
+      "subtitle": {
+        "authoritative_renderable": 56,
+        "rendered_ass": 56,
+        "missing": 0,
+        "duplicate": 0,
+        "retimed": 0,
+        "text_changed": 0,
+        "style_changed": 0,
+        "primary_count": 44,
+        "secondary_count": 12,
+        "unsupported_phantom": 0
+      },
+      "resolution": "1920x1080",
+      "fps": "30/1",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "segment_path": "output/full_compilation_v3/segments/08_you_missed_it.mp4",
+      "master_start": 1229.247
+    }
+  ],
+  "master": {
+    "path": "output/full_compilation_v3/legendary_trap_full_artist_final_candidate_v3.mp4",
+    "duration": 1398.868333,
+    "duration_difference_vs_v2": 0.0,
+    "resolution": "1920x1080",
+    "fps": "30/1",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "sha256": "aae011053636a7a87a38c4ee2209263468b5edf370d7039dd91c46740b3871b9"
+  },
+  "fade": {
+    "duration": 3.0,
+    "segment_local_start": 166.6,
+    "master_start": 1395.847
+  },
+  "palette": {
+    "cycle_seconds": 64.0,
+    "master_time_offsets": {
+      "apple": 0.0,
+      "chokehold": 169.6,
+      "commin_long_ways": 299.605,
+      "focus": 462.42100000000005,
+      "off_the_wave": 702.421,
+      "slidin": 892.821,
+      "we_got_chemistry": 980.0310000000001,
+      "you_missed_it": 1229.247
+    }
+  },
+  "catalog_invariants": {
+    "zero_duration_primary": 0,
+    "primary_under_0_10": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "long_gap_flags": [
+      {
+        "song": "apple",
+        "start": 2.312,
+        "end": 11.56,
+        "length": 9.248000000000001
+      },
+      {
+        "song": "chokehold",
+        "start": 98.12,
+        "end": 127.34,
+        "length": 29.22
+      },
+      {
+        "song": "commin_long_ways",
+        "start": 6.48,
+        "end": 11.12,
+        "length": 4.639999999999999
+      },
+      {
+        "song": "focus",
+        "start": 5.21,
+        "end": 12.14,
+        "length": 6.930000000000001
+      },
+      {
+        "song": "focus",
+        "start": 233.16,
+        "end": 238.3,
+        "length": 5.140000000000015
+      }
+    ]
+  },
+  "checks": {
+    "all_subtitle_missing_zero": true,
+    "all_subtitle_duplicate_zero": true,
+    "all_subtitle_text_zero": true,
+    "all_duration_differences_under_0_5": true,
+    "master_duration_difference_under_0_5": true,
+    "focus_first_chorus": [
+      [
+        12.14,
+        14.12
+      ],
+      [
+        14.78,
+        17.16
+      ],
+      [
+        17.76,
+        19.98
+      ],
+      [
+        19.98,
+        23.6
+      ],
+      [
+        23.6,
+        25.48
+      ],
+      [
+        26.02,
+        28.78
+      ],
+      [
+        28.78,
+        31.56
+      ],
+      [
+        32.04,
+        34.5
+      ]
+    ],
+    "chemistry_no_outro_hook": true
+  }
+}
