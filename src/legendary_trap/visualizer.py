@@ -116,6 +116,13 @@ def polar_low_radii(low_profile: np.ndarray, bass: float, samples: int = 256,
     return angles, radii.astype(np.float32)
 
 
+def polar_contour_offsets(thickness_scale: float = 1.0) -> np.ndarray:
+    """Return radial contour offsets without changing the polar geometry."""
+    if thickness_scale <= 0:
+        raise ValueError("polar thickness scale must be positive")
+    return np.linspace(-2.5, 2.5, 5, dtype=np.float32) * float(thickness_scale)
+
+
 def _low_profile(features: FeatureSequence, index: int) -> np.ndarray:
     if features.low_spectrum is None or features.low_spectrum.size == 0:
         return np.zeros(32, dtype=np.float32)
@@ -176,7 +183,8 @@ def palette_at_time(time_seconds: float) -> np.ndarray:
 
 def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
                   particles: tuple[np.ndarray, ...],
-                  palette_time_offset: float = 0.0) -> np.ndarray:
+                  palette_time_offset: float = 0.0,
+                  polar_thickness_scale: float = 1.0) -> np.ndarray:
     """Render a dusk landscape whose physical pressure is driven by the low end."""
     t = index / features.fps
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
@@ -273,9 +281,15 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
             py = center[1] + np.sin(angles) * radii * aspect * scale
             # Several close contours produce a filled luminous body at the
             # 960px working resolution without turning it into an analyzer bar.
-            for offset in np.linspace(-2.5, 2.5, 5):
-                _blend(frame, px, py + offset, color, alpha / 3.0)
-            _blend(frame, px, py + 1.2, color, alpha * 0.50)
+            for offset in polar_contour_offsets(polar_thickness_scale):
+                contour_radii = radii * scale + offset
+                contour_x = center[0] + np.cos(angles) * contour_radii
+                contour_y = center[1] + np.sin(angles) * contour_radii * aspect
+                _blend(frame, contour_x, contour_y, color, alpha / 3.0)
+            contour_radii = radii * scale + 1.2 * polar_thickness_scale
+            _blend(frame, center[0] + np.cos(angles) * contour_radii,
+                   center[1] + np.sin(angles) * contour_radii * aspect,
+                   color, alpha * 0.50)
         inner_angles = np.linspace(np.pi, 2 * np.pi, 160, endpoint=False)
         inner_radius = 74 + 8 * bass
         ix = center[0] + np.cos(inner_angles) * inner_radius
@@ -337,10 +351,12 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...],
-                 palette_time_offset: float = 0.0) -> np.ndarray:
+                 palette_time_offset: float = 0.0,
+                 polar_thickness_scale: float = 1.0) -> np.ndarray:
     if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
                              "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
-        return _hybrid_frame(features, index, preset, particles, palette_time_offset)
+        return _hybrid_frame(features, index, preset, particles, palette_time_offset,
+                             polar_thickness_scale)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
@@ -423,7 +439,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                    lyric_size: int = 84, low_max_hz: float = 700.0,
                    identity_enabled: bool = True, output_path: Path | None = None,
                    palette_time_offset: float = 0.0, production_review: bool = True,
-                   artist_override: str | None = None) -> dict:
+                   artist_override: str | None = None,
+                   polar_thickness_scale: float = 1.0) -> dict:
     if production_review and preset_name != PRODUCTION_REVIEW_PRESET:
         raise ValueError(f"production review requires {PRODUCTION_REVIEW_PRESET}; got {preset_name}")
     if production_review and PRESETS[preset_name].visualizer != "trap_sunset_polar_v3":
@@ -479,7 +496,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     try:
         for index in range(len(features.bass)):
                 process.stdin.write(render_frame(features, index, preset, particles,
-                                                 palette_time_offset).tobytes())
+                                                 palette_time_offset,
+                                                 polar_thickness_scale).tobytes())
         process.stdin.close()
         process.wait(timeout=timeout_seconds)
     except (BrokenPipeError, subprocess.TimeoutExpired):
@@ -488,7 +506,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         raise
     still = video.with_suffix(".png")
     _write_png(render_frame(features, len(features.bass) // 2, preset, particles,
-                            palette_time_offset), still)
+                            palette_time_offset, polar_thickness_scale), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
             "video": str(video.relative_to(ROOT)), "still": str(still.relative_to(ROOT)),
@@ -506,10 +524,14 @@ def main() -> int:
     parser.add_argument("--lyric-size", type=int, default=84)
     parser.add_argument("--low-max-hz", type=float, default=700.0)
     parser.add_argument("--no-identity", action="store_true")
+    parser.add_argument("--polar-thickness-scale", type=float, default=1.0)
     args = parser.parse_args()
-    print(json.dumps(render_preview(args.song, args.preset, args.start, args.duration,
-                                    args.timeout, args.lyric_font, args.lyric_size,
-                                    args.low_max_hz, not args.no_identity), indent=2))
+    print(json.dumps(render_preview(
+        args.song, args.preset, args.start, args.duration,
+        args.timeout, args.lyric_font, args.lyric_size,
+        args.low_max_hz, not args.no_identity,
+        polar_thickness_scale=args.polar_thickness_scale,
+    ), indent=2))
     return 0
 
 

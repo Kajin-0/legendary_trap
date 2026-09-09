@@ -1,0 +1,56 @@
+{
+  "experiment": "Wonder When Im Gon Shine mobile polar thickness A/B/C",
+  "preset": "trap_polar_350_artistlockup",
+  "renderer": "trap_sunset_polar_v3",
+  "segment_start_seconds": 20.0,
+  "segment_duration_seconds": 18.0,
+  "low_frequency_band_hz": [20.0, 350.0],
+  "low_frequency_samples": 32,
+  "old_rendering_method": "Five nearby contours offset vertically in working-frame Y by -2.5..2.5px, plus a nearby Y contour at +1.2px.",
+  "new_rendering_method": "Five nearby contours offset radially around the polar contour, with offsets scaled by polar_thickness_scale; the existing nearby accent contour is scaled with the same parameter.",
+  "variants": {
+    "1.0x": {
+      "radial_offset_span_working_px": [-2.5, 2.5],
+      "contour_span_working_px": 5.0,
+      "accent_offset_working_px": 1.2,
+      "video_sha256": "3691e763fd2b018a56d16b16311408341638e372bb520e299f81c371f8db3a5f",
+      "still_sha256": "9ac4aa7d0b614319a52c72f0c2275d48bfb511d648e1b1a2a84bd10cfc811ca6"
+    },
+    "1.6x": {
+      "radial_offset_span_working_px": [-4.0, 4.0],
+      "contour_span_working_px": 8.0,
+      "accent_offset_working_px": 1.92,
+      "video_sha256": "fe68f95de8045dc451148af45c097a82ea8c16e26c9424af052d733026a64b84",
+      "still_sha256": "e2a61cb67c954bab5f9bf41b2d4607178d388126c19e57dff35f43fe88cbe534"
+    },
+    "2.2x": {
+      "radial_offset_span_working_px": [-5.5, 5.5],
+      "contour_span_working_px": 11.0,
+      "accent_offset_working_px": 2.64,
+      "video_sha256": "2830ae82bb61cd0fda339cd3e429d72122a5d0144ad4f7f57b133296cce24eaf",
+      "still_sha256": "33ff1481df73fcc700155c9d8fa71f301f6b513715e7b6b510ba6a8b9e22120e"
+    }
+  },
+  "comparison_video_sha256": "8c09c3bc11fb2a320a6bcf779f0efe6693419a9ba7bfd136c0eac281ae921b32",
+  "geometry_changed": false,
+  "polar_response_changed": false,
+  "center_and_radii_unchanged": true,
+  "brightness_compensation": "none; contour alpha and palette treatment were held constant",
+  "production_default_scale": 1.0,
+  "timing_hashes_unchanged": true,
+  "visualizer_parameters_unchanged": [
+    "polar center",
+    "base radius",
+    "20-350Hz band",
+    "32 low-frequency samples",
+    "upper/lower angular response",
+    "particles",
+    "landscape",
+    "camera shake",
+    "rotation",
+    "shockwave",
+    "palette",
+    "subtitle placement",
+    "artist lockup"
+  ]
+}

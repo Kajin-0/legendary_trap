@@ -22,6 +22,7 @@ from legendary_trap.visualizer import (
     WIDTH,
     _hybrid_particles,
     palette_at_time,
+    polar_contour_offsets,
     polar_low_radii,
     render_frame,
 )
@@ -75,6 +76,22 @@ def test_production_review_rejects_linear_fallback() -> None:
 
     with pytest.raises(ValueError, match="production review requires"):
         render_preview("wonder_when_im_gon_shine", "trap_sunset_hybrid", 0.0, 1.0)
+
+
+def test_polar_thickness_changes_stroke_offsets_only() -> None:
+    assert np.array_equal(polar_contour_offsets(1.0),
+                          np.array([-2.5, -1.25, 0.0, 1.25, 2.5], dtype=np.float32))
+    assert np.allclose(polar_contour_offsets(1.6), polar_contour_offsets(1.0) * 1.6)
+    assert np.allclose(polar_contour_offsets(2.2), polar_contour_offsets(1.0) * 2.2)
+    low = np.linspace(0.1, 1.0, 32, dtype=np.float32)
+    angles_a, radii_a = polar_low_radii(low, 0.8)
+    angles_b, radii_b = polar_low_radii(low, 0.8)
+    assert np.array_equal(angles_a, angles_b)
+    assert np.array_equal(radii_a, radii_b)
+
+
+def test_production_default_thickness_is_baseline() -> None:
+    assert polar_contour_offsets()[-1] == 2.5
 
 
 def test_polar_profile_is_mirrored_and_bass_deforms_it() -> None:
