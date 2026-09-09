@@ -21,6 +21,14 @@ FFMPEG = ROOT / "tools" / "ffmpeg-7.0.2-amd64-static" / "ffmpeg"
 WIDTH, HEIGHT = 960, 540
 FPS = 30
 APPROVED_POLAR_LOW_MAX_HZ = 350.0
+PRODUCTION_REVIEW_PRESET = "trap_polar_350_artistlockup"
+STANDALONE_SONGS = {
+    "wonder_when_im_gon_shine": {
+        "audio_source": "Wonder When Im Gon Shine.mp3",
+        "audio_path": "source/Wonder When Im Gon Shine.mp3",
+        "lyrics_path": "input/lyrics/wonder_when_im_gon_shine.txt",
+    },
+}
 
 
 @dataclass(frozen=True)
@@ -414,18 +422,28 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                    timeout_seconds: int = 600, lyric_font: str = "Montserrat",
                    lyric_size: int = 84, low_max_hz: float = 700.0,
                    identity_enabled: bool = True, output_path: Path | None = None,
-                   palette_time_offset: float = 0.0) -> dict:
+                   palette_time_offset: float = 0.0, production_review: bool = True,
+                   artist_override: str | None = None) -> dict:
+    if production_review and preset_name != PRODUCTION_REVIEW_PRESET:
+        raise ValueError(f"production review requires {PRODUCTION_REVIEW_PRESET}; got {preset_name}")
+    if production_review and PRESETS[preset_name].visualizer != "trap_sunset_polar_v3":
+        raise ValueError("production review cannot use a non-polar visualizer")
     if output_path is not None:
         output_path = output_path.resolve()
     manifest = json.loads((ROOT / "song_manifest.json").read_text(encoding="utf-8"))
-    song = next(item for item in manifest["songs"] if item["id"] == song_id)
+    song = next((item for item in manifest["songs"] if item["id"] == song_id), None)
+    if song is None:
+        song = STANDALONE_SONGS.get(song_id)
+    if song is None:
+        raise KeyError(f"song {song_id!r} is not registered for rendering")
     source = ROOT / "source" / song["audio_source"]
     reference = json.loads((ROOT / "output" / song_id / "timing.json").read_text(encoding="utf-8"))
     render_document = clip_render_document(reference, start, duration)
     output_dir = (output_path.parent if output_path else ROOT / "output" / "aesthetic_previews")
     output_dir.mkdir(parents=True, exist_ok=True)
     display_title = song_id.replace("_", " ").upper()
-    lockup = artist_lockup_for_song(song_id) if identity_enabled else ArtistLockup(None, None, "disabled")
+    lockup = (ArtistLockup(artist_override, None, "ready_text_only") if artist_override else
+              artist_lockup_for_song(song_id) if identity_enabled else ArtistLockup(None, None, "disabled"))
     subtitle_paths = write_subtitles(render_document, output_dir, display_title,
                                      lyric_font=lyric_font, lyric_size=lyric_size,
                                      include_title=not lockup.name)

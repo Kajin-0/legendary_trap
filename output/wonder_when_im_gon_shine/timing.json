@@ -22,9 +22,9 @@
       "repeat_group": "repeat_group_001",
       "occurrence_index": 1,
       "occurrence_count": 3,
-      "start": 9.86,
-      "end": 29.96,
-      "confidence": 0.32,
+      "start": 0.8,
+      "end": 27.4,
+      "confidence": 0.8136,
       "lines": [
         {
           "line_id": "section_001_line_001",
@@ -38,27 +38,27 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 9.86,
-          "end": 10.977,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 0.8,
+          "end": 1.45,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 9.86,
-          "acoustic_end": 10.977,
+          "acoustic_start": 0.8,
+          "acoustic_end": 1.45,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 9.86,
-              "end": 10.977,
+              "start": 0.8,
+              "end": 1.45,
               "confidence": 0.0,
               "timing_source": "line_estimate",
               "acoustic_supported": false
@@ -99,12 +99,12 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 10.977,
-          "end": 12.093,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 1.45,
+          "end": 1.7,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -112,8 +112,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 10.977,
-          "acoustic_end": 12.093,
+          "acoustic_start": 1.45,
+          "acoustic_end": 1.7,
           "total_tokens": 0,
           "words": []
         },
@@ -129,53 +129,53 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 12.093,
-          "end": 13.21,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 1.7,
+          "end": 3.02,
+          "confidence": 0.8375,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 0.75,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 12.093,
-          "acoustic_end": 13.21,
+          "acoustic_start": 1.66,
+          "acoustic_end": 3.02,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 12.093,
-              "end": 12.373,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 1.66,
+              "end": 2.34,
+              "confidence": 0.3985,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 12.373,
-              "end": 12.652,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.34,
+              "end": 2.5,
+              "confidence": 0.9714,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 12.652,
-              "end": 12.931,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.5,
+              "end": 3.02,
+              "confidence": 0.7951,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 12.931,
-              "end": 13.21,
+              "start": 2.69,
+              "end": 3.02,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
+              "timing_source": "interpolated",
               "acoustic_supported": false
             }
           ]
@@ -214,21 +214,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 13.21,
-          "end": 14.327,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 3.02,
+          "end": 4.85,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 13.21,
-          "acoustic_end": 14.327,
+          "acoustic_start": 3.02,
+          "acoustic_end": 4.85,
           "total_tokens": 0,
           "words": []
         },
@@ -244,62 +244,62 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 14.327,
-          "end": 15.443,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 5.1,
+          "end": 7.32,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 14.327,
-          "acoustic_end": 15.443,
+          "acoustic_start": 5.1,
+          "acoustic_end": 7.32,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 14.327,
-              "end": 14.55,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 5.1,
+              "end": 5.78,
+              "confidence": 0.4987,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 14.55,
-              "end": 14.773,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 5.78,
+              "end": 6.18,
+              "confidence": 0.9931,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 14.773,
-              "end": 14.997,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 6.18,
+              "end": 6.44,
+              "confidence": 0.9187,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 14.997,
-              "end": 15.22,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 6.44,
+              "end": 6.76,
+              "confidence": 0.9977,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 15.22,
-              "end": 15.443,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 6.76,
+              "end": 7.32,
+              "confidence": 0.9991,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -337,21 +337,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 15.443,
-          "end": 16.56,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 7.32,
+          "end": 8.55,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 15.443,
-          "acoustic_end": 16.56,
+          "acoustic_start": 7.32,
+          "acoustic_end": 8.55,
           "total_tokens": 0,
           "words": []
         },
@@ -367,62 +367,62 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 16.56,
-          "end": 17.677,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 8.66,
+          "end": 10.66,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 16.56,
-          "acoustic_end": 17.677,
+          "acoustic_start": 8.62,
+          "acoustic_end": 10.66,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 16.56,
-              "end": 16.783,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 8.62,
+              "end": 9.3,
+              "confidence": 0.9743,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 16.783,
-              "end": 17.007,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 9.3,
+              "end": 9.64,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 17.007,
-              "end": 17.23,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 9.64,
+              "end": 9.94,
+              "confidence": 0.9939,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 17.23,
-              "end": 17.453,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 9.94,
+              "end": 10.1,
+              "confidence": 0.8535,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "shine",
-              "start": 17.453,
-              "end": 17.677,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 10.32,
+              "end": 10.66,
+              "confidence": 0.9928,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -460,21 +460,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 17.677,
-          "end": 18.793,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 10.66,
+          "end": 11.95,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 17.677,
-          "acoustic_end": 18.793,
+          "acoustic_start": 10.66,
+          "acoustic_end": 11.95,
           "total_tokens": 0,
           "words": []
         },
@@ -490,54 +490,54 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 18.793,
-          "end": 19.91,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 12.08,
+          "end": 13.64,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 18.793,
-          "acoustic_end": 19.91,
+          "acoustic_start": 12.04,
+          "acoustic_end": 13.64,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 18.793,
-              "end": 19.072,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 12.04,
+              "end": 12.72,
+              "confidence": 0.9494,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 19.072,
-              "end": 19.352,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 12.72,
+              "end": 13.1,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 19.352,
-              "end": 19.631,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 13.1,
+              "end": 13.42,
+              "confidence": 0.9947,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 19.631,
-              "end": 19.91,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 13.42,
+              "end": 13.64,
+              "confidence": 0.9717,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -553,27 +553,27 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 19.91,
-          "end": 21.027,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 13.64,
+          "end": 14.4,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 19.91,
-          "acoustic_end": 21.027,
+          "acoustic_start": 13.64,
+          "acoustic_end": 14.4,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 19.91,
-              "end": 21.027,
+              "start": 13.64,
+              "end": 14.4,
               "confidence": 0.0,
               "timing_source": "line_estimate",
               "acoustic_supported": false
@@ -614,21 +614,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 21.027,
-          "end": 22.143,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 14.4,
+          "end": 15.75,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 21.027,
-          "acoustic_end": 22.143,
+          "acoustic_start": 14.4,
+          "acoustic_end": 15.75,
           "total_tokens": 0,
           "words": []
         },
@@ -644,53 +644,53 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 22.143,
-          "end": 23.26,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 15.94,
+          "end": 16.82,
+          "confidence": 0.8375,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 0.75,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 22.143,
-          "acoustic_end": 23.26,
+          "acoustic_start": 15.94,
+          "acoustic_end": 16.82,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 22.143,
-              "end": 22.422,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 15.94,
+              "end": 16.04,
+              "confidence": 0.1161,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 22.422,
-              "end": 22.702,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 16.04,
+              "end": 16.3,
+              "confidence": 0.9991,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 22.702,
-              "end": 22.981,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 16.3,
+              "end": 16.82,
+              "confidence": 0.9874,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 22.981,
-              "end": 23.26,
+              "start": 16.6,
+              "end": 16.82,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
+              "timing_source": "interpolated",
               "acoustic_supported": false
             }
           ]
@@ -729,12 +729,12 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 23.26,
-          "end": 24.377,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 16.82,
+          "end": 18.2,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -742,8 +742,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 23.26,
-          "acoustic_end": 24.377,
+          "acoustic_start": 16.82,
+          "acoustic_end": 18.2,
           "total_tokens": 0,
           "words": []
         },
@@ -759,62 +759,62 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 24.377,
-          "end": 25.493,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 16.82,
+          "end": 21.08,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 24.377,
-          "acoustic_end": 25.493,
+          "acoustic_start": 16.82,
+          "acoustic_end": 21.08,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 24.377,
-              "end": 24.6,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 16.82,
+              "end": 17.6,
+              "confidence": 0.9939,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 24.6,
-              "end": 24.823,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 17.6,
+              "end": 19.96,
+              "confidence": 0.9996,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 24.823,
-              "end": 25.047,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 19.96,
+              "end": 20.24,
+              "confidence": 0.9972,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 25.047,
-              "end": 25.27,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 20.24,
+              "end": 20.46,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 25.27,
-              "end": 25.493,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 20.46,
+              "end": 21.08,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -852,21 +852,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 25.493,
-          "end": 26.61,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 21.08,
+          "end": 22.3,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 25.493,
-          "acoustic_end": 26.61,
+          "acoustic_start": 21.08,
+          "acoustic_end": 22.3,
           "total_tokens": 0,
           "words": []
         },
@@ -882,61 +882,61 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 26.61,
-          "end": 27.727,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 22.44,
+          "end": 24.48,
+          "confidence": 0.87,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 0.8,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 26.61,
-          "acoustic_end": 27.727,
+          "acoustic_start": 22.4,
+          "acoustic_end": 23.88,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 26.61,
-              "end": 26.833,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 22.4,
+              "end": 23.08,
+              "confidence": 0.999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 26.833,
-              "end": 27.057,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 23.08,
+              "end": 23.42,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 27.057,
-              "end": 27.28,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 23.42,
+              "end": 23.74,
+              "confidence": 0.9991,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 27.28,
-              "end": 27.503,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 23.74,
+              "end": 23.88,
+              "confidence": 0.9989,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "shine",
-              "start": 27.503,
-              "end": 27.727,
+              "start": 24.072,
+              "end": 24.48,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
+              "timing_source": "interpolated",
               "acoustic_supported": false
             }
           ]
@@ -975,21 +975,21 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 27.727,
-          "end": 28.843,
-          "confidence": 0.32,
+          "estimated_timing": false,
+          "start": 24.48,
+          "end": 25.78,
+          "confidence": 0.72,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 27.727,
-          "acoustic_end": 28.843,
+          "acoustic_start": 24.48,
+          "acoustic_end": 25.78,
           "total_tokens": 0,
           "words": []
         },
@@ -1005,54 +1005,54 @@
           "acoustic_match_tokens": [],
           "annotation_metadata": [],
           "structurally_inferred": false,
-          "timing_source": "cadence_interpolated",
+          "timing_source": "acoustic_transfer",
           "acoustic_support": true,
-          "estimated_timing": true,
-          "start": 28.843,
-          "end": 29.96,
-          "confidence": 0.32,
-          "matched_tokens": 0,
+          "estimated_timing": false,
+          "start": 25.86,
+          "end": 27.4,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 28.843,
-          "acoustic_end": 29.96,
+          "acoustic_start": 25.82,
+          "acoustic_end": 27.4,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 28.843,
-              "end": 29.123,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 25.82,
+              "end": 26.5,
+              "confidence": 0.9925,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 29.123,
-              "end": 29.402,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 26.5,
+              "end": 26.84,
+              "confidence": 0.9993,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 29.402,
-              "end": 29.681,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 26.84,
+              "end": 27.14,
+              "confidence": 0.9985,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 29.681,
-              "end": 29.96,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 27.14,
+              "end": 27.4,
+              "confidence": 0.9932,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         }
@@ -1069,9 +1069,9 @@
       "repeat_group": null,
       "occurrence_index": 1,
       "occurrence_count": 1,
-      "start": 29.96,
+      "start": 27.58,
       "end": 54.78,
-      "confidence": 0.7605,
+      "confidence": 0.9396,
       "lines": [
         {
           "line_id": "section_002_line_001",
@@ -1088,73 +1088,73 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 29.96,
-          "end": 31.733,
-          "confidence": 0.73,
-          "matched_tokens": 2,
+          "start": 27.58,
+          "end": 29.0,
+          "confidence": 0.9071,
+          "matched_tokens": 6,
           "confidence_components": {
-            "token_coverage": 0.2857,
+            "token_coverage": 0.8571,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 29.96,
-          "acoustic_end": 31.733,
+          "acoustic_start": 27.4,
+          "acoustic_end": 29.04,
           "total_tokens": 7,
           "words": [
             {
               "text": "pop",
-              "start": 29.96,
-              "end": 30.213,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 27.4,
+              "end": 27.76,
+              "confidence": 0.1474,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "out",
-              "start": 30.213,
-              "end": 30.467,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 27.76,
+              "end": 27.92,
+              "confidence": 0.9254,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wit",
-              "start": 30.467,
-              "end": 30.72,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
-            },
-            {
-              "text": "a",
-              "start": 30.72,
-              "end": 30.973,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
-            },
-            {
-              "text": "couple",
-              "start": 31.6,
-              "end": 31.6,
-              "confidence": 0.9603,
+              "start": 27.92,
+              "end": 28.1,
+              "confidence": 0.9271,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 31.226,
-              "end": 31.48,
+              "start": 28.1,
+              "end": 28.38,
+              "confidence": 0.9937,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
+            },
+            {
+              "text": "couple",
+              "start": 28.38,
+              "end": 28.62,
+              "confidence": 0.9896,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 28.594,
+              "end": 28.797,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "twins",
-              "start": 31.6,
-              "end": 32.06,
-              "confidence": 0.971,
+              "start": 28.78,
+              "end": 29.04,
+              "confidence": 0.9921,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -1185,65 +1185,65 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 31.733,
-          "end": 33.506,
-          "confidence": 0.73,
-          "matched_tokens": 3,
+          "start": 29.0,
+          "end": 30.4,
+          "confidence": 0.98,
+          "matched_tokens": 6,
           "confidence_components": {
-            "token_coverage": 0.5,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 31.733,
-          "acoustic_end": 33.506,
+          "acoustic_start": 29.14,
+          "acoustic_end": 30.4,
           "total_tokens": 6,
           "words": [
             {
               "text": "got",
-              "start": 32.44,
-              "end": 32.64,
-              "confidence": 0.1427,
+              "start": 29.14,
+              "end": 29.22,
+              "confidence": 0.9742,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "matching",
-              "start": 32.028,
-              "end": 32.324,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 29.22,
+              "end": 29.46,
+              "confidence": 0.9609,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "tattoos",
-              "start": 32.324,
-              "end": 32.619,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 29.46,
+              "end": 29.74,
+              "confidence": 0.8892,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "on",
-              "start": 32.619,
-              "end": 32.915,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 29.74,
+              "end": 29.96,
+              "confidence": 0.9996,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "the",
-              "start": 32.98,
-              "end": 33.14,
-              "confidence": 0.0099,
+              "start": 29.96,
+              "end": 30.1,
+              "confidence": 0.8388,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "thigh",
-              "start": 33.02,
-              "end": 33.14,
-              "confidence": 0.963,
+              "start": 30.1,
+              "end": 30.4,
+              "confidence": 0.9445,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -1264,56 +1264,56 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 33.506,
-          "end": 35.279,
-          "confidence": 0.73,
-          "matched_tokens": 1,
+          "start": 30.4,
+          "end": 32.0,
+          "confidence": 0.87,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.2,
+            "token_coverage": 0.8,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 33.506,
-          "acoustic_end": 35.279,
+          "acoustic_start": 30.4,
+          "acoustic_end": 32.26,
           "total_tokens": 5,
           "words": [
             {
               "text": "pulling",
-              "start": 33.506,
-              "end": 33.86,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 30.4,
+              "end": 31.28,
+              "confidence": 0.8183,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "up",
-              "start": 33.86,
-              "end": 34.215,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 31.28,
+              "end": 31.54,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "inside",
-              "start": 34.68,
-              "end": 35.26,
-              "confidence": 0.4936,
+              "start": 31.54,
+              "end": 31.98,
+              "confidence": 0.9994,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 34.569,
-              "end": 34.924,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 31.98,
+              "end": 32.26,
+              "confidence": 0.7935,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "rarri",
-              "start": 34.924,
-              "end": 35.279,
+              "start": 31.68,
+              "end": 32.0,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
@@ -1345,59 +1345,59 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 35.279,
-          "end": 37.051,
-          "confidence": 0.73,
-          "matched_tokens": 0,
+          "start": 32.0,
+          "end": 33.58,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 35.279,
-          "acoustic_end": 37.051,
+          "acoustic_start": 32.48,
+          "acoustic_end": 33.58,
           "total_tokens": 5,
           "words": [
             {
               "text": "got",
-              "start": 35.279,
-              "end": 35.633,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 32.48,
+              "end": 32.66,
+              "confidence": 0.8066,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "two",
-              "start": 35.633,
-              "end": 35.988,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 32.66,
+              "end": 32.82,
+              "confidence": 0.8942,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "doors",
-              "start": 35.988,
-              "end": 36.342,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 32.82,
+              "end": 32.98,
+              "confidence": 0.1836,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "they",
-              "start": 36.342,
-              "end": 36.697,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 33.06,
+              "end": 33.1,
+              "confidence": 0.8589,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "butterfly",
-              "start": 36.697,
-              "end": 37.051,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 33.1,
+              "end": 33.58,
+              "confidence": 0.6265,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -1416,59 +1416,59 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 37.051,
-          "end": 38.824,
-          "confidence": 0.73,
-          "matched_tokens": 2,
+          "start": 34.18,
+          "end": 35.7,
+          "confidence": 0.87,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.4,
+            "token_coverage": 0.8,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 37.051,
-          "acoustic_end": 38.824,
+          "acoustic_start": 34.18,
+          "acoustic_end": 35.62,
           "total_tokens": 5,
           "words": [
             {
               "text": "windows",
-              "start": 37.051,
-              "end": 37.406,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 34.18,
+              "end": 34.68,
+              "confidence": 0.9109,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "tinted",
-              "start": 37.406,
-              "end": 37.761,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 34.68,
+              "end": 35.18,
+              "confidence": 0.9863,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "black",
-              "start": 37.761,
-              "end": 38.115,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 35.18,
+              "end": 35.44,
+              "confidence": 0.7915,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "so",
-              "start": 37.72,
-              "end": 38.02,
-              "confidence": 0.3104,
+              "start": 35.52,
+              "end": 35.62,
+              "confidence": 0.979,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "twelve",
-              "start": 38.02,
-              "end": 38.22,
-              "confidence": 0.8154,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 35.396,
+              "end": 35.7,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -1498,65 +1498,65 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 38.824,
-          "end": 40.597,
-          "confidence": 0.73,
-          "matched_tokens": 2,
+          "start": 35.7,
+          "end": 37.22,
+          "confidence": 0.98,
+          "matched_tokens": 6,
           "confidence_components": {
-            "token_coverage": 0.3333,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 38.824,
-          "acoustic_end": 40.597,
+          "acoustic_start": 36.0,
+          "acoustic_end": 37.22,
           "total_tokens": 6,
           "words": [
             {
               "text": "cannot",
-              "start": 38.824,
-              "end": 39.12,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 36.0,
+              "end": 36.18,
+              "confidence": 0.6141,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "see",
-              "start": 39.12,
-              "end": 39.415,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 36.18,
+              "end": 36.4,
+              "confidence": 0.9995,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "up",
-              "start": 39.415,
-              "end": 39.711,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 36.4,
+              "end": 36.56,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "inside",
-              "start": 39.88,
-              "end": 39.98,
-              "confidence": 0.7749,
+              "start": 36.56,
+              "end": 36.76,
+              "confidence": 0.9996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 40.006,
-              "end": 40.302,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 36.76,
+              "end": 37.0,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "ride",
-              "start": 40.16,
-              "end": 40.6,
-              "confidence": 0.9678,
+              "start": 37.0,
+              "end": 37.22,
+              "confidence": 0.9372,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -1577,51 +1577,51 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 40.597,
-          "end": 42.37,
-          "confidence": 0.73,
-          "matched_tokens": 1,
+          "start": 37.22,
+          "end": 38.8,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.25,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 40.597,
-          "acoustic_end": 42.37,
+          "acoustic_start": 37.22,
+          "acoustic_end": 39.02,
           "total_tokens": 4,
           "words": [
             {
               "text": "know",
-              "start": 40.597,
-              "end": 41.04,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 37.22,
+              "end": 37.98,
+              "confidence": 0.558,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "we",
-              "start": 41.64,
-              "end": 41.98,
-              "confidence": 0.9966,
+              "start": 37.98,
+              "end": 38.22,
+              "confidence": 0.9943,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "pushing",
-              "start": 41.484,
-              "end": 41.927,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 38.22,
+              "end": 38.54,
+              "confidence": 0.9396,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "boundaries",
-              "start": 41.927,
-              "end": 42.37,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 38.54,
+              "end": 39.02,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -1640,75 +1640,75 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 42.37,
-          "end": 44.143,
-          "confidence": 0.73,
-          "matched_tokens": 0,
+          "start": 38.8,
+          "end": 40.56,
+          "confidence": 0.98,
+          "matched_tokens": 7,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 42.37,
-          "acoustic_end": 44.143,
+          "acoustic_start": 39.02,
+          "acoustic_end": 40.56,
           "total_tokens": 7,
           "words": [
             {
               "text": "with",
-              "start": 42.37,
-              "end": 42.623,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.02,
+              "end": 39.26,
+              "confidence": 0.8723,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "this",
-              "start": 42.623,
-              "end": 42.877,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.26,
+              "end": 39.42,
+              "confidence": 0.9971,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "music",
-              "start": 42.877,
-              "end": 43.13,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.42,
+              "end": 39.62,
+              "confidence": 0.9982,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "shit",
-              "start": 43.13,
-              "end": 43.383,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.76,
+              "end": 39.86,
+              "confidence": 0.9949,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 43.383,
-              "end": 43.636,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.86,
+              "end": 39.98,
+              "confidence": 0.939,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "no",
-              "start": 43.636,
-              "end": 43.89,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 39.98,
+              "end": 40.16,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "surprise",
-              "start": 43.89,
-              "end": 44.143,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 40.16,
+              "end": 40.56,
+              "confidence": 0.9995,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -1738,9 +1738,9 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 44.143,
-          "end": 45.916,
-          "confidence": 0.73,
+          "start": 40.0,
+          "end": 40.56,
+          "confidence": 0.87,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -1748,8 +1748,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 44.143,
-          "acoustic_end": 45.916,
+          "acoustic_start": 40.0,
+          "acoustic_end": 40.56,
           "total_tokens": 0,
           "words": []
         },
@@ -1778,89 +1778,89 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 45.916,
-          "end": 47.689,
-          "confidence": 0.73,
-          "matched_tokens": 4,
+          "start": 40.56,
+          "end": 44.2,
+          "confidence": 0.9278,
+          "matched_tokens": 8,
           "confidence_components": {
-            "token_coverage": 0.4444,
+            "token_coverage": 0.8889,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 45.916,
-          "acoustic_end": 47.689,
+          "acoustic_start": 40.56,
+          "acoustic_end": 44.2,
           "total_tokens": 9,
           "words": [
             {
               "text": "so",
-              "start": 46.34,
-              "end": 46.36,
-              "confidence": 0.9211,
+              "start": 40.56,
+              "end": 41.42,
+              "confidence": 0.9164,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "i",
-              "start": 46.113,
-              "end": 46.31,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
-            },
-            {
-              "text": "wonder",
-              "start": 46.31,
-              "end": 46.507,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
-            },
-            {
-              "text": "why",
-              "start": 46.507,
-              "end": 46.704,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
-            },
-            {
-              "text": "of",
-              "start": 46.74,
-              "end": 47.1,
-              "confidence": 0.0858,
+              "start": 41.42,
+              "end": 41.66,
+              "confidence": 0.9958,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
+              "text": "wonder",
+              "start": 41.66,
+              "end": 42.06,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
+            },
+            {
+              "text": "why",
+              "start": 42.06,
+              "end": 42.36,
+              "confidence": 0.996,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 42.178,
+              "end": 42.582,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
               "text": "all",
-              "start": 47.1,
-              "end": 47.3,
-              "confidence": 0.9786,
+              "start": 42.66,
+              "end": 42.78,
+              "confidence": 0.996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 47.098,
-              "end": 47.295,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 42.78,
+              "end": 43.04,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "enemies",
-              "start": 47.295,
-              "end": 47.492,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 43.04,
+              "end": 43.58,
+              "confidence": 0.9986,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "lurk",
-              "start": 47.3,
-              "end": 47.68,
-              "confidence": 0.9985,
+              "start": 43.58,
+              "end": 44.2,
+              "confidence": 0.7267,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -1893,123 +1893,123 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 47.689,
-          "end": 49.461,
-          "confidence": 0.73,
-          "matched_tokens": 4,
+          "start": 44.2,
+          "end": 47.68,
+          "confidence": 0.98,
+          "matched_tokens": 13,
           "confidence_components": {
-            "token_coverage": 0.3077,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 47.689,
-          "acoustic_end": 49.461,
+          "acoustic_start": 44.2,
+          "acoustic_end": 47.68,
           "total_tokens": 13,
           "words": [
             {
               "text": "and",
-              "start": 47.68,
-              "end": 48.38,
-              "confidence": 0.8212,
+              "start": 44.2,
+              "end": 44.7,
+              "confidence": 0.8645,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "if",
-              "start": 48.38,
-              "end": 48.74,
-              "confidence": 0.9935,
+              "start": 44.7,
+              "end": 44.9,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "they",
-              "start": 48.74,
-              "end": 48.94,
-              "confidence": 0.9987,
+              "start": 44.9,
+              "end": 45.06,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "seek",
-              "start": 48.94,
-              "end": 49.3,
-              "confidence": 0.9868,
+              "start": 45.06,
+              "end": 45.32,
+              "confidence": 0.9512,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "me",
-              "start": 48.234,
-              "end": 48.37,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 45.32,
+              "end": 45.52,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "out",
-              "start": 48.37,
-              "end": 48.507,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 45.52,
+              "end": 45.78,
+              "confidence": 0.8024,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "for",
-              "start": 48.507,
-              "end": 48.643,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 45.78,
+              "end": 45.9,
+              "confidence": 0.9981,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "pain",
-              "start": 48.643,
-              "end": 48.78,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 45.9,
+              "end": 46.2,
+              "confidence": 0.9906,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "or",
-              "start": 48.78,
-              "end": 48.916,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 46.2,
+              "end": 46.36,
+              "confidence": 0.7323,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "pleasure",
-              "start": 48.916,
-              "end": 49.052,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 46.36,
+              "end": 46.72,
+              "confidence": 0.9981,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "or",
-              "start": 49.052,
-              "end": 49.189,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 46.72,
+              "end": 47.1,
+              "confidence": 0.991,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 49.189,
-              "end": 49.325,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 47.1,
+              "end": 47.34,
+              "confidence": 0.7277,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "curse",
-              "start": 49.325,
-              "end": 49.461,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 47.34,
+              "end": 47.68,
+              "confidence": 1.0,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -2028,89 +2028,89 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 49.461,
-          "end": 51.234,
-          "confidence": 0.73,
-          "matched_tokens": 5,
+          "start": 47.68,
+          "end": 51.0,
+          "confidence": 0.98,
+          "matched_tokens": 9,
           "confidence_components": {
-            "token_coverage": 0.5556,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 49.461,
-          "acoustic_end": 51.234,
+          "acoustic_start": 47.68,
+          "acoustic_end": 51.0,
           "total_tokens": 9,
           "words": [
             {
               "text": "wonder",
-              "start": 49.461,
-              "end": 49.658,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 47.68,
+              "end": 48.36,
+              "confidence": 0.9692,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "if",
-              "start": 49.658,
-              "end": 49.855,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 48.36,
+              "end": 48.72,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "they",
-              "start": 49.855,
-              "end": 50.052,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 48.72,
+              "end": 48.92,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "ever",
-              "start": 50.052,
-              "end": 50.249,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 48.92,
+              "end": 49.32,
+              "confidence": 0.9971,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "even",
-              "start": 49.3,
-              "end": 49.74,
-              "confidence": 0.0231,
+              "start": 49.32,
+              "end": 49.68,
+              "confidence": 0.9999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "listened",
-              "start": 49.74,
-              "end": 50.14,
-              "confidence": 0.9588,
+              "start": 49.68,
+              "end": 50.1,
+              "confidence": 0.9473,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "to",
-              "start": 50.14,
-              "end": 50.46,
-              "confidence": 0.9958,
+              "start": 50.1,
+              "end": 50.42,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 50.46,
-              "end": 50.74,
-              "confidence": 0.995,
+              "start": 50.42,
+              "end": 50.66,
+              "confidence": 0.9999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "verse",
-              "start": 50.74,
-              "end": 50.98,
-              "confidence": 0.9935,
+              "start": 50.66,
+              "end": 51.0,
+              "confidence": 0.9997,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2131,8 +2131,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 51.234,
-          "end": 53.007,
+          "start": 51.0,
+          "end": 53.56,
           "confidence": 0.98,
           "matched_tokens": 6,
           "confidence_components": {
@@ -2141,55 +2141,55 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 51.234,
-          "acoustic_end": 53.007,
+          "acoustic_start": 51.0,
+          "acoustic_end": 52.58,
           "total_tokens": 6,
           "words": [
             {
               "text": "wonder",
-              "start": 50.98,
-              "end": 51.38,
-              "confidence": 0.432,
+              "start": 51.0,
+              "end": 51.34,
+              "confidence": 0.9988,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "if",
-              "start": 51.38,
-              "end": 51.72,
-              "confidence": 0.9931,
+              "start": 51.34,
+              "end": 51.7,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "they",
-              "start": 51.72,
-              "end": 51.9,
-              "confidence": 0.9991,
+              "start": 51.7,
+              "end": 51.88,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "give",
-              "start": 51.9,
-              "end": 52.16,
-              "confidence": 0.9928,
+              "start": 51.88,
+              "end": 52.14,
+              "confidence": 0.9995,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 52.16,
-              "end": 52.36,
-              "confidence": 0.9925,
+              "start": 52.14,
+              "end": 52.34,
+              "confidence": 0.9999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "shit",
-              "start": 52.36,
-              "end": 52.6,
-              "confidence": 0.9781,
+              "start": 52.34,
+              "end": 52.58,
+              "confidence": 0.9985,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2210,73 +2210,73 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 53.007,
+          "start": 53.56,
           "end": 54.78,
-          "confidence": 0.9071,
-          "matched_tokens": 6,
+          "confidence": 0.87,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.8571,
+            "token_coverage": 0.4286,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 53.007,
-          "acoustic_end": 54.78,
+          "acoustic_start": 53.56,
+          "acoustic_end": 54.82,
           "total_tokens": 7,
           "words": [
             {
               "text": "or",
-              "start": 53.007,
-              "end": 53.26,
+              "start": 53.56,
+              "end": 53.734,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "if",
-              "start": 52.86,
-              "end": 53.02,
-              "confidence": 0.9952,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 53.734,
+              "end": 53.909,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "they",
-              "start": 53.02,
-              "end": 53.18,
-              "confidence": 0.9993,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 53.909,
+              "end": 54.083,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "listened",
-              "start": 53.18,
-              "end": 53.56,
-              "confidence": 0.9889,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 54.083,
+              "end": 54.257,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "to",
               "start": 53.56,
-              "end": 53.86,
-              "confidence": 0.0083,
+              "end": 53.78,
+              "confidence": 1.0,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 53.86,
-              "end": 54.04,
-              "confidence": 0.9967,
+              "start": 53.78,
+              "end": 54.06,
+              "confidence": 0.9999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "words",
-              "start": 54.04,
-              "end": 54.78,
-              "confidence": 0.6832,
+              "start": 54.06,
+              "end": 54.82,
+              "confidence": 0.6838,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2295,9 +2295,9 @@
       "repeat_group": "repeat_group_003",
       "occurrence_index": 1,
       "occurrence_count": 2,
-      "start": 54.78,
-      "end": 68.6,
-      "confidence": 0.815,
+      "start": 54.82,
+      "end": 68.5,
+      "confidence": 0.9525,
       "lines": [
         {
           "line_id": "section_003_line_001",
@@ -2325,8 +2325,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 54.78,
-          "end": 58.235,
+          "start": 54.82,
+          "end": 57.06,
           "confidence": 0.98,
           "matched_tokens": 5,
           "confidence_components": {
@@ -2335,47 +2335,47 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 54.78,
-          "acoustic_end": 58.235,
+          "acoustic_start": 54.82,
+          "acoustic_end": 57.06,
           "total_tokens": 5,
           "words": [
             {
               "text": "trynna",
-              "start": 54.78,
-              "end": 55.6,
-              "confidence": 0.7492,
+              "start": 54.82,
+              "end": 55.7,
+              "confidence": 0.842,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "creep",
-              "start": 55.76,
-              "end": 56.0,
-              "confidence": 0.9771,
+              "start": 55.7,
+              "end": 55.96,
+              "confidence": 0.9955,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "inside",
-              "start": 56.0,
+              "start": 55.96,
               "end": 56.26,
-              "confidence": 0.9909,
+              "confidence": 0.9972,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
               "start": 56.26,
-              "end": 56.6,
-              "confidence": 0.9923,
+              "end": 56.62,
+              "confidence": 0.9998,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "mind",
-              "start": 56.6,
-              "end": 57.12,
-              "confidence": 0.9981,
+              "start": 56.62,
+              "end": 57.06,
+              "confidence": 0.9988,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2407,67 +2407,67 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 58.235,
-          "end": 61.69,
-          "confidence": 0.67,
-          "matched_tokens": 2,
+          "start": 57.06,
+          "end": 60.5,
+          "confidence": 0.98,
+          "matched_tokens": 6,
           "confidence_components": {
-            "token_coverage": 0.3333,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 58.235,
-          "acoustic_end": 61.69,
+          "acoustic_start": 58.8,
+          "acoustic_end": 60.5,
           "total_tokens": 6,
           "words": [
             {
               "text": "cannot",
-              "start": 58.1,
-              "end": 59.02,
-              "confidence": 0.0448,
+              "start": 58.8,
+              "end": 59.1,
+              "confidence": 0.7081,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "wait",
               "start": 59.2,
-              "end": 59.4,
-              "confidence": 0.9262,
+              "end": 59.42,
+              "confidence": 0.4496,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "till",
-              "start": 59.387,
-              "end": 59.962,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 59.42,
+              "end": 59.62,
+              "confidence": 0.4949,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "i",
-              "start": 59.962,
-              "end": 60.538,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 59.62,
+              "end": 59.86,
+              "confidence": 0.9489,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "get",
-              "start": 60.538,
-              "end": 61.114,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 59.86,
+              "end": 60.06,
+              "confidence": 0.9973,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "high",
-              "start": 61.114,
-              "end": 61.69,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 60.06,
+              "end": 60.5,
+              "confidence": 0.9978,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -2497,8 +2497,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 61.69,
-          "end": 65.145,
+          "start": 60.68,
+          "end": 63.96,
           "confidence": 0.87,
           "matched_tokens": 4,
           "confidence_components": {
@@ -2507,49 +2507,49 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 61.69,
-          "acoustic_end": 65.145,
+          "acoustic_start": 62.2,
+          "acoustic_end": 63.38,
           "total_tokens": 5,
           "words": [
             {
               "text": "they",
-              "start": 61.69,
-              "end": 62.381,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 62.2,
+              "end": 62.38,
+              "confidence": 0.9965,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 61.08,
-              "end": 62.56,
-              "confidence": 0.9835,
+              "start": 62.38,
+              "end": 62.6,
+              "confidence": 0.9958,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "coming",
-              "start": 62.56,
-              "end": 62.9,
-              "confidence": 0.992,
+              "start": 62.6,
+              "end": 62.94,
+              "confidence": 0.5627,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "after",
-              "start": 62.9,
-              "end": 63.44,
-              "confidence": 0.9976,
+              "start": 62.94,
+              "end": 63.38,
+              "confidence": 0.9994,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 64.32,
-              "end": 64.76,
-              "confidence": 0.9564,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 63.304,
+              "end": 63.96,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -2579,57 +2579,57 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 65.145,
-          "end": 68.6,
-          "confidence": 0.74,
-          "matched_tokens": 3,
+          "start": 63.96,
+          "end": 68.5,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.6,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 65.145,
-          "acoustic_end": 68.6,
+          "acoustic_start": 65.62,
+          "acoustic_end": 67.12,
           "total_tokens": 5,
           "words": [
             {
               "text": "they",
-              "start": 65.145,
-              "end": 65.836,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 65.62,
+              "end": 65.8,
+              "confidence": 0.9891,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 65.836,
-              "end": 66.527,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 65.8,
+              "end": 66.06,
+              "confidence": 0.9997,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "coming",
-              "start": 65.88,
-              "end": 66.36,
-              "confidence": 0.9521,
+              "start": 66.06,
+              "end": 66.3,
+              "confidence": 0.9976,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "after",
-              "start": 66.36,
+              "start": 66.3,
               "end": 66.78,
-              "confidence": 0.9981,
+              "confidence": 0.9553,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "mine",
-              "start": 66.78,
-              "end": 67.38,
-              "confidence": 0.9566,
+              "start": 66.76,
+              "end": 67.12,
+              "confidence": 0.9989,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2649,8 +2649,8 @@
       "occurrence_index": 2,
       "occurrence_count": 3,
       "start": 69.14,
-      "end": 95.5,
-      "confidence": 0.8315,
+      "end": 95.46,
+      "confidence": 0.9022,
       "lines": [
         {
           "line_id": "section_004_line_001",
@@ -2668,7 +2668,7 @@
           "acoustic_support": true,
           "estimated_timing": false,
           "start": 69.14,
-          "end": 70.604,
+          "end": 70.22,
           "confidence": 0.98,
           "matched_tokens": 1,
           "confidence_components": {
@@ -2677,15 +2677,15 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 69.14,
-          "acoustic_end": 70.604,
+          "acoustic_start": 69.44,
+          "acoustic_end": 69.74,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 70.38,
-              "end": 70.48,
-              "confidence": 0.9429,
+              "start": 69.44,
+              "end": 69.74,
+              "confidence": 0.9846,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2728,9 +2728,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 70.604,
-          "end": 72.069,
-          "confidence": 0.76,
+          "start": 70.0,
+          "end": 71.1,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -2738,8 +2738,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 70.604,
-          "acoustic_end": 72.069,
+          "acoustic_start": 70.0,
+          "acoustic_end": 71.1,
           "total_tokens": 0,
           "words": []
         },
@@ -2758,51 +2758,51 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 72.069,
-          "end": 73.533,
-          "confidence": 0.76,
-          "matched_tokens": 2,
+          "start": 70.22,
+          "end": 71.6,
+          "confidence": 0.84,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.5,
+            "token_coverage": 0.75,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 72.069,
-          "acoustic_end": 73.533,
+          "acoustic_start": 70.64,
+          "acoustic_end": 71.6,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 72.069,
-              "end": 72.435,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 70.64,
+              "end": 70.9,
+              "confidence": 0.3867,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 72.435,
-              "end": 72.801,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 70.92,
+              "end": 71.12,
+              "confidence": 0.9948,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 72.32,
-              "end": 74.46,
-              "confidence": 0.1312,
+              "start": 71.12,
+              "end": 71.6,
+              "confidence": 0.8991,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 73.5,
-              "end": 73.5,
-              "confidence": 0.8632,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 71.255,
+              "end": 71.6,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -2843,9 +2843,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 73.533,
-          "end": 74.998,
-          "confidence": 0.76,
+          "start": 71.6,
+          "end": 73.55,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -2853,8 +2853,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 73.533,
-          "acoustic_end": 74.998,
+          "acoustic_start": 71.6,
+          "acoustic_end": 73.55,
           "total_tokens": 0,
           "words": []
         },
@@ -2873,57 +2873,57 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 74.998,
-          "end": 76.462,
-          "confidence": 0.76,
-          "matched_tokens": 3,
+          "start": 73.68,
+          "end": 75.82,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.6,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 74.998,
-          "acoustic_end": 76.462,
+          "acoustic_start": 73.66,
+          "acoustic_end": 75.82,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 74.998,
-              "end": 75.291,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 73.66,
+              "end": 74.4,
+              "confidence": 0.6839,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 75.291,
-              "end": 75.584,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 74.4,
+              "end": 74.74,
+              "confidence": 0.9914,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 74.82,
-              "end": 75.02,
-              "confidence": 0.9293,
+              "start": 74.74,
+              "end": 75.0,
+              "confidence": 0.8065,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
               "start": 75.0,
-              "end": 75.24,
-              "confidence": 0.9987,
+              "end": 75.32,
+              "confidence": 0.9948,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 76.12,
-              "end": 76.12,
-              "confidence": 0.9826,
+              "start": 75.26,
+              "end": 75.82,
+              "confidence": 0.9994,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -2966,18 +2966,18 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 76.462,
-          "end": 77.927,
-          "confidence": 0.76,
+          "start": 75.82,
+          "end": 77.05,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 76.462,
-          "acoustic_end": 77.927,
+          "acoustic_start": 75.82,
+          "acoustic_end": 77.05,
           "total_tokens": 0,
           "words": []
         },
@@ -2996,8 +2996,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 77.927,
-          "end": 79.391,
+          "start": 77.14,
+          "end": 79.22,
           "confidence": 0.98,
           "matched_tokens": 5,
           "confidence_components": {
@@ -3006,47 +3006,47 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 77.927,
-          "acoustic_end": 79.391,
+          "acoustic_start": 77.14,
+          "acoustic_end": 79.12,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 75.94,
-              "end": 77.94,
-              "confidence": 0.6332,
+              "start": 77.14,
+              "end": 77.84,
+              "confidence": 0.9242,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 77.94,
+              "start": 77.84,
               "end": 78.18,
-              "confidence": 0.7276,
+              "confidence": 0.9994,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 78.2,
-              "end": 78.44,
-              "confidence": 0.998,
+              "start": 78.18,
+              "end": 78.48,
+              "confidence": 0.9949,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 78.46,
-              "end": 78.64,
-              "confidence": 0.6643,
+              "start": 78.48,
+              "end": 78.62,
+              "confidence": 0.6861,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "shine",
-              "start": 79.24,
-              "end": 79.98,
-              "confidence": 0.5011,
+              "start": 78.82,
+              "end": 79.12,
+              "confidence": 0.9966,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3089,18 +3089,18 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 79.391,
-          "end": 80.856,
-          "confidence": 0.76,
+          "start": 79.22,
+          "end": 80.5,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 79.391,
-          "acoustic_end": 80.856,
+          "acoustic_start": 79.22,
+          "acoustic_end": 80.5,
           "total_tokens": 0,
           "words": []
         },
@@ -3119,8 +3119,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 80.856,
-          "end": 82.32,
+          "start": 80.54,
+          "end": 82.06,
           "confidence": 0.98,
           "matched_tokens": 4,
           "confidence_components": {
@@ -3129,39 +3129,39 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 80.856,
-          "acoustic_end": 82.32,
+          "acoustic_start": 80.54,
+          "acoustic_end": 82.08,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 79.98,
-              "end": 81.34,
-              "confidence": 0.7812,
+              "start": 80.54,
+              "end": 81.24,
+              "confidence": 0.9855,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 81.34,
-              "end": 81.54,
-              "confidence": 0.9779,
+              "start": 81.24,
+              "end": 81.58,
+              "confidence": 0.9998,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 81.54,
-              "end": 81.84,
-              "confidence": 0.9978,
+              "start": 81.58,
+              "end": 81.88,
+              "confidence": 0.9993,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 81.84,
-              "end": 82.02,
-              "confidence": 0.917,
+              "start": 81.88,
+              "end": 82.08,
+              "confidence": 0.9917,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3182,8 +3182,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 82.32,
-          "end": 83.784,
+          "start": 82.06,
+          "end": 82.3,
           "confidence": 0.98,
           "matched_tokens": 1,
           "confidence_components": {
@@ -3192,15 +3192,15 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 82.32,
-          "acoustic_end": 83.784,
+          "acoustic_start": 82.28,
+          "acoustic_end": 82.5,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 82.02,
-              "end": 82.54,
-              "confidence": 0.0012,
+              "start": 82.28,
+              "end": 82.5,
+              "confidence": 0.394,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3243,9 +3243,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 83.784,
-          "end": 85.249,
-          "confidence": 0.76,
+          "start": 82.06,
+          "end": 82.8,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -3253,8 +3253,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 83.784,
-          "acoustic_end": 85.249,
+          "acoustic_start": 82.06,
+          "acoustic_end": 82.8,
           "total_tokens": 0,
           "words": []
         },
@@ -3273,48 +3273,48 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 85.249,
-          "end": 86.713,
-          "confidence": 0.76,
-          "matched_tokens": 2,
+          "start": 82.3,
+          "end": 85.26,
+          "confidence": 0.84,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.5,
+            "token_coverage": 0.75,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 85.249,
-          "acoustic_end": 86.713,
+          "acoustic_start": 83.92,
+          "acoustic_end": 85.26,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 85.8,
-              "end": 85.9,
-              "confidence": 0.73,
+              "start": 83.92,
+              "end": 84.52,
+              "confidence": 0.6009,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 85.615,
-              "end": 85.981,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 84.52,
+              "end": 84.74,
+              "confidence": 0.9998,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 86.7,
-              "end": 87.8,
-              "confidence": 0.5525,
+              "start": 84.72,
+              "end": 85.26,
+              "confidence": 0.993,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 86.347,
-              "end": 86.713,
+              "start": 84.52,
+              "end": 85.26,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
@@ -3358,9 +3358,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 86.713,
-          "end": 88.178,
-          "confidence": 0.76,
+          "start": 85.26,
+          "end": 86.5,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -3368,8 +3368,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 86.713,
-          "acoustic_end": 88.178,
+          "acoustic_start": 85.26,
+          "acoustic_end": 86.5,
           "total_tokens": 0,
           "words": []
         },
@@ -3388,57 +3388,57 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 88.178,
-          "end": 89.642,
-          "confidence": 0.87,
-          "matched_tokens": 4,
+          "start": 85.26,
+          "end": 89.46,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.8,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 88.178,
-          "acoustic_end": 89.642,
+          "acoustic_start": 87.54,
+          "acoustic_end": 89.46,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 88.178,
-              "end": 88.471,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 87.54,
+              "end": 88.1,
+              "confidence": 0.82,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 88.08,
-              "end": 88.44,
-              "confidence": 0.9983,
+              "start": 88.1,
+              "end": 88.42,
+              "confidence": 0.9878,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 88.44,
-              "end": 88.64,
-              "confidence": 0.8869,
+              "start": 88.42,
+              "end": 88.72,
+              "confidence": 0.9171,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 88.64,
-              "end": 88.88,
-              "confidence": 0.9976,
+              "start": 88.72,
+              "end": 88.94,
+              "confidence": 0.9892,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 89.48,
-              "end": 89.8,
-              "confidence": 0.7426,
+              "start": 88.94,
+              "end": 89.46,
+              "confidence": 0.9968,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3481,18 +3481,18 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 89.642,
-          "end": 91.107,
-          "confidence": 0.76,
+          "start": 89.46,
+          "end": 90.7,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 89.642,
-          "acoustic_end": 91.107,
+          "acoustic_start": 89.46,
+          "acoustic_end": 90.7,
           "total_tokens": 0,
           "words": []
         },
@@ -3511,8 +3511,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 91.107,
-          "end": 92.571,
+          "start": 90.76,
+          "end": 92.88,
           "confidence": 0.98,
           "matched_tokens": 5,
           "confidence_components": {
@@ -3521,47 +3521,47 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 91.107,
-          "acoustic_end": 92.571,
+          "acoustic_start": 90.76,
+          "acoustic_end": 92.74,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 91.26,
+              "start": 90.76,
               "end": 91.46,
-              "confidence": 0.6431,
+              "confidence": 0.9982,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 91.6,
-              "end": 91.88,
-              "confidence": 0.9815,
+              "start": 91.46,
+              "end": 91.8,
+              "confidence": 0.9996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 91.88,
-              "end": 92.1,
-              "confidence": 0.9941,
+              "start": 91.82,
+              "end": 92.08,
+              "confidence": 0.9931,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 92.1,
-              "end": 92.48,
-              "confidence": 0.9149,
+              "start": 92.12,
+              "end": 92.28,
+              "confidence": 0.9983,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "shine",
-              "start": 92.5,
-              "end": 92.9,
-              "confidence": 0.9977,
+              "start": 92.48,
+              "end": 92.74,
+              "confidence": 0.9966,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3604,18 +3604,18 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 92.571,
-          "end": 94.036,
-          "confidence": 0.76,
+          "start": 92.88,
+          "end": 94.1,
+          "confidence": 0.84,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
             "lexical_match": 0.0,
             "temporal_consistency": 1.0,
-            "acoustic_support": 1.0
+            "acoustic_support": 0.0
           },
-          "acoustic_start": 92.571,
-          "acoustic_end": 94.036,
+          "acoustic_start": 92.88,
+          "acoustic_end": 94.1,
           "total_tokens": 0,
           "words": []
         },
@@ -3634,51 +3634,51 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 94.036,
-          "end": 95.5,
-          "confidence": 0.8375,
-          "matched_tokens": 3,
+          "start": 94.18,
+          "end": 95.46,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.75,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 94.036,
-          "acoustic_end": 95.5,
+          "acoustic_start": 94.18,
+          "acoustic_end": 95.44,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 94.3,
-              "end": 94.9,
-              "confidence": 0.2023,
+              "start": 94.18,
+              "end": 94.88,
+              "confidence": 0.9775,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 95.04,
-              "end": 95.28,
-              "confidence": 0.7669,
+              "start": 94.88,
+              "end": 95.24,
+              "confidence": 0.9996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 95.28,
-              "end": 95.5,
-              "confidence": 0.9951,
+              "start": 95.26,
+              "end": 95.44,
+              "confidence": 0.9853,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 95.134,
-              "end": 95.5,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 95.44,
+              "end": 95.44,
+              "confidence": 0.9938,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         }
@@ -3695,9 +3695,9 @@
       "repeat_group": null,
       "occurrence_index": 1,
       "occurrence_count": 1,
-      "start": 95.5,
+      "start": 95.46,
       "end": 108.94,
-      "confidence": 0.9351,
+      "confidence": 0.945,
       "lines": [
         {
           "line_id": "section_005_line_001",
@@ -3714,8 +3714,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 95.5,
-          "end": 97.18,
+          "start": 95.46,
+          "end": 96.88,
           "confidence": 0.98,
           "matched_tokens": 4,
           "confidence_components": {
@@ -3724,39 +3724,39 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 95.5,
-          "acoustic_end": 97.18,
+          "acoustic_start": 95.44,
+          "acoustic_end": 96.88,
           "total_tokens": 4,
           "words": [
             {
               "text": "seeking",
-              "start": 95.5,
-              "end": 95.64,
-              "confidence": 0.4541,
+              "start": 95.44,
+              "end": 95.68,
+              "confidence": 0.6134,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "out",
-              "start": 95.64,
-              "end": 95.96,
-              "confidence": 0.9387,
+              "start": 95.68,
+              "end": 95.92,
+              "confidence": 0.9496,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 96.36,
-              "end": 96.48,
-              "confidence": 0.5066,
+              "start": 95.92,
+              "end": 96.44,
+              "confidence": 0.3351,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "demise",
-              "start": 96.48,
+              "start": 96.44,
               "end": 96.88,
-              "confidence": 0.999,
+              "confidence": 0.9966,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3777,73 +3777,73 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 97.18,
-          "end": 98.86,
-          "confidence": 0.9071,
-          "matched_tokens": 6,
+          "start": 96.88,
+          "end": 98.74,
+          "confidence": 0.98,
+          "matched_tokens": 7,
           "confidence_components": {
-            "token_coverage": 0.8571,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 97.18,
-          "acoustic_end": 98.86,
+          "acoustic_start": 97.08,
+          "acoustic_end": 98.74,
           "total_tokens": 7,
           "words": [
             {
               "text": "they",
-              "start": 97.18,
-              "end": 97.42,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 97.08,
+              "end": 97.12,
+              "confidence": 0.9789,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "rob",
-              "start": 97.14,
-              "end": 97.34,
-              "confidence": 0.9195,
+              "start": 97.1,
+              "end": 97.4,
+              "confidence": 0.6272,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "me",
-              "start": 97.36,
-              "end": 97.62,
-              "confidence": 0.9996,
+              "start": 97.4,
+              "end": 97.66,
+              "confidence": 0.6681,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "of",
-              "start": 97.62,
-              "end": 98.06,
-              "confidence": 0.4325,
+              "start": 97.66,
+              "end": 98.08,
+              "confidence": 0.9882,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "all",
-              "start": 98.06,
-              "end": 98.22,
-              "confidence": 0.9963,
+              "start": 98.08,
+              "end": 98.24,
+              "confidence": 0.9984,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 98.22,
-              "end": 98.44,
-              "confidence": 0.9973,
+              "start": 98.24,
+              "end": 98.42,
+              "confidence": 0.9996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "hope",
-              "start": 98.44,
-              "end": 98.7,
-              "confidence": 0.4902,
+              "start": 98.42,
+              "end": 98.74,
+              "confidence": 0.6796,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3864,8 +3864,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 98.86,
-          "end": 100.54,
+          "start": 98.74,
+          "end": 100.32,
           "confidence": 0.98,
           "matched_tokens": 6,
           "confidence_components": {
@@ -3874,39 +3874,39 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 98.86,
-          "acoustic_end": 100.54,
+          "acoustic_start": 98.74,
+          "acoustic_end": 100.32,
           "total_tokens": 6,
           "words": [
             {
               "text": "they",
-              "start": 98.7,
+              "start": 98.74,
               "end": 98.98,
-              "confidence": 0.2814,
+              "confidence": 0.959,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "dont",
               "start": 98.98,
-              "end": 99.12,
-              "confidence": 0.9995,
+              "end": 99.1,
+              "confidence": 0.9994,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "care",
-              "start": 99.12,
-              "end": 99.42,
-              "confidence": 0.9991,
+              "start": 99.1,
+              "end": 99.44,
+              "confidence": 0.9999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "if",
-              "start": 99.42,
+              "start": 99.44,
               "end": 99.86,
-              "confidence": 0.2764,
+              "confidence": 0.9888,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
@@ -3914,15 +3914,15 @@
               "text": "i",
               "start": 99.86,
               "end": 99.94,
-              "confidence": 0.9989,
+              "confidence": 0.9997,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "die",
               "start": 99.94,
-              "end": 100.22,
-              "confidence": 0.6762,
+              "end": 100.32,
+              "confidence": 0.9928,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -3943,8 +3943,8 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 100.54,
-          "end": 102.22,
+          "start": 100.32,
+          "end": 102.14,
           "confidence": 0.98,
           "matched_tokens": 7,
           "confidence_components": {
@@ -3953,63 +3953,63 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 100.54,
-          "acoustic_end": 102.22,
+          "acoustic_start": 100.32,
+          "acoustic_end": 102.14,
           "total_tokens": 7,
           "words": [
             {
               "text": "it",
-              "start": 100.22,
+              "start": 100.32,
               "end": 100.56,
-              "confidence": 0.8781,
+              "confidence": 0.8316,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "seems",
               "start": 100.56,
-              "end": 100.7,
-              "confidence": 0.7027,
+              "end": 100.74,
+              "confidence": 0.4413,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 100.7,
-              "end": 100.94,
-              "confidence": 0.9989,
+              "start": 100.74,
+              "end": 100.96,
+              "confidence": 0.9966,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "life's",
-              "start": 100.94,
-              "end": 101.32,
-              "confidence": 0.9427,
+              "start": 100.96,
+              "end": 101.4,
+              "confidence": 0.8165,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "just",
-              "start": 101.32,
-              "end": 101.62,
-              "confidence": 0.0207,
+              "start": 101.4,
+              "end": 101.6,
+              "confidence": 0.9998,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 101.62,
-              "end": 101.84,
-              "confidence": 0.9583,
+              "start": 101.6,
+              "end": 101.8,
+              "confidence": 0.9955,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "joke",
-              "start": 101.84,
+              "start": 101.8,
               "end": 102.14,
-              "confidence": 0.9989,
+              "confidence": 0.9995,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4030,65 +4030,65 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 102.22,
-          "end": 103.9,
-          "confidence": 0.8917,
-          "matched_tokens": 5,
+          "start": 102.14,
+          "end": 105.48,
+          "confidence": 0.91,
+          "matched_tokens": 3,
           "confidence_components": {
-            "token_coverage": 0.8333,
+            "token_coverage": 0.5,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 102.22,
-          "acoustic_end": 103.9,
+          "acoustic_start": 102.98,
+          "acoustic_end": 103.7,
           "total_tokens": 6,
           "words": [
             {
               "text": "wrapped",
-              "start": 102.22,
-              "end": 102.5,
+              "start": 102.14,
+              "end": 102.697,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "in",
-              "start": 102.14,
-              "end": 102.52,
-              "confidence": 0.3996,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 102.697,
+              "end": 103.253,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "lies",
-              "start": 102.52,
-              "end": 103.08,
-              "confidence": 0.387,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 103.253,
+              "end": 103.81,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "like",
-              "start": 103.08,
-              "end": 103.3,
-              "confidence": 0.8818,
+              "start": 102.98,
+              "end": 103.26,
+              "confidence": 0.8055,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 103.3,
-              "end": 103.36,
-              "confidence": 0.9972,
+              "start": 103.26,
+              "end": 103.38,
+              "confidence": 0.996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "vine",
-              "start": 103.36,
-              "end": 103.64,
-              "confidence": 0.8536,
+              "start": 103.38,
+              "end": 103.7,
+              "confidence": 0.8582,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4109,67 +4109,67 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 103.9,
-          "end": 105.58,
-          "confidence": 0.8917,
-          "matched_tokens": 5,
+          "start": 105.48,
+          "end": 107.86,
+          "confidence": 0.91,
+          "matched_tokens": 1,
           "confidence_components": {
-            "token_coverage": 0.8333,
+            "token_coverage": 0.1667,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 103.9,
-          "acoustic_end": 105.58,
+          "acoustic_start": 106.6,
+          "acoustic_end": 106.76,
           "total_tokens": 6,
           "words": [
             {
               "text": "the",
-              "start": 103.64,
-              "end": 103.96,
-              "confidence": 0.5212,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 105.48,
+              "end": 105.877,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "truths",
-              "start": 104.18,
-              "end": 104.46,
+              "start": 105.877,
+              "end": 106.273,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "stuck",
-              "start": 104.08,
-              "end": 104.54,
-              "confidence": 0.9941,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 106.273,
+              "end": 106.67,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "inside",
-              "start": 104.54,
-              "end": 104.98,
-              "confidence": 0.1113,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 106.67,
+              "end": 107.067,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "my",
-              "start": 104.98,
-              "end": 105.26,
-              "confidence": 0.9937,
+              "start": 106.6,
+              "end": 106.76,
+              "confidence": 0.7672,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "throat",
-              "start": 105.26,
-              "end": 105.56,
-              "confidence": 0.9967,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 107.463,
+              "end": 107.86,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -4188,59 +4188,59 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 105.58,
-          "end": 107.26,
-          "confidence": 0.87,
-          "matched_tokens": 4,
+          "start": 107.86,
+          "end": 108.3,
+          "confidence": 0.91,
+          "matched_tokens": 1,
           "confidence_components": {
-            "token_coverage": 0.8,
+            "token_coverage": 0.2,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 105.58,
-          "acoustic_end": 107.26,
+          "acoustic_start": 107.5,
+          "acoustic_end": 107.92,
           "total_tokens": 5,
           "words": [
             {
               "text": "wont",
-              "start": 105.56,
-              "end": 105.84,
-              "confidence": 0.8683,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 107.86,
+              "end": 107.948,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "survive",
-              "start": 105.84,
-              "end": 106.32,
-              "confidence": 0.997,
+              "start": 107.5,
+              "end": 107.92,
+              "confidence": 0.9244,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "in",
-              "start": 106.252,
-              "end": 106.588,
+              "start": 108.036,
+              "end": 108.124,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "my",
-              "start": 106.64,
-              "end": 106.8,
-              "confidence": 0.9973,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 108.124,
+              "end": 108.212,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "eyes",
-              "start": 106.8,
-              "end": 107.22,
-              "confidence": 0.9989,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 108.212,
+              "end": 108.3,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -4259,67 +4259,67 @@
           "timing_source": "direct_acoustic",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 107.26,
+          "start": 108.3,
           "end": 108.94,
-          "confidence": 0.98,
-          "matched_tokens": 6,
+          "confidence": 0.91,
+          "matched_tokens": 2,
           "confidence_components": {
-            "token_coverage": 1.0,
+            "token_coverage": 0.3333,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 107.26,
-          "acoustic_end": 108.94,
+          "acoustic_start": 108.26,
+          "acoustic_end": 108.6,
           "total_tokens": 6,
           "words": [
             {
               "text": "being",
-              "start": 107.22,
-              "end": 107.5,
-              "confidence": 0.94,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 108.3,
+              "end": 108.407,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "fried",
-              "start": 107.5,
-              "end": 107.86,
-              "confidence": 0.9036,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 108.407,
+              "end": 108.513,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "is",
-              "start": 107.86,
-              "end": 108.26,
-              "confidence": 0.5349,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 108.513,
+              "end": 108.62,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "how",
               "start": 108.26,
-              "end": 108.44,
-              "confidence": 0.9992,
+              "end": 108.4,
+              "confidence": 0.9894,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "i",
               "start": 108.44,
-              "end": 108.66,
-              "confidence": 0.9993,
+              "end": 108.6,
+              "confidence": 0.9971,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "cope",
-              "start": 108.66,
+              "start": 108.833,
               "end": 108.94,
-              "confidence": 0.1565,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         }
@@ -4336,9 +4336,9 @@
       "repeat_group": "repeat_group_003",
       "occurrence_index": 2,
       "occurrence_count": 2,
-      "start": 108.94,
-      "end": 123.02,
-      "confidence": 0.935,
+      "start": 109.54,
+      "end": 122.9,
+      "confidence": 0.98,
       "lines": [
         {
           "line_id": "section_006_line_001",
@@ -4363,10 +4363,10 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "direct_acoustic",
+          "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 108.94,
+          "start": 109.54,
           "end": 112.46,
           "confidence": 0.98,
           "matched_tokens": 5,
@@ -4376,47 +4376,47 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 108.94,
-          "acoustic_end": 112.46,
+          "acoustic_start": 109.72,
+          "acoustic_end": 111.68,
           "total_tokens": 5,
           "words": [
             {
               "text": "trynna",
-              "start": 109.24,
-              "end": 110.2,
-              "confidence": 0.0003,
+              "start": 109.72,
+              "end": 110.28,
+              "confidence": 0.6991,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "creep",
-              "start": 110.28,
+              "start": 110.3,
               "end": 110.54,
-              "confidence": 0.9968,
+              "confidence": 0.9974,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "inside",
               "start": 110.54,
-              "end": 110.88,
-              "confidence": 0.995,
+              "end": 110.8,
+              "confidence": 0.9028,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 110.88,
+              "start": 110.8,
               "end": 111.16,
-              "confidence": 0.9966,
+              "confidence": 0.9997,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "mind",
               "start": 111.16,
-              "end": 111.7,
-              "confidence": 0.9904,
+              "end": 111.68,
+              "confidence": 0.9989,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4445,11 +4445,11 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "direct_acoustic",
+          "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 112.46,
-          "end": 115.98,
+          "start": 113.36,
+          "end": 115.9,
           "confidence": 0.98,
           "matched_tokens": 6,
           "confidence_components": {
@@ -4458,55 +4458,55 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 112.46,
-          "acoustic_end": 115.98,
+          "acoustic_start": 113.36,
+          "acoustic_end": 115.06,
           "total_tokens": 6,
           "words": [
             {
               "text": "cannot",
-              "start": 112.76,
-              "end": 113.66,
-              "confidence": 0.748,
+              "start": 113.36,
+              "end": 113.56,
+              "confidence": 0.869,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "wait",
-              "start": 113.66,
-              "end": 113.88,
-              "confidence": 0.9981,
+              "start": 113.56,
+              "end": 113.84,
+              "confidence": 0.7416,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "till",
-              "start": 113.88,
+              "start": 113.84,
               "end": 114.16,
-              "confidence": 0.9233,
+              "confidence": 0.9709,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "i",
               "start": 114.16,
-              "end": 114.42,
-              "confidence": 0.9993,
+              "end": 114.38,
+              "confidence": 0.9992,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "get",
-              "start": 114.42,
-              "end": 114.58,
-              "confidence": 0.997,
+              "start": 114.38,
+              "end": 114.6,
+              "confidence": 0.995,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "high",
               "start": 114.58,
-              "end": 115.08,
-              "confidence": 0.9883,
+              "end": 115.06,
+              "confidence": 0.9947,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4535,11 +4535,11 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "direct_acoustic",
+          "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 115.98,
-          "end": 119.5,
+          "start": 116.7,
+          "end": 119.16,
           "confidence": 0.98,
           "matched_tokens": 5,
           "confidence_components": {
@@ -4548,47 +4548,47 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 115.98,
-          "acoustic_end": 119.5,
+          "acoustic_start": 116.7,
+          "acoustic_end": 119.14,
           "total_tokens": 5,
           "words": [
             {
               "text": "they",
-              "start": 116.3,
+              "start": 116.7,
               "end": 116.92,
-              "confidence": 0.8753,
+              "confidence": 0.9851,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "be",
               "start": 116.92,
-              "end": 117.1,
-              "confidence": 0.9755,
+              "end": 117.14,
+              "confidence": 0.9904,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "coming",
-              "start": 117.1,
+              "start": 117.14,
               "end": 117.5,
-              "confidence": 0.9494,
+              "confidence": 0.7883,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "after",
               "start": 117.5,
-              "end": 117.88,
-              "confidence": 0.9888,
+              "end": 117.9,
+              "confidence": 0.9996,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 118.82,
-              "end": 119.1,
-              "confidence": 0.95,
+              "start": 118.8,
+              "end": 119.14,
+              "confidence": 0.6463,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4617,60 +4617,60 @@
             ""
           ],
           "structurally_inferred": false,
-          "timing_source": "direct_acoustic",
+          "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 119.5,
-          "end": 123.02,
-          "confidence": 0.8,
-          "matched_tokens": 3,
+          "start": 119.16,
+          "end": 122.9,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.6,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 119.5,
-          "acoustic_end": 123.02,
+          "acoustic_start": 120.06,
+          "acoustic_end": 121.68,
           "total_tokens": 5,
           "words": [
             {
               "text": "they",
-              "start": 119.5,
-              "end": 120.204,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 120.06,
+              "end": 120.34,
+              "confidence": 0.9928,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 120.204,
-              "end": 120.908,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 120.38,
+              "end": 120.54,
+              "confidence": 0.9839,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "coming",
-              "start": 120.4,
-              "end": 120.86,
-              "confidence": 0.9687,
+              "start": 120.54,
+              "end": 120.88,
+              "confidence": 0.7224,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "after",
-              "start": 120.86,
-              "end": 121.34,
-              "confidence": 0.9967,
+              "start": 120.88,
+              "end": 121.32,
+              "confidence": 0.9928,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "mine",
-              "start": 121.34,
-              "end": 121.88,
-              "confidence": 0.9393,
+              "start": 121.3,
+              "end": 121.68,
+              "confidence": 0.9993,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4689,9 +4689,9 @@
       "repeat_group": "repeat_group_001",
       "occurrence_index": 3,
       "occurrence_count": 3,
-      "start": 124.56,
-      "end": 150.18,
-      "confidence": 0.7932,
+      "start": 123.18,
+      "end": 150.16,
+      "confidence": 0.8911,
       "lines": [
         {
           "line_id": "section_007_line_001",
@@ -4708,8 +4708,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 124.56,
-          "end": 125.983,
+          "start": 123.18,
+          "end": 124.1,
           "confidence": 0.98,
           "matched_tokens": 1,
           "confidence_components": {
@@ -4718,15 +4718,15 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 124.56,
-          "acoustic_end": 125.983,
+          "acoustic_start": 124.06,
+          "acoustic_end": 124.52,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 124.56,
-              "end": 125.48,
-              "confidence": 0.0141,
+              "start": 124.06,
+              "end": 124.52,
+              "confidence": 0.9987,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -4769,9 +4769,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 125.983,
-          "end": 127.407,
-          "confidence": 0.75,
+          "start": 124.1,
+          "end": 125.1,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -4779,8 +4779,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 125.983,
-          "acoustic_end": 127.407,
+          "acoustic_start": 124.1,
+          "acoustic_end": 125.1,
           "total_tokens": 0,
           "words": []
         },
@@ -4799,51 +4799,51 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 127.407,
-          "end": 128.83,
-          "confidence": 0.75,
-          "matched_tokens": 1,
+          "start": 125.2,
+          "end": 126.5,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.25,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 127.407,
-          "acoustic_end": 128.83,
+          "acoustic_start": 125.24,
+          "acoustic_end": 127.86,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 127.407,
-              "end": 127.763,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 125.24,
+              "end": 125.4,
+              "confidence": 0.4161,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 127.763,
-              "end": 128.118,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 125.46,
+              "end": 125.72,
+              "confidence": 0.9994,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 128.18,
-              "end": 129.14,
-              "confidence": 0.4698,
+              "start": 125.72,
+              "end": 126.14,
+              "confidence": 0.9597,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 128.474,
-              "end": 128.83,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 126.3,
+              "end": 127.86,
+              "confidence": 0.9698,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -4884,9 +4884,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 128.83,
-          "end": 130.253,
-          "confidence": 0.75,
+          "start": 126.5,
+          "end": 128.26,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -4894,8 +4894,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 128.83,
-          "acoustic_end": 130.253,
+          "acoustic_start": 126.5,
+          "acoustic_end": 128.26,
           "total_tokens": 0,
           "words": []
         },
@@ -4914,59 +4914,59 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 130.253,
-          "end": 131.677,
-          "confidence": 0.75,
-          "matched_tokens": 1,
+          "start": 128.6,
+          "end": 131.0,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.2,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 130.253,
-          "acoustic_end": 131.677,
+          "acoustic_start": 128.4,
+          "acoustic_end": 131.64,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 131.4,
-              "end": 132.32,
-              "confidence": 0.2624,
+              "start": 128.4,
+              "end": 128.94,
+              "confidence": 0.9111,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 130.538,
-              "end": 130.823,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 129.0,
+              "end": 129.26,
+              "confidence": 0.9943,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 130.823,
-              "end": 131.107,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 129.26,
+              "end": 129.56,
+              "confidence": 0.8025,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 131.107,
-              "end": 131.392,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 129.56,
+              "end": 129.76,
+              "confidence": 0.9494,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 131.392,
-              "end": 131.677,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 130.7,
+              "end": 131.64,
+              "confidence": 0.9992,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -5007,9 +5007,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 131.677,
-          "end": 133.1,
-          "confidence": 0.75,
+          "start": 131.0,
+          "end": 131.8,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5017,8 +5017,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 131.677,
-          "acoustic_end": 133.1,
+          "acoustic_start": 131.0,
+          "acoustic_end": 131.8,
           "total_tokens": 0,
           "words": []
         },
@@ -5037,59 +5037,59 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 133.1,
-          "end": 134.523,
-          "confidence": 0.75,
-          "matched_tokens": 1,
+          "start": 131.8,
+          "end": 135.2,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.2,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 133.1,
-          "acoustic_end": 134.523,
+          "acoustic_start": 131.8,
+          "acoustic_end": 135.2,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 133.1,
-              "end": 133.385,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 131.8,
+              "end": 132.34,
+              "confidence": 0.7945,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 133.385,
-              "end": 133.669,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 132.36,
+              "end": 132.7,
+              "confidence": 0.9999,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 133.669,
-              "end": 133.954,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 132.7,
+              "end": 132.98,
+              "confidence": 0.9954,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 132.96,
-              "end": 133.18,
-              "confidence": 0.6256,
+              "start": 132.98,
+              "end": 133.12,
+              "confidence": 0.7949,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "shine",
-              "start": 134.239,
-              "end": 134.523,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 134.38,
+              "end": 135.2,
+              "confidence": 0.9837,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -5130,9 +5130,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 134.523,
-          "end": 135.947,
-          "confidence": 0.75,
+          "start": 135.2,
+          "end": 136.5,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5140,8 +5140,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 134.523,
-          "acoustic_end": 135.947,
+          "acoustic_start": 135.2,
+          "acoustic_end": 136.5,
           "total_tokens": 0,
           "words": []
         },
@@ -5160,49 +5160,49 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 135.947,
-          "end": 137.37,
-          "confidence": 0.8375,
-          "matched_tokens": 3,
+          "start": 136.5,
+          "end": 138.62,
+          "confidence": 0.82,
+          "matched_tokens": 2,
           "confidence_components": {
-            "token_coverage": 0.75,
+            "token_coverage": 0.5,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 135.947,
-          "acoustic_end": 137.37,
+          "acoustic_start": 134.68,
+          "acoustic_end": 136.56,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 135.947,
-              "end": 136.303,
+              "start": 136.5,
+              "end": 137.03,
               "confidence": 0.0,
               "timing_source": "interpolated",
               "acoustic_supported": false
             },
             {
               "text": "when",
-              "start": 135.88,
-              "end": 136.12,
-              "confidence": 0.99,
+              "start": 134.68,
+              "end": 136.56,
+              "confidence": 0.9889,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 136.12,
-              "end": 136.36,
-              "confidence": 0.9905,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 137.56,
+              "end": 138.09,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "gon",
               "start": 136.38,
-              "end": 136.54,
-              "confidence": 0.9462,
+              "end": 136.56,
+              "confidence": 0.9855,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -5223,27 +5223,27 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 137.37,
-          "end": 138.793,
-          "confidence": 0.75,
-          "matched_tokens": 0,
+          "start": 138.62,
+          "end": 139.0,
+          "confidence": 0.98,
+          "matched_tokens": 1,
           "confidence_components": {
-            "token_coverage": 0.0,
-            "lexical_match": 0.0,
+            "token_coverage": 1.0,
+            "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 137.37,
-          "acoustic_end": 138.793,
+          "acoustic_start": 138.98,
+          "acoustic_end": 138.98,
           "total_tokens": 1,
           "words": [
             {
               "text": "why",
-              "start": 137.37,
-              "end": 138.793,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 138.98,
+              "end": 138.98,
+              "confidence": 0.9987,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -5284,9 +5284,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 138.793,
-          "end": 140.217,
-          "confidence": 0.75,
+          "start": 138.9,
+          "end": 140.2,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5294,8 +5294,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 138.793,
-          "acoustic_end": 140.217,
+          "acoustic_start": 138.9,
+          "acoustic_end": 140.2,
           "total_tokens": 0,
           "words": []
         },
@@ -5314,51 +5314,51 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 140.217,
-          "end": 141.64,
-          "confidence": 0.75,
-          "matched_tokens": 2,
+          "start": 139.0,
+          "end": 141.5,
+          "confidence": 0.98,
+          "matched_tokens": 4,
           "confidence_components": {
-            "token_coverage": 0.5,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 140.217,
-          "acoustic_end": 141.64,
+          "acoustic_start": 138.0,
+          "acoustic_end": 141.76,
           "total_tokens": 4,
           "words": [
             {
               "text": "they",
-              "start": 139.72,
-              "end": 140.44,
-              "confidence": 0.6256,
+              "start": 138.0,
+              "end": 139.12,
+              "confidence": 0.346,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "be",
-              "start": 140.572,
-              "end": 140.928,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 139.12,
+              "end": 139.3,
+              "confidence": 0.9376,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "wondering",
-              "start": 141.42,
-              "end": 142.38,
-              "confidence": 0.6148,
+              "start": 139.32,
+              "end": 139.74,
+              "confidence": 0.8005,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "why",
-              "start": 141.284,
-              "end": 141.64,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 141.4,
+              "end": 141.76,
+              "confidence": 0.9868,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             }
           ]
         },
@@ -5399,9 +5399,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 141.64,
-          "end": 143.063,
-          "confidence": 0.75,
+          "start": 141.5,
+          "end": 143.5,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5409,8 +5409,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 141.64,
-          "acoustic_end": 143.063,
+          "acoustic_start": 141.5,
+          "acoustic_end": 143.5,
           "total_tokens": 0,
           "words": []
         },
@@ -5429,57 +5429,57 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 143.063,
-          "end": 144.487,
-          "confidence": 0.75,
-          "matched_tokens": 3,
+          "start": 141.5,
+          "end": 145.2,
+          "confidence": 0.98,
+          "matched_tokens": 5,
           "confidence_components": {
-            "token_coverage": 0.6,
+            "token_coverage": 1.0,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 143.063,
-          "acoustic_end": 144.487,
+          "acoustic_start": 141.88,
+          "acoustic_end": 143.78,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 143.063,
-              "end": 143.348,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 141.88,
+              "end": 142.52,
+              "confidence": 0.8509,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 143.348,
-              "end": 143.633,
-              "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "start": 142.54,
+              "end": 142.88,
+              "confidence": 0.9919,
+              "timing_source": "asr_distil_large_v3",
+              "acoustic_supported": true
             },
             {
               "text": "its",
-              "start": 142.92,
-              "end": 143.12,
-              "confidence": 0.9954,
+              "start": 142.88,
+              "end": 143.18,
+              "confidence": 0.8617,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 143.12,
+              "start": 143.18,
               "end": 143.36,
-              "confidence": 0.9985,
+              "confidence": 0.999,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "time",
-              "start": 143.36,
-              "end": 143.86,
-              "confidence": 0.998,
+              "start": 143.4,
+              "end": 143.78,
+              "confidence": 0.9985,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -5522,9 +5522,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 144.487,
-          "end": 145.91,
-          "confidence": 0.75,
+          "start": 145.48,
+          "end": 147.26,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5532,8 +5532,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 144.487,
-          "acoustic_end": 145.91,
+          "acoustic_start": 145.48,
+          "acoustic_end": 147.26,
           "total_tokens": 0,
           "words": []
         },
@@ -5552,59 +5552,59 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 145.91,
-          "end": 147.333,
-          "confidence": 0.98,
-          "matched_tokens": 5,
+          "start": 147.26,
+          "end": 148.6,
+          "confidence": 0.82,
+          "matched_tokens": 1,
           "confidence_components": {
-            "token_coverage": 1.0,
+            "token_coverage": 0.2,
             "lexical_match": 1.0,
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 145.91,
-          "acoustic_end": 147.333,
+          "acoustic_start": 147.36,
+          "acoustic_end": 149.36,
           "total_tokens": 5,
           "words": [
             {
               "text": "wonder",
-              "start": 144.68,
-              "end": 146.12,
-              "confidence": 0.6453,
+              "start": 147.36,
+              "end": 149.36,
+              "confidence": 0.9926,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 145.88,
-              "end": 146.28,
-              "confidence": 0.9914,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 147.528,
+              "end": 147.796,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "im",
-              "start": 146.28,
-              "end": 146.64,
-              "confidence": 0.9962,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 147.796,
+              "end": 148.064,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "gon",
-              "start": 146.64,
-              "end": 147.0,
-              "confidence": 0.9785,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 148.064,
+              "end": 148.332,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             },
             {
               "text": "shine",
-              "start": 147.0,
-              "end": 147.32,
-              "confidence": 0.9981,
-              "timing_source": "asr_distil_large_v3",
-              "acoustic_supported": true
+              "start": 148.332,
+              "end": 148.6,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
             }
           ]
         },
@@ -5645,9 +5645,9 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 147.333,
-          "end": 148.757,
-          "confidence": 0.75,
+          "start": 148.6,
+          "end": 149.1,
+          "confidence": 0.82,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0,
@@ -5655,8 +5655,8 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 147.333,
-          "acoustic_end": 148.757,
+          "acoustic_start": 148.6,
+          "acoustic_end": 149.1,
           "total_tokens": 0,
           "words": []
         },
@@ -5675,8 +5675,8 @@
           "timing_source": "bounded_asr",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 148.757,
-          "end": 150.18,
+          "start": 148.64,
+          "end": 150.16,
           "confidence": 0.98,
           "matched_tokens": 4,
           "confidence_components": {
@@ -5685,39 +5685,39 @@
             "temporal_consistency": 1.0,
             "acoustic_support": 1.0
           },
-          "acoustic_start": 148.757,
+          "acoustic_start": 148.7,
           "acoustic_end": 150.18,
           "total_tokens": 4,
           "words": [
             {
               "text": "wonder",
-              "start": 149.1,
-              "end": 149.36,
-              "confidence": 0.9624,
+              "start": 148.7,
+              "end": 149.34,
+              "confidence": 0.995,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "when",
-              "start": 149.48,
-              "end": 149.7,
-              "confidence": 0.901,
+              "start": 149.36,
+              "end": 149.72,
+              "confidence": 0.9991,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "im",
-              "start": 149.7,
-              "end": 150.0,
-              "confidence": 0.8674,
+              "start": 149.72,
+              "end": 149.98,
+              "confidence": 0.9971,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             },
             {
               "text": "gon",
-              "start": 150.0,
-              "end": 150.16,
-              "confidence": 0.6086,
+              "start": 149.98,
+              "end": 150.18,
+              "confidence": 0.9401,
               "timing_source": "asr_distil_large_v3",
               "acoustic_supported": true
             }
@@ -5728,55 +5728,56 @@
   ],
   "diagnostics": {
     "model": "distil-whisper/distil-large-v3-ct2",
-    "unhinted_full_asr": "work/wonder_when_im_gon_shine/asr-distil-large-v3.json",
-    "unhinted_local_asr": "work/wonder_when_im_gon_shine/local_asr.json",
+    "unhinted_full_asr": "work/wonder_when_im_gon_shine/asr-large-v3-turbo.json",
+    "unhinted_local_asr": "work/wonder_when_im_gon_shine/local_large_v3.json",
     "section_occurrence_windows": {
       "section_001": {
-        "start": 9.86,
-        "end": 29.96,
-        "timing_source": "cadence_interpolated",
-        "confidence": 0.32
+        "start": 0.8,
+        "end": 27.4,
+        "timing_source": "acoustic_transfer",
+        "confidence": 0.72
       },
       "section_002": {
-        "start": 29.96,
+        "start": 27.58,
         "end": 54.78,
         "timing_source": "direct_acoustic",
-        "confidence": 0.73
+        "confidence": 0.87
       },
       "section_003": {
-        "start": 54.78,
-        "end": 68.6,
+        "start": 54.82,
+        "end": 68.5,
         "timing_source": "direct_acoustic",
-        "confidence": 0.67
+        "confidence": 0.82
       },
       "section_004": {
         "start": 69.14,
-        "end": 95.5,
+        "end": 95.46,
         "timing_source": "bounded_asr",
-        "confidence": 0.76
+        "confidence": 0.84
       },
       "section_005": {
-        "start": 95.5,
+        "start": 95.46,
         "end": 108.94,
         "timing_source": "direct_acoustic",
-        "confidence": 0.86
+        "confidence": 0.91
       },
       "section_006": {
-        "start": 108.94,
-        "end": 123.02,
-        "timing_source": "direct_acoustic",
-        "confidence": 0.8
+        "start": 109.54,
+        "end": 122.9,
+        "timing_source": "bounded_asr",
+        "confidence": 0.84
       },
       "section_007": {
-        "start": 124.56,
-        "end": 150.18,
+        "start": 123.18,
+        "end": 150.16,
         "timing_source": "bounded_asr",
-        "confidence": 0.75
+        "confidence": 0.82
       }
     },
     "independent_occurrence_evidence": true,
     "notes": [
-      "First chorus word ASR collapsed to repeated W tokens; exact authoritative text is retained and line timing is bounded cadence interpolation."
+      "First chorus boundaries are transferred from independently observed strong-vocal phrase onsets; exact authoritative text is retained.",
+      "No whole-section equal-spacing interpolation is used."
     ]
   },
   "authoritative_lyrics": {

@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import numpy as np
+import pytest
 import soundfile as sf
 
 from legendary_trap.artist_lockup import artist_lockup_for_song, format_artist_names
@@ -16,6 +17,8 @@ from legendary_trap.visualizer import (
     HEIGHT,
     PALETTE_CYCLE_SECONDS,
     PRESETS,
+    PRODUCTION_REVIEW_PRESET,
+    STANDALONE_SONGS,
     WIDTH,
     _hybrid_particles,
     palette_at_time,
@@ -59,6 +62,19 @@ def test_preset_names_are_explicit() -> None:
                             "trap_polar_350_artistlockup", "artist_identity_preview",
                             "focus_baseline_no_identity", "chokehold_identity_check"}
     assert Path("output/off_the_wave/timing.json").read_bytes() != b""
+
+
+def test_production_review_is_locked_to_approved_polar_renderer() -> None:
+    assert PRODUCTION_REVIEW_PRESET == "trap_polar_350_artistlockup"
+    assert PRESETS[PRODUCTION_REVIEW_PRESET].visualizer == "trap_sunset_polar_v3"
+    assert STANDALONE_SONGS["wonder_when_im_gon_shine"]["audio_path"].startswith("source/")
+
+
+def test_production_review_rejects_linear_fallback() -> None:
+    from legendary_trap.visualizer import render_preview
+
+    with pytest.raises(ValueError, match="production review requires"):
+        render_preview("wonder_when_im_gon_shine", "trap_sunset_hybrid", 0.0, 1.0)
 
 
 def test_polar_profile_is_mirrored_and_bass_deforms_it() -> None:

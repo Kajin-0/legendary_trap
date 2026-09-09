@@ -13,87 +13,87 @@ Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:09.86,0:00:10.97,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:00:10.97,0:00:12.09,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:00:12.09,0:00:13.21,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:00:13.21,0:00:14.32,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:00:14.32,0:00:15.44,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:00:15.44,0:00:16.56,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:00:16.56,0:00:17.67,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:00:17.67,0:00:18.79,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:00:18.79,0:00:19.91,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
-Dialogue: 1,0:00:19.91,0:00:21.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:00:21.02,0:00:22.14,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:00:22.14,0:00:23.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:00:23.26,0:00:24.37,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:00:24.37,0:00:25.49,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:00:25.49,0:00:26.61,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:00:26.61,0:00:27.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:00:27.72,0:00:28.84,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:00:28.84,0:00:29.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
-Dialogue: 1,0:00:29.96,0:00:31.73,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}pop out wit' a couple a twins
-Dialogue: 1,0:00:31.73,0:00:33.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}got matching tattoos on the thigh. (yeah)
-Dialogue: 1,0:00:33.50,0:00:35.27,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}pulling up inside a 'rarri
-Dialogue: 1,0:00:35.27,0:00:37.05,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}got two doors they butterfly. (woah)
-Dialogue: 1,0:00:37.05,0:00:38.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}windows tinted black so twelve
-Dialogue: 1,0:00:38.82,0:00:40.59,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot see up inside my ride. (its lit)
-Dialogue: 1,0:00:40.59,0:00:42.37,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}know we pushing boundaries
-Dialogue: 1,0:00:42.37,0:00:44.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}with this music shit its no surprise.
-Dialogue: 2,0:00:44.14,0:00:45.91,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(straight up)
-Dialogue: 1,0:00:45.91,0:00:47.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}so i wonder why of all my enemies lurk (uh)
-Dialogue: 1,0:00:47.68,0:00:49.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}and, if they seek me out for pain, or pleasure, or a curse. (or a curse)
-Dialogue: 1,0:00:49.46,0:00:51.23,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder if they ever even listened to a verse.
-Dialogue: 1,0:00:51.23,0:00:53.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder if they give a shit
-Dialogue: 1,0:00:53.00,0:00:54.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}or if they listened to my words.
-Dialogue: 1,0:00:54.78,0:00:58.23,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}trynna creep inside my mind (oh i)
-Dialogue: 1,0:00:58.23,0:01:01.69,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot wait till i get high (oh why)
-Dialogue: 1,0:01:01.69,0:01:05.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after my (oh my)
-Dialogue: 1,0:01:05.14,0:01:08.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after mine- (so i)
-Dialogue: 1,0:01:09.14,0:01:10.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:01:10.60,0:01:12.06,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:01:12.06,0:01:13.53,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:01:13.53,0:01:14.99,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:01:14.99,0:01:16.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:01:16.46,0:01:17.92,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:01:17.92,0:01:19.39,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:01:19.39,0:01:20.85,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:01:20.85,0:01:22.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
-Dialogue: 1,0:01:22.32,0:01:23.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:01:23.78,0:01:25.24,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:01:25.24,0:01:26.71,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:01:26.71,0:01:28.17,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:01:28.17,0:01:29.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:01:29.64,0:01:31.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:01:31.10,0:01:32.57,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:01:32.57,0:01:34.03,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:01:34.03,0:01:35.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
-Dialogue: 1,0:01:35.50,0:01:37.18,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}seeking out, my demise
-Dialogue: 1,0:01:37.18,0:01:38.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they rob me of all my hope.
-Dialogue: 1,0:01:38.86,0:01:40.54,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they dont care, if i die
-Dialogue: 1,0:01:40.54,0:01:42.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}it seems my life's just a joke
-Dialogue: 1,0:01:42.22,0:01:43.90,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wrapped in lies, like a vine
-Dialogue: 1,0:01:43.90,0:01:45.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}the truths stuck inside my throat.
-Dialogue: 1,0:01:45.58,0:01:47.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wont survive, in my eyes
-Dialogue: 1,0:01:47.26,0:01:48.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}being fried is how i cope.
-Dialogue: 1,0:01:48.94,0:01:52.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}trynna creep inside my mind (oh i)
-Dialogue: 1,0:01:52.46,0:01:55.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot wait till i get high (oh why)
-Dialogue: 1,0:01:55.98,0:01:59.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after my (oh my)
-Dialogue: 1,0:01:59.50,0:02:03.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after mine- (so i)
-Dialogue: 1,0:02:04.56,0:02:05.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:02:05.98,0:02:07.40,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:02:07.40,0:02:08.83,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:02:08.83,0:02:10.25,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:02:10.25,0:02:11.67,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:02:11.67,0:02:13.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:02:13.10,0:02:14.52,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:02:14.52,0:02:15.94,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:02:15.94,0:02:17.37,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
-Dialogue: 1,0:02:17.37,0:02:18.79,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
-Dialogue: 2,0:02:18.79,0:02:20.21,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:02:20.21,0:02:21.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
-Dialogue: 2,0:02:21.64,0:02:23.06,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
-Dialogue: 1,0:02:23.06,0:02:24.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
-Dialogue: 2,0:02:24.48,0:02:25.91,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
-Dialogue: 1,0:02:25.91,0:02:27.33,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
-Dialogue: 2,0:02:27.33,0:02:28.75,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
-Dialogue: 1,0:02:28.75,0:02:30.18,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:00:00.80,0:00:01.45,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:00:01.45,0:00:01.70,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:00:01.70,0:00:03.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:00:03.02,0:00:04.85,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:00:05.10,0:00:07.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:00:07.32,0:00:08.55,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:00:08.66,0:00:10.66,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:00:10.66,0:00:11.95,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:00:12.08,0:00:13.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:00:13.64,0:00:14.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:00:14.40,0:00:15.75,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:00:15.94,0:00:16.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:00:16.82,0:00:18.20,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:00:16.82,0:00:21.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:00:21.08,0:00:22.30,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:00:22.44,0:00:24.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:00:24.48,0:00:25.78,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:00:25.86,0:00:27.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:00:27.58,0:00:29.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}pop out wit' a couple a twins
+Dialogue: 1,0:00:29.00,0:00:30.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}got matching tattoos on the thigh. (yeah)
+Dialogue: 1,0:00:30.40,0:00:32.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}pulling up inside a 'rarri
+Dialogue: 1,0:00:32.00,0:00:33.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}got two doors they butterfly. (woah)
+Dialogue: 1,0:00:34.18,0:00:35.70,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}windows tinted black so twelve
+Dialogue: 1,0:00:35.70,0:00:37.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot see up inside my ride. (its lit)
+Dialogue: 1,0:00:37.22,0:00:38.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}know we pushing boundaries
+Dialogue: 1,0:00:38.80,0:00:40.56,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}with this music shit its no surprise.
+Dialogue: 2,0:00:40.00,0:00:40.56,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(straight up)
+Dialogue: 1,0:00:40.56,0:00:44.20,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}so i wonder why of all my enemies lurk (uh)
+Dialogue: 1,0:00:44.20,0:00:47.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}and, if they seek me out for pain, or pleasure, or a curse. (or a curse)
+Dialogue: 1,0:00:47.68,0:00:51.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder if they ever even listened to a verse.
+Dialogue: 1,0:00:51.00,0:00:53.56,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder if they give a shit
+Dialogue: 1,0:00:53.56,0:00:54.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}or if they listened to my words.
+Dialogue: 1,0:00:54.82,0:00:57.06,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}trynna creep inside my mind (oh i)
+Dialogue: 1,0:00:57.06,0:01:00.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot wait till i get high (oh why)
+Dialogue: 1,0:01:00.68,0:01:03.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after my (oh my)
+Dialogue: 1,0:01:03.96,0:01:08.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after mine- (so i)
+Dialogue: 1,0:01:09.14,0:01:10.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:01:10.00,0:01:11.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:01:10.22,0:01:11.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:01:11.60,0:01:13.55,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:01:13.68,0:01:15.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:01:15.82,0:01:17.05,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:01:17.14,0:01:19.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:01:19.22,0:01:20.50,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:01:20.54,0:01:22.06,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:01:22.06,0:01:22.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:01:22.06,0:01:22.80,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:01:22.30,0:01:25.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:01:25.26,0:01:26.50,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:01:25.26,0:01:29.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:01:29.46,0:01:30.70,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:01:30.76,0:01:32.88,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:01:32.88,0:01:34.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:01:34.18,0:01:35.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:01:35.46,0:01:36.88,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}seeking out, my demise
+Dialogue: 1,0:01:36.88,0:01:38.74,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they rob me of all my hope.
+Dialogue: 1,0:01:38.74,0:01:40.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they dont care, if i die
+Dialogue: 1,0:01:40.32,0:01:42.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}it seems my life's just a joke
+Dialogue: 1,0:01:42.14,0:01:45.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wrapped in lies, like a vine
+Dialogue: 1,0:01:45.48,0:01:47.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}the truths stuck inside my throat.
+Dialogue: 1,0:01:47.86,0:01:48.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wont survive, in my eyes
+Dialogue: 1,0:01:48.30,0:01:48.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}being fried is how i cope.
+Dialogue: 1,0:01:49.54,0:01:52.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}trynna creep inside my mind (oh i)
+Dialogue: 1,0:01:53.36,0:01:55.90,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}cannot wait till i get high (oh why)
+Dialogue: 1,0:01:56.70,0:01:59.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after my (oh my)
+Dialogue: 1,0:01:59.16,0:02:02.90,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be coming after mine- (so i)
+Dialogue: 1,0:02:03.18,0:02:04.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:02:04.10,0:02:05.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:02:05.20,0:02:06.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:02:06.50,0:02:08.26,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:02:08.60,0:02:11.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:02:11.00,0:02:11.80,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:02:11.80,0:02:15.20,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:02:15.20,0:02:16.50,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:02:16.50,0:02:18.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
+Dialogue: 1,0:02:18.62,0:02:19.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}why
+Dialogue: 2,0:02:18.90,0:02:20.20,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:02:19.00,0:02:21.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}they be wondering why
+Dialogue: 2,0:02:21.50,0:02:23.50,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(why) (why) (why)
+Dialogue: 1,0:02:21.50,0:02:25.20,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when its my time
+Dialogue: 2,0:02:25.48,0:02:27.26,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(time) (time) (time)
+Dialogue: 1,0:02:27.26,0:02:28.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon shine
+Dialogue: 2,0:02:28.60,0:02:29.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(shine) (shine) (shine)
+Dialogue: 1,0:02:28.64,0:02:30.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}wonder when im gon-
