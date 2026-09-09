@@ -1,0 +1,22 @@
+{
+  "focus": {
+    "song": "focus",
+    "authoritative_renderable_lines": 89,
+    "rendered_lines": 89,
+    "text_mismatches": 0,
+    "missing_supported_lines": [],
+    "unsupported_phantom_lines": [],
+    "exact_text_match": true,
+    "ass": "reports/v3_individual_audit/parity_ass/focus/focus.ass"
+  },
+  "we_got_chemistry": {
+    "song": "we_got_chemistry",
+    "authoritative_renderable_lines": 101,
+    "rendered_lines": 101,
+    "text_mismatches": 0,
+    "missing_supported_lines": [],
+    "unsupported_phantom_lines": [],
+    "exact_text_match": true,
+    "ass": "reports/v3_individual_audit/parity_ass/we_got_chemistry/we_got_chemistry.ass"
+  }
+}

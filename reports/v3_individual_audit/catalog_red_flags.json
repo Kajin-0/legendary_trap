@@ -1,0 +1,89 @@
+{
+  "songs": [
+    {
+      "song": "apple",
+      "flags": [
+        {
+          "type": "bounded_gap_gt_5s",
+          "start": 2.312,
+          "end": 11.56,
+          "length": 9.248,
+          "from": "section_001_line_001",
+          "to": "section_002_line_001"
+        }
+      ]
+    },
+    {
+      "song": "chokehold",
+      "flags": [
+        {
+          "type": "primary_duration_lt_0.10",
+          "line_id": "section_006_line_003"
+        },
+        {
+          "type": "zero_duration_primary",
+          "line_id": "section_006_line_004"
+        },
+        {
+          "type": "bounded_gap_gt_5s",
+          "start": 98.12,
+          "end": 127.34,
+          "length": 29.22,
+          "from": "section_005_line_008",
+          "to": "section_006_line_001"
+        }
+      ]
+    },
+    {
+      "song": "commin_long_ways",
+      "flags": []
+    },
+    {
+      "song": "focus",
+      "flags": [
+        {
+          "type": "bounded_gap_gt_5s",
+          "start": 5.21,
+          "end": 12.14,
+          "length": 6.93,
+          "from": "section_001_line_006",
+          "to": "section_002_line_001"
+        },
+        {
+          "type": "bounded_gap_gt_5s",
+          "start": 233.16,
+          "end": 238.3,
+          "length": 5.14,
+          "from": "section_009_line_008",
+          "to": "section_009_line_010"
+        }
+      ]
+    },
+    {
+      "song": "off_the_wave",
+      "flags": []
+    },
+    {
+      "song": "slidin",
+      "flags": []
+    },
+    {
+      "song": "we_got_chemistry",
+      "flags": [
+        {
+          "type": "zero_duration_primary",
+          "line_id": "section_002_line_019"
+        },
+        {
+          "type": "zero_duration_primary",
+          "line_id": "section_002_line_028"
+        }
+      ]
+    },
+    {
+      "song": "you_missed_it",
+      "flags": []
+    }
+  ],
+  "scope": "static red-flag audit; no automatic changes outside target songs"
+}

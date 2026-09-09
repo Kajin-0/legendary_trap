@@ -91,3 +91,21 @@ def occurrence_score(section: dict) -> float:
     confidence = sum(row.confidence for row in template) / len(template)
     estimated = sum(not row.direct for row in template) / len(template)
     return 0.4 * direct + 0.25 * edges + 0.25 * confidence + 0.1 * (1.0 - estimated)
+
+
+def has_independent_occurrence_evidence(section: dict) -> bool:
+    """Require acoustic support before a repeated occurrence can be promoted.
+
+    Cadence-only rows deliberately do not count: a template can shape an
+    occurrence that has already been heard, but it cannot create one from a
+    duplicate lyric block alone.
+    """
+    lines = section.get("lines", [])
+    return any(bool(line.get("acoustic_supported")) or any(
+        bool(word.get("acoustic_supported")) for word in line.get("words", [])
+    ) for line in lines)
+
+
+def can_promote_repeat_template(section: dict) -> bool:
+    """Return whether repeat cadence is eligible for this occurrence."""
+    return has_independent_occurrence_evidence(section)

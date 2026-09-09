@@ -1,0 +1,583 @@
+{
+  "model": "distil-whisper/distil-large-v3-ct2",
+  "window": [
+    205.0,
+    249.24
+  ],
+  "language_probability": 1,
+  "segments": [
+    {
+      "start": 205.0,
+      "end": 208.48,
+      "text": " And you need somebody by your side.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "And",
+          "start": 205.0,
+          "end": 205.44,
+          "probability": 0.9096084833145142
+        },
+        {
+          "text": "you",
+          "start": 205.44,
+          "end": 205.62,
+          "probability": 0.996116042137146
+        },
+        {
+          "text": "need",
+          "start": 205.62,
+          "end": 205.96,
+          "probability": 0.9977840781211853
+        },
+        {
+          "text": "somebody",
+          "start": 205.96,
+          "end": 206.66,
+          "probability": 0.9914045333862305
+        },
+        {
+          "text": "by",
+          "start": 206.66,
+          "end": 207.12,
+          "probability": 0.928726077079773
+        },
+        {
+          "text": "your",
+          "start": 207.12,
+          "end": 207.86,
+          "probability": 0.9805455207824707
+        },
+        {
+          "text": "side.",
+          "start": 207.86,
+          "end": 208.48,
+          "probability": 0.9980742931365967
+        }
+      ]
+    },
+    {
+      "start": 210.76,
+      "end": 213.88,
+      "text": " We got chemistry mixed with uncertainty.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "We",
+          "start": 210.76,
+          "end": 211.28,
+          "probability": 0.9759746789932251
+        },
+        {
+          "text": "got",
+          "start": 211.28,
+          "end": 211.5,
+          "probability": 0.9922071099281311
+        },
+        {
+          "text": "chemistry",
+          "start": 211.5,
+          "end": 212.18,
+          "probability": 0.997051477432251
+        },
+        {
+          "text": "mixed",
+          "start": 212.18,
+          "end": 212.72,
+          "probability": 0.6389254927635193
+        },
+        {
+          "text": "with",
+          "start": 212.72,
+          "end": 213.08,
+          "probability": 0.9992706179618835
+        },
+        {
+          "text": "uncertainty.",
+          "start": 213.08,
+          "end": 213.88,
+          "probability": 0.999221920967102
+        }
+      ]
+    },
+    {
+      "start": 214.26,
+      "end": 215.9,
+      "text": " Something about you keeps pulling me close.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Something",
+          "start": 214.26,
+          "end": 214.44,
+          "probability": 0.9957738518714905
+        },
+        {
+          "text": "about",
+          "start": 214.44,
+          "end": 214.72,
+          "probability": 0.9610682129859924
+        },
+        {
+          "text": "you",
+          "start": 214.72,
+          "end": 214.86,
+          "probability": 0.9996242523193359
+        },
+        {
+          "text": "keeps",
+          "start": 214.86,
+          "end": 215.04,
+          "probability": 0.34462970495224
+        },
+        {
+          "text": "pulling",
+          "start": 215.04,
+          "end": 215.3,
+          "probability": 0.9988223910331726
+        },
+        {
+          "text": "me",
+          "start": 215.3,
+          "end": 215.52,
+          "probability": 0.9995279312133789
+        },
+        {
+          "text": "close.",
+          "start": 215.52,
+          "end": 215.9,
+          "probability": 0.9936705827713013
+        }
+      ]
+    },
+    {
+      "start": 216.02,
+      "end": 220.74,
+      "text": " Even when it's hurting me, can deny the attraction, can't ignore the reaction.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Even",
+          "start": 216.02,
+          "end": 216.24,
+          "probability": 0.9982801675796509
+        },
+        {
+          "text": "when",
+          "start": 216.24,
+          "end": 216.54,
+          "probability": 0.9998360872268677
+        },
+        {
+          "text": "it's",
+          "start": 216.54,
+          "end": 216.76,
+          "probability": 0.9997129142284393
+        },
+        {
+          "text": "hurting",
+          "start": 216.76,
+          "end": 217.1,
+          "probability": 0.9822454452514648
+        },
+        {
+          "text": "me,",
+          "start": 217.1,
+          "end": 217.46,
+          "probability": 0.9998787641525269
+        },
+        {
+          "text": "can",
+          "start": 217.74,
+          "end": 217.8,
+          "probability": 0.9972801208496094
+        },
+        {
+          "text": "deny",
+          "start": 217.8,
+          "end": 218.16,
+          "probability": 0.6074014902114868
+        },
+        {
+          "text": "the",
+          "start": 218.16,
+          "end": 218.38,
+          "probability": 0.9998369216918945
+        },
+        {
+          "text": "attraction,",
+          "start": 218.38,
+          "end": 219.08,
+          "probability": 0.9996228218078613
+        },
+        {
+          "text": "can't",
+          "start": 219.42,
+          "end": 219.66,
+          "probability": 0.9982301294803619
+        },
+        {
+          "text": "ignore",
+          "start": 219.66,
+          "end": 219.86,
+          "probability": 0.9867042303085327
+        },
+        {
+          "text": "the",
+          "start": 219.86,
+          "end": 220.04,
+          "probability": 0.99980229139328
+        },
+        {
+          "text": "reaction.",
+          "start": 220.04,
+          "end": 220.74,
+          "probability": 0.9994696974754333
+        }
+      ]
+    },
+    {
+      "start": 221.2,
+      "end": 224.2,
+      "text": " Every time you step beside the scene, you become a distraction.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Every",
+          "start": 221.2,
+          "end": 221.36,
+          "probability": 0.9984228610992432
+        },
+        {
+          "text": "time",
+          "start": 221.36,
+          "end": 221.56,
+          "probability": 0.9998168349266052
+        },
+        {
+          "text": "you",
+          "start": 221.56,
+          "end": 221.68,
+          "probability": 0.9998973608016968
+        },
+        {
+          "text": "step",
+          "start": 221.68,
+          "end": 221.84,
+          "probability": 0.999716579914093
+        },
+        {
+          "text": "beside",
+          "start": 221.84,
+          "end": 222.18,
+          "probability": 0.6591789126396179
+        },
+        {
+          "text": "the",
+          "start": 222.18,
+          "end": 222.44,
+          "probability": 0.9989380240440369
+        },
+        {
+          "text": "scene,",
+          "start": 222.44,
+          "end": 222.72,
+          "probability": 0.9988982677459717
+        },
+        {
+          "text": "you",
+          "start": 222.92,
+          "end": 223.0,
+          "probability": 0.999727189540863
+        },
+        {
+          "text": "become",
+          "start": 223.0,
+          "end": 223.26,
+          "probability": 0.9988659620285034
+        },
+        {
+          "text": "a",
+          "start": 223.26,
+          "end": 223.46,
+          "probability": 0.9177641868591309
+        },
+        {
+          "text": "distraction.",
+          "start": 223.46,
+          "end": 224.2,
+          "probability": 0.999803364276886
+        }
+      ]
+    },
+    {
+      "start": 224.46,
+      "end": 225.4,
+      "text": " Yeah, yeah.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Yeah,",
+          "start": 224.46,
+          "end": 224.8,
+          "probability": 0.8518255949020386
+        },
+        {
+          "text": "yeah.",
+          "start": 225.4,
+          "end": 225.4,
+          "probability": 0.9876757860183716
+        }
+      ]
+    },
+    {
+      "start": 225.9,
+      "end": 226.7,
+      "text": " That on the weekend.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "That",
+          "start": 225.9,
+          "end": 226.04,
+          "probability": 0.978750467300415
+        },
+        {
+          "text": "on",
+          "start": 226.04,
+          "end": 226.18,
+          "probability": 0.9998525381088257
+        },
+        {
+          "text": "the",
+          "start": 226.18,
+          "end": 226.38,
+          "probability": 0.9147182703018188
+        },
+        {
+          "text": "weekend.",
+          "start": 226.38,
+          "end": 226.7,
+          "probability": 0.996941864490509
+        }
+      ]
+    },
+    {
+      "start": 226.88,
+      "end": 228.52,
+      "text": " Park, hot, caught in the deep end.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Park,",
+          "start": 226.88,
+          "end": 227.06,
+          "probability": 0.8125982880592346
+        },
+        {
+          "text": "hot,",
+          "start": 227.06,
+          "end": 227.32,
+          "probability": 0.2603410482406616
+        },
+        {
+          "text": "caught",
+          "start": 227.48,
+          "end": 227.48,
+          "probability": 0.5937345027923584
+        },
+        {
+          "text": "in",
+          "start": 227.48,
+          "end": 227.9,
+          "probability": 0.8846909999847412
+        },
+        {
+          "text": "the",
+          "start": 227.9,
+          "end": 228.04,
+          "probability": 0.9785898327827454
+        },
+        {
+          "text": "deep",
+          "start": 228.04,
+          "end": 228.32,
+          "probability": 0.9883038997650146
+        },
+        {
+          "text": "end.",
+          "start": 228.32,
+          "end": 228.52,
+          "probability": 0.9911501407623291
+        }
+      ]
+    },
+    {
+      "start": 228.74,
+      "end": 232.1,
+      "text": " Too many memories created from the moments we keep in.",
+      "avg_logprob": -0.22230089549879425,
+      "no_speech_prob": 0.14217472076416016,
+      "words": [
+        {
+          "text": "Too",
+          "start": 228.74,
+          "end": 228.84,
+          "probability": 0.9910553693771362
+        },
+        {
+          "text": "many",
+          "start": 228.84,
+          "end": 229.26,
+          "probability": 0.9052940607070923
+        },
+        {
+          "text": "memories",
+          "start": 229.26,
+          "end": 229.9,
+          "probability": 0.9998466968536377
+        },
+        {
+          "text": "created",
+          "start": 229.9,
+          "end": 230.5,
+          "probability": 0.999518871307373
+        },
+        {
+          "text": "from",
+          "start": 230.5,
+          "end": 230.78,
+          "probability": 0.9991681575775146
+        },
+        {
+          "text": "the",
+          "start": 230.78,
+          "end": 230.96,
+          "probability": 0.9999275207519531
+        },
+        {
+          "text": "moments",
+          "start": 230.96,
+          "end": 231.22,
+          "probability": 0.9688372015953064
+        },
+        {
+          "text": "we",
+          "start": 231.22,
+          "end": 231.44,
+          "probability": 0.9999208450317383
+        },
+        {
+          "text": "keep",
+          "start": 231.44,
+          "end": 231.76,
+          "probability": 0.9972366094589233
+        },
+        {
+          "text": "in.",
+          "start": 231.76,
+          "end": 232.1,
+          "probability": 0.9956163167953491
+        }
+      ]
+    },
+    {
+      "start": 235.0,
+      "end": 235.08,
+      "text": " B",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "B",
+          "start": 235.0,
+          "end": 235.08,
+          "probability": 0.05519209802150726
+        }
+      ]
+    },
+    {
+      "start": 235.08,
+      "end": 236.7,
+      "text": " BIDBIDB",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "BIDBIDB",
+          "start": 235.08,
+          "end": 236.7,
+          "probability": 0.15559990014880895
+        }
+      ]
+    },
+    {
+      "start": 236.7,
+      "end": 238.56,
+      "text": " Uh",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "Uh",
+          "start": 236.7,
+          "end": 238.56,
+          "probability": 8.728484681341797e-05
+        }
+      ]
+    },
+    {
+      "start": 238.56,
+      "end": 239.72,
+      "text": " Uh",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "Uh",
+          "start": 238.56,
+          "end": 239.72,
+          "probability": 0.03892071545124054
+        }
+      ]
+    },
+    {
+      "start": 247.72,
+      "end": 249.12,
+      "text": " Uh",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "Uh",
+          "start": 247.72,
+          "end": 249.12,
+          "probability": 0.01997891440987587
+        }
+      ]
+    },
+    {
+      "start": 249.12,
+      "end": 249.18,
+      "text": " Bhopi",
+      "avg_logprob": -1.0943566377346332,
+      "no_speech_prob": 0.06083707511425018,
+      "words": [
+        {
+          "text": "Bhopi",
+          "start": 249.12,
+          "end": 249.18,
+          "probability": 0.34673290854940814
+        }
+      ]
+    }
+  ]
+}

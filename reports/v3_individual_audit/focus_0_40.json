@@ -1,0 +1,182 @@
+{
+  "song": "focus",
+  "window": [
+    0.0,
+    40.0
+  ],
+  "source_hash": "6d3e5d41b711c9fdc550655d4cafd31fbd1054f6cfa7127ecc0afdb73bf95eda",
+  "lyrics_hash": "c6b5cad5e69494e30529fff837be65d6e5058613a1da168f2efaf473468f013c",
+  "evidence": [
+    "work/focus/large_whisper/groups.json",
+    "reports/focus_large_whisper/recovered_lines.json"
+  ],
+  "first_chorus_occurrence_bound": [
+    12.14,
+    34.5
+  ],
+  "zero_duration_primary_before": 2,
+  "zero_duration_primary_after": 0,
+  "lines": [
+    {
+      "line_id": "section_002_line_001",
+      "text": "Focus, tears in my eyes but I hide that shit (hide that shit)",
+      "old_start": 6.08,
+      "old_end": 6.8,
+      "new_start": 12.14,
+      "new_end": 14.12,
+      "shift_start": 6.06,
+      "shift_end": 7.32,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.6999,
+      "direct_acoustic": true,
+      "matched_tokens": 2,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_002",
+      "text": "Whole world movin’ on, but I’m stuck with it (stuck with it)",
+      "old_start": 6.8,
+      "old_end": 7.702,
+      "new_start": 14.78,
+      "new_end": 17.16,
+      "shift_start": 7.98,
+      "shift_end": 9.458,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.12,
+      "direct_acoustic": true,
+      "matched_tokens": 0,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_003",
+      "text": "Late nights starin’ at the roof, can’t quit (can’t quit)",
+      "old_start": 7.702,
+      "old_end": 8.603,
+      "new_start": 17.76,
+      "new_end": 19.98,
+      "shift_start": 10.058,
+      "shift_end": 11.377,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.12,
+      "direct_acoustic": true,
+      "matched_tokens": 0,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_004",
+      "text": "Tryna find myself while I’m losin’ it (losin’ it)",
+      "old_start": 17.62,
+      "old_end": 17.62,
+      "new_start": 19.98,
+      "new_end": 23.6,
+      "shift_start": 2.36,
+      "shift_end": 5.98,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.6897,
+      "direct_acoustic": true,
+      "matched_tokens": 1,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": true,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_005",
+      "text": "Focus, focus, I can’t fall apart (fall apart)",
+      "old_start": 17.62,
+      "old_end": 18.856,
+      "new_start": 23.6,
+      "new_end": 25.48,
+      "shift_start": 5.98,
+      "shift_end": 6.624,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.12,
+      "direct_acoustic": true,
+      "matched_tokens": 0,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_006",
+      "text": "Too much pain got engraved in my heart (my heart)",
+      "old_start": 29.98,
+      "old_end": 29.98,
+      "new_start": 26.02,
+      "new_end": 28.78,
+      "shift_start": -3.96,
+      "shift_end": -1.2,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.665,
+      "direct_acoustic": true,
+      "matched_tokens": 1,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": true,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_007",
+      "text": "Everybody sees the smile, that’s the art (that’s the art)",
+      "old_start": 29.98,
+      "old_end": 31.58,
+      "new_start": 28.78,
+      "new_end": 31.56,
+      "shift_start": -1.2,
+      "shift_end": -0.02,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.914,
+      "direct_acoustic": true,
+      "matched_tokens": 6,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    },
+    {
+      "line_id": "section_002_line_008",
+      "text": "They don’t know all the battles in the dark (the dark)",
+      "old_start": 31.58,
+      "old_end": 34.5,
+      "new_start": 32.04,
+      "new_end": 34.5,
+      "shift_start": 0.46,
+      "shift_end": 0.0,
+      "timing_source": "asr_distil_large_v3_occurrence_bounded",
+      "confidence": 0.9694,
+      "direct_acoustic": true,
+      "matched_tokens": 9,
+      "available_asr_anchor": true,
+      "flags": {
+        "old_zero_duration": false,
+        "new_zero_duration": false,
+        "estimated": false
+      }
+    }
+  ],
+  "chronology": true
+}

@@ -56,7 +56,7 @@
       "audio_path": "input/audio/we_got_chemistry.mp3",
       "lyrics_source": "lyrics.we_got_chemistry.txt",
       "lyrics_path": "input/lyrics/we_got_chemistry.txt",
-      "lyrics_sha256": "84878ce78a520f176cd752b713ebfdc9c529b4f53d6f79d774ba08da20eda054"
+      "lyrics_sha256": "ccd2e54809ab43f81b6169c9cd89bb95fadb1302fcdb0581aee3766dda5a56a7"
     },
     {
       "id": "you_missed_it",

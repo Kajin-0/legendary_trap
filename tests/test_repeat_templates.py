@@ -1,4 +1,10 @@
-from legendary_trap.repeat_templates import affine_warp, build_template, robust_consensus, transfer
+from legendary_trap.repeat_templates import (
+    affine_warp,
+    build_template,
+    can_promote_repeat_template,
+    robust_consensus,
+    transfer,
+)
 
 
 def _section(offset: float, scale: float = 1.0) -> dict:
@@ -23,3 +29,12 @@ def test_template_has_direct_and_edge_quality() -> None:
     template = build_template(_section(0))
     assert template[0].direct is True
     assert template[0].edge_score == 1.0
+
+
+def test_cadence_cannot_create_an_unheard_occurrence() -> None:
+    unsupported = {"lines": [{"words": [{"acoustic_supported": False}],
+                               "acoustic_supported": False}]}
+    supported = {"lines": [{"words": [{"acoustic_supported": True}],
+                             "acoustic_supported": False}]}
+    assert can_promote_repeat_template(unsupported) is False
+    assert can_promote_repeat_template(supported) is True

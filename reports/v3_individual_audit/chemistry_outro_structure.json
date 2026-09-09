@@ -1,0 +1,298 @@
+{
+  "song": "we_got_chemistry",
+  "window": [
+    205.0,
+    249.24
+  ],
+  "source_hash": "100a78a37c8f3e6e054068120190af6eddd4c249ae4343c1467de0159cdd2b37",
+  "lyrics_hash_after": "ccd2e54809ab43f81b6169c9cd89bb95fadb1302fcdb0581aee3766dda5a56a7",
+  "evidence": [
+    "reports/v3_individual_audit/chemistry_late_asr.json",
+    "work/we_got_chemistry/large_whisper/groups.json",
+    "work/we_got_chemistry/asr-base.en.json"
+  ],
+  "occurrence_conclusion": "one complete late hook; no second outro hook occurrence",
+  "acoustic_occurrence_count": 1,
+  "supported_audio": [
+    {
+      "start": 210.76,
+      "end": 213.88,
+      "text": " We got chemistry mixed with uncertainty."
+    },
+    {
+      "start": 214.26,
+      "end": 215.9,
+      "text": " Something about you keeps pulling me close."
+    },
+    {
+      "start": 216.02,
+      "end": 220.74,
+      "text": " Even when it's hurting me, can deny the attraction, can't ignore the reaction."
+    },
+    {
+      "start": 221.2,
+      "end": 224.2,
+      "text": " Every time you step beside the scene, you become a distraction."
+    },
+    {
+      "start": 224.46,
+      "end": 225.4,
+      "text": " Yeah, yeah."
+    },
+    {
+      "start": 225.9,
+      "end": 226.7,
+      "text": " That on the weekend."
+    },
+    {
+      "start": 226.88,
+      "end": 228.52,
+      "text": " Park, hot, caught in the deep end."
+    },
+    {
+      "start": 228.74,
+      "end": 232.1,
+      "text": " Too many memories created from the moments we keep in."
+    },
+    {
+      "start": 235.0,
+      "end": 235.08,
+      "text": " B"
+    },
+    {
+      "start": 235.08,
+      "end": 236.7,
+      "text": " BIDBIDB"
+    },
+    {
+      "start": 236.7,
+      "end": 238.56,
+      "text": " Uh"
+    },
+    {
+      "start": 238.56,
+      "end": 239.72,
+      "text": " Uh"
+    },
+    {
+      "start": 247.72,
+      "end": 249.12,
+      "text": " Uh"
+    },
+    {
+      "start": 249.12,
+      "end": 249.18,
+      "text": " Bhopi"
+    }
+  ],
+  "final_hook_text": [
+    "We got chemistry",
+    "Mixed with uncertainty",
+    "Something about you keeps pulling me close",
+    "Even when it’s hurting me",
+    "Can’t deny the attraction",
+    "Can’t ignore the reaction",
+    "Every time you step inside the scene",
+    "You become the distraction",
+    "Yeah",
+    "Thot on the weekend",
+    "Heart got caught in the deep end",
+    "Too many memories created",
+    "From the moments we keep in"
+  ],
+  "outro_hook_text_before": [
+    "We got chemistry",
+    "Mixed with uncertainty",
+    "Something about you keeps pulling me close",
+    "Even when it’s hurting me",
+    "Can’t deny the attraction",
+    "Can’t ignore the reaction",
+    "Every time you step inside the scene",
+    "You become the distraction",
+    "Yeah",
+    "Thot on the weekend",
+    "Heart got caught in the deep end",
+    "Too many memories created",
+    "From the moments we keep in"
+  ],
+  "outro_hook_text_after": [],
+  "reference_decision": "B",
+  "reference_diff": {
+    "removed_block": "[outro hook] and its 13 lines",
+    "wording_added": [],
+    "asr_wording_added": false
+  },
+  "timing_before": [
+    {
+      "line_id": "section_001_line_001",
+      "old_start": 0.0,
+      "old_end": 14.56,
+      "new_start": 12.66,
+      "new_end": 14.56,
+      "timing_source": "asr_distil_large_v3"
+    },
+    {
+      "line_id": "section_001_line_010",
+      "old_start": 29.98,
+      "old_end": 29.98,
+      "new_start": 29.98,
+      "new_end": 30.65,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_001_line_011",
+      "old_start": 29.98,
+      "old_end": 31.22,
+      "new_start": 30.65,
+      "new_end": 31.22,
+      "timing_source": "estimated"
+    },
+    {
+      "line_id": "section_007_line_001",
+      "old_start": 226.44,
+      "old_end": 226.46,
+      "new_start": 226.44,
+      "new_end": 228.34,
+      "timing_source": "asr_distil_large_v3"
+    },
+    {
+      "line_id": "section_007_line_002",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 228.42,
+      "new_end": 230.34,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_003",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 230.42,
+      "new_end": 232.36,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_004",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 232.44,
+      "new_end": 234.0,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_005",
+      "old_start": 226.46,
+      "old_end": 226.46,
+      "new_start": 234.08,
+      "new_end": 235.72,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_006",
+      "old_start": 226.46,
+      "old_end": 226.68,
+      "new_start": 235.8,
+      "new_end": 237.54,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_007",
+      "old_start": 226.68,
+      "old_end": 227.042,
+      "new_start": 237.62,
+      "new_end": 239.58,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_008",
+      "old_start": 227.042,
+      "old_end": 227.248,
+      "new_start": 239.66,
+      "new_end": 243.34,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_009",
+      "old_start": 227.248,
+      "old_end": 227.3,
+      "new_start": 243.42,
+      "new_end": 244.4,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_010",
+      "old_start": 227.248,
+      "old_end": 227.248,
+      "new_start": 244.48,
+      "new_end": 245.15,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_011",
+      "old_start": 227.3,
+      "old_end": 228.52,
+      "new_start": 245.23,
+      "new_end": 245.8,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_012",
+      "old_start": 228.52,
+      "old_end": 230.36,
+      "new_start": 245.88,
+      "new_end": 247.46,
+      "timing_source": "repeated_section_cadence"
+    },
+    {
+      "line_id": "section_007_line_013",
+      "old_start": 230.36,
+      "old_end": 232.02,
+      "new_start": 247.54,
+      "new_end": 249.14,
+      "timing_source": "repeated_section_cadence"
+    }
+  ],
+  "timing_after": {
+    "section_007_present": false,
+    "last_supported_vocal_end": 232.12,
+    "late_lines": [
+      {
+        "line_id": "section_006_line_009",
+        "text": "Yeah",
+        "start": 224.46,
+        "end": 225.4,
+        "timing_source": "asr_distil_large_v3_late_bounded"
+      },
+      {
+        "line_id": "section_006_line_010",
+        "text": "Thot on the weekend",
+        "start": 225.9,
+        "end": 226.7,
+        "timing_source": "asr_distil_large_v3_late_bounded"
+      },
+      {
+        "line_id": "section_006_line_011",
+        "text": "Heart got caught in the deep end",
+        "start": 226.88,
+        "end": 228.52,
+        "timing_source": "asr_distil_large_v3_late_bounded"
+      },
+      {
+        "line_id": "section_006_line_012",
+        "text": "Too many memories created",
+        "start": 228.74,
+        "end": 230.5,
+        "timing_source": "asr_distil_large_v3_late_bounded"
+      },
+      {
+        "line_id": "section_006_line_013",
+        "text": "From the moments we keep in",
+        "start": 230.5,
+        "end": 232.12,
+        "timing_source": "asr_distil_large_v3_late_bounded"
+      }
+    ]
+  },
+  "cadence_guard": "repeat cadence cannot promote an occurrence without independent acoustic evidence",
+  "old_shadow_excerpt_present": true
+}
