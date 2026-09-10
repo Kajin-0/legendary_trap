@@ -35,6 +35,8 @@ def make_document(song_id: str, audio: dict, parsed, sections: list[dict], align
                           "acoustic_match_texts": line.acoustic_match_texts,
                           "acoustic_match_tokens": line.acoustic_match_tokens,
                           "annotation_metadata": line.annotation_metadata,
+                          "raw_source_line": line.raw_source_line,
+                          "raw_source_span": line.raw_source_span,
                           "structurally_inferred": line.structurally_inferred,
                           "timing_source": row.get("timing_source", "asr" if row.get("matched_tokens") else "interpolated"),
                           "acoustic_support": row.get("acoustic_support", bool(row.get("matched_tokens"))),

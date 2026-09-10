@@ -1,0 +1,77 @@
+{
+  "song_id": "on_a_trance",
+  "title": "On A Trance (V3)",
+  "artist": "lilshitty",
+  "source": "source/On A Trance (V3).mp3",
+  "source_sha256": "0cdd9d82ea991732c2f9a57756ccc23e1cbf7a0a95d6c464034e34f70114873c",
+  "lyric_sha256": "a0dc37dc72595156d7565b01fa75ba87965471058d0bc1fcfc04ee5fadf3e129",
+  "primary": 52,
+  "secondary": 3,
+  "direct_acoustic": 52,
+  "bounded_asr": 3,
+  "acoustic_transfer": 0,
+  "cadence_interpolation": 0,
+  "line_coverage": 0.9454545454545454,
+  "token_coverage": 0.9184210526315789,
+  "median_onset_error": null,
+  "p90_onset_error": null,
+  "unresolved": [],
+  "low_confidence": [],
+  "structural_qa": {
+    "zero_duration_primary": 0,
+    "primary_under_0_10": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "chronology_violations": 0
+  },
+  "section_occurrence_windows": {
+    "section_001": {
+      "start": 0.1,
+      "end": 14.12,
+      "occurrence": 1
+    },
+    "section_002": {
+      "start": 15.600000000000001,
+      "end": 50.4,
+      "occurrence": 1
+    },
+    "section_003": {
+      "start": 50.4,
+      "end": 71.64,
+      "occurrence": 1
+    },
+    "section_004": {
+      "start": 72.92,
+      "end": 92.6,
+      "occurrence": 1
+    },
+    "section_005": {
+      "start": 92.6,
+      "end": 114.14,
+      "occurrence": 1
+    },
+    "section_006": {
+      "start": 115.52,
+      "end": 128.13,
+      "occurrence": 1
+    }
+  },
+  "lexical_reconstruction": {
+    "source_token_count": 404,
+    "canonical_token_count": 397,
+    "missing": 0,
+    "added": 0,
+    "changed": 0,
+    "exact": true
+  },
+  "asr_lexical_substitutions": 0,
+  "annotation_classifications": {
+    "(massage)": "structural_annotation",
+    "(beat start)": "structural_annotation",
+    "(verse)": "section_marker",
+    "(chorus)": "section_marker",
+    "(post-Chrorus)": "section_marker"
+  }
+}

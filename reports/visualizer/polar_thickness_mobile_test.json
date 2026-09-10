@@ -36,7 +36,8 @@
   "polar_response_changed": false,
   "center_and_radii_unchanged": true,
   "brightness_compensation": "none; contour alpha and palette treatment were held constant",
-  "production_default_scale": 1.0,
+  "production_default_scale": 2.2,
+  "selected_production_variant": "2.2x",
   "timing_hashes_unchanged": true,
   "visualizer_parameters_unchanged": [
     "polar center",

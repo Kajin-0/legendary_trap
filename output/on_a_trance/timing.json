@@ -1,0 +1,5047 @@
+{
+  "schema_version": "1.0",
+  "song_id": "on_a_trance",
+  "audio": {
+    "path": "source/On A Trance (V3).mp3",
+    "duration_seconds": 134.424,
+    "sha256": "0cdd9d82ea991732c2f9a57756ccc23e1cbf7a0a95d6c464034e34f70114873c"
+  },
+  "alignment": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "4c4a378250022172c81279989ddaebc0aee85f59505bb34f2f8c12b29286faa6",
+    "authoritative_line_count": 55,
+    "authoritative_token_count": 380,
+    "line_acoustic_coverage": 0.9454545454545454,
+    "token_acoustic_coverage": 0.9184210526315789,
+    "primary_count": 52,
+    "secondary_count": 3,
+    "direct_acoustic_lines": 52,
+    "bounded_asr_lines": 3,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 134.424,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.1,
+        "end": 14.12,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 15.600000000000001,
+        "end": 50.4,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 50.4,
+        "end": 71.64,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 72.92,
+        "end": 92.6,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 92.6,
+        "end": 114.14,
+        "occurrence": 1
+      },
+      "section_006": {
+        "start": 115.52,
+        "end": 128.13,
+        "occurrence": 1
+      }
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Unsectioned",
+      "raw_label": "",
+      "normalized_label": "",
+      "structural_role": "section",
+      "structural_inferred": false,
+      "fingerprint": "ayo don't talk shit bout me twin all these bitches talking shit bout me but fuck em im not give a shit im build diffrent u'know what im saying i keep that grind up and make sum honey buns twin they aint no me",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 0.1,
+      "end": 14.12,
+      "confidence": 0.9156,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 1,
+          "original_text": "(massage) ayo don't talk shit bout me twin, all these bitches talking shit bout me. but fuck em...im not give a shit. im build diffrent u'know what im saying. i keep that grind up and make sum honey buns twin, they aint no me",
+          "lead_text": "ayo don't talk shit bout me twin, all these bitches talking shit bout me. but fuck em...im not give a shit. im build diffrent u'know what im saying. i keep that grind up and make sum honey buns twin, they aint no me",
+          "adlibs": [
+            "massage"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "massage"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "massage"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 1,
+          "raw_source_span": "(massage) ayo don't talk shit bout me twin, all these bitches talking shit bout me. but fuck em...im not give a shit. im build diffrent u'know what im saying. i keep that grind up and make sum honey buns twin, they aint no me",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 0.1,
+          "end": 14.12,
+          "confidence": 0.9156,
+          "matched_tokens": 41,
+          "confidence_components": {
+            "token_coverage": 0.9318
+          },
+          "acoustic_start": 0.1,
+          "acoustic_end": 14.12,
+          "total_tokens": 44,
+          "words": [
+            {
+              "text": "ayo",
+              "start": 0.1,
+              "end": 0.2,
+              "confidence": 0.8984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 0.26,
+              "end": 0.36,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talk",
+              "start": 0.36,
+              "end": 0.56,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 0.56,
+              "end": 0.74,
+              "confidence": 0.9776,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bout",
+              "start": 0.74,
+              "end": 0.9,
+              "confidence": 0.348,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 0.9,
+              "end": 1.06,
+              "confidence": 0.9975,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "twin",
+              "start": 1.18,
+              "end": 1.34,
+              "confidence": 0.9313,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 2.98,
+              "end": 3.34,
+              "confidence": 0.9467,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "these",
+              "start": 3.34,
+              "end": 3.44,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bitches",
+              "start": 3.44,
+              "end": 3.62,
+              "confidence": 0.9848,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talking",
+              "start": 3.62,
+              "end": 3.92,
+              "confidence": 0.6626,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 3.92,
+              "end": 4.16,
+              "confidence": 0.9965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bout",
+              "start": 4.16,
+              "end": 4.36,
+              "confidence": 0.9785,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 4.36,
+              "end": 4.5,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 4.561,
+              "end": 4.88,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fuck",
+              "start": 4.7,
+              "end": 4.98,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "em",
+              "start": 4.98,
+              "end": 5.1,
+              "confidence": 0.3267,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "im",
+              "start": 5.7,
+              "end": 6.06,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "not",
+              "start": 6.06,
+              "end": 6.2,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "give",
+              "start": 6.2,
+              "end": 6.36,
+              "confidence": 0.9573,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 6.473,
+              "end": 6.791,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "shit",
+              "start": 6.36,
+              "end": 6.58,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "im",
+              "start": 7.11,
+              "end": 7.429,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "build",
+              "start": 6.72,
+              "end": 6.96,
+              "confidence": 0.4769,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "diffrent",
+              "start": 6.96,
+              "end": 7.4,
+              "confidence": 0.6598,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "u'know",
+              "start": 7.5,
+              "end": 7.56,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 7.56,
+              "end": 7.66,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "im",
+              "start": 7.66,
+              "end": 7.76,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "saying",
+              "start": 7.76,
+              "end": 8.02,
+              "confidence": 0.7675,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 9.2,
+              "end": 9.56,
+              "confidence": 0.5214,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "keep",
+              "start": 9.56,
+              "end": 9.76,
+              "confidence": 0.9678,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "that",
+              "start": 9.76,
+              "end": 9.94,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grind",
+              "start": 9.94,
+              "end": 10.2,
+              "confidence": 0.9926,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 10.2,
+              "end": 10.42,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 10.42,
+              "end": 10.52,
+              "confidence": 0.9867,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "make",
+              "start": 10.52,
+              "end": 10.68,
+              "confidence": 0.9946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sum",
+              "start": 10.68,
+              "end": 10.86,
+              "confidence": 0.9965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "honey",
+              "start": 10.86,
+              "end": 11.1,
+              "confidence": 0.8931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "buns",
+              "start": 11.1,
+              "end": 11.4,
+              "confidence": 0.892,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "twin",
+              "start": 11.4,
+              "end": 11.72,
+              "confidence": 0.9277,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 12.94,
+              "end": 13.3,
+              "confidence": 0.3827,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "aint",
+              "start": 13.3,
+              "end": 13.66,
+              "confidence": 0.9905,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 13.66,
+              "end": 13.86,
+              "confidence": 0.6012,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 13.86,
+              "end": 14.12,
+              "confidence": 0.5139,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "verse",
+      "raw_label": "(verse)",
+      "normalized_label": "verse",
+      "structural_role": "verse",
+      "structural_inferred": false,
+      "fingerprint": "riding trought night don't don't need fake shit been geeked up yeah no stress diamonds on my neck yeah were full icing gang pulled up yeah were flying geeked were geeked up for life he diamonds on my cruise yeah diamonds at the both yeah we on x like we on cush ye ain't no talking to me if you lying yeah shawty we're flying riding trought night don't need fake shit ain't no talking to me if you lying shawtys all over me they're crying over me i don't play some games if you say we got beef i shoot u in you crip diamonds shine wide feeling wildly no stress on me keep grinding she's funky bout me i keep it funking",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 15.6,
+      "end": 50.4,
+      "confidence": 0.9417,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 7,
+          "original_text": "Riding trought night don't, don't need fake shit",
+          "lead_text": "Riding trought night don't, don't need fake shit",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 7,
+          "raw_source_span": "Riding trought night don't, don't need fake shit",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 15.6,
+          "end": 17.56,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 15.6,
+          "acoustic_end": 17.56,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "riding",
+              "start": 15.6,
+              "end": 15.96,
+              "confidence": 0.8195,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trought",
+              "start": 15.96,
+              "end": 16.1,
+              "confidence": 0.9336,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "night",
+              "start": 16.2,
+              "end": 16.38,
+              "confidence": 0.9975,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 16.5,
+              "end": 16.66,
+              "confidence": 0.9939,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 16.72,
+              "end": 16.88,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 16.88,
+              "end": 17.04,
+              "confidence": 0.9486,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fake",
+              "start": 17.04,
+              "end": 17.28,
+              "confidence": 0.9002,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 17.28,
+              "end": 17.56,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 9,
+          "original_text": "been geeked up, yeah no stress",
+          "lead_text": "been geeked up, yeah no stress",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 9,
+          "raw_source_span": "been geeked up, yeah no stress",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 17.56,
+          "end": 19.16,
+          "confidence": 0.8674,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 0.8333
+          },
+          "acoustic_start": 17.56,
+          "acoustic_end": 19.16,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "been",
+              "start": 17.56,
+              "end": 17.94,
+              "confidence": 0.8703,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "geeked",
+              "start": 17.94,
+              "end": 18.32,
+              "confidence": 0.9841,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 18.32,
+              "end": 18.44,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 18.36,
+              "end": 18.627,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "no",
+              "start": 18.68,
+              "end": 18.82,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stress",
+              "start": 18.82,
+              "end": 19.16,
+              "confidence": 0.9952,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 11,
+          "original_text": "diamonds on my neck yeah..were full icing (ICE)",
+          "lead_text": "diamonds on my neck yeah..were full icing",
+          "adlibs": [
+            "ICE"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ice"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ice"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 11,
+          "raw_source_span": "diamonds on my neck yeah..were full icing (ICE)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 19.16,
+          "end": 21.02,
+          "confidence": 0.8884,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 0.875
+          },
+          "acoustic_start": 19.16,
+          "acoustic_end": 21.02,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 19.16,
+              "end": 19.6,
+              "confidence": 0.9914,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 19.6,
+              "end": 19.68,
+              "confidence": 0.9729,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 19.68,
+              "end": 19.82,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "neck",
+              "start": 19.82,
+              "end": 20.0,
+              "confidence": 0.9872,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 20.08,
+              "end": 20.18,
+              "confidence": 0.9937,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "were",
+              "start": 20.28,
+              "end": 20.42,
+              "confidence": 0.6421,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "full",
+              "start": 20.555,
+              "end": 20.788,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "icing",
+              "start": 20.62,
+              "end": 21.02,
+              "confidence": 0.9144,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 13,
+          "original_text": "gang pulled up yeah, were flying ",
+          "lead_text": "gang pulled up yeah, were flying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 13,
+          "raw_source_span": "gang pulled up yeah, were flying ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 21.4,
+          "end": 22.8,
+          "confidence": 0.9752,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 21.4,
+          "acoustic_end": 22.8,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "gang",
+              "start": 21.4,
+              "end": 21.76,
+              "confidence": 0.731,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "pulled",
+              "start": 21.76,
+              "end": 22.02,
+              "confidence": 0.9454,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 22.02,
+              "end": 22.22,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 22.26,
+              "end": 22.34,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "were",
+              "start": 22.38,
+              "end": 22.48,
+              "confidence": 0.9253,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flying",
+              "start": 22.48,
+              "end": 22.8,
+              "confidence": 0.8045,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_005",
+          "source_line": 15,
+          "original_text": "geeked were geeked up for life he (its lit)",
+          "lead_text": "geeked were geeked up for life he",
+          "adlibs": [
+            "its lit"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "its lit"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "its",
+              "lit"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 15,
+          "raw_source_span": "geeked were geeked up for life he (its lit)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 22.8,
+          "end": 24.76,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 22.8,
+          "acoustic_end": 24.76,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "geeked",
+              "start": 22.8,
+              "end": 23.2,
+              "confidence": 0.9699,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "were",
+              "start": 23.3,
+              "end": 23.4,
+              "confidence": 0.9363,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "geeked",
+              "start": 23.4,
+              "end": 23.74,
+              "confidence": 0.9931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 23.74,
+              "end": 23.86,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 23.86,
+              "end": 24.2,
+              "confidence": 0.7095,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "life",
+              "start": 24.2,
+              "end": 24.52,
+              "confidence": 0.9964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "he",
+              "start": 24.56,
+              "end": 24.76,
+              "confidence": 0.8932,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_006",
+          "source_line": 17,
+          "original_text": "diamonds on my cruise yeah",
+          "lead_text": "diamonds on my cruise yeah",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 17,
+          "raw_source_span": "diamonds on my cruise yeah",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 24.98,
+          "end": 26.32,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 24.98,
+          "acoustic_end": 26.32,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 24.98,
+              "end": 25.46,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 25.46,
+              "end": 25.54,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 25.54,
+              "end": 25.68,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cruise",
+              "start": 25.68,
+              "end": 26.04,
+              "confidence": 0.8064,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 26.2,
+              "end": 26.32,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_007",
+          "source_line": 19,
+          "original_text": "diamonds at the both yeah, we on X like we on cush ye (ya ya)",
+          "lead_text": "diamonds at the both yeah, we on X like we on cush ye",
+          "adlibs": [
+            "ya ya"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ya ya"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ya",
+              "ya"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 19,
+          "raw_source_span": "diamonds at the both yeah, we on X like we on cush ye (ya ya)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 26.32,
+          "end": 29.92,
+          "confidence": 0.9099,
+          "matched_tokens": 12,
+          "confidence_components": {
+            "token_coverage": 0.9231
+          },
+          "acoustic_start": 26.32,
+          "acoustic_end": 29.92,
+          "total_tokens": 13,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 26.32,
+              "end": 26.82,
+              "confidence": 0.9979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "at",
+              "start": 26.597,
+              "end": 26.874,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 26.9,
+              "end": 27.0,
+              "confidence": 0.8892,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "both",
+              "start": 27.0,
+              "end": 27.2,
+              "confidence": 0.6832,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 27.32,
+              "end": 27.42,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 27.42,
+              "end": 27.7,
+              "confidence": 0.6464,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 27.7,
+              "end": 27.88,
+              "confidence": 0.9888,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "x",
+              "start": 27.88,
+              "end": 28.24,
+              "confidence": 0.9454,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 28.3,
+              "end": 28.6,
+              "confidence": 0.7308,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 28.72,
+              "end": 28.96,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 28.96,
+              "end": 29.2,
+              "confidence": 0.9926,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cush",
+              "start": 29.2,
+              "end": 29.54,
+              "confidence": 0.5705,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ye",
+              "start": 29.74,
+              "end": 29.92,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_008",
+          "source_line": 21,
+          "original_text": "ain't no talking to me if you lying",
+          "lead_text": "ain't no talking to me if you lying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 21,
+          "raw_source_span": "ain't no talking to me if you lying",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 30.42,
+          "end": 32.32,
+          "confidence": 0.9609,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 30.42,
+          "acoustic_end": 32.32,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "ain't",
+              "start": 30.42,
+              "end": 30.86,
+              "confidence": 0.6952,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 30.86,
+              "end": 31.0,
+              "confidence": 0.9887,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talking",
+              "start": 31.0,
+              "end": 31.34,
+              "confidence": 0.5518,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 31.34,
+              "end": 31.48,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 31.48,
+              "end": 31.66,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 31.66,
+              "end": 31.84,
+              "confidence": 0.965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 31.84,
+              "end": 31.94,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lying",
+              "start": 31.94,
+              "end": 32.32,
+              "confidence": 0.5535,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_009",
+          "source_line": 23,
+          "original_text": "yeah shawty we're flying",
+          "lead_text": "yeah shawty we're flying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 23,
+          "raw_source_span": "yeah shawty we're flying",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 32.32,
+          "end": 33.62,
+          "confidence": 0.9777,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 32.32,
+          "acoustic_end": 33.62,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 32.32,
+              "end": 32.76,
+              "confidence": 0.8203,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shawty",
+              "start": 32.88,
+              "end": 33.08,
+              "confidence": 0.8332,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we're",
+              "start": 33.16,
+              "end": 33.28,
+              "confidence": 0.9954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flying",
+              "start": 33.28,
+              "end": 33.62,
+              "confidence": 0.9944,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_010",
+          "source_line": 25,
+          "original_text": "Riding trought night don't, need fake shit",
+          "lead_text": "Riding trought night don't, need fake shit",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 25,
+          "raw_source_span": "Riding trought night don't, need fake shit",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 33.62,
+          "end": 35.52,
+          "confidence": 0.7801,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 0.7143
+          },
+          "acoustic_start": 33.62,
+          "acoustic_end": 35.52,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "riding",
+              "start": 33.62,
+              "end": 33.98,
+              "confidence": 0.9311,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trought",
+              "start": 33.891,
+              "end": 34.163,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "night",
+              "start": 34.14,
+              "end": 34.4,
+              "confidence": 0.975,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 34.76,
+              "end": 34.88,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 34.706,
+              "end": 34.977,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "fake",
+              "start": 35.08,
+              "end": 35.28,
+              "confidence": 0.9815,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 35.28,
+              "end": 35.52,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_011",
+          "source_line": 27,
+          "original_text": "ain't no talking to me if you lying ",
+          "lead_text": "ain't no talking to me if you lying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 27,
+          "raw_source_span": "ain't no talking to me if you lying ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 35.52,
+          "end": 37.18,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 35.52,
+          "acoustic_end": 37.18,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "ain't",
+              "start": 35.52,
+              "end": 35.94,
+              "confidence": 0.9979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 35.94,
+              "end": 36.02,
+              "confidence": 0.9934,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talking",
+              "start": 36.02,
+              "end": 36.26,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 36.26,
+              "end": 36.46,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 36.46,
+              "end": 36.62,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 36.62,
+              "end": 36.8,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 36.8,
+              "end": 36.88,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lying",
+              "start": 36.88,
+              "end": 37.18,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_012",
+          "source_line": 29,
+          "original_text": "shawtys all over me they're crying...over me, i don't play some games",
+          "lead_text": "shawtys all over me they're crying...over me, i don't play some games",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 29,
+          "raw_source_span": "shawtys all over me they're crying...over me, i don't play some games",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 37.18,
+          "end": 40.68,
+          "confidence": 0.98,
+          "matched_tokens": 13,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 37.18,
+          "acoustic_end": 40.68,
+          "total_tokens": 13,
+          "words": [
+            {
+              "text": "shawtys",
+              "start": 37.18,
+              "end": 37.68,
+              "confidence": 0.8028,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 37.68,
+              "end": 37.84,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "over",
+              "start": 37.84,
+              "end": 38.14,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 38.14,
+              "end": 38.44,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they're",
+              "start": 38.54,
+              "end": 38.72,
+              "confidence": 0.9343,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "crying",
+              "start": 38.72,
+              "end": 39.06,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "over",
+              "start": 39.06,
+              "end": 39.42,
+              "confidence": 0.9835,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 39.42,
+              "end": 39.72,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 39.82,
+              "end": 39.9,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 39.9,
+              "end": 40.02,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "play",
+              "start": 40.02,
+              "end": 40.22,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "some",
+              "start": 40.22,
+              "end": 40.42,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "games",
+              "start": 40.42,
+              "end": 40.68,
+              "confidence": 0.7318,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_013",
+          "source_line": 31,
+          "original_text": "if you say we got beef i shoot u in you crip",
+          "lead_text": "if you say we got beef i shoot u in you crip",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 31,
+          "raw_source_span": "if you say we got beef i shoot u in you crip",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 40.68,
+          "end": 43.14,
+          "confidence": 0.9277,
+          "matched_tokens": 11,
+          "confidence_components": {
+            "token_coverage": 0.9167
+          },
+          "acoustic_start": 40.68,
+          "acoustic_end": 43.14,
+          "total_tokens": 12,
+          "words": [
+            {
+              "text": "if",
+              "start": 40.68,
+              "end": 40.9,
+              "confidence": 0.9614,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 40.9,
+              "end": 40.92,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "say",
+              "start": 40.92,
+              "end": 41.06,
+              "confidence": 0.9755,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 41.06,
+              "end": 41.18,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 41.18,
+              "end": 41.34,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "beef",
+              "start": 41.34,
+              "end": 41.58,
+              "confidence": 0.9954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 41.62,
+              "end": 41.76,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shoot",
+              "start": 41.76,
+              "end": 42.02,
+              "confidence": 0.8464,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "u",
+              "start": 42.02,
+              "end": 42.22,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 42.525,
+              "end": 42.73,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "you",
+              "start": 42.46,
+              "end": 42.66,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "crip",
+              "start": 42.66,
+              "end": 43.14,
+              "confidence": 0.792,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_014",
+          "source_line": 33,
+          "original_text": "diamonds shine wide, feeling wildly ",
+          "lead_text": "diamonds shine wide, feeling wildly",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 33,
+          "raw_source_span": "diamonds shine wide, feeling wildly ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 43.14,
+          "end": 44.62,
+          "confidence": 0.9372,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 43.14,
+          "acoustic_end": 44.62,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 43.14,
+              "end": 43.34,
+              "confidence": 0.6652,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shine",
+              "start": 43.34,
+              "end": 43.58,
+              "confidence": 0.9623,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wide",
+              "start": 43.58,
+              "end": 43.88,
+              "confidence": 0.5779,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feeling",
+              "start": 44.06,
+              "end": 44.22,
+              "confidence": 0.8821,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wildly",
+              "start": 44.22,
+              "end": 44.62,
+              "confidence": 0.6566,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_015",
+          "source_line": 35,
+          "original_text": "no stress on me keep grinding",
+          "lead_text": "no stress on me keep grinding",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 35,
+          "raw_source_span": "no stress on me keep grinding",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 44.62,
+          "end": 46.8,
+          "confidence": 0.9628,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 44.62,
+          "acoustic_end": 46.8,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "no",
+              "start": 44.62,
+              "end": 45.28,
+              "confidence": 0.1298,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stress",
+              "start": 45.28,
+              "end": 45.62,
+              "confidence": 0.9979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 45.62,
+              "end": 45.84,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 45.84,
+              "end": 46.02,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "keep",
+              "start": 46.06,
+              "end": 46.24,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 46.24,
+              "end": 46.8,
+              "confidence": 0.9803,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_016",
+          "source_line": 37,
+          "original_text": "she's funky bout me i keep it funking",
+          "lead_text": "she's funky bout me i keep it funking",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 37,
+          "raw_source_span": "she's funky bout me i keep it funking",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 46.8,
+          "end": 50.4,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 46.8,
+          "acoustic_end": 50.4,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "she's",
+              "start": 46.8,
+              "end": 47.1,
+              "confidence": 0.9796,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "funky",
+              "start": 47.1,
+              "end": 47.5,
+              "confidence": 0.9876,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bout",
+              "start": 47.5,
+              "end": 47.96,
+              "confidence": 0.6374,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 47.96,
+              "end": 48.3,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 48.94,
+              "end": 49.4,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "keep",
+              "start": 49.4,
+              "end": 49.68,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 49.68,
+              "end": 49.88,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "funking",
+              "start": 49.88,
+              "end": 50.4,
+              "confidence": 0.9935,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "chorus",
+      "raw_label": "(chorus)",
+      "normalized_label": "chorus",
+      "structural_role": "chorus",
+      "structural_inferred": false,
+      "fingerprint": "still grinding in tha game i aint got cheap cologne bullet flying i kept reload still grinding on tha trance i feel blessed on a trance on a trance we're in tha game whole team loud we partying loud still grinding on tha trance i feel blessed on a trance on a trance its all i know",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 50.4,
+      "end": 71.64,
+      "confidence": 0.9051,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 41,
+          "original_text": "still grinding in tha game",
+          "lead_text": "still grinding in tha game",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 41,
+          "raw_source_span": "still grinding in tha game",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 50.4,
+          "end": 52.0,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 50.4,
+          "acoustic_end": 52.0,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "still",
+              "start": 50.4,
+              "end": 50.72,
+              "confidence": 0.964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 50.72,
+              "end": 51.16,
+              "confidence": 0.9767,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 51.16,
+              "end": 51.48,
+              "confidence": 0.984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 51.48,
+              "end": 51.68,
+              "confidence": 0.816,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "game",
+              "start": 51.68,
+              "end": 52.0,
+              "confidence": 0.9702,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 43,
+          "original_text": "i aint got cheap cologne",
+          "lead_text": "i aint got cheap cologne",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 43,
+          "raw_source_span": "i aint got cheap cologne",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 52.0,
+          "end": 53.26,
+          "confidence": 0.9315,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 52.0,
+          "acoustic_end": 53.26,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 52.0,
+              "end": 52.28,
+              "confidence": 0.9103,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "aint",
+              "start": 52.28,
+              "end": 52.4,
+              "confidence": 0.9917,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 52.4,
+              "end": 52.52,
+              "confidence": 0.997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cheap",
+              "start": 52.52,
+              "end": 52.76,
+              "confidence": 0.3586,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cologne",
+              "start": 52.76,
+              "end": 53.26,
+              "confidence": 0.3725,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 45,
+          "original_text": "bullet flying i kept reload (reload)",
+          "lead_text": "bullet flying i kept reload",
+          "adlibs": [
+            "reload"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "reload"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "reload"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 45,
+          "raw_source_span": "bullet flying i kept reload (reload)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 53.48,
+          "end": 54.94,
+          "confidence": 0.838,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.8
+          },
+          "acoustic_start": 53.48,
+          "acoustic_end": 54.94,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "bullet",
+              "start": 53.48,
+              "end": 53.74,
+              "confidence": 0.8271,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flying",
+              "start": 53.74,
+              "end": 54.08,
+              "confidence": 0.9819,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 54.22,
+              "end": 54.3,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "kept",
+              "start": 54.356,
+              "end": 54.648,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "reload",
+              "start": 54.56,
+              "end": 54.94,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 47,
+          "original_text": "still grinding on tha trance, i feel blessed",
+          "lead_text": "still grinding on tha trance, i feel blessed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 47,
+          "raw_source_span": "still grinding on tha trance, i feel blessed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 57.54,
+          "end": 60.02,
+          "confidence": 0.9791,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 57.54,
+          "acoustic_end": 60.02,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "still",
+              "start": 57.54,
+              "end": 57.88,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 57.88,
+              "end": 58.28,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 58.28,
+              "end": 58.62,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 58.62,
+              "end": 58.78,
+              "confidence": 0.9797,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trance",
+              "start": 58.78,
+              "end": 59.24,
+              "confidence": 0.9029,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 59.24,
+              "end": 59.4,
+              "confidence": 0.533,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feel",
+              "start": 59.4,
+              "end": 59.62,
+              "confidence": 0.9365,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blessed",
+              "start": 59.62,
+              "end": 60.02,
+              "confidence": 0.9811,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 49,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 49,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 60.02,
+          "end": 61.72,
+          "confidence": 0.7139,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 60.02,
+          "acoustic_end": 61.72,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 60.02,
+              "end": 60.34,
+              "confidence": 0.6553,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 60.303,
+              "end": 60.587,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 60.5,
+              "end": 61.02,
+              "confidence": 0.8,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 61.02,
+              "end": 61.22,
+              "confidence": 0.972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 61.153,
+              "end": 61.437,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 61.42,
+              "end": 61.72,
+              "confidence": 0.9951,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 51,
+          "original_text": "we're in tha game",
+          "lead_text": "we're in tha game",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 51,
+          "raw_source_span": "we're in tha game",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 61.72,
+          "end": 62.72,
+          "confidence": 0.9577,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 61.72,
+          "acoustic_end": 62.72,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "we're",
+              "start": 61.72,
+              "end": 62.02,
+              "confidence": 0.5188,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 62.02,
+              "end": 62.22,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 62.22,
+              "end": 62.44,
+              "confidence": 0.9633,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "game",
+              "start": 62.44,
+              "end": 62.72,
+              "confidence": 0.8429,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 53,
+          "original_text": "whole team loud we partying loud",
+          "lead_text": "whole team loud we partying loud",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 53,
+          "raw_source_span": "whole team loud we partying loud",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 62.88,
+          "end": 65.18,
+          "confidence": 0.9599,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 62.88,
+          "acoustic_end": 65.18,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "whole",
+              "start": 62.88,
+              "end": 63.44,
+              "confidence": 0.8506,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "team",
+              "start": 63.44,
+              "end": 63.66,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "loud",
+              "start": 63.66,
+              "end": 64.08,
+              "confidence": 0.9954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 64.08,
+              "end": 64.52,
+              "confidence": 0.5017,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "partying",
+              "start": 64.52,
+              "end": 65.02,
+              "confidence": 0.7371,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "loud",
+              "start": 65.02,
+              "end": 65.18,
+              "confidence": 0.953,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 55,
+          "original_text": "still grinding on tha trance, i feel blessed",
+          "lead_text": "still grinding on tha trance, i feel blessed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 55,
+          "raw_source_span": "still grinding on tha trance, i feel blessed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 65.36,
+          "end": 68.1,
+          "confidence": 0.9733,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 65.36,
+          "acoustic_end": 68.1,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "still",
+              "start": 65.36,
+              "end": 65.5,
+              "confidence": 0.9958,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 65.5,
+              "end": 66.28,
+              "confidence": 0.9018,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 66.28,
+              "end": 66.56,
+              "confidence": 0.2522,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 66.56,
+              "end": 66.76,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trance",
+              "start": 66.76,
+              "end": 67.24,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 67.36,
+              "end": 67.42,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feel",
+              "start": 67.42,
+              "end": 67.6,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blessed",
+              "start": 67.6,
+              "end": 68.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_009",
+          "source_line": 57,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 57,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 68.1,
+          "end": 70.4,
+          "confidence": 0.7377,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 68.1,
+          "acoustic_end": 70.4,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 68.1,
+              "end": 68.36,
+              "confidence": 0.812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 68.483,
+              "end": 68.867,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 68.54,
+              "end": 69.06,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 69.14,
+              "end": 69.26,
+              "confidence": 0.9925,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 69.633,
+              "end": 70.017,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 69.44,
+              "end": 70.4,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_010",
+          "source_line": 59,
+          "original_text": "its all i know",
+          "lead_text": "its all i know",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 59,
+          "raw_source_span": "its all i know",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 70.4,
+          "end": 71.64,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 70.4,
+          "acoustic_end": 71.64,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "its",
+              "start": 70.4,
+              "end": 70.88,
+              "confidence": 0.9796,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 70.88,
+              "end": 71.08,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 71.08,
+              "end": 71.26,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 71.26,
+              "end": 71.64,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "verse",
+      "raw_label": "(verse)",
+      "normalized_label": "verse",
+      "structural_role": "verse",
+      "structural_inferred": false,
+      "fingerprint": "riding trought night don't don't need fake shit been geeked up yeah no stress diamonds on my neck yeah were full icing everything shine when i step out ice in my veins she's full on my arms don't do smoke king or i shoot you out im shine im flying on a trance on a trance riding trought night don't don't need fake shit been geeked up yeah no stress ghost in her face ghost in the past",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 72.92,
+      "end": 92.6,
+      "confidence": 0.9334,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 63,
+          "original_text": "Riding trought night don't, don't need fake shit",
+          "lead_text": "Riding trought night don't, don't need fake shit",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 63,
+          "raw_source_span": "Riding trought night don't, don't need fake shit",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 72.92,
+          "end": 74.8,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 72.92,
+          "acoustic_end": 74.8,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "riding",
+              "start": 72.92,
+              "end": 73.28,
+              "confidence": 0.8855,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trought",
+              "start": 73.28,
+              "end": 73.44,
+              "confidence": 0.7661,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "night",
+              "start": 73.54,
+              "end": 73.7,
+              "confidence": 0.9965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 73.82,
+              "end": 73.98,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 74.04,
+              "end": 74.18,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 74.18,
+              "end": 74.36,
+              "confidence": 0.9932,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fake",
+              "start": 74.36,
+              "end": 74.6,
+              "confidence": 0.8952,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 74.6,
+              "end": 74.8,
+              "confidence": 0.994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 65,
+          "original_text": "been geeked up, yeah no stress",
+          "lead_text": "been geeked up, yeah no stress",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 65,
+          "raw_source_span": "been geeked up, yeah no stress",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 74.8,
+          "end": 76.4,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 74.8,
+          "acoustic_end": 76.4,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "been",
+              "start": 74.8,
+              "end": 75.22,
+              "confidence": 0.985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "geeked",
+              "start": 75.22,
+              "end": 75.62,
+              "confidence": 0.9981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 75.62,
+              "end": 75.72,
+              "confidence": 0.9946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 75.8,
+              "end": 75.9,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 75.92,
+              "end": 76.08,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stress",
+              "start": 76.08,
+              "end": 76.4,
+              "confidence": 0.9898,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 67,
+          "original_text": "diamonds on my neck yeah..were full icing (ICE)",
+          "lead_text": "diamonds on my neck yeah..were full icing",
+          "adlibs": [
+            "ICE"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ice"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ice"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 67,
+          "raw_source_span": "diamonds on my neck yeah..were full icing (ICE)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 76.4,
+          "end": 78.3,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 76.4,
+          "acoustic_end": 78.3,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "diamonds",
+              "start": 76.4,
+              "end": 76.88,
+              "confidence": 0.9954,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 76.88,
+              "end": 76.96,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 76.96,
+              "end": 77.08,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "neck",
+              "start": 77.08,
+              "end": 77.24,
+              "confidence": 0.9652,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 77.36,
+              "end": 77.46,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "were",
+              "start": 77.56,
+              "end": 77.68,
+              "confidence": 0.7994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "full",
+              "start": 77.68,
+              "end": 77.86,
+              "confidence": 0.8481,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "icing",
+              "start": 78.04,
+              "end": 78.3,
+              "confidence": 0.9266,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 69,
+          "original_text": "everything shine when i step out",
+          "lead_text": "everything shine when i step out",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 69,
+          "raw_source_span": "everything shine when i step out",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 78.76,
+          "end": 80.08,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 78.76,
+          "acoustic_end": 80.08,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "everything",
+              "start": 78.76,
+              "end": 79.12,
+              "confidence": 0.8676,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shine",
+              "start": 79.12,
+              "end": 79.42,
+              "confidence": 0.7049,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 79.42,
+              "end": 79.58,
+              "confidence": 0.9963,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 79.58,
+              "end": 79.66,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "step",
+              "start": 79.66,
+              "end": 79.86,
+              "confidence": 0.9925,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "out",
+              "start": 79.86,
+              "end": 80.08,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 71,
+          "original_text": "Ice in my veins she's full on my arms (yeah yeah)",
+          "lead_text": "Ice in my veins she's full on my arms",
+          "adlibs": [
+            "yeah yeah"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "yeah yeah"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah",
+              "yeah"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 71,
+          "raw_source_span": "Ice in my veins she's full on my arms (yeah yeah)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 80.08,
+          "end": 81.78,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 80.08,
+          "acoustic_end": 81.78,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "ice",
+              "start": 80.08,
+              "end": 80.36,
+              "confidence": 0.9429,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 80.36,
+              "end": 80.46,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 80.46,
+              "end": 80.6,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "veins",
+              "start": 80.6,
+              "end": 80.8,
+              "confidence": 0.8446,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "she's",
+              "start": 80.92,
+              "end": 81.02,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "full",
+              "start": 81.02,
+              "end": 81.22,
+              "confidence": 0.9756,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 81.22,
+              "end": 81.34,
+              "confidence": 0.9352,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 81.34,
+              "end": 81.54,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "arms",
+              "start": 81.54,
+              "end": 81.78,
+              "confidence": 0.9663,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 73,
+          "original_text": "don't do smoke king or i shoot you out",
+          "lead_text": "don't do smoke king or i shoot you out",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 73,
+          "raw_source_span": "don't do smoke king or i shoot you out",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 81.78,
+          "end": 83.96,
+          "confidence": 0.8983,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889
+          },
+          "acoustic_start": 81.78,
+          "acoustic_end": 83.96,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "don't",
+              "start": 81.78,
+              "end": 82.38,
+              "confidence": 0.978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "do",
+              "start": 82.38,
+              "end": 82.54,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "smoke",
+              "start": 82.264,
+              "end": 82.507,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "king",
+              "start": 82.54,
+              "end": 82.94,
+              "confidence": 0.9356,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "or",
+              "start": 82.94,
+              "end": 83.14,
+              "confidence": 0.6096,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 83.14,
+              "end": 83.24,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shoot",
+              "start": 83.24,
+              "end": 83.46,
+              "confidence": 0.8928,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 83.46,
+              "end": 83.68,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "out",
+              "start": 83.68,
+              "end": 83.96,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_007",
+          "source_line": 75,
+          "original_text": "im shine im flying",
+          "lead_text": "im shine im flying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 75,
+          "raw_source_span": "im shine im flying",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 83.96,
+          "end": 85.26,
+          "confidence": 0.8064,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.75
+          },
+          "acoustic_start": 83.96,
+          "acoustic_end": 85.26,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "im",
+              "start": 83.96,
+              "end": 84.12,
+              "confidence": 0.9864,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shine",
+              "start": 84.285,
+              "end": 84.61,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "im",
+              "start": 84.48,
+              "end": 85.0,
+              "confidence": 0.9432,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flying",
+              "start": 85.0,
+              "end": 85.26,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_008",
+          "source_line": 77,
+          "original_text": "on a trance, on a trance ",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 77,
+          "raw_source_span": "on a trance, on a trance ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 85.38,
+          "end": 86.84,
+          "confidence": 0.7231,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 85.38,
+          "acoustic_end": 86.84,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 85.38,
+              "end": 85.4,
+              "confidence": 0.5735,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 85.623,
+              "end": 85.867,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 85.52,
+              "end": 85.92,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 85.94,
+              "end": 86.12,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 86.353,
+              "end": 86.597,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 86.3,
+              "end": 86.84,
+              "confidence": 0.9982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_009",
+          "source_line": 79,
+          "original_text": "Riding trought night don't, don't need fake shit",
+          "lead_text": "Riding trought night don't, don't need fake shit",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 79,
+          "raw_source_span": "Riding trought night don't, don't need fake shit",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 86.84,
+          "end": 88.98,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 86.84,
+          "acoustic_end": 88.98,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "riding",
+              "start": 86.84,
+              "end": 87.46,
+              "confidence": 0.978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trought",
+              "start": 87.46,
+              "end": 87.64,
+              "confidence": 0.9981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "night",
+              "start": 87.74,
+              "end": 87.9,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 88.0,
+              "end": 88.16,
+              "confidence": 0.9923,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 88.22,
+              "end": 88.38,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 88.38,
+              "end": 88.56,
+              "confidence": 0.9962,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fake",
+              "start": 88.56,
+              "end": 88.8,
+              "confidence": 0.9965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shit",
+              "start": 88.8,
+              "end": 88.98,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_010",
+          "source_line": 81,
+          "original_text": "been geeked up, yeah no stress",
+          "lead_text": "been geeked up, yeah no stress",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 81,
+          "raw_source_span": "been geeked up, yeah no stress",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 89.3,
+          "end": 90.62,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 89.3,
+          "acoustic_end": 90.62,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "been",
+              "start": 89.3,
+              "end": 89.42,
+              "confidence": 0.9596,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "geeked",
+              "start": 89.52,
+              "end": 89.82,
+              "confidence": 0.7119,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 89.82,
+              "end": 89.9,
+              "confidence": 0.9742,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 89.98,
+              "end": 90.08,
+              "confidence": 0.9901,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 90.14,
+              "end": 90.26,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stress",
+              "start": 90.26,
+              "end": 90.62,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_011",
+          "source_line": 83,
+          "original_text": "ghost in her face ghost in the past (ya ya)",
+          "lead_text": "ghost in her face ghost in the past",
+          "adlibs": [
+            "ya ya"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ya ya"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ya",
+              "ya"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 83,
+          "raw_source_span": "ghost in her face ghost in the past (ya ya)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 90.62,
+          "end": 92.6,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 90.62,
+          "acoustic_end": 92.6,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "ghost",
+              "start": 90.62,
+              "end": 90.94,
+              "confidence": 0.9743,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 90.94,
+              "end": 91.1,
+              "confidence": 0.9593,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "her",
+              "start": 91.1,
+              "end": 91.2,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "face",
+              "start": 91.2,
+              "end": 91.52,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ghost",
+              "start": 91.66,
+              "end": 91.86,
+              "confidence": 0.9794,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 91.86,
+              "end": 91.98,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 91.98,
+              "end": 92.08,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "past",
+              "start": 92.08,
+              "end": 92.6,
+              "confidence": 0.9893,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "chorus",
+      "raw_label": "(chorus)",
+      "normalized_label": "chorus",
+      "structural_role": "chorus",
+      "structural_inferred": false,
+      "fingerprint": "still grinding in tha game i aint got cheap cologne bullet flying i kept reload still grinding on tha trance i feel blessed on a trance on a trance we're in tha game whole team loud we partying still grinding on tha trance i feel blessed on a trance on a trance its all i know",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 92.6,
+      "end": 114.14,
+      "confidence": 0.8878,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 87,
+          "original_text": "still grinding in tha game",
+          "lead_text": "still grinding in tha game",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 87,
+          "raw_source_span": "still grinding in tha game",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 92.6,
+          "end": 94.68,
+          "confidence": 0.9714,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 92.6,
+          "acoustic_end": 94.68,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "still",
+              "start": 92.6,
+              "end": 93.36,
+              "confidence": 0.7439,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 93.36,
+              "end": 93.8,
+              "confidence": 0.7123,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 93.8,
+              "end": 94.14,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 94.14,
+              "end": 94.24,
+              "confidence": 0.9892,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "game",
+              "start": 94.24,
+              "end": 94.68,
+              "confidence": 0.9841,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 89,
+          "original_text": "i aint got cheap cologne",
+          "lead_text": "i aint got cheap cologne",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 89,
+          "raw_source_span": "i aint got cheap cologne",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 94.68,
+          "end": 95.86,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 94.68,
+          "acoustic_end": 95.86,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 94.68,
+              "end": 94.92,
+              "confidence": 0.9696,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "aint",
+              "start": 94.92,
+              "end": 95.02,
+              "confidence": 0.9878,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 95.02,
+              "end": 95.14,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cheap",
+              "start": 95.14,
+              "end": 95.38,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "cologne",
+              "start": 95.38,
+              "end": 95.86,
+              "confidence": 0.972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 91,
+          "original_text": "bullet flying i kept reload (reload)",
+          "lead_text": "bullet flying i kept reload",
+          "adlibs": [
+            "reload"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "reload"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "reload"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 91,
+          "raw_source_span": "bullet flying i kept reload (reload)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 96.02,
+          "end": 97.54,
+          "confidence": 0.7854,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.8
+          },
+          "acoustic_start": 96.02,
+          "acoustic_end": 97.54,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "bullet",
+              "start": 96.02,
+              "end": 96.36,
+              "confidence": 0.5992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flying",
+              "start": 96.36,
+              "end": 96.66,
+              "confidence": 0.3703,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 96.78,
+              "end": 96.9,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "kept",
+              "start": 96.932,
+              "end": 97.236,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "reload",
+              "start": 97.18,
+              "end": 97.54,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 93,
+          "original_text": "still grinding on tha trance, i feel blessed",
+          "lead_text": "still grinding on tha trance, i feel blessed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 93,
+          "raw_source_span": "still grinding on tha trance, i feel blessed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 100.02,
+          "end": 102.6,
+          "confidence": 0.9767,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 100.02,
+          "acoustic_end": 102.6,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "still",
+              "start": 100.02,
+              "end": 100.46,
+              "confidence": 0.994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 100.46,
+              "end": 100.88,
+              "confidence": 0.9938,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 100.88,
+              "end": 101.22,
+              "confidence": 0.9984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 101.22,
+              "end": 101.32,
+              "confidence": 0.8541,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trance",
+              "start": 101.32,
+              "end": 101.6,
+              "confidence": 0.4325,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 101.6,
+              "end": 101.94,
+              "confidence": 0.9819,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feel",
+              "start": 101.94,
+              "end": 102.18,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blessed",
+              "start": 102.18,
+              "end": 102.6,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_005",
+          "source_line": 95,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 95,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 102.6,
+          "end": 103.46,
+          "confidence": 0.6197,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.5
+          },
+          "acoustic_start": 102.6,
+          "acoustic_end": 103.46,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 102.6,
+              "end": 102.88,
+              "confidence": 0.958,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 102.743,
+              "end": 102.887,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 102.88,
+              "end": 103.02,
+              "confidence": 0.9812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 103.03,
+              "end": 103.173,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 103.173,
+              "end": 103.317,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 103.02,
+              "end": 103.46,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_006",
+          "source_line": 97,
+          "original_text": "we're in tha game",
+          "lead_text": "we're in tha game",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 97,
+          "raw_source_span": "we're in tha game",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 103.46,
+          "end": 105.3,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 103.46,
+          "acoustic_end": 105.3,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "we're",
+              "start": 103.46,
+              "end": 104.52,
+              "confidence": 0.8703,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 104.52,
+              "end": 104.72,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 104.72,
+              "end": 104.9,
+              "confidence": 0.9811,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "game",
+              "start": 104.9,
+              "end": 105.3,
+              "confidence": 0.992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_007",
+          "source_line": 99,
+          "original_text": "whole team loud we partying",
+          "lead_text": "whole team loud we partying",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 99,
+          "raw_source_span": "whole team loud we partying",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 105.38,
+          "end": 107.62,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 105.38,
+          "acoustic_end": 107.62,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "whole",
+              "start": 105.38,
+              "end": 105.96,
+              "confidence": 0.9633,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "team",
+              "start": 105.96,
+              "end": 106.16,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "loud",
+              "start": 106.16,
+              "end": 106.6,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 106.9,
+              "end": 107.02,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "partying",
+              "start": 107.02,
+              "end": 107.62,
+              "confidence": 0.9628,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_008",
+          "source_line": 101,
+          "original_text": "still grinding on tha trance, i feel blessed",
+          "lead_text": "still grinding on tha trance, i feel blessed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 101,
+          "raw_source_span": "still grinding on tha trance, i feel blessed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 107.96,
+          "end": 110.52,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 107.96,
+          "acoustic_end": 110.52,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "still",
+              "start": 107.96,
+              "end": 108.4,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "grinding",
+              "start": 108.4,
+              "end": 108.74,
+              "confidence": 0.9787,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 108.74,
+              "end": 109.08,
+              "confidence": 0.9924,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tha",
+              "start": 109.08,
+              "end": 109.26,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trance",
+              "start": 109.26,
+              "end": 109.6,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 109.6,
+              "end": 109.9,
+              "confidence": 0.9868,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feel",
+              "start": 109.9,
+              "end": 110.1,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blessed",
+              "start": 110.1,
+              "end": 110.52,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_009",
+          "source_line": 103,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 103,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 110.52,
+          "end": 111.48,
+          "confidence": 0.6247,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.5
+          },
+          "acoustic_start": 110.52,
+          "acoustic_end": 111.48,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 110.52,
+              "end": 110.84,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 110.68,
+              "end": 110.84,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 110.84,
+              "end": 110.96,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 111.0,
+              "end": 111.16,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "a",
+              "start": 111.16,
+              "end": 111.32,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 110.96,
+              "end": 111.48,
+              "confidence": 0.9981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_010",
+          "source_line": 105,
+          "original_text": "its all i know",
+          "lead_text": "its all i know",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 105,
+          "raw_source_span": "its all i know",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 112.76,
+          "end": 114.14,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 112.76,
+          "acoustic_end": 114.14,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "its",
+              "start": 112.76,
+              "end": 113.32,
+              "confidence": 0.7483,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 113.32,
+              "end": 113.5,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 113.5,
+              "end": 113.68,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 113.68,
+              "end": 114.14,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "post-chrorus",
+      "raw_label": "(post-Chrorus)",
+      "normalized_label": "post-chrorus",
+      "structural_role": "post-chrorus",
+      "structural_inferred": false,
+      "fingerprint": "on a trance on a trance whole team loud on a trance on a trance on a trance on a trance",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 115.52,
+      "end": 128.13,
+      "confidence": 0.6197,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 109,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 109,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 115.52,
+          "end": 117.5,
+          "confidence": 0.7224,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 115.52,
+          "acoustic_end": 117.5,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 115.52,
+              "end": 116.08,
+              "confidence": 0.9472,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 115.85,
+              "end": 116.18,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 116.32,
+              "end": 116.68,
+              "confidence": 0.9968,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 116.86,
+              "end": 116.98,
+              "confidence": 0.6151,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 116.84,
+              "end": 117.17,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 117.2,
+              "end": 117.5,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 111,
+          "original_text": "whole team loud ",
+          "lead_text": "whole team loud",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 111,
+          "raw_source_span": "whole team loud ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 117.5,
+          "end": 118.74,
+          "confidence": 0.8639,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 117.5,
+          "acoustic_end": 118.74,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "whole",
+              "start": 117.5,
+              "end": 117.9,
+              "confidence": 0.6404,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "team",
+              "start": 117.9,
+              "end": 118.04,
+              "confidence": 0.1425,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "loud",
+              "start": 118.04,
+              "end": 118.74,
+              "confidence": 0.5844,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 113,
+          "original_text": "on a trance, on a trance ",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 113,
+          "raw_source_span": "on a trance, on a trance ",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 119.32,
+          "end": 124.28,
+          "confidence": 0.6694,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 119.32,
+          "acoustic_end": 124.28,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 119.32,
+              "end": 119.6,
+              "confidence": 0.3513,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 120.147,
+              "end": 120.973,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 120.54,
+              "end": 120.74,
+              "confidence": 0.9973,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 122.28,
+              "end": 122.84,
+              "confidence": 0.3624,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 122.627,
+              "end": 123.453,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 124.06,
+              "end": 124.28,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 115,
+          "original_text": "(yeah yeah yaaaaaaa)",
+          "lead_text": "",
+          "adlibs": [
+            "yeah yeah yaaaaaaa"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "yeah yeah yaaaaaaa"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah",
+              "yeah",
+              "yaaaaaaa"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 115,
+          "raw_source_span": "(yeah yeah yaaaaaaa)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 124.28,
+          "end": 124.62,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 124.28,
+          "acoustic_end": 124.62,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_005",
+          "source_line": 117,
+          "original_text": "on a trance, on a trance",
+          "lead_text": "on a trance, on a trance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 117,
+          "raw_source_span": "on a trance, on a trance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 124.62,
+          "end": 127.78,
+          "confidence": 0.7324,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 124.62,
+          "acoustic_end": 127.78,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "on",
+              "start": 124.62,
+              "end": 124.98,
+              "confidence": 0.7263,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 125.147,
+              "end": 125.673,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 124.98,
+              "end": 126.92,
+              "confidence": 0.9984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 127.4,
+              "end": 127.6,
+              "confidence": 0.9953,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 126.727,
+              "end": 127.253,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 127.6,
+              "end": 127.78,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_006",
+          "source_line": 119,
+          "original_text": "(ya ya)",
+          "lead_text": "",
+          "adlibs": [
+            "ya ya"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "ya ya"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ya",
+              "ya"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 119,
+          "raw_source_span": "(ya ya)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 127.78,
+          "end": 128.13,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 127.78,
+          "acoustic_end": 128.13,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_007",
+          "source_line": 121,
+          "original_text": "(yeah yeah yaaaa)",
+          "lead_text": "",
+          "adlibs": [
+            "yeah yeah yaaaa"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "yeah yeah yaaaa"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah",
+              "yeah",
+              "yaaaa"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 121,
+          "raw_source_span": "(yeah yeah yaaaa)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 127.78,
+          "end": 128.13,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 127.78,
+          "acoustic_end": 128.13,
+          "total_tokens": 0,
+          "words": []
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "4c4a378250022172c81279989ddaebc0aee85f59505bb34f2f8c12b29286faa6",
+    "authoritative_line_count": 55,
+    "authoritative_token_count": 380,
+    "line_acoustic_coverage": 0.9454545454545454,
+    "token_acoustic_coverage": 0.9184210526315789,
+    "primary_count": 52,
+    "secondary_count": 3,
+    "direct_acoustic_lines": 52,
+    "bounded_asr_lines": 3,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 134.424,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.1,
+        "end": 14.12,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 15.600000000000001,
+        "end": 50.4,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 50.4,
+        "end": 71.64,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 72.92,
+        "end": 92.6,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 92.6,
+        "end": 114.14,
+        "occurrence": 1
+      },
+      "section_006": {
+        "start": 115.52,
+        "end": 128.13,
+        "occurrence": 1
+      }
+    }
+  },
+  "authoritative_lyrics": {
+    "path": "input/lyrics/on_a_trance.txt",
+    "sha256": "4c4a378250022172c81279989ddaebc0aee85f59505bb34f2f8c12b29286faa6"
+  },
+  "title": "On A Trance (V3)",
+  "artist": "lilshitty"
+}

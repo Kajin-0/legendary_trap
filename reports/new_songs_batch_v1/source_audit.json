@@ -1,0 +1,9 @@
+{
+  "model_policy": "User-supplied artist assignments are authoritative; no embedded artist tags were present.",
+  "songs": {
+    "on_a_trance": {"filename": "source/On A Trance (V3).mp3", "sha256": "0cdd9d82ea991732c2f9a57756ccc23e1cbf7a0a95d6c464034e34f70114873c", "duration": 134.424, "codec": "mp3", "bitrate": 172498, "sample_rate": 48000, "channels": 2, "title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100", "embedded_lyrics": null},
+    "hella_racks": {"filename": "source/hella racks.mp3", "sha256": "b3047a2e8015bf7a52505d3ad000811d5804498d3c7655140e66a3279c792e47", "duration": 180.840, "codec": "mp3", "bitrate": 171250, "sample_rate": 48000, "channels": 2, "title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100", "embedded_lyrics": null},
+    "difference": {"filename": "source/Difference.mp3", "sha256": "0787aaa9a54807b16918763f8b7c5d9e9cdfb30881ba6b1af0dc6b09e0643cb7", "duration": 185.640, "codec": "mp3", "bitrate": 178037, "sample_rate": 48000, "channels": 2, "title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100", "embedded_lyrics": null},
+    "purple_satellites": {"filename": "source/PURPLE SATELLITES.mp3", "sha256": "8aa27dd4524e0695763023f5a27deccecb43de063589c2e78c7e42173cb4e91b", "duration": 232.032, "codec": "mp3", "bitrate": 173780, "sample_rate": 48000, "channels": 2, "title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100", "embedded_lyrics": null}
+  }
+}

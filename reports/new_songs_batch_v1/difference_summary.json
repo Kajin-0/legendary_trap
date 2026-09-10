@@ -1,0 +1,85 @@
+{
+  "song_id": "difference",
+  "title": "Difference",
+  "artist": "noek95",
+  "source": "source/Difference.mp3",
+  "source_sha256": "0787aaa9a54807b16918763f8b7c5d9e9cdfb30881ba6b1af0dc6b09e0643cb7",
+  "lyric_sha256": "42a53d530ec597ee8e422e6131afff10a3349219a67b96e8a71b88bd0545fa9e",
+  "primary": 56,
+  "secondary": 1,
+  "direct_acoustic": 56,
+  "bounded_asr": 1,
+  "acoustic_transfer": 0,
+  "cadence_interpolation": 0,
+  "line_coverage": 0.9824561403508771,
+  "token_coverage": 0.9659863945578231,
+  "median_onset_error": null,
+  "p90_onset_error": null,
+  "unresolved": [],
+  "low_confidence": [],
+  "structural_qa": {
+    "zero_duration_primary": 0,
+    "primary_under_0_10": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "chronology_violations": 0
+  },
+  "section_occurrence_windows": {
+    "section_001": {
+      "start": 0.0,
+      "end": 0.35,
+      "occurrence": 1
+    },
+    "section_002": {
+      "start": 11.719999999999999,
+      "end": 25.02,
+      "occurrence": 1
+    },
+    "section_003": {
+      "start": 37.72,
+      "end": 64.14,
+      "occurrence": 1
+    },
+    "section_004": {
+      "start": 64.76,
+      "end": 76.62,
+      "occurrence": 1
+    },
+    "section_005": {
+      "start": 77.56,
+      "end": 90.8,
+      "occurrence": 2
+    },
+    "section_006": {
+      "start": 91.92,
+      "end": 117.12,
+      "occurrence": 1
+    },
+    "section_007": {
+      "start": 117.48,
+      "end": 128.46,
+      "occurrence": 2
+    },
+    "section_008": {
+      "start": 129.29999999999998,
+      "end": 142.74,
+      "occurrence": 3
+    },
+    "section_009": {
+      "start": 155.07999999999998,
+      "end": 167.86,
+      "occurrence": 1
+    }
+  },
+  "lexical_reconstruction": {
+    "source_token_count": 307,
+    "canonical_token_count": 295,
+    "missing": 0,
+    "added": 0,
+    "changed": 0,
+    "exact": true
+  },
+  "asr_lexical_substitutions": 0
+}

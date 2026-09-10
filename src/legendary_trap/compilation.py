@@ -24,8 +24,11 @@ def load_catalog() -> tuple[dict, dict]:
     songs = json.loads(SONGS_CONFIG.read_text(encoding="utf-8"))
     artists = json.loads(ARTISTS_CONFIG.read_text(encoding="utf-8"))
     order = songs["track_order"]
-    if set(order) != set(songs["songs"]):
-        raise ValueError("track_order and songs metadata disagree")
+    # Metadata may include prepared songs that are intentionally not yet in
+    # the production playlist.  The ordered playlist must remain explicit,
+    # while every ordered item must have metadata.
+    if len(order) != len(set(order)) or not set(order).issubset(songs["songs"]):
+        raise ValueError("track_order contains missing or duplicate song metadata")
     return songs, artists
 
 

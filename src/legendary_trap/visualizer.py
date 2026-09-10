@@ -22,11 +22,32 @@ WIDTH, HEIGHT = 960, 540
 FPS = 30
 APPROVED_POLAR_LOW_MAX_HZ = 350.0
 PRODUCTION_REVIEW_PRESET = "trap_polar_350_artistlockup"
+PRODUCTION_POLAR_THICKNESS_SCALE = 2.2
 STANDALONE_SONGS = {
     "wonder_when_im_gon_shine": {
         "audio_source": "Wonder When Im Gon Shine.mp3",
         "audio_path": "source/Wonder When Im Gon Shine.mp3",
         "lyrics_path": "input/lyrics/wonder_when_im_gon_shine.txt",
+    },
+    "on_a_trance": {
+        "audio_source": "On A Trance (V3).mp3",
+        "audio_path": "source/On A Trance (V3).mp3",
+        "lyrics_path": "input/lyrics/on_a_trance.txt",
+    },
+    "hella_racks": {
+        "audio_source": "hella racks.mp3",
+        "audio_path": "source/hella racks.mp3",
+        "lyrics_path": "input/lyrics/hella_racks.txt",
+    },
+    "difference": {
+        "audio_source": "Difference.mp3",
+        "audio_path": "source/Difference.mp3",
+        "lyrics_path": "input/lyrics/difference.txt",
+    },
+    "purple_satellites": {
+        "audio_source": "PURPLE SATELLITES.mp3",
+        "audio_path": "source/PURPLE SATELLITES.mp3",
+        "lyrics_path": "input/lyrics/purple_satellites.txt",
     },
 }
 
@@ -184,7 +205,7 @@ def palette_at_time(time_seconds: float) -> np.ndarray:
 def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
                   particles: tuple[np.ndarray, ...],
                   palette_time_offset: float = 0.0,
-                  polar_thickness_scale: float = 1.0) -> np.ndarray:
+                  polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> np.ndarray:
     """Render a dusk landscape whose physical pressure is driven by the low end."""
     t = index / features.fps
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
@@ -352,7 +373,7 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...],
                  palette_time_offset: float = 0.0,
-                 polar_thickness_scale: float = 1.0) -> np.ndarray:
+                 polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> np.ndarray:
     if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
                              "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
         return _hybrid_frame(features, index, preset, particles, palette_time_offset,
@@ -440,7 +461,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                    identity_enabled: bool = True, output_path: Path | None = None,
                    palette_time_offset: float = 0.0, production_review: bool = True,
                    artist_override: str | None = None,
-                   polar_thickness_scale: float = 1.0) -> dict:
+                   polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> dict:
     if production_review and preset_name != PRODUCTION_REVIEW_PRESET:
         raise ValueError(f"production review requires {PRODUCTION_REVIEW_PRESET}; got {preset_name}")
     if production_review and PRESETS[preset_name].visualizer != "trap_sunset_polar_v3":

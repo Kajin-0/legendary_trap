@@ -17,6 +17,7 @@ from legendary_trap.visualizer import (
     HEIGHT,
     PALETTE_CYCLE_SECONDS,
     PRESETS,
+    PRODUCTION_POLAR_THICKNESS_SCALE,
     PRODUCTION_REVIEW_PRESET,
     STANDALONE_SONGS,
     WIDTH,
@@ -91,7 +92,9 @@ def test_polar_thickness_changes_stroke_offsets_only() -> None:
 
 
 def test_production_default_thickness_is_baseline() -> None:
-    assert polar_contour_offsets()[-1] == 2.5
+    assert PRODUCTION_POLAR_THICKNESS_SCALE == 2.2
+    assert polar_contour_offsets(PRODUCTION_POLAR_THICKNESS_SCALE)[-1] == 5.5
+    assert np.isclose(np.ptp(polar_contour_offsets(PRODUCTION_POLAR_THICKNESS_SCALE)), 11.0)
 
 
 def test_polar_profile_is_mirrored_and_bass_deforms_it() -> None:

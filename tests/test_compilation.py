@@ -12,9 +12,10 @@ def test_playlist_contains_the_eight_authoritative_tracks() -> None:
         "apple", "chokehold", "commin_long_ways", "focus", "off_the_wave",
         "slidin", "we_got_chemistry", "you_missed_it",
     ]
-    assert set(artists["artists"]) == {
+    assert set(songs["track_order"]).issubset(songs["songs"])
+    assert set(artists["artists"]).issuperset({
         "jayc3", "OppTalk", "PRODBYAPKIMZ", "TheSideQuest24", "WILLZ", "VonKai", "KarmaisMagic"
-    }
+    })
 
 
 def test_compilation_offsets_are_deterministic_and_local_timing_is_untouched() -> None:
@@ -36,18 +37,25 @@ def test_metadata_files_are_repository_local() -> None:
 
 def test_all_supplied_artist_assets_resolve() -> None:
     artists = load_catalog()[1]["artists"]
-    assert set(artists) == {
+    assert set(artists).issuperset({
         "jayc3", "OppTalk", "PRODBYAPKIMZ", "TheSideQuest24", "WILLZ", "VonKai", "KarmaisMagic"
-    }
+    })
     assert all(Path(record["pfp"]).is_file() for record in artists.values() if record["pfp"])
 
 
 def test_authoritative_song_mappings_and_display_names_are_exact() -> None:
     songs = load_catalog()[0]
-    assert {song: record["artists"][0] for song, record in songs["songs"].items()} == {
+    expected = {
         "apple": "KarmaisMagic", "chokehold": "OppTalk", "commin_long_ways": "PRODBYAPKIMZ",
         "focus": "PRODBYAPKIMZ", "off_the_wave": "WILLZ", "slidin": "jayc3",
         "we_got_chemistry": "VonKai", "you_missed_it": "TheSideQuest24",
+    }
+    assert {song: songs["songs"][song]["artists"][0] for song in expected} == expected
+    assert {song: songs["songs"][song]["artists"][0] for song in (
+        "wonder_when_im_gon_shine", "on_a_trance", "hella_racks", "difference", "purple_satellites"
+    )} == {
+        "wonder_when_im_gon_shine": "berb", "on_a_trance": "lilshitty", "hella_racks": "ken carson",
+        "difference": "noek95", "purple_satellites": "SILL-E",
     }
     assert load_catalog()[1]["artists"]["VonKai"]["display_name"] == "VonKai"
     assert load_catalog()[1]["artists"]["TheSideQuest24"]["display_name"] == "TheSideQuest24"

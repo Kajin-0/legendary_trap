@@ -1,0 +1,2 @@
+Low-confidence timing events: section_001_line_001, section_001_line_002, section_001_line_003, section_001_line_004, section_001_line_005, section_001_line_006, section_001_line_007
+The source is run together; review split boundaries and dense adlibs in the opening repeated block.

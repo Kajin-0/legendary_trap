@@ -1,0 +1,4383 @@
+{
+  "schema_version": "1.0",
+  "song_id": "difference",
+  "audio": {
+    "path": "source/Difference.mp3",
+    "duration_seconds": 185.64,
+    "sha256": "0787aaa9a54807b16918763f8b7c5d9e9cdfb30881ba6b1af0dc6b09e0643cb7"
+  },
+  "alignment": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "fd4cd080422d387ac09537658a093a913890e582a6f4944e541ea2672d029815",
+    "authoritative_line_count": 57,
+    "authoritative_token_count": 294,
+    "line_acoustic_coverage": 0.9824561403508771,
+    "token_acoustic_coverage": 0.9659863945578231,
+    "primary_count": 56,
+    "secondary_count": 1,
+    "direct_acoustic_lines": 56,
+    "bounded_asr_lines": 1,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 185.64,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.0,
+        "end": 0.35,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 11.719999999999999,
+        "end": 25.02,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 37.72,
+        "end": 64.14,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 64.76,
+        "end": 76.62,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 77.56,
+        "end": 90.8,
+        "occurrence": 2
+      },
+      "section_006": {
+        "start": 91.92,
+        "end": 117.12,
+        "occurrence": 1
+      },
+      "section_007": {
+        "start": 117.48,
+        "end": 128.46,
+        "occurrence": 2
+      },
+      "section_008": {
+        "start": 129.29999999999998,
+        "end": 142.74,
+        "occurrence": 3
+      },
+      "section_009": {
+        "start": 155.07999999999998,
+        "end": 167.86,
+        "occurrence": 1
+      }
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Intro",
+      "raw_label": "[Intro]",
+      "normalized_label": "intro",
+      "structural_role": "intro",
+      "structural_inferred": false,
+      "fingerprint": "",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 0.0,
+      "end": 0.35,
+      "confidence": 0.45,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 3,
+          "original_text": "(Yeah)",
+          "lead_text": "",
+          "adlibs": [
+            "Yeah"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "yeah"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 3,
+          "raw_source_span": "(Yeah)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 0.0,
+          "end": 0.35,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 0.0,
+          "acoustic_end": 0.35,
+          "total_tokens": 0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Hook",
+      "raw_label": "[Hook]",
+      "normalized_label": "hook",
+      "structural_role": "hook",
+      "structural_inferred": false,
+      "fingerprint": "i'm right here now don't know where i'm at don't know where i'm going but i won't stand back that's the difference between you and me you wait for the light i become what i see",
+      "repeat_group": "repeat_group_001",
+      "occurrence_index": 1,
+      "occurrence_count": 3,
+      "start": 11.72,
+      "end": 25.02,
+      "confidence": 0.9777,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 7,
+          "original_text": "I’m right here now",
+          "lead_text": "I’m right here now",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 7,
+          "raw_source_span": "I’m right here now",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 11.72,
+          "end": 13.5,
+          "confidence": 0.9614,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 11.72,
+          "acoustic_end": 13.5,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 11.72,
+              "end": 12.32,
+              "confidence": 0.453,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "right",
+              "start": 12.32,
+              "end": 12.6,
+              "confidence": 0.9387,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "here",
+              "start": 12.6,
+              "end": 13.02,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 13.02,
+              "end": 13.5,
+              "confidence": 0.9931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 8,
+          "original_text": "Don’t know where I’m at",
+          "lead_text": "Don’t know where I’m at",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 8,
+          "raw_source_span": "Don’t know where I’m at",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 13.66,
+          "end": 15.14,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 13.66,
+          "acoustic_end": 15.14,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 13.66,
+              "end": 14.0,
+              "confidence": 0.995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 14.0,
+              "end": 14.2,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 14.2,
+              "end": 14.46,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 14.46,
+              "end": 14.86,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "at",
+              "start": 14.86,
+              "end": 15.14,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 9,
+          "original_text": "Don’t know where I’m going",
+          "lead_text": "Don’t know where I’m going",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 9,
+          "raw_source_span": "Don’t know where I’m going",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 15.14,
+          "end": 16.76,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 15.14,
+          "acoustic_end": 16.76,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 15.14,
+              "end": 15.68,
+              "confidence": 0.9681,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 15.68,
+              "end": 15.86,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 15.86,
+              "end": 16.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 16.1,
+              "end": 16.34,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "going",
+              "start": 16.34,
+              "end": 16.76,
+              "confidence": 0.9562,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 10,
+          "original_text": "But I won’t stand back",
+          "lead_text": "But I won’t stand back",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 10,
+          "raw_source_span": "But I won’t stand back",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 17.0,
+          "end": 18.44,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 17.0,
+          "acoustic_end": 18.44,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "but",
+              "start": 17.0,
+              "end": 17.12,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 17.12,
+              "end": 17.3,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "won't",
+              "start": 17.3,
+              "end": 17.6,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stand",
+              "start": 17.6,
+              "end": 17.96,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "back",
+              "start": 17.96,
+              "end": 18.44,
+              "confidence": 0.993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_005",
+          "source_line": 11,
+          "original_text": "That’s the difference",
+          "lead_text": "That’s the difference",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 11,
+          "raw_source_span": "That’s the difference",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 18.44,
+          "end": 20.18,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 18.44,
+          "acoustic_end": 20.18,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "that's",
+              "start": 18.44,
+              "end": 19.16,
+              "confidence": 0.8423,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 19.16,
+              "end": 19.42,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "difference",
+              "start": 19.42,
+              "end": 20.18,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_006",
+          "source_line": 12,
+          "original_text": "Between you and me",
+          "lead_text": "Between you and me",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 12,
+          "raw_source_span": "Between you and me",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 20.18,
+          "end": 21.68,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 20.18,
+          "acoustic_end": 21.68,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "between",
+              "start": 20.18,
+              "end": 20.68,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 20.68,
+              "end": 21.2,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 21.2,
+              "end": 21.42,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 21.42,
+              "end": 21.68,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_007",
+          "source_line": 13,
+          "original_text": "You wait for the light",
+          "lead_text": "You wait for the light",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 13,
+          "raw_source_span": "You wait for the light",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 21.68,
+          "end": 23.36,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 21.68,
+          "acoustic_end": 23.36,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "you",
+              "start": 21.68,
+              "end": 22.18,
+              "confidence": 0.9856,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wait",
+              "start": 22.18,
+              "end": 22.48,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 22.48,
+              "end": 22.78,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 22.78,
+              "end": 23.02,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 23.02,
+              "end": 23.36,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_008",
+          "source_line": 14,
+          "original_text": "I become what I see",
+          "lead_text": "I become what I see",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 14,
+          "raw_source_span": "I become what I see",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 23.42,
+          "end": 25.02,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 23.42,
+          "acoustic_end": 25.02,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 23.42,
+              "end": 23.58,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "become",
+              "start": 23.58,
+              "end": 24.06,
+              "confidence": 0.9611,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 24.06,
+              "end": 24.46,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 24.46,
+              "end": 24.64,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "see",
+              "start": 24.64,
+              "end": 25.02,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Verse 1",
+      "raw_label": "[Verse 1]",
+      "normalized_label": "verse 1",
+      "structural_role": "verse_1",
+      "structural_inferred": false,
+      "fingerprint": "walking through the dark with my head up high no map in my hand still i touch the sky every scar on my skin turned into drive everybody talks big few survive i don't need luck i create my chance built this fire while they watched and danced you froze up when life got hard i took pain and made it art",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 37.72,
+      "end": 64.14,
+      "confidence": 0.8703,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 18,
+          "original_text": "Walking through the dark with my head up high",
+          "lead_text": "Walking through the dark with my head up high",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 18,
+          "raw_source_span": "Walking through the dark with my head up high",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 37.72,
+          "end": 40.4,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 37.72,
+          "acoustic_end": 40.4,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "walking",
+              "start": 37.72,
+              "end": 38.38,
+              "confidence": 0.5882,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "through",
+              "start": 38.44,
+              "end": 38.56,
+              "confidence": 0.9887,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 38.56,
+              "end": 38.76,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dark",
+              "start": 38.76,
+              "end": 39.12,
+              "confidence": 0.9769,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "with",
+              "start": 39.12,
+              "end": 39.38,
+              "confidence": 0.9452,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 39.38,
+              "end": 39.56,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "head",
+              "start": 39.56,
+              "end": 39.88,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 39.88,
+              "end": 40.02,
+              "confidence": 0.993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "high",
+              "start": 40.02,
+              "end": 40.4,
+              "confidence": 0.9314,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 19,
+          "original_text": "No map in my hand, still I touch the sky",
+          "lead_text": "No map in my hand, still I touch the sky",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 19,
+          "raw_source_span": "No map in my hand, still I touch the sky",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 40.4,
+          "end": 43.62,
+          "confidence": 0.98,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 40.4,
+          "acoustic_end": 43.62,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "no",
+              "start": 40.4,
+              "end": 41.2,
+              "confidence": 0.9878,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "map",
+              "start": 41.2,
+              "end": 41.58,
+              "confidence": 0.7374,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 41.58,
+              "end": 41.86,
+              "confidence": 0.997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 41.86,
+              "end": 42.06,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hand",
+              "start": 42.06,
+              "end": 42.42,
+              "confidence": 0.6892,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "still",
+              "start": 42.44,
+              "end": 42.7,
+              "confidence": 0.9563,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 42.7,
+              "end": 42.86,
+              "confidence": 0.9903,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "touch",
+              "start": 42.86,
+              "end": 43.12,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 43.12,
+              "end": 43.28,
+              "confidence": 0.9984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sky",
+              "start": 43.28,
+              "end": 43.62,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 20,
+          "original_text": "Every scar on my skin turned into drive",
+          "lead_text": "Every scar on my skin turned into drive",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 20,
+          "raw_source_span": "Every scar on my skin turned into drive",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 43.62,
+          "end": 46.9,
+          "confidence": 0.7799,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.75
+          },
+          "acoustic_start": 43.62,
+          "acoustic_end": 46.9,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "every",
+              "start": 43.62,
+              "end": 44.42,
+              "confidence": 0.9812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "scar",
+              "start": 44.03,
+              "end": 44.44,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "on",
+              "start": 44.44,
+              "end": 44.85,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "my",
+              "start": 45.18,
+              "end": 45.36,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "skin",
+              "start": 45.36,
+              "end": 45.62,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turned",
+              "start": 45.62,
+              "end": 46.16,
+              "confidence": 0.7024,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "into",
+              "start": 46.16,
+              "end": 46.56,
+              "confidence": 0.5877,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "drive",
+              "start": 46.56,
+              "end": 46.9,
+              "confidence": 0.9463,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 21,
+          "original_text": "Everybody talks big, few survive",
+          "lead_text": "Everybody talks big, few survive",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 21,
+          "raw_source_span": "Everybody talks big, few survive",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 46.9,
+          "end": 50.16,
+          "confidence": 0.8217,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.8
+          },
+          "acoustic_start": 46.9,
+          "acoustic_end": 50.16,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "everybody",
+              "start": 46.9,
+              "end": 47.94,
+              "confidence": 0.9966,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talks",
+              "start": 47.94,
+              "end": 48.56,
+              "confidence": 0.9915,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "big",
+              "start": 48.56,
+              "end": 49.16,
+              "confidence": 0.6068,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "few",
+              "start": 48.856,
+              "end": 49.508,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "survive",
+              "start": 49.64,
+              "end": 50.16,
+              "confidence": 0.9517,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 22,
+          "original_text": "I don't need luck, I create my chance",
+          "lead_text": "I don't need luck, I create my chance",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 22,
+          "raw_source_span": "I don't need luck, I create my chance",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 51.14,
+          "end": 54.46,
+          "confidence": 0.8967,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 0.875
+          },
+          "acoustic_start": 51.14,
+          "acoustic_end": 54.46,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "i",
+              "start": 51.14,
+              "end": 51.8,
+              "confidence": 0.8199,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 51.8,
+              "end": 52.46,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 52.46,
+              "end": 52.66,
+              "confidence": 0.9386,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "luck",
+              "start": 52.385,
+              "end": 52.8,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "i",
+              "start": 53.28,
+              "end": 53.4,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "create",
+              "start": 53.4,
+              "end": 53.76,
+              "confidence": 0.995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 53.76,
+              "end": 53.96,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "chance",
+              "start": 53.96,
+              "end": 54.46,
+              "confidence": 0.9823,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 23,
+          "original_text": "Built this fire while they watched and danced",
+          "lead_text": "Built this fire while they watched and danced",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 23,
+          "raw_source_span": "Built this fire while they watched and danced",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 54.46,
+          "end": 58.0,
+          "confidence": 0.9518,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 54.46,
+          "acoustic_end": 58.0,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "built",
+              "start": 54.46,
+              "end": 55.54,
+              "confidence": 0.2731,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "this",
+              "start": 55.54,
+              "end": 55.98,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fire",
+              "start": 55.98,
+              "end": 56.4,
+              "confidence": 0.9839,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "while",
+              "start": 56.4,
+              "end": 56.74,
+              "confidence": 0.9598,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 56.74,
+              "end": 56.88,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "watched",
+              "start": 56.88,
+              "end": 57.18,
+              "confidence": 0.7569,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 57.18,
+              "end": 57.34,
+              "confidence": 0.4891,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "danced",
+              "start": 57.34,
+              "end": 58.0,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 24,
+          "original_text": "You froze up when life got hard",
+          "lead_text": "You froze up when life got hard",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 24,
+          "raw_source_span": "You froze up when life got hard",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 58.56,
+          "end": 61.48,
+          "confidence": 0.8778,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.8571
+          },
+          "acoustic_start": 58.56,
+          "acoustic_end": 61.48,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "you",
+              "start": 58.56,
+              "end": 58.977,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "froze",
+              "start": 58.56,
+              "end": 58.88,
+              "confidence": 0.9463,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 58.88,
+              "end": 59.2,
+              "confidence": 0.9749,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 59.2,
+              "end": 59.44,
+              "confidence": 0.875,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "life",
+              "start": 59.44,
+              "end": 59.74,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 59.74,
+              "end": 60.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hard",
+              "start": 60.1,
+              "end": 61.48,
+              "confidence": 0.8429,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 25,
+          "original_text": "I took pain and made it art",
+          "lead_text": "I took pain and made it art",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 25,
+          "raw_source_span": "I took pain and made it art",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 62.3,
+          "end": 64.14,
+          "confidence": 0.6745,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.5714
+          },
+          "acoustic_start": 62.3,
+          "acoustic_end": 64.14,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "i",
+              "start": 62.3,
+              "end": 62.563,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "took",
+              "start": 62.563,
+              "end": 62.826,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "pain",
+              "start": 62.3,
+              "end": 62.52,
+              "confidence": 0.9875,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 63.089,
+              "end": 63.351,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "made",
+              "start": 62.68,
+              "end": 63.16,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 63.16,
+              "end": 63.4,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "art",
+              "start": 63.4,
+              "end": 64.14,
+              "confidence": 0.9481,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Bridge",
+      "raw_label": "[Bridge]",
+      "normalized_label": "bridge",
+      "structural_role": "bridge",
+      "structural_inferred": false,
+      "fingerprint": "even if i fall i still move forward even if i'm lost i still go harder",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 1,
+      "occurrence_count": 2,
+      "start": 64.76,
+      "end": 76.62,
+      "confidence": 0.98,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 29,
+          "original_text": "Even if I fall",
+          "lead_text": "Even if I fall",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 29,
+          "raw_source_span": "Even if I fall",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 64.76,
+          "end": 66.52,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 64.76,
+          "acoustic_end": 66.52,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "even",
+              "start": 64.76,
+              "end": 65.44,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 65.44,
+              "end": 65.82,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 65.82,
+              "end": 65.96,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fall",
+              "start": 65.96,
+              "end": 66.52,
+              "confidence": 0.939,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 30,
+          "original_text": "I still move forward",
+          "lead_text": "I still move forward",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 30,
+          "raw_source_span": "I still move forward",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 67.28,
+          "end": 70.06,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 67.28,
+          "acoustic_end": 70.06,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i",
+              "start": 67.28,
+              "end": 68.26,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "still",
+              "start": 68.26,
+              "end": 68.62,
+              "confidence": 0.9956,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "move",
+              "start": 68.62,
+              "end": 69.18,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "forward",
+              "start": 69.18,
+              "end": 70.06,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 31,
+          "original_text": "Even if I'm lost",
+          "lead_text": "Even if I'm lost",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 31,
+          "raw_source_span": "Even if I'm lost",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 70.96,
+          "end": 73.56,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 70.96,
+          "acoustic_end": 73.56,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "even",
+              "start": 70.96,
+              "end": 71.68,
+              "confidence": 0.9944,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 71.68,
+              "end": 72.4,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 72.4,
+              "end": 72.6,
+              "confidence": 0.9964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lost",
+              "start": 72.6,
+              "end": 73.56,
+              "confidence": 0.9973,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 32,
+          "original_text": "I still go harder",
+          "lead_text": "I still go harder",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 32,
+          "raw_source_span": "I still go harder",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 74.64,
+          "end": 76.62,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 74.64,
+          "acoustic_end": 76.62,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i",
+              "start": 74.64,
+              "end": 74.78,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "still",
+              "start": 74.78,
+              "end": 75.26,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "go",
+              "start": 75.26,
+              "end": 75.68,
+              "confidence": 0.9941,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "harder",
+              "start": 75.68,
+              "end": 76.62,
+              "confidence": 0.9959,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Hook",
+      "raw_label": "[Hook]",
+      "normalized_label": "hook",
+      "structural_role": "hook",
+      "structural_inferred": false,
+      "fingerprint": "i'm right here now don't know where i'm at don't know where i'm going but i won't stand back that's the difference between you and me you wait for the light i become what i see",
+      "repeat_group": "repeat_group_001",
+      "occurrence_index": 2,
+      "occurrence_count": 3,
+      "start": 77.56,
+      "end": 90.8,
+      "confidence": 0.9786,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 36,
+          "original_text": "I’m right here now",
+          "lead_text": "I’m right here now",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 36,
+          "raw_source_span": "I’m right here now",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 77.56,
+          "end": 79.4,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 77.56,
+          "acoustic_end": 79.4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 77.56,
+              "end": 78.28,
+              "confidence": 0.9958,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "right",
+              "start": 78.28,
+              "end": 78.56,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "here",
+              "start": 78.56,
+              "end": 78.94,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 78.94,
+              "end": 79.4,
+              "confidence": 0.9947,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 37,
+          "original_text": "Don’t know where I’m at",
+          "lead_text": "Don’t know where I’m at",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 37,
+          "raw_source_span": "Don’t know where I’m at",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 79.56,
+          "end": 81.08,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 79.56,
+          "acoustic_end": 81.08,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 79.56,
+              "end": 79.92,
+              "confidence": 0.8904,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 79.92,
+              "end": 80.12,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 80.12,
+              "end": 80.4,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 80.4,
+              "end": 80.8,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "at",
+              "start": 80.8,
+              "end": 81.08,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 38,
+          "original_text": "Don’t know where I’m going",
+          "lead_text": "Don’t know where I’m going",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 38,
+          "raw_source_span": "Don’t know where I’m going",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 81.08,
+          "end": 82.66,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 81.08,
+          "acoustic_end": 82.66,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 81.08,
+              "end": 81.6,
+              "confidence": 0.9906,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 81.6,
+              "end": 81.74,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 81.74,
+              "end": 82.0,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 82.0,
+              "end": 82.28,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "going",
+              "start": 82.28,
+              "end": 82.66,
+              "confidence": 0.9913,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 39,
+          "original_text": "But I won’t stand back",
+          "lead_text": "But I won’t stand back",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 39,
+          "raw_source_span": "But I won’t stand back",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 82.86,
+          "end": 84.28,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 82.86,
+          "acoustic_end": 84.28,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "but",
+              "start": 82.86,
+              "end": 83.0,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 83.0,
+              "end": 83.18,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "won't",
+              "start": 83.18,
+              "end": 83.52,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stand",
+              "start": 83.52,
+              "end": 83.84,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "back",
+              "start": 83.84,
+              "end": 84.28,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_005",
+          "source_line": 40,
+          "original_text": "That’s the difference",
+          "lead_text": "That’s the difference",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 40,
+          "raw_source_span": "That’s the difference",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 84.28,
+          "end": 86.06,
+          "confidence": 0.9689,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 84.28,
+          "acoustic_end": 86.06,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "that's",
+              "start": 84.28,
+              "end": 85.06,
+              "confidence": 0.8594,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 85.06,
+              "end": 85.26,
+              "confidence": 0.7685,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "difference",
+              "start": 85.26,
+              "end": 86.06,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_006",
+          "source_line": 41,
+          "original_text": "Between you and me",
+          "lead_text": "Between you and me",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 41,
+          "raw_source_span": "Between you and me",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 86.06,
+          "end": 87.54,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 86.06,
+          "acoustic_end": 87.54,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "between",
+              "start": 86.06,
+              "end": 86.58,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 86.58,
+              "end": 87.0,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 87.0,
+              "end": 87.26,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 87.26,
+              "end": 87.54,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_007",
+          "source_line": 42,
+          "original_text": "You wait for the light",
+          "lead_text": "You wait for the light",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 42,
+          "raw_source_span": "You wait for the light",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 87.54,
+          "end": 89.18,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 87.54,
+          "acoustic_end": 89.18,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "you",
+              "start": 87.54,
+              "end": 88.04,
+              "confidence": 0.9751,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wait",
+              "start": 88.04,
+              "end": 88.3,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 88.3,
+              "end": 88.6,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 88.6,
+              "end": 88.86,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 88.86,
+              "end": 89.18,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_008",
+          "source_line": 43,
+          "original_text": "I become what I see",
+          "lead_text": "I become what I see",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 43,
+          "raw_source_span": "I become what I see",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 89.22,
+          "end": 90.8,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 89.22,
+          "acoustic_end": 90.8,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 89.22,
+              "end": 89.4,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "become",
+              "start": 89.4,
+              "end": 89.82,
+              "confidence": 0.9283,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 89.82,
+              "end": 90.24,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 90.24,
+              "end": 90.48,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "see",
+              "start": 90.48,
+              "end": 90.8,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Verse 2",
+      "raw_label": "[Verse 2]",
+      "normalized_label": "verse 2",
+      "structural_role": "verse_2",
+      "structural_inferred": false,
+      "fingerprint": "pressure on my chest but i breathe through flames everybody changes when the money came i stayed ten toes through the storm and rain now they say my name like they knew my pain tunnel vision i can't lose focus built from nothing now they all notice you talk dreams but never leap i lose sleep while you just sleep",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 91.92,
+      "end": 117.12,
+      "confidence": 0.9666,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 47,
+          "original_text": "Pressure on my chest but I breathe through flames",
+          "lead_text": "Pressure on my chest but I breathe through flames",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 47,
+          "raw_source_span": "Pressure on my chest but I breathe through flames",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 91.92,
+          "end": 95.04,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 91.92,
+          "acoustic_end": 95.04,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "pressure",
+              "start": 91.92,
+              "end": 92.56,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 92.56,
+              "end": 92.78,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 92.78,
+              "end": 92.96,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "chest",
+              "start": 92.96,
+              "end": 93.28,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 93.46,
+              "end": 93.6,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 93.6,
+              "end": 93.76,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "breathe",
+              "start": 93.76,
+              "end": 94.1,
+              "confidence": 0.991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "through",
+              "start": 94.1,
+              "end": 94.42,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "flames",
+              "start": 94.42,
+              "end": 95.04,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 48,
+          "original_text": "Everybody changes when the money came",
+          "lead_text": "Everybody changes when the money came",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 48,
+          "raw_source_span": "Everybody changes when the money came",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 95.04,
+          "end": 98.14,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 95.04,
+          "acoustic_end": 98.14,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "everybody",
+              "start": 95.04,
+              "end": 95.88,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "changes",
+              "start": 95.88,
+              "end": 96.48,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 96.48,
+              "end": 96.8,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 96.8,
+              "end": 97.0,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 97.0,
+              "end": 97.6,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "came",
+              "start": 97.6,
+              "end": 98.14,
+              "confidence": 0.9667,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 49,
+          "original_text": "I stayed ten toes through the storm and rain",
+          "lead_text": "I stayed ten toes through the storm and rain",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 49,
+          "raw_source_span": "I stayed ten toes through the storm and rain",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 98.14,
+          "end": 101.44,
+          "confidence": 0.9702,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 98.14,
+          "acoustic_end": 101.44,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "i",
+              "start": 98.14,
+              "end": 98.48,
+              "confidence": 0.8698,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stayed",
+              "start": 98.48,
+              "end": 98.92,
+              "confidence": 0.6899,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ten",
+              "start": 98.92,
+              "end": 99.32,
+              "confidence": 0.7584,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "toes",
+              "start": 99.32,
+              "end": 99.8,
+              "confidence": 0.6367,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "through",
+              "start": 99.8,
+              "end": 100.02,
+              "confidence": 0.9767,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 100.02,
+              "end": 100.2,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "storm",
+              "start": 100.2,
+              "end": 100.62,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 100.62,
+              "end": 100.98,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "rain",
+              "start": 100.98,
+              "end": 101.44,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 50,
+          "original_text": "Now they say my name like they knew my pain",
+          "lead_text": "Now they say my name like they knew my pain",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 50,
+          "raw_source_span": "Now they say my name like they knew my pain",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 101.44,
+          "end": 104.74,
+          "confidence": 0.98,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 101.44,
+          "acoustic_end": 104.74,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "now",
+              "start": 101.44,
+              "end": 102.06,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 102.06,
+              "end": 102.22,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "say",
+              "start": 102.22,
+              "end": 102.46,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 102.46,
+              "end": 102.66,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "name",
+              "start": 102.66,
+              "end": 103.02,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 103.02,
+              "end": 103.26,
+              "confidence": 0.9953,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 103.26,
+              "end": 103.44,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "knew",
+              "start": 103.44,
+              "end": 103.72,
+              "confidence": 0.8912,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 103.72,
+              "end": 104.14,
+              "confidence": 0.9969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "pain",
+              "start": 104.14,
+              "end": 104.74,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_005",
+          "source_line": 51,
+          "original_text": "Tunnel vision, I can't lose focus",
+          "lead_text": "Tunnel vision, I can't lose focus",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 51,
+          "raw_source_span": "Tunnel vision, I can't lose focus",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 104.74,
+          "end": 107.68,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 104.74,
+          "acoustic_end": 107.68,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "tunnel",
+              "start": 104.74,
+              "end": 105.44,
+              "confidence": 0.9603,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vision",
+              "start": 105.44,
+              "end": 105.86,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 105.94,
+              "end": 106.12,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "can't",
+              "start": 106.12,
+              "end": 106.36,
+              "confidence": 0.9979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lose",
+              "start": 106.36,
+              "end": 106.58,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "focus",
+              "start": 106.58,
+              "end": 107.68,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_006",
+          "source_line": 52,
+          "original_text": "Built from nothing, now they all notice",
+          "lead_text": "Built from nothing, now they all notice",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 52,
+          "raw_source_span": "Built from nothing, now they all notice",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 107.68,
+          "end": 110.92,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 107.68,
+          "acoustic_end": 110.92,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "built",
+              "start": 107.68,
+              "end": 108.5,
+              "confidence": 0.9823,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "from",
+              "start": 108.5,
+              "end": 108.7,
+              "confidence": 0.9967,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "nothing",
+              "start": 108.7,
+              "end": 109.04,
+              "confidence": 0.9799,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 109.2,
+              "end": 109.36,
+              "confidence": 0.9973,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "they",
+              "start": 109.36,
+              "end": 109.52,
+              "confidence": 0.9946,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 109.52,
+              "end": 109.78,
+              "confidence": 0.9892,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "notice",
+              "start": 109.78,
+              "end": 110.92,
+              "confidence": 0.8664,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_007",
+          "source_line": 53,
+          "original_text": "You talk dreams but never leap",
+          "lead_text": "You talk dreams but never leap",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 53,
+          "raw_source_span": "You talk dreams but never leap",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 110.92,
+          "end": 114.42,
+          "confidence": 0.9775,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 110.92,
+          "acoustic_end": 114.42,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "you",
+              "start": 110.92,
+              "end": 111.76,
+              "confidence": 0.9015,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "talk",
+              "start": 111.76,
+              "end": 112.24,
+              "confidence": 0.836,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dreams",
+              "start": 112.24,
+              "end": 112.86,
+              "confidence": 0.9948,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "but",
+              "start": 112.86,
+              "end": 113.1,
+              "confidence": 0.7379,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 113.1,
+              "end": 113.62,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "leap",
+              "start": 113.62,
+              "end": 114.42,
+              "confidence": 0.9904,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_008",
+          "source_line": 54,
+          "original_text": "I lose sleep while you just sleep",
+          "lead_text": "I lose sleep while you just sleep",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 54,
+          "raw_source_span": "I lose sleep while you just sleep",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 114.42,
+          "end": 117.12,
+          "confidence": 0.885,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.8571
+          },
+          "acoustic_start": 114.42,
+          "acoustic_end": 117.12,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "i",
+              "start": 114.42,
+              "end": 115.0,
+              "confidence": 0.8978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lose",
+              "start": 115.0,
+              "end": 115.46,
+              "confidence": 0.9949,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sleep",
+              "start": 115.46,
+              "end": 116.0,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "while",
+              "start": 116.0,
+              "end": 116.38,
+              "confidence": 0.9888,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 116.38,
+              "end": 116.6,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "just",
+              "start": 116.6,
+              "end": 117.12,
+              "confidence": 0.9311,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sleep",
+              "start": 116.734,
+              "end": 117.12,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_007",
+      "label": "Bridge",
+      "raw_label": "[Bridge]",
+      "normalized_label": "bridge",
+      "structural_role": "bridge",
+      "structural_inferred": false,
+      "fingerprint": "even if i fall i still move forward even if i'm lost i still go harder",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 2,
+      "occurrence_count": 2,
+      "start": 117.48,
+      "end": 128.46,
+      "confidence": 0.915,
+      "lines": [
+        {
+          "line_id": "section_007_line_001",
+          "source_line": 58,
+          "original_text": "Even if I fall",
+          "lead_text": "Even if I fall",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 58,
+          "raw_source_span": "Even if I fall",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 117.48,
+          "end": 118.14,
+          "confidence": 0.72,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 0.75
+          },
+          "acoustic_start": 117.48,
+          "acoustic_end": 118.14,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "even",
+              "start": 117.48,
+              "end": 118.0,
+              "confidence": 0.066,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 118.0,
+              "end": 118.0,
+              "confidence": 0.9902,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 118.0,
+              "end": 118.14,
+              "confidence": 0.8333,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fall",
+              "start": 117.975,
+              "end": 118.14,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_002",
+          "source_line": 59,
+          "original_text": "I still move forward",
+          "lead_text": "I still move forward",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 59,
+          "raw_source_span": "I still move forward",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 119.96,
+          "end": 122.02,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 119.96,
+          "acoustic_end": 122.02,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i",
+              "start": 119.96,
+              "end": 120.16,
+              "confidence": 0.9939,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "still",
+              "start": 120.16,
+              "end": 120.62,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "move",
+              "start": 120.62,
+              "end": 121.06,
+              "confidence": 0.7279,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "forward",
+              "start": 121.06,
+              "end": 122.02,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_003",
+          "source_line": 60,
+          "original_text": "Even if I'm lost",
+          "lead_text": "Even if I'm lost",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 60,
+          "raw_source_span": "Even if I'm lost",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 122.02,
+          "end": 125.66,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 122.02,
+          "acoustic_end": 125.66,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "even",
+              "start": 122.02,
+              "end": 123.1,
+              "confidence": 0.9923,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "if",
+              "start": 123.1,
+              "end": 124.3,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 124.3,
+              "end": 124.54,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lost",
+              "start": 124.54,
+              "end": 125.66,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_004",
+          "source_line": 61,
+          "original_text": "I still go harder",
+          "lead_text": "I still go harder",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 61,
+          "raw_source_span": "I still go harder",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 126.48,
+          "end": 128.46,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 126.48,
+          "acoustic_end": 128.46,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i",
+              "start": 126.48,
+              "end": 126.64,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "still",
+              "start": 126.64,
+              "end": 127.14,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "go",
+              "start": 127.14,
+              "end": 127.54,
+              "confidence": 0.9963,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "harder",
+              "start": 127.54,
+              "end": 128.46,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_008",
+      "label": "Hook",
+      "raw_label": "[Hook]",
+      "normalized_label": "hook",
+      "structural_role": "hook",
+      "structural_inferred": false,
+      "fingerprint": "i'm right here now don't know where i'm at don't know where i'm going but i won't stand back that's the difference between you and me you wait for the light i become what i see",
+      "repeat_group": "repeat_group_001",
+      "occurrence_index": 3,
+      "occurrence_count": 3,
+      "start": 129.3,
+      "end": 142.74,
+      "confidence": 0.9796,
+      "lines": [
+        {
+          "line_id": "section_008_line_001",
+          "source_line": 65,
+          "original_text": "I’m right here now",
+          "lead_text": "I’m right here now",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 65,
+          "raw_source_span": "I’m right here now",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 129.3,
+          "end": 131.22,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 129.3,
+          "acoustic_end": 131.22,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 129.3,
+              "end": 130.1,
+              "confidence": 0.997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "right",
+              "start": 130.1,
+              "end": 130.38,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "here",
+              "start": 130.38,
+              "end": 130.76,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 130.76,
+              "end": 131.22,
+              "confidence": 0.991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_002",
+          "source_line": 66,
+          "original_text": "Don’t know where I’m at",
+          "lead_text": "Don’t know where I’m at",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 66,
+          "raw_source_span": "Don’t know where I’m at",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 131.36,
+          "end": 132.86,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 131.36,
+          "acoustic_end": 132.86,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 131.36,
+              "end": 131.74,
+              "confidence": 0.8135,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 131.74,
+              "end": 131.92,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 131.92,
+              "end": 132.2,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 132.2,
+              "end": 132.58,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "at",
+              "start": 132.58,
+              "end": 132.86,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_003",
+          "source_line": 67,
+          "original_text": "Don’t know where I’m going",
+          "lead_text": "Don’t know where I’m going",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 67,
+          "raw_source_span": "Don’t know where I’m going",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 132.86,
+          "end": 134.44,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 132.86,
+          "acoustic_end": 134.44,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "don't",
+              "start": 132.86,
+              "end": 133.38,
+              "confidence": 0.9896,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 133.38,
+              "end": 133.54,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "where",
+              "start": 133.54,
+              "end": 133.78,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 133.78,
+              "end": 134.04,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "going",
+              "start": 134.04,
+              "end": 134.44,
+              "confidence": 0.9779,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_004",
+          "source_line": 68,
+          "original_text": "But I won’t stand back",
+          "lead_text": "But I won’t stand back",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 68,
+          "raw_source_span": "But I won’t stand back",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 134.44,
+          "end": 136.08,
+          "confidence": 0.9766,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 134.44,
+          "acoustic_end": 136.08,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "but",
+              "start": 134.44,
+              "end": 134.74,
+              "confidence": 0.5356,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 134.74,
+              "end": 134.94,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "won't",
+              "start": 134.94,
+              "end": 135.24,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stand",
+              "start": 135.24,
+              "end": 135.6,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "back",
+              "start": 135.6,
+              "end": 136.08,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_005",
+          "source_line": 69,
+          "original_text": "That’s the difference",
+          "lead_text": "That’s the difference",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 69,
+          "raw_source_span": "That’s the difference",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 136.08,
+          "end": 137.84,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 136.08,
+          "acoustic_end": 137.84,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "that's",
+              "start": 136.08,
+              "end": 136.8,
+              "confidence": 0.9062,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 136.8,
+              "end": 136.98,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "difference",
+              "start": 136.98,
+              "end": 137.84,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_006",
+          "source_line": 70,
+          "original_text": "Between you and me",
+          "lead_text": "Between you and me",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 70,
+          "raw_source_span": "Between you and me",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 137.84,
+          "end": 139.2,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 137.84,
+          "acoustic_end": 139.2,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "between",
+              "start": 137.84,
+              "end": 138.18,
+              "confidence": 0.994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 138.18,
+              "end": 138.6,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 138.6,
+              "end": 138.94,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 138.94,
+              "end": 139.2,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_007",
+          "source_line": 71,
+          "original_text": "You wait for the light",
+          "lead_text": "You wait for the light",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 71,
+          "raw_source_span": "You wait for the light",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 139.2,
+          "end": 140.82,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 139.2,
+          "acoustic_end": 140.82,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "you",
+              "start": 139.2,
+              "end": 139.72,
+              "confidence": 0.9295,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wait",
+              "start": 139.72,
+              "end": 139.96,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 139.96,
+              "end": 140.26,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 140.26,
+              "end": 140.5,
+              "confidence": 0.9897,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 140.5,
+              "end": 140.82,
+              "confidence": 0.8754,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_008",
+          "source_line": 72,
+          "original_text": "I become what I see",
+          "lead_text": "I become what I see",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 72,
+          "raw_source_span": "I become what I see",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 140.86,
+          "end": 142.74,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 140.86,
+          "acoustic_end": 142.74,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 140.86,
+              "end": 141.08,
+              "confidence": 0.8909,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "become",
+              "start": 141.08,
+              "end": 141.54,
+              "confidence": 0.9507,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 141.54,
+              "end": 141.92,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 141.92,
+              "end": 142.1,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "see",
+              "start": 142.1,
+              "end": 142.74,
+              "confidence": 0.9934,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_009",
+      "label": "Final Hook",
+      "raw_label": "[Final Hook]",
+      "normalized_label": "final hook",
+      "structural_role": "final_hook",
+      "structural_inferred": false,
+      "fingerprint": "i'm right here now still chasing stars lost in the dark but i go this far that's the difference between you and me you wait for your shot i become my dream",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 155.08,
+      "end": 167.86,
+      "confidence": 0.9797,
+      "lines": [
+        {
+          "line_id": "section_009_line_001",
+          "source_line": 76,
+          "original_text": "I’m right here now",
+          "lead_text": "I’m right here now",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 76,
+          "raw_source_span": "I’m right here now",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 155.08,
+          "end": 156.84,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 155.08,
+          "acoustic_end": 156.84,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 155.08,
+              "end": 155.76,
+              "confidence": 0.9665,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "right",
+              "start": 155.76,
+              "end": 155.96,
+              "confidence": 0.9793,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "here",
+              "start": 155.96,
+              "end": 156.32,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "now",
+              "start": 156.32,
+              "end": 156.84,
+              "confidence": 0.9956,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_002",
+          "source_line": 77,
+          "original_text": "Still chasing stars",
+          "lead_text": "Still chasing stars",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 77,
+          "raw_source_span": "Still chasing stars",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 156.96,
+          "end": 158.52,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 156.96,
+          "acoustic_end": 158.52,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "still",
+              "start": 156.96,
+              "end": 157.48,
+              "confidence": 0.9381,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "chasing",
+              "start": 157.48,
+              "end": 157.9,
+              "confidence": 0.9095,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stars",
+              "start": 157.9,
+              "end": 158.52,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_003",
+          "source_line": 78,
+          "original_text": "Lost in the dark",
+          "lead_text": "Lost in the dark",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 78,
+          "raw_source_span": "Lost in the dark",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 158.52,
+          "end": 160.02,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 158.52,
+          "acoustic_end": 160.02,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "lost",
+              "start": 158.52,
+              "end": 159.12,
+              "confidence": 0.9883,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 159.12,
+              "end": 159.46,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 159.46,
+              "end": 159.64,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dark",
+              "start": 159.64,
+              "end": 160.02,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_004",
+          "source_line": 79,
+          "original_text": "But I go this far",
+          "lead_text": "But I go this far",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 79,
+          "raw_source_span": "But I go this far",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 160.12,
+          "end": 161.64,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 160.12,
+          "acoustic_end": 161.64,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "but",
+              "start": 160.12,
+              "end": 160.5,
+              "confidence": 0.9917,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 160.5,
+              "end": 160.7,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "go",
+              "start": 160.7,
+              "end": 160.98,
+              "confidence": 0.9923,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "this",
+              "start": 160.98,
+              "end": 161.22,
+              "confidence": 0.994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "far",
+              "start": 161.22,
+              "end": 161.64,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_005",
+          "source_line": 80,
+          "original_text": "That’s the difference",
+          "lead_text": "That’s the difference",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 80,
+          "raw_source_span": "That’s the difference",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 161.64,
+          "end": 163.24,
+          "confidence": 0.9776,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 161.64,
+          "acoustic_end": 163.24,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "that's",
+              "start": 161.64,
+              "end": 162.3,
+              "confidence": 0.7315,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 162.3,
+              "end": 162.5,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "difference",
+              "start": 162.5,
+              "end": 163.24,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_006",
+          "source_line": 81,
+          "original_text": "Between you and me",
+          "lead_text": "Between you and me",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 81,
+          "raw_source_span": "Between you and me",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 163.24,
+          "end": 164.68,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 163.24,
+          "acoustic_end": 164.68,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "between",
+              "start": 163.24,
+              "end": 163.66,
+              "confidence": 0.9613,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 163.66,
+              "end": 164.12,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 164.12,
+              "end": 164.4,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 164.4,
+              "end": 164.68,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_007",
+          "source_line": 82,
+          "original_text": "You wait for your shot",
+          "lead_text": "You wait for your shot",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 82,
+          "raw_source_span": "You wait for your shot",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 164.68,
+          "end": 166.28,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 164.68,
+          "acoustic_end": 166.28,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "you",
+              "start": 164.68,
+              "end": 165.16,
+              "confidence": 0.9717,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wait",
+              "start": 165.16,
+              "end": 165.46,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "for",
+              "start": 165.46,
+              "end": 165.7,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "your",
+              "start": 165.7,
+              "end": 165.94,
+              "confidence": 0.9745,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "shot",
+              "start": 165.94,
+              "end": 166.28,
+              "confidence": 0.976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_009_line_008",
+          "source_line": 83,
+          "original_text": "I become my dream",
+          "lead_text": "I become my dream",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 83,
+          "raw_source_span": "I become my dream",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 166.32,
+          "end": 167.86,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 166.32,
+          "acoustic_end": 167.86,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i",
+              "start": 166.32,
+              "end": 166.52,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "become",
+              "start": 166.52,
+              "end": 167.06,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 167.06,
+              "end": 167.48,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dream",
+              "start": 167.48,
+              "end": 167.86,
+              "confidence": 0.9136,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "fd4cd080422d387ac09537658a093a913890e582a6f4944e541ea2672d029815",
+    "authoritative_line_count": 57,
+    "authoritative_token_count": 294,
+    "line_acoustic_coverage": 0.9824561403508771,
+    "token_acoustic_coverage": 0.9659863945578231,
+    "primary_count": 56,
+    "secondary_count": 1,
+    "direct_acoustic_lines": 56,
+    "bounded_asr_lines": 1,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 185.64,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.0,
+        "end": 0.35,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 11.719999999999999,
+        "end": 25.02,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 37.72,
+        "end": 64.14,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 64.76,
+        "end": 76.62,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 77.56,
+        "end": 90.8,
+        "occurrence": 2
+      },
+      "section_006": {
+        "start": 91.92,
+        "end": 117.12,
+        "occurrence": 1
+      },
+      "section_007": {
+        "start": 117.48,
+        "end": 128.46,
+        "occurrence": 2
+      },
+      "section_008": {
+        "start": 129.29999999999998,
+        "end": 142.74,
+        "occurrence": 3
+      },
+      "section_009": {
+        "start": 155.07999999999998,
+        "end": 167.86,
+        "occurrence": 1
+      }
+    }
+  },
+  "authoritative_lyrics": {
+    "path": "input/lyrics/difference.txt",
+    "sha256": "fd4cd080422d387ac09537658a093a913890e582a6f4944e541ea2672d029815"
+  },
+  "title": "Difference",
+  "artist": "noek95"
+}

@@ -7,6 +7,11 @@
     "TheSideQuest24": {"display_name": "TheSideQuest24", "pfp": "assets/artists/thesidequest24.webp", "crop": "square"},
     "WILLZ": {"display_name": "WILLZ", "pfp": null, "crop": "none"},
     "VonKai": {"display_name": "VonKai", "pfp": "assets/artists/vonkaikills.jpeg", "crop": "circle"},
-    "KarmaisMagic": {"display_name": "KarmaisMagic", "pfp": null, "crop": "none"}
+    "KarmaisMagic": {"display_name": "KarmaisMagic", "pfp": null, "crop": "none"},
+    "berb": {"display_name": "berb", "pfp": null, "crop": "none"},
+    "lilshitty": {"display_name": "lilshitty", "pfp": null, "crop": "none"},
+    "ken carson": {"display_name": "ken carson", "pfp": null, "crop": "none"},
+    "noek95": {"display_name": "noek95", "pfp": null, "crop": "none"},
+    "SILL-E": {"display_name": "SILL-E", "pfp": null, "crop": "none"}
   }
 }

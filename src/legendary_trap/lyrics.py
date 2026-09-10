@@ -44,6 +44,8 @@ class LyricLine:
     acoustic_match_texts: list[str] = field(default_factory=list)
     acoustic_match_tokens: list[list[str]] = field(default_factory=list)
     annotation_metadata: list[str] = field(default_factory=list)
+    raw_source_line: int | None = None
+    raw_source_span: str | None = None
 
 
 @dataclass

@@ -1,0 +1,68 @@
+{
+  "song_id": "hella_racks",
+  "title": "hella racks",
+  "artist": "ken carson",
+  "source": "source/hella racks.mp3",
+  "source_sha256": "b3047a2e8015bf7a52505d3ad000811d5804489d3c7655140e66a3279c792e47",
+  "lyric_sha256": "9db7398e6acdc4ee40efcbebfc8e680c9b79dc19d6f6e8963462089013ae351d",
+  "primary": 58,
+  "secondary": 0,
+  "direct_acoustic": 48,
+  "bounded_asr": 3,
+  "acoustic_transfer": 0,
+  "cadence_interpolation": 0,
+  "line_coverage": 0.8793103448275862,
+  "token_coverage": 0.6998284734133791,
+  "median_onset_error": null,
+  "p90_onset_error": null,
+  "unresolved": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_001_line_005",
+    "section_001_line_006",
+    "section_001_line_007"
+  ],
+  "low_confidence": [
+    "section_001_line_001",
+    "section_001_line_002",
+    "section_001_line_003",
+    "section_001_line_004",
+    "section_001_line_005",
+    "section_001_line_006",
+    "section_001_line_007"
+  ],
+  "structural_qa": {
+    "zero_duration_primary": 0,
+    "primary_under_0_10": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "chronology_violations": 0
+  },
+  "section_occurrence_windows": {
+    "section_001": {
+      "start": 16.134999999999998,
+      "end": 174.52,
+      "occurrence": 1
+    }
+  },
+  "lexical_reconstruction": {
+    "source_token_count": 671,
+    "canonical_token_count": 671,
+    "missing": 0,
+    "added": 0,
+    "changed": 0,
+    "exact": true
+  },
+  "asr_lexical_substitutions": 0,
+  "run_together_physical_lines": 47,
+  "display_splits": 58,
+  "bounded_local_asr": {
+    "window_start": 0.0,
+    "window_duration": 35.0,
+    "evidence_file": "work/new_songs_batch_v1/hella_racks_local_asr.json"
+  }
+}

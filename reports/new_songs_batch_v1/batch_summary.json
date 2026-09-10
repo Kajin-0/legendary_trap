@@ -1,0 +1,340 @@
+{
+  "production_polar_thickness": 2.2,
+  "visualizer_preset": "trap_polar_350_artistlockup",
+  "visualizer_renderer": "trap_sunset_polar_v3",
+  "wonder_when_im_gon_shine": {
+    "status": "already_aligned_final_visual_rerender",
+    "artist": "berb",
+    "timing": "unchanged"
+  },
+  "songs": [
+    {
+      "song_id": "on_a_trance",
+      "title": "On A Trance (V3)",
+      "artist": "lilshitty",
+      "source": "source/On A Trance (V3).mp3",
+      "source_sha256": "0cdd9d82ea991732c2f9a57756ccc23e1cbf7a0a95d6c464034e34f70114873c",
+      "lyric_sha256": "a0dc37dc72595156d7565b01fa75ba87965471058d0bc1fcfc04ee5fadf3e129",
+      "primary": 52,
+      "secondary": 3,
+      "direct_acoustic": 52,
+      "bounded_asr": 3,
+      "acoustic_transfer": 0,
+      "cadence_interpolation": 0,
+      "line_coverage": 0.9454545454545454,
+      "token_coverage": 0.9184210526315789,
+      "median_onset_error": null,
+      "p90_onset_error": null,
+      "unresolved": [],
+      "low_confidence": [],
+      "structural_qa": {
+        "zero_duration_primary": 0,
+        "primary_under_0_10": 0,
+        "unsupported_repeated_occurrences": 0,
+        "unhandled_primary_collisions": 0,
+        "unsupported_phantom_lyrics": 0,
+        "text_mismatches": 0,
+        "chronology_violations": 0
+      },
+      "section_occurrence_windows": {
+        "section_001": {
+          "start": 0.1,
+          "end": 14.12,
+          "occurrence": 1
+        },
+        "section_002": {
+          "start": 15.600000000000001,
+          "end": 50.4,
+          "occurrence": 1
+        },
+        "section_003": {
+          "start": 50.4,
+          "end": 71.64,
+          "occurrence": 1
+        },
+        "section_004": {
+          "start": 72.92,
+          "end": 92.6,
+          "occurrence": 1
+        },
+        "section_005": {
+          "start": 92.6,
+          "end": 114.14,
+          "occurrence": 1
+        },
+        "section_006": {
+          "start": 115.52,
+          "end": 128.13,
+          "occurrence": 1
+        }
+      },
+      "lexical_reconstruction": {
+        "source_token_count": 404,
+        "canonical_token_count": 397,
+        "missing": 0,
+        "added": 0,
+        "changed": 0,
+        "exact": true
+      },
+      "asr_lexical_substitutions": 0,
+      "annotation_classifications": {
+        "(massage)": "structural_annotation",
+        "(beat start)": "structural_annotation",
+        "(verse)": "section_marker",
+        "(chorus)": "section_marker",
+        "(post-Chrorus)": "section_marker"
+      }
+    },
+    {
+      "song_id": "hella_racks",
+      "title": "hella racks",
+      "artist": "ken carson",
+      "source": "source/hella racks.mp3",
+      "source_sha256": "b3047a2e8015bf7a52505d3ad000811d5804489d3c7655140e66a3279c792e47",
+      "lyric_sha256": "9db7398e6acdc4ee40efcbebfc8e680c9b79dc19d6f6e8963462089013ae351d",
+      "primary": 58,
+      "secondary": 0,
+      "direct_acoustic": 48,
+      "bounded_asr": 3,
+      "acoustic_transfer": 0,
+      "cadence_interpolation": 0,
+      "line_coverage": 0.8793103448275862,
+      "token_coverage": 0.6998284734133791,
+      "median_onset_error": null,
+      "p90_onset_error": null,
+      "unresolved": [
+        "section_001_line_001",
+        "section_001_line_002",
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_001_line_005",
+        "section_001_line_006",
+        "section_001_line_007"
+      ],
+      "low_confidence": [
+        "section_001_line_001",
+        "section_001_line_002",
+        "section_001_line_003",
+        "section_001_line_004",
+        "section_001_line_005",
+        "section_001_line_006",
+        "section_001_line_007"
+      ],
+      "structural_qa": {
+        "zero_duration_primary": 0,
+        "primary_under_0_10": 0,
+        "unsupported_repeated_occurrences": 0,
+        "unhandled_primary_collisions": 0,
+        "unsupported_phantom_lyrics": 0,
+        "text_mismatches": 0,
+        "chronology_violations": 0
+      },
+      "section_occurrence_windows": {
+        "section_001": {
+          "start": 16.134999999999998,
+          "end": 174.52,
+          "occurrence": 1
+        }
+      },
+      "lexical_reconstruction": {
+        "source_token_count": 671,
+        "canonical_token_count": 671,
+        "missing": 0,
+        "added": 0,
+        "changed": 0,
+        "exact": true
+      },
+      "asr_lexical_substitutions": 0,
+      "run_together_physical_lines": 47,
+      "display_splits": 58,
+      "bounded_local_asr": {
+        "window_start": 0.0,
+        "window_duration": 35.0,
+        "evidence_file": "work/new_songs_batch_v1/hella_racks_local_asr.json"
+      }
+    },
+    {
+      "song_id": "difference",
+      "title": "Difference",
+      "artist": "noek95",
+      "source": "source/Difference.mp3",
+      "source_sha256": "0787aaa9a54807b16918763f8b7c5d9e9cdfb30881ba6b1af0dc6b09e0643cb7",
+      "lyric_sha256": "42a53d530ec597ee8e422e6131afff10a3349219a67b96e8a71b88bd0545fa9e",
+      "primary": 56,
+      "secondary": 1,
+      "direct_acoustic": 56,
+      "bounded_asr": 1,
+      "acoustic_transfer": 0,
+      "cadence_interpolation": 0,
+      "line_coverage": 0.9824561403508771,
+      "token_coverage": 0.9659863945578231,
+      "median_onset_error": null,
+      "p90_onset_error": null,
+      "unresolved": [],
+      "low_confidence": [],
+      "structural_qa": {
+        "zero_duration_primary": 0,
+        "primary_under_0_10": 0,
+        "unsupported_repeated_occurrences": 0,
+        "unhandled_primary_collisions": 0,
+        "unsupported_phantom_lyrics": 0,
+        "text_mismatches": 0,
+        "chronology_violations": 0
+      },
+      "section_occurrence_windows": {
+        "section_001": {
+          "start": 0.0,
+          "end": 0.35,
+          "occurrence": 1
+        },
+        "section_002": {
+          "start": 11.719999999999999,
+          "end": 25.02,
+          "occurrence": 1
+        },
+        "section_003": {
+          "start": 37.72,
+          "end": 64.14,
+          "occurrence": 1
+        },
+        "section_004": {
+          "start": 64.76,
+          "end": 76.62,
+          "occurrence": 1
+        },
+        "section_005": {
+          "start": 77.56,
+          "end": 90.8,
+          "occurrence": 2
+        },
+        "section_006": {
+          "start": 91.92,
+          "end": 117.12,
+          "occurrence": 1
+        },
+        "section_007": {
+          "start": 117.48,
+          "end": 128.46,
+          "occurrence": 2
+        },
+        "section_008": {
+          "start": 129.29999999999998,
+          "end": 142.74,
+          "occurrence": 3
+        },
+        "section_009": {
+          "start": 155.07999999999998,
+          "end": 167.86,
+          "occurrence": 1
+        }
+      },
+      "lexical_reconstruction": {
+        "source_token_count": 307,
+        "canonical_token_count": 295,
+        "missing": 0,
+        "added": 0,
+        "changed": 0,
+        "exact": true
+      },
+      "asr_lexical_substitutions": 0
+    },
+    {
+      "song_id": "purple_satellites",
+      "title": "PURPLE SATELLITES",
+      "artist": "SILL-E",
+      "source": "source/PURPLE SATELLITES.mp3",
+      "source_sha256": "8aa27dd4524e0695763023f5a27deccecb43de063589c2e78c7e42173cb4e91b",
+      "lyric_sha256": "9df0260be85617c9428e1f9340b702aac55f8f392ee03844565936555f821bae",
+      "primary": 63,
+      "secondary": 0,
+      "direct_acoustic": 58,
+      "bounded_asr": 2,
+      "acoustic_transfer": 0,
+      "cadence_interpolation": 0,
+      "line_coverage": 0.9523809523809523,
+      "token_coverage": 0.9423868312757202,
+      "median_onset_error": null,
+      "p90_onset_error": null,
+      "unresolved": [
+        "section_001_line_001",
+        "section_002_line_001",
+        "section_002_line_004"
+      ],
+      "low_confidence": [
+        "section_001_line_001",
+        "section_002_line_001",
+        "section_002_line_004"
+      ],
+      "structural_qa": {
+        "zero_duration_primary": 0,
+        "primary_under_0_10": 0,
+        "unsupported_repeated_occurrences": 0,
+        "unhandled_primary_collisions": 0,
+        "unsupported_phantom_lyrics": 0,
+        "text_mismatches": 0,
+        "chronology_violations": 0
+      },
+      "section_occurrence_windows": {
+        "section_001": {
+          "start": 6.335,
+          "end": 7.685,
+          "occurrence": 1
+        },
+        "section_002": {
+          "start": 7.835,
+          "end": 24.668,
+          "occurrence": 1
+        },
+        "section_003": {
+          "start": 25.4,
+          "end": 57.24,
+          "occurrence": 1
+        },
+        "section_004": {
+          "start": 57.879999999999995,
+          "end": 96.66,
+          "occurrence": 1
+        },
+        "section_005": {
+          "start": 96.66,
+          "end": 110.94,
+          "occurrence": 1
+        },
+        "section_006": {
+          "start": 110.94,
+          "end": 149.22,
+          "occurrence": 1
+        },
+        "section_007": {
+          "start": 151.07999999999998,
+          "end": 161.0,
+          "occurrence": 1
+        },
+        "section_008": {
+          "start": 161.48,
+          "end": 199.86,
+          "occurrence": 1
+        },
+        "section_009": {
+          "start": 199.86,
+          "end": 226.52,
+          "occurrence": 1
+        }
+      },
+      "lexical_reconstruction": {
+        "source_token_count": 498,
+        "canonical_token_count": 486,
+        "missing": 0,
+        "added": 0,
+        "changed": 0,
+        "exact": true
+      },
+      "asr_lexical_substitutions": 0,
+      "bounded_local_asr": {
+        "window_start": 0.0,
+        "window_duration": 30.0,
+        "evidence_file": "work/new_songs_batch_v1/purple_satellites_local_asr.json"
+      }
+    }
+  ]
+}

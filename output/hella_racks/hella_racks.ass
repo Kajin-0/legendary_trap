@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyric,Barlow Condensed Black,90,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,5,180,180,0,1
+Style: Adlib,Barlow Condensed Black,56,&H00E8D8C8,&H00E8D8C8,&H00141A26,&H90070B12,1,0,1,1,1,5,180,180,0,1
+Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:16.13,0:00:17.48,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(yea let's go) (pull up) (smoking that kush) End yo' block, I roll 'em, roll 'em (whoo)
+Dialogue: 1,0:00:17.63,0:00:18.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Shoot that shot, I'm scorin', scorin' (whoo)
+Dialogue: 1,0:00:19.13,0:00:20.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}This Biscotti got me floatin' Can't take what you give, you gotta give 'em what I deserveCan't fuck
+Dialogue: 1,0:00:20.63,0:00:21.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}with nobody (what?) Not even my shadow (yeah, no one)
+Dialogue: 1,0:00:22.13,0:00:23.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I got on Ed Hardy (what? What? What? What? What?) was just smokin' that Kush, countin' money, can't
+Dialogue: 1,0:00:23.63,0:00:24.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}fit in rubber bands Took the bands to the store, see it, I cop it Hop in that
+Dialogue: 1,0:00:25.13,0:00:26.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whip and I'm dust 'em like, skrr (ah)
+Dialogue: 1,0:00:26.56,0:00:28.04,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Brand new ice, on air, bitch, I could never think twice, oh, yeah (yeah)
+Dialogue: 1,0:00:29.38,0:00:29.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tell 'em, "Put the price up, yeah"
+Dialogue: 1,0:00:29.78,0:00:30.70,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tall ass money, get your height up (yeah-yeah, woah)
+Dialogue: 1,0:00:31.40,0:00:32.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Countin' his crypto, yeah, woah
+Dialogue: 1,0:00:33.14,0:00:34.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}That shit got me jammed up, yeah (woah)
+Dialogue: 1,0:00:35.08,0:00:35.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Booted up, end up, yeah (huh)
+Dialogue: 1,0:00:35.86,0:00:41.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Fuck around and light your camp up, yeah Whole lotta bands in the duffle like- (yeah) (run it
+Dialogue: 1,0:00:41.46,0:00:47.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}back...) (yea let's go) (pull up) (smoking that kush) End yo' block, I roll 'em, roll 'em (whoo)
+Dialogue: 1,0:00:47.48,0:00:49.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Shoot that shot, I'm scorin', scorin' (whoo)
+Dialogue: 1,0:00:49.00,0:00:53.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}This Biscotti got me floatin' Can't take what you give, you gotta give 'em what I deserveCan't fuck
+Dialogue: 1,0:00:53.80,0:00:55.54,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}with nobody (what?) Not even my shadow (yeah, no one)
+Dialogue: 1,0:00:55.96,0:00:59.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I got on Ed Hardy (what? What? What? What? What?) was just smokin' that Kush, countin' money, can't
+Dialogue: 1,0:00:59.46,0:01:02.66,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}fit in rubber bands Took the bands to the store, see it, I cop it Hop in that
+Dialogue: 1,0:01:02.76,0:01:03.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whip and I'm dust 'em like, skrr (ah)
+Dialogue: 1,0:01:04.24,0:01:07.04,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Brand new ice, on air, bitch, I could never think twice, oh, yeah (yeah)
+Dialogue: 1,0:01:07.04,0:01:08.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tell 'em, "Put the price up, yeah"
+Dialogue: 1,0:01:08.68,0:01:10.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tall ass money, get your height up (yeah-yeah, woah)
+Dialogue: 1,0:01:10.52,0:01:11.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Countin' his crypto, yeah, woah
+Dialogue: 1,0:01:11.98,0:01:13.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}That shit got me jammed up, yeah (woah)
+Dialogue: 1,0:01:14.40,0:01:15.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Booted up, end up, yeah (huh)
+Dialogue: 1,0:01:15.44,0:01:18.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Fuck around and light your camp up, yeah Whole lotta bands in the duffle like- (yeah)
+Dialogue: 1,0:01:18.58,0:01:21.84,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}So much fuckin' money just countin', I'ma need more hands
+Dialogue: 1,0:01:21.84,0:01:25.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I'ma need a new backpack and some bigger pants They told me I'm fishin' like Scotty
+Dialogue: 1,0:01:26.32,0:01:30.04,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}In the next year, yeah, I'll be the highest (highest) Yeah, I put that ho in Prada, and
+Dialogue: 1,0:01:30.04,0:01:31.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}after, I made her holler
+Dialogue: 1,0:01:31.16,0:01:34.42,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And my bro took off your mans, I heard that was your top shotter
+Dialogue: 1,0:01:34.42,0:01:37.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I got Vetements on my pants and my shirt Balenciaga
+Dialogue: 1,0:01:43.50,0:01:46.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Huh, huh, huh, huh, huh, huh, huh, huh, huh You don't want no smoke, bitch, FN Five-seveN shoot
+Dialogue: 1,0:01:46.70,0:01:47.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}a opp in his dome
+Dialogue: 1,0:01:47.22,0:01:50.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Hit that boy in his chest, hit his heart, now it's chrome (hearts) I'ma keep it player (brah)
+Dialogue: 1,0:01:50.58,0:01:54.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Come through popping shit off, hell yeah (hell yeah, yea). don't believe in the hype (nah, nah)
+Dialogue: 1,0:01:54.30,0:01:55.56,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Remember that money was tight (yeah)
+Dialogue: 1,0:01:55.66,0:02:00.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And then that boy money got right (yeah) Yeah, I'm on shit (yeah, shit)
+Dialogue: 1,0:02:01.78,0:02:04.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I was taking trips to LA, tryna hit (hit)
+Dialogue: 1,0:02:05.94,0:02:06.24,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}That money getting spent (okay, okay, fah)
+Dialogue: 1,0:02:06.74,0:02:08.42,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I'm on shit (graah, go) (LET'S GOO)
+Dialogue: 1,0:02:10.06,0:02:13.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}So much fuckin' money just countin', I'ma need more hands
+Dialogue: 1,0:02:13.28,0:02:17.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I'ma need a new backpack and some bigger pants They told me I'm fishin' like Scotty
+Dialogue: 1,0:02:17.84,0:02:21.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}In the next year, yeah, I'll be the highest (highest) Yeah, I put that ho in Prada, and
+Dialogue: 1,0:02:21.30,0:02:22.42,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}after, I made her holler
+Dialogue: 1,0:02:22.42,0:02:25.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And my bro took off your mans, I heard that was your top shotter
+Dialogue: 1,0:02:25.62,0:02:28.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I got Vetements on my pants and my shirt Balenciaga
+Dialogue: 1,0:02:31.34,0:02:34.34,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Huh, huh, huh, huh, huh, huh, huh, huh, huh You don't want no smoke, bitch, FN Five-seveN shoot
+Dialogue: 1,0:02:34.66,0:02:35.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}a opp in his dome
+Dialogue: 1,0:02:35.44,0:02:38.06,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Hit that boy in his chest, hit his heart, now it's chrome (hearts) I'ma keep it player (brah)
+Dialogue: 1,0:02:39.22,0:02:41.90,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Come through popping shit off, hell yeah (hell yeah, yea). don't believe in the hype (nah, nah)
+Dialogue: 1,0:02:42.04,0:02:43.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Remember that money was tight (yeah)
+Dialogue: 1,0:02:43.42,0:02:46.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And then that boy money got right (yeah) Yeah, I'm on shit (yeah, shit)
+Dialogue: 1,0:02:48.00,0:02:51.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I was taking trips to LA, tryna hit (hit)
+Dialogue: 1,0:02:51.08,0:02:52.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}That money getting spent (okay, okay, fah)
+Dialogue: 1,0:02:53.14,0:02:54.52,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I'm on shit (graah, go)

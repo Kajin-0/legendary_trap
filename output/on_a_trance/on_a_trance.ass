@@ -1,0 +1,70 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyric,Barlow Condensed Black,90,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,5,180,180,0,1
+Style: Adlib,Barlow Condensed Black,56,&H00E8D8C8,&H00E8D8C8,&H00141A26,&H90070B12,1,0,1,1,1,5,180,180,0,1
+Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.10,0:00:14.12,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(massage) ayo don't talk shit bout me twin, all these bitches talking shit bout me. but fuck em...im not give a shit. im build diffrent u'know what im saying. i keep that grind up and make sum honey buns twin, they aint no me
+Dialogue: 1,0:00:15.60,0:00:17.56,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Riding trought night don't, don't need fake shit
+Dialogue: 1,0:00:17.56,0:00:19.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}been geeked up, yeah no stress
+Dialogue: 1,0:00:19.16,0:00:21.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}diamonds on my neck yeah..were full icing (ICE)
+Dialogue: 1,0:00:21.40,0:00:22.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}gang pulled up yeah, were flying 
+Dialogue: 1,0:00:22.80,0:00:24.76,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}geeked were geeked up for life he (its lit)
+Dialogue: 1,0:00:24.98,0:00:26.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}diamonds on my cruise yeah
+Dialogue: 1,0:00:26.32,0:00:29.92,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}diamonds at the both yeah, we on X like we on cush ye (ya ya)
+Dialogue: 1,0:00:30.42,0:00:32.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}ain't no talking to me if you lying
+Dialogue: 1,0:00:32.32,0:00:33.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}yeah shawty we're flying
+Dialogue: 1,0:00:33.62,0:00:35.52,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Riding trought night don't, need fake shit
+Dialogue: 1,0:00:35.52,0:00:37.18,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}ain't no talking to me if you lying 
+Dialogue: 1,0:00:37.18,0:00:40.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}shawtys all over me they're crying...over me, i don't play some games
+Dialogue: 1,0:00:40.68,0:00:43.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}if you say we got beef i shoot u in you crip
+Dialogue: 1,0:00:43.14,0:00:44.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}diamonds shine wide, feeling wildly 
+Dialogue: 1,0:00:44.62,0:00:46.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}no stress on me keep grinding
+Dialogue: 1,0:00:46.80,0:00:50.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}she's funky bout me i keep it funking
+Dialogue: 1,0:00:50.40,0:00:52.00,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding in tha game
+Dialogue: 1,0:00:52.00,0:00:53.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}i aint got cheap cologne
+Dialogue: 1,0:00:53.48,0:00:54.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}bullet flying i kept reload (reload)
+Dialogue: 1,0:00:57.54,0:01:00.02,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding on tha trance, i feel blessed
+Dialogue: 1,0:01:00.02,0:01:01.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 1,0:01:01.72,0:01:02.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}we're in tha game
+Dialogue: 1,0:01:02.88,0:01:05.18,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whole team loud we partying loud
+Dialogue: 1,0:01:05.36,0:01:08.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding on tha trance, i feel blessed
+Dialogue: 1,0:01:08.10,0:01:10.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 1,0:01:10.40,0:01:11.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}its all i know
+Dialogue: 1,0:01:12.92,0:01:14.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Riding trought night don't, don't need fake shit
+Dialogue: 1,0:01:14.80,0:01:16.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}been geeked up, yeah no stress
+Dialogue: 1,0:01:16.40,0:01:18.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}diamonds on my neck yeah..were full icing (ICE)
+Dialogue: 1,0:01:18.76,0:01:20.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}everything shine when i step out
+Dialogue: 1,0:01:20.08,0:01:21.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Ice in my veins she's full on my arms (yeah yeah)
+Dialogue: 1,0:01:21.78,0:01:23.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}don't do smoke king or i shoot you out
+Dialogue: 1,0:01:23.96,0:01:25.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}im shine im flying
+Dialogue: 1,0:01:25.38,0:01:26.84,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance 
+Dialogue: 1,0:01:26.84,0:01:28.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Riding trought night don't, don't need fake shit
+Dialogue: 1,0:01:29.30,0:01:30.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}been geeked up, yeah no stress
+Dialogue: 1,0:01:30.62,0:01:32.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}ghost in her face ghost in the past (ya ya)
+Dialogue: 1,0:01:32.60,0:01:34.68,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding in tha game
+Dialogue: 1,0:01:34.68,0:01:35.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}i aint got cheap cologne
+Dialogue: 1,0:01:36.02,0:01:37.54,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}bullet flying i kept reload (reload)
+Dialogue: 1,0:01:40.02,0:01:42.60,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding on tha trance, i feel blessed
+Dialogue: 1,0:01:42.60,0:01:43.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 1,0:01:43.46,0:01:45.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}we're in tha game
+Dialogue: 1,0:01:45.38,0:01:47.62,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whole team loud we partying
+Dialogue: 1,0:01:47.96,0:01:50.52,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}still grinding on tha trance, i feel blessed
+Dialogue: 1,0:01:50.52,0:01:51.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 1,0:01:52.76,0:01:54.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}its all i know
+Dialogue: 1,0:01:55.52,0:01:57.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 1,0:01:57.50,0:01:58.74,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whole team loud 
+Dialogue: 1,0:01:59.32,0:02:04.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance 
+Dialogue: 2,0:02:04.28,0:02:04.62,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(yeah yeah yaaaaaaa)
+Dialogue: 1,0:02:04.62,0:02:07.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}on a trance, on a trance
+Dialogue: 2,0:02:07.78,0:02:08.13,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(ya ya)
+Dialogue: 2,0:02:07.78,0:02:08.13,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(yeah yeah yaaaa)
