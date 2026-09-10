@@ -50,3 +50,65 @@ def test_nine_frozen_timing_hashes() -> None:
     }
     for song, digest in expected.items():
         assert hashlib.sha256((ROOT / "output" / song / "timing.json").read_bytes()).hexdigest() == digest
+
+
+def test_hella_opening_has_local_acoustic_support() -> None:
+    document = json.loads((ROOT / "output/hella_racks/timing.json").read_text())
+    opening = document["sections"][0]["lines"][:7]
+    assert all(line["timing_source"] == "local_acoustic_anchor" for line in opening)
+    assert all(line["acoustic_support"] and not line["estimated_timing"] for line in opening)
+    assert document["diagnostics"]["unresolved_line_ids"] == []
+
+
+def test_purple_title_and_headings_are_not_rendered_lyrics() -> None:
+    document = json.loads((ROOT / "output/purple_satellites/timing.json").read_text())
+    lines = [line for section in document["sections"] for line in section["lines"]]
+    assert all(line["original_text"] != "**PURPLE SATELLITES**" for line in lines)
+    assert all(not line["original_text"].startswith("**[") for line in lines)
+    intro = next(section for section in document["sections"] if section["label"].lower() == "intro")
+    assert all(line["end"] - line["start"] >= 0.20 for line in intro["lines"][:4])
+    assert intro["lines"][3]["end"] - intro["lines"][3]["start"] < 8.0
+
+
+def test_repaired_word_timings_are_valid_and_monotonic() -> None:
+    for song in ("hella_racks", "purple_satellites"):
+        document = json.loads((ROOT / "output" / song / "timing.json").read_text())
+        for section in document["sections"]:
+            for line in section["lines"]:
+                words = line.get("words", [])
+                assert all(word["start"] <= word["end"] for word in words)
+                assert all(words[i]["start"] <= words[i + 1]["start"]
+                           for i in range(len(words) - 1))
+
+
+def test_perceptual_duration_flags_are_clear_for_repaired_openings() -> None:
+    for song in ("hella_racks", "purple_satellites"):
+        summary = json.loads((ROOT / "reports/new_songs_batch_v1" / f"{song}_summary.json").read_text())
+        assert summary["perceptual_qa"]["multiword_under_0_20"] == []
+        assert summary["perceptual_qa"]["ordinary_over_8_seconds"] == []
+
+
+def test_non_target_song_timing_and_subtitle_exports_are_frozen() -> None:
+    expected = {
+        "wonder_when_im_gon_shine": {
+            "timing.json": "9d9d18d410163fb173e7d86bc40e306e6cb7973d251c563eea7c7d118b68ec15",
+            "wonder_when_im_gon_shine.ass": "974f600275952f9ed6c54e60356dce771a2f8ae40ae4f5c9daf2d49e29443e66",
+            "wonder_when_im_gon_shine.srt": "30c5a9ada2295149371b0e258d38df0afd6ab5a8f542a651e821dcb402c87624",
+            "wonder_when_im_gon_shine.vtt": "45203087e8027ba87e1ee00523db09c24626d7b9dd5747b9b500cb5cea7ad196",
+        },
+        "on_a_trance": {
+            "timing.json": "1f9b63afb33f4e593593718111debb069c8d386da1c5e73e139ed7cd40a0ecfa",
+            "on_a_trance.ass": "72e23ecf4dfa46433a2a2103950ef0e18ee08d72708bbe442f1f6a67690b1085",
+            "on_a_trance.srt": "dff2b7bbd0024faeff5137bbf4548dac8205e3832e2f34d5c5b0feec119e76a9",
+            "on_a_trance.vtt": "16d99a8c901a68d1e55c85dfbe74b69ccab7023bd3635b2a4ebe6deaea5f42d0",
+        },
+        "difference": {
+            "timing.json": "cb40f1322c7e77ee814f80ab048f835ec821d3ba79f758ecfc56e9fe0036f42b",
+            "difference.ass": "0a66551367cf3e8c8b76bc36c98789dadc6323bc1b31de4ca5ade42bf6fb7903",
+            "difference.srt": "26cf5517128d24e4c234e1b1cf4424e5503e9416728650e3ab49a00d409a2465",
+            "difference.vtt": "f18a270d2ae8bfe4d20ec1edfc271365f63938bd8c46f2ec8c72ef58bc01fb27",
+        },
+    }
+    for song, files in expected.items():
+        for filename, digest in files.items():
+            assert hashlib.sha256((ROOT / "output" / song / filename).read_bytes()).hexdigest() == digest

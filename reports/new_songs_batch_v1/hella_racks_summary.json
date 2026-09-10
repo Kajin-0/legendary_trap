@@ -10,29 +10,19 @@
   "direct_acoustic": 48,
   "bounded_asr": 3,
   "acoustic_transfer": 0,
+  "locally_anchored": 7,
   "cadence_interpolation": 0,
-  "line_coverage": 0.8793103448275862,
+  "line_coverage": 1.0,
   "token_coverage": 0.6998284734133791,
   "median_onset_error": null,
   "p90_onset_error": null,
-  "unresolved": [
-    "section_001_line_001",
-    "section_001_line_002",
-    "section_001_line_003",
-    "section_001_line_004",
-    "section_001_line_005",
-    "section_001_line_006",
-    "section_001_line_007"
-  ],
-  "low_confidence": [
-    "section_001_line_001",
-    "section_001_line_002",
-    "section_001_line_003",
-    "section_001_line_004",
-    "section_001_line_005",
-    "section_001_line_006",
-    "section_001_line_007"
-  ],
+  "unresolved": [],
+  "low_confidence": [],
+  "invalid_word_timing_repaired": 0,
+  "perceptual_qa": {
+    "multiword_under_0_20": [],
+    "ordinary_over_8_seconds": []
+  },
   "structural_qa": {
     "zero_duration_primary": 0,
     "primary_under_0_10": 0,

@@ -87,69 +87,6 @@
   },
   "sections": [
     {
-      "section_id": "section_001",
-      "label": "Unsectioned",
-      "raw_label": "",
-      "normalized_label": "",
-      "structural_role": "section",
-      "structural_inferred": false,
-      "fingerprint": "purple satellites",
-      "repeat_group": null,
-      "occurrence_index": 1,
-      "occurrence_count": 1,
-      "start": 6.335,
-      "end": 7.685,
-      "confidence": 0.28,
-      "lines": [
-        {
-          "line_id": "section_001_line_001",
-          "source_line": 1,
-          "original_text": "**PURPLE SATELLITES**",
-          "lead_text": "**PURPLE SATELLITES**",
-          "adlibs": [],
-          "event_type": "lead",
-          "primary_lane": "lead",
-          "acoustic_match_texts": [],
-          "acoustic_match_tokens": [],
-          "annotation_metadata": [],
-          "raw_source_line": 1,
-          "raw_source_span": "**PURPLE SATELLITES**",
-          "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 6.335,
-          "end": 7.685,
-          "confidence": 0.28,
-          "matched_tokens": 0,
-          "confidence_components": {
-            "token_coverage": 0.0
-          },
-          "acoustic_start": 6.335,
-          "acoustic_end": 7.685,
-          "total_tokens": 2,
-          "words": [
-            {
-              "text": "purple",
-              "start": 6.335,
-              "end": 7.01,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
-            },
-            {
-              "text": "satellites",
-              "start": 7.01,
-              "end": 7.685,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "section_id": "section_002",
       "label": "Intro",
       "raw_label": "**[Intro]**",
@@ -160,8 +97,8 @@
       "repeat_group": null,
       "occurrence_index": 1,
       "occurrence_count": 1,
-      "start": 7.835,
-      "end": 24.668,
+      "start": 5.28,
+      "end": 15.8,
       "confidence": 0.365,
       "lines": [
         {
@@ -178,27 +115,27 @@
           "raw_source_line": 4,
           "raw_source_span": "Yeah...",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 7.835,
-          "end": 9.185,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 5.28,
+          "end": 6.55,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
-            "token_coverage": 0.0
+            "local_onset_anchor": 0.58
           },
-          "acoustic_start": 7.835,
-          "acoustic_end": 9.185,
+          "acoustic_start": 5.28,
+          "acoustic_end": 6.55,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
-              "start": 7.835,
-              "end": 9.185,
+              "start": 5.28,
+              "end": 6.55,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             }
           ]
         },
@@ -216,66 +153,66 @@
           "raw_source_line": 5,
           "raw_source_span": "Purple satellites in the sky tonight...",
           "structurally_inferred": false,
-          "timing_source": "bounded_asr",
+          "timing_source": "local_acoustic_anchor",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 10.76,
-          "end": 10.88,
-          "confidence": 0.45,
-          "matched_tokens": 1,
+          "start": 8.52,
+          "end": 10.55,
+          "confidence": 0.62,
+          "matched_tokens": 0,
           "confidence_components": {
-            "token_coverage": 0.1667
+            "local_onset_anchor": 0.62
           },
-          "acoustic_start": 10.76,
-          "acoustic_end": 10.88,
+          "acoustic_start": 8.52,
+          "acoustic_end": 10.55,
           "total_tokens": 6,
           "words": [
             {
               "text": "purple",
-              "start": 10.76,
-              "end": 10.8,
+              "start": 8.52,
+              "end": 8.858,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "satellites",
-              "start": 10.8,
-              "end": 10.84,
+              "start": 8.858,
+              "end": 9.197,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "in",
-              "start": 10.84,
-              "end": 10.88,
+              "start": 9.197,
+              "end": 9.535,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "the",
-              "start": 10.88,
-              "end": 10.88,
+              "start": 9.535,
+              "end": 9.873,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "sky",
-              "start": 10.92,
-              "end": 10.88,
+              "start": 9.873,
+              "end": 10.212,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "tonight",
-              "start": 10.76,
-              "end": 10.76,
-              "confidence": 0.9966,
-              "timing_source": "asr",
+              "start": 10.212,
+              "end": 10.55,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             }
           ]
@@ -294,51 +231,51 @@
           "raw_source_line": 6,
           "raw_source_span": "Looking down on me...",
           "structurally_inferred": false,
-          "timing_source": "bounded_asr",
+          "timing_source": "local_acoustic_anchor",
           "acoustic_support": true,
           "estimated_timing": false,
-          "start": 10.88,
-          "end": 11.0,
-          "confidence": 0.45,
-          "matched_tokens": 1,
+          "start": 10.72,
+          "end": 12.1,
+          "confidence": 0.6,
+          "matched_tokens": 0,
           "confidence_components": {
-            "token_coverage": 0.25
+            "local_onset_anchor": 0.6
           },
-          "acoustic_start": 10.88,
-          "acoustic_end": 11.0,
+          "acoustic_start": 10.72,
+          "acoustic_end": 12.1,
           "total_tokens": 4,
           "words": [
             {
               "text": "looking",
-              "start": 10.88,
-              "end": 10.92,
+              "start": 10.72,
+              "end": 11.065,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "down",
-              "start": 10.92,
-              "end": 10.96,
+              "start": 11.065,
+              "end": 11.41,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "on",
-              "start": 10.76,
-              "end": 10.76,
-              "confidence": 0.9966,
-              "timing_source": "asr",
+              "start": 11.41,
+              "end": 11.755,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "me",
-              "start": 11.0,
-              "end": 11.0,
+              "start": 11.755,
+              "end": 12.1,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             }
           ]
         },
@@ -356,67 +293,67 @@
           "raw_source_line": 7,
           "raw_source_span": "I been searching for a sign...",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 11.492,
-          "end": 24.668,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 12.25,
+          "end": 15.8,
+          "confidence": 0.56,
           "matched_tokens": 0,
           "confidence_components": {
-            "token_coverage": 0.0
+            "local_onset_anchor": 0.56
           },
-          "acoustic_start": 11.492,
-          "acoustic_end": 24.668,
+          "acoustic_start": 12.25,
+          "acoustic_end": 15.8,
           "total_tokens": 6,
           "words": [
             {
               "text": "i",
-              "start": 11.492,
-              "end": 13.688,
+              "start": 12.25,
+              "end": 12.842,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "been",
-              "start": 13.688,
-              "end": 15.884,
+              "start": 12.842,
+              "end": 13.433,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "searching",
-              "start": 15.884,
-              "end": 18.08,
+              "start": 13.433,
+              "end": 14.025,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "for",
-              "start": 18.08,
-              "end": 20.276,
+              "start": 14.025,
+              "end": 14.617,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "a",
-              "start": 20.276,
-              "end": 22.472,
+              "start": 14.617,
+              "end": 15.208,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "sign",
-              "start": 22.472,
-              "end": 24.668,
+              "start": 15.208,
+              "end": 15.8,
               "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             }
           ]
         }
@@ -637,9 +574,9 @@
           "start": 32.38,
           "end": 35.16,
           "confidence": 0.8591,
-          "matched_tokens": 9,
+          "matched_tokens": 0,
           "confidence_components": {
-            "token_coverage": 0.8182
+            "local_onset_anchor": 0.8591
           },
           "acoustic_start": 32.38,
           "acoustic_end": 35.16,
@@ -650,47 +587,47 @@
               "start": 32.38,
               "end": 32.633,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "been",
-              "start": 32.38,
-              "end": 32.46,
-              "confidence": 0.9999,
-              "timing_source": "asr",
+              "start": 32.633,
+              "end": 32.885,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "so",
-              "start": 32.46,
-              "end": 32.72,
-              "confidence": 0.9998,
-              "timing_source": "asr",
+              "start": 32.885,
+              "end": 33.138,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "far",
-              "start": 32.72,
-              "end": 33.0,
-              "confidence": 0.9998,
-              "timing_source": "asr",
+              "start": 33.138,
+              "end": 33.391,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "gone",
-              "start": 33.0,
-              "end": 33.4,
-              "confidence": 0.9426,
-              "timing_source": "asr",
+              "start": 33.391,
+              "end": 33.644,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "trying",
-              "start": 33.58,
-              "end": 33.72,
-              "confidence": 0.8993,
-              "timing_source": "asr",
+              "start": 33.644,
+              "end": 33.896,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
@@ -698,39 +635,39 @@
               "start": 33.896,
               "end": 34.149,
               "confidence": 0.0,
-              "timing_source": "interpolated",
-              "acoustic_supported": false
+              "timing_source": "local_onset_anchor",
+              "acoustic_supported": true
             },
             {
               "text": "get",
-              "start": 33.72,
-              "end": 34.08,
-              "confidence": 0.9974,
-              "timing_source": "asr",
+              "start": 34.149,
+              "end": 34.402,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "my",
-              "start": 34.08,
-              "end": 34.28,
-              "confidence": 0.9998,
-              "timing_source": "asr",
+              "start": 34.402,
+              "end": 34.655,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "mind",
-              "start": 34.28,
-              "end": 34.72,
-              "confidence": 0.9995,
-              "timing_source": "asr",
+              "start": 34.655,
+              "end": 34.907,
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             },
             {
               "text": "right",
-              "start": 34.72,
+              "start": 34.907,
               "end": 35.16,
-              "confidence": 0.9978,
-              "timing_source": "asr",
+              "confidence": 0.0,
+              "timing_source": "local_onset_anchor",
               "acoustic_supported": true
             }
           ]
@@ -6023,25 +5960,17 @@
     "model": "large-v3-turbo",
     "unhinted": true,
     "source_lyric_sha256": "a2832eeb04f1c1d870767f392aec0b2213e4c3ef4d34e2395b361277d9b3f427",
-    "authoritative_line_count": 63,
+    "authoritative_line_count": 62,
     "authoritative_token_count": 486,
-    "line_acoustic_coverage": 0.9523809523809523,
+    "line_acoustic_coverage": 1.0,
     "token_acoustic_coverage": 0.9423868312757202,
-    "primary_count": 63,
+    "primary_count": 62,
     "secondary_count": 0,
     "direct_acoustic_lines": 58,
     "bounded_asr_lines": 2,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_001",
-      "section_002_line_001",
-      "section_002_line_004"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_001",
-      "section_002_line_001",
-      "section_002_line_004"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -6095,7 +6024,10 @@
         "end": 226.52,
         "occurrence": 1
       }
-    }
+    },
+    "locally_anchored_lines": 4,
+    "invalid_word_timing_repaired": 0,
+    "document_title_excluded": "**PURPLE SATELLITES**"
   },
   "authoritative_lyrics": {
     "path": "input/lyrics/purple_satellites.txt",

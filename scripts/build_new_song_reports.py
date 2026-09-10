@@ -22,8 +22,18 @@ def main() -> None:
         diagnostics = doc["diagnostics"]
         lines = [line for section in doc["sections"] for line in section["lines"]]
         source_text = (ROOT / LYRICS[song]).read_text(encoding="utf-8")
-        source_tokens = " ".join(source_text.split()).split()
+        source_lines = [line for line in source_text.splitlines()
+                        if line.strip() and not line.strip().startswith("**[")
+                        and line.strip() != "**PURPLE SATELLITES**"]
+        source_tokens = " ".join(source_lines).replace("**", "").split()
         canonical_tokens = " ".join(line["original_text"] for line in lines).split()
+        short_multiword = [line["line_id"] for line in lines
+                           if line["event_type"] != "vocal_adlib"
+                           and len(line.get("words", [])) > 1
+                           and line["end"] - line["start"] <= 0.20]
+        long_ordinary = [line["line_id"] for line in lines
+                         if line["event_type"] != "vocal_adlib"
+                         and line["end"] - line["start"] > 8.0]
         summary = {
             "song_id": song, "title": TITLES[song], "artist": artist,
             "source": SOURCES[song],
@@ -34,12 +44,17 @@ def main() -> None:
             "bounded_asr": diagnostics["bounded_asr_lines"],
             "acoustic_transfer": sum(line.get("timing_source") == "acoustic_transfer"
                                       for line in lines),
+            "locally_anchored": sum(line.get("timing_source") == "local_acoustic_anchor"
+                                     for line in lines),
             "cadence_interpolation": diagnostics["cadence_interpolated_lines"],
             "line_coverage": diagnostics["line_acoustic_coverage"],
             "token_coverage": diagnostics["token_acoustic_coverage"],
             "median_onset_error": None, "p90_onset_error": None,
             "unresolved": diagnostics["unresolved_line_ids"],
             "low_confidence": diagnostics["low_confidence_line_ids"],
+            "invalid_word_timing_repaired": diagnostics.get("invalid_word_timing_repaired", 0),
+            "perceptual_qa": {"multiword_under_0_20": short_multiword,
+                               "ordinary_over_8_seconds": long_ordinary},
             "structural_qa": {
                 "zero_duration_primary": diagnostics["zero_duration_primary"],
                 "primary_under_0_10": diagnostics["short_primary"],
