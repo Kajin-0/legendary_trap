@@ -13,11 +13,11 @@ Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.03,0:00:00.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah…
-Dialogue: 1,0:00:00.72,0:00:00.84,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Uh…
-Dialogue: 1,0:00:00.84,0:00:00.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Damn…
-Dialogue: 2,0:00:00.04,0:00:00.92,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
-Dialogue: 2,0:00:00.05,0:00:01.01,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 1,0:00:00.00,0:00:00.64,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah…
+Dialogue: 1,0:00:00.84,0:00:01.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Uh…
+Dialogue: 1,0:00:01.58,0:00:02.20,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Damn…
+Dialogue: 2,0:00:02.20,0:00:02.80,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
+Dialogue: 2,0:00:02.80,0:00:03.30,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:00:10.68,0:00:17.56,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or am I just in your background?
 Dialogue: 1,0:00:18.08,0:00:21.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been goin’ too hard, I don’t ever back down
 Dialogue: 1,0:00:21.16,0:00:24.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or am I just a ghost now?
@@ -28,7 +28,7 @@ Dialogue: 1,0:00:34.40,0:00:37.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}
 Dialogue: 1,0:00:38.04,0:00:41.46,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been real from the start, why you losin’ me?
 Dialogue: 2,0:00:42.08,0:00:42.34,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
 Dialogue: 2,0:00:42.48,0:00:42.68,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}what?
-Dialogue: 2,0:00:42.68,0:00:42.81,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 2,0:00:42.78,0:00:43.20,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:00:43.96,0:00:46.20,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been in my own lane, movin’ silent
 Dialogue: 1,0:00:46.20,0:00:47.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}People look but they don’t really find it
 Dialogue: 1,0:00:47.98,0:00:49.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}All this pain but I keep it quiet
@@ -42,7 +42,7 @@ Dialogue: 1,0:00:59.90,0:01:01.36,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}
 Dialogue: 1,0:01:01.36,0:01:03.06,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Same energy I gave you
 Dialogue: 1,0:01:03.28,0:01:06.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Now I don’t even know you
 Dialogue: 2,0:01:07.14,0:01:08.22,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
-Dialogue: 2,0:01:08.22,0:01:08.34,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 2,0:01:08.22,0:01:08.82,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:01:09.16,0:01:11.92,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or am I just in your background?
 Dialogue: 1,0:01:12.24,0:01:15.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been goin’ too hard, I don’t ever back down
 Dialogue: 1,0:01:15.94,0:01:18.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or am I just a ghost now?
@@ -51,9 +51,9 @@ Dialogue: 1,0:01:22.94,0:01:25.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}
 Dialogue: 1,0:01:25.68,0:01:28.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been switchin’ lanes, I don’t slow down
 Dialogue: 1,0:01:29.72,0:01:32.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or you lookin’ through me?
 Dialogue: 1,0:01:32.60,0:01:35.66,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been real from the start, why you losin’ me?
-Dialogue: 2,0:01:35.66,0:01:35.78,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
+Dialogue: 2,0:01:35.67,0:01:36.08,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
 Dialogue: 2,0:01:36.42,0:01:36.90,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}what?
-Dialogue: 2,0:01:36.91,0:01:37.10,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 2,0:01:36.91,0:01:37.25,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:01:38.22,0:01:39.40,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been workin’ while they talk loud
 Dialogue: 1,0:01:39.88,0:01:41.16,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been grindin’ while they watch crowds
 Dialogue: 1,0:01:41.16,0:01:42.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Now I’m somewhere they don’t know how
@@ -66,13 +66,13 @@ Dialogue: 1,0:01:51.44,0:01:53.12,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}
 Dialogue: 1,0:01:53.12,0:01:54.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Ain’t no time for going backwards
 Dialogue: 1,0:01:54.94,0:01:56.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}If you didn’t see me then
 Dialogue: 1,0:01:56.32,0:01:58.36,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Don’t act like you saw me after
-Dialogue: 2,0:01:58.38,0:01:58.73,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
-Dialogue: 2,0:01:58.38,0:01:58.83,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 2,0:01:58.38,0:01:58.72,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
+Dialogue: 2,0:01:58.74,0:01:59.18,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:02:00.34,0:02:02.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me now…
 Dialogue: 1,0:02:03.72,0:02:05.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Or just the outcome?
 Dialogue: 1,0:02:07.16,0:02:09.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me now…
 Dialogue: 1,0:02:09.92,0:02:12.26,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Or what I became from?
-Dialogue: 2,0:02:12.30,0:02:13.15,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
+Dialogue: 2,0:02:12.31,0:02:13.02,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
 Dialogue: 2,0:02:15.10,0:02:15.52,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}what?
 Dialogue: 1,0:02:26.90,0:02:29.66,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or am I just in your background?
 Dialogue: 1,0:02:30.16,0:02:33.24,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been goin’ too hard, I don’t ever back down
@@ -82,8 +82,8 @@ Dialogue: 1,0:02:40.00,0:02:42.88,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}
 Dialogue: 1,0:02:43.16,0:02:46.36,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been switchin’ lanes, I don’t slow down
 Dialogue: 1,0:02:46.36,0:02:49.84,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me, or you lookin’ through me?
 Dialogue: 1,0:02:49.84,0:02:53.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I been real from the start, why you losin’ me?
-Dialogue: 2,0:02:53.35,0:02:53.89,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
+Dialogue: 2,0:02:53.35,0:02:54.02,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}yeah
 Dialogue: 2,0:02:54.52,0:02:54.64,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}what?
-Dialogue: 2,0:02:54.63,0:02:56.70,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
+Dialogue: 2,0:02:54.63,0:02:55.24,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}huh
 Dialogue: 1,0:02:56.82,0:03:03.34,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Do you see me…
 Dialogue: 1,0:03:05.18,0:03:05.80,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah…

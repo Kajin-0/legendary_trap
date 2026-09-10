@@ -13,19 +13,15 @@
     "source_lyric_sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373",
     "authoritative_line_count": 34,
     "authoritative_token_count": 231,
-    "line_acoustic_coverage": 0.9705882352941176,
+    "line_acoustic_coverage": 1.0,
     "token_acoustic_coverage": 0.935064935064935,
     "primary_count": 34,
     "secondary_count": 0,
     "direct_acoustic_lines": 33,
-    "bounded_asr_lines": 0,
+    "bounded_asr_lines": 1,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_002"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_002"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -74,7 +70,9 @@
         "end": 109.88,
         "occurrence": 1
       }
-    }
+    },
+    "locally_anchored_lines": 0,
+    "acoustic_transfer_lines": 0
   },
   "sections": [
     {
@@ -155,45 +153,46 @@
           "raw_source_line": 3,
           "raw_source_span": "Golden, golden — woo!",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.6,
-          "end": 6.36,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 1.56,
+          "end": 3.3,
+          "confidence": 0.46,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.6,
-          "acoustic_end": 6.36,
+          "acoustic_start": 1.56,
+          "acoustic_end": 3.3,
           "total_tokens": 3,
           "words": [
             {
               "text": "golden",
-              "start": 0.6,
-              "end": 2.52,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 1.56,
+              "end": 2.14,
+              "confidence": 0.46,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             },
             {
               "text": "golden",
-              "start": 2.52,
-              "end": 4.44,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.14,
+              "end": 2.72,
+              "confidence": 0.46,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             },
             {
               "text": "woo",
-              "start": 4.44,
-              "end": 6.36,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.72,
+              "end": 3.3,
+              "confidence": 0.46,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-12s ASR phrase window; authoritative wording retained"
         },
         {
           "line_id": "section_001_line_003",
@@ -3353,19 +3352,15 @@
     "source_lyric_sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373",
     "authoritative_line_count": 34,
     "authoritative_token_count": 231,
-    "line_acoustic_coverage": 0.9705882352941176,
+    "line_acoustic_coverage": 1.0,
     "token_acoustic_coverage": 0.935064935064935,
     "primary_count": 34,
     "secondary_count": 0,
     "direct_acoustic_lines": 33,
-    "bounded_asr_lines": 0,
+    "bounded_asr_lines": 1,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_002"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_002"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -3414,7 +3409,10 @@
         "end": 109.88,
         "occurrence": 1
       }
-    }
+    },
+    "locally_anchored_lines": 0,
+    "acoustic_transfer_lines": 0,
+    "collisions": []
   },
   "authoritative_lyrics": {
     "path": "input/lyrics/golden_hour.txt",

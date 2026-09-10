@@ -206,6 +206,99 @@ PALETTE_STOPS = np.array([
 PALETTE_CYCLE_SECONDS = 64.0
 
 
+@dataclass(frozen=True)
+class ImpactEnvelopes:
+    """Deterministic bounded impact state derived from the feature sequence."""
+
+    raw: np.ndarray
+    fast: np.ndarray
+    slow: np.ndarray
+
+
+def attack_release_envelope(values: np.ndarray, attack: float, release: float) -> np.ndarray:
+    """Apply asymmetric attack/release smoothing without frame-order state."""
+    values = np.clip(np.asarray(values, dtype=np.float32), 0.0, 1.8)
+    result = np.zeros_like(values, dtype=np.float32)
+    previous = 0.0
+    for i, value in enumerate(values):
+        coefficient = attack if value >= previous else release
+        previous += coefficient * (float(value) - previous)
+        result[i] = np.clip(previous, 0.0, 1.8)
+    return result
+
+
+def build_impact_envelopes(features: FeatureSequence) -> ImpactEnvelopes:
+    """Build raw, fast and slow impact envelopes once per deterministic render."""
+    low = (np.asarray(features.low_spectrum, dtype=np.float32)
+           if features.low_spectrum is not None else np.empty((0, 0), dtype=np.float32))
+    means = low.mean(axis=1) if low.size else np.zeros(len(features.bass), dtype=np.float32)
+    low_burst = np.maximum(0.0, np.diff(np.r_[means[0], means]) * 4.0)
+    raw = np.clip(0.52 * features.bass + 1.55 * features.transients + 0.55 * low_burst,
+                  0.0, 1.8).astype(np.float32)
+    return ImpactEnvelopes(raw, attack_release_envelope(raw, 0.72, 0.18),
+                           attack_release_envelope(raw, 0.48, 0.055))
+
+
+def impact_trigger_indices(fast: np.ndarray, threshold: float = 0.78,
+                           cooldown_frames: int = 6) -> np.ndarray:
+    """Return sparse local impact peaks, not one trigger for every loud frame."""
+    fast = np.asarray(fast, dtype=np.float32)
+    triggers: list[int] = []
+    last = -cooldown_frames
+    for i, value in enumerate(fast):
+        left = fast[i - 1] if i else -np.inf
+        right = fast[i + 1] if i + 1 < len(fast) else -np.inf
+        if value >= threshold and value >= left and value >= right and i - last >= cooldown_frames:
+            triggers.append(i)
+            last = i
+    return np.asarray(triggers, dtype=np.int32)
+
+
+def historical_afterimage_indices(frame_index: int, triggers: np.ndarray,
+                                   lifetime_frames: int = 10) -> list[tuple[int, int]]:
+    """Return (source frame, age) pairs for finite historical contour ghosts."""
+    return [(int(k), frame_index - int(k)) for k in triggers
+            if 0 < frame_index - int(k) <= lifetime_frames]
+
+
+def local_contrast_separation(background_luminance: float, ring_luminance: float,
+                              max_correction: float = 0.18) -> float:
+    """Bounded separation only when the sampled scene is close to the ring."""
+    contrast = abs(float(ring_luminance) - float(background_luminance)) / max(
+        1.0, float(ring_luminance) + float(background_luminance))
+    return float(np.clip((0.22 - contrast) * 0.9, 0.0, max_correction))
+
+
+def particle_outward_impulse(positions: np.ndarray, depths: np.ndarray,
+                             age_frames: float, center: tuple[float, float] = (0.5, 0.61),
+                             amplitude: float = 0.018) -> np.ndarray:
+    """Finite decaying pressure displacement, strongest in the foreground."""
+    positions = np.asarray(positions, dtype=np.float32)
+    depths = np.asarray(depths, dtype=np.float32)
+    direction = positions - np.asarray(center, dtype=np.float32)[None, :]
+    norm = np.linalg.norm(direction, axis=1, keepdims=True)
+    direction = direction / np.maximum(norm, 1e-4)
+    decay = float(np.exp(-max(0.0, age_frames) / 7.0))
+    return direction * (float(amplitude) * decay * depths[:, None] ** 1.35)
+
+
+def section_staging_profile(section_windows: list[tuple[float, float, str]],
+                            frame_count: int, fps: int = FPS) -> np.ndarray:
+    """Smooth conservative effect multipliers from canonical section roles."""
+    target = np.ones(frame_count, dtype=np.float32)
+    for start, end, role in section_windows:
+        role_text = role.lower()
+        level = 1.06 if any(x in role_text for x in ("hook", "chorus")) else \
+                0.97 if any(x in role_text for x in ("bridge", "pre")) else \
+                0.92 if any(x in role_text for x in ("verse", "intro", "outro")) else 1.0
+        left = max(0, int(start * fps))
+        right = min(frame_count, int(np.ceil(end * fps)))
+        target[left:right] = level
+    radius = max(1, int(1.5 * fps))
+    kernel = np.ones(radius * 2 + 1, dtype=np.float32) / (radius * 2 + 1)
+    return np.convolve(np.pad(target, (radius, radius), mode="edge"), kernel, mode="valid")[:frame_count]
+
+
 def palette_at_time(time_seconds: float) -> np.ndarray:
     """Return the continuously cycling cinematic base palette."""
     phase = (float(time_seconds) % PALETTE_CYCLE_SECONDS) / PALETTE_CYCLE_SECONDS
@@ -221,7 +314,10 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
                   particles: tuple[np.ndarray, ...],
                   palette_time_offset: float = 0.0,
                   polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
-                  visual_profile: str = "baseline") -> np.ndarray:
+                  visual_profile: str = "baseline",
+                  impact_envelopes: ImpactEnvelopes | None = None,
+                  impact_triggers: np.ndarray | None = None,
+                  staging: np.ndarray | None = None) -> np.ndarray:
     """Render a dusk landscape whose physical pressure is driven by the low end."""
     t = index / features.fps
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
@@ -236,9 +332,15 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     if visual_profile not in {"baseline", "physical_core", "full_power"}:
         raise ValueError(f"unknown visual profile: {visual_profile}")
     impact = float(np.clip(0.52 * bass + 1.55 * transient + 0.55 * low_burst, 0.0, 1.8))
+    fast_impact = slow_impact = impact
+    stage = 1.0
     if visual_profile != "baseline":
-        recent = features.transients[max(0, index - 5):index + 1]
-        impact = float(np.clip(impact + 0.22 * recent.mean() + 0.12 * low_burst, 0.0, 1.8))
+        envelopes = impact_envelopes if impact_envelopes is not None else build_impact_envelopes(features)
+        fast_impact = float(envelopes.fast[min(index, len(envelopes.fast) - 1)])
+        slow_impact = float(envelopes.slow[min(index, len(envelopes.slow) - 1)])
+        impact = float(envelopes.raw[min(index, len(envelopes.raw) - 1)])
+        if staging is not None and len(staging):
+            stage = float(staging[min(index, len(staging) - 1)])
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
     # Continuous master-time palette drift.  Audio only modulates luminance;
@@ -270,6 +372,15 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     frame *= (1 + 0.10 * bass + 0.07 * transient +
               (0.04 * impact if polar_mode else 0) +
               (0.035 * impact if visual_profile != "baseline" else 0))
+    if visual_profile != "baseline":
+        # B/C illumination is spatial and palette-coherent: the horizon and
+        # sunset haze respond, while the rest of the frame stays restrained.
+        horizon_light = np.exp(-((yy / HEIGHT - 0.66) ** 2) / 0.018)
+        sun_light = np.exp(-(((xx / WIDTH - 0.68) ** 2) +
+                             ((yy / HEIGHT - 0.47) ** 2)) / 0.035)
+        lighting = np.clip((0.018 * horizon_light + 0.010 * sun_light) *
+                           slow_impact * stage, 0.0, 0.045)
+        frame = frame * (1.0 - lighting[..., None]) + (palette * 1.04) * lighting[..., None]
     # Inertial particles: polar mode makes the three depth classes visibly
     # distinct; the legacy hybrid keeps its original restrained treatment.
     positions, depths, velocity, phases = particles
@@ -283,6 +394,14 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
           np.sin(phases + t * 0.25) * 0.006 * (1 + bass * 2)) % 1.0
     py = (positions[:, 1] + velocity[:, 1] * t * speed +
           np.cos(phases * 0.8 + t * 0.18) * 0.004) % 1.0
+    if visual_profile == "full_power" and impact_triggers is not None:
+        ages = [index - int(k) for k in impact_triggers if 0 <= index - int(k) <= 10]
+        if ages:
+            pressure = sum(particle_outward_impulse(positions, depths, age,
+                                                     amplitude=0.018 * stage)
+                           for age in ages)
+            px = (px + pressure[:, 0]) % 1.0
+            py = (py + pressure[:, 1]) % 1.0
     px, py = (px * WIDTH).astype(np.int32), (py * HEIGHT).astype(np.int32)
     particle_color = tuple(np.clip(palette * (0.72 if not polar_mode else 0.88) +
                                   np.array([65, 50, 42]), 0, 255))
@@ -335,27 +454,44 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
                    center[1] + np.sin(angles) * contour_radii * aspect,
                    color, alpha * 0.50)
         if visual_profile != "baseline":
-            # A restrained local contrast halo and a faint afterimage use the
-            # current deformed contour, never a generic circle.
-            halo_radii = radii * (1.0 + 0.012 * min(1.0, impact))
+            # Sample the actual pre-ring scene immediately around the contour.
+            sample_idx = np.arange(0, len(angles), 16)
+            sx = np.clip((center[0] + np.cos(angles[sample_idx]) * radii[sample_idx] * 1.02).astype(int), 0, WIDTH - 1)
+            sy = np.clip((center[1] + np.sin(angles[sample_idx]) * radii[sample_idx] * aspect * 1.02).astype(int), 0, HEIGHT - 1)
+            sampled = frame[sy, sx]
+            bg_luma = float(np.median(sampled @ np.array([0.2126, 0.7152, 0.0722])))
+            ring_luma = float(np.asarray(core_color) @ np.array([0.2126, 0.7152, 0.0722]))
+            separation = local_contrast_separation(bg_luma, ring_luma)
+            halo_radii = radii * (1.0 + 0.006 * min(1.0, fast_impact))
             _blend(frame, center[0] + np.cos(angles) * halo_radii,
                    center[1] + np.sin(angles) * halo_radii * aspect,
-                   (14, 10, 18), 0.055 + 0.025 * impact)
-            after_alpha = np.clip((impact - 0.62) * 0.055, 0.0, 0.045)
-            after_scale = 1.035 + 0.045 * min(1.0, impact)
-            _blend(frame, center[0] + np.cos(angles) * radii * after_scale,
-                   center[1] + np.sin(angles) * radii * aspect * after_scale,
-                   glow_color, after_alpha)
-            frame *= 1.0 + 0.025 * impact
+                   (14, 10, 18), 0.022 + separation * 0.55)
+            # Reconstruct contours from trigger frames, not from the current
+            # radii. The finite history makes arbitrary frame rendering
+            # reproducible and preserves the actual hit deformation.
+            triggers = impact_triggers if impact_triggers is not None else np.array([], dtype=np.int32)
+            for source_index, age in historical_afterimage_indices(index, triggers, 10):
+                source_angles, source_radii = polar_low_radii(
+                    _low_profile(features, source_index), float(features.bass[source_index]), samples=512)
+                after_scale = 1.0 + 0.10 * (age / 12.0)
+                after_alpha = float(np.clip(0.065 * (1.0 - age / 13.0) * stage, 0.0, 0.065))
+                _blend(frame, center[0] + np.cos(source_angles) * source_radii * after_scale,
+                       center[1] + np.sin(source_angles) * source_radii * aspect * after_scale,
+                       glow_color, after_alpha)
+            frame *= 1.0 + 0.012 * slow_impact * stage
         if visual_profile == "full_power":
-            # Sparse high-frequency rim sparks decorate the existing contour.
-            spark_mask = ((np.arange(len(angles)) % 23) == 0) & (highs > 0.22)
-            spark_alpha = np.clip(0.05 + 0.16 * highs + 0.12 * transient, 0.0, 0.28)
-            _blend(frame, center[0] + np.cos(angles[spark_mask]) * radii[spark_mask] * 1.012,
-                   center[1] + np.sin(angles[spark_mask]) * radii[spark_mask] * aspect * 1.012,
+            # Sparse deterministic positions drift with the transient phase;
+            # they are not pinned to a fixed modulo pattern.
+            spark_count = max(2, int(4 + 8 * highs)) if highs > 0.22 else 0
+            spark_indices = ((np.linspace(0, len(angles) - 1, max(1, spark_count), dtype=np.int32) +
+                              int(t * 17.0) + index * 3) % len(angles)) if spark_count else np.array([], dtype=np.int32)
+            spark_alpha = np.clip(0.04 + 0.13 * highs + 0.10 * transient, 0.0, 0.22)
+            _blend(frame, center[0] + np.cos(angles[spark_indices]) * radii[spark_indices] * 1.012,
+                   center[1] + np.sin(angles[spark_indices]) * radii[spark_indices] * aspect * 1.012,
                    (255, 218, 176), spark_alpha)
-            if impact > 1.05:
-                fringe = np.clip((impact - 1.05) * 0.06, 0.0, 0.08)
+            trigger_here = impact_triggers is not None and index in {int(x) for x in impact_triggers}
+            if trigger_here and fast_impact > 1.05:
+                fringe = np.clip((fast_impact - 1.05) * 0.045, 0.0, 0.055)
                 _blend(frame, center[0] + np.cos(angles) * (radii + 1.0),
                        center[1] + np.sin(angles) * radii * aspect, (255, 80, 96), fringe)
                 _blend(frame, center[0] + np.cos(angles) * (radii - 1.0),
@@ -423,11 +559,15 @@ def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...],
                  palette_time_offset: float = 0.0,
                  polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
-                 visual_profile: str = "baseline") -> np.ndarray:
+                 visual_profile: str = "baseline",
+                 impact_envelopes: ImpactEnvelopes | None = None,
+                 impact_triggers: np.ndarray | None = None,
+                 staging: np.ndarray | None = None) -> np.ndarray:
     if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
                              "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
         return _hybrid_frame(features, index, preset, particles, palette_time_offset,
-                             polar_thickness_scale, visual_profile)
+                             polar_thickness_scale, visual_profile,
+                             impact_envelopes, impact_triggers, staging)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
@@ -542,6 +682,15 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                  {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                   "trap_sunset_polar_v3"}
                  else _particles(preset))
+    impact_envelopes = build_impact_envelopes(features) if visual_profile != "baseline" else None
+    impact_triggers = (impact_trigger_indices(impact_envelopes.fast)
+                       if impact_envelopes is not None else None)
+    staging = None
+    if visual_profile == "full_power" and song_id == "wonder_when_im_gon_shine":
+        windows = [(float(section["start"]) - start, float(section["end"]) - start,
+                    str(section.get("label", "")))
+                   for section in reference.get("sections", [])]
+        staging = section_staging_profile(windows, len(features.bass), FPS)
     video = output_path or output_dir / f"{preset_name}.mp4"
     subtitle_path = str(Path(subtitle_paths["ass"])).replace("\\", "\\\\").replace(":", r"\:")
     filter_parts = ["[0:v]scale=1920:1080:flags=lanczos[base]"]
@@ -570,7 +719,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                 process.stdin.write(render_frame(features, index, preset, particles,
                                                  palette_time_offset,
                                                  polar_thickness_scale,
-                                                 visual_profile).tobytes())
+                                                 visual_profile, impact_envelopes,
+                                                 impact_triggers, staging).tobytes())
         process.stdin.close()
         process.wait(timeout=timeout_seconds)
     except (BrokenPipeError, subprocess.TimeoutExpired):
@@ -580,7 +730,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     still = video.with_suffix(".png")
     _write_png(render_frame(features, len(features.bass) // 2, preset, particles,
                             palette_time_offset, polar_thickness_scale,
-                            visual_profile), still)
+                            visual_profile, impact_envelopes,
+                            impact_triggers, staging), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
             "video": str(video.relative_to(ROOT)), "still": str(still.relative_to(ROOT)),

@@ -14,44 +14,14 @@
   "primary": 57,
   "secondary": 17,
   "direct_acoustic": 60,
-  "bounded_asr": 0,
-  "locally_anchored": 0,
+  "bounded_asr": 9,
+  "locally_anchored": 5,
   "acoustic_transfer": 0,
   "cadence_interpolation": 0,
-  "line_coverage": 0.8108108108108109,
+  "line_coverage": 1.0,
   "token_coverage": 0.9367945823927766,
-  "unresolved": [
-    "section_001_line_001",
-    "section_001_line_002",
-    "section_001_line_003",
-    "section_001_line_004",
-    "section_001_line_005",
-    "section_002_line_011",
-    "section_003_line_014",
-    "section_004_line_009",
-    "section_004_line_011",
-    "section_005_line_013",
-    "section_005_line_014",
-    "section_006_line_005",
-    "section_007_line_009",
-    "section_007_line_011"
-  ],
-  "low_confidence": [
-    "section_001_line_001",
-    "section_001_line_002",
-    "section_001_line_003",
-    "section_001_line_004",
-    "section_001_line_005",
-    "section_002_line_011",
-    "section_003_line_014",
-    "section_004_line_009",
-    "section_004_line_011",
-    "section_005_line_013",
-    "section_005_line_014",
-    "section_006_line_005",
-    "section_007_line_009",
-    "section_007_line_011"
-  ],
+  "unresolved": [],
+  "low_confidence": [],
   "structural_qa": {
     "zero_duration_primary": 0,
     "primary_under_0_10": 0,
@@ -63,28 +33,28 @@
   "collisions": [],
   "section_occurrence_windows": {
     "section_001": {
-      "start": 0.03814285714285715,
-      "end": 1.0146,
+      "start": 0.0,
+      "end": 3.3,
       "occurrence": 1
     },
     "section_002": {
-      "start": 10.680000000000001,
-      "end": 42.81511111111111,
+      "start": 10.68,
+      "end": 43.2,
       "occurrence": 1
     },
     "section_003": {
       "start": 43.96,
-      "end": 68.346,
+      "end": 68.82,
       "occurrence": 1
     },
     "section_004": {
       "start": 69.16,
-      "end": 97.10900000000001,
+      "end": 97.25,
       "occurrence": 2
     },
     "section_005": {
       "start": 98.22,
-      "end": 118.83025,
+      "end": 119.18,
       "occurrence": 1
     },
     "section_006": {
@@ -94,7 +64,7 @@
     },
     "section_007": {
       "start": 146.9,
-      "end": 176.70499999999998,
+      "end": 175.24,
       "occurrence": 3
     },
     "section_008": {
@@ -103,7 +73,7 @@
       "occurrence": 1
     }
   },
-  "timing_sha256": "1fd884f38eda1e40342c45ac729fa01594eae5cb6679c3d9226065a001283c61",
+  "timing_sha256": "e7555233c5cc36b737c1ee9e61f40c29efa04f895f6ded3d4d3ce0ce081367f9",
   "artist_resolution": "authoritative",
   "visualizer": {
     "preset": "trap_polar_350_artistlockup",

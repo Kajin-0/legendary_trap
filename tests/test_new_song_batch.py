@@ -35,6 +35,22 @@ def test_corrective_batch_registers_new_songs_and_pfps_without_guessing() -> Non
     assert "do_you_see_me" not in json.loads((ROOT / "configs/songs.json").read_text())["track_order"]
 
 
+def test_targeted_do_and_golden_timing_repairs_are_canonical() -> None:
+    for song in ("do_you_see_me", "golden_hour"):
+        document = json.loads((ROOT / "output" / song / "timing.json").read_text())
+        assert document["alignment"]["unresolved_line_ids"] == []
+        assert document["alignment"]["low_confidence_line_ids"] == []
+        assert document["alignment"]["zero_duration_primary"] == 0
+        assert document["alignment"]["short_primary"] == 0
+        assert document["alignment"]["unhandled_primary_collisions"] == 0
+        assert all(line["end"] > line["start"] for section in document["sections"]
+                   for line in section["lines"])
+    golden = json.loads((ROOT / "output/golden_hour/timing.json").read_text())
+    target = next(line for section in golden["sections"] for line in section["lines"]
+                  if line["line_id"] == "section_001_line_002")
+    assert (target["start"], target["end"]) == (1.56, 3.3)
+
+
 def test_new_song_structures_and_outputs_exist() -> None:
     for song in ("do_you_see_me", "what_i_need", "golden_hour"):
         document = json.loads((ROOT / "output" / song / "timing.json").read_text())

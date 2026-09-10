@@ -1,2 +1,1 @@
-Unresolved timing events: section_001_line_002
-Low-confidence timing events: section_001_line_002
+No major weak regions remain.

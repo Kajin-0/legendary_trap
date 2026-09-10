@@ -14,7 +14,7 @@ Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 1,0:00:00.00,0:00:00.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah! (straight up)
-Dialogue: 1,0:00:00.60,0:00:06.36,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden, golden — woo!
+Dialogue: 1,0:00:01.56,0:00:03.30,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden, golden — woo!
 Dialogue: 1,0:00:06.68,0:00:09.24,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}La-la, it's a vibe, yeah
 Dialogue: 1,0:00:09.24,0:00:13.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Top down, sun out, ridin' through the city lights (yeah)
 Dialogue: 1,0:00:13.22,0:00:16.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Feelin' like a comet when I'm leanin' to the right (woo)

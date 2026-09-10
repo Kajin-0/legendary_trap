@@ -1,2 +1,1 @@
-Unresolved timing events: section_001_line_001, section_001_line_002, section_001_line_003, section_001_line_004, section_001_line_005, section_002_line_011, section_003_line_014, section_004_line_009, section_004_line_011, section_005_line_013, section_005_line_014, section_006_line_005, section_007_line_009, section_007_line_011
-Low-confidence timing events: section_001_line_001, section_001_line_002, section_001_line_003, section_001_line_004, section_001_line_005, section_002_line_011, section_003_line_014, section_004_line_009, section_004_line_011, section_005_line_013, section_005_line_014, section_006_line_005, section_007_line_009, section_007_line_011
+No major weak regions remain.

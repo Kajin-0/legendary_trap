@@ -22,10 +22,16 @@ from legendary_trap.visualizer import (
     STANDALONE_SONGS,
     WIDTH,
     _hybrid_particles,
+    attack_release_envelope,
+    historical_afterimage_indices,
+    impact_trigger_indices,
+    local_contrast_separation,
     palette_at_time,
+    particle_outward_impulse,
     polar_contour_offsets,
     polar_low_radii,
     render_frame,
+    section_staging_profile,
 )
 
 
@@ -110,6 +116,50 @@ def test_power_profiles_are_opt_in_and_keep_polar_geometry() -> None:
     assert not np.array_equal(baseline, physical)
     assert not np.array_equal(physical, full)
     assert PRODUCTION_POLAR_THICKNESS_SCALE == 2.2
+
+
+def test_impact_envelopes_are_bounded_attack_release_and_deterministic() -> None:
+    raw = np.zeros(30, dtype=np.float32)
+    raw[5] = 1.0
+    raw[6:9] = 0.8
+    fast = attack_release_envelope(raw, 0.72, 0.18)
+    slow = attack_release_envelope(raw, 0.48, 0.055)
+    assert np.array_equal(fast, attack_release_envelope(raw, 0.72, 0.18))
+    assert 0.0 < fast[5] <= 1.0
+    assert fast[15] < slow[15]
+    assert fast[-1] < slow[-1]
+    assert np.isfinite(fast).all() and np.isfinite(slow).all()
+    assert np.max(fast) <= 1.8 and np.max(slow) <= 1.8
+
+
+def test_afterimage_is_historical_finite_and_cooldown_limited() -> None:
+    fast = np.array([0, 0, 0.9, 0.95, 0.94, 0, 0, 0, 0, 0], dtype=np.float32)
+    triggers = impact_trigger_indices(fast, threshold=0.78, cooldown_frames=6)
+    assert triggers.tolist() == [3]
+    assert historical_afterimage_indices(4, triggers, 12) == [(3, 1)]
+    assert historical_afterimage_indices(16, triggers, 12) == []
+    sustained = np.ones(30, dtype=np.float32)
+    assert len(impact_trigger_indices(sustained, .78, 6)) <= 5
+
+
+def test_contrast_adaptation_is_bounded_and_only_activates_when_needed() -> None:
+    assert local_contrast_separation(20, 220) == 0.0
+    close = local_contrast_separation(100, 110)
+    assert 0.0 < close <= 0.18
+
+
+def test_particle_impulse_points_outward_and_foreground_is_stronger() -> None:
+    positions = np.array([[0.7, 0.61], [0.7, 0.61]], dtype=np.float32)
+    depths = np.array([0.3, 0.9], dtype=np.float32)
+    impulse = particle_outward_impulse(positions, depths, 0)
+    assert impulse[0, 0] > 0 and impulse[1, 0] > impulse[0, 0]
+    assert np.allclose(particle_outward_impulse(positions, depths, 100), 0, atol=1e-5)
+
+
+def test_section_staging_is_smooth_and_hooks_have_more_authority() -> None:
+    profile = section_staging_profile([(0, 10, "Verse"), (10, 20, "Chorus")], 600)
+    assert profile[300] > profile[100]
+    assert np.max(np.abs(np.diff(profile))) < 0.01
 
 
 def test_polar_profile_is_mirrored_and_bass_deforms_it() -> None:

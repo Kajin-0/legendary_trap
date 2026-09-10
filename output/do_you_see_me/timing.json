@@ -13,45 +13,15 @@
     "source_lyric_sha256": "3269b4272293ab6239159c55927b72a777bdcba088ccbe51c8c4a7c5acb88446",
     "authoritative_line_count": 74,
     "authoritative_token_count": 443,
-    "line_acoustic_coverage": 0.8108108108108109,
+    "line_acoustic_coverage": 1.0,
     "token_acoustic_coverage": 0.9367945823927766,
     "primary_count": 57,
     "secondary_count": 17,
     "direct_acoustic_lines": 60,
-    "bounded_asr_lines": 0,
+    "bounded_asr_lines": 9,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_002_line_011",
-      "section_003_line_014",
-      "section_004_line_009",
-      "section_004_line_011",
-      "section_005_line_013",
-      "section_005_line_014",
-      "section_006_line_005",
-      "section_007_line_009",
-      "section_007_line_011"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_002_line_011",
-      "section_003_line_014",
-      "section_004_line_009",
-      "section_004_line_011",
-      "section_005_line_013",
-      "section_005_line_014",
-      "section_006_line_005",
-      "section_007_line_009",
-      "section_007_line_011"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -61,28 +31,28 @@
     "source_duration": 189.648,
     "section_occurrence_windows": {
       "section_001": {
-        "start": 0.03814285714285715,
-        "end": 1.0146,
+        "start": 0.0,
+        "end": 3.3,
         "occurrence": 1
       },
       "section_002": {
-        "start": 10.680000000000001,
-        "end": 42.81511111111111,
+        "start": 10.68,
+        "end": 43.2,
         "occurrence": 1
       },
       "section_003": {
         "start": 43.96,
-        "end": 68.346,
+        "end": 68.82,
         "occurrence": 1
       },
       "section_004": {
         "start": 69.16,
-        "end": 97.10900000000001,
+        "end": 97.25,
         "occurrence": 2
       },
       "section_005": {
         "start": 98.22,
-        "end": 118.83025,
+        "end": 119.18,
         "occurrence": 1
       },
       "section_006": {
@@ -92,7 +62,7 @@
       },
       "section_007": {
         "start": 146.9,
-        "end": 176.70499999999998,
+        "end": 175.24,
         "occurrence": 3
       },
       "section_008": {
@@ -100,7 +70,9 @@
         "end": 185.8,
         "occurrence": 1
       }
-    }
+    },
+    "locally_anchored_lines": 5,
+    "acoustic_transfer_lines": 0
   },
   "sections": [
     {
@@ -132,29 +104,30 @@
           "raw_source_line": 3,
           "raw_source_span": "Yeah…",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.038,
-          "end": 0.725,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 0.0,
+          "end": 0.64,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.038,
-          "acoustic_end": 0.725,
+          "acoustic_start": 0.0,
+          "acoustic_end": 0.64,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
-              "start": 0.038,
-              "end": 0.725,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 0.0,
+              "end": 0.64,
+              "confidence": 0.58,
+              "timing_source": "local_acoustic_anchor",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-6s ASR vocal cluster; source wording retained"
         },
         {
           "line_id": "section_001_line_002",
@@ -170,29 +143,30 @@
           "raw_source_line": 4,
           "raw_source_span": "Uh…",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.725,
-          "end": 0.845,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 0.84,
+          "end": 1.58,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.725,
-          "acoustic_end": 0.845,
+          "acoustic_start": 0.84,
+          "acoustic_end": 1.58,
           "total_tokens": 1,
           "words": [
             {
               "text": "uh",
-              "start": 0.725,
-              "end": 0.845,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 0.84,
+              "end": 1.58,
+              "confidence": 0.58,
+              "timing_source": "local_acoustic_anchor",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-6s ASR vocal cluster; source wording retained"
         },
         {
           "line_id": "section_001_line_003",
@@ -208,29 +182,30 @@
           "raw_source_line": 5,
           "raw_source_span": "Damn…",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.845,
-          "end": 0.965,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 1.58,
+          "end": 2.2,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.845,
-          "acoustic_end": 0.965,
+          "acoustic_start": 1.58,
+          "acoustic_end": 2.2,
           "total_tokens": 1,
           "words": [
             {
               "text": "damn",
-              "start": 0.845,
-              "end": 0.965,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 1.58,
+              "end": 2.2,
+              "confidence": 0.58,
+              "timing_source": "local_acoustic_anchor",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-6s ASR vocal cluster; source wording retained"
         },
         {
           "line_id": "section_001_line_004",
@@ -246,29 +221,30 @@
           "raw_source_line": 7,
           "raw_source_span": "[adlib: yeah]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.049,
-          "end": 0.922,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 2.2,
+          "end": 2.8,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.049,
-          "acoustic_end": 0.922,
+          "acoustic_start": 2.2,
+          "acoustic_end": 2.8,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
-              "start": 0.049,
-              "end": 0.922,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.2,
+              "end": 2.8,
+              "confidence": 0.58,
+              "timing_source": "local_acoustic_anchor",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-6s ASR vocal cluster; source wording retained"
         },
         {
           "line_id": "section_001_line_005",
@@ -284,29 +260,30 @@
           "raw_source_line": 8,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 0.053,
-          "end": 1.015,
-          "confidence": 0.28,
+          "timing_source": "local_acoustic_anchor",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 2.8,
+          "end": 3.3,
+          "confidence": 0.58,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 0.053,
-          "acoustic_end": 1.015,
+          "acoustic_start": 2.8,
+          "acoustic_end": 3.3,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 0.053,
-              "end": 1.015,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 2.8,
+              "end": 3.3,
+              "confidence": 0.58,
+              "timing_source": "local_acoustic_anchor",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted 0-6s ASR vocal cluster; source wording retained"
         }
       ]
     },
@@ -1279,29 +1256,30 @@
           "raw_source_line": 26,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 42.687,
-          "end": 42.815,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 42.78,
+          "end": 43.2,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 42.687,
-          "acoustic_end": 42.815,
+          "acoustic_start": 42.78,
+          "acoustic_end": 43.2,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 42.687,
-              "end": 42.815,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 42.78,
+              "end": 43.2,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         }
       ]
     },
@@ -2428,29 +2406,30 @@
           "raw_source_line": 48,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 68.226,
-          "end": 68.346,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 68.22,
+          "end": 68.82,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 68.226,
-          "acoustic_end": 68.346,
+          "acoustic_start": 68.22,
+          "acoustic_end": 68.82,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 68.226,
-              "end": 68.346,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 68.22,
+              "end": 68.82,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         }
       ]
     },
@@ -3347,29 +3326,30 @@
           "raw_source_line": 64,
           "raw_source_span": "[adlib: yeah]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 95.666,
-          "end": 95.786,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 95.67,
+          "end": 96.08,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 95.666,
-          "acoustic_end": 95.786,
+          "acoustic_start": 95.67,
+          "acoustic_end": 96.08,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
-              "start": 95.666,
-              "end": 95.786,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 95.67,
+              "end": 96.08,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         },
         {
           "line_id": "section_004_line_010",
@@ -3423,29 +3403,30 @@
           "raw_source_line": 66,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 96.911,
-          "end": 97.109,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 96.91,
+          "end": 97.25,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 96.911,
-          "acoustic_end": 97.109,
+          "acoustic_start": 96.91,
+          "acoustic_end": 97.25,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 96.911,
-              "end": 97.109,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 96.91,
+              "end": 97.25,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         }
       ]
     },
@@ -4462,29 +4443,30 @@
           "raw_source_line": 87,
           "raw_source_span": "[adlib: yeah]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
           "start": 118.38,
-          "end": 118.736,
-          "confidence": 0.28,
+          "end": 118.72,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
           "acoustic_start": 118.38,
-          "acoustic_end": 118.736,
+          "acoustic_end": 118.72,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
               "start": 118.38,
-              "end": 118.736,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "end": 118.72,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         },
         {
           "line_id": "section_005_line_014",
@@ -4500,29 +4482,30 @@
           "raw_source_line": 88,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 118.385,
-          "end": 118.83,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 118.74,
+          "end": 119.18,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 118.385,
-          "acoustic_end": 118.83,
+          "acoustic_start": 118.74,
+          "acoustic_end": 119.18,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 118.385,
-              "end": 118.83,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 118.74,
+              "end": 119.18,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         }
       ]
     },
@@ -4827,29 +4810,30 @@
           "raw_source_line": 100,
           "raw_source_span": "[adlib: yeah]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 132.307,
-          "end": 133.159,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 132.31,
+          "end": 133.02,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 132.307,
-          "acoustic_end": 133.159,
+          "acoustic_start": 132.31,
+          "acoustic_end": 133.02,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
-              "start": 132.307,
-              "end": 133.159,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 132.31,
+              "end": 133.02,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         },
         {
           "line_id": "section_006_line_006",
@@ -5784,29 +5768,30 @@
           "raw_source_line": 117,
           "raw_source_span": "[adlib: yeah]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
           "start": 173.35,
-          "end": 173.89,
-          "confidence": 0.28,
+          "end": 174.02,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
           "acoustic_start": 173.35,
-          "acoustic_end": 173.89,
+          "acoustic_end": 174.02,
           "total_tokens": 1,
           "words": [
             {
               "text": "yeah",
               "start": 173.35,
-              "end": 173.89,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "end": 174.02,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         },
         {
           "line_id": "section_007_line_010",
@@ -5860,29 +5845,30 @@
           "raw_source_line": 119,
           "raw_source_span": "[adlib: huh]",
           "structurally_inferred": false,
-          "timing_source": "display_interpolation",
-          "acoustic_support": false,
-          "estimated_timing": true,
-          "start": 174.635,
-          "end": 176.705,
-          "confidence": 0.28,
+          "timing_source": "bounded_asr",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 174.63,
+          "end": 175.24,
+          "confidence": 0.62,
           "matched_tokens": 0,
           "confidence_components": {
             "token_coverage": 0.0
           },
-          "acoustic_start": 174.635,
-          "acoustic_end": 176.705,
+          "acoustic_start": 174.63,
+          "acoustic_end": 175.24,
           "total_tokens": 1,
           "words": [
             {
               "text": "huh",
-              "start": 174.635,
-              "end": 176.705,
-              "confidence": 0.0,
-              "timing_source": "line_estimate",
-              "acoustic_supported": false
+              "start": 174.63,
+              "end": 175.24,
+              "confidence": 0.62,
+              "timing_source": "bounded_asr",
+              "acoustic_supported": true
             }
-          ]
+          ],
+          "evidence_note": "bounded unhinted ASR/local acoustic evidence; source wording retained"
         }
       ]
     },
@@ -6011,45 +5997,15 @@
     "source_lyric_sha256": "3269b4272293ab6239159c55927b72a777bdcba088ccbe51c8c4a7c5acb88446",
     "authoritative_line_count": 74,
     "authoritative_token_count": 443,
-    "line_acoustic_coverage": 0.8108108108108109,
+    "line_acoustic_coverage": 1.0,
     "token_acoustic_coverage": 0.9367945823927766,
     "primary_count": 57,
     "secondary_count": 17,
     "direct_acoustic_lines": 60,
-    "bounded_asr_lines": 0,
+    "bounded_asr_lines": 9,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_002_line_011",
-      "section_003_line_014",
-      "section_004_line_009",
-      "section_004_line_011",
-      "section_005_line_013",
-      "section_005_line_014",
-      "section_006_line_005",
-      "section_007_line_009",
-      "section_007_line_011"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_002_line_011",
-      "section_003_line_014",
-      "section_004_line_009",
-      "section_004_line_011",
-      "section_005_line_013",
-      "section_005_line_014",
-      "section_006_line_005",
-      "section_007_line_009",
-      "section_007_line_011"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -6059,28 +6015,28 @@
     "source_duration": 189.648,
     "section_occurrence_windows": {
       "section_001": {
-        "start": 0.03814285714285715,
-        "end": 1.0146,
+        "start": 0.0,
+        "end": 3.3,
         "occurrence": 1
       },
       "section_002": {
-        "start": 10.680000000000001,
-        "end": 42.81511111111111,
+        "start": 10.68,
+        "end": 43.2,
         "occurrence": 1
       },
       "section_003": {
         "start": 43.96,
-        "end": 68.346,
+        "end": 68.82,
         "occurrence": 1
       },
       "section_004": {
         "start": 69.16,
-        "end": 97.10900000000001,
+        "end": 97.25,
         "occurrence": 2
       },
       "section_005": {
         "start": 98.22,
-        "end": 118.83025,
+        "end": 119.18,
         "occurrence": 1
       },
       "section_006": {
@@ -6090,7 +6046,7 @@
       },
       "section_007": {
         "start": 146.9,
-        "end": 176.70499999999998,
+        "end": 175.24,
         "occurrence": 3
       },
       "section_008": {
@@ -6098,7 +6054,10 @@
         "end": 185.8,
         "occurrence": 1
       }
-    }
+    },
+    "locally_anchored_lines": 5,
+    "acoustic_transfer_lines": 0,
+    "collisions": []
   },
   "authoritative_lyrics": {
     "path": "input/lyrics/do_you_see_me.txt",
