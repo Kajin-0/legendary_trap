@@ -680,7 +680,9 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     render_document = clip_render_document(reference, start, duration)
     output_dir = (output_path.parent if output_path else ROOT / "output" / "aesthetic_previews")
     output_dir.mkdir(parents=True, exist_ok=True)
-    display_title = song_id.replace("_", " ").upper()
+    catalog = json.loads((ROOT / "configs" / "songs.json").read_text(encoding="utf-8"))
+    display_title = catalog.get("songs", {}).get(song_id, {}).get(
+        "title", song_id.replace("_", " ").upper())
     lockup = (ArtistLockup(artist_override, None, "ready_text_only") if artist_override else
               artist_lockup_for_song(song_id) if identity_enabled else ArtistLockup(None, None, "disabled"))
     subtitle_paths = write_subtitles(render_document, output_dir, display_title,

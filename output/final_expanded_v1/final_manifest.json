@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "production_commit": "d43eff0125ba84f4613ffad5c73ea02935138c0d",
+  "track_count": 16,
+  "track_order": [
+    "apple",
+    "chokehold",
+    "commin_long_ways",
+    "focus",
+    "off_the_wave",
+    "slidin",
+    "we_got_chemistry",
+    "you_missed_it",
+    "wonder_when_im_gon_shine",
+    "on_a_trance",
+    "do_you_see_me",
+    "hella_racks",
+    "difference",
+    "purple_satellites",
+    "golden_hour",
+    "what_i_need"
+  ],
+  "transition_seconds": 0.0,
+  "tracks": [
+    {
+      "song_id": "apple",
+      "track_number": 1,
+      "source_sha256": "5cab300c97fb14490439ae2dedce50c0e19a130a86bd03e3dd17e6a7cb4a335a",
+      "timing_sha256": "8275d3c4b3aa1b8a9ab3141cc3dc90c5e0abce27b7c4493118a17094899d9b88",
+      "subtitle_sha256": {
+        "ass": "8c7c855f46bb5353b20df4bc041816d4af30dfc95e58817fb3fec1e62d04f54c",
+        "srt": "b7265cfae98411e910f9af0845ea8322e143f6d1fe89b8e607b611384ee28eaa",
+        "vtt": "dd5e8c842e566e82b329e8bb99fdb414270de2f81d548c02687a85f579480777"
+      },
+      "artist": "KarmaisMagic",
+      "artist_id": "KarmaisMagic",
+      "artist_pfp": null,
+      "artist_crop": "none",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 0.0,
+      "source_duration": 169.632,
+      "rendered_duration": 169.6,
+      "audio_duration": 169.6,
+      "frame_count": 5088,
+      "video_sha256": "4acfc31abf663eb62c378d28601d2439f5c3f0ef12a2c27e88bff6297c3d2aca",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "169.600000",
+        "nb_frames": "5088"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "169.600000",
+        "nb_frames": "7951"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "apple",
+        "start": 0.0,
+        "duration": 169.632,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1363.151,
+        "video": "output/final_expanded_v1/segments/01_apple.mp4",
+        "still": "output/final_expanded_v1/segments/01_apple.png",
+        "subtitle": "output/final_expanded_v1/segments/apple.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "AppLE",
+      "master_start": 0.0,
+      "master_end": 169.6,
+      "palette_offset": 0.0,
+      "segment_path": "output/final_expanded_v1/segments/01_apple.mp4"
+    },
+    {
+      "song_id": "chokehold",
+      "track_number": 2,
+      "source_sha256": "b1613d324b9006c26af90f78f4427c5eea414652770385b6ca1991f67c797644",
+      "timing_sha256": "1cc68e6703aa62417e058acd2e723e1739c0efc8b94e39807dc2265a9e698385",
+      "subtitle_sha256": {
+        "ass": "8fcf80fb8a5a9676fde160b55032a1b83762cf72678af650d1cfe72e2fbb45c8",
+        "srt": "623a9011eea6c4e0ab19ceb5e7c6ef0376f9b14e6a6415a34ddb21977aca854c",
+        "vtt": "a4dacc18694dd82f6dfb583b8a2e0d60ad05023548ecfa1b4aee5e616ca905f8"
+      },
+      "artist": "OppTalk",
+      "artist_id": "OppTalk",
+      "artist_pfp": "assets/artists/opptalk.webp",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 169.632,
+      "source_duration": 130.032,
+      "rendered_duration": 130.005,
+      "audio_duration": 130.005,
+      "frame_count": 3900,
+      "video_sha256": "9f73de594f39d03da899d519db69bf29bc0a447a18dabe4e0b23ff3291d49143",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "130.000000",
+        "nb_frames": "3900"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "130.005000",
+        "nb_frames": "6095"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "chokehold",
+        "start": 0.0,
+        "duration": 130.032,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1361.253,
+        "video": "output/final_expanded_v1/segments/02_chokehold.mp4",
+        "still": "output/final_expanded_v1/segments/02_chokehold.png",
+        "subtitle": "output/final_expanded_v1/segments/chokehold.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "Chokehold",
+      "master_start": 169.6,
+      "master_end": 299.605,
+      "palette_offset": 169.632,
+      "segment_path": "output/final_expanded_v1/segments/02_chokehold.mp4"
+    },
+    {
+      "song_id": "commin_long_ways",
+      "track_number": 3,
+      "source_sha256": "c08834ec15009e26fcb81e530d303030e430633a4cc3b756c6b94e9fec2830fe",
+      "timing_sha256": "3f59eadd57cf6acc28e398a4bbbdb2cc45ddc903aa25094ed3a594b69b432b85",
+      "subtitle_sha256": {
+        "ass": "93af55a4fa12eb217ccdfd31c2bb42ab9eb42b6947cafd87a4e2cd71b405cf6f",
+        "srt": "47cadfb9297cdfee65aef46ca72310f0c9ef73ee8f29d97322ab9550099e8069",
+        "vtt": "dc09e395214fdd558271c4635f134507459537def0d2295937140c8fe037994a"
+      },
+      "artist": "PRODBYAPKIMZ",
+      "artist_id": "PRODBYAPKIMZ",
+      "artist_pfp": "assets/artists/prodbyapkimz.webp",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 299.664,
+      "source_duration": 162.84,
+      "rendered_duration": 162.816,
+      "audio_duration": 162.816,
+      "frame_count": 4884,
+      "video_sha256": "59768b3de1b09fab890d758bfd6b87d4254da71b25dcc0de9ff11205aea83f1a",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "162.800000",
+        "nb_frames": "4884"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "162.816000",
+        "nb_frames": "7633"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "commin_long_ways",
+        "start": 0.0,
+        "duration": 162.84,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1676.783,
+        "video": "output/final_expanded_v1/segments/03_commin_long_ways.mp4",
+        "still": "output/final_expanded_v1/segments/03_commin_long_ways.png",
+        "subtitle": "output/final_expanded_v1/segments/comin long ways.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "COMIN LONG WAYS",
+      "master_start": 299.605,
+      "master_end": 462.42100000000005,
+      "palette_offset": 299.664,
+      "segment_path": "output/final_expanded_v1/segments/03_commin_long_ways.mp4"
+    },
+    {
+      "song_id": "focus",
+      "track_number": 4,
+      "source_sha256": "6d3e5d41b711c9fdc550655d4cafd31fbd1054f6cfa7127ecc0afdb73bf95eda",
+      "timing_sha256": "63435609fc1091fc14947765ce5869dc283e2173c9ee0edb61fdfb4996f1fc8a",
+      "subtitle_sha256": {
+        "ass": "b6dfb1c5746b92af763808ecf46a22b06a7eded5688b67a382c73eb10efa25db",
+        "srt": "56b11599d67076809fd846f935b36202519136d89ac7de5828b042692278fabf",
+        "vtt": "240446de957714efae045bdbabec9e4117543479171be1b414f42ff5f615b4f2"
+      },
+      "artist": "PRODBYAPKIMZ",
+      "artist_id": "PRODBYAPKIMZ",
+      "artist_pfp": "assets/artists/prodbyapkimz.webp",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 462.504,
+      "source_duration": 240.024,
+      "rendered_duration": 240.0,
+      "audio_duration": 240.0,
+      "frame_count": 7200,
+      "video_sha256": "55122f0550fd8e77a1a51a40657c0d518f152224c41f06a444824e97109bc834",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "240.000000",
+        "nb_frames": "7200"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "240.000000",
+        "nb_frames": "11251"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "focus",
+        "start": 0.0,
+        "duration": 240.024,
+        "resolution": "1920x1080",
+        "runtime_seconds": 2334.391,
+        "video": "output/final_expanded_v1/segments/04_focus.mp4",
+        "still": "output/final_expanded_v1/segments/04_focus.png",
+        "subtitle": "output/final_expanded_v1/segments/focus.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "FOCUS",
+      "master_start": 462.42100000000005,
+      "master_end": 702.421,
+      "palette_offset": 462.504,
+      "segment_path": "output/final_expanded_v1/segments/04_focus.mp4"
+    },
+    {
+      "song_id": "off_the_wave",
+      "track_number": 5,
+      "source_sha256": "6de9ff6fdd97a05e0a00888f5e89be1eb709677b657029234d64a32a8053878d",
+      "timing_sha256": "a067ae1a3f5cb9094244084c3be0430e803a67c74e223378e3332e265d29081b",
+      "subtitle_sha256": {
+        "ass": "c45015d763a1193913aef5e546ff0c0f815b0126f2a2c018045ebca25084e80b",
+        "srt": "1be5a673be889c375929adcc564143ee7e630376f1c79503ed8c974a6d5585f5",
+        "vtt": "6c9d91c81970a17e140c84f9120ef61a53c980d440eccfb8f327bcbe5c89745b"
+      },
+      "artist": "WILLZ",
+      "artist_id": "WILLZ",
+      "artist_pfp": null,
+      "artist_crop": "none",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 702.528,
+      "source_duration": 190.44,
+      "rendered_duration": 190.4,
+      "audio_duration": 190.4,
+      "frame_count": 5712,
+      "video_sha256": "a636b1e33e7e949e2d0c3d6e3489434f3c59dfa27d9fb5cdb11bda4ac8ff87d2",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "190.400000",
+        "nb_frames": "5712"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "190.400000",
+        "nb_frames": "8926"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "off_the_wave",
+        "start": 0.0,
+        "duration": 190.44,
+        "resolution": "1920x1080",
+        "runtime_seconds": 2053.681,
+        "video": "output/final_expanded_v1/segments/05_off_the_wave.mp4",
+        "still": "output/final_expanded_v1/segments/05_off_the_wave.png",
+        "subtitle": "output/final_expanded_v1/segments/off the wave.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "Off the Wave",
+      "master_start": 702.421,
+      "master_end": 892.821,
+      "palette_offset": 702.528,
+      "segment_path": "output/final_expanded_v1/segments/05_off_the_wave.mp4"
+    },
+    {
+      "song_id": "slidin",
+      "track_number": 6,
+      "source_sha256": "037ba7c7b74c3d18970a42f0bb336b75e9e6584dca4bec97f59efe7622d4fc2f",
+      "timing_sha256": "283f141b9d0bab6433d28b7cc5ffacad6ba2d0db7027689f87e00e2ba1f71524",
+      "subtitle_sha256": {
+        "ass": "348902e5893634eef63b2a1a615b34643c7cda2c2cae4c2f283826a6a688624d",
+        "srt": "31d2d7e0f2e7d00d4c3d24cace87df31f2c86e252888b2037b0bc309c580a777",
+        "vtt": "773b10cd300a634851244b747c2b53a86afe54a4f339915946b54f47fbc005cb"
+      },
+      "artist": "jayc3",
+      "artist_id": "jayc3",
+      "artist_pfp": "assets/artists/jayc3.jpeg",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 892.968,
+      "source_duration": 87.24,
+      "rendered_duration": 87.21,
+      "audio_duration": 87.21,
+      "frame_count": 2616,
+      "video_sha256": "f45109d68d0f63e0e5831a42b5256877b906b772479a760a311301eafb076832",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "87.200000",
+        "nb_frames": "2616"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "87.210000",
+        "nb_frames": "4089"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "slidin",
+        "start": 0.0,
+        "duration": 87.24,
+        "resolution": "1920x1080",
+        "runtime_seconds": 894.732,
+        "video": "output/final_expanded_v1/segments/06_slidin.mp4",
+        "still": "output/final_expanded_v1/segments/06_slidin.png",
+        "subtitle": "output/final_expanded_v1/segments/slidin.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "slidin",
+      "master_start": 892.821,
+      "master_end": 980.0310000000001,
+      "palette_offset": 892.968,
+      "segment_path": "output/final_expanded_v1/segments/06_slidin.mp4"
+    },
+    {
+      "song_id": "we_got_chemistry",
+      "track_number": 7,
+      "source_sha256": "100a78a37c8f3e6e054068120190af6eddd4c249ae4343c1467de0159cdd2b37",
+      "timing_sha256": "2719ca38ecfaba9c38c1c397a501b5ebd61a9b1fc82e5a4fcbd31228d1141979",
+      "subtitle_sha256": {
+        "ass": "0527a0d5962db1f1803416dfa4f269a7b17ad1e277f9abc9785c8ca055e01b58",
+        "srt": "7325058eefba83ca228658877ba2f84eff992cc646f6d7f7602d4274b2e75889",
+        "vtt": "2a2793e368cbc416b593f05a26a9827d47efbed600b51b5bf3a751e29dbf3ff8"
+      },
+      "artist": "VonKai",
+      "artist_id": "VonKai",
+      "artist_pfp": "assets/artists/vonkaikills.jpeg",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 980.208,
+      "source_duration": 249.24,
+      "rendered_duration": 249.216,
+      "audio_duration": 249.216,
+      "frame_count": 7476,
+      "video_sha256": "7271e2d37c69a6ec4d7892c058afe764fdc109a239c53f3dcbc45ade3d815d09",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "249.200000",
+        "nb_frames": "7476"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "249.216000",
+        "nb_frames": "11683"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "we_got_chemistry",
+        "start": 0.0,
+        "duration": 249.24,
+        "resolution": "1920x1080",
+        "runtime_seconds": 2360.264,
+        "video": "output/final_expanded_v1/segments/07_we_got_chemistry.mp4",
+        "still": "output/final_expanded_v1/segments/07_we_got_chemistry.png",
+        "subtitle": "output/final_expanded_v1/segments/we got chemistry.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "we got chemistry",
+      "master_start": 980.0310000000001,
+      "master_end": 1229.247,
+      "palette_offset": 980.208,
+      "segment_path": "output/final_expanded_v1/segments/07_we_got_chemistry.mp4"
+    },
+    {
+      "song_id": "you_missed_it",
+      "track_number": 8,
+      "source_sha256": "8c93bbc5f07915da9f214689d78e8b56f03003eb3a99a71578848ba8cd887342",
+      "timing_sha256": "18d088ba77baa50b186948237aeeb93b560a418252300c3b55ab23ed75e5097f",
+      "subtitle_sha256": {
+        "ass": "f2ca5c74b6993f74a271a0ecb7381cb8848b9b8bf61c8af28ca9198a025aa6f6",
+        "srt": "f373ca3df54ba1dadabb350d1c1b516021a7c0aacae78ff989648eea3b7b81cb",
+        "vtt": "ab319f119b35faa96e06cde3309aded613515259f2ca95ec00740782a84487be"
+      },
+      "artist": "TheSideQuest24",
+      "artist_id": "TheSideQuest24",
+      "artist_pfp": "assets/artists/thesidequest24.webp",
+      "artist_crop": "square",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 1229.448,
+      "source_duration": 169.632,
+      "rendered_duration": 169.6,
+      "audio_duration": 169.6,
+      "frame_count": 5088,
+      "video_sha256": "b50e19b03be2ea7cc6ff0423b9dbdd1f3eecc0fde5004e208103c8d91bebf904",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "169.600000",
+        "nb_frames": "5088"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "169.600000",
+        "nb_frames": "7951"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "you_missed_it",
+        "start": 0.0,
+        "duration": 169.632,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1778.48,
+        "video": "output/final_expanded_v1/segments/08_you_missed_it.mp4",
+        "still": "output/final_expanded_v1/segments/08_you_missed_it.png",
+        "subtitle": "output/final_expanded_v1/segments/you missed it.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "you missed it",
+      "master_start": 1229.247,
+      "master_end": 1398.847,
+      "palette_offset": 1229.448,
+      "segment_path": "output/final_expanded_v1/segments/08_you_missed_it.mp4"
+    },
+    {
+      "song_id": "wonder_when_im_gon_shine",
+      "track_number": 9,
+      "source_sha256": "fa851704487a003fe3f62dcc9d8afdac8f3d3e3fbb9140b30afefee2851b8f05",
+      "timing_sha256": "9d9d18d410163fb173e7d86bc40e306e6cb7973d251c563eea7c7d118b68ec15",
+      "subtitle_sha256": {
+        "ass": "974f600275952f9ed6c54e60356dce771a2f8ae40ae4f5c9daf2d49e29443e66",
+        "srt": "30c5a9ada2295149371b0e258d38df0afd6ab5a8f542a651e821dcb402c87624",
+        "vtt": "45203087e8027ba87e1ee00523db09c24626d7b9dd5747b9b500cb5cea7ad196"
+      },
+      "artist": "berb",
+      "artist_id": "berb",
+      "artist_pfp": null,
+      "artist_crop": "none",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 1399.08,
+      "source_duration": 165.24,
+      "rendered_duration": 165.205,
+      "audio_duration": 165.205,
+      "frame_count": 4956,
+      "video_sha256": "7a717f1f0d512d92cb411ebc5336ae9e71ec48f6b5721e17287f671e911ce206",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "165.200000",
+        "nb_frames": "4956"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "165.205000",
+        "nb_frames": "7745"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "wonder_when_im_gon_shine",
+        "start": 0.0,
+        "duration": 165.24,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1595.089,
+        "video": "output/final_expanded_v1/segments/09_wonder_when_im_gon_shine.mp4",
+        "still": "output/final_expanded_v1/segments/09_wonder_when_im_gon_shine.png",
+        "subtitle": "output/final_expanded_v1/segments/wonder when im gon shine.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "Wonder When Im Gon Shine",
+      "master_start": 1398.847,
+      "master_end": 1564.052,
+      "palette_offset": 1399.08,
+      "segment_path": "output/final_expanded_v1/segments/09_wonder_when_im_gon_shine.mp4"
+    },
+    {
+      "song_id": "on_a_trance",
+      "track_number": 10,
+      "source_sha256": "0cdd9d82ea991732c2f9a57756ccc23e1cbf7a0a95d6c464034e34f70114873c",
+      "timing_sha256": "1f9b63afb33f4e593593718111debb069c8d386da1c5e73e139ed7cd40a0ecfa",
+      "subtitle_sha256": {
+        "ass": "72e23ecf4dfa46433a2a2103950ef0e18ee08d72708bbe442f1f6a67690b1085",
+        "srt": "dff2b7bbd0024faeff5137bbf4548dac8205e3832e2f34d5c5b0feec119e76a9",
+        "vtt": "16d99a8c901a68d1e55c85dfbe74b69ccab7023bd3635b2a4ebe6deaea5f42d0"
+      },
+      "artist": "lilshitty",
+      "artist_id": "lilshitty",
+      "artist_pfp": null,
+      "artist_crop": "none",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 1564.32,
+      "source_duration": 134.424,
+      "rendered_duration": 134.4,
+      "audio_duration": 134.4,
+      "frame_count": 4032,
+      "video_sha256": "281937a5092ae297901539c0fba420b343ff32369c7ea2863386cf3fc28f9679",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "134.400000",
+        "nb_frames": "4032"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "134.400000",
+        "nb_frames": "6301"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "on_a_trance",
+        "start": 0.0,
+        "duration": 134.424,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1320.002,
+        "video": "output/final_expanded_v1/segments/10_on_a_trance.mp4",
+        "still": "output/final_expanded_v1/segments/10_on_a_trance.png",
+        "subtitle": "output/final_expanded_v1/segments/on a trance (v3).ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "On A Trance (V3)",
+      "master_start": 1564.052,
+      "master_end": 1698.452,
+      "palette_offset": 1564.32,
+      "segment_path": "output/final_expanded_v1/segments/10_on_a_trance.mp4"
+    },
+    {
+      "song_id": "do_you_see_me",
+      "track_number": 11,
+      "source_sha256": "19eac34ab81467d9203df3ded43b4b4ff8f6511366568b2c2a02b8c658f7d411",
+      "timing_sha256": "e7555233c5cc36b737c1ee9e61f40c29efa04f895f6ded3d4d3ce0ce081367f9",
+      "subtitle_sha256": {
+        "ass": "dca6cf7f3a5a21188eea368cb7b8abb4aa6e63ab0521dd5ffc4407096733aeac",
+        "srt": "86ecdb2bfdb26237e9997cf2f72f3bd8f0276e78f2ede06b1b95d17f7e4fd3e4",
+        "vtt": "4104540af1a6e7fbdb19c91f9e42f354f7aa95404c4b1e288e99af5df7ccbb0f"
+      },
+      "artist": "PRODBYAPKIMZ",
+      "artist_id": "PRODBYAPKIMZ",
+      "artist_pfp": "assets/artists/prodbyapkimz.webp",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 1698.744,
+      "source_duration": 189.648,
+      "rendered_duration": 189.61,
+      "audio_duration": 189.61,
+      "frame_count": 5688,
+      "video_sha256": "96073430d1967aaa274d89ca8787d7a9ef126aa52547159c39d55e223aa049e2",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "189.600000",
+        "nb_frames": "5688"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "189.610000",
+        "nb_frames": "8889"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "do_you_see_me",
+        "start": 0.0,
+        "duration": 189.648,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1754.093,
+        "video": "output/final_expanded_v1/segments/11_do_you_see_me.mp4",
+        "still": "output/final_expanded_v1/segments/11_do_you_see_me.png",
+        "subtitle": "output/final_expanded_v1/segments/do you see me.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "DO YOU SEE ME",
+      "master_start": 1698.452,
+      "master_end": 1888.062,
+      "palette_offset": 1698.744,
+      "segment_path": "output/final_expanded_v1/segments/11_do_you_see_me.mp4"
+    },
+    {
+      "song_id": "hella_racks",
+      "track_number": 12,
+      "source_sha256": "b3047a2e8015bf7a52505d3ad000811d5804489d3c7655140e66a3279c792e47",
+      "timing_sha256": "0c1540aa00782e34e1ec78984d74507eb5dee5052792fe1dee4e29d880aefa01",
+      "subtitle_sha256": {
+        "ass": "96920610987b7fd79ad0ab2c242fe348a3d2653d183c7e22d940f3d8dd0a9a25",
+        "srt": "d75bbe3f113fb18b47a8d1d7f989c96f39b825649b9da642cfb8fb5de3de2208",
+        "vtt": "074464d01d5864d7668f2b93a0e6f1a7df43b0b3a848a9469044aaffeedc7c80"
+      },
+      "artist": "ken carson",
+      "artist_id": "ken carson",
+      "artist_pfp": "assets/artists/kencarson.webp",
+      "artist_crop": "square",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 1888.392,
+      "source_duration": 180.84,
+      "rendered_duration": 180.8,
+      "audio_duration": 180.8,
+      "frame_count": 5424,
+      "video_sha256": "93a739d72094b67b773712eb0d41e694066c3c38196ca455cda2f356172ac82f",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "180.800000",
+        "nb_frames": "5424"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "180.800000",
+        "nb_frames": "8476"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "hella_racks",
+        "start": 0.0,
+        "duration": 180.84,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1588.079,
+        "video": "output/final_expanded_v1/segments/12_hella_racks.mp4",
+        "still": "output/final_expanded_v1/segments/12_hella_racks.png",
+        "subtitle": "output/final_expanded_v1/segments/hella racks.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "hella racks",
+      "master_start": 1888.062,
+      "master_end": 2068.862,
+      "palette_offset": 1888.392,
+      "segment_path": "output/final_expanded_v1/segments/12_hella_racks.mp4"
+    },
+    {
+      "song_id": "difference",
+      "track_number": 13,
+      "source_sha256": "0787aaa9a54807b16918763f8b7c5d9e9cdfb30881ba6b1af0dc6b09e0643cb7",
+      "timing_sha256": "cb40f1322c7e77ee814f80ab048f835ec821d3ba79f758ecfc56e9fe0036f42b",
+      "subtitle_sha256": {
+        "ass": "0a66551367cf3e8c8b76bc36c98789dadc6323bc1b31de4ca5ade42bf6fb7903",
+        "srt": "26cf5517128d24e4c234e1b1cf4424e5503e9416728650e3ab49a00d409a2465",
+        "vtt": "f18a270d2ae8bfe4d20ec1edfc271365f63938bd8c46f2ec8c72ef58bc01fb27"
+      },
+      "artist": "noek95",
+      "artist_id": "noek95",
+      "artist_pfp": "assets/artists/noek95.webp",
+      "artist_crop": "square",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 2069.232,
+      "source_duration": 185.64,
+      "rendered_duration": 185.6,
+      "audio_duration": 185.6,
+      "frame_count": 5568,
+      "video_sha256": "56c19e17b3f08383818486cc153d8d6ecd9ec62f45abe20edea80ad62c5b53fa",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "185.600000",
+        "nb_frames": "5568"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "185.600000",
+        "nb_frames": "8701"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "difference",
+        "start": 0.0,
+        "duration": 185.64,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1493.17,
+        "video": "output/final_expanded_v1/segments/13_difference.mp4",
+        "still": "output/final_expanded_v1/segments/13_difference.png",
+        "subtitle": "output/final_expanded_v1/segments/difference.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "Difference",
+      "master_start": 2068.862,
+      "master_end": 2254.462,
+      "palette_offset": 2069.232,
+      "segment_path": "output/final_expanded_v1/segments/13_difference.mp4"
+    },
+    {
+      "song_id": "purple_satellites",
+      "track_number": 14,
+      "source_sha256": "8aa27dd4524e0695763023f5a27deccecb43de063589c2e78c7e42173cb4e91b",
+      "timing_sha256": "6e3cd7216d168f7a99e94cd0ddb19de2fc71f7ce20cd0a01ff2b22c8851f5ae9",
+      "subtitle_sha256": {
+        "ass": "fa60a6f537b3b8a7a62aa3997bef3fd05e176256a722367bceb56aea489021c3",
+        "srt": "ae4ae0ee023fb51de8abc10f26c65e1288c021e6ed4a9264c5641d3191c7369b",
+        "vtt": "c3c01add61ba7c3c2893576c9a7323f1deade3f6fbbd0de01f7abc389670f3e8"
+      },
+      "artist": "SILL-E",
+      "artist_id": "SILL-E",
+      "artist_pfp": "assets/artists/SILL-E.webp",
+      "artist_crop": "square",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 2254.872,
+      "source_duration": 232.032,
+      "rendered_duration": 232.0,
+      "audio_duration": 232.0,
+      "frame_count": 6960,
+      "video_sha256": "c0d5e6eb1a8af8381c3348a8ef8cda3af375683df83c36dbd6f47b3f261662db",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "232.000000",
+        "nb_frames": "6960"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "232.000000",
+        "nb_frames": "10876"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "purple_satellites",
+        "start": 0.0,
+        "duration": 232.032,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1792.02,
+        "video": "output/final_expanded_v1/segments/14_purple_satellites.mp4",
+        "still": "output/final_expanded_v1/segments/14_purple_satellites.png",
+        "subtitle": "output/final_expanded_v1/segments/purple satellites.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "PURPLE SATELLITES",
+      "master_start": 2254.462,
+      "master_end": 2486.462,
+      "palette_offset": 2254.872,
+      "segment_path": "output/final_expanded_v1/segments/14_purple_satellites.mp4"
+    },
+    {
+      "song_id": "golden_hour",
+      "track_number": 15,
+      "source_sha256": "cb661ccee7975b7919e6a8441ada10a7bd9f544229ea20d47d8ab1779228def3",
+      "timing_sha256": "d89428912bf8fcae970ba41a58287cd74be3d5fcfd45c4ea8e62d2972818cace",
+      "subtitle_sha256": {
+        "ass": "63ba69cd7aa293522ebd8578fb7ae3de6201e3db7889bd8afb040338af059635",
+        "srt": "4b331aba500986c50604d13b838a3ac5eb7826b118f795da49ffe50ad02b8527",
+        "vtt": "e5a20577d3b30fed02ad47b780b8180f8c3948e1570e979514dddc5c51fc1285"
+      },
+      "artist": "Maverick",
+      "artist_id": "Maverick",
+      "artist_pfp": "assets/artists/Maverick.webp",
+      "artist_crop": "square",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 2486.904,
+      "source_duration": 126.432,
+      "rendered_duration": 126.4,
+      "audio_duration": 126.4,
+      "frame_count": 3792,
+      "video_sha256": "6e18245aaa5cf0503829d43075486a8247a008cda23af054eb249473d6617336",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "126.400000",
+        "nb_frames": "3792"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "126.400000",
+        "nb_frames": "5926"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "golden_hour",
+        "start": 0.0,
+        "duration": 126.432,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1007.687,
+        "video": "output/final_expanded_v1/segments/15_golden_hour.mp4",
+        "still": "output/final_expanded_v1/segments/15_golden_hour.png",
+        "subtitle": "output/final_expanded_v1/segments/golden hour.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": false
+      },
+      "title": "Golden Hour",
+      "master_start": 2486.462,
+      "master_end": 2612.862,
+      "palette_offset": 2486.904,
+      "segment_path": "output/final_expanded_v1/segments/15_golden_hour.mp4"
+    },
+    {
+      "song_id": "what_i_need",
+      "track_number": 16,
+      "source_sha256": "a7b77cbdb7d40dd49a3ca8364ede77923ec51e104007e8fa520669f9c6f6148c",
+      "timing_sha256": "37b06b2d07f05907a6b2d2b1863609699aef7180d0037f1c9db0bcac404bec5c",
+      "subtitle_sha256": {
+        "ass": "048232433dec2b9835e2555c266bf7ebb9aa00cc373ab06de9c361ed674182e4",
+        "srt": "a4d305667e20b887f9607797955153b95a2b727806cefaab1088bbbcc5cc8cc4",
+        "vtt": "bd6f45dbd5f8b0641dee3fccac6204c19f50ea63f503dde94bf1c6cf94473829"
+      },
+      "artist": "MUSHI",
+      "artist_id": "mushi",
+      "artist_pfp": "assets/artists/mushi.jpeg",
+      "artist_crop": "circle",
+      "preset": "trap_polar_350_artistlockup",
+      "renderer": "trap_sunset_polar_v3",
+      "visual_profile": "physical_core",
+      "polar_thickness_scale": 2.2,
+      "polar_band": [
+        20,
+        350
+      ],
+      "low_samples": 32,
+      "palette_time_offset": 2613.336,
+      "source_duration": 151.248,
+      "rendered_duration": 151.21,
+      "audio_duration": 151.21,
+      "frame_count": 4536,
+      "video_sha256": "8b38ec1d0c06b73d80c458891c67519fb4ad0da9a525cae3b36fc1bfb6dca2a6",
+      "video_stream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30/1",
+        "duration": "151.200000",
+        "nb_frames": "4536"
+      },
+      "audio_stream": {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "151.210000",
+        "nb_frames": "7089"
+      },
+      "render_result": {
+        "preset": "trap_polar_350_artistlockup",
+        "song_id": "what_i_need",
+        "start": 0.0,
+        "duration": 151.248,
+        "resolution": "1920x1080",
+        "runtime_seconds": 1174.084,
+        "video": "output/final_expanded_v1/segments/16_what_i_need.mp4",
+        "still": "output/final_expanded_v1/segments/16_what_i_need.png",
+        "subtitle": "output/final_expanded_v1/segments/what i need!.ass",
+        "visual_profile": "physical_core"
+      },
+      "final_fade": {
+        "duration": 3.0,
+        "applied": true
+      },
+      "title": "What I Need!",
+      "master_start": 2612.862,
+      "master_end": 2764.072,
+      "palette_offset": 2613.336,
+      "segment_path": "output/final_expanded_v1/segments/16_what_i_need.mp4"
+    }
+  ],
+  "final_fade": {
+    "duration": 3.0,
+    "start": 2761.072
+  },
+  "master": {
+    "filename": "legendary_trap_full_expanded_final_v1.mp4",
+    "duration": 2764.093333,
+    "sha256": "38db445d3cebbc1c62d870cdc266dbdb5e59649f03dddfe52894934df319461b",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "video_codec": "h264",
+    "audio_codec": "aac"
+  },
+  "production_visualizer": {
+    "preset": "trap_polar_350_artistlockup",
+    "renderer": "trap_sunset_polar_v3",
+    "visual_profile": "physical_core",
+    "polar_thickness_scale": 2.2,
+    "band_hz": [
+      20,
+      350
+    ],
+    "low_samples": 32
+  },
+  "separation_constraint": {
+    "status": "PASS",
+    "do_you_see_me_track": 11,
+    "what_i_need_track": 16,
+    "tracks_between": 4
+  },
+  "transitions": [
+    {
+      "after_track": "apple",
+      "before_track": "chokehold",
+      "master_time": 169.6
+    },
+    {
+      "after_track": "chokehold",
+      "before_track": "commin_long_ways",
+      "master_time": 299.605
+    },
+    {
+      "after_track": "commin_long_ways",
+      "before_track": "focus",
+      "master_time": 462.42100000000005
+    },
+    {
+      "after_track": "focus",
+      "before_track": "off_the_wave",
+      "master_time": 702.421
+    },
+    {
+      "after_track": "off_the_wave",
+      "before_track": "slidin",
+      "master_time": 892.821
+    },
+    {
+      "after_track": "slidin",
+      "before_track": "we_got_chemistry",
+      "master_time": 980.0310000000001
+    },
+    {
+      "after_track": "we_got_chemistry",
+      "before_track": "you_missed_it",
+      "master_time": 1229.247
+    },
+    {
+      "after_track": "you_missed_it",
+      "before_track": "wonder_when_im_gon_shine",
+      "master_time": 1398.847
+    },
+    {
+      "after_track": "wonder_when_im_gon_shine",
+      "before_track": "on_a_trance",
+      "master_time": 1564.052
+    },
+    {
+      "after_track": "on_a_trance",
+      "before_track": "do_you_see_me",
+      "master_time": 1698.452
+    },
+    {
+      "after_track": "do_you_see_me",
+      "before_track": "hella_racks",
+      "master_time": 1888.062
+    },
+    {
+      "after_track": "hella_racks",
+      "before_track": "difference",
+      "master_time": 2068.862
+    },
+    {
+      "after_track": "difference",
+      "before_track": "purple_satellites",
+      "master_time": 2254.462
+    },
+    {
+      "after_track": "purple_satellites",
+      "before_track": "golden_hour",
+      "master_time": 2486.462
+    },
+    {
+      "after_track": "golden_hour",
+      "before_track": "what_i_need",
+      "master_time": 2612.862
+    }
+  ],
+  "qa_reports": {
+    "master": "master_validation.json",
+    "boundary": "boundary_qa.json",
+    "palette": "palette_continuity.json",
+    "timing": "timing_regression.json"
+  }
+}

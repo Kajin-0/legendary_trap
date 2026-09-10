@@ -1,0 +1,35 @@
+FINAL EXPANDED REVIEW INDEX
+
+01 0.000s — AppLE — KarmaisMagic
+02 169.600s — Chokehold — OppTalk
+03 299.605s — COMIN LONG WAYS — PRODBYAPKIMZ
+04 462.421s — FOCUS — PRODBYAPKIMZ
+05 702.421s — Off the Wave — WILLZ
+06 892.821s — slidin — jayc3
+07 980.031s — we got chemistry — VonKai
+08 1229.247s — you missed it — TheSideQuest24
+09 1398.847s — Wonder When Im Gon Shine — berb
+10 1564.052s — On A Trance (V3) — lilshitty
+11 1698.452s — DO YOU SEE ME — PRODBYAPKIMZ
+12 1888.062s — hella racks — ken carson
+13 2068.862s — Difference — noek95
+14 2254.462s — PURPLE SATELLITES — SILL-E
+15 2486.462s — Golden Hour — Maverick
+16 2612.862s — What I Need! — MUSHI
+
+TRANSITIONS
+169.600s — apple → chokehold
+299.605s — chokehold → commin_long_ways
+462.421s — commin_long_ways → focus
+702.421s — focus → off_the_wave
+892.821s — off_the_wave → slidin
+980.031s — slidin → we_got_chemistry
+1229.247s — we_got_chemistry → you_missed_it
+1398.847s — you_missed_it → wonder_when_im_gon_shine
+1564.052s — wonder_when_im_gon_shine → on_a_trance
+1698.452s — on_a_trance → do_you_see_me
+1888.062s — do_you_see_me → hella_racks
+2068.862s — hella_racks → difference
+2254.462s — difference → purple_satellites
+2486.462s — purple_satellites → golden_hour
+2612.862s — golden_hour → what_i_need

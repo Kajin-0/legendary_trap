@@ -1,0 +1,143 @@
+{
+  "count": 15,
+  "boundaries": [
+    {
+      "after_track": 1,
+      "before_track": 2,
+      "master_time": 169.6,
+      "duration_delta_from_source": -0.032,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 2,
+      "before_track": 3,
+      "master_time": 299.605,
+      "duration_delta_from_source": -0.027,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 3,
+      "before_track": 4,
+      "master_time": 462.42100000000005,
+      "duration_delta_from_source": -0.024,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 4,
+      "before_track": 5,
+      "master_time": 702.421,
+      "duration_delta_from_source": -0.024,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 5,
+      "before_track": 6,
+      "master_time": 892.821,
+      "duration_delta_from_source": -0.04,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 6,
+      "before_track": 7,
+      "master_time": 980.0310000000001,
+      "duration_delta_from_source": -0.03,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 7,
+      "before_track": 8,
+      "master_time": 1229.247,
+      "duration_delta_from_source": -0.024,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 8,
+      "before_track": 9,
+      "master_time": 1398.847,
+      "duration_delta_from_source": -0.032,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 9,
+      "before_track": 10,
+      "master_time": 1564.052,
+      "duration_delta_from_source": -0.035,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 10,
+      "before_track": 11,
+      "master_time": 1698.452,
+      "duration_delta_from_source": -0.024,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 11,
+      "before_track": 12,
+      "master_time": 1888.062,
+      "duration_delta_from_source": -0.038,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 12,
+      "before_track": 13,
+      "master_time": 2068.862,
+      "duration_delta_from_source": -0.04,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 13,
+      "before_track": 14,
+      "master_time": 2254.462,
+      "duration_delta_from_source": -0.04,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 14,
+      "before_track": 15,
+      "master_time": 2486.462,
+      "duration_delta_from_source": -0.032,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    },
+    {
+      "after_track": 15,
+      "before_track": 16,
+      "master_time": 2612.862,
+      "duration_delta_from_source": -0.032,
+      "audio_gap_or_overlap": 0,
+      "subtitle_leakage": 0,
+      "artist_identity_error": 0
+    }
+  ],
+  "audio_gaps_or_errors": 0,
+  "subtitle_leakage": 0,
+  "artist_identity_errors": 0
+}

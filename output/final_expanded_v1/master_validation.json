@@ -1,0 +1,33 @@
+{
+  "master_sha256": "38db445d3cebbc1c62d870cdc266dbdb5e59649f03dddfe52894934df319461b",
+  "master_duration": 2764.093333,
+  "sum_rendered_segment_durations": 2764.072,
+  "duration_difference": 0.021332999999685853,
+  "duration_within_tolerance": true,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "159206400/5306999"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0"
+    }
+  ],
+  "resolution": "1920x1080",
+  "fps_target": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "final_fade_start": 2761.072,
+  "final_fade_duration": 3.0
+}

@@ -1,0 +1,104 @@
+{
+  "cycle_seconds": 64.0,
+  "resets": 0,
+  "monotonic_offsets": true,
+  "rows": [
+    {
+      "song_id": "apple",
+      "passed_offset": 0.0,
+      "rendered_master_start": 0.0,
+      "phase_mod_64": 0.0
+    },
+    {
+      "song_id": "chokehold",
+      "passed_offset": 169.632,
+      "rendered_master_start": 169.6,
+      "phase_mod_64": 41.632
+    },
+    {
+      "song_id": "commin_long_ways",
+      "passed_offset": 299.664,
+      "rendered_master_start": 299.605,
+      "phase_mod_64": 43.664
+    },
+    {
+      "song_id": "focus",
+      "passed_offset": 462.504,
+      "rendered_master_start": 462.42100000000005,
+      "phase_mod_64": 14.504
+    },
+    {
+      "song_id": "off_the_wave",
+      "passed_offset": 702.528,
+      "rendered_master_start": 702.421,
+      "phase_mod_64": 62.528
+    },
+    {
+      "song_id": "slidin",
+      "passed_offset": 892.968,
+      "rendered_master_start": 892.821,
+      "phase_mod_64": 60.968
+    },
+    {
+      "song_id": "we_got_chemistry",
+      "passed_offset": 980.208,
+      "rendered_master_start": 980.0310000000001,
+      "phase_mod_64": 20.208
+    },
+    {
+      "song_id": "you_missed_it",
+      "passed_offset": 1229.448,
+      "rendered_master_start": 1229.247,
+      "phase_mod_64": 13.448
+    },
+    {
+      "song_id": "wonder_when_im_gon_shine",
+      "passed_offset": 1399.08,
+      "rendered_master_start": 1398.847,
+      "phase_mod_64": 55.08
+    },
+    {
+      "song_id": "on_a_trance",
+      "passed_offset": 1564.32,
+      "rendered_master_start": 1564.052,
+      "phase_mod_64": 28.32
+    },
+    {
+      "song_id": "do_you_see_me",
+      "passed_offset": 1698.744,
+      "rendered_master_start": 1698.452,
+      "phase_mod_64": 34.744
+    },
+    {
+      "song_id": "hella_racks",
+      "passed_offset": 1888.392,
+      "rendered_master_start": 1888.062,
+      "phase_mod_64": 32.392
+    },
+    {
+      "song_id": "difference",
+      "passed_offset": 2069.232,
+      "rendered_master_start": 2068.862,
+      "phase_mod_64": 21.232
+    },
+    {
+      "song_id": "purple_satellites",
+      "passed_offset": 2254.872,
+      "rendered_master_start": 2254.462,
+      "phase_mod_64": 14.872
+    },
+    {
+      "song_id": "golden_hour",
+      "passed_offset": 2486.904,
+      "rendered_master_start": 2486.462,
+      "phase_mod_64": 54.904
+    },
+    {
+      "song_id": "what_i_need",
+      "passed_offset": 2613.336,
+      "rendered_master_start": 2612.862,
+      "phase_mod_64": 53.336
+    }
+  ],
+  "offset_basis": "exact source-duration cumulative master timeline; rendered frame boundaries are frame-quantized"
+}

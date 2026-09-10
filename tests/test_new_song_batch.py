@@ -15,8 +15,12 @@ def test_new_song_and_artist_registrations_preserve_track_order() -> None:
         "noek95": "noek95", "SILL-E": "SILL-E",
     }
     assert {key: artists[key]["display_name"] for key in expected} == expected
-    assert songs["track_order"] == ["apple", "chokehold", "commin_long_ways", "focus",
-                                    "off_the_wave", "slidin", "we_got_chemistry", "you_missed_it"]
+    assert songs["track_order"] == [
+        "apple", "chokehold", "commin_long_ways", "focus", "off_the_wave", "slidin",
+        "we_got_chemistry", "you_missed_it", "wonder_when_im_gon_shine", "on_a_trance",
+        "do_you_see_me", "hella_racks", "difference", "purple_satellites", "golden_hour",
+        "what_i_need",
+    ]
     assert songs["songs"]["on_a_trance"]["artists"] == ["lilshitty"]
     assert songs["songs"]["hella_racks"]["artists"] == ["ken carson"]
     assert songs["songs"]["difference"]["artists"] == ["noek95"]
@@ -32,7 +36,7 @@ def test_corrective_batch_registers_new_songs_and_pfps_without_guessing() -> Non
     assert songs["do_you_see_me"]["artists"] == ["PRODBYAPKIMZ"]
     assert songs["what_i_need"]["artists"] == ["mushi"]
     assert songs["golden_hour"]["artists"] == ["Maverick"]
-    assert "do_you_see_me" not in json.loads((ROOT / "configs/songs.json").read_text())["track_order"]
+    assert json.loads((ROOT / "configs/songs.json").read_text())["track_order"][10] == "do_you_see_me"
 
 
 def test_targeted_do_and_golden_timing_repairs_are_canonical() -> None:
