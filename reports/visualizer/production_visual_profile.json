@@ -1,0 +1,11 @@
+{
+  "selected_profile": "physical_core",
+  "selected_by_user": true,
+  "selection_basis": "reviewed Visual Power V2 B",
+  "production_thickness_scale": 2.2,
+  "production_preset": "trap_polar_350_artistlockup",
+  "production_renderer": "trap_sunset_polar_v3",
+  "baseline_diagnostic_only": true,
+  "full_power_diagnostic_only": true,
+  "c_only_effects_in_production": false
+}

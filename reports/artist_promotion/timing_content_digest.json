@@ -1,0 +1,12 @@
+{
+  "what_i_need": {
+    "before": "4dc1bed8091f345f33bb7bd18d469514017afb5d0319d9512a9873685c61ffe9",
+    "after": "4dc1bed8091f345f33bb7bd18d469514017afb5d0319d9512a9873685c61ffe9",
+    "unchanged": true
+  },
+  "golden_hour": {
+    "before": "510dad08640fdf7c6c39760db2590eebd9b3425c1cc7465bfd8264761682669d",
+    "after": "510dad08640fdf7c6c39760db2590eebd9b3425c1cc7465bfd8264761682669d",
+    "unchanged": true
+  }
+}

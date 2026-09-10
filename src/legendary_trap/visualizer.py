@@ -22,6 +22,7 @@ WIDTH, HEIGHT = 960, 540
 FPS = 30
 APPROVED_POLAR_LOW_MAX_HZ = 350.0
 PRODUCTION_REVIEW_PRESET = "trap_polar_350_artistlockup"
+PRODUCTION_VISUAL_PROFILE = "physical_core"
 PRODUCTION_POLAR_THICKNESS_SCALE = 2.2
 STANDALONE_SONGS = {
     "wonder_when_im_gon_shine": {
@@ -308,6 +309,14 @@ def palette_at_time(time_seconds: float) -> np.ndarray:
     eased = fraction * fraction * (3.0 - 2.0 * fraction)
     right = (left + 1) % len(PALETTE_STOPS)
     return PALETTE_STOPS[left] * (1.0 - eased) + PALETTE_STOPS[right] * eased
+
+
+def resolve_visual_profile(requested: str | None, production_review: bool = True) -> str:
+    """Resolve profile centrally; production rejects every non-approved profile."""
+    resolved = PRODUCTION_VISUAL_PROFILE if requested is None else requested
+    if production_review and resolved != PRODUCTION_VISUAL_PROFILE:
+        raise ValueError(f"production review requires {PRODUCTION_VISUAL_PROFILE}; got {resolved}")
+    return resolved
 
 
 def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
@@ -652,7 +661,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                    palette_time_offset: float = 0.0, production_review: bool = True,
                    artist_override: str | None = None,
                    polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
-                   visual_profile: str = "baseline") -> dict:
+                   visual_profile: str | None = None) -> dict:
+    resolved_profile = resolve_visual_profile(visual_profile, production_review)
     if production_review and preset_name != PRODUCTION_REVIEW_PRESET:
         raise ValueError(f"production review requires {PRODUCTION_REVIEW_PRESET}; got {preset_name}")
     if production_review and PRESETS[preset_name].visualizer != "trap_sunset_polar_v3":
@@ -682,11 +692,11 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                  {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror", "trap_sunset_polar_v2",
                   "trap_sunset_polar_v3"}
                  else _particles(preset))
-    impact_envelopes = build_impact_envelopes(features) if visual_profile != "baseline" else None
+    impact_envelopes = build_impact_envelopes(features) if resolved_profile != "baseline" else None
     impact_triggers = (impact_trigger_indices(impact_envelopes.fast)
                        if impact_envelopes is not None else None)
     staging = None
-    if visual_profile == "full_power" and song_id == "wonder_when_im_gon_shine":
+    if resolved_profile == "full_power" and song_id == "wonder_when_im_gon_shine":
         windows = [(float(section["start"]) - start, float(section["end"]) - start,
                     str(section.get("label", "")))
                    for section in reference.get("sections", [])]
@@ -719,7 +729,7 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                 process.stdin.write(render_frame(features, index, preset, particles,
                                                  palette_time_offset,
                                                  polar_thickness_scale,
-                                                 visual_profile, impact_envelopes,
+                                                 resolved_profile, impact_envelopes,
                                                  impact_triggers, staging).tobytes())
         process.stdin.close()
         process.wait(timeout=timeout_seconds)
@@ -730,13 +740,13 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
     still = video.with_suffix(".png")
     _write_png(render_frame(features, len(features.bass) // 2, preset, particles,
                             palette_time_offset, polar_thickness_scale,
-                            visual_profile, impact_envelopes,
+                            resolved_profile, impact_envelopes,
                             impact_triggers, staging), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
             "video": str(video.relative_to(ROOT)), "still": str(still.relative_to(ROOT)),
             "subtitle": str(Path(subtitle_paths["ass"]).relative_to(ROOT)),
-            "visual_profile": visual_profile}
+            "visual_profile": resolved_profile}
 
 
 def main() -> int:
@@ -751,13 +761,16 @@ def main() -> int:
     parser.add_argument("--low-max-hz", type=float, default=700.0)
     parser.add_argument("--no-identity", action="store_true")
     parser.add_argument("--polar-thickness-scale", type=float, default=1.0)
-    parser.add_argument("--visual-profile", choices=["baseline", "physical_core", "full_power"], default="baseline")
+    parser.add_argument("--visual-profile", choices=["baseline", "physical_core", "full_power"], default=None)
+    parser.add_argument("--diagnostic", action="store_true",
+                        help="allow explicit experimental profiles instead of production guard")
     args = parser.parse_args()
     print(json.dumps(render_preview(
         args.song, args.preset, args.start, args.duration,
         args.timeout, args.lyric_font, args.lyric_size,
         args.low_max_hz, not args.no_identity,
         polar_thickness_scale=args.polar_thickness_scale,
+        production_review=not args.diagnostic,
         visual_profile=args.visual_profile,
     ), indent=2))
     return 0

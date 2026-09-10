@@ -19,6 +19,7 @@ from legendary_trap.visualizer import (
     PRESETS,
     PRODUCTION_POLAR_THICKNESS_SCALE,
     PRODUCTION_REVIEW_PRESET,
+    PRODUCTION_VISUAL_PROFILE,
     STANDALONE_SONGS,
     WIDTH,
     _hybrid_particles,
@@ -31,6 +32,7 @@ from legendary_trap.visualizer import (
     polar_contour_offsets,
     polar_low_radii,
     render_frame,
+    resolve_visual_profile,
     section_staging_profile,
 )
 
@@ -76,6 +78,12 @@ def test_production_review_is_locked_to_approved_polar_renderer() -> None:
     assert PRODUCTION_REVIEW_PRESET == "trap_polar_350_artistlockup"
     assert PRESETS[PRODUCTION_REVIEW_PRESET].visualizer == "trap_sunset_polar_v3"
     assert STANDALONE_SONGS["wonder_when_im_gon_shine"]["audio_path"].startswith("source/")
+    assert PRODUCTION_VISUAL_PROFILE == "physical_core"
+    assert resolve_visual_profile(None, True) == "physical_core"
+    with pytest.raises(ValueError, match="physical_core"):
+        resolve_visual_profile("baseline", True)
+    with pytest.raises(ValueError, match="physical_core"):
+        resolve_visual_profile("full_power", True)
 
 
 def test_production_review_rejects_linear_fallback() -> None:
@@ -83,6 +91,11 @@ def test_production_review_rejects_linear_fallback() -> None:
 
     with pytest.raises(ValueError, match="production review requires"):
         render_preview("wonder_when_im_gon_shine", "trap_sunset_hybrid", 0.0, 1.0)
+
+
+def test_diagnostic_profiles_remain_available() -> None:
+    assert resolve_visual_profile("baseline", False) == "baseline"
+    assert resolve_visual_profile("full_power", False) == "full_power"
 
 
 def test_polar_thickness_changes_stroke_offsets_only() -> None:

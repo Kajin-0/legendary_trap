@@ -30,8 +30,8 @@ def test_corrective_batch_registers_new_songs_and_pfps_without_guessing() -> Non
     assert artists["ken carson"]["pfp"] == "assets/artists/kencarson.webp"
     assert artists["noek95"]["pfp"] == "assets/artists/noek95.webp"
     assert songs["do_you_see_me"]["artists"] == ["PRODBYAPKIMZ"]
-    assert songs["what_i_need"]["artists"] == []
-    assert songs["golden_hour"]["artists"] == []
+    assert songs["what_i_need"]["artists"] == ["mushi"]
+    assert songs["golden_hour"]["artists"] == ["Maverick"]
     assert "do_you_see_me" not in json.loads((ROOT / "configs/songs.json").read_text())["track_order"]
 
 
@@ -49,6 +49,13 @@ def test_targeted_do_and_golden_timing_repairs_are_canonical() -> None:
     target = next(line for section in golden["sections"] for line in section["lines"]
                   if line["line_id"] == "section_001_line_002")
     assert (target["start"], target["end"]) == (1.56, 3.3)
+
+
+def test_final_artist_identities_resolve_without_duplicates() -> None:
+    artists = json.loads((ROOT / "configs/artists.json").read_text())["artists"]
+    assert artists["mushi"] == {"display_name": "MUSHI", "pfp": "assets/artists/mushi.jpeg", "crop": "circle"}
+    assert "MUSHI" not in artists
+    assert artists["Maverick"]["pfp"] == "assets/artists/Maverick.webp"
 
 
 def test_new_song_structures_and_outputs_exist() -> None:
