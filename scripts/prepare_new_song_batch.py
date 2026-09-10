@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build canonical timing and subtitle exports for one of four new songs."""
+"""Build canonical timing and subtitle exports for one new song."""
 from __future__ import annotations
 
 import argparse
@@ -35,6 +35,12 @@ CATALOG = {
                     "audio": "source/Difference.mp3", "lyrics": "input/lyrics/difference.txt"},
     "purple_satellites": {"title": "PURPLE SATELLITES", "artist": "SILL-E",
                     "audio": "source/PURPLE SATELLITES.mp3", "lyrics": "input/lyrics/purple_satellites.txt"},
+    "do_you_see_me": {"title": "DO YOU SEE ME", "artist": "PRODBYAPKIMZ",
+                    "audio": "source/DO YOU SEE ME.mp3", "lyrics": "input/lyrics/do_you_see_me.txt"},
+    "what_i_need": {"title": "What I Need!", "artist": "",
+                    "audio": "source/What I Need!.mp3", "lyrics": "input/lyrics/what_I-need.txt"},
+    "golden_hour": {"title": "Golden Hour", "artist": "",
+                    "audio": "source/Golden Hour.mp3", "lyrics": "input/lyrics/golden_hour.txt"},
 }
 HEADING = re.compile(r"^\s*\*?\*?\[([^\]]+)\]\*?\*?\s*$")
 STRUCTURAL_PAREN = {"massage", "beat start", "verse", "chorus", "post-chrorus"}
@@ -89,6 +95,18 @@ def parse_source(path: Path, song_id: str) -> ParsedLyrics:
                                                 raw_line[start:end]))
     else:
         for source_line, raw_line in physical_lines:
+            stripped = raw_line.strip()
+            adlib_match = re.fullmatch(r"\[adlib:\s*(.*?)\]", stripped, flags=re.IGNORECASE)
+            if adlib_match:
+                if current is None:
+                    section_number += 1
+                    current = LyricSection(f"section_{section_number:03d}", "Unsectioned", source_line)
+                    sections.append(current)
+                line = _make_line(adlib_match.group(1).strip(), current.section_id,
+                                  len(current.lines) + 1, source_line, raw_line)
+                line.event_type, line.primary_lane = "vocal_adlib", "secondary"
+                current.lines.append(line)
+                continue
             heading = HEADING.match(raw_line)
             if heading:
                 section_number += 1
@@ -104,7 +122,8 @@ def parse_source(path: Path, song_id: str) -> ParsedLyrics:
                 section_number += 1
                 current = LyricSection(f"section_{section_number:03d}", "Unsectioned", source_line)
                 sections.append(current)
-            stripped = raw_line.strip()
+            if stripped == "⸻":
+                continue
             if stripped.startswith("(") and stripped.endswith(")"):
                 marker = stripped[1:-1].strip().lower()
                 if marker in {"verse", "chorus", "post-chrorus"}:
@@ -156,16 +175,19 @@ def align_document(parsed: ParsedLyrics, asr: dict, song: dict, audio_path: Path
     primary_end = 0.0
     for index, row in enumerate(all_rows):
         line = row["line"]
+        secondary = line.primary_lane == "secondary" or line.event_type in {"vocal_adlib", "adlib_only", "interjection"}
         if not line.tokens:
-            left = primary_end
+            left = max(0.0, row["start"]) if row["start"] > 0 else primary_end
             right = next((x["start"] for x in all_rows[index + 1:] if x["line"].tokens and x["start"] > left), left + 0.35)
             row["start"], row["end"] = left, max(left + 0.18, min(right, left + 0.35))
             row["timing_source"] = "bounded_asr" if line.event_type == "vocal_adlib" else "display_interpolation"
             row["confidence"] = max(row["confidence"], 0.45)
             continue
-        row["start"] = max(row["start"], primary_end)
+        if not secondary:
+            row["start"] = max(row["start"], primary_end)
         row["end"] = max(row["start"] + 0.12, row["end"])
-        primary_end = row["end"]
+        if not secondary:
+            primary_end = row["end"]
         matched = row["matched_tokens"]
         row["timing_source"] = "direct_acoustic" if matched >= max(1, row["total_tokens"] // 2) else "bounded_asr" if matched else "display_interpolation"
         row["acoustic_support"] = bool(matched)
@@ -181,8 +203,8 @@ def align_document(parsed: ParsedLyrics, asr: dict, song: dict, audio_path: Path
         "authoritative_token_count": parsed.token_count,
         "line_acoustic_coverage": sum(x["matched_tokens"] > 0 for x in all_rows) / max(1, len(all_rows)),
         "token_acoustic_coverage": sum(x["matched_tokens"] for x in all_rows) / max(1, parsed.token_count),
-        "primary_count": sum(bool(x["line"].tokens) for x in all_rows),
-        "secondary_count": sum(not bool(x["line"].tokens) for x in all_rows),
+        "primary_count": sum(x["line"].primary_lane != "secondary" and x["line"].event_type not in {"vocal_adlib", "adlib_only", "interjection"} for x in all_rows),
+        "secondary_count": sum(x["line"].primary_lane == "secondary" or x["line"].event_type in {"vocal_adlib", "adlib_only", "interjection"} for x in all_rows),
         "direct_acoustic_lines": sum(x["timing_source"] == "direct_acoustic" for x in all_rows),
         "bounded_asr_lines": sum(x["timing_source"] == "bounded_asr" for x in all_rows),
         "cadence_interpolated_lines": 0,
@@ -249,7 +271,9 @@ def main() -> None:
     song = CATALOG[args.song_id]
     audio = ROOT / song["audio"]
     lyric_path = ROOT / song["lyrics"]
-    asr_path = ROOT / "work" / "new_songs_batch_v1" / f"{args.song_id}_asr.json"
+    asr_path = ROOT / f"work/new_songs_batch_v2_{args.song_id}_asr.json"
+    if not asr_path.is_file():
+        asr_path = ROOT / "work" / "new_songs_batch_v1" / f"{args.song_id}_asr.json"
     parsed = parse_source(lyric_path, args.song_id)
     asr = json.loads(asr_path.read_text(encoding="utf-8"))
     doc = align_document(parsed, asr, song, audio, duration(audio))

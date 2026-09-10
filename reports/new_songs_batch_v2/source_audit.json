@@ -1,0 +1,39 @@
+{
+  "songs": {
+    "do_you_see_me": {
+      "source": "source/DO YOU SEE ME.mp3",
+      "sha256": "19eac34ab81467d9203df3ded43b4b4ff8f6511366568b2c2a02b8c658f7d411",
+      "duration": 189.648,
+      "codec": "mp3",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate": 169986,
+      "id3": {"title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100"}
+    },
+    "what_i_need": {
+      "source": "source/What I Need!.mp3",
+      "sha256": "a7b77cbdb7d40dd49a3ca8364ede77923ec51e104007e8fa520669f9c6f6148c",
+      "duration": 151.248,
+      "codec": "mp3",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate": 173621,
+      "id3": {"title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100"}
+    },
+    "golden_hour": {
+      "source": "source/Golden Hour.mp3",
+      "sha256": "cb661ccee7975b7919e6a8441ada10a7bd9f544229ea20d47d8ab1779228def3",
+      "duration": 126.432,
+      "codec": "mp3",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate": 189363,
+      "id3": {"title": null, "artist": null, "album": null, "encoder": "Lavf60.16.100"}
+    }
+  },
+  "artist_resolution": {
+    "do_you_see_me": "PRODBYAPKIMZ from explicit task metadata",
+    "what_i_need": null,
+    "golden_hour": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "song_id": "wonder_when_im_gon_shine",
+  "segment_start": 69.0,
+  "segment_duration": 20.0,
+  "preset": "trap_polar_350_artistlockup",
+  "renderer": "trap_sunset_polar_v3",
+  "polar_band_hz": [20, 350],
+  "low_spectrum_samples": 32,
+  "production_thickness_scale": 2.2,
+  "production_default_remains_baseline": true,
+  "variants": {
+    "A_baseline": {"profile": "baseline", "sha256": "f761e45cfd6eca1d1ed57cb66da00f81e6d2c74eb62b60864d2bb59db61a01ac"},
+    "B_physical_core": {"profile": "physical_core", "sha256": "d1bf76be8361749d6d5efe09dee5aeb00dddac1833db21442c27fdd2e7280920"},
+    "C_full_power": {"profile": "full_power", "sha256": "56ca4034e1baf1d37fe0a667e27f52f6a3f7a73c0fcb72eec54be47f67ce08d8"}
+  },
+  "comparison_sha256": "aa6174af61989a6668c484d259af386025a31ee5457d4f3a44f2fb4330aef2c8",
+  "effects": {
+    "unified_impact_envelope": true,
+    "contrast_aware_ring": true,
+    "local_contrast_halo": true,
+    "deformed_contour_afterimage": true,
+    "environment_lighting": true,
+    "particle_impulse": true,
+    "section_aware_staging": false,
+    "rim_sparks": true,
+    "chromatic_micro_fringe": true
+  },
+  "geometry_changed": false,
+  "visualizer_identity_changed": false,
+  "notes": "B/C are diagnostic opt-in profiles only; no production promotion was made."
+}

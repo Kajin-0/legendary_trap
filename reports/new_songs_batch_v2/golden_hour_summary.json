@@ -1,0 +1,92 @@
+{
+  "song_id": "golden_hour",
+  "title": "Golden Hour",
+  "artist": null,
+  "source": {
+    "path": "source/Golden Hour.mp3",
+    "duration_seconds": 126.432,
+    "sha256": "cb661ccee7975b7919e6a8441ada10a7bd9f544229ea20d47d8ab1779228def3"
+  },
+  "authoritative_lyrics": {
+    "path": "input/lyrics/golden_hour.txt",
+    "sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373"
+  },
+  "primary": 34,
+  "secondary": 0,
+  "direct_acoustic": 33,
+  "bounded_asr": 0,
+  "locally_anchored": 0,
+  "acoustic_transfer": 0,
+  "cadence_interpolation": 0,
+  "line_coverage": 0.9705882352941176,
+  "token_coverage": 0.935064935064935,
+  "unresolved": [
+    "section_001_line_002"
+  ],
+  "low_confidence": [
+    "section_001_line_002"
+  ],
+  "structural_qa": {
+    "zero_duration_primary": 0,
+    "primary_under_0_10": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0
+  },
+  "collisions": [],
+  "section_occurrence_windows": {
+    "section_001": {
+      "start": 0.0,
+      "end": 9.24,
+      "occurrence": 1
+    },
+    "section_002": {
+      "start": 9.24,
+      "end": 23.28,
+      "occurrence": 1
+    },
+    "section_003": {
+      "start": 23.28,
+      "end": 36.1,
+      "occurrence": 1
+    },
+    "section_004": {
+      "start": 36.1,
+      "end": 55.32,
+      "occurrence": 1
+    },
+    "section_005": {
+      "start": 56.48,
+      "end": 69.5,
+      "occurrence": 1
+    },
+    "section_006": {
+      "start": 69.5,
+      "end": 82.72,
+      "occurrence": 2
+    },
+    "section_007": {
+      "start": 82.72,
+      "end": 95.38,
+      "occurrence": 1
+    },
+    "section_008": {
+      "start": 97.48,
+      "end": 109.88,
+      "occurrence": 1
+    }
+  },
+  "timing_sha256": "69c7d8f4fed5218efc9e477acc587964c579bc680c55416c1592ed1b8c20ffac",
+  "artist_resolution": "unresolved",
+  "visualizer": {
+    "preset": "trap_polar_350_artistlockup",
+    "renderer": "trap_sunset_polar_v3",
+    "polar_band_hz": [
+      20,
+      350
+    ],
+    "low_samples": 32,
+    "thickness_scale": 2.2
+  }
+}

@@ -1,0 +1,3693 @@
+{
+  "schema_version": "1.0",
+  "song_id": "what_i_need",
+  "audio": {
+    "path": "source/What I Need!.mp3",
+    "duration_seconds": 151.248,
+    "sha256": "a7b77cbdb7d40dd49a3ca8364ede77923ec51e104007e8fa520669f9c6f6148c"
+  },
+  "alignment": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "a1dcfa6a496783630af97c8eb662b7a64c7526613b9418d0377b834fabe5dd9a",
+    "authoritative_line_count": 56,
+    "authoritative_token_count": 207,
+    "line_acoustic_coverage": 0.8928571428571429,
+    "token_acoustic_coverage": 0.9903381642512077,
+    "primary_count": 50,
+    "secondary_count": 6,
+    "direct_acoustic_lines": 50,
+    "bounded_asr_lines": 6,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 151.248,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 13.32,
+        "end": 26.52,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 26.52,
+        "end": 33.34,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 33.34,
+        "end": 54.4,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 59.56,
+        "end": 73.2,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 73.2,
+        "end": 80.52,
+        "occurrence": 2
+      },
+      "section_006": {
+        "start": 80.52,
+        "end": 94.76,
+        "occurrence": 2
+      },
+      "section_007": {
+        "start": 106.4,
+        "end": 120.62,
+        "occurrence": 1
+      },
+      "section_008": {
+        "start": 121.44,
+        "end": 135.22,
+        "occurrence": 3
+      }
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Verse 1",
+      "raw_label": "[Verse 1]",
+      "normalized_label": "verse 1",
+      "structural_role": "verse_1",
+      "structural_inferred": false,
+      "fingerprint": "bills on the counter plate in the sink phone on low battery no time to think empty in the closet shoes got tape i keep looking at the week like it might escape",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 13.32,
+      "end": 26.52,
+      "confidence": 0.9707,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 2,
+          "original_text": "Bills on the counter",
+          "lead_text": "Bills on the counter",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 2,
+          "raw_source_span": "Bills on the counter",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 13.32,
+          "end": 14.7,
+          "confidence": 0.962,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 13.32,
+          "acoustic_end": 14.7,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "bills",
+              "start": 13.32,
+              "end": 13.96,
+              "confidence": 0.417,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 13.96,
+              "end": 14.2,
+              "confidence": 0.992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 14.2,
+              "end": 14.44,
+              "confidence": 0.9963,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "counter",
+              "start": 14.44,
+              "end": 14.7,
+              "confidence": 0.9861,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_002",
+          "source_line": 3,
+          "original_text": "Plate in the sink",
+          "lead_text": "Plate in the sink",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 3,
+          "raw_source_span": "Plate in the sink",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 14.86,
+          "end": 16.36,
+          "confidence": 0.9622,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 14.86,
+          "acoustic_end": 16.36,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "plate",
+              "start": 14.86,
+              "end": 15.48,
+              "confidence": 0.5554,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 15.48,
+              "end": 15.88,
+              "confidence": 0.974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 15.88,
+              "end": 16.04,
+              "confidence": 0.9943,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sink",
+              "start": 16.04,
+              "end": 16.36,
+              "confidence": 0.8715,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_003",
+          "source_line": 4,
+          "original_text": "Phone on low battery",
+          "lead_text": "Phone on low battery",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 4,
+          "raw_source_span": "Phone on low battery",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 16.36,
+          "end": 18.26,
+          "confidence": 0.9417,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 16.36,
+          "acoustic_end": 18.26,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "phone",
+              "start": 16.36,
+              "end": 17.12,
+              "confidence": 0.194,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 17.12,
+              "end": 17.34,
+              "confidence": 0.9656,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "low",
+              "start": 17.34,
+              "end": 17.6,
+              "confidence": 0.9433,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "battery",
+              "start": 17.6,
+              "end": 18.26,
+              "confidence": 0.9636,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_004",
+          "source_line": 5,
+          "original_text": "No time to think",
+          "lead_text": "No time to think",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 5,
+          "raw_source_span": "No time to think",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 18.7,
+          "end": 19.74,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 18.7,
+          "acoustic_end": 19.74,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "no",
+              "start": 18.7,
+              "end": 18.84,
+              "confidence": 0.9973,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "time",
+              "start": 18.84,
+              "end": 19.24,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 19.24,
+              "end": 19.44,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "think",
+              "start": 19.44,
+              "end": 19.74,
+              "confidence": 0.9922,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_005",
+          "source_line": 7,
+          "original_text": "Empty in the closet",
+          "lead_text": "Empty in the closet",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 7,
+          "raw_source_span": "Empty in the closet",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 19.74,
+          "end": 21.54,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 19.74,
+          "acoustic_end": 21.54,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "empty",
+              "start": 19.74,
+              "end": 20.74,
+              "confidence": 0.9918,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 20.74,
+              "end": 21.0,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 21.0,
+              "end": 21.14,
+              "confidence": 0.9982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "closet",
+              "start": 21.14,
+              "end": 21.54,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_006",
+          "source_line": 8,
+          "original_text": "Shoes got tape",
+          "lead_text": "Shoes got tape",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 8,
+          "raw_source_span": "Shoes got tape",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 21.68,
+          "end": 23.1,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 21.68,
+          "acoustic_end": 23.1,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "shoes",
+              "start": 21.68,
+              "end": 22.26,
+              "confidence": 0.9811,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 22.26,
+              "end": 22.74,
+              "confidence": 0.9873,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tape",
+              "start": 22.74,
+              "end": 23.1,
+              "confidence": 0.9703,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_007",
+          "source_line": 9,
+          "original_text": "I keep looking at the week",
+          "lead_text": "I keep looking at the week",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 9,
+          "raw_source_span": "I keep looking at the week",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 23.1,
+          "end": 24.8,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 23.1,
+          "acoustic_end": 24.8,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "i",
+              "start": 23.1,
+              "end": 23.42,
+              "confidence": 0.9945,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "keep",
+              "start": 23.42,
+              "end": 23.68,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "looking",
+              "start": 23.68,
+              "end": 24.04,
+              "confidence": 0.7783,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "at",
+              "start": 24.04,
+              "end": 24.36,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 24.36,
+              "end": 24.54,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "week",
+              "start": 24.54,
+              "end": 24.8,
+              "confidence": 0.9332,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_008",
+          "source_line": 10,
+          "original_text": "Like it might escape",
+          "lead_text": "Like it might escape",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 10,
+          "raw_source_span": "Like it might escape",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 24.9,
+          "end": 26.52,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 24.9,
+          "acoustic_end": 26.52,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "like",
+              "start": 24.9,
+              "end": 25.22,
+              "confidence": 0.9975,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 25.22,
+              "end": 25.4,
+              "confidence": 0.9929,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "might",
+              "start": 25.4,
+              "end": 25.84,
+              "confidence": 0.9792,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "escape",
+              "start": 25.84,
+              "end": 26.52,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Pre-Chorus",
+      "raw_label": "[Pre-Chorus]",
+      "normalized_label": "pre-chorus",
+      "structural_role": "pre_chorus",
+      "structural_inferred": false,
+      "fingerprint": "tell me what you need i know what i need a little more room a little more speed",
+      "repeat_group": "repeat_group_002",
+      "occurrence_index": 1,
+      "occurrence_count": 2,
+      "start": 26.52,
+      "end": 33.34,
+      "confidence": 0.98,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 13,
+          "original_text": "Tell me what you need",
+          "lead_text": "Tell me what you need",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 13,
+          "raw_source_span": "Tell me what you need",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 26.52,
+          "end": 28.36,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 26.52,
+          "acoustic_end": 28.36,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "tell",
+              "start": 26.52,
+              "end": 27.26,
+              "confidence": 0.9126,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 27.26,
+              "end": 27.48,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 27.48,
+              "end": 27.74,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 27.74,
+              "end": 27.88,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 27.88,
+              "end": 28.36,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 14,
+          "original_text": "I know what I need",
+          "lead_text": "I know what I need",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 14,
+          "raw_source_span": "I know what I need",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 28.42,
+          "end": 30.0,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 28.42,
+          "acoustic_end": 30.0,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 28.42,
+              "end": 28.96,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 28.96,
+              "end": 29.2,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 29.2,
+              "end": 29.46,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 29.46,
+              "end": 29.6,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 29.6,
+              "end": 30.0,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 15,
+          "original_text": "A little more room",
+          "lead_text": "A little more room",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 15,
+          "raw_source_span": "A little more room",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 30.0,
+          "end": 31.7,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 30.0,
+          "acoustic_end": 31.7,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "a",
+              "start": 30.0,
+              "end": 30.46,
+              "confidence": 0.9815,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "little",
+              "start": 30.46,
+              "end": 30.74,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 30.74,
+              "end": 31.22,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "room",
+              "start": 31.22,
+              "end": 31.7,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 16,
+          "original_text": "A little more speed",
+          "lead_text": "A little more speed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 16,
+          "raw_source_span": "A little more speed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 31.88,
+          "end": 33.34,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 31.88,
+          "acoustic_end": 33.34,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "a",
+              "start": 31.88,
+              "end": 32.2,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "little",
+              "start": 32.2,
+              "end": 32.42,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 32.42,
+              "end": 32.82,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "speed",
+              "start": 32.82,
+              "end": 33.34,
+              "confidence": 0.9921,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Chorus",
+      "raw_label": "[Chorus]",
+      "normalized_label": "chorus",
+      "structural_role": "chorus",
+      "structural_inferred": false,
+      "fingerprint": "more money more money more money more money more money more money keep the wolves outside more money more money let me breathe tonight",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 1,
+      "occurrence_count": 3,
+      "start": 33.34,
+      "end": 54.4,
+      "confidence": 0.8475,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 19,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 19,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 33.34,
+          "end": 35.9,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 33.34,
+          "acoustic_end": 35.9,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 33.34,
+              "end": 34.54,
+              "confidence": 0.9863,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 34.54,
+              "end": 35.04,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 35.14,
+              "end": 35.42,
+              "confidence": 0.9715,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 35.42,
+              "end": 35.9,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 20,
+          "original_text": "(I need it now)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it now"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it now"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "now"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 20,
+          "raw_source_span": "(I need it now)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 35.9,
+          "end": 36.25,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 35.9,
+          "acoustic_end": 36.25,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 21,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 21,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 37.24,
+          "end": 39.22,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 37.24,
+          "acoustic_end": 39.22,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 37.24,
+              "end": 37.94,
+              "confidence": 0.9974,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 37.94,
+              "end": 38.44,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 38.54,
+              "end": 38.78,
+              "confidence": 0.991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 38.78,
+              "end": 39.22,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 22,
+          "original_text": "(I need it somehow)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it somehow"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it somehow"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "somehow"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 22,
+          "raw_source_span": "(I need it somehow)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 39.22,
+          "end": 39.57,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 39.22,
+          "acoustic_end": 39.57,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_003_line_005",
+          "source_line": 24,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 24,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 40.8,
+          "end": 42.62,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 40.8,
+          "acoustic_end": 42.62,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 40.8,
+              "end": 41.32,
+              "confidence": 0.9891,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 41.32,
+              "end": 41.78,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 41.9,
+              "end": 42.18,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 42.18,
+              "end": 42.62,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_006",
+          "source_line": 25,
+          "original_text": "Keep the wolves outside",
+          "lead_text": "Keep the wolves outside",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 25,
+          "raw_source_span": "Keep the wolves outside",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 42.74,
+          "end": 44.3,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 42.74,
+          "acoustic_end": 44.3,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "keep",
+              "start": 42.74,
+              "end": 42.94,
+              "confidence": 0.991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 42.94,
+              "end": 43.14,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wolves",
+              "start": 43.14,
+              "end": 43.62,
+              "confidence": 0.7404,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "outside",
+              "start": 43.62,
+              "end": 44.3,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_007",
+          "source_line": 26,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 26,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 44.3,
+          "end": 46.0,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 44.3,
+          "acoustic_end": 46.0,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 44.3,
+              "end": 44.72,
+              "confidence": 0.9958,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 44.72,
+              "end": 45.16,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 45.28,
+              "end": 45.56,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 45.56,
+              "end": 46.0,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_008",
+          "source_line": 27,
+          "original_text": "Let me breathe tonight",
+          "lead_text": "Let me breathe tonight",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 27,
+          "raw_source_span": "Let me breathe tonight",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 47.62,
+          "end": 54.4,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 47.62,
+          "acoustic_end": 54.4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "let",
+              "start": 47.62,
+              "end": 48.5,
+              "confidence": 0.7629,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 48.5,
+              "end": 53.24,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "breathe",
+              "start": 53.24,
+              "end": 53.74,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tonight",
+              "start": 53.74,
+              "end": 54.4,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Verse 2",
+      "raw_label": "[Verse 2]",
+      "normalized_label": "verse 2",
+      "structural_role": "verse_2",
+      "structural_inferred": false,
+      "fingerprint": "mama on the line saying hold your head i'm counting every dollar before i go to bed gas light blinking rent due soon i make a little magic out of bad news",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 59.56,
+      "end": 73.2,
+      "confidence": 0.9333,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 30,
+          "original_text": "Mama on the line",
+          "lead_text": "Mama on the line",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 30,
+          "raw_source_span": "Mama on the line",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 59.56,
+          "end": 61.3,
+          "confidence": 0.9363,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 59.56,
+          "acoustic_end": 61.3,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "mama",
+              "start": 59.56,
+              "end": 60.28,
+              "confidence": 0.0619,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 60.28,
+              "end": 60.72,
+              "confidence": 0.9477,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 60.72,
+              "end": 60.86,
+              "confidence": 0.9817,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "line",
+              "start": 60.86,
+              "end": 61.3,
+              "confidence": 0.9901,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 31,
+          "original_text": "Saying hold your head",
+          "lead_text": "Saying hold your head",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 31,
+          "raw_source_span": "Saying hold your head",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 61.36,
+          "end": 62.88,
+          "confidence": 0.9517,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 61.36,
+          "acoustic_end": 62.88,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "saying",
+              "start": 61.36,
+              "end": 62.02,
+              "confidence": 0.692,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hold",
+              "start": 62.02,
+              "end": 62.38,
+              "confidence": 0.6688,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "your",
+              "start": 62.38,
+              "end": 62.56,
+              "confidence": 0.9641,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "head",
+              "start": 62.56,
+              "end": 62.88,
+              "confidence": 0.9028,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 32,
+          "original_text": "I’m counting every dollar",
+          "lead_text": "I’m counting every dollar",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 32,
+          "raw_source_span": "I’m counting every dollar",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 62.88,
+          "end": 64.56,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 62.88,
+          "acoustic_end": 64.56,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 62.88,
+              "end": 63.42,
+              "confidence": 0.9608,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "counting",
+              "start": 63.42,
+              "end": 63.68,
+              "confidence": 0.9885,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "every",
+              "start": 63.68,
+              "end": 64.16,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dollar",
+              "start": 64.16,
+              "end": 64.56,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 33,
+          "original_text": "Before I go to bed",
+          "lead_text": "Before I go to bed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 33,
+          "raw_source_span": "Before I go to bed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 64.56,
+          "end": 66.3,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 64.56,
+          "acoustic_end": 66.3,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "before",
+              "start": 64.56,
+              "end": 65.2,
+              "confidence": 0.7191,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 65.2,
+              "end": 65.46,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "go",
+              "start": 65.46,
+              "end": 65.72,
+              "confidence": 0.9992,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 65.72,
+              "end": 65.86,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bed",
+              "start": 65.86,
+              "end": 66.3,
+              "confidence": 0.9947,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 35,
+          "original_text": "Gas light blinking",
+          "lead_text": "Gas light blinking",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 35,
+          "raw_source_span": "Gas light blinking",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 66.3,
+          "end": 67.94,
+          "confidence": 0.7273,
+          "matched_tokens": 2,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 66.3,
+          "acoustic_end": 67.94,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "gas",
+              "start": 66.3,
+              "end": 66.847,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "light",
+              "start": 66.3,
+              "end": 67.46,
+              "confidence": 0.9137,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blinking",
+              "start": 67.46,
+              "end": 67.94,
+              "confidence": 0.9045,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 36,
+          "original_text": "Rent due soon",
+          "lead_text": "Rent due soon",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 36,
+          "raw_source_span": "Rent due soon",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 68.54,
+          "end": 69.72,
+          "confidence": 0.9308,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 68.54,
+          "acoustic_end": 69.72,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "rent",
+              "start": 68.54,
+              "end": 68.72,
+              "confidence": 0.7207,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "due",
+              "start": 68.72,
+              "end": 69.1,
+              "confidence": 0.4623,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "soon",
+              "start": 69.1,
+              "end": 69.72,
+              "confidence": 0.9868,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_007",
+          "source_line": 37,
+          "original_text": "I make a little magic",
+          "lead_text": "I make a little magic",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 37,
+          "raw_source_span": "I make a little magic",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 69.72,
+          "end": 71.3,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 69.72,
+          "acoustic_end": 71.3,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 69.72,
+              "end": 70.08,
+              "confidence": 0.9895,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "make",
+              "start": 70.08,
+              "end": 70.38,
+              "confidence": 0.9367,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 70.38,
+              "end": 70.6,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "little",
+              "start": 70.6,
+              "end": 70.8,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "magic",
+              "start": 70.8,
+              "end": 71.3,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_008",
+          "source_line": 38,
+          "original_text": "Out of bad news",
+          "lead_text": "Out of bad news",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 38,
+          "raw_source_span": "Out of bad news",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 71.3,
+          "end": 73.2,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 71.3,
+          "acoustic_end": 73.2,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "out",
+              "start": 71.3,
+              "end": 71.66,
+              "confidence": 0.9632,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 71.66,
+              "end": 71.78,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "bad",
+              "start": 71.78,
+              "end": 72.38,
+              "confidence": 0.9812,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "news",
+              "start": 72.38,
+              "end": 73.2,
+              "confidence": 0.9967,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Pre-Chorus",
+      "raw_label": "[Pre-Chorus]",
+      "normalized_label": "pre-chorus",
+      "structural_role": "pre_chorus",
+      "structural_inferred": false,
+      "fingerprint": "tell me what you need i know what i need a little more room a little more speed",
+      "repeat_group": "repeat_group_002",
+      "occurrence_index": 2,
+      "occurrence_count": 2,
+      "start": 73.2,
+      "end": 80.52,
+      "confidence": 0.98,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 41,
+          "original_text": "Tell me what you need",
+          "lead_text": "Tell me what you need",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 41,
+          "raw_source_span": "Tell me what you need",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 73.2,
+          "end": 75.56,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 73.2,
+          "acoustic_end": 75.56,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "tell",
+              "start": 73.2,
+              "end": 74.5,
+              "confidence": 0.9919,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 74.5,
+              "end": 74.72,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 74.72,
+              "end": 74.98,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 74.98,
+              "end": 75.1,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 75.1,
+              "end": 75.56,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 42,
+          "original_text": "I know what I need",
+          "lead_text": "I know what I need",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 42,
+          "raw_source_span": "I know what I need",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 76.08,
+          "end": 77.22,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 76.08,
+          "acoustic_end": 77.22,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i",
+              "start": 76.08,
+              "end": 76.18,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "know",
+              "start": 76.18,
+              "end": 76.4,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "what",
+              "start": 76.4,
+              "end": 76.68,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i",
+              "start": 76.68,
+              "end": 76.82,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "need",
+              "start": 76.82,
+              "end": 77.22,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 43,
+          "original_text": "A little more room",
+          "lead_text": "A little more room",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 43,
+          "raw_source_span": "A little more room",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 77.22,
+          "end": 78.9,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 77.22,
+          "acoustic_end": 78.9,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "a",
+              "start": 77.22,
+              "end": 77.68,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "little",
+              "start": 77.68,
+              "end": 77.94,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 77.94,
+              "end": 78.42,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "room",
+              "start": 78.42,
+              "end": 78.9,
+              "confidence": 0.9982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 44,
+          "original_text": "A little more speed",
+          "lead_text": "A little more speed",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 44,
+          "raw_source_span": "A little more speed",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 79.14,
+          "end": 80.52,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 79.14,
+          "acoustic_end": 80.52,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "a",
+              "start": 79.14,
+              "end": 79.4,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "little",
+              "start": 79.4,
+              "end": 79.62,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 79.62,
+              "end": 80.02,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "speed",
+              "start": 80.02,
+              "end": 80.52,
+              "confidence": 0.9893,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Chorus",
+      "raw_label": "[Chorus]",
+      "normalized_label": "chorus",
+      "structural_role": "chorus",
+      "structural_inferred": false,
+      "fingerprint": "more money more money more money more money more money more money keep the wolves outside more money more money let me breathe tonight",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 2,
+      "occurrence_count": 3,
+      "start": 80.52,
+      "end": 94.76,
+      "confidence": 0.8475,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 47,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 47,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 80.52,
+          "end": 83.08,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 80.52,
+          "acoustic_end": 83.08,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 80.52,
+              "end": 81.74,
+              "confidence": 0.9909,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 81.74,
+              "end": 82.24,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 82.32,
+              "end": 82.6,
+              "confidence": 0.9013,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 82.6,
+              "end": 83.08,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 48,
+          "original_text": "(I need it now)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it now"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it now"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "now"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 48,
+          "raw_source_span": "(I need it now)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 83.08,
+          "end": 83.43,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 83.08,
+          "acoustic_end": 83.43,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 49,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 49,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 84.22,
+          "end": 86.34,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 84.22,
+          "acoustic_end": 86.34,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 84.22,
+              "end": 85.12,
+              "confidence": 0.7909,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 85.12,
+              "end": 85.6,
+              "confidence": 0.9908,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 85.7,
+              "end": 85.98,
+              "confidence": 0.9419,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 85.98,
+              "end": 86.34,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 50,
+          "original_text": "(I need it somehow)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it somehow"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it somehow"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "somehow"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 50,
+          "raw_source_span": "(I need it somehow)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 86.34,
+          "end": 86.69,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 86.34,
+          "acoustic_end": 86.69,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_006_line_005",
+          "source_line": 52,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 52,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 87.88,
+          "end": 89.72,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 87.88,
+          "acoustic_end": 89.72,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 87.88,
+              "end": 88.48,
+              "confidence": 0.98,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 88.48,
+              "end": 88.94,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 89.04,
+              "end": 89.34,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 89.34,
+              "end": 89.72,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_006",
+          "source_line": 53,
+          "original_text": "Keep the wolves outside",
+          "lead_text": "Keep the wolves outside",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 53,
+          "raw_source_span": "Keep the wolves outside",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 89.82,
+          "end": 91.4,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 89.82,
+          "acoustic_end": 91.4,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "keep",
+              "start": 89.82,
+              "end": 90.06,
+              "confidence": 0.9936,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 90.06,
+              "end": 90.3,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wolves",
+              "start": 90.3,
+              "end": 90.72,
+              "confidence": 0.9076,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "outside",
+              "start": 90.72,
+              "end": 91.4,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_007",
+          "source_line": 54,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 54,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 91.4,
+          "end": 93.04,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 91.4,
+          "acoustic_end": 93.04,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 91.4,
+              "end": 91.84,
+              "confidence": 0.9943,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 91.84,
+              "end": 92.3,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 92.4,
+              "end": 92.68,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 92.68,
+              "end": 93.04,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_008",
+          "source_line": 55,
+          "original_text": "Let me breathe tonight",
+          "lead_text": "Let me breathe tonight",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 55,
+          "raw_source_span": "Let me breathe tonight",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 93.2,
+          "end": 94.76,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 93.2,
+          "acoustic_end": 94.76,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "let",
+              "start": 93.2,
+              "end": 93.4,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 93.4,
+              "end": 93.58,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "breathe",
+              "start": 93.58,
+              "end": 93.98,
+              "confidence": 0.9873,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tonight",
+              "start": 93.98,
+              "end": 94.76,
+              "confidence": 0.9502,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_007",
+      "label": "Bridge",
+      "raw_label": "[Bridge]",
+      "normalized_label": "bridge",
+      "structural_role": "bridge",
+      "structural_inferred": false,
+      "fingerprint": "i'm tired of the stretch tired of the wait tired of making dreams fit in a takeout plate one more break one more win let the whole world change when the pay comes in",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 106.4,
+      "end": 120.62,
+      "confidence": 0.9577,
+      "lines": [
+        {
+          "line_id": "section_007_line_001",
+          "source_line": 58,
+          "original_text": "I’m tired of the stretch",
+          "lead_text": "I’m tired of the stretch",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 58,
+          "raw_source_span": "I’m tired of the stretch",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 106.4,
+          "end": 108.36,
+          "confidence": 0.9752,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 106.4,
+          "acoustic_end": 108.36,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "i'm",
+              "start": 106.4,
+              "end": 107.04,
+              "confidence": 0.8203,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tired",
+              "start": 107.04,
+              "end": 107.5,
+              "confidence": 0.9964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 107.5,
+              "end": 107.76,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 107.76,
+              "end": 107.88,
+              "confidence": 0.9977,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stretch",
+              "start": 107.88,
+              "end": 108.36,
+              "confidence": 0.6905,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_002",
+          "source_line": 59,
+          "original_text": "Tired of the wait",
+          "lead_text": "Tired of the wait",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 59,
+          "raw_source_span": "Tired of the wait",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 108.52,
+          "end": 109.96,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 108.52,
+          "acoustic_end": 109.96,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "tired",
+              "start": 108.52,
+              "end": 109.18,
+              "confidence": 0.9938,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 109.18,
+              "end": 109.54,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 109.54,
+              "end": 109.68,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wait",
+              "start": 109.68,
+              "end": 109.96,
+              "confidence": 0.8509,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_003",
+          "source_line": 60,
+          "original_text": "Tired of making dreams",
+          "lead_text": "Tired of making dreams",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 60,
+          "raw_source_span": "Tired of making dreams",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 109.96,
+          "end": 111.72,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 109.96,
+          "acoustic_end": 111.72,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "tired",
+              "start": 109.96,
+              "end": 110.72,
+              "confidence": 0.9781,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "of",
+              "start": 110.72,
+              "end": 110.94,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "making",
+              "start": 110.94,
+              "end": 111.22,
+              "confidence": 0.8051,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "dreams",
+              "start": 111.22,
+              "end": 111.72,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_004",
+          "source_line": 61,
+          "original_text": "Fit in a takeout plate",
+          "lead_text": "Fit in a takeout plate",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 61,
+          "raw_source_span": "Fit in a takeout plate",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 111.72,
+          "end": 113.32,
+          "confidence": 0.8064,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.8
+          },
+          "acoustic_start": 111.72,
+          "acoustic_end": 113.32,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "fit",
+              "start": 111.72,
+              "end": 112.04,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 112.04,
+              "end": 112.46,
+              "confidence": 0.5957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 112.36,
+              "end": 112.68,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "takeout",
+              "start": 112.64,
+              "end": 113.04,
+              "confidence": 0.8061,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "plate",
+              "start": 113.04,
+              "end": 113.32,
+              "confidence": 0.902,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_005",
+          "source_line": 63,
+          "original_text": "One more break",
+          "lead_text": "One more break",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 63,
+          "raw_source_span": "One more break",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 113.32,
+          "end": 115.06,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 113.32,
+          "acoustic_end": 115.06,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "one",
+              "start": 113.32,
+              "end": 114.18,
+              "confidence": 0.9669,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 114.18,
+              "end": 114.62,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "break",
+              "start": 114.62,
+              "end": 115.06,
+              "confidence": 0.9617,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_006",
+          "source_line": 64,
+          "original_text": "One more win",
+          "lead_text": "One more win",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 64,
+          "raw_source_span": "One more win",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 115.16,
+          "end": 116.68,
+          "confidence": 0.98,
+          "matched_tokens": 3,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 115.16,
+          "acoustic_end": 116.68,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "one",
+              "start": 115.16,
+              "end": 115.82,
+              "confidence": 0.995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 115.82,
+              "end": 116.32,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "win",
+              "start": 116.32,
+              "end": 116.68,
+              "confidence": 0.8604,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_007",
+          "source_line": 65,
+          "original_text": "Let the whole world change",
+          "lead_text": "Let the whole world change",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 65,
+          "raw_source_span": "Let the whole world change",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 116.68,
+          "end": 118.44,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 116.68,
+          "acoustic_end": 118.44,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "let",
+              "start": 116.68,
+              "end": 117.0,
+              "confidence": 0.9597,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 117.0,
+              "end": 117.22,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "whole",
+              "start": 117.22,
+              "end": 117.54,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "world",
+              "start": 117.54,
+              "end": 117.96,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "change",
+              "start": 117.96,
+              "end": 118.44,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_008",
+          "source_line": 66,
+          "original_text": "When the pay comes in",
+          "lead_text": "When the pay comes in",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 66,
+          "raw_source_span": "When the pay comes in",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 118.44,
+          "end": 120.62,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 118.44,
+          "acoustic_end": 120.62,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "when",
+              "start": 118.44,
+              "end": 118.7,
+              "confidence": 0.993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 118.7,
+              "end": 118.88,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "pay",
+              "start": 118.88,
+              "end": 119.22,
+              "confidence": 0.8603,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "comes",
+              "start": 119.22,
+              "end": 119.8,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 119.8,
+              "end": 120.62,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_008",
+      "label": "Chorus",
+      "raw_label": "[Chorus]",
+      "normalized_label": "chorus",
+      "structural_role": "chorus",
+      "structural_inferred": false,
+      "fingerprint": "more money more money more money more money more money more money keep the wolves outside more money more money let me breathe tonight",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 3,
+      "occurrence_count": 3,
+      "start": 121.44,
+      "end": 135.22,
+      "confidence": 0.8475,
+      "lines": [
+        {
+          "line_id": "section_008_line_001",
+          "source_line": 69,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 69,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 121.44,
+          "end": 123.46,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 121.44,
+          "acoustic_end": 123.46,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 121.44,
+              "end": 122.16,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 122.16,
+              "end": 122.62,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 122.72,
+              "end": 123.0,
+              "confidence": 0.9904,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 123.0,
+              "end": 123.46,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_002",
+          "source_line": 70,
+          "original_text": "(I need it now)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it now"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it now"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "now"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 70,
+          "raw_source_span": "(I need it now)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 123.46,
+          "end": 123.81,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 123.46,
+          "acoustic_end": 123.81,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_008_line_003",
+          "source_line": 71,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 71,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 124.74,
+          "end": 126.72,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 124.74,
+          "acoustic_end": 126.72,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 124.74,
+              "end": 125.5,
+              "confidence": 0.9949,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 125.5,
+              "end": 125.96,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 126.06,
+              "end": 126.34,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 126.34,
+              "end": 126.72,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_004",
+          "source_line": 72,
+          "original_text": "(I need it somehow)",
+          "lead_text": "",
+          "adlibs": [
+            "I need it somehow"
+          ],
+          "event_type": "vocal_adlib",
+          "primary_lane": "secondary",
+          "acoustic_match_texts": [
+            "i need it somehow"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "i",
+              "need",
+              "it",
+              "somehow"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 72,
+          "raw_source_span": "(I need it somehow)",
+          "structurally_inferred": false,
+          "timing_source": "bounded_asr",
+          "acoustic_support": false,
+          "estimated_timing": false,
+          "start": 126.72,
+          "end": 127.07,
+          "confidence": 0.45,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 126.72,
+          "acoustic_end": 127.07,
+          "total_tokens": 0,
+          "words": []
+        },
+        {
+          "line_id": "section_008_line_005",
+          "source_line": 74,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 74,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 128.28,
+          "end": 130.12,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 128.28,
+          "acoustic_end": 130.12,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 128.28,
+              "end": 128.86,
+              "confidence": 0.9964,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 128.86,
+              "end": 129.3,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 129.42,
+              "end": 129.68,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 129.68,
+              "end": 130.12,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_006",
+          "source_line": 75,
+          "original_text": "Keep the wolves outside",
+          "lead_text": "Keep the wolves outside",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 75,
+          "raw_source_span": "Keep the wolves outside",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 130.24,
+          "end": 131.74,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 130.24,
+          "acoustic_end": 131.74,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "keep",
+              "start": 130.24,
+              "end": 130.42,
+              "confidence": 0.9953,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 130.42,
+              "end": 130.64,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "wolves",
+              "start": 130.64,
+              "end": 131.06,
+              "confidence": 0.9356,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "outside",
+              "start": 131.06,
+              "end": 131.74,
+              "confidence": 0.9965,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_007",
+          "source_line": 76,
+          "original_text": "More money, more money",
+          "lead_text": "More money, more money",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 76,
+          "raw_source_span": "More money, more money",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 131.74,
+          "end": 133.48,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 131.74,
+          "acoustic_end": 133.48,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "more",
+              "start": 131.74,
+              "end": 132.22,
+              "confidence": 0.9982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 132.22,
+              "end": 132.66,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "more",
+              "start": 132.76,
+              "end": 133.04,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "money",
+              "start": 133.04,
+              "end": 133.48,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_008",
+          "source_line": 77,
+          "original_text": "Let me breathe tonight",
+          "lead_text": "Let me breathe tonight",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 77,
+          "raw_source_span": "Let me breathe tonight",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 133.58,
+          "end": 135.22,
+          "confidence": 0.98,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 133.58,
+          "acoustic_end": 135.22,
+          "total_tokens": 4,
+          "words": [
+            {
+              "text": "let",
+              "start": 133.58,
+              "end": 133.74,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 133.74,
+              "end": 133.94,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "breathe",
+              "start": 133.94,
+              "end": 134.42,
+              "confidence": 0.9743,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "tonight",
+              "start": 134.7,
+              "end": 135.22,
+              "confidence": 0.9984,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "a1dcfa6a496783630af97c8eb662b7a64c7526613b9418d0377b834fabe5dd9a",
+    "authoritative_line_count": 56,
+    "authoritative_token_count": 207,
+    "line_acoustic_coverage": 0.8928571428571429,
+    "token_acoustic_coverage": 0.9903381642512077,
+    "primary_count": 50,
+    "secondary_count": 6,
+    "direct_acoustic_lines": 50,
+    "bounded_asr_lines": 6,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 151.248,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 13.32,
+        "end": 26.52,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 26.52,
+        "end": 33.34,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 33.34,
+        "end": 54.4,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 59.56,
+        "end": 73.2,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 73.2,
+        "end": 80.52,
+        "occurrence": 2
+      },
+      "section_006": {
+        "start": 80.52,
+        "end": 94.76,
+        "occurrence": 2
+      },
+      "section_007": {
+        "start": 106.4,
+        "end": 120.62,
+        "occurrence": 1
+      },
+      "section_008": {
+        "start": 121.44,
+        "end": 135.22,
+        "occurrence": 3
+      }
+    }
+  },
+  "authoritative_lyrics": {
+    "path": "input/lyrics/what_I-need.txt",
+    "sha256": "a1dcfa6a496783630af97c8eb662b7a64c7526613b9418d0377b834fabe5dd9a"
+  },
+  "title": "What I Need!",
+  "artist": ""
+}

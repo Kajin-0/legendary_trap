@@ -49,6 +49,21 @@ STANDALONE_SONGS = {
         "audio_path": "source/PURPLE SATELLITES.mp3",
         "lyrics_path": "input/lyrics/purple_satellites.txt",
     },
+    "do_you_see_me": {
+        "audio_source": "DO YOU SEE ME.mp3",
+        "audio_path": "source/DO YOU SEE ME.mp3",
+        "lyrics_path": "input/lyrics/do_you_see_me.txt",
+    },
+    "what_i_need": {
+        "audio_source": "What I Need!.mp3",
+        "audio_path": "source/What I Need!.mp3",
+        "lyrics_path": "input/lyrics/what_I-need.txt",
+    },
+    "golden_hour": {
+        "audio_source": "Golden Hour.mp3",
+        "audio_path": "source/Golden Hour.mp3",
+        "lyrics_path": "input/lyrics/golden_hour.txt",
+    },
 }
 
 
@@ -205,7 +220,8 @@ def palette_at_time(time_seconds: float) -> np.ndarray:
 def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
                   particles: tuple[np.ndarray, ...],
                   palette_time_offset: float = 0.0,
-                  polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> np.ndarray:
+                  polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
+                  visual_profile: str = "baseline") -> np.ndarray:
     """Render a dusk landscape whose physical pressure is driven by the low end."""
     t = index / features.fps
     bass, mids, highs = (float(features.bass[index]), float(features.mids[index]),
@@ -217,7 +233,12 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     low_profile = _low_profile(features, index)
     previous_low = _low_profile(features, max(0, index - 1))
     low_burst = float(np.clip((float(low_profile.mean()) - float(previous_low.mean())) * 4.0, 0.0, 1.0))
+    if visual_profile not in {"baseline", "physical_core", "full_power"}:
+        raise ValueError(f"unknown visual profile: {visual_profile}")
     impact = float(np.clip(0.52 * bass + 1.55 * transient + 0.55 * low_burst, 0.0, 1.8))
+    if visual_profile != "baseline":
+        recent = features.transients[max(0, index - 5):index + 1]
+        impact = float(np.clip(impact + 0.22 * recent.mean() + 0.12 * low_burst, 0.0, 1.8))
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
     # Continuous master-time palette drift.  Audio only modulates luminance;
@@ -246,7 +267,9 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
     ground = yy > horizon + 4
     frame[ground] *= 0.56
     # Bass pressure swells the horizon luminance and compresses the frame edges.
-    frame *= (1 + 0.10 * bass + 0.07 * transient + (0.04 * impact if polar_mode else 0))
+    frame *= (1 + 0.10 * bass + 0.07 * transient +
+              (0.04 * impact if polar_mode else 0) +
+              (0.035 * impact if visual_profile != "baseline" else 0))
     # Inertial particles: polar mode makes the three depth classes visibly
     # distinct; the legacy hybrid keeps its original restrained treatment.
     positions, depths, velocity, phases = particles
@@ -311,6 +334,32 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
             _blend(frame, center[0] + np.cos(angles) * contour_radii,
                    center[1] + np.sin(angles) * contour_radii * aspect,
                    color, alpha * 0.50)
+        if visual_profile != "baseline":
+            # A restrained local contrast halo and a faint afterimage use the
+            # current deformed contour, never a generic circle.
+            halo_radii = radii * (1.0 + 0.012 * min(1.0, impact))
+            _blend(frame, center[0] + np.cos(angles) * halo_radii,
+                   center[1] + np.sin(angles) * halo_radii * aspect,
+                   (14, 10, 18), 0.055 + 0.025 * impact)
+            after_alpha = np.clip((impact - 0.62) * 0.055, 0.0, 0.045)
+            after_scale = 1.035 + 0.045 * min(1.0, impact)
+            _blend(frame, center[0] + np.cos(angles) * radii * after_scale,
+                   center[1] + np.sin(angles) * radii * aspect * after_scale,
+                   glow_color, after_alpha)
+            frame *= 1.0 + 0.025 * impact
+        if visual_profile == "full_power":
+            # Sparse high-frequency rim sparks decorate the existing contour.
+            spark_mask = ((np.arange(len(angles)) % 23) == 0) & (highs > 0.22)
+            spark_alpha = np.clip(0.05 + 0.16 * highs + 0.12 * transient, 0.0, 0.28)
+            _blend(frame, center[0] + np.cos(angles[spark_mask]) * radii[spark_mask] * 1.012,
+                   center[1] + np.sin(angles[spark_mask]) * radii[spark_mask] * aspect * 1.012,
+                   (255, 218, 176), spark_alpha)
+            if impact > 1.05:
+                fringe = np.clip((impact - 1.05) * 0.06, 0.0, 0.08)
+                _blend(frame, center[0] + np.cos(angles) * (radii + 1.0),
+                       center[1] + np.sin(angles) * radii * aspect, (255, 80, 96), fringe)
+                _blend(frame, center[0] + np.cos(angles) * (radii - 1.0),
+                       center[1] + np.sin(angles) * radii * aspect, (70, 160, 255), fringe)
         inner_angles = np.linspace(np.pi, 2 * np.pi, 160, endpoint=False)
         inner_radius = 74 + 8 * bass
         ix = center[0] + np.cos(inner_angles) * inner_radius
@@ -373,11 +422,12 @@ def _hybrid_frame(features: FeatureSequence, index: int, preset: Preset,
 def render_frame(features: FeatureSequence, index: int, preset: Preset,
                  particles: tuple[np.ndarray, ...],
                  palette_time_offset: float = 0.0,
-                 polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> np.ndarray:
+                 polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
+                 visual_profile: str = "baseline") -> np.ndarray:
     if preset.visualizer in {"trap_sunset_hybrid", "trap_sunset_polar_lowmirror",
                              "trap_sunset_polar_v2", "trap_sunset_polar_v3"}:
         return _hybrid_frame(features, index, preset, particles, palette_time_offset,
-                             polar_thickness_scale)
+                             polar_thickness_scale, visual_profile)
     t = index / features.fps
     yy, xx = np.mgrid[0:HEIGHT, 0:WIDTH]
     frame = np.zeros((HEIGHT, WIDTH, 3), dtype=np.float32)
@@ -461,7 +511,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
                    identity_enabled: bool = True, output_path: Path | None = None,
                    palette_time_offset: float = 0.0, production_review: bool = True,
                    artist_override: str | None = None,
-                   polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE) -> dict:
+                   polar_thickness_scale: float = PRODUCTION_POLAR_THICKNESS_SCALE,
+                   visual_profile: str = "baseline") -> dict:
     if production_review and preset_name != PRODUCTION_REVIEW_PRESET:
         raise ValueError(f"production review requires {PRODUCTION_REVIEW_PRESET}; got {preset_name}")
     if production_review and PRESETS[preset_name].visualizer != "trap_sunset_polar_v3":
@@ -518,7 +569,8 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         for index in range(len(features.bass)):
                 process.stdin.write(render_frame(features, index, preset, particles,
                                                  palette_time_offset,
-                                                 polar_thickness_scale).tobytes())
+                                                 polar_thickness_scale,
+                                                 visual_profile).tobytes())
         process.stdin.close()
         process.wait(timeout=timeout_seconds)
     except (BrokenPipeError, subprocess.TimeoutExpired):
@@ -527,11 +579,13 @@ def render_preview(song_id: str, preset_name: str, start: float, duration: float
         raise
     still = video.with_suffix(".png")
     _write_png(render_frame(features, len(features.bass) // 2, preset, particles,
-                            palette_time_offset, polar_thickness_scale), still)
+                            palette_time_offset, polar_thickness_scale,
+                            visual_profile), still)
     return {"preset": preset_name, "song_id": song_id, "start": start, "duration": duration,
             "resolution": "1920x1080", "runtime_seconds": round(time.perf_counter() - started, 3),
             "video": str(video.relative_to(ROOT)), "still": str(still.relative_to(ROOT)),
-            "subtitle": str(Path(subtitle_paths["ass"]).relative_to(ROOT))}
+            "subtitle": str(Path(subtitle_paths["ass"]).relative_to(ROOT)),
+            "visual_profile": visual_profile}
 
 
 def main() -> int:
@@ -546,12 +600,14 @@ def main() -> int:
     parser.add_argument("--low-max-hz", type=float, default=700.0)
     parser.add_argument("--no-identity", action="store_true")
     parser.add_argument("--polar-thickness-scale", type=float, default=1.0)
+    parser.add_argument("--visual-profile", choices=["baseline", "physical_core", "full_power"], default="baseline")
     args = parser.parse_args()
     print(json.dumps(render_preview(
         args.song, args.preset, args.start, args.duration,
         args.timeout, args.lyric_font, args.lyric_size,
         args.low_max_hz, not args.no_identity,
         polar_thickness_scale=args.polar_thickness_scale,
+        visual_profile=args.visual_profile,
     ), indent=2))
     return 0
 

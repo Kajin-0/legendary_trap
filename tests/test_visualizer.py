@@ -97,6 +97,21 @@ def test_production_default_thickness_is_baseline() -> None:
     assert np.isclose(np.ptp(polar_contour_offsets(PRODUCTION_POLAR_THICKNESS_SCALE)), 11.0)
 
 
+def test_power_profiles_are_opt_in_and_keep_polar_geometry() -> None:
+    features = _features()
+    particles = _hybrid_particles(PRESETS[PRODUCTION_REVIEW_PRESET])
+    baseline = render_frame(features, 2, PRESETS[PRODUCTION_REVIEW_PRESET], particles,
+                            polar_thickness_scale=2.2, visual_profile="baseline")
+    physical = render_frame(features, 2, PRESETS[PRODUCTION_REVIEW_PRESET], particles,
+                            polar_thickness_scale=2.2, visual_profile="physical_core")
+    full = render_frame(features, 2, PRESETS[PRODUCTION_REVIEW_PRESET], particles,
+                        polar_thickness_scale=2.2, visual_profile="full_power")
+    assert baseline.shape == physical.shape == full.shape == (HEIGHT, WIDTH, 3)
+    assert not np.array_equal(baseline, physical)
+    assert not np.array_equal(physical, full)
+    assert PRODUCTION_POLAR_THICKNESS_SCALE == 2.2
+
+
 def test_polar_profile_is_mirrored_and_bass_deforms_it() -> None:
     low = np.linspace(0.1, 1.0, 32, dtype=np.float32)
     _angles, quiet = polar_low_radii(low, 0.0)

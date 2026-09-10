@@ -23,6 +23,29 @@ def test_new_song_and_artist_registrations_preserve_track_order() -> None:
     assert songs["songs"]["purple_satellites"]["artists"] == ["SILL-E"]
 
 
+def test_corrective_batch_registers_new_songs_and_pfps_without_guessing() -> None:
+    artists = json.loads((ROOT / "configs/artists.json").read_text())["artists"]
+    songs = json.loads((ROOT / "configs/songs.json").read_text())["songs"]
+    assert artists["SILL-E"]["pfp"] == "assets/artists/SILL-E.webp"
+    assert artists["ken carson"]["pfp"] == "assets/artists/kencarson.webp"
+    assert artists["noek95"]["pfp"] == "assets/artists/noek95.webp"
+    assert songs["do_you_see_me"]["artists"] == ["PRODBYAPKIMZ"]
+    assert songs["what_i_need"]["artists"] == []
+    assert songs["golden_hour"]["artists"] == []
+    assert "do_you_see_me" not in json.loads((ROOT / "configs/songs.json").read_text())["track_order"]
+
+
+def test_new_song_structures_and_outputs_exist() -> None:
+    for song in ("do_you_see_me", "what_i_need", "golden_hour"):
+        document = json.loads((ROOT / "output" / song / "timing.json").read_text())
+        assert document["audio"]["duration_seconds"] > 0
+        assert all((ROOT / "output" / song / f"{song}.{ext}").exists()
+                   for ext in ("ass", "srt", "vtt"))
+        assert all(word["start"] <= word["end"]
+                   for section in document["sections"] for line in section["lines"]
+                   for word in line.get("words", []))
+
+
 def test_new_song_timing_exports_are_canonical_and_structurally_sound() -> None:
     for song in ("on_a_trance", "hella_racks", "difference", "purple_satellites"):
         output = ROOT / "output" / song

@@ -13,7 +13,7 @@
   "locally_anchored": 7,
   "cadence_interpolation": 0,
   "line_coverage": 1.0,
-  "token_coverage": 0.6998284734133791,
+  "token_coverage": 0.40823327615780447,
   "median_onset_error": null,
   "p90_onset_error": null,
   "unresolved": [],
@@ -34,7 +34,7 @@
   },
   "section_occurrence_windows": {
     "section_001": {
-      "start": 16.134999999999998,
+      "start": 15.62,
       "end": 174.52,
       "occurrence": 1
     }

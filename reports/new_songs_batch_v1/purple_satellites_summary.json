@@ -4,16 +4,16 @@
   "artist": "SILL-E",
   "source": "source/PURPLE SATELLITES.mp3",
   "source_sha256": "8aa27dd4524e0695763023f5a27deccecb43de063589c2e78c7e42173cb4e91b",
-  "lyric_sha256": "9df0260be85617c9428e1f9340b702aac55f8f392ee03844565936555f821bae",
+  "lyric_sha256": "4dff1b11c1e081280c9a41ef8ca970da846da0ecae495da3b59e66c8ae73b39e",
   "primary": 62,
   "secondary": 0,
   "direct_acoustic": 58,
-  "bounded_asr": 2,
+  "bounded_asr": 0,
   "acoustic_transfer": 0,
   "locally_anchored": 4,
   "cadence_interpolation": 0,
   "line_coverage": 1.0,
-  "token_coverage": 0.9423868312757202,
+  "token_coverage": 0.9235537190082644,
   "median_onset_error": null,
   "p90_onset_error": null,
   "unresolved": [],
@@ -33,14 +33,9 @@
     "chronology_violations": 0
   },
   "section_occurrence_windows": {
-    "section_001": {
-      "start": 6.335,
-      "end": 7.685,
-      "occurrence": 1
-    },
     "section_002": {
-      "start": 7.835,
-      "end": 24.668,
+      "start": 5.28,
+      "end": 15.8,
       "occurrence": 1
     },
     "section_003": {
@@ -49,7 +44,7 @@
       "occurrence": 1
     },
     "section_004": {
-      "start": 57.879999999999995,
+      "start": 57.88,
       "end": 96.66,
       "occurrence": 1
     },
@@ -64,7 +59,7 @@
       "occurrence": 1
     },
     "section_007": {
-      "start": 151.07999999999998,
+      "start": 151.08,
       "end": 161.0,
       "occurrence": 1
     },

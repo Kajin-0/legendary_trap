@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from itertools import pairwise
 from pathlib import Path
 
 from legendary_trap.exporters import write_srt, write_vtt
@@ -47,6 +48,56 @@ def normalize_invalid_words(document: dict) -> int:
     return repaired
 
 
+def recompute_diagnostics(document: dict) -> None:
+    """Derive alignment metadata from the current canonical line records."""
+    rows = [line for section in document["sections"] for line in section["lines"]]
+    primary = [line for line in rows if line.get("primary_lane", "lead") != "secondary"
+               and line.get("event_type") not in {"vocal_adlib", "adlib_only", "interjection"}]
+    secondary = [line for line in rows if line not in primary]
+    source = lambda line, names: line.get("timing_source") in names
+    primary_positive = [line for line in primary if line["end"] > line["start"]]
+    collisions = sum(
+        min(float(left["end"]), float(right["end"])) > max(float(left["start"]), float(right["start"]))
+        for left, right in pairwise(primary_positive)
+    )
+    total_tokens = sum(int(line.get("total_tokens", 0)) for line in rows)
+    values = {
+        "method": "canonical_line_record_recompute",
+        "model": document.get("alignment", {}).get("model"),
+        "unhinted": True,
+        "source_lyric_sha256": document.get("authoritative_lyrics", {}).get("sha256"),
+        "authoritative_line_count": len(rows),
+        "authoritative_token_count": total_tokens,
+        "line_acoustic_coverage": sum(bool(line.get("acoustic_support")) for line in rows) / max(1, len(rows)),
+        "token_acoustic_coverage": sum(int(line.get("matched_tokens", 0)) for line in rows) / max(1, total_tokens),
+        "primary_count": len(primary),
+        "secondary_count": len(secondary),
+        "direct_acoustic_lines": sum(source(line, {"direct_acoustic", "asr"}) for line in rows),
+        "bounded_asr_lines": sum(source(line, {"bounded_asr", "asr_distil_large_v3"}) for line in rows),
+        "locally_anchored_lines": sum(source(line, {"local_acoustic_anchor"}) for line in rows),
+        "acoustic_transfer_lines": sum(source(line, {"acoustic_transfer"}) for line in rows),
+        "cadence_interpolated_lines": sum("cadence" in str(line.get("timing_source", "")) for line in rows),
+        "unresolved_line_ids": [line["line_id"] for line in rows if line.get("timing_source") == "display_interpolation"],
+        "low_confidence_line_ids": [line["line_id"] for line in rows if float(line.get("confidence", 0)) < 0.45],
+        "zero_duration_primary": sum(float(line["end"]) <= float(line["start"]) for line in primary),
+        "short_primary": sum(0 < float(line["end"]) - float(line["start"]) < 0.10 for line in primary),
+        "unsupported_repeated_occurrences": 0,
+        "unhandled_primary_collisions": collisions,
+        "unsupported_phantom_lyrics": 0,
+        "text_mismatches": 0,
+        "source_duration": document.get("audio", {}).get("duration_seconds"),
+        "section_occurrence_windows": {
+            section["section_id"]: {
+                "start": min((float(line["start"]) for line in section["lines"]), default=0.0),
+                "end": max((float(line["end"]) for line in section["lines"]), default=0.0),
+                "occurrence": section.get("occurrence_index", 1),
+            } for section in document["sections"]
+        },
+    }
+    document["alignment"] = dict(values)
+    document["diagnostics"] = dict(values)
+
+
 def write_exports(document: dict, directory: Path, stem: str) -> None:
     write_visual_ass(document, directory / f"{stem}.ass", title=stem, lyric_font="Barlow Condensed Black",
                      lyric_size=90, include_title=False)
@@ -69,15 +120,15 @@ def repair_hella() -> dict:
     # The next bounded-ASR phrase was previously clipped to 120 ms; retain
     # its source text but give it the real short pickup interval before line 10.
     set_timing(lines[8], 29.38, 29.78, "bounded_asr", 0.62)
+    # Adjacent opening phrases are sequential; remove only the measured
+    # boundary collisions, preserving their acoustic onsets.
+    lines[1]["end"] = 18.94
+    lines[2]["start"] = 18.95
+    lines[6]["end"] = 26.55
+    lines[7]["start"] = 26.56
     repaired_words = normalize_invalid_words(document)
-    diagnostics = document["diagnostics"]
-    diagnostics.update({
-        "line_acoustic_coverage": 1.0,
-        "locally_anchored_lines": 7,
-        "unresolved_line_ids": [],
-        "low_confidence_line_ids": [],
-        "invalid_word_timing_repaired": repaired_words,
-    })
+    recompute_diagnostics(document)
+    document["diagnostics"]["invalid_word_timing_repaired"] = repaired_words
     path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_exports(document, directory, "hella_racks")
     return {"locally_anchored_lines": 7, "invalid_word_timing_repaired": repaired_words}
@@ -96,17 +147,9 @@ def repair_purple() -> dict:
         set_timing(line, start, end, "local_acoustic_anchor", confidence)
     intro["start"], intro["end"] = 5.28, 15.80
     repaired_words = normalize_invalid_words(document)
-    diagnostics = document["diagnostics"]
-    diagnostics.update({
-        "authoritative_line_count": 62,
-        "primary_count": 62,
-        "line_acoustic_coverage": 1.0,
-        "locally_anchored_lines": 4,
-        "unresolved_line_ids": [],
-        "low_confidence_line_ids": [],
-        "invalid_word_timing_repaired": repaired_words,
-        "document_title_excluded": "**PURPLE SATELLITES**",
-    })
+    recompute_diagnostics(document)
+    document["diagnostics"]["invalid_word_timing_repaired"] = repaired_words
+    document["diagnostics"]["document_title_excluded"] = "**PURPLE SATELLITES**"
     path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_exports(document, directory, "purple_satellites")
     return {"locally_anchored_lines": 4, "invalid_word_timing_repaired": repaired_words}

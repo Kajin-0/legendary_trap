@@ -7,37 +7,23 @@
     "sha256": "b3047a2e8015bf7a52505d3ad000811d5804489d3c7655140e66a3279c792e47"
   },
   "alignment": {
-    "method": "occurrence_bounded_monotonic_word_alignment",
+    "method": "canonical_line_record_recompute",
     "model": "large-v3-turbo",
     "unhinted": true,
     "source_lyric_sha256": "a546b75dc9d6be432d537891b2f6d9dabeca2267ea71f296e5e296b65f49bef9",
     "authoritative_line_count": 58,
     "authoritative_token_count": 583,
-    "line_acoustic_coverage": 0.8793103448275862,
-    "token_acoustic_coverage": 0.6998284734133791,
+    "line_acoustic_coverage": 1.0,
+    "token_acoustic_coverage": 0.40823327615780447,
     "primary_count": 58,
     "secondary_count": 0,
     "direct_acoustic_lines": 48,
     "bounded_asr_lines": 3,
+    "locally_anchored_lines": 7,
+    "acoustic_transfer_lines": 0,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_001_line_006",
-      "section_001_line_007"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_001",
-      "section_001_line_002",
-      "section_001_line_003",
-      "section_001_line_004",
-      "section_001_line_005",
-      "section_001_line_006",
-      "section_001_line_007"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -47,7 +33,7 @@
     "source_duration": 180.84,
     "section_occurrence_windows": {
       "section_001": {
-        "start": 16.134999999999998,
+        "start": 15.62,
         "end": 174.52,
         "occurrence": 1
       }
@@ -224,7 +210,7 @@
           "acoustic_support": true,
           "estimated_timing": false,
           "start": 17.5,
-          "end": 18.96,
+          "end": 18.94,
           "confidence": 0.6,
           "matched_tokens": 0,
           "confidence_components": {
@@ -904,7 +890,7 @@
           "acoustic_support": true,
           "estimated_timing": false,
           "start": 25.48,
-          "end": 26.96,
+          "end": 26.55,
           "confidence": 0.57,
           "matched_tokens": 0,
           "confidence_components": {
@@ -6968,18 +6954,20 @@
     }
   ],
   "diagnostics": {
-    "method": "occurrence_bounded_monotonic_word_alignment",
+    "method": "canonical_line_record_recompute",
     "model": "large-v3-turbo",
     "unhinted": true,
     "source_lyric_sha256": "a546b75dc9d6be432d537891b2f6d9dabeca2267ea71f296e5e296b65f49bef9",
     "authoritative_line_count": 58,
     "authoritative_token_count": 583,
     "line_acoustic_coverage": 1.0,
-    "token_acoustic_coverage": 0.6998284734133791,
+    "token_acoustic_coverage": 0.40823327615780447,
     "primary_count": 58,
     "secondary_count": 0,
     "direct_acoustic_lines": 48,
     "bounded_asr_lines": 3,
+    "locally_anchored_lines": 7,
+    "acoustic_transfer_lines": 0,
     "cadence_interpolated_lines": 0,
     "unresolved_line_ids": [],
     "low_confidence_line_ids": [],
@@ -6992,12 +6980,11 @@
     "source_duration": 180.84,
     "section_occurrence_windows": {
       "section_001": {
-        "start": 16.134999999999998,
+        "start": 15.62,
         "end": 174.52,
         "occurrence": 1
       }
     },
-    "locally_anchored_lines": 7,
     "invalid_word_timing_repaired": 0
   },
   "authoritative_lyrics": {

@@ -1,0 +1,3425 @@
+{
+  "schema_version": "1.0",
+  "song_id": "golden_hour",
+  "audio": {
+    "path": "source/Golden Hour.mp3",
+    "duration_seconds": 126.432,
+    "sha256": "cb661ccee7975b7919e6a8441ada10a7bd9f544229ea20d47d8ab1779228def3"
+  },
+  "alignment": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373",
+    "authoritative_line_count": 34,
+    "authoritative_token_count": 231,
+    "line_acoustic_coverage": 0.9705882352941176,
+    "token_acoustic_coverage": 0.935064935064935,
+    "primary_count": 34,
+    "secondary_count": 0,
+    "direct_acoustic_lines": 33,
+    "bounded_asr_lines": 0,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [
+      "section_001_line_002"
+    ],
+    "low_confidence_line_ids": [
+      "section_001_line_002"
+    ],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 126.432,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.0,
+        "end": 9.24,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 9.24,
+        "end": 23.28,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 23.28,
+        "end": 36.1,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 36.1,
+        "end": 55.32,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 56.48,
+        "end": 69.5,
+        "occurrence": 1
+      },
+      "section_006": {
+        "start": 69.5,
+        "end": 82.72,
+        "occurrence": 2
+      },
+      "section_007": {
+        "start": 82.72,
+        "end": 95.38,
+        "occurrence": 1
+      },
+      "section_008": {
+        "start": 97.48,
+        "end": 109.88,
+        "occurrence": 1
+      }
+    }
+  },
+  "sections": [
+    {
+      "section_id": "section_001",
+      "label": "Intro",
+      "raw_label": "[Intro]",
+      "normalized_label": "intro",
+      "structural_role": "intro",
+      "structural_inferred": false,
+      "fingerprint": "yeah golden golden woo la la it's a vibe yeah",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 0.0,
+      "end": 9.24,
+      "confidence": 0.6136,
+      "lines": [
+        {
+          "line_id": "section_001_line_001",
+          "source_line": 2,
+          "original_text": "Yeah! (straight up)",
+          "lead_text": "Yeah!",
+          "adlibs": [
+            "straight up"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "straight up"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "straight",
+              "up"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 2,
+          "raw_source_span": "Yeah! (straight up)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 0.0,
+          "end": 0.28,
+          "confidence": 0.8577,
+          "matched_tokens": 1,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 0.0,
+          "acoustic_end": 0.28,
+          "total_tokens": 1,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.4307,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_002",
+          "source_line": 3,
+          "original_text": "Golden, golden — woo!",
+          "lead_text": "Golden, golden — woo!",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 3,
+          "raw_source_span": "Golden, golden — woo!",
+          "structurally_inferred": false,
+          "timing_source": "display_interpolation",
+          "acoustic_support": false,
+          "estimated_timing": true,
+          "start": 0.6,
+          "end": 6.36,
+          "confidence": 0.28,
+          "matched_tokens": 0,
+          "confidence_components": {
+            "token_coverage": 0.0
+          },
+          "acoustic_start": 0.6,
+          "acoustic_end": 6.36,
+          "total_tokens": 3,
+          "words": [
+            {
+              "text": "golden",
+              "start": 0.6,
+              "end": 2.52,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "golden",
+              "start": 2.52,
+              "end": 4.44,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            },
+            {
+              "text": "woo",
+              "start": 4.44,
+              "end": 6.36,
+              "confidence": 0.0,
+              "timing_source": "line_estimate",
+              "acoustic_supported": false
+            }
+          ]
+        },
+        {
+          "line_id": "section_001_line_003",
+          "source_line": 4,
+          "original_text": "La-la, it's a vibe, yeah",
+          "lead_text": "La-la, it's a vibe, yeah",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 4,
+          "raw_source_span": "La-la, it's a vibe, yeah",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 6.68,
+          "end": 9.24,
+          "confidence": 0.7031,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.6667
+          },
+          "acoustic_start": 6.68,
+          "acoustic_end": 9.24,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "la",
+              "start": 6.68,
+              "end": 7.107,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "la",
+              "start": 7.107,
+              "end": 7.533,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "it's",
+              "start": 6.68,
+              "end": 7.32,
+              "confidence": 0.6018,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 7.32,
+              "end": 7.54,
+              "confidence": 0.9564,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vibe",
+              "start": 7.54,
+              "end": 8.8,
+              "confidence": 0.715,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "yeah",
+              "start": 8.82,
+              "end": 9.24,
+              "confidence": 0.9768,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_002",
+      "label": "Verse 1",
+      "raw_label": "[Verse 1]",
+      "normalized_label": "verse 1",
+      "structural_role": "verse_1",
+      "structural_inferred": false,
+      "fingerprint": "top down sun out ridin through the city lights feelin like a comet when i'm leanin to the right pull up glow up everybody feelin nice tell em that the summer never ever gonna die",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 9.24,
+      "end": 23.28,
+      "confidence": 0.9573,
+      "lines": [
+        {
+          "line_id": "section_002_line_001",
+          "source_line": 7,
+          "original_text": "Top down, sun out, ridin' through the city lights (yeah)",
+          "lead_text": "Top down, sun out, ridin' through the city lights",
+          "adlibs": [
+            "yeah"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "yeah"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 7,
+          "raw_source_span": "Top down, sun out, ridin' through the city lights (yeah)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 9.24,
+          "end": 13.22,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 9.24,
+          "acoustic_end": 13.22,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "top",
+              "start": 9.24,
+              "end": 10.14,
+              "confidence": 0.9519,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "down",
+              "start": 10.14,
+              "end": 10.64,
+              "confidence": 0.9517,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sun",
+              "start": 10.84,
+              "end": 11.02,
+              "confidence": 0.9676,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "out",
+              "start": 11.02,
+              "end": 11.48,
+              "confidence": 0.9862,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ridin",
+              "start": 11.7,
+              "end": 12.04,
+              "confidence": 0.6741,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "through",
+              "start": 12.1,
+              "end": 12.26,
+              "confidence": 0.9969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 12.26,
+              "end": 12.42,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "city",
+              "start": 12.42,
+              "end": 12.76,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "lights",
+              "start": 12.76,
+              "end": 13.22,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_002",
+          "source_line": 8,
+          "original_text": "Feelin' like a comet when I'm leanin' to the right (woo)",
+          "lead_text": "Feelin' like a comet when I'm leanin' to the right",
+          "adlibs": [
+            "woo"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "woo"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "woo"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 8,
+          "raw_source_span": "Feelin' like a comet when I'm leanin' to the right (woo)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 13.22,
+          "end": 16.5,
+          "confidence": 0.98,
+          "matched_tokens": 10,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 13.22,
+          "acoustic_end": 16.5,
+          "total_tokens": 10,
+          "words": [
+            {
+              "text": "feelin",
+              "start": 13.22,
+              "end": 14.06,
+              "confidence": 0.8168,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 14.12,
+              "end": 14.36,
+              "confidence": 0.9107,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 14.36,
+              "end": 14.52,
+              "confidence": 0.9889,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "comet",
+              "start": 14.52,
+              "end": 14.84,
+              "confidence": 0.5748,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 14.84,
+              "end": 15.16,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "i'm",
+              "start": 15.16,
+              "end": 15.42,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "leanin",
+              "start": 15.42,
+              "end": 15.74,
+              "confidence": 0.9624,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 15.76,
+              "end": 15.98,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 15.98,
+              "end": 16.16,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "right",
+              "start": 16.16,
+              "end": 16.5,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_003",
+          "source_line": 9,
+          "original_text": "Pull up, glow up, everybody feelin' nice (it's lit)",
+          "lead_text": "Pull up, glow up, everybody feelin' nice",
+          "adlibs": [
+            "it's lit"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "it's lit"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "it's",
+              "lit"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 9,
+          "raw_source_span": "Pull up, glow up, everybody feelin' nice (it's lit)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 16.5,
+          "end": 19.86,
+          "confidence": 0.8893,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.8571
+          },
+          "acoustic_start": 16.5,
+          "acoustic_end": 19.86,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "pull",
+              "start": 16.5,
+              "end": 17.2,
+              "confidence": 0.9737,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 17.2,
+              "end": 17.44,
+              "confidence": 0.9847,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "glow",
+              "start": 17.46,
+              "end": 17.94,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "up",
+              "start": 17.7,
+              "end": 18.08,
+              "confidence": 0.985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "everybody",
+              "start": 18.38,
+              "end": 18.76,
+              "confidence": 0.9931,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feelin",
+              "start": 18.76,
+              "end": 19.54,
+              "confidence": 0.9828,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "nice",
+              "start": 19.54,
+              "end": 19.86,
+              "confidence": 0.9962,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_002_line_004",
+          "source_line": 10,
+          "original_text": "Tell 'em that the summer never ever gonna die",
+          "lead_text": "Tell 'em that the summer never ever gonna die",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 10,
+          "raw_source_span": "Tell 'em that the summer never ever gonna die",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 19.86,
+          "end": 23.28,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 19.86,
+          "acoustic_end": 23.28,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "tell",
+              "start": 19.86,
+              "end": 20.54,
+              "confidence": 0.9916,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "em",
+              "start": 20.54,
+              "end": 20.7,
+              "confidence": 0.5099,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "that",
+              "start": 20.7,
+              "end": 20.98,
+              "confidence": 0.8982,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 20.98,
+              "end": 21.18,
+              "confidence": 0.9764,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "summer",
+              "start": 21.18,
+              "end": 21.46,
+              "confidence": 0.9747,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 21.46,
+              "end": 21.92,
+              "confidence": 0.9952,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ever",
+              "start": 22.24,
+              "end": 22.34,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gonna",
+              "start": 22.34,
+              "end": 22.72,
+              "confidence": 0.9923,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "die",
+              "start": 22.72,
+              "end": 23.28,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_003",
+      "label": "Pre-Hook",
+      "raw_label": "[Pre-Hook]",
+      "normalized_label": "pre-hook",
+      "structural_role": "pre_hook",
+      "structural_inferred": false,
+      "fingerprint": "and we ride we ride into the gold into the sky and we high we high off of the feelin don't ask me why",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 1,
+      "occurrence_count": 2,
+      "start": 23.28,
+      "end": 36.1,
+      "confidence": 0.9324,
+      "lines": [
+        {
+          "line_id": "section_003_line_001",
+          "source_line": 13,
+          "original_text": "And we ride (ride), we ride (ride)",
+          "lead_text": "And we ride, we ride",
+          "adlibs": [
+            "ride",
+            "ride"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ride",
+            "ride"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ride"
+            ],
+            [
+              "ride"
+            ]
+          ],
+          "annotation_metadata": [
+            "",
+            ""
+          ],
+          "raw_source_line": 13,
+          "raw_source_span": "And we ride (ride), we ride (ride)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 23.28,
+          "end": 26.42,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 23.28,
+          "acoustic_end": 26.42,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "and",
+              "start": 23.28,
+              "end": 23.88,
+              "confidence": 0.9849,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 23.88,
+              "end": 24.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ride",
+              "start": 24.1,
+              "end": 24.56,
+              "confidence": 0.9613,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 24.58,
+              "end": 25.6,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ride",
+              "start": 25.6,
+              "end": 26.42,
+              "confidence": 0.9968,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_002",
+          "source_line": 14,
+          "original_text": "Into the gold, into the sky",
+          "lead_text": "Into the gold, into the sky",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 14,
+          "raw_source_span": "Into the gold, into the sky",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 26.42,
+          "end": 29.44,
+          "confidence": 0.9703,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 26.42,
+          "acoustic_end": 29.44,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "into",
+              "start": 26.42,
+              "end": 27.16,
+              "confidence": 0.9227,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 27.16,
+              "end": 27.44,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gold",
+              "start": 27.44,
+              "end": 28.06,
+              "confidence": 0.3668,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "into",
+              "start": 28.46,
+              "end": 28.82,
+              "confidence": 0.9991,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 28.82,
+              "end": 29.06,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sky",
+              "start": 29.06,
+              "end": 29.44,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_003",
+          "source_line": 15,
+          "original_text": "And we high (high), we high (high)",
+          "lead_text": "And we high, we high",
+          "adlibs": [
+            "high",
+            "high"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "high",
+            "high"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "high"
+            ],
+            [
+              "high"
+            ]
+          ],
+          "annotation_metadata": [
+            "",
+            ""
+          ],
+          "raw_source_line": 15,
+          "raw_source_span": "And we high (high), we high (high)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 30.02,
+          "end": 33.08,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 30.02,
+          "acoustic_end": 33.08,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "and",
+              "start": 30.02,
+              "end": 30.54,
+              "confidence": 0.8314,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 31.42,
+              "end": 31.64,
+              "confidence": 0.9951,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "high",
+              "start": 31.64,
+              "end": 32.0,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 32.0,
+              "end": 32.24,
+              "confidence": 0.9159,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "high",
+              "start": 32.24,
+              "end": 33.08,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_003_line_004",
+          "source_line": 16,
+          "original_text": "Off of the feelin', don't ask me why",
+          "lead_text": "Off of the feelin', don't ask me why",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 16,
+          "raw_source_span": "Off of the feelin', don't ask me why",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 33.82,
+          "end": 36.1,
+          "confidence": 0.7992,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.75
+          },
+          "acoustic_start": 33.82,
+          "acoustic_end": 36.1,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "off",
+              "start": 33.82,
+              "end": 34.105,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 34.105,
+              "end": 34.39,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 33.82,
+              "end": 34.12,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feelin",
+              "start": 34.12,
+              "end": 34.66,
+              "confidence": 0.6837,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 34.88,
+              "end": 35.32,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ask",
+              "start": 35.32,
+              "end": 35.58,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 35.58,
+              "end": 35.76,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "why",
+              "start": 35.76,
+              "end": 36.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_004",
+      "label": "Hook",
+      "raw_label": "[Hook]",
+      "normalized_label": "hook",
+      "structural_role": "hook",
+      "structural_inferred": false,
+      "fingerprint": "golden hour golden hour light it up dancin in the afterglow we never stoppin higher higher watch me touch the sky this a golden hour and it's never gonna die golden hour golden hour light it up everything is glowin when you ridin with the gang",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 36.1,
+      "end": 55.32,
+      "confidence": 0.9786,
+      "lines": [
+        {
+          "line_id": "section_004_line_001",
+          "source_line": 19,
+          "original_text": "Golden hour, golden hour, light it up (light it up!)",
+          "lead_text": "Golden hour, golden hour, light it up",
+          "adlibs": [
+            "light it up!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "light it up"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "light",
+              "it",
+              "up"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 19,
+          "raw_source_span": "Golden hour, golden hour, light it up (light it up!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 36.1,
+          "end": 39.44,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 36.1,
+          "acoustic_end": 39.44,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "golden",
+              "start": 36.1,
+              "end": 36.5,
+              "confidence": 0.9838,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 36.5,
+              "end": 36.9,
+              "confidence": 0.9976,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 37.1,
+              "end": 37.34,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 37.34,
+              "end": 37.74,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 38.66,
+              "end": 38.92,
+              "confidence": 0.9841,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 38.92,
+              "end": 39.16,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 39.16,
+              "end": 39.44,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_002",
+          "source_line": 20,
+          "original_text": "Dancin' in the afterglow, we never stoppin' (no!)",
+          "lead_text": "Dancin' in the afterglow, we never stoppin'",
+          "adlibs": [
+            "no!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "no"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "no"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 20,
+          "raw_source_span": "Dancin' in the afterglow, we never stoppin' (no!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 39.44,
+          "end": 42.14,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 39.44,
+          "acoustic_end": 42.14,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "dancin",
+              "start": 39.44,
+              "end": 39.8,
+              "confidence": 0.8981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 39.8,
+              "end": 40.22,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 40.22,
+              "end": 40.4,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "afterglow",
+              "start": 40.4,
+              "end": 41.0,
+              "confidence": 0.943,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 41.04,
+              "end": 41.22,
+              "confidence": 0.9957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 41.22,
+              "end": 41.48,
+              "confidence": 0.9851,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stoppin",
+              "start": 41.48,
+              "end": 42.14,
+              "confidence": 0.9071,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_003",
+          "source_line": 21,
+          "original_text": "Higher, higher, watch me touch the sky (woo!)",
+          "lead_text": "Higher, higher, watch me touch the sky",
+          "adlibs": [
+            "woo!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "woo"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "woo"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 21,
+          "raw_source_span": "Higher, higher, watch me touch the sky (woo!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 43.34,
+          "end": 45.28,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 43.34,
+          "acoustic_end": 45.28,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "higher",
+              "start": 43.34,
+              "end": 43.58,
+              "confidence": 0.9944,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "higher",
+              "start": 43.78,
+              "end": 43.98,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "watch",
+              "start": 44.16,
+              "end": 44.34,
+              "confidence": 0.9969,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 44.34,
+              "end": 44.5,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "touch",
+              "start": 44.5,
+              "end": 44.76,
+              "confidence": 0.9957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 44.76,
+              "end": 44.92,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sky",
+              "start": 44.92,
+              "end": 45.28,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_004",
+          "source_line": 22,
+          "original_text": "This a golden hour and it's never gonna die",
+          "lead_text": "This a golden hour and it's never gonna die",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 22,
+          "raw_source_span": "This a golden hour and it's never gonna die",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 45.28,
+          "end": 48.7,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 45.28,
+          "acoustic_end": 48.7,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "this",
+              "start": 45.28,
+              "end": 46.04,
+              "confidence": 0.649,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 46.04,
+              "end": 46.26,
+              "confidence": 0.9427,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 46.26,
+              "end": 46.54,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 46.54,
+              "end": 46.94,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 46.94,
+              "end": 47.3,
+              "confidence": 0.9394,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it's",
+              "start": 47.3,
+              "end": 47.52,
+              "confidence": 0.9953,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 47.52,
+              "end": 47.74,
+              "confidence": 0.9971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gonna",
+              "start": 47.74,
+              "end": 48.14,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "die",
+              "start": 48.14,
+              "end": 48.7,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_005",
+          "source_line": 23,
+          "original_text": "Golden hour, golden hour, light it up (yeah!)",
+          "lead_text": "Golden hour, golden hour, light it up",
+          "adlibs": [
+            "yeah!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "yeah"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "yeah"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 23,
+          "raw_source_span": "Golden hour, golden hour, light it up (yeah!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 49.34,
+          "end": 51.94,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 49.34,
+          "acoustic_end": 51.94,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "golden",
+              "start": 49.34,
+              "end": 49.86,
+              "confidence": 0.9972,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 49.86,
+              "end": 50.24,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 50.42,
+              "end": 50.68,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 50.68,
+              "end": 51.06,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 51.3,
+              "end": 51.46,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 51.46,
+              "end": 51.7,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 51.7,
+              "end": 51.94,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_004_line_006",
+          "source_line": 24,
+          "original_text": "Everything is glowin' when you ridin' with the gang (straight up)",
+          "lead_text": "Everything is glowin' when you ridin' with the gang",
+          "adlibs": [
+            "straight up"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "straight up"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "straight",
+              "up"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 24,
+          "raw_source_span": "Everything is glowin' when you ridin' with the gang (straight up)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 52.24,
+          "end": 55.32,
+          "confidence": 0.9716,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 52.24,
+          "acoustic_end": 55.32,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "everything",
+              "start": 52.24,
+              "end": 52.96,
+              "confidence": 0.9981,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "is",
+              "start": 52.96,
+              "end": 53.26,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "glowin",
+              "start": 53.26,
+              "end": 53.56,
+              "confidence": 0.5094,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "when",
+              "start": 53.56,
+              "end": 53.9,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "you",
+              "start": 53.9,
+              "end": 54.22,
+              "confidence": 0.9242,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ridin",
+              "start": 54.22,
+              "end": 54.44,
+              "confidence": 0.9714,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "with",
+              "start": 54.44,
+              "end": 54.78,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 54.78,
+              "end": 55.02,
+              "confidence": 0.98,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gang",
+              "start": 55.02,
+              "end": 55.32,
+              "confidence": 0.5979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_005",
+      "label": "Verse 2",
+      "raw_label": "[Verse 2]",
+      "normalized_label": "verse 2",
+      "structural_role": "verse_2",
+      "structural_inferred": false,
+      "fingerprint": "skies turnin purple got the city in a trance bass in the trunk doin somethin to my chest every single moment like it's blessed no stress float up to the moon leave the worries on the steps",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 56.48,
+      "end": 69.5,
+      "confidence": 0.9435,
+      "lines": [
+        {
+          "line_id": "section_005_line_001",
+          "source_line": 27,
+          "original_text": "Skies turnin' purple, got the city in a trance (woo)",
+          "lead_text": "Skies turnin' purple, got the city in a trance",
+          "adlibs": [
+            "woo"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "woo"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "woo"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 27,
+          "raw_source_span": "Skies turnin' purple, got the city in a trance (woo)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 56.48,
+          "end": 59.58,
+          "confidence": 0.901,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889
+          },
+          "acoustic_start": 56.48,
+          "acoustic_end": 59.58,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "skies",
+              "start": 56.48,
+              "end": 57.04,
+              "confidence": 0.9165,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "turnin",
+              "start": 57.04,
+              "end": 57.34,
+              "confidence": 0.8307,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "purple",
+              "start": 57.34,
+              "end": 57.78,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 57.94,
+              "end": 58.08,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 58.08,
+              "end": 58.26,
+              "confidence": 0.8566,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "city",
+              "start": 58.26,
+              "end": 58.68,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 58.68,
+              "end": 58.96,
+              "confidence": 0.9735,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 58.891,
+              "end": 59.236,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "trance",
+              "start": 59.1,
+              "end": 59.58,
+              "confidence": 0.9223,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_002",
+          "source_line": 28,
+          "original_text": "Bass in the trunk doin' somethin' to my chest (boom)",
+          "lead_text": "Bass in the trunk doin' somethin' to my chest",
+          "adlibs": [
+            "boom"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "boom"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "boom"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 28,
+          "raw_source_span": "Bass in the trunk doin' somethin' to my chest (boom)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 60.22,
+          "end": 62.86,
+          "confidence": 0.915,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 0.8889
+          },
+          "acoustic_start": 60.22,
+          "acoustic_end": 62.86,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "bass",
+              "start": 60.22,
+              "end": 60.513,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "in",
+              "start": 60.22,
+              "end": 60.62,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 60.62,
+              "end": 60.74,
+              "confidence": 0.9993,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "trunk",
+              "start": 60.74,
+              "end": 61.06,
+              "confidence": 0.9957,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "doin",
+              "start": 61.28,
+              "end": 61.5,
+              "confidence": 0.9641,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "somethin",
+              "start": 61.5,
+              "end": 61.9,
+              "confidence": 0.99,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 61.9,
+              "end": 62.18,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "my",
+              "start": 62.18,
+              "end": 62.4,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "chest",
+              "start": 62.4,
+              "end": 62.86,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_003",
+          "source_line": 29,
+          "original_text": "Every single moment like it's blessed, no stress (no stress)",
+          "lead_text": "Every single moment like it's blessed, no stress",
+          "adlibs": [
+            "no stress"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "no stress"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "no",
+              "stress"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 29,
+          "raw_source_span": "Every single moment like it's blessed, no stress (no stress)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 62.86,
+          "end": 66.1,
+          "confidence": 0.98,
+          "matched_tokens": 8,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 62.86,
+          "acoustic_end": 66.1,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "every",
+              "start": 62.86,
+              "end": 63.58,
+              "confidence": 0.9067,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "single",
+              "start": 63.58,
+              "end": 64.02,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "moment",
+              "start": 64.02,
+              "end": 64.46,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "like",
+              "start": 64.46,
+              "end": 64.76,
+              "confidence": 0.8741,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it's",
+              "start": 64.76,
+              "end": 64.94,
+              "confidence": 0.9845,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "blessed",
+              "start": 64.94,
+              "end": 65.28,
+              "confidence": 0.9657,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "no",
+              "start": 65.36,
+              "end": 65.6,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stress",
+              "start": 65.6,
+              "end": 66.1,
+              "confidence": 0.9322,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_005_line_004",
+          "source_line": 30,
+          "original_text": "Float up to the moon, leave the worries on the steps (bye)",
+          "lead_text": "Float up to the moon, leave the worries on the steps",
+          "adlibs": [
+            "bye"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "bye"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "bye"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 30,
+          "raw_source_span": "Float up to the moon, leave the worries on the steps (bye)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 66.48,
+          "end": 69.5,
+          "confidence": 0.9781,
+          "matched_tokens": 11,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 66.48,
+          "acoustic_end": 69.5,
+          "total_tokens": 11,
+          "words": [
+            {
+              "text": "float",
+              "start": 66.48,
+              "end": 66.84,
+              "confidence": 0.9405,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 66.84,
+              "end": 67.08,
+              "confidence": 0.642,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "to",
+              "start": 67.08,
+              "end": 67.24,
+              "confidence": 0.9987,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 67.24,
+              "end": 67.4,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "moon",
+              "start": 67.4,
+              "end": 67.74,
+              "confidence": 0.9983,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "leave",
+              "start": 67.98,
+              "end": 68.12,
+              "confidence": 0.9481,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 68.12,
+              "end": 68.26,
+              "confidence": 0.9959,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "worries",
+              "start": 68.26,
+              "end": 68.66,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "on",
+              "start": 68.66,
+              "end": 68.94,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 68.94,
+              "end": 69.06,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "steps",
+              "start": 69.06,
+              "end": 69.5,
+              "confidence": 0.5132,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_006",
+      "label": "Pre-Hook",
+      "raw_label": "[Pre-Hook]",
+      "normalized_label": "pre-hook",
+      "structural_role": "pre_hook",
+      "structural_inferred": false,
+      "fingerprint": "and we ride we ride into the gold into the sky and we high we high off of the feelin don't ask me why",
+      "repeat_group": "repeat_group_003",
+      "occurrence_index": 2,
+      "occurrence_count": 2,
+      "start": 69.5,
+      "end": 82.72,
+      "confidence": 0.9202,
+      "lines": [
+        {
+          "line_id": "section_006_line_001",
+          "source_line": 33,
+          "original_text": "And we ride (ride), we ride (ride)",
+          "lead_text": "And we ride, we ride",
+          "adlibs": [
+            "ride",
+            "ride"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "ride",
+            "ride"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "ride"
+            ],
+            [
+              "ride"
+            ]
+          ],
+          "annotation_metadata": [
+            "",
+            ""
+          ],
+          "raw_source_line": 33,
+          "raw_source_span": "And we ride (ride), we ride (ride)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 69.5,
+          "end": 72.9,
+          "confidence": 0.9426,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 69.5,
+          "acoustic_end": 72.9,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "and",
+              "start": 69.5,
+              "end": 70.36,
+              "confidence": 0.4779,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 70.36,
+              "end": 70.74,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ride",
+              "start": 70.74,
+              "end": 71.24,
+              "confidence": 0.3879,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 71.24,
+              "end": 72.24,
+              "confidence": 0.9913,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ride",
+              "start": 72.24,
+              "end": 72.9,
+              "confidence": 0.9947,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_002",
+          "source_line": 34,
+          "original_text": "Into the gold, into the sky",
+          "lead_text": "Into the gold, into the sky",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 34,
+          "raw_source_span": "Into the gold, into the sky",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 72.9,
+          "end": 76.14,
+          "confidence": 0.9568,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 72.9,
+          "acoustic_end": 76.14,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "into",
+              "start": 72.9,
+              "end": 73.86,
+              "confidence": 0.7787,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 73.86,
+              "end": 74.12,
+              "confidence": 0.9995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gold",
+              "start": 74.12,
+              "end": 74.68,
+              "confidence": 0.186,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "into",
+              "start": 75.12,
+              "end": 75.48,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 75.48,
+              "end": 75.7,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sky",
+              "start": 75.7,
+              "end": 76.14,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_003",
+          "source_line": 35,
+          "original_text": "And we high (high), we high (high)",
+          "lead_text": "And we high, we high",
+          "adlibs": [
+            "high",
+            "high"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "high",
+            "high"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "high"
+            ],
+            [
+              "high"
+            ]
+          ],
+          "annotation_metadata": [
+            "",
+            ""
+          ],
+          "raw_source_line": 35,
+          "raw_source_span": "And we high (high), we high (high)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 76.14,
+          "end": 79.54,
+          "confidence": 0.973,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 76.14,
+          "acoustic_end": 79.54,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "and",
+              "start": 76.14,
+              "end": 77.22,
+              "confidence": 0.9948,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 77.22,
+              "end": 77.46,
+              "confidence": 1.0,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "high",
+              "start": 77.46,
+              "end": 77.88,
+              "confidence": 0.4796,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 78.1,
+              "end": 78.28,
+              "confidence": 0.994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "high",
+              "start": 78.28,
+              "end": 79.54,
+              "confidence": 0.9921,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_006_line_004",
+          "source_line": 36,
+          "original_text": "Off of the feelin', don't ask me why",
+          "lead_text": "Off of the feelin', don't ask me why",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 36,
+          "raw_source_span": "Off of the feelin', don't ask me why",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 80.46,
+          "end": 82.72,
+          "confidence": 0.8083,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 0.75
+          },
+          "acoustic_start": 80.46,
+          "acoustic_end": 82.72,
+          "total_tokens": 8,
+          "words": [
+            {
+              "text": "off",
+              "start": 80.46,
+              "end": 80.742,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "of",
+              "start": 80.742,
+              "end": 81.025,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "the",
+              "start": 80.46,
+              "end": 80.76,
+              "confidence": 0.9994,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "feelin",
+              "start": 80.76,
+              "end": 81.3,
+              "confidence": 0.901,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "don't",
+              "start": 81.52,
+              "end": 81.96,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "ask",
+              "start": 81.96,
+              "end": 82.2,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 82.2,
+              "end": 82.38,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "why",
+              "start": 82.38,
+              "end": 82.72,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_007",
+      "label": "Hook",
+      "raw_label": "[Hook]",
+      "normalized_label": "hook",
+      "structural_role": "hook",
+      "structural_inferred": false,
+      "fingerprint": "golden hour golden hour light it up dancin in the afterglow we never stoppin higher higher watch me touch the sky this a golden hour and it's never gonna die",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 82.72,
+      "end": 95.38,
+      "confidence": 0.98,
+      "lines": [
+        {
+          "line_id": "section_007_line_001",
+          "source_line": 39,
+          "original_text": "Golden hour, golden hour, light it up (light it up!)",
+          "lead_text": "Golden hour, golden hour, light it up",
+          "adlibs": [
+            "light it up!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "light it up"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "light",
+              "it",
+              "up"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 39,
+          "raw_source_span": "Golden hour, golden hour, light it up (light it up!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 82.72,
+          "end": 86.1,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 82.72,
+          "acoustic_end": 86.1,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "golden",
+              "start": 82.72,
+              "end": 83.18,
+              "confidence": 0.9386,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 83.18,
+              "end": 83.54,
+              "confidence": 0.9895,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 83.72,
+              "end": 83.98,
+              "confidence": 0.9452,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 83.98,
+              "end": 84.38,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "light",
+              "start": 85.32,
+              "end": 85.54,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 85.54,
+              "end": 85.78,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "up",
+              "start": 85.78,
+              "end": 86.1,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_002",
+          "source_line": 40,
+          "original_text": "Dancin' in the afterglow, we never stoppin' (no!)",
+          "lead_text": "Dancin' in the afterglow, we never stoppin'",
+          "adlibs": [
+            "no!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "no"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "no"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 40,
+          "raw_source_span": "Dancin' in the afterglow, we never stoppin' (no!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 86.1,
+          "end": 88.82,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 86.1,
+          "acoustic_end": 88.82,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "dancin",
+              "start": 86.1,
+              "end": 86.48,
+              "confidence": 0.7343,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "in",
+              "start": 86.48,
+              "end": 86.84,
+              "confidence": 0.9961,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 86.84,
+              "end": 87.02,
+              "confidence": 0.9956,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "afterglow",
+              "start": 87.02,
+              "end": 87.64,
+              "confidence": 0.9644,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 87.68,
+              "end": 87.84,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 87.84,
+              "end": 88.12,
+              "confidence": 0.934,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "stoppin",
+              "start": 88.12,
+              "end": 88.82,
+              "confidence": 0.8711,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_003",
+          "source_line": 41,
+          "original_text": "Higher, higher, watch me touch the sky (woo!)",
+          "lead_text": "Higher, higher, watch me touch the sky",
+          "adlibs": [
+            "woo!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "woo"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "woo"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 41,
+          "raw_source_span": "Higher, higher, watch me touch the sky (woo!)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 89.52,
+          "end": 91.98,
+          "confidence": 0.98,
+          "matched_tokens": 7,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 89.52,
+          "acoustic_end": 91.98,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "higher",
+              "start": 89.52,
+              "end": 90.18,
+              "confidence": 0.6014,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "higher",
+              "start": 90.38,
+              "end": 90.58,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "watch",
+              "start": 90.58,
+              "end": 90.96,
+              "confidence": 0.9948,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "me",
+              "start": 90.96,
+              "end": 91.12,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "touch",
+              "start": 91.12,
+              "end": 91.38,
+              "confidence": 0.998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "the",
+              "start": 91.38,
+              "end": 91.54,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "sky",
+              "start": 91.54,
+              "end": 91.98,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_007_line_004",
+          "source_line": 42,
+          "original_text": "This a golden hour and it's never gonna die",
+          "lead_text": "This a golden hour and it's never gonna die",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 42,
+          "raw_source_span": "This a golden hour and it's never gonna die",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 91.98,
+          "end": 95.38,
+          "confidence": 0.98,
+          "matched_tokens": 9,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 91.98,
+          "acoustic_end": 95.38,
+          "total_tokens": 9,
+          "words": [
+            {
+              "text": "this",
+              "start": 91.98,
+              "end": 92.66,
+              "confidence": 0.6971,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 92.66,
+              "end": 92.9,
+              "confidence": 0.9497,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 92.9,
+              "end": 93.14,
+              "confidence": 0.9985,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 93.14,
+              "end": 93.56,
+              "confidence": 0.9997,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "and",
+              "start": 93.56,
+              "end": 93.9,
+              "confidence": 0.9453,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it's",
+              "start": 93.9,
+              "end": 94.1,
+              "confidence": 0.9998,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "never",
+              "start": 94.1,
+              "end": 94.4,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "gonna",
+              "start": 94.4,
+              "end": 94.76,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "die",
+              "start": 94.76,
+              "end": 95.38,
+              "confidence": 0.9988,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "section_008",
+      "label": "Beat Switch / Outro",
+      "raw_label": "[Beat Switch / Outro]",
+      "normalized_label": "beat switch / outro",
+      "structural_role": "beat_switch_outro",
+      "structural_inferred": false,
+      "fingerprint": "it's a vibe it's a vibe golden golden glowin all night la la la don't let it fade golden hour we got it made yeah",
+      "repeat_group": null,
+      "occurrence_index": 1,
+      "occurrence_count": 1,
+      "start": 97.48,
+      "end": 109.88,
+      "confidence": 0.9189,
+      "lines": [
+        {
+          "line_id": "section_008_line_001",
+          "source_line": 45,
+          "original_text": "(Woo!) it's a vibe, it's a vibe",
+          "lead_text": "it's a vibe, it's a vibe",
+          "adlibs": [
+            "Woo!"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "woo"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "woo"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 45,
+          "raw_source_span": "(Woo!) it's a vibe, it's a vibe",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 97.48,
+          "end": 99.92,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 97.48,
+          "acoustic_end": 99.92,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "it's",
+              "start": 97.48,
+              "end": 98.14,
+              "confidence": 0.8505,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 98.14,
+              "end": 98.36,
+              "confidence": 0.9903,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vibe",
+              "start": 98.36,
+              "end": 98.64,
+              "confidence": 0.9978,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it's",
+              "start": 98.66,
+              "end": 98.98,
+              "confidence": 0.8664,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "a",
+              "start": 98.98,
+              "end": 99.14,
+              "confidence": 0.9986,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "vibe",
+              "start": 99.14,
+              "end": 99.92,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_002",
+          "source_line": 46,
+          "original_text": "Golden, golden, glowin' all night",
+          "lead_text": "Golden, golden, glowin' all night",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 46,
+          "raw_source_span": "Golden, golden, glowin' all night",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 99.92,
+          "end": 103.08,
+          "confidence": 0.98,
+          "matched_tokens": 5,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 99.92,
+          "acoustic_end": 103.08,
+          "total_tokens": 5,
+          "words": [
+            {
+              "text": "golden",
+              "start": 99.92,
+              "end": 100.62,
+              "confidence": 0.9477,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "golden",
+              "start": 100.82,
+              "end": 101.44,
+              "confidence": 0.8909,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "glowin",
+              "start": 101.68,
+              "end": 101.94,
+              "confidence": 0.9229,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "all",
+              "start": 101.94,
+              "end": 102.34,
+              "confidence": 0.996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "night",
+              "start": 102.34,
+              "end": 103.08,
+              "confidence": 0.999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_003",
+          "source_line": 47,
+          "original_text": "La-la-la, don't let it fade (don't fade)",
+          "lead_text": "La-la-la, don't let it fade",
+          "adlibs": [
+            "don't fade"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "don't fade"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "don't",
+              "fade"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 47,
+          "raw_source_span": "La-la-la, don't let it fade (don't fade)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 103.88,
+          "end": 106.88,
+          "confidence": 0.6747,
+          "matched_tokens": 4,
+          "confidence_components": {
+            "token_coverage": 0.5714
+          },
+          "acoustic_start": 103.88,
+          "acoustic_end": 106.88,
+          "total_tokens": 7,
+          "words": [
+            {
+              "text": "la",
+              "start": 103.88,
+              "end": 104.309,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "la",
+              "start": 104.309,
+              "end": 104.737,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "la",
+              "start": 104.737,
+              "end": 105.166,
+              "confidence": 0.0,
+              "timing_source": "interpolated",
+              "acoustic_supported": false
+            },
+            {
+              "text": "don't",
+              "start": 103.88,
+              "end": 104.54,
+              "confidence": 0.9539,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "let",
+              "start": 104.54,
+              "end": 104.72,
+              "confidence": 0.9846,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 104.72,
+              "end": 104.92,
+              "confidence": 0.9996,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "fade",
+              "start": 106.5,
+              "end": 106.88,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_004",
+          "source_line": 48,
+          "original_text": "Golden hour, we got it made",
+          "lead_text": "Golden hour, we got it made",
+          "adlibs": [],
+          "event_type": "lead",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [],
+          "acoustic_match_tokens": [],
+          "annotation_metadata": [],
+          "raw_source_line": 48,
+          "raw_source_span": "Golden hour, we got it made",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 106.88,
+          "end": 109.48,
+          "confidence": 0.98,
+          "matched_tokens": 6,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 106.88,
+          "acoustic_end": 109.48,
+          "total_tokens": 6,
+          "words": [
+            {
+              "text": "golden",
+              "start": 106.88,
+              "end": 107.32,
+              "confidence": 0.995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "hour",
+              "start": 107.32,
+              "end": 107.76,
+              "confidence": 0.9989,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "we",
+              "start": 108.34,
+              "end": 108.42,
+              "confidence": 0.9999,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "got",
+              "start": 108.42,
+              "end": 108.84,
+              "confidence": 0.995,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "it",
+              "start": 108.84,
+              "end": 109.02,
+              "confidence": 0.9979,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            },
+            {
+              "text": "made",
+              "start": 109.02,
+              "end": 109.48,
+              "confidence": 0.9942,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        },
+        {
+          "line_id": "section_008_line_005",
+          "source_line": 49,
+          "original_text": "Yeah! (straight up)",
+          "lead_text": "Yeah!",
+          "adlibs": [
+            "straight up"
+          ],
+          "event_type": "lead_with_adlib",
+          "primary_lane": "lead",
+          "acoustic_match_texts": [
+            "straight up"
+          ],
+          "acoustic_match_tokens": [
+            [
+              "straight",
+              "up"
+            ]
+          ],
+          "annotation_metadata": [
+            ""
+          ],
+          "raw_source_line": 49,
+          "raw_source_span": "Yeah! (straight up)",
+          "structurally_inferred": false,
+          "timing_source": "direct_acoustic",
+          "acoustic_support": true,
+          "estimated_timing": false,
+          "start": 109.5,
+          "end": 109.88,
+          "confidence": 0.98,
+          "matched_tokens": 1,
+          "confidence_components": {
+            "token_coverage": 1.0
+          },
+          "acoustic_start": 109.5,
+          "acoustic_end": 109.88,
+          "total_tokens": 1,
+          "words": [
+            {
+              "text": "yeah",
+              "start": 109.5,
+              "end": 109.88,
+              "confidence": 0.9967,
+              "timing_source": "asr",
+              "acoustic_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "method": "occurrence_bounded_monotonic_word_alignment",
+    "model": "large-v3-turbo",
+    "unhinted": true,
+    "source_lyric_sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373",
+    "authoritative_line_count": 34,
+    "authoritative_token_count": 231,
+    "line_acoustic_coverage": 0.9705882352941176,
+    "token_acoustic_coverage": 0.935064935064935,
+    "primary_count": 34,
+    "secondary_count": 0,
+    "direct_acoustic_lines": 33,
+    "bounded_asr_lines": 0,
+    "cadence_interpolated_lines": 0,
+    "unresolved_line_ids": [
+      "section_001_line_002"
+    ],
+    "low_confidence_line_ids": [
+      "section_001_line_002"
+    ],
+    "zero_duration_primary": 0,
+    "short_primary": 0,
+    "unsupported_repeated_occurrences": 0,
+    "unhandled_primary_collisions": 0,
+    "unsupported_phantom_lyrics": 0,
+    "text_mismatches": 0,
+    "source_duration": 126.432,
+    "section_occurrence_windows": {
+      "section_001": {
+        "start": 0.0,
+        "end": 9.24,
+        "occurrence": 1
+      },
+      "section_002": {
+        "start": 9.24,
+        "end": 23.28,
+        "occurrence": 1
+      },
+      "section_003": {
+        "start": 23.28,
+        "end": 36.1,
+        "occurrence": 1
+      },
+      "section_004": {
+        "start": 36.1,
+        "end": 55.32,
+        "occurrence": 1
+      },
+      "section_005": {
+        "start": 56.48,
+        "end": 69.5,
+        "occurrence": 1
+      },
+      "section_006": {
+        "start": 69.5,
+        "end": 82.72,
+        "occurrence": 2
+      },
+      "section_007": {
+        "start": 82.72,
+        "end": 95.38,
+        "occurrence": 1
+      },
+      "section_008": {
+        "start": 97.48,
+        "end": 109.88,
+        "occurrence": 1
+      }
+    }
+  },
+  "authoritative_lyrics": {
+    "path": "input/lyrics/golden_hour.txt",
+    "sha256": "f2262d9c5980e33d9227bef93b6ccf7dae8e64b5100e749e268bc86e707af373"
+  },
+  "title": "Golden Hour",
+  "artist": ""
+}

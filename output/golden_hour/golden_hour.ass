@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyric,Barlow Condensed Black,90,&H00FFF9F0,&H00FFF9F0,&H00141A26,&H90070B12,1,0,1,2,1,5,180,180,0,1
+Style: Adlib,Barlow Condensed Black,56,&H00E8D8C8,&H00E8D8C8,&H00141A26,&H90070B12,1,0,1,1,1,5,180,180,0,1
+Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,8,90,90,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:00.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah! (straight up)
+Dialogue: 1,0:00:00.60,0:00:06.36,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden, golden — woo!
+Dialogue: 1,0:00:06.68,0:00:09.24,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}La-la, it's a vibe, yeah
+Dialogue: 1,0:00:09.24,0:00:13.22,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Top down, sun out, ridin' through the city lights (yeah)
+Dialogue: 1,0:00:13.22,0:00:16.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Feelin' like a comet when I'm leanin' to the right (woo)
+Dialogue: 1,0:00:16.50,0:00:19.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Pull up, glow up, everybody feelin' nice (it's lit)
+Dialogue: 1,0:00:19.86,0:00:23.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tell 'em that the summer never ever gonna die
+Dialogue: 1,0:00:23.28,0:00:26.42,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And we ride (ride), we ride (ride)
+Dialogue: 1,0:00:26.42,0:00:29.44,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Into the gold, into the sky
+Dialogue: 1,0:00:30.02,0:00:33.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And we high (high), we high (high)
+Dialogue: 1,0:00:33.82,0:00:36.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Off of the feelin', don't ask me why
+Dialogue: 1,0:00:36.10,0:00:39.44,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden hour, golden hour, light it up (light it up!)
+Dialogue: 1,0:00:39.44,0:00:42.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Dancin' in the afterglow, we never stoppin' (no!)
+Dialogue: 1,0:00:43.34,0:00:45.28,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Higher, higher, watch me touch the sky (woo!)
+Dialogue: 1,0:00:45.28,0:00:48.70,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}This a golden hour and it's never gonna die
+Dialogue: 1,0:00:49.34,0:00:51.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden hour, golden hour, light it up (yeah!)
+Dialogue: 1,0:00:52.24,0:00:55.32,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Everything is glowin' when you ridin' with the gang (straight up)
+Dialogue: 1,0:00:56.48,0:00:59.58,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Skies turnin' purple, got the city in a trance (woo)
+Dialogue: 1,0:01:00.22,0:01:02.86,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Bass in the trunk doin' somethin' to my chest (boom)
+Dialogue: 1,0:01:02.86,0:01:06.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Every single moment like it's blessed, no stress (no stress)
+Dialogue: 1,0:01:06.48,0:01:09.50,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Float up to the moon, leave the worries on the steps (bye)
+Dialogue: 1,0:01:09.50,0:01:12.90,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And we ride (ride), we ride (ride)
+Dialogue: 1,0:01:12.90,0:01:16.14,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Into the gold, into the sky
+Dialogue: 1,0:01:16.14,0:01:19.54,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}And we high (high), we high (high)
+Dialogue: 1,0:01:20.46,0:01:22.72,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Off of the feelin', don't ask me why
+Dialogue: 1,0:01:22.72,0:01:26.10,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden hour, golden hour, light it up (light it up!)
+Dialogue: 1,0:01:26.10,0:01:28.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Dancin' in the afterglow, we never stoppin' (no!)
+Dialogue: 1,0:01:29.52,0:01:31.98,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Higher, higher, watch me touch the sky (woo!)
+Dialogue: 1,0:01:31.98,0:01:35.38,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}This a golden hour and it's never gonna die
+Dialogue: 2,0:01:37.48,0:01:39.92,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(Woo!) it's a vibe, it's a vibe
+Dialogue: 1,0:01:39.92,0:01:43.08,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden, golden, glowin' all night
+Dialogue: 1,0:01:43.88,0:01:46.88,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}La-la-la, don't let it fade (don't fade)
+Dialogue: 1,0:01:46.88,0:01:49.48,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Golden hour, we got it made
+Dialogue: 1,0:01:49.50,0:01:49.88,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Yeah! (straight up)

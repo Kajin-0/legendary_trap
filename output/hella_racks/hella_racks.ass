@@ -14,12 +14,12 @@ Style: Title,Lato Bold,28,&H00F2CFA5,&H00F2CFA5,&H00141A26,&H00000000,1,0,1,2,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 2,0:00:15.62,0:00:17.48,Adlib,,0,0,0,,{\an5\pos(960,635)\fad(120,160)}(yea let's go) (pull up) (smoking that kush) End yo' block, I roll 'em, roll 'em (whoo)
-Dialogue: 1,0:00:17.50,0:00:18.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Shoot that shot, I'm scorin', scorin' (whoo)
+Dialogue: 1,0:00:17.50,0:00:18.94,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Shoot that shot, I'm scorin', scorin' (whoo)
 Dialogue: 1,0:00:18.95,0:00:20.55,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}This Biscotti got me floatin' Can't take what you give, you gotta give 'em what I deserveCan't fuck
 Dialogue: 1,0:00:20.56,0:00:22.18,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}with nobody (what?) Not even my shadow (yeah, no one)
 Dialogue: 1,0:00:22.20,0:00:23.82,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}I got on Ed Hardy (what? What? What? What? What?) was just smokin' that Kush, countin' money, can't
 Dialogue: 1,0:00:23.84,0:00:25.47,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}fit in rubber bands Took the bands to the store, see it, I cop it Hop in that
-Dialogue: 1,0:00:25.48,0:00:26.96,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whip and I'm dust 'em like, skrr (ah)
+Dialogue: 1,0:00:25.48,0:00:26.55,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}whip and I'm dust 'em like, skrr (ah)
 Dialogue: 1,0:00:26.56,0:00:28.04,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Brand new ice, on air, bitch, I could never think twice, oh, yeah (yeah)
 Dialogue: 1,0:00:29.38,0:00:29.78,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tell 'em, "Put the price up, yeah"
 Dialogue: 1,0:00:29.78,0:00:30.70,Lyric,,0,0,0,,{\an5\pos(960,540)\fad(160,220)}Tall ass money, get your height up (yeah-yeah, woah)

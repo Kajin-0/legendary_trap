@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "notes": [
+    {
+      "type": "separation_constraint",
+      "songs": ["do_you_see_me", "what_i_need"],
+      "rule": "Keep these songs meaningfully separated in any future final compilation.",
+      "status": "advisory",
+      "ordering_selected": false
+    }
+  ]
+}

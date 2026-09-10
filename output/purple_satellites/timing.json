@@ -7,29 +7,23 @@
     "sha256": "8aa27dd4524e0695763023f5a27deccecb43de063589c2e78c7e42173cb4e91b"
   },
   "alignment": {
-    "method": "occurrence_bounded_monotonic_word_alignment",
+    "method": "canonical_line_record_recompute",
     "model": "large-v3-turbo",
     "unhinted": true,
     "source_lyric_sha256": "a2832eeb04f1c1d870767f392aec0b2213e4c3ef4d34e2395b361277d9b3f427",
-    "authoritative_line_count": 63,
-    "authoritative_token_count": 486,
-    "line_acoustic_coverage": 0.9523809523809523,
-    "token_acoustic_coverage": 0.9423868312757202,
-    "primary_count": 63,
+    "authoritative_line_count": 62,
+    "authoritative_token_count": 484,
+    "line_acoustic_coverage": 1.0,
+    "token_acoustic_coverage": 0.9235537190082644,
+    "primary_count": 62,
     "secondary_count": 0,
     "direct_acoustic_lines": 58,
-    "bounded_asr_lines": 2,
+    "bounded_asr_lines": 0,
+    "locally_anchored_lines": 4,
+    "acoustic_transfer_lines": 0,
     "cadence_interpolated_lines": 0,
-    "unresolved_line_ids": [
-      "section_001_line_001",
-      "section_002_line_001",
-      "section_002_line_004"
-    ],
-    "low_confidence_line_ids": [
-      "section_001_line_001",
-      "section_002_line_001",
-      "section_002_line_004"
-    ],
+    "unresolved_line_ids": [],
+    "low_confidence_line_ids": [],
     "zero_duration_primary": 0,
     "short_primary": 0,
     "unsupported_repeated_occurrences": 0,
@@ -38,14 +32,9 @@
     "text_mismatches": 0,
     "source_duration": 232.032,
     "section_occurrence_windows": {
-      "section_001": {
-        "start": 6.335,
-        "end": 7.685,
-        "occurrence": 1
-      },
       "section_002": {
-        "start": 7.835,
-        "end": 24.668,
+        "start": 5.28,
+        "end": 15.8,
         "occurrence": 1
       },
       "section_003": {
@@ -54,7 +43,7 @@
         "occurrence": 1
       },
       "section_004": {
-        "start": 57.879999999999995,
+        "start": 57.88,
         "end": 96.66,
         "occurrence": 1
       },
@@ -69,7 +58,7 @@
         "occurrence": 1
       },
       "section_007": {
-        "start": 151.07999999999998,
+        "start": 151.08,
         "end": 161.0,
         "occurrence": 1
       },
@@ -5956,18 +5945,20 @@
     }
   ],
   "diagnostics": {
-    "method": "occurrence_bounded_monotonic_word_alignment",
+    "method": "canonical_line_record_recompute",
     "model": "large-v3-turbo",
     "unhinted": true,
     "source_lyric_sha256": "a2832eeb04f1c1d870767f392aec0b2213e4c3ef4d34e2395b361277d9b3f427",
     "authoritative_line_count": 62,
-    "authoritative_token_count": 486,
+    "authoritative_token_count": 484,
     "line_acoustic_coverage": 1.0,
-    "token_acoustic_coverage": 0.9423868312757202,
+    "token_acoustic_coverage": 0.9235537190082644,
     "primary_count": 62,
     "secondary_count": 0,
     "direct_acoustic_lines": 58,
-    "bounded_asr_lines": 2,
+    "bounded_asr_lines": 0,
+    "locally_anchored_lines": 4,
+    "acoustic_transfer_lines": 0,
     "cadence_interpolated_lines": 0,
     "unresolved_line_ids": [],
     "low_confidence_line_ids": [],
@@ -5979,14 +5970,9 @@
     "text_mismatches": 0,
     "source_duration": 232.032,
     "section_occurrence_windows": {
-      "section_001": {
-        "start": 6.335,
-        "end": 7.685,
-        "occurrence": 1
-      },
       "section_002": {
-        "start": 7.835,
-        "end": 24.668,
+        "start": 5.28,
+        "end": 15.8,
         "occurrence": 1
       },
       "section_003": {
@@ -5995,7 +5981,7 @@
         "occurrence": 1
       },
       "section_004": {
-        "start": 57.879999999999995,
+        "start": 57.88,
         "end": 96.66,
         "occurrence": 1
       },
@@ -6010,7 +5996,7 @@
         "occurrence": 1
       },
       "section_007": {
-        "start": 151.07999999999998,
+        "start": 151.08,
         "end": 161.0,
         "occurrence": 1
       },
@@ -6025,7 +6011,6 @@
         "occurrence": 1
       }
     },
-    "locally_anchored_lines": 4,
     "invalid_word_timing_repaired": 0,
     "document_title_excluded": "**PURPLE SATELLITES**"
   },
